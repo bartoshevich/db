@@ -1,0 +1,21 @@
+.image {
+    display: block;
+    height: auto;
+    max-width: 100%;
+}
+
+.image--content {
+    max-width: 66ch;
+}
+
+
+
+.figcaption {
+  max-width: 65ch;
+  font-size: 0.8em;
+  margin: 0.4em 0 1em;
+  line-height: 1.4em;
+}
+.figcaption p {
+  margin: 0.5em 0 0;
+}

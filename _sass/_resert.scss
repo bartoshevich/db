@@ -1,0 +1,67 @@
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-text-size-adjust: none;
+  -moz-text-size-adjust: none;
+   -ms-text-size-adjust: none;
+       text-size-adjust: none;
+  position: relative;
+font-family: $family-sans-serif;
+  height: 100%;
+}
+
+
+
+body {
+  position: relative;
+  height: 100%;
+  min-height: 100vh;
+  font-size: 18px;
+  line-height: 1.47059;
+  font-weight: 400;
+  letter-spacing: -.012em;
+  color: $text-colour;
+  overflow-x: hidden;
+}
+
+@media (min-width: 1040px){
+  body {
+    font-size:20px;
+  }
+}
+
+h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    color: $text-colour;
+    font-weight: inherit;
+    font-size: inherit;    
+  }
+    
+
+
+input,
+textarea,
+button {
+  font-size: inherit;
+  font-family: inherit;
+}
+
+strong, 
+b {
+  font-weight: inherit;
+}
+

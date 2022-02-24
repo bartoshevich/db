@@ -1,0 +1,155 @@
+
+/*  Limiting width of content */ 
+
+.body__container {
+    max-width: 1040px;
+    margin-right: 16px;
+    margin-left: 16px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+
+@media (min-width: 40.0625em) {
+    .body__container {
+        margin-right: 24px;
+        margin-left: 24px;
+    }
+}
+
+@media (min-width: 1089px) {
+    .body__container {
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
+
+
+/*  Add vertical space  
+
+.main__wrapper {
+    display: block;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+@media (min-width: 40.0625em) {
+    .main__wrapper {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+}
+
+*/ 
+
+.footer {
+	flex: 0 0 auto;
+}
+
+
+.buffer {
+	flex: 8 0 auto;
+}
+
+
+.section__content {
+    flex: 1 0 auto;
+    display: -ms-grid;
+    display: grid;
+    grid-template-columns: 1fr; 
+    grid-row-gap:16px;
+    row-gap: 16px;
+    }
+
+.full-bleed-row {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-row-gap:16px;
+    row-gap: 16px;
+}
+
+@media (min-width: 1069px) {
+
+    .section__content {
+        min-width: 0;
+        grid-template-columns: repeat(6,minmax(0,1fr));
+        grid-column-gap:32px;
+        column-gap:32px;
+        grid-row-gap: 24px;
+        row-gap: 24px;
+        align-self: start;
+    }
+
+.section__content > * {
+    grid-column: 1/5;
+}
+
+
+
+.full-bleed-row {
+    min-width: 0;
+    display: grid;
+    grid-template-columns: repeat(6,minmax(0,1fr));
+    grid-column-gap:36px;
+    column-gap:36px;
+    grid-row-gap: 24px;
+    row-gap: 24px;
+    align-self: start;
+}
+
+.full-bleed-row > * {
+    grid-column: 1/5;
+}
+
+.full-bleed {
+    width: 100%;
+    grid-column: 1/-1;
+   
+}
+
+.grid-columns__default {
+    grid-column: 1/5;
+}
+
+.grid-columns__first-one-half {
+    grid-column: 1/4;
+}
+
+
+.grid-columns__last-one-half {
+    grid-column: 4/-1;
+}
+
+.grid-column__first-one-third {
+    grid-column: 1/3;
+}
+
+.grid-column__last-one-third {
+    grid-column: 5/-1;
+}
+
+.grid-column__last-two-thirds {
+    grid-column: 3/-1;
+}
+
+}
+
+.row-gap--default {
+    display: grid;
+    grid-row-gap: 16px;
+    row-gap: 16px;
+    align-self: start;
+}
+
+@media (min-width: 1069px) {
+    .row-gap--default {
+    grid-row-gap: 24px;
+    row-gap: 24px;
+    }
+}
+
+.row-gap--list {
+    display: grid;
+    grid-row-gap: 4px;
+    row-gap: 4px;
+    align-self: start;
+}

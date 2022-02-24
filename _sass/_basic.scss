@@ -1,0 +1,174 @@
+p {
+    max-width: 66ch;
+}
+
+
+.bold {
+    font-weight: 700;
+}
+
+.text-color {
+    color: $text-colour!important;
+}
+.regular {
+    font-weight: 400;
+}
+.italic {
+    font-style: italic;
+}
+.caps {
+    text-transform: uppercase;
+  
+}
+.left-align {
+    text-align: left;
+}
+.center {
+    text-align: center;
+}
+.right-align {
+    text-align: right;
+}
+.justify {
+    text-align: justify;
+}
+
+.list-reset {
+    list-style: none;
+    padding-left: 0;
+}
+.inline {
+    display: inline;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+.font-size-inherit {
+    font-size: inherit;
+}
+
+.small {
+    font-size:.8em;
+}
+
+
+.max-width-text {
+    max-width: 66ch;
+}
+
+
+// Links 
+.link {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale; 
+   text-decoration: underline;
+  text-decoration-thickness: max(.055rem, 0.0625rem);
+   text-underline-offset: 0.1em;
+    color: $link;
+}  
+
+.link:hover {
+    
+    text-decoration-thickness: max(0.1875rem, 0.12rem);
+    -webkit-text-decoration-skip-ink: none;
+    text-decoration-skip-ink: none;
+    -webkit-text-decoration-skip: none;
+    text-decoration-skip: none;
+}
+
+.link:focus {
+    outline: 3px solid transparent;
+    color: $link-active;
+    background-color: $link-bg;
+    -webkit-box-shadow: 0 -2px $link-bg, 0 4px $link-active;
+    box-shadow: 0 -2px $link-bg, 0 4px $link-active;
+    text-decoration: none;
+}
+
+.link:visited {
+    color: $link;
+}
+
+.link:hover {
+    color: $link-hover;
+}
+
+.link:active {
+    color: $link-active;
+}
+
+
+/*  title   */
+
+.section__title {
+    font-size: 1.8rem;
+    
+ 
+}
+
+
+.intro {
+    font-size: 1.23rem;
+    line-height: 1.34048;
+    font-weight: 400; 
+   
+}
+
+
+@media (min-width: 700px) {
+    .intro {
+        font-size: 1.53rem;
+        line-height: 1.34048;
+        font-weight: 400;         
+    }
+    
+}
+
+.section__title--regular {
+    font-size:1em;
+    font-weight: 600;  
+}
+
+.menu__title {
+    font-size: 1.3rem;
+    font-weight: 400;
+}
+
+.menu__title:first-child {
+    font-size: 1.4rem;
+    font-weight: 700;
+  }
+
+
+
+
+
+.element--hidden {
+    clip: rect(1px,1px,1px,1px);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    z-index: -1000;
+    -webkit-user-select: none;
+  padding: 0px;
+  margin: 0px;
+  }
+
+  .noperenos {
+    white-space: nowrap;
+    }
+
+.example--card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5%;
+  //  background-color: $gray;
+    border:4px solid $gray;
+    border-radius: 10px;
+    
+}    

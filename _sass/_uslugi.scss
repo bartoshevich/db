@@ -1,0 +1,16 @@
+.uslugi__list {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-gap: 16px;
+	width: 100%;
+  }
+
+@media (min-width: 550px) {
+    .uslugi__list {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 24px 24px;
+        width: 100%;
+      }
+}  
+

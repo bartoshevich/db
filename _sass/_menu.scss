@@ -1,0 +1,198 @@
+.page__header {
+    box-sizing: border-box;
+    margin-top: 40px;
+    margin-bottom: 72px;
+   
+  
+}
+
+@media (min-width: 512px) {
+    .page__header {
+        margin-top: 64px;
+        margin-bottom: 120px;
+      }
+}
+
+@media (min-width: 768px) {
+    .page__header {
+        margin-top: 120px;
+        margin-bottom: 88px;
+      }
+}
+  
+
+ 
+
+
+  
+.logoside {
+    display: grid;
+    grid-template-columns: min-content 1fr;
+    grid-column-gap:12px;
+    column-gap: 12px;
+    line-height: 1;
+    align-items: center;
+}
+ 
+
+.navbar-logo {
+  background-image: url("https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1645366318/site/bartoshevich_1x.jpg");
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; 
+}
+
+.logo__title {
+    margin: 0 0 .15em 0;
+    font-weight: bold;   
+}
+
+@media (max-width: 400px) {
+
+    .logo__title {
+        font-size:.875em;   
+    }
+}
+
+
+@media (min-width: 400px) {
+ 
+.logo__title {
+    font-size:1em;   
+}
+
+}
+
+.menu__button {
+        z-index: 1;
+        display: block;
+        margin: 0;
+      
+        border: none;
+        background-color: transparent;
+        
+    }
+.menu__button:focus-visible {
+    outline: 3px solid $link-active;
+}
+
+
+.menu__icon {
+    display: block;
+    stroke: $text-colour;
+}
+
+.menu__icon:hover {
+    stroke: $text-colour;
+}
+
+.menu__icon-menu,
+.menu__button--open .menu__icon-cross {
+    display: block;
+}
+
+.menu__icon-cross,
+.menu__button--open .menu__icon-menu {
+    display: none;
+}
+
+
+.menu-header__wrapper  {        
+        padding: 1em 0;
+    }
+
+
+
+.menu__header {
+        display: none;
+    }
+
+
+.menu__header--open {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-gap: 2rem;
+        overflow: hidden;    
+    }
+
+    @media (min-width:520px) {
+        .menu__header--open {
+            grid-template-columns: repeat(3,1fr);      
+        }
+    }
+
+
+   
+
+    .menu--flex {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;   
+   
+    }
+
+ 
+
+    .nav__group {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        
+      }
+    .nav__li {
+        margin: .4em 0 .65em 0;
+    }  
+
+    .nav__li--selected {
+        box-shadow: none;
+        background-color: #f0f0f0;
+    	border-radius: 8px;
+        text-decoration: none;
+	    color: $text-colour; 
+    }
+
+/*
+
+.menu__list {
+    list-style-type: none;   
+   padding: 0;
+    margin: 0; 
+    color: $text-colour;
+    line-height: 1.85em;
+}
+
+.list__item {
+  margin: .3em 0 .4em 0;
+  
+}
+
+.list__item--selected {
+    box-shadow: none;
+    background-color: #f0f0f0;
+	border-radius: 4px;
+    text-decoration: none;
+	color: $text-colour; 
+}
+
+
+
+.logo__link {
+    color:$text-colour;
+    text-decoration: none;
+   
+}
+
+.logo__link:focus-visible {
+    outline: none;
+}
+
+.logo__link:focus-visible::before {
+    outline: 3px solid orange;
+    
+}
+
+
+*/

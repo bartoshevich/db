@@ -1,0 +1,15 @@
+
+
+
+  .clients {
+	margin: 4vw 0;
+	text-align: center;
+  }
+
+
+  .clients__list {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 4px 8px;
+	width: 100%;
+  }
