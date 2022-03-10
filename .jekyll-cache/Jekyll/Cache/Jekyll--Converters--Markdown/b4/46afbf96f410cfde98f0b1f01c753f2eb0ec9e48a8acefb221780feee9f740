@@ -1,0 +1,210 @@
+I"�(<div class="body__container">
+   
+
+    <header class="page__header">
+    <div class="menu--flex">
+
+        <div class="logoside">
+            <div class="navbar-logo"></div>
+
+            <h1 class="logo__title"> Бартошевич </h1>
+           
+        </div>
+
+
+            <button class="menu__button" type="button" aria-expanded="false" aria-controls="menu__list" aria-label="открыть меню">
+                <svg class="menu__icon" aria-hidden="true" width="30" height="36">
+                    <use class="menu__icon-menu" href="/assets/images/sprite.svg#menu"></use>
+                    <use class="menu__icon-cross" href="/assets/images/sprite.svg#cross"></use>
+                </svg>
+            </button>
+    </div>
+
+<div class="menu-header__wrapper">
+
+    <div class="menu__header" id="menu__list">
+    
+        <nav class="menu__header__item " aria-label="Больше на этом сайте">
+                <ul class="nav__group feed-bleed">
+                    <li class="nav__li"><span class="nav__li--selected bold">Главная</span></li>           
+                    <li class="nav__li"><a class="link bold" href="/me/">Проекты</a></li>
+                    <li class="nav__li"><a class="link bold " href="/blog/">Блог</a></li>
+                    <li class="nav__li"><a class="link bold " href="/faq/">Вопрос - Ответ </a></li>
+                    <li class="nav__li"><a class="link bold" href="/contact/">Контакты</a></li>
+                </ul>
+        </nav>   
+
+
+        <nav class="menu__header__item">
+            <h2 class="nav__li bold"><a class="link text-color" href="/uslugi/">Услуги</a></h2>
+                <ul class="nav__group">          
+                    <li class="nav__li"><a class="link" href="/uslugi/marketing-audit/">Аудит маркетинга</a></li>
+                    <li class="nav__li"><a class="link" href="/uslugi/brand-conception/">Концепция бренда</a></li>
+                    <li class="nav__li"><a class="link" href="/uslugi/promo-conception/">Концепция рекламной кампании</a></li>
+                    <li class="nav__li"><a class="link" href="/uslugi/subscription-service/">Абонентское обслуживание</a></li>
+                </ul>
+        </nav>
+
+        <div class="menu__header__item">
+            <h2 class="nav__li bold">Подписаться </h2>
+                    <ul class="nav__group">          
+                        <li class="nav__li"><a class="link" href="/feed.xml">RSS</a></li>
+                        <li class="nav__li"><a class="link" href="https://eepurl.com/cmkKcz">Электронная почта </a></li>           
+                    </ul>
+        </div> 
+    
+            
+    </div>
+</div>
+</header>
+
+
+
+
+   
+
+   
+
+        <main class="section__content">
+
+        <div class="intro mb1">Меня зовут Дмитрий Бартошевич.<br /> Я&nbsp;<h2 class="inline">консультант по&nbsp;маркетингу и&nbsp;стратегии.</h2></div> 
+        
+              <div class="max-width-text"><h2 class="inline">Помогаю компаниям развивать бренды.</h2> Опираясь на&nbsp;исследования и&nbsp;анализ данных, разрабатываю план необходимых действий, контролирую реализацию. Противник «втюхинга» и&nbsp;манипуляций. </div> 
+
+     
+<section class="full-bleed full-bleed-row mb1">
+<h2 class="grid-column__first-one-third section__title--regular "> Клиенты </h2>
+<ul class=" grid-column__last-two-thirds  list-reset clients__list max-width-text">
+               <li>MODISTA </li>
+                               <li class="clients__item">Hörmann</li>
+                               <li class="clients__item">Giperlink </li>
+                               <li class="clients__item">Flex-n-Roll</li>
+                               <li class="clients__item">EGO-ART</li>
+                               <li class="clients__item">Danone Беларусь</li>
+                               <li class="clients__item">ЮВИ Электроникс </li>
+                               <li class="clients__item">САВ-лайн</li>
+                               <li class="clients__item">3Dom </li>
+              
+                           
+                    
+</ul>
+</section>
+
+<section class="full-bleed full-bleed-row mb1">
+<h2 class="grid-column__first-one-third section__title--regular "> Мне доверяют </h2>
+<div class=" grid-column__last-two-thirds row-gap--default">
+             
+              <blockquote class="row-gap--list">
+    	<p>«Мы&nbsp;спрашивали себя: „Чем мы&nbsp;отличаемся? В&nbsp;чем сильнее? В&nbsp;чем отстаем и&nbsp;чего не&nbsp;хватает, чтобы быть лучшими?“ Ответы искали сами. Но&nbsp;того решения, которое устроило&nbsp;бы всех, не&nbsp;находили. Обратились к&nbsp;Бартошевичу Дмитрию...»</p>
+    		
+    		<cite>
+    			— <a href="https://www.facebook.com/dmitry.likhtarovich" class="link" target="_blank" rel="noopener nofollow noreferrer" title="страница Дмитрия в фейсбуке" aria-label="страница Дмитрия в фейсбуке (откроется в новой вкладке)">Дмитрий Лихтарович</a>, директор Giperlink
+    		</cite>
+    	</blockquote>
+
+
+
+
+       <blockquote class="row-gap--list">
+    		<p>
+«Нам потребовалось четко позиционировать компанию на&nbsp;рынке и&nbsp;максимально отстроиться от&nbsp;конкурентов. И&nbsp;мы&nbsp;привлекли Дмитрия Бартошевича...»
+		</p>
+    		
+    		<cite>
+    			— <a href="https://www.facebook.com/profile.php?id=100001292354023" class="link" target="_blank" rel="noopener nofollow noreferrer" title="страница Елены в фейсбуке" aria-label="страница Елены в фейсбуке (откроется в новой вкладке)">Елена Горбачева</a>, директор <span class="noperenos">Flex-n-Roll</span>
+    		</cite>
+    	</blockquote>              
+                    
+</div>
+</section>
+
+
+
+
+
+
+
+
+        
+        </main>
+
+       <div class="buffer"></div>
+<footer class="footer"> 
+
+ 
+<nav class="footer__nav" aria-label="Больше на этом сайте">
+  
+
+           <ul class="nav__group">
+               <li class="nav__li"><a class="link" href="/">Главная</a></li>           
+               <li class="nav__li"><a class="link" href="/me/">Проекты</a></li>
+               <li class="nav__li"><a class="link  " href="/faq/">Вопрос - Ответ </a></li>
+               <li class="nav__li"><a class="link" href="/contact/">Контакты</a></li>
+           </ul>
+        
+  
+           <ul class="nav__group">
+               <li class="nav__li bold"><a class="link text-color" href="/uslugi/">Услуги</a></li>
+               <li class="nav__li"><a class="link" href="/uslugi/marketing-audit/">Аудит маркетинга</a></li>
+               <li class="nav__li"><a class="link" href="/uslugi/brand-conception/">Концепция бренда</a></li>
+               <li class="nav__li"><a class="link" href="/uslugi/promo-conception/">Концепция рекламной кампании</a></li>
+               <li class="nav__li"><a class="link" href="/uslugi/subscription-service/">Абонентское обслуживание</a></li>
+           </ul>
+        
+           
+   
+            <ul class="nav__group">
+               <li class="nav__li bold">Блог</li>
+               
+               <li class="nav__li">
+                   <a class="link" href="/mnenie/value-based-price/">
+                   Почасовая оплата должна умереть                   
+                   </a>
+               </li>
+               
+               <li class="nav__li">
+                   <a class="link" href="/mnenie/in-store-marketing/">
+                   Как влиять на&nbsp;решения о&nbsp;покупке в&nbsp;точках продаж                   
+                   </a>
+               </li>
+               
+               <li class="nav__li">
+                   <a class="link" href="/opyt/brand-conception-hormann/">
+                   Кейс: концепция бренда для Hörmann Беларусь                   
+                   </a>
+               </li>
+               
+               <li class="nav__li "> <a class="link bd-is-more" href="/blog/"> Смотреть все записи  </a> </li>
+             </ul>
+
+   
+         
+      
+</nav>
+
+
+<div class="mt2 ">
+   <ul class="list-reset">
+   <li class="inline-block mr1"> <a class="link" href="https://www.facebook.com/bartoshevichby/" target="_blank" rel="noopener nofollow noreferrer" title="читать в фейсбуке" aria-label="моя страница на фейсбуке (откроется в новой вкладке)"> фейсбук</a> </li> 
+   <li class="inline-block mr1"> <a class="link" href="https://www.linkedin.com/in/bartoshevich" target="_blank" rel="noopener nofollow noreferrer" title="читать в линкедине" aria-label="моя страница в линкедине (откроется в новой вкладке)"> линкедин</a> </li> 
+   <li class="inline-block mr1"> <a class="link" href="https://twitter.com/dbartoshevich" target="_blank" rel="noopener nofollow noreferrer" title="читать в твиттере" aria-label="моя лента в твиттере (откроется в новой вкладке)">твиттер</a></li> 
+   <li class="inline-block mr1"> <a class="link" href="https://mastodon.social/@bartoshevich" target="_blank" rel="me noopener nofollow noreferrer" title="читать в мастодоне" aria-label="моя лента в мастодоне (откроется в новой вкладке)">мастодон</a></li> 
+
+   </ul>
+</div>
+
+<div class="my2">
+   <small class="small bold"> © 2015-2022, УНП 192414874 </small>
+</div>
+</footer>
+
+
+
+
+
+
+
+ 
+
+</div>
+:ET

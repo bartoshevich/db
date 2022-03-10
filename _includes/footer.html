@@ -2,9 +2,43 @@
 <footer class="footer"> 
 
  
-<nav class="footer__nav" aria-label="Больше на этом сайте">
+<div class="footer__nav" aria-label="Больше на этом сайте">
   
+    <nav class="menu__header__item " aria-label="Больше на этом сайте">
+        <ul class="header__item--bleed item__content nav__group" >
+            <li class="nav__li bold"><a class="link" href="/">Главная</a></li>           
+               <li class="nav__li bold"><a class="link" href="/me/">Проекты</a></li>
+               <li class="nav__li bold" ><a class="link  " href="/faq/">Вопрос - Ответ </a></li>
+               <li class="nav__li bold"><a class="link" href="/contact/">Контакты</a></li>
+        </ul>
+</nav>   
 
+
+<nav class="menu__header__item">
+    <h2 class="bold block__title item__title" ><a class="link text-color" href="/uslugi/">Услуги</a></h2>
+        <ul class="nav__group item__content" >          
+            <li class="nav__li" ><a class="link" href="/uslugi/marketing-audit/">Аудит маркетинга</a></li>
+            <li class="nav__li"><a class="link" href="/uslugi/brand-conception/">Концепция бренда</a></li>
+            <li class="nav__li"><a class="link" href="/uslugi/promo-conception/">Концепция рекламной кампании</a></li>
+            <li class="nav__li"><a class="link" href="/uslugi/subscription-service/">Абонентское обслуживание</a></li>
+        </ul>
+</nav>
+
+<div class="menu__header__item">
+    <h2 class="block__title item__title bold"><a href="/blog/" class="link">Блог</a> </h2>
+            <ul class="nav__group item__content" >          
+               {% for post in site.posts limit:3 %}
+                <li class="nav__li">
+                    <a class="link" href="{{ post.url }}">
+                    {{ post.name }}                   
+                    </a>
+                </li>
+                {% endfor %}
+                <li class="nav__li "> <a class="link bd-is-more" href="/blog/"> Смотреть все записи  </a> </li>          
+            </ul>
+</div> 
+
+{% comment %}
            <ul class="nav__group" >
                <li class="nav__li"><a class="link" href="/">Главная</a></li>           
                <li class="nav__li"><a class="link" href="/me/">Проекты</a></li>
@@ -34,25 +68,25 @@
                {% endfor %}
                <li class="nav__li "> <a class="link bd-is-more" href="/blog/"> Смотреть все записи  </a> </li>
              </ul>
-
+{% endcomment %}
    
          
       
-</nav>
+</div>
 
 
-<div class="mt2 ">
+
+<div class="my2">
    <ul class="list-reset">
-   <li class="inline-block mr1"> <a class="link" href="https://www.facebook.com/bartoshevichby/" target="_blank" rel="noopener nofollow noreferrer" title="читать в фейсбуке" aria-label="моя страница на фейсбуке (откроется в новой вкладке)"> фейсбук</a> </li> 
-   <li class="inline-block mr1"> <a class="link" href="https://www.linkedin.com/in/bartoshevich" target="_blank" rel="noopener nofollow noreferrer" title="читать в линкедине" aria-label="моя страница в линкедине (откроется в новой вкладке)"> линкедин</a> </li> 
-   <li class="inline-block mr1"> <a class="link" href="https://twitter.com/dbartoshevich" target="_blank" rel="noopener nofollow noreferrer" title="читать в твиттере" aria-label="моя лента в твиттере (откроется в новой вкладке)">твиттер</a></li> 
-   <li class="inline-block mr1"> <a class="link" href="https://mastodon.social/@bartoshevich" target="_blank" rel="me noopener nofollow noreferrer" title="читать в мастодоне" aria-label="моя лента в мастодоне (откроется в новой вкладке)">мастодон</a></li> 
-
+        <li class="inline-block mr2"> <a class="link" href="https://www.facebook.com/bartoshevichby/" target="_blank" rel="noopener nofollow noreferrer" title="читать в фейсбуке" aria-label="моя страница на фейсбуке (откроется в новой вкладке)"> фейсбук</a> </li> 
+        <li class="inline-block mr2"> <a class="link" href="https://www.linkedin.com/in/bartoshevich" target="_blank" rel="noopener nofollow noreferrer" title="читать в линкедине" aria-label="моя страница в линкедине (откроется в новой вкладке)"> линкедин</a> </li> 
+        <li class="inline-block mr2"> <a class="link" href="https://twitter.com/dbartoshevich" target="_blank" rel="noopener nofollow noreferrer" title="читать в твиттере" aria-label="моя лента в твиттере (откроется в новой вкладке)">твиттер</a></li> 
+        <li class="inline-block"> <a class="link" href="https://mastodon.social/@bartoshevich" target="_blank" rel="me noopener nofollow noreferrer" title="читать в мастодоне" aria-label="моя лента в мастодоне (откроется в новой вкладке)">мастодон</a></li> 
    </ul>
 </div>
 
-<div class="my2">
-   <small class="small bold"> © 2015-2022, УНП 192414874 </small>
+<div class="credentials">
+   <div class="small"> © 2015-2022, УНП 192414874 </div>
 </div>
 </footer>
 

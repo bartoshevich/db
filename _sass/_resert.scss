@@ -27,18 +27,14 @@ body {
   height: 100%;
   min-height: 100vh;
   font-size: 18px;
-  line-height: 1.47059;
+  line-height: 1.5;
   font-weight: 400;
-  letter-spacing: -.012em;
   color: $text-colour;
+  background-color: $background-color;
   overflow-x: hidden;
 }
 
-@media (min-width: 1040px){
-  body {
-    font-size:20px;
-  }
-}
+
 
 h1,
   h2,

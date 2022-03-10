@@ -1,0 +1,248 @@
+I"�7<div class="body__container">
+  
+  <header class="page__header">
+    <h1 class="element--hidden">Дмитрий Бартошевич</h1>
+    <div class="menu--flex">
+
+        <div class="logoside">
+            <div class="navbar-logo"></div>
+            <nav class="breadcrumbs" aria-label="breadcrumbs">
+                <ol class="breadcrumbs__ol" itemscope="" itemtype="http://schema.org/BreadcrumbList">
+                    <li class="breadcrumbs__li" itemprop="itemListElement" itemscope="" itemtype="https://schema.org/ListItem">
+                        <a href="/" class="logo__title link text-color" aria-label="открыть главную страницу сайта" itemprop="item">
+                        <span itemprop="name"> Бартошевич </span>
+                    </a>                 
+                    <meta itemprop="position" content="1" />
+                    </li> 
+                    <li class="breadcrumbs__li" itemprop="itemListElement" itemscope="" itemtype="https://schema.org/ListItem">
+                        <span class="logo__title" itemprop="name">Услуги&nbsp;</span>                                
+                        <meta itemprop="position" content="2" />
+                    </li> 
+                </ol>
+
+            </nav>
+
+        </div>
+
+
+
+
+            <button class="menu__button" type="button" aria-expanded="false" aria-controls="menu__list" aria-label="открыть меню">
+                <svg class="menu__icon" aria-hidden="true" width="30" height="36">
+                    <use class="menu__icon-menu" href="/assets/images/sprite.svg#menu"></use>
+                    <use class="menu__icon-cross" href="/assets/images/sprite.svg#cross"></use>
+                </svg>
+            </button>
+    </div>
+
+<div class="menu-header__wrapper">
+
+<div class="menu__header" id="menu__list">
+  
+<nav aria-label="Больше на этом сайте">
+        <ul class="nav__group">
+            <li class="nav__li"><a class="link" href="/">Главная</a></li>           
+            <li class="nav__li"><a class="link" href="/me/">Проекты</a></li>
+            <li class="nav__li"><a class="link  " href="/blog/">Блог</a></li>
+            <li class="nav__li"><a class="link  " href="/faq/">Вопрос - Ответ </a></li>
+            <li class="nav__li"><a class="link" href="/contact/">Контакты</a></li>
+        </ul>
+     </nav>   
+<nav aria-label="Описание услуг">
+        <ul class="nav__group">
+            <li class="nav__li bold"><span class="text-color nav__li--selected">Услуги</span></li>
+            <li class="nav__li"><a class="link" href="/uslugi/marketing-audit/">Аудит маркетинга</a></li>
+            <li class="nav__li"><a class="link" href="/uslugi/brand-conception/">Концепция бренда</a></li>
+            <li class="nav__li"><a class="link" href="/uslugi/promo-conception/">Концепция рекламной кампании</a></li>
+            <li class="nav__li"><a class="link" href="/uslugi/subscription-service/">Абонентское обслуживание</a></li>
+        </ul>
+</nav>
+        <ul class="nav__group">
+            <li class="nav__li bold">Подписаться </li>
+            <li class="nav__li"><a class="link" href="/feed.xml">RSS</a></li>
+            <li class="nav__li"><a class="link" href="https://eepurl.com/cmkKcz">Электронная почта </a></li>           
+        </ul>
+ 
+   
+        
+    </div>
+</div>
+</header>
+
+
+
+
+   
+
+
+<main class="section__content">
+       
+
+
+ <div class="intro max-width-text mb2"><h1 class="inline bold">Услуги консультанта по&nbsp;маркетингу и&nbsp;стратегии.</h1> Коротко рассказываю, что делаю. </div>
+
+ <section itemscope="" itemtype="https://schema.org/Service">
+    <ul class="list-reset uslugi__list max-width-text" itemprop="hasOfferCatalog" itemscope="" itemtype="https://schema.org/OfferCatalog">
+                <li itemprop="itemListElement" itemscope="" itemtype="https://schema.org/OfferCatalog">
+                  
+                        <h2 itemprop="name"><a href="/uslugi/marketing-audit/" class="link">Аудит маркетинга</a></h2>
+                         <p>Провожу аудит маркетинга, чтобы понять точки роста.  </p>
+                   
+                </li>
+                <li itemprop="itemListElement" itemscope="" itemtype="https://schema.org/OfferCatalog">
+                  
+                   
+                        <h2 itemprop="name"><a href="/uslugi/brand-conception/" class="link">Концепция бренда</a></h2>
+                       <p><strong>Разрабатываю концепции бренда</strong>&nbsp;&mdash; фундамент устойчивого развития маркетинга.  </p>
+                       
+                   
+                </li>
+                <li itemprop="itemListElement" itemscope="" itemtype="https://schema.org/OfferCatalog">
+                   
+                    
+                        <h2 itemprop="name"><a href="/uslugi/promo-conception/" class="link">Концепция рекламных кампаний</a></h2>
+                        <p><strong>Создаю концепции рекламных кампаний</strong>, которые помогут целевой аудитории быстро выделить торговую марку из&nbsp;фона конкурентов и&nbsp;признать своей. </p>
+                   
+                </li>
+                <li itemprop="itemListElement" itemscope="" itemtype="https://schema.org/OfferCatalog">
+                  
+                  
+                        <h2 itemprop="name"><a href="/uslugi/subscription-service/" class="link">Абонентское обслуживание</a></h2>
+                        <p> В&nbsp;рамках абонентского маркетингового обслуживания <strong>консультирую по&nbsp;вопросам продвижения бренда</strong>, оказываю экспертную помощь при работе с&nbsp;подрядчиками, сопровождаю маркетинговую активность компании. </p>
+                   
+                </li>
+              
+            </ul>
+       
+</section>
+
+<section class="mt4 row-gap--default" itemscope="" itemtype="https://schema.org/FAQPage">
+<h2 class="intro">Вопрос - Ответ </h2>
+ <section class="question row-gap--list" itemscope="" itemprop="mainEntity" itemtype="https://schema.org/Question">
+        <h3 class="bold" itemprop="name">Сколько стоит один час вашей консультации?</h3>
+        <div itemscope="" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+            <div itemprop="text">
+                <p>
+             У&nbsp;меня нет почасовой ставки. Не&nbsp;думаю, что часы отражают те&nbsp;результаты, которые могу вам принести. Когда мы&nbsp;обсудим задачу, я&nbsp;смогу назвать стоимость ее&nbsp;решения.
+                </p>
+            </div>
+        </div>
+  </section>
+
+
+
+
+    <section class="question row-gap--list" itemscope="" itemprop="mainEntity" itemtype="https://schema.org/Question">
+        <h3 class="bold" itemprop="name">Нашей компании нужна идея, как отстроиться от&nbsp;конкурентов. И&nbsp;нужна «уже вчера».</h3>
+        <div itemscope="" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+            <div itemprop="text">
+                <p>В&nbsp;работе я&nbsp;следую <a href="/uslugi/brand-conception/#brand-conception-algorithm" class="link">определенному алгоритму</a>. В&nbsp;результате у&nbsp;вас будет идея, значимая для клиентов и&nbsp;которая отличит вас от&nbsp;конкурентов. Она послужит фундаментом
+                    последующей работы маркетологов компании. Если не&nbsp;понадобится дополнительных исследований, на&nbsp;разработку такой идеи уйдет месяц. Если решение нужно завтра к&nbsp;утру, я&nbsp;не&nbsp;смогу помочь. </p>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="question row-gap--list" itemscope="" itemprop="mainEntity" itemtype="https://schema.org/Question">
+        <h3 class="bold" itemprop="name">У&nbsp;нас упал объем продаж. Вы&nbsp;сможете исправить ситуацию? </h3>
+        <div itemscope="" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+            <div itemprop="text">
+                <p>В&nbsp;чем причина падения объема продаж? Это могут быть факторы, на&nbsp;которые маркетинг повлиять не&nbsp;может в&nbsp;принципе. Необходимо анализировать и&nbsp;выявлять задачи для решения. И&nbsp;затем уже обсуждать, насколько я&nbsp;могу
+                    быть полезен. Если&nbsp;же говорить обобщенно, то&nbsp;<a href="/blog/marketing-bez-nuzhdy-prodat/" class="link">чтобы маркетинг приносил деньги, не&nbsp;заставляйте маркетологов продавать</a>. </p>
+            </div>
+        </div>
+    </section>
+
+</section>
+
+
+
+        
+    
+</main>
+
+<div class="buffer"></div>
+<footer class="footer"> 
+
+ 
+<nav class="footer__nav" aria-label="Больше на этом сайте">
+  
+    <nav class="menu__header__item " aria-label="Больше на этом сайте">
+        <ul class="header__item--bleed item__content nav__group">
+            <li class="nav__li"><span class="nav__li--selected bold">Главная</span></li>           
+            <li class="nav__li"><a class="link bold" href="/me/">Проекты</a></li>
+            <li class="nav__li"><a class="link bold " href="/blog/">Блог</a></li>
+            <li class="nav__li"><a class="link bold " href="/faq/">Вопрос - Ответ </a></li>
+            <li class="nav__li"><a class="link bold" href="/contact/">Контакты</a></li>
+        </ul>
+</nav>   
+
+
+<nav class="menu__header__item">
+    <h2 class="bold block__title item__title"><a class="link text-color" href="/uslugi/">Услуги</a></h2>
+        <ul class="nav__group item__content">          
+            <li class="nav__li"><a class="link" href="/uslugi/marketing-audit/">Аудит маркетинга</a></li>
+            <li class="nav__li"><a class="link" href="/uslugi/brand-conception/">Концепция бренда</a></li>
+            <li class="nav__li"><a class="link" href="/uslugi/promo-conception/">Концепция рекламной кампании</a></li>
+            <li class="nav__li"><a class="link" href="/uslugi/subscription-service/">Абонентское обслуживание</a></li>
+        </ul>
+</nav>
+
+<div class="menu__header__item">
+    <h2 class="block__title item__title bold"><a href="/blog/" class="link">Блог</a> </h2>
+            <ul class="nav__group item__content">          
+               
+                <li class="nav__li">
+                    <a class="link" href="/mnenie/value-based-price/">
+                    Почасовая оплата должна умереть                   
+                    </a>
+                </li>
+                
+                <li class="nav__li">
+                    <a class="link" href="/mnenie/in-store-marketing/">
+                    Как влиять на&nbsp;решения о&nbsp;покупке в&nbsp;точках продаж                   
+                    </a>
+                </li>
+                
+                <li class="nav__li">
+                    <a class="link" href="/opyt/brand-conception-hormann/">
+                    Кейс: концепция бренда для Hörmann Беларусь                   
+                    </a>
+                </li>
+                
+                <li class="nav__li "> <a class="link bd-is-more" href="/blog/"> Смотреть все записи  </a> </li>          
+            </ul>
+</div> 
+
+
+   
+         
+      
+</nav>
+
+
+
+<div class="mt2 ">
+   <ul class="list-reset">
+        <li class="inline-block mr1"> <a class="link" href="https://www.facebook.com/bartoshevichby/" target="_blank" rel="noopener nofollow noreferrer" title="читать в фейсбуке" aria-label="моя страница на фейсбуке (откроется в новой вкладке)"> фейсбук</a> </li> 
+        <li class="inline-block mr1"> <a class="link" href="https://www.linkedin.com/in/bartoshevich" target="_blank" rel="noopener nofollow noreferrer" title="читать в линкедине" aria-label="моя страница в линкедине (откроется в новой вкладке)"> линкедин</a> </li> 
+        <li class="inline-block mr1"> <a class="link" href="https://twitter.com/dbartoshevich" target="_blank" rel="noopener nofollow noreferrer" title="читать в твиттере" aria-label="моя лента в твиттере (откроется в новой вкладке)">твиттер</a></li> 
+        <li class="inline-block mr1"> <a class="link" href="https://mastodon.social/@bartoshevich" target="_blank" rel="me noopener nofollow noreferrer" title="читать в мастодоне" aria-label="моя лента в мастодоне (откроется в новой вкладке)">мастодон</a></li> 
+   </ul>
+</div>
+
+<div class="my2">
+   <small class="small bold"> © 2015-2022, УНП 192414874 </small>
+</div>
+</footer>
+
+
+
+
+
+
+
+
+</div>
+
+:ET

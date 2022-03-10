@@ -1,24 +1,17 @@
 .page__header {
     box-sizing: border-box;
-    margin-top: 40px;
-    margin-bottom: 72px;
-   
-  
+    margin-top: 33px;
+    margin-bottom: 40px; 
 }
 
-@media (min-width: 512px) {
+@media (min-width: 1042px) {
     .page__header {
-        margin-top: 64px;
+        margin-top: 49px;
         margin-bottom: 120px;
       }
 }
 
-@media (min-width: 768px) {
-    .page__header {
-        margin-top: 120px;
-        margin-bottom: 88px;
-      }
-}
+
   
 
  
@@ -38,11 +31,18 @@
 .navbar-logo {
   background-image: url("https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1645366318/site/bartoshevich_1x.jpg");
   border-radius: 50%;
-  width: 60px;
-  height: 60px;
+  width: 56px;
+  height: 56px;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover; 
+}
+
+@media (min-width: 1040px) { 
+    .navbar-logo {
+        width: 86px;
+        height: 86px;
+    }
 }
 
 .logo__title {
@@ -50,20 +50,26 @@
     font-weight: bold;   
 }
 
-@media (max-width: 400px) {
 
+@media (max-width: 400px) { 
     .logo__title {
-        font-size:.875em;   
+        font-size:.9em;  
+        line-height: .971em; 
     }
-}
+    }
 
-
-@media (min-width: 400px) {
- 
+@media (min-width: 401px) { 
 .logo__title {
-    font-size:1em;   
+    font-size:1em;  
+    line-height: .971em; 
+}
 }
 
+@media (min-width: 1040px) {
+    .logo__title {
+        font-size:1.33em;  
+        line-height: 1.292em; 
+    }
 }
 
 .menu__button {
@@ -111,23 +117,80 @@
     }
 
 
+@media (max-width:639px) {
 .menu__header--open {
         display: grid;
-        grid-template-columns: repeat(2,1fr);
+        grid-template-columns: 1fr;
         grid-gap: 2rem;
         overflow: hidden;    
     }
 
-    @media (min-width:520px) {
-        .menu__header--open {
-            grid-template-columns: repeat(3,1fr);      
-        }
+  
+.menu__header__item {
+    display: grid;
+    grid-template-columns: 56px 1fr;
+    grid-template-rows: 1em 1fr;
+    grid-gap: 12px;
+}
+
+
+.item__title {
+    grid-column: 1/-1;
+    grid-row:1;
+}
+
+.item__content {
+    grid-column: 2;
+    grid-row:2;
+}
+}
+
+
+.block__title {
+    font-size: 1.1em;     
+    margin-top: .4em;   
+}
+
+
+@media (min-width: 1040px) {
+    .block__title {
+        font-size: 24px;  
+        margin-top: .05em;      
     }
+}
+
+@media (min-width:640px) {
+    .menu__header--open {
+        display: grid;
+        grid-template-columns: 2fr 4fr 4fr;   
+        grid-gap: 2rem;
+        overflow: hidden;      
+    }
+}
 
 
-   
+@media (min-width:640px) {
+    .menu__header__item {
+        display: grid;
+        grid-template-columns: 1fr 3fr;
+        grid-gap: 1em;
+    }
+}
 
-    .menu--flex {
+
+.header__item--bleed {
+    grid-column: 2;
+}
+
+@media (min-width:640px) {
+    .header__item--bleed {
+        grid-column: 1/-1;
+    }
+}
+
+
+
+.menu--flex {
         display: flex;
         flex-direction: row;
         justify-content: space-between;   
