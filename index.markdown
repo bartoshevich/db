@@ -14,14 +14,15 @@ keywords: "стратегический маркетинг, концепция �
 
         <main class="section__content">
 
-        <div class="intro mb1">Меня зовут Дмитрий Бартошевич.<br/> Я&nbsp;<h2 class="inline">консультант по&nbsp;маркетингу и&nbsp;стратегии.</h2></div> 
+        <div class="intro h1">Меня зовут Дмитрий Бартошевич.<br/> Я&nbsp;<h2 class="inline">консультант по&nbsp;маркетингу и&nbsp;стратегии.</h2></div> 
         
-              <div class="max-width-text"><h2 class="inline">Помогаю компаниям развивать бренды.</h2> Опираясь на&nbsp;исследования и&nbsp;анализ данных, разрабатываю план необходимых действий, контролирую реализацию. Противник «втюхинга» и&nbsp;манипуляций. </div> 
+        <div class="max-width-text"><h2 class="inline">Помогаю компаниям развивать бренды.</h2> Опираясь на&nbsp;исследования и&nbsp;анализ данных, разрабатываю план необходимых действий, контролирую реализацию. Противник «втюхинга» и&nbsp;манипуляций. </div> 
 
      
-<section class="full-bleed full-bleed-row mb1">
-<h2 class="grid-column__first-one-third section__title--regular "> Клиенты </h2>
-<ul class=" grid-column__last-two-thirds  list-reset clients__list max-width-text">
+<section class="full-bleed block__item clients__block">
+<div class="block__sign"></div>
+<h2 class="block__name block__title bold "> Клиенты </h2>
+<ul class="block__content  list-reset clients__list max-width-text">
                <li>MODISTA </li>
                                <li class="clients__item">Hörmann</li>
                                <li class="clients__item">Giperlink </li>
@@ -37,31 +38,35 @@ keywords: "стратегический маркетинг, концепция �
 </ul>
 </section>
 
-<section class="full-bleed full-bleed-row mb1">
-<h2 class="grid-column__first-one-third section__title--regular "> Мне доверяют </h2>
-<div class=" grid-column__last-two-thirds row-gap--default">
+<section class="full-bleed block__item mb1">
+<div class="block__sign"></div>
+<h2 class="block__name block__title bold"> Мне доверяют </h2>
+<div class=" block__content">
              
-              <blockquote class="row-gap--list">
-    	<p>«Мы&nbsp;спрашивали себя: „Чем мы&nbsp;отличаемся? В&nbsp;чем сильнее? В&nbsp;чем отстаем и&nbsp;чего не&nbsp;хватает, чтобы быть лучшими?“ Ответы искали сами. Но&nbsp;того решения, которое устроило&nbsp;бы всех, не&nbsp;находили. Обратились к&nbsp;Бартошевичу Дмитрию...»</p>
+              <blockquote class="blockquote--emphasis">
+    	<p class="citation">«Мы&nbsp;спрашивали себя: „Чем мы&nbsp;отличаемся? В&nbsp;чем сильнее? В&nbsp;чем отстаем и&nbsp;чего не&nbsp;хватает, чтобы быть лучшими?“ Ответы искали сами. Но&nbsp;того решения, которое устроило&nbsp;бы всех, не&nbsp;находили. Обратились к&nbsp;Бартошевичу Дмитрию...»</p>
     		
+            <div class="citation__author" >
     		<cite>
-    			— <a href="https://www.facebook.com/dmitry.likhtarovich" class="link" target="_blank" rel="noopener nofollow noreferrer"
-                title="страница Дмитрия в фейсбуке" aria-label="страница Дмитрия в фейсбуке (откроется в новой вкладке)">Дмитрий Лихтарович</a>, директор Giperlink
+    			<a href="https://www.facebook.com/dmitry.likhtarovich" class="link" target="_blank" rel="noopener nofollow noreferrer"
+                title="страница Дмитрия в фейсбуке" aria-label="страница Дмитрия в фейсбуке (откроется в новой вкладке)">Дмитрий Лихтарович</a> <br/> директор Giperlink
     		</cite>
+            </div>
     	</blockquote>
 
 
 
 
-       <blockquote class="row-gap--list">
-    		<p>
-«Нам потребовалось четко позиционировать компанию на&nbsp;рынке и&nbsp;максимально отстроиться от&nbsp;конкурентов. И&nbsp;мы&nbsp;привлекли Дмитрия Бартошевича...»
+       <blockquote class="blockquote--emphasis">
+    		<p class="citation">
+            «Нам потребовалось четко позиционировать компанию на&nbsp;рынке и&nbsp;максимально отстроиться от&nbsp;конкурентов. И&nbsp;мы&nbsp;привлекли Дмитрия Бартошевича...»
 		</p>
-    		
-    		<cite>
-    			— <a href="https://www.facebook.com/profile.php?id=100001292354023" class="link" target="_blank" rel="noopener nofollow noreferrer"
-                title="страница Елены в фейсбуке" aria-label="страница Елены в фейсбуке (откроется в новой вкладке)">Елена Горбачева</a>, директор <span class="noperenos">Flex-n-Roll</span>
+    		<div class="citation__author" >
+    		<cite >
+    			<a href="https://www.facebook.com/profile.php?id=100001292354023" class="link" target="_blank" rel="noopener nofollow noreferrer"
+                title="страница Елены в фейсбуке" aria-label="страница Елены в фейсбуке (откроется в новой вкладке)">Елена Горбачева</a> <br/>директор <span class="noperenos">Flex-n-Roll</span>
     		</cite>
+            </div>
     	</blockquote>              
                     
 </div>

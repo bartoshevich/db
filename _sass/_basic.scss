@@ -3,9 +3,28 @@ p {
 }
 
 
+.h1 {
+    font-size: 24px;
+    line-height: 28.32px;
+}
+
+@media (min-width: 1040px) {
+    .h1 {
+        font-size: 32px;
+        line-height: 54.56px;
+    }
+}
 
 
+.intro {
+    margin-bottom: 40px;    
+}
 
+@media (min-width: 1040px) {
+    .intro {
+        margin-bottom: 50px;
+    }
+}
 
 
 
@@ -109,6 +128,22 @@ p {
 
 /*  title   */
 
+.block__title {
+    font-size: 1.1em;     
+    margin-top: .4em;
+    line-height: 31px;   
+}
+
+
+@media (min-width: 1040px) {
+    .block__title {
+        font-size: 24px;  
+        margin-top: .1em;      
+    }
+}
+
+
+
 .section__title {
     font-size: 1.8rem;
     
@@ -116,22 +151,6 @@ p {
 }
 
 
-.intro {
-    font-size: 1.23rem;
-    line-height: 1.34048;
-    font-weight: 400; 
-   
-}
-
-
-@media (min-width: 700px) {
-    .intro {
-        font-size: 1.53rem;
-        line-height: 1.34048;
-        font-weight: 400;         
-    }
-    
-}
 
 .section__title--regular {
     font-size:1em;

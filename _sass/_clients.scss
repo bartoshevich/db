@@ -1,6 +1,5 @@
 
 
-
   .clients {
 	margin: 4vw 0;
 	text-align: center;
@@ -13,3 +12,12 @@
 	grid-gap: 4px 8px;
 	width: 100%;
   }
+
+  .clients__block {
+    margin: 57px 0 63px 0;
+}
+@media (min-width: 1040px) {
+    .clients__block {
+        margin: 74px 0 102px 0;
+    }
+}

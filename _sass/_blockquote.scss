@@ -1,0 +1,46 @@
+.blockquote--emphasis {
+    position: relative;   
+}
+
+.blockquote--emphasis:not(:last-child) {   
+    margin-bottom: 3.444em;
+}
+
+.blockquote--emphasis::before {
+    content: '\201E';
+    display: inline-block;
+    position: absolute;
+    color: $text-colour;
+    left: -.5em;
+    top: -.85em;
+    font-size: 5em;
+    line-height: 1;
+  }
+
+@media (min-width: 1069px) {
+.blockquote--emphasis::before {   
+    left: -.7em;
+    top: -.85em;
+  }
+}
+
+
+  .citation {
+      margin-top: 1em;
+  }
+
+  @media (max-width: 1068px) {
+    .citation__author {
+        margin-top: 1.38em;
+    }
+    }
+
+  @media (min-width: 1069px) {
+  .citation__author {
+      margin-top: 1.667em;
+  }
+  }
+
+  cite {
+    font-style: normal;
+  }
