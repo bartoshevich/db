@@ -28,7 +28,7 @@ keywords: "стратегический маркетинг, концепция �
                                <li class="clients__item">Giperlink </li>
                                <li class="clients__item">Flex-n-Roll</li>
                                <li class="clients__item">EGO-ART</li>
-                               <li class="clients__item">Danone Беларусь</li>
+                               <li class="clients__item">Danone</li>
                                <li class="clients__item">ЮВИ Электроникс </li>
                                <li class="clients__item">САВ-лайн</li>
                                <li class="clients__item">3Dom </li>
