@@ -1,28 +1,16 @@
 .page__header {
     box-sizing: border-box;
-    margin-top: 33px;
-    margin-bottom: 40px; 
+    margin-top: var(--space-l-xl);
+    margin-bottom: var(--space-xl-4xl); 
 }
-
-@media (min-width: 1040px) {
-    .page__header {
-        margin-top: 49px;
-        margin-bottom: 120px;
-      }
-}
-
-
-  
-
- 
 
 
   
 .logoside {
     display: grid;
     grid-template-columns: min-content 1fr;
-    grid-column-gap:12px;
-    column-gap: 12px;
+    grid-column-gap:var(--space-xs);
+    column-gap: var(--space-xs);
     line-height: 1;
     align-items: center;
 }
@@ -31,26 +19,22 @@
 .navbar-logo {
   background-image: url("https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1645366318/site/bartoshevich_1x.jpg");
   border-radius: 50%;
-  width: 56px;
-  height: 56px;
+  width: var(--space-xl-2xl);
+  height: var(--space-xl-2xl);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover; 
 }
 
-@media (min-width: 1040px) { 
-    .navbar-logo {
-        width: 86px;
-        height: 86px;
-    }
-}
+
 
 .logo__title {
     margin: 0 0 .15em 0;
-    font-weight: bold;   
+    font-weight: bold;  
+    font-size: var(--step-0); 
 }
 
-
+/*
 @media (max-width: 400px) { 
     .logo__title {
         font-size:.9em;  
@@ -71,6 +55,7 @@
         line-height: 1.292em; 
     }
 }
+*/
 
 .menu__button {
         z-index: 1;
@@ -128,7 +113,7 @@
   
 .menu__header__item {
     display: grid;
-    grid-template-columns: 56px 1fr;
+    grid-template-columns: var(--space-xl-2xl) 1fr;
     grid-template-rows: 1em 1fr;
     grid-gap: 12px;
 }

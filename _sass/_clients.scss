@@ -9,15 +9,10 @@
   .clients__list {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
-	grid-gap: 4px 8px;
+	grid-gap: var(--space-3xs) var(--space-2xs);
 	width: 100%;
   }
 
   .clients__block {
-    margin: 57px 0 63px 0;
-}
-@media (min-width: 1040px) {
-    .clients__block {
-        margin: 74px 0 102px 0;
-    }
+    margin: var(--space-xl-2xl) 0 var(--space-2xl) 0;
 }

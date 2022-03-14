@@ -3,7 +3,7 @@
 }
 
 .blockquote--emphasis:not(:last-child) {   
-    margin-bottom: 3.444em;
+    margin-bottom: var(--space-xl-2xl);
 }
 
 .blockquote--emphasis::before {
@@ -29,17 +29,10 @@
       margin-top: 1em;
   }
 
-  @media (max-width: 1068px) {
-    .citation__author {
-        margin-top: 1.38em;
-    }
-    }
-
-  @media (min-width: 1069px) {
   .citation__author {
-      margin-top: 1.667em;
-  }
-  }
+        margin-top: var(--space-m);
+    }
+    
 
   cite {
     font-style: normal;

@@ -4,27 +4,17 @@ p {
 
 
 .h1 {
-    font-size: 24px;
-    line-height: 28.32px;
+    font-size: var(--step-2);
 }
 
-@media (min-width: 1040px) {
-    .h1 {
-        font-size: 32px;
-        line-height: 54.56px;
-    }
+.h2 {
+    font-size: var(--step-1);
 }
-
 
 .intro {
-    margin-bottom: 40px;    
+    margin-bottom: var(--space-l-xl);    
 }
 
-@media (min-width: 1040px) {
-    .intro {
-        margin-bottom: 50px;
-    }
-}
 
 
 
@@ -81,7 +71,7 @@ p {
 
 
 .max-width-text {
-    max-width: 66ch;
+   max-width: 660px;
 }
 
 
@@ -129,12 +119,13 @@ p {
 /*  title   */
 
 .block__title {
-    font-size: 1.1em;     
-    margin-top: .4em;
-    line-height: 31px;   
+    font-size: var(--step-1);
+ //   font-size: 1.1em;     
+ //  margin-top: .4em;
+ //   line-height: 31px;   
 }
 
-
+/*
 @media (min-width: 1040px) {
     .block__title {
         font-size: 24px;  
@@ -142,7 +133,7 @@ p {
     }
 }
 
-
+*/
 
 .section__title {
     font-size: 1.8rem;
