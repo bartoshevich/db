@@ -19,20 +19,20 @@ keywords: "услуги консультанта по маркетингу и с
  <section class="full-bleed" itemscope itemtype="https://schema.org/Service">
     <ul class="list-reset  uslugi__list" itemprop="hasOfferCatalog" itemscope itemtype="https://schema.org/OfferCatalog">
                 <li class="block__item" itemprop="itemListElement" itemscope itemtype="https://schema.org/OfferCatalog">                    
-                        <h2  class="block__name--align-left h2 " itemprop="name"><a href="/uslugi/marketing-audit/" class="link">Аудит маркетинга</a></h2>
+                        <h2  class="block__name--align-left h2 uslugi__mark " itemprop="name"><a href="/uslugi/marketing-audit/" class="link">Аудит маркетинга</a></h2>
                          <p class="block__content">Провожу аудит маркетинга, чтобы понять точки роста.  </p>                   
                 </li>
                 <li class="block__item" itemprop="itemListElement" itemscope itemtype="https://schema.org/OfferCatalog"> 
-                        <h2  class="block__name--align-left h2 " itemprop="name"><a href="/uslugi/brand-conception/"  class="link">Концепция бренда</a></h2>
-                       <p class="block__content"><strong>Разрабатываю концепции бренда</strong>&nbsp;&mdash; фундамент устойчивого развития маркетинга.  </p> 
+                        <h2  class="block__name--align-left h2 uslugi__mark " itemprop="name"><a href="/uslugi/brand-conception/"  class="link">Концепция бренда</a></h2>
+                       <p class="block__content">Разрабатываю наиболее выгодные для компаний идеи, с&nbsp;помощью которых они могут значимо отстроиться от&nbsp;конкурентов и&nbsp;закрепиться в&nbsp;сознании целевой аудитории.  </p> 
                 </li>
                 <li class="block__item" itemprop="itemListElement" itemscope itemtype="https://schema.org/OfferCatalog">
-                        <h2  class="block__name--align-left h2" itemprop="name"><a href="/uslugi/promo-conception/"  class="link">Концепция рекламных кампаний</a></h2>
+                        <h2  class="block__name--align-left h2 uslugi__mark" itemprop="name"><a href="/uslugi/promo-conception/"  class="link">Концепция рекламных кампаний</a></h2>
                         <p class="block__content"><strong>Создаю концепции рекламных кампаний</strong>, которые помогут целевой аудитории быстро выделить торговую марку из&nbsp;фона конкурентов и&nbsp;признать своей. </p>                   
                 </li>
                 <li class="block__item" itemprop="itemListElement" itemscope itemtype="https://schema.org/OfferCatalog">             
-                    <h2 class="block__name--align-left h2" itemprop="name"><a href="/uslugi/subscription-service/" class="link">Абонентское обслуживание</a></h2>
-                    <p class="block__content"> В&nbsp;рамках абонентского маркетингового обслуживания <strong>консультирую по&nbsp;вопросам продвижения бренда</strong>, оказываю экспертную помощь при работе с&nbsp;подрядчиками, сопровождаю маркетинговую активность компании. </p>                   
+                    <h2 class="block__name--align-left h2 uslugi__mark" itemprop="name"><a href="/uslugi/subscription-service/" class="link">Абонентское обслуживание</a></h2>
+                    <p class="block__content"> <strong>Консультирую по&nbsp;вопросам продвижения бренда</strong>, оказываю экспертную помощь при работе с&nbsp;подрядчиками, сопровождаю маркетинговую активность компании. </p>                   
                 </li>              
             </ul>
 </section>
@@ -46,7 +46,7 @@ keywords: "услуги консультанта по маркетингу и с
 </div>
 <ul class="full-bleed row-gap--list">
 <li class="block__item " itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
-        <h3 class="bold block__name--align-left" itemprop="name">Сколько стоит один час вашей консультации?</h3>
+        <h3 class="bold block__name--align-left " itemprop="name">Сколько стоит один час вашей консультации?</h3>
         <div class="block__content--align-left" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">          
                 <p  itemprop="text">
              У&nbsp;меня нет почасовой ставки. Не&nbsp;думаю, что часы отражают те&nbsp;результаты, которые могу вам принести. Когда мы&nbsp;обсудим задачу, я&nbsp;смогу назвать стоимость ее&nbsp;решения.
@@ -58,7 +58,7 @@ keywords: "услуги консультанта по маркетингу и с
     <li class="block__item " itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
         <h3 class="block__name--align-left  bold" itemprop="name">Нашей компании нужна идея, как отстроиться от&nbsp;конкурентов. И&nbsp;нужна «уже вчера».</h3>
         <div class="block__content--align-left" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
-            <p itemprop="text">В&nbsp;работе я&nbsp;следую <a href="/uslugi/brand-conception/#brand-conception-algorithm" class="link">определенному алгоритму</a>. В&nbsp;результате у&nbsp;вас будет идея, значимая для клиентов и&nbsp;которая отличит вас от&nbsp;конкурентов. Она послужит фундаментом последующей работы маркетологов компании. Если не&nbsp;понадобится дополнительных исследований, на&nbsp;разработку такой идеи уйдет месяц. Если решение нужно завтра к&nbsp;утру, я&nbsp;не&nbsp;смогу помочь. </p>            
+            <p itemprop="text">В&nbsp;работе я&nbsp;<a href="/uslugi/brand-conception/#brand-conception-algorithm" class="link">следую определенному алгоритму</a>. В&nbsp;результате у&nbsp;вас будет идея (концепция бренда), которая значимо отличит вас от&nbsp;конкурентов. Она послужит фундаментом развития маркетинга в&nbsp;компании. Если не&nbsp;понадобится дополнительных исследований, разработка концепции занимает месяц. Если решение нужно завтра к&nbsp;утру, я&nbsp;не&nbsp;смогу помочь. </p>            
         </div>
     </li>
 

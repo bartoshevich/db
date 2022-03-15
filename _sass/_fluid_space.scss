@@ -84,4 +84,29 @@
     --space-l-xl: calc(((var(--fc-l-min) / 16) * 1rem) + (var(--fc-xl-max) - var(--fc-l-min)) * var(--fluid-bp));
     --space-xl-2xl: calc(((var(--fc-xl-min) / 16) * 1rem) + (var(--fc-2xl-max) - var(--fc-xl-min)) * var(--fluid-bp));
     --space-xl-4xl: calc(((var(--fc-xl-min) / 16) * 1rem) + (var(--fc-4xl-max) - var(--fc-xl-min)) * var(--fluid-bp));
+
+    --content-top-gap: .5em;
+    --content-bottom-gap: .5em;
   }
+
+
+.additive-spacing > .h1,
+.additive-spacing > .h2,
+.additive-spacing > .h3,
+.additive-spacing > .h4 {
+  --content-bottom-gap: 0.25em;
+  --content-top-gap: 0.75em;
+}
+
+.additive-spacing > :first-child {
+  margin-top: 0;
+}
+
+.additive-spacing > :last-child {
+  margin-bottom: 0;
+}
+
+.additive-spacing > hr,
+.additive-spacing > hr:last-child {
+  margin: var(--space-2) 0;
+}

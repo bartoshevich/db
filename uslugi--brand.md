@@ -1,9 +1,9 @@
 ---
 layout: default
 permalink: /uslugi/brand-conception/
-description: "Аудит маркетинга, создание концепции бренда, разработка рекламных кампаний, маркетинговое сопровождение предприятий. С 2015 г."
+description: "Концепция бренда"
 title: "Концепция бренда"
-keywords: "услуги консультанта по маркетингу и стратегии"
+keywords: "разработка концепции бренда"
 ---
 
 <div class="body__container">
@@ -13,7 +13,7 @@ keywords: "услуги консультанта по маркетингу и с
 <main class="section__content">
        
 
- <div class="intro max-width-text mb1"><h1 class="inline bold">Концепция бренда.</h1> Рассказываю, что это такое, зачем нужна и&nbsp;как разрабатываю. В&nbsp;конце&nbsp;&mdash; отзывы клиентов. </div>
+ <div class="intro max-width-text h1"><h1 class="inline bold">Концепция бренда.</h1> Рассказываю, что это такое, зачем нужна и&nbsp;как разрабатываю. В&nbsp;конце&nbsp;&mdash; отзывы клиентов. </div>
 
 <p>
 Концепция&nbsp;— ответ на&nbsp;вопрос: «С&nbsp;помощью какой идеи выделиться из&nbsp;фона конкурентов и&nbsp;стать значимыми для клиентов?» Это <strong>фундамент работы отдела маркетинга</strong>. Каждый шаг маркетолога должен подтверждать и&nbsp;укреплять концепцию. В&nbsp;этом случае клиенты быстро найдут свою компанию, а&nbsp;компания&nbsp;— своих клиентов. 
@@ -21,17 +21,17 @@ keywords: "услуги консультанта по маркетингу и с
 
 <p> Без <b>концепции бренда</b> компании выглядят похожими => у&nbsp;потенциальных клиентов появляется проблема выбора: как среди одинаковых описаний и&nbsp;предложений найти решение для себя. </p> 
 
-<section class="example--card row-gap--default">
+<section class="example--card additive-spacing">
 <h2 class="bold">пример самопрезентации компании без концепции бренда</h2>
-<p class="mbn1">ООО &laquo;Каждая вторая компания&raquo; гарантирует</p>
-<ul class="ml3 row-gap--list max-width-text">
+<p class="">ООО &laquo;Каждая вторая компания&raquo; гарантирует</p>
+<ul class="additive-spacing max-width-text">
 <li>индивидуальный подход;</li>
 <li>выгодные цены;</li>
 <li>исключительное качество;</li>
 <li>широкий ассортимент.</li>
 </ul>
-<p class="mbn1">Преимущества</p>
-<ul class="ml3 row-gap--list max-width-text">
+<p class="">Преимущества</p>
+<ul class="additive-spacing max-width-text">
 <li>высококлассные специалисты с многолетним опытом;</li>
 <li>соблюдение сроков;</li>
 <li>тщательная проверка каждого заказа;</li>
@@ -39,7 +39,7 @@ keywords: "услуги консультанта по маркетингу и с
 </ul>
 </section>
 
-<section class="mt1 full-bleed full-bleed-row ">
+<section class="full-bleed full-bleed-row additive-spacing">
     <h2 class="element--hidden">Зачем нужна концепция бренда</h2>
     <p>Отсутствие концепции бренда быстро превращает маркетинг в&nbsp;«крысиные бега»: хаотичные авральные действия, несбалансированный бюджет, отсутствие фокуса в&nbsp;продвижении, размытый образ бренда. </p>
     <section class="grid-columns__first-one-half row-gap--default">
@@ -65,7 +65,7 @@ keywords: "услуги консультанта по маркетингу и с
             <li class="">Помогает отстроиться от&nbsp;конкурентов и&nbsp;стать заметным для клиентов.</li>
             <li class="">Подсказывает руководителю, на&nbsp;чем сфокусировать основные усилия маркетологов. Избавляет от&nbsp;хаотичного аврального маркетинга, действия подчиняет строгой логике.</li>
                 <li class="">Сокращает бюджет на&nbsp;продвижение:
-                    <ul class="ml3 row-gap--list">
+                    <ul class="">
                         <li class="">Закрепить одну идею в&nbsp;сознании проще, чем десять, не&nbsp;связанных друг с&nbsp;другом.</li>
                         <li class="">Маркетологи отказываются от&nbsp;проектов, которые не&nbsp;коррелируют с&nbsp;концепцией.</li>
                     </ul>
@@ -78,8 +78,11 @@ keywords: "услуги консультанта по маркетингу и с
 
 
 
-<section class="my4 full-bleed row-gap--default"  id="brand-conception-algorithm">
-	<h2 class="intro">Как&nbsp;я&nbsp;разрабатываю концепцию бренда</h2>
+<section class="block__space--top full-bleed row-gap--default"  id="brand-conception-algorithm">
+<div class="block__item">
+<div class="block__sign"></div>
+	<h2 class="block__name--full h1 bold">Как&nbsp;я&nbsp;разрабатываю концепцию бренда</h2>
+</div>	
 <ol class="list-reset row-gap--default">
 	<li class="row-gap--default max-width-text">
 		<h3 class="bold mbn1">1) Обсуждаю задачу и&nbsp;цели. Фиксирую договоренности</h3>
@@ -203,8 +206,12 @@ keywords: "услуги консультанта по маркетингу и с
 </section>
 
 
-<section class="row-gap--default">
-<h2 class="intro">Отзывы клиентов</h2>
+<section class="block__space--top row-gap--default">
+<div class="block__item">
+<div class="block__sign"></div>
+	<h2 class="block__name--full h1 bold">Отзывы клиентов</h2>
+</div>	
+
  <blockquote class="row-gap--list">
     	<p>«Впереди много планов и&nbsp;есть главное&nbsp;— четкий выверенный вектор развития компании, который обозначил для нас Дмитрий Бартошевич. Поэтому <strong>хотелось&nbsp;бы поблагодарить его за&nbsp;предложенную концепцию и&nbsp;проведенную большую работу по&nbsp;брендингу нашего предприятия</strong>».</p>
     		

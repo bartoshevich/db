@@ -10,3 +10,7 @@
    }
 
 
+.uslugi__mark::before {
+  content: "•";
+  margin-right: var(--space-2xs);
+}
