@@ -52,6 +52,14 @@ p {
     list-style: none;
     padding-left: 0;
 }
+
+.list-li {
+    margin-left: var(--space-s);
+}
+
+.list-ol {
+    margin-left: var(--space-s) ;
+}
 .inline {
     display: inline;
 }
@@ -183,16 +191,7 @@ p {
     margin-bottom: var(--content-bottom-gap);
     margin-top: var(--content-top-gap);
   }
-
-
-  .additive-spacing > .h1,
-  .additive-spacing > .h2,
-  .additive-spacing > .h3,
-  .additive-spacing > .h4 {
-    --content-bottom-gap: 0.25em;
-    --content-top-gap: 0.75em;
-  }
-  
+ 
   .additive-spacing > :first-child {
     margin-top: 0;
   }
@@ -203,9 +202,11 @@ p {
   
   .additive-spacing > hr,
   .additive-spacing > hr:last-child {
-    margin: var(--space-2) 0;
+    margin: var(--space-xl) 0;
   }
   
 
-  
+  .ml-2xl {
+      margin-left: var(--space-2xl);
+  }
   
