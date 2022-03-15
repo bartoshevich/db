@@ -114,21 +114,15 @@
 
 }
 
-.row-gap--default {
+.row-gap--m {
     display: grid;
-    grid-row-gap: 16px;
-    row-gap: 16px;
+    grid-row-gap: var(--space-s-m);
+    row-gap: var(--space-s-m);
     align-self: start;
 }
 
-@media (min-width: 1069px) {
-    .row-gap--default {
-    grid-row-gap: 24px;
-    row-gap: 24px;
-    }
-}
 
-.row-gap--list {
+.row-gap--l {
     display: grid;
     grid-row-gap: var(--space-m-l);
     row-gap: var(--space-m-l);

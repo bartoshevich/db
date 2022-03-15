@@ -14,24 +14,24 @@ keywords: "услуги консультанта по маркетингу и с
        
 
 
- <div class="intro max-width-text mb1"><h1 class="inline bold">Маркетинговый аудит.</h1> Зачем и&nbsp;как его провожу. </div>
+ <div class="intro max-width-text h1"><h1 class="inline bold">Маркетинговый аудит.</h1> Зачем и&nbsp;как его провожу. </div>
 
 	<p class="">Аудит&nbsp;— независимая проверка, которая определяет, что компания делает правильно, а&nbsp;что следует исправить. К&nbsp;правильным я&nbsp;отношу действия <b>отдела маркетинга</b>, которые помогают <strong>создавать и&nbsp;укреплять отличия компании, значимые для ее&nbsp;клиентов</strong>. </p>
        
-<section class="grid-columns__first-one-half row-gap--default">
-        <h2 class="bold mbn1">Обычно аудит проводят так</h2>
+<section class="grid-columns__first-one-half row-gap--m">
+        <h2 class="bold section__title">Обычно аудит проводят так</h2>
 
         <p>Берут теоретическую модель, например, 4P. Изучают и&nbsp;описывают каждую составляющую маркетинга в&nbsp;компании, определяют слабые места и&nbsp;составляют рекомендации. </p>
         <section>
                 <h3 class="italic">Плюсы</h3>
-                <ul class="ml3  max-width-text row-gap--list">	
+                <ul class="max-width-text list-li">	
                 <li>Детальный анализ. Финальные отчеты некоторых агентств напоминают научную работу.</li>
                 </ul>
         </section>
 
 <section>
         <h3 class="italic">Минусы</h3>
-        <ul class="ml3  max-width-text row-gap--list">
+        <ul class="list-li max-width-text ">
         <li>Не&nbsp;видим маркетинг с&nbsp;позиции клиента</li>
         <li>Часть информации (рекомендаций) не&nbsp;несет ценности для клиента.</li>
         </ul>
@@ -43,13 +43,13 @@ keywords: "услуги консультанта по маркетингу и с
         </section>
 
 </section>
-<section class="grid-columns__last-one-half row-gap--default">
- <h2 class="bold mbn1">Как делаю аудит я</h2>
+<section class="grid-columns__last-one-half row-gap--m">
+ <h2 class="bold section__title">Как делаю аудит я</h2>
 <p><a href="/blog/customer-journey-map/" class="link">Составляю карты потребительского опыта</a> и&nbsp;оцениваю, насколько действия маркетологов соотносятся с&nbsp;мыслями, чувствами, поведением клиентов на&nbsp;каждой стадии выбора и&nbsp;использования продукта или услуги. </p>
 
 <section>
 <h3 class="italic">Плюсы</h3>
-    <ul class="ml3  max-width-text row-gap--list">	
+    <ul class="ml3 list-li max-width-text ">	
         <li>Рекомендации напрямую влияют на&nbsp;<strong>улучшение потребительского опыта</strong>.</li>
         <li>Фокус на&nbsp;важном, второстепенные активности не&nbsp;рассматриваются.</li>
     </ul>

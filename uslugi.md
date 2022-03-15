@@ -17,7 +17,7 @@ keywords: "услуги консультанта по маркетингу и с
  <div class="intro max-width-text h1"><h1 class="inline bold">Услуги консультанта по&nbsp;маркетингу и&nbsp;стратегии.</h1> Коротко рассказываю, что делаю. </div>
 
  <section class="full-bleed" itemscope itemtype="https://schema.org/Service">
-    <ul class="list-reset  uslugi__list" itemprop="hasOfferCatalog" itemscope itemtype="https://schema.org/OfferCatalog">
+    <ul class="list-reset  row-gap--m" itemprop="hasOfferCatalog" itemscope itemtype="https://schema.org/OfferCatalog">
                 <li class="block__item" itemprop="itemListElement" itemscope itemtype="https://schema.org/OfferCatalog">                    
                         <h2  class="block__name--align-left h2 uslugi__mark " itemprop="name"><a href="/uslugi/marketing-audit/" class="link">Аудит маркетинга</a></h2>
                          <p class="block__content">Провожу аудит маркетинга, чтобы понять точки роста.  </p>                   
@@ -39,12 +39,12 @@ keywords: "услуги консультанта по маркетингу и с
 
 
 
-<section class="uslugi__faq full-bleed row-gap--default" itemscope itemtype="https://schema.org/FAQPage">
+<section class="uslugi__faq full-bleed row-gap--m" itemscope itemtype="https://schema.org/FAQPage">
 <div class="block__item">
 <div class="block__sign"></div>
 <div class="block__name"> <h2 class="h2 bold"> Вопрос - Ответ </h2></div>
 </div>
-<ul class="full-bleed row-gap--list">
+<ul class="full-bleed row-gap--m">
 <li class="block__item " itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
         <h3 class="bold block__name--align-left " itemprop="name">Сколько стоит один час вашей консультации?</h3>
         <div class="block__content--align-left" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">          

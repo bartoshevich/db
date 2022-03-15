@@ -55,6 +55,7 @@ p {
 
 .list-li {
     margin-left: var(--space-s);
+    padding: var(--space-3xs) 0;
 }
 
 .list-ol {
@@ -78,7 +79,7 @@ p {
 
 
 .max-width-text {
-   max-width: 660px;
+   max-width: 680px;
 }
 
 
@@ -131,8 +132,10 @@ p {
  }
 
 
+
 .section__title {
-    font-size: 1.8rem;
+    margin-top: var(--space-m-l);
+    margin-bottom: -.5em;
     
  
 }
@@ -188,8 +191,8 @@ p {
 
 
 .additive-spacing > * {
-    margin-bottom: var(--content-bottom-gap);
-    margin-top: var(--content-top-gap);
+    margin-bottom: calc(var(--space-s-m)/2);
+    margin-top: calc(var(--space-s-m)/2);
   }
  
   .additive-spacing > :first-child {
@@ -210,3 +213,6 @@ p {
       margin-left: var(--space-2xl);
   }
   
+.mt-m {
+    margin-top:var(--space-m);
+}

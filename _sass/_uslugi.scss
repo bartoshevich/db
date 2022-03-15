@@ -1,9 +1,4 @@
-.uslugi__list {
-	display: grid;
-	grid-template-columns: 1fr;
-	grid-gap: var(--space-m-l);
-	width: 100%;
-  }
+
 
   .uslugi__faq {
     margin-top: var(--space-2xl);
@@ -14,3 +9,4 @@
   content: "•";
   margin-right: var(--space-2xs);
 }
+
