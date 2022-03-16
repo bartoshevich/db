@@ -216,3 +216,14 @@ p {
 .mt-m {
     margin-top:var(--space-m)!important;
 }
+
+
+.block-230 {
+    width: 230px;
+    height: auto;   
+  }
+
+.qr-code {
+    border: 1px dotted $text-colour;
+    border-radius: 8px;
+}

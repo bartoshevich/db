@@ -1,0 +1,66 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+  <title>{{ page.title }}</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">  
+
+  {% include meta.html %} 
+  
+  
+  <link rel="stylesheet" type="text/css" href="/assets/css/style.css"> 
+
+  <script type="application/ld+json">
+	{
+	  "@context": "http://schema.org",
+	  "@type": "Organization",
+	  "name": "Консультант по маркетингу Дмитрий Бартошевич",
+	  "url": "https://bartoshevich.by",
+	  "legalName": "ИП Бартошевич Д.А.",
+	  "taxID": "192414874",
+	  "email": "dmitry@bartoshevich.by",
+	  "description": "Дмитрий Бартошевич - консультант по маркетингу и стратегии",
+	  "alternateName": [
+		"Дмитрий Барташевич"
+	  ],
+	  "sameAs": [
+	  "https://www.facebook.com/bartoshevichby/",
+	  "https://www.linkedin.com/in/bartoshevich",
+	  "https://twitter.com/dbartoshevich"
+	  ],
+	  "image": [
+		"https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto:best/v1531856696/site/me2-840.jpg",
+		"https://res.cloudinary.com/bartoshevich/image/upload/q_auto:best,f_auto/v1531856696/site/me1-840.jpg"		
+	  ],
+	  "address": {
+		  "@type": "PostalAddress",
+		  "addressLocality": "Минск", 
+		  "postalCode": "220073",
+		  "streetAddress": "ул. Ольшевского, 22, комната 6 (7 этаж)"
+	  },
+	  "contactPoint": {		
+		"@type" : "ContactPoint",
+		"contactType": "работа с клиентами",
+		"email": "dmitry@bartoshevich.by",
+		"telephone": "+375297753340",
+		"hoursAvailable": [
+		  "Mo-Fri 09:00-18:00", 
+		  "Sa 10:00-14:00" 
+		],
+		"url": "https://bartoshevich.by/contact/"
+	  },
+	  "founder": "Дмитрий Бартошевич",
+	  "foundingDate": "2015-01-28"
+	  
+	}
+    </script>
+
+  </head>
+<body class="body">
+
+ {{ content }}
+ {% include script.html %}
+
+</body>
+</html>

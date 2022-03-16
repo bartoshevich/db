@@ -2,7 +2,7 @@
 layout: default
 permalink: /uslugi/subscription-service/
 description: "Подписка на доступ к моим знаниям и навыкам"
-title: "Маркетинговое обслуживание"
+title: "Маркетинговое обслуживание | Дмитрий Бартошевич"
 keywords: "маркетинговое обслуживание"
 ---
 

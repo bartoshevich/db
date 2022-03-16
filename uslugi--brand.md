@@ -2,7 +2,7 @@
 layout: default
 permalink: /uslugi/brand-conception/
 description: "Концепция бренда"
-title: "Концепция бренда"
+title: "Создание концепции бренда | Дмитрий Бартошевич"
 keywords: "разработка концепции бренда"
 ---
 
@@ -88,7 +88,7 @@ keywords: "разработка концепции бренда"
 
 
 
-<section class="block__space--top-h2 full-bleed row-gap--m"  id="brand-conception-algorithm">
+<section class="block__space--top-h2 full-bleed row-gap--m"  id="algorithm">
 
 	<h2 class="h1 bold">Как&nbsp;я&nbsp;разрабатываю концепцию бренда</h2>
 

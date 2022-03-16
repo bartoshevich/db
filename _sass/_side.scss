@@ -1,0 +1,59 @@
+
+.with-side {
+    position : relative;
+    }
+    
+    
+    .side {
+    margin-top : 8px;
+    line-height: 1.4em;
+    color : inherit;
+    position : absolute;
+    top : 0;
+    left : 115%;
+    width : 16vw;
+    color: $text-colour;
+    margin-bottom: 2em;
+    }
+    
+    .side img {
+    width : auto;
+    max-width : 100%;
+    }
+    
+   
+    .side > * {
+        font-size:var(--step--1);
+    line-height: 1.35;
+    }
+    
+    .span__side {
+      font-size: .8em;
+    line-height: 1.36em;
+    margin-bottom: 0;
+    }
+    
+    .side strong {
+    font-size : 2rem;
+    font-weight : 100;
+    }
+    
+    .side li {
+        margin-left: var(--space-s);
+        padding: var(--space-3xs) 0;
+    }
+    
+    .side > p + ul {
+      margin: 0;
+    }
+    
+    @media screen and (max-width:1430px) {
+    .side {
+    position : relative;
+    left : 9%;
+    width : 90%;
+    padding: 0;
+    margin-bottom: 1.5em;    
+    }
+    }
+    

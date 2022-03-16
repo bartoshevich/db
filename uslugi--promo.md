@@ -2,7 +2,7 @@
 layout: default__video
 permalink: /uslugi/promo-conception/
 description: "Создание концепций рекламных кампаний"
-title: "Концепция рекламной кампании"
+title: "Концепция рекламной кампании | Дмитрий Бартошевич"
 keywords: "реклама, рекламные кампании"
 ---
 
