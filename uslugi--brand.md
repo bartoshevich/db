@@ -10,7 +10,7 @@ keywords: "разработка концепции бренда"
   
   {% include menu__uslugi--brand.html %}
 
-<main class="section__content">
+<main class="section__content row-gap--m">
        
 
  <div class="intro max-width-text h1"><h1 class="inline bold">Концепция бренда.</h1> Рассказываю, что это такое, зачем нужна и&nbsp;как разрабатываю. В&nbsp;конце&nbsp;&mdash; отзывы клиентов. </div>
@@ -197,7 +197,7 @@ keywords: "разработка концепции бренда"
 
 
  
-<div class="figure">
+<div class="mt-m">
 
 <div class="figcaption">
             <p> <span class="bold">Пример.</span> Содержание презентации с&nbsp;концепцией бренда, которую я&nbsp;разработал для&nbsp;Hörmann. <a href="/blog/brand-conception-hormann/" class="link">Описание кейса </a></p>

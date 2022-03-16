@@ -26,6 +26,9 @@
 <loc>http://localhost:4000/uslugi/brand-conception/</loc>
 </url>
 <url>
+<loc>http://localhost:4000/uslugi/promo-conception/</loc>
+</url>
+<url>
 <loc>http://localhost:4000/uslugi/</loc>
 </url>
 </urlset>
