@@ -105,8 +105,9 @@ image:
 <section class="block__space--top-h2 row-gap--m">
 <h2 id="info" class="h2 bold" >Контакты </h2>
 	
-<p>Если вы&nbsp;заинтересованы в&nbsp;работе со&nbsp;мной, буду рад обсудить задачи. </p>
 <div class="with-side row-gap--m">
+<p>Если вы&nbsp;заинтересованы в&nbsp;работе со&nbsp;мной, буду рад обсудить задачи. </p>
+
 
 <p> Вы можете отправить письмо на электронную почту <a class="link" href="mailto:dmitry@bartoshevich.by" title="написать" >dmitry@bartoshevich.by</a>. Будет хорошо, если обозначите, какая задача стоит перед вами, что вы&nbsp;хотите добиться и&nbsp;в&nbsp;чем видите мою роль. Отвечу в&nbsp;течение двух рабочих дней. </p>
 
