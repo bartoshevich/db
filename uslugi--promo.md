@@ -8,7 +8,7 @@ keywords: "реклама, рекламные кампании"
 
 <div class="body__container">
   
-  {% include menu__uslugi-promo.html %}
+  {% include menu__uslugi--promo.html %}
 
 <main class="section__content row-gap--m">
        
