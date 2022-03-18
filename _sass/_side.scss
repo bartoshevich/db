@@ -5,7 +5,7 @@
     
     
     .side {
-    margin-top : 8px;
+   margin-top : .4em;
     line-height: 1.4em;
     color : inherit;
     position : absolute;
@@ -13,7 +13,6 @@
     left : 115%;
     width : 16vw;
     color: $text-colour;
-    margin-bottom: 2em;
     }
     
     .side img {
@@ -52,8 +51,7 @@
     position : relative;
     left : 9%;
     width : 90%;
-    padding: 0;
-    margin-bottom: 1.5em;    
+    padding: 0; 
     }
     }
     

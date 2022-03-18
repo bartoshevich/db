@@ -22,7 +22,7 @@ image:
 
 	
 <section class="row-gap--m">
-<h2 class="h2 bold"> Подход к работе</h2>
+<h2 class="h1 bold"> Подход к работе</h2>
 
 
 <p>Убежден, что <b>маркетинг</b> должен укреплять отличия, значимые для целевой аудитории. Все, абсолютно все, что делает <b>маркетолог</b>, должно работать на&nbsp;эту задачу. Только так клиенты быстро найдут свою компанию, а&nbsp;компания&nbsp;&mdash; своих клиентов.</p>
@@ -63,7 +63,7 @@ image:
 
 
 <section class="block__space--top-h2 row-gap--m">
-<h2 class="h2 bold">Поддержка ЕБРР </h2>
+<h2 class="h1 bold">Поддержка ЕБРР </h2>
 <div class="with-side row-gap--m">
 
 
@@ -78,8 +78,8 @@ image:
 </section>
 
 
-<section class="block__space--top-h2 row-gap--m">
-<h2 class="h2 bold">Причины не&nbsp;обращаться ко&nbsp;мне</h2>
+<section class="block__space--top-h2 row-gap--m max-width-text">
+<h2 class="h1 bold">Причины не&nbsp;обращаться ко&nbsp;мне</h2>
 <p>Чтобы сэкономить время нам обоим, назову несколько причин не&nbsp;связываться со&nbsp;мной:</p>
 <ul class="additive-spacing">
 	<li class="list-li">
@@ -103,7 +103,7 @@ image:
 
 
 <section class="block__space--top-h2 row-gap--m">
-<h2 id="info" class="h2 bold" >Контакты </h2>
+<h2 id="info" class="h1 bold" >Контакты </h2>
 	
 <div class="with-side row-gap--m">
 <p>Если вы&nbsp;заинтересованы в&nbsp;работе со&nbsp;мной, буду рад обсудить задачи. </p>
