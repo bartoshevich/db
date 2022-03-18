@@ -28,6 +28,10 @@ p {
 .text-color {
     color: $text-colour!important;
 }
+
+.secondary-color {
+    color: $secondary-text-colour;
+}
 .regular {
     font-weight: 400;
 }
