@@ -14,7 +14,7 @@ keywords: "маркетинговое обслуживание"
        
 
 
-<div class="intro max-width-text h1"><h1 class="inline bold">Абонентское маркетинговое обслуживание</h1> </div>
+<div class="intro max-width-text"><h1 class="inline bold">Абонентское маркетинговое обслуживание</h1> </div>
 
 <p> Заказчикам, которым разработал концепцию бренда, я&nbsp;предлагаю <b>абонентское маркетинговое обслуживание</b>: </p>
 		<ul class="row-gap--s"> 

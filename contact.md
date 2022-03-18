@@ -18,7 +18,7 @@ image:
        
 
 
-<div class="intro max-width-text h1"><h1 class="inline bold">Работать вместе</h1>. Контакты&nbsp;— в&nbsp;конце страницы. Но&nbsp;сначала позвольте рассказать о&nbsp;том, как я&nbsp;работаю, и&nbsp;когда стоит&nbsp;/ не&nbsp;стоит ко&nbsp;мне обращаться. </div>
+<div class="intro max-width-text"><h1 class="inline bold">Работать вместе</h1>. Контакты&nbsp;— в&nbsp;конце страницы. Но&nbsp;сначала позвольте рассказать о&nbsp;том, как я&nbsp;работаю, и&nbsp;когда стоит&nbsp;/ не&nbsp;стоит ко&nbsp;мне обращаться. </div>
 
 	
 <section class="row-gap--m">

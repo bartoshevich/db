@@ -11,8 +11,11 @@ p {
     font-size: var(--step-1);
 }
 
+
+
 .intro {
-    margin-bottom: var(--space-l-xl);    
+    margin-bottom: var(--space-l-xl);   
+    font-size: calc(1.1*var(--step-2)); 
 }
 
 

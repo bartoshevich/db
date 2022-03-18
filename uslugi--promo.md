@@ -14,7 +14,7 @@ keywords: "реклама, рекламные кампании"
        
 
 
-<div class="intro max-width-text h1"><h1 class="inline bold">Создаю концепции рекламных кампаний</h1> </div>
+<div class="intro max-width-text"><h1 class="inline bold">Создаю концепции рекламных кампаний</h1> </div>
 
 <p>Стремлюсь, чтобы рекламная кампания содержала только одно ключевое послание, связанное с&nbsp;желаемым образом бренда. Без отвлеченных деталей и&nbsp;смыслов. Без ажитированной гонки за&nbsp;сиюминутными лайками и&nbsp;просмотрами. </p>
 
@@ -31,7 +31,7 @@ keywords: "реклама, рекламные кампании"
 
     <div class="figure">
         <div class="figcaption">
-            Эскиз видеоролика
+            эскиз видеоролика
         </div>
         <div class="video">
             <a class="video__link " href="https://youtu.be/LcRjumujYws" target="_blank" rel="noopener nofollow noreferrer">

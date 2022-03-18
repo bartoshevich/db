@@ -14,7 +14,7 @@ keywords: "faq"
        
 
 
- <div class="intro max-width-text h1"><h1 class="inline bold">FAQ</h1>. Отвечаю на&nbsp;вопросы. Не&nbsp;нашли своего&nbsp;— <a class="link" href="https://t.me/bartoshevich">напишите в&nbsp;telegram</a>. </div>
+ <div class="intro max-width-text"><h1 class="inline bold">FAQ</h1>. Отвечаю на&nbsp;вопросы. Не&nbsp;нашли своего&nbsp;— <a class="link" href="https://t.me/bartoshevich">напишите в&nbsp;telegram</a>. </div>
 
  <nav class="toc">
  <h2 class="toc__title">Содержание</h2>

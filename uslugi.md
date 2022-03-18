@@ -14,7 +14,7 @@ keywords: "услуги консультанта по маркетингу и с
        
 
 
- <div class="intro max-width-text h1"><h1 class="inline bold">Услуги консультанта по&nbsp;маркетингу и&nbsp;стратегии.</h1> Коротко рассказываю, что делаю. </div>
+ <div class="intro max-width-text"><h1 class="inline bold">Услуги консультанта по&nbsp;маркетингу и&nbsp;стратегии.</h1> Коротко рассказываю, что делаю. </div>
 
  <section class="full-bleed" itemscope itemtype="https://schema.org/Service">
     <ul class="list-reset  row-gap--l" itemprop="hasOfferCatalog" itemscope itemtype="https://schema.org/OfferCatalog">
