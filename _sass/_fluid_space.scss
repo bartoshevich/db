@@ -2,6 +2,11 @@
 
 
 :root {
+
+  --fc-s-min:  17.00; 
+  --fc-s-max:  19.00;
+
+
   --fc-3xs-min: (var(--fc-s-min) * 0.25); 
   --fc-3xs-max: (var(--fc-s-max) * 0.25);
 
@@ -10,9 +15,6 @@
 
   --fc-xs-min: (var(--fc-s-min) * 0.75); 
   --fc-xs-max: (var(--fc-s-max) * 0.75);
-
-  --fc-s-min: (var(--f-0-min, 17)); 
-  --fc-s-max: (var(--f-0-max, 19));
 
   --fc-m-min: (var(--fc-s-min) * 1.5); 
   --fc-m-max: (var(--fc-s-max) * 1.5);
