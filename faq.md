@@ -110,10 +110,10 @@ keywords: "faq"
 
 
 
-<section class="block__space--top-h2 additive-spacing" itemscope itemtype="https://schema.org/FAQPage">
+<section class="block__space--top-h2 row-gap--l" itemscope itemtype="https://schema.org/FAQPage">
 
 
-    <h2 class="h1 bold" id="1"> Отличия </h2>
+    <h2 class="h1 bold mb-m" id="1"> Отличия </h2>
     <div class="additive-spacing" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
         <h3 class="h2 bold" id="agency" itemprop="name">В&nbsp;чем ваше отличие от&nbsp;брендинговых агентств? </h3>
         <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
@@ -150,7 +150,7 @@ keywords: "faq"
 
 
     <div class="additive-spacing" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
-        <h3 class="mt-m h2 bold" id="in-house" itemprop="name">В&nbsp;чем ваше отличие от&nbsp;штатных маркетологов?</h3>
+        <h3 class="h2 bold" id="in-house" itemprop="name">В&nbsp;чем ваше отличие от&nbsp;штатных маркетологов?</h3>
         <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
             <div itemprop="text">
                 <ul class="additive-spacing max-width-text">
@@ -167,7 +167,7 @@ keywords: "faq"
 
 
     <div class="additive-spacing" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
-        <h3 class="mt-m h2 bold" id="freelancer" itemprop="name">В&nbsp;чем ваше отличие от&nbsp;фрилансеров? </h3>
+        <h3 class="h2 bold" id="freelancer" itemprop="name">В&nbsp;чем ваше отличие от&nbsp;фрилансеров? </h3>
         <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
             <div itemprop="text">
                 <ul class="additive-spacing max-width-text">
@@ -200,8 +200,8 @@ keywords: "faq"
 
 
 
-<section class="block__space--top-h2 row-gap--m" itemscope itemtype="https://schema.org/FAQPage">
-    <h2 class="h1 bold" id="2"> Сотрудничество </h2>
+<section class="block__space--top-h2 row-gap--l max-width-text" itemscope itemtype="https://schema.org/FAQPage">
+    <h2 class="h1 bold mb-m" id="2"> Сотрудничество </h2>
 
  <div class="additive-spacing" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
         <h3 class="h2 bold" id="cost" itemprop="name">Сколько стоит один час вашей консультации?</h3>
@@ -218,7 +218,7 @@ keywords: "faq"
 
 
     <div class="additive-spacing" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
-        <h3 class="h2 bold mt-m" id="conception" itemprop="name">Нашей компании нужна идея, как отстроиться от&nbsp;конкурентов. И&nbsp;нужна «уже вчера».</h3>
+        <h3 class="h2 bold" id="conception" itemprop="name">Нашей компании нужна идея, как отстроиться от&nbsp;конкурентов. И&nbsp;нужна «уже вчера».</h3>
         <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
             <div itemprop="text">
                 <p>В&nbsp;работе я&nbsp;следую <a class="link" href="/uslugi/brand-conception/#algorithm">определенному алгоритму</a>. В&nbsp;результате у&nbsp;вас будет идея, значимая для клиентов и&nbsp;которая отличит вас от&nbsp;конкурентов. Она послужит фундаментом
@@ -229,7 +229,7 @@ keywords: "faq"
 
 
     <div class="additive-spacing" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
-        <h3 class="h2 bold mt-m" id="sales" itemprop="name">У&nbsp;нас упал объем продаж. Вы&nbsp;сможете исправить ситуацию? </h3>
+        <h3 class="h2 bold" id="sales" itemprop="name">У&nbsp;нас упал объем продаж. Вы&nbsp;сможете исправить ситуацию? </h3>
         <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
             <div itemprop="text">
                 <p>В&nbsp;чем причина падения объема продаж? Это могут быть факторы, на&nbsp;которые маркетинг повлиять не&nbsp;может в&nbsp;принципе. Необходимо анализировать и&nbsp;выявлять задачи для решения. И&nbsp;затем уже обсуждать, насколько я&nbsp;могу
@@ -241,7 +241,7 @@ keywords: "faq"
 
 
     <div class="additive-spacing" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
-        <h3 class="h2 bold mt-m" id="reference" itemprop="name">Порекомендуйте нас своим клиентам. Мы&nbsp;заплатим.</h3>
+        <h3 class="h2 bold" id="reference" itemprop="name">Порекомендуйте нас своим клиентам. Мы&nbsp;заплатим.</h3>
         <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
             <div itemprop="text">
                 <p>Я&nbsp;не&nbsp;беру деньги за&nbsp;«сводничество». И&nbsp;не&nbsp;даю. Если пойму, что кому-то из&nbsp;клиентов вы&nbsp;можете быть полезны, я&nbsp;обязательно дам ваши контакты. </p>
@@ -252,7 +252,7 @@ keywords: "faq"
 
 
 		<div class="additive-spacing" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
-				<h3 class="h2 bold mt-m" id="putad" itemprop="name">Разместите нашу рекламу у&nbsp;себя на&nbsp;сайте </h3>
+				<h3 class="h2 bold" id="putad" itemprop="name">Разместите нашу рекламу у&nbsp;себя на&nbsp;сайте </h3>
 				<div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
 						<div itemprop="text">
 								<p> Не&nbsp;стану. <a class="link" href="/confidentiality/">На&nbsp;сайте нет и&nbsp;не&nbsp;будет рекламы</a>.</p>
@@ -260,8 +260,8 @@ keywords: "faq"
 				</div>
 		</div>
 </section>
-<section class="block__space--top-h2 row-gap--m" itemscope itemtype="https://schema.org/FAQPage">
-    <h2 class="h1 bold" id="3"> Другое </h2>
+<section class="block__space--top-h2 row-gap--l max-width-text" itemscope itemtype="https://schema.org/FAQPage">
+    <h2 class="h1 bold mb-m"  id="3"> Другое </h2>
 
 
     <div class="additive-spacing" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
@@ -275,7 +275,7 @@ keywords: "faq"
 
 
      <div class="additive-spacing" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
-        <h3 class="h2 bold mt-m" id="new_articles" itemprop="name">Давно не&nbsp;было новых статей в&nbsp;блоге. Когда планируете публикацию?</h3>
+        <h3 class="h2 bold" id="new_articles" itemprop="name">Давно не&nbsp;было новых статей в&nbsp;блоге. Когда планируете публикацию?</h3>
         <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
             <div itemprop="text">
                 <p>Я&nbsp;хочу делиться с&nbsp;вами действительно ценным и&nbsp;хорошо подготовленным материалом. Это означает, что время от&nbsp;времени вы&nbsp;не&nbsp;получаете от&nbsp;меня известий. Не&nbsp;стесняйтесь <a class="link" href="https://t.me/bartoshevich">отправить мне сообщение</a>, если у&nbsp;вас есть отзывы или предложения. </p>
