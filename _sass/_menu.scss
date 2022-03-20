@@ -185,7 +185,7 @@
 
     .nav__li--selected {
         box-shadow: none;
-        background-color: #f0f0f0;
+        background-color: var(--selected-bg-color);
     	border-radius: 8px;
         text-decoration: none;
 	    color: $text-colour; 

@@ -1,25 +1,25 @@
 
 /* Text  */
 
-$text-colour:#000000; //#161616; 	
-$secondary-text-colour: #6e6e73;
+$text-colour:var(--text-colour);	
+$secondary-text-colour: var(--secondary-text-colour);
 
 /* Color */
-$background-color: #ffffff; //#e5e5e5;
-$toc:#fafafa;
+$background-color: var(--background-color);
+$toc: var(--toc);
 
 /*  Link  */
 
-$link: #000000;//#0b42c3;
-$link-hover:  #000000;//#0b42c3;
-$link-active: #000000;
-$link-bg:  	#fffb27;
+$link: var(--link);
+$link-hover: var(--link-hover);
+$link-active: var(--link-active);
+$link-bg: var(--link-bg);
 
 
 
 /* Border */
 
-$gray: #eaeaea; 
+$gray: var(--gray); 
 
 
 // Typography
