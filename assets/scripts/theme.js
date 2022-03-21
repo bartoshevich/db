@@ -81,17 +81,3 @@ function clearScheme() {
 setupSwitcher();
 setupScheme();
 
-
-if (localStorage.getItem("dark-mode") === "false") {
-    html.classList.add(lightModeClass);
-    switchInput.checked = false;
-    switchLabelText.textContent = "Light";
-  }
-   
-  switchInput.addEventListener("input", function () {
-    if (html.classList.contains(lightModeClass)) {
-      localStorage.setItem("dark-mode", "false");
-    } else {
-      localStorage.setItem("dark-mode", "true");
-    }
-  });
