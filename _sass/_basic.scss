@@ -90,45 +90,6 @@ p {
 }
 
 
-// Links 
-.link {
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale; 
-   text-decoration: underline;
-  text-decoration-thickness: max(.055rem, 0.0625rem);
-   text-underline-offset: 0.1em;
-    color: $link;
-}  
-
-.link:hover {
-    
-    text-decoration-thickness: max(0.1875rem, 0.12rem);
-    -webkit-text-decoration-skip-ink: none;
-    text-decoration-skip-ink: none;
-    -webkit-text-decoration-skip: none;
-    text-decoration-skip: none;
-}
-
-.link:focus {
-    outline: 3px solid transparent;
-    color: $link-active;
-    background-color: $link-bg;
-    -webkit-box-shadow: 0 -2px $link-bg, 0 4px $link-active;
-    box-shadow: 0 -2px $link-bg, 0 4px $link-active;
-    text-decoration: none;
-}
-
-.link:visited {
-    color: $link;
-}
-
-.link:hover {
-    color: $link-hover;
-}
-
-.link:active {
-    color: $link-active;
-}
 
 
 /*  title   */

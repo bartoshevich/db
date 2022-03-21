@@ -1,0 +1,78 @@
+
+.link {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale; 
+   text-decoration: underline;
+  text-decoration-thickness: max(.055rem, 0.0625rem);
+   text-underline-offset: 0.1em;
+    color: $link;
+}  
+
+.link:visited {
+    color: $link;
+}
+
+.link:hover {
+        text-decoration-thickness: max(0.1875rem, 0.12rem);
+    -webkit-text-decoration-skip-ink: none;
+    text-decoration-skip-ink: none;
+    -webkit-text-decoration-skip: none;
+    text-decoration-skip: none;
+}
+
+.link:focus {
+    outline: 3px solid transparent;
+    color: $link;
+    background-color: $link-bg;
+    -webkit-box-shadow: 0 -2px $link-bg, 0 4px $link-active;
+    box-shadow: 0 -2px $link-bg, 0 4px $link-active;
+    text-decoration: none;
+}
+
+.link:hover {
+    color: $link-hover;
+}
+
+.link:active {
+    color: $link-active;
+}
+
+
+
+.link-is-more {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale; 
+   text-decoration: underline;
+  text-decoration-thickness: max(.055rem, 0.0625rem);
+   text-underline-offset: 0.1em;
+    color: $secondary-text-colour;
+}
+
+.link-is-more:visited {
+    color: $secondary-text-colour;
+}
+
+.link-is-more:hover {
+    text-decoration-thickness: max(0.1875rem, 0.12rem);
+-webkit-text-decoration-skip-ink: none;
+text-decoration-skip-ink: none;
+-webkit-text-decoration-skip: none;
+text-decoration-skip: none;
+}
+
+.link-is-more:focus {
+outline: 3px solid transparent;
+color: $link-hover;
+background-color: $link-bg;
+-webkit-box-shadow: 0 -2px $link-bg, 0 4px $link-hover;
+box-shadow: 0 -2px $link-bg, 0 4px $link-active;
+text-decoration: none;
+}
+
+.link-is-more:hover {
+color: $link-hover;
+}
+
+.link-is-more:active {
+color: $link-active;
+}
