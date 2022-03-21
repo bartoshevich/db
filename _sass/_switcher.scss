@@ -62,7 +62,7 @@
     background-image: url('/assets/images/icons/status.svg');
     background-size: 28px;
     background-position: center;
-    transition: background-position 0.1s ease-in;
+    transition: background-position .01s ease-in;
 }
 
 .switcher__radio:focus-visible ~ .switcher__status {

@@ -1,3 +1,8 @@
+:root {
+  color-scheme: light dark;
+  supported-color-schemes: light dark;
+}
+
 
 *,
 *:before,
@@ -16,8 +21,7 @@
 }
 
 :root {
-  color-scheme: dark light;
-  supported-color-schemes: dark light;
+ 
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   -webkit-text-size-adjust: none;

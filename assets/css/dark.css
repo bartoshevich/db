@@ -1,4 +1,5 @@
 :root {
+  color-scheme: dark;
     --background-color: #232323;
     --selected-bg-color: rgb(63, 63, 63);
     --text-colour: #fefefe;
@@ -13,7 +14,7 @@
     --icon-filter_hover: invert(60%);
     --icon-filter: invert(100%);
     --icon-filter_hover: invert(40%);
-    --image-filter: grayscale(50%);
+    --image-filter: brightness(.8) contrast(1.2); // grayscale(50%); 
   
   }
   
