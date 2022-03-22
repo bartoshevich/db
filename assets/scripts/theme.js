@@ -1,83 +1,58 @@
-const lightStyles = document.querySelectorAll('link[rel=stylesheet][media*=prefers-color-scheme][media*=light]');
-const darkStyles = document.querySelectorAll('link[rel=stylesheet][media*=prefers-color-scheme][media*=dark]');
-const darkSchemeMedia = matchMedia('(prefers-color-scheme: dark)');
-const switcherRadios = document.querySelectorAll('.switcher__radio');
+const storageKey = 'theme-preference'
 
-function setupSwitcher() {
-    const savedScheme = getSavedScheme();
+const onClick = () => {
 
-    if (savedScheme !== null) {
-        const currentRadio = document.querySelector(`.switcher__radio[value=${savedScheme}]`);
-        currentRadio.checked = true;
-    }
+  theme.value = theme.value === 'light'
+    ? 'dark'
+    : 'light'
 
-    [...switcherRadios].forEach((radio) => {
-        radio.addEventListener('change', (event) => {
-            setScheme(event.target.value);
-        });
-    });
+  setPreference()
 }
 
-function setupScheme() {
-    const savedScheme = getSavedScheme();
-    const systemScheme = getSystemScheme();
-
-    if (savedScheme === null) return;
-
-    if (savedScheme !== systemScheme) {
-        setScheme(savedScheme);
-    }
+const getColorPreference = () => {
+  if (localStorage.getItem(storageKey))
+    return localStorage.getItem(storageKey)
+  else
+    return window.matchMedia('(prefers-color-scheme: dark)').matches
+      ? 'dark'
+      : 'light'
 }
 
-function setScheme(scheme) {
-    switchMedia(scheme);
-
-    if (scheme === 'auto') {
-        clearScheme();
-    } else {
-        saveScheme(scheme);
-    }
+const setPreference = () => {
+  localStorage.setItem(storageKey, theme.value)
+  reflectPreference()
 }
 
-function switchMedia(scheme) {
-    let lightMedia;
-    let darkMedia;
+const reflectPreference = () => {
+  document.firstElementChild
+    .setAttribute('data-theme', theme.value)
 
-    if (scheme === 'auto') {
-        lightMedia = '(prefers-color-scheme: light)';
-        darkMedia = '(prefers-color-scheme: dark)';
-    } else {
-        lightMedia = (scheme === 'light') ? 'all' : 'not all';
-        darkMedia = (scheme === 'dark') ? 'all' : 'not all';
-    }
-
-    [...lightStyles].forEach((link) => {
-        link.media = lightMedia;
-    });
-
-    [...darkStyles].forEach((link) => {
-        link.media = darkMedia;
-    });
+  document
+    .querySelector('#theme-toggle')
+    ?.setAttribute('aria-label', theme.value)
 }
 
-function getSystemScheme() {
-    const darkScheme = darkSchemeMedia.matches;
-
-    return darkScheme ? 'dark' : 'light';
+const theme = {
+  value: getColorPreference(),
 }
 
-function getSavedScheme() {
-    return localStorage.getItem('color-scheme');
+
+reflectPreference()
+
+window.onload = () => {
+  
+  reflectPreference()
+
+  
+  document
+    .querySelector('#theme-toggle')
+    .addEventListener('click', onClick)
 }
 
-function saveScheme(scheme) {
-    localStorage.setItem('color-scheme', scheme);
-}
 
-function clearScheme() {
-    localStorage.removeItem('color-scheme');
-}
-
-setupSwitcher();
-setupScheme();
-
+window
+  .matchMedia('(prefers-color-scheme: dark)')
+  .addEventListener('change', ({matches:isDark}) => {
+    theme.value = isDark ? 'dark' : 'light'
+    setPreference()
+  })
