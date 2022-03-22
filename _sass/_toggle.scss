@@ -70,7 +70,7 @@
 }
 
 .theme-toggle {
-    --size: var(--step-1);
+    --size: var(--step-0);
     --icon-fill: hsl(210 10% 30%);
     --icon-fill-hover: hsl(210 10% 15%);
     background: none;
@@ -97,13 +97,13 @@
     --icon-fill-hover: hsl(210 15% 90%)
 }
 
-/*
+
 @media (hover: none) {
     .theme-toggle {
-        --size: 48px
+        --size: var(--step-1)
     }
 }
-*/
+
 
 
 
