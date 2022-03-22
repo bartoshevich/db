@@ -21,11 +21,11 @@
     -webkit-appearance: none;
     appearance: none;
     margin: 0;
-    width: 32px;
-    height: 30px;
+    width: 26px;
+    height: 20px; 
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 24px;
+    background-size: 20px; 
     transition: filter 0.1s ease-in;
     color: $secondary-text-colour;
 }
@@ -60,7 +60,7 @@
     background-color: background-color;
     background-repeat: no-repeat;
     background-image: url('/assets/images/icons/status.svg');
-    background-size: 28px;
+    background-size: 22px; 
     background-position: center;
     transition: background-position .01s ease-in;
 }
