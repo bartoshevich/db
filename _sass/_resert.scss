@@ -83,6 +83,10 @@ html[data-theme=dark] {
   filter: var(--image-filter);
 }
 
+[data-theme=dark] .svg {
+  filter: var(--icon-filter);
+}
+
 @supports not (color-scheme: dark) {
   html[data-theme=dark] {
       background: #232323;

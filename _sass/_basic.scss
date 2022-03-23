@@ -86,7 +86,7 @@ p {
 
 
 .max-width-text {
-   max-width: 680px;
+   max-width: 670px;
 }
 
 
@@ -198,3 +198,12 @@ p {
     border: 1px dotted $text-colour;
     border-radius: 8px;
 }
+
+.post__note {
+    border-left-width: var(--space-2xs);
+    border-style: double;
+    padding-left: var(--space-xs);
+   
+}
+
+

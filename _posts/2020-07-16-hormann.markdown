@@ -46,14 +46,14 @@ keywords: "брендинг, разработка развитие создан�
 </nav>
 
 
-<section class="full-bleed block__space--top-h2 row-gap--m" id="1">
-<h2 class="h1 bold" >Анализирую задачу </h2>
+<section class="full-bleed  row-gap--m" id="1">
+<h2 class="block__space--top-h2 h1 bold" >Анализирую задачу </h2>
 
 <p>Работу начал стандартно: встретился с&nbsp;руководством белорусского офиса и&nbsp;задавал много вопросов. Обсуждали ценности <b>бренда</b>, товарную линейку, конкурентов, работу с&nbsp;целевой аудиторией и&nbsp;многое другое. Результат&nbsp;— я&nbsp;и&nbsp;клиент были уверены, что одинаково понимаем задачу и&nbsp;ее&nbsp;контекст. </p>
 <p>У&nbsp;Hörmann широкий ассортимент продукции: промышленные, гаражные и&nbsp;скоростные ворота, электроприводы, перегрузочная техника, входные и&nbsp;межкомнатные двери, объектные двери, системы контроля въезда и&nbsp;др. Ключевым направлением для разработки концепции выбрали один из&nbsp;наиболее значимых продуктов концерна&nbsp;— гаражные ворота.</p>
 
-<div class="figure" itemscope itemtype="http://schema.org/ImageObject">
-<img class="image is-2by1" loading="lazy" 
+<div class="figure is-2by1" itemscope itemtype="http://schema.org/ImageObject">
+<img class="image" loading="lazy" 
 srcset="https://res.cloudinary.com/bartoshevich/image/upload/w_1040/f_auto,q_auto/v1626971559/site/hormann_alt.jpg 1x,
 https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1626971559/site/hormann_alt.jpg 1.4x"
 src="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1626971559/site/hormann_alt.jpg"
@@ -69,13 +69,13 @@ width="1460" height="730" alt="гаражные ворота Хёрманн" ite
 </section>
 
 
-<section class="block__space--top-h2 row-gap--m" id="2">
-<h2 class="h1 bold">Изучаю конкурентов </h2>
+<section class="row-gap--m" id="2">
+<h2 class="block__space--top-h2 h1 bold">Изучаю конкурентов </h2>
 <p>Основные конкуренты Hörmann в&nbsp;Беларуси: Алютех, Дорхан и&nbsp;Ритерна. Я&nbsp;изучил сайты компаний, посты в&nbsp;социальных сетях, рекламные брошюры. Для каждого конкурента вывел центральную идею, которую тот пытается донести до&nbsp;покупателей.</p>
 <p>Отметил, что компании описывают себя через одинаковые атрибуты. Каждое предприятие доказывает, что именно их&nbsp;продукция безопасна, надежна, уникальна и&nbsp;пр. </p>
 
-<div class="figure">
-<img class="image is-2by1" loading="lazy" src="https://res.cloudinary.com/bartoshevich/image/upload/f_auto/v1594909933/site/competitors_hormann.jpg" width="700" height="350" alt="основные конкуренты Hörmann"/>
+<div class="figure is-2by1">
+<img class="image" loading="lazy" src="https://res.cloudinary.com/bartoshevich/image/upload/f_auto/v1594909933/site/competitors_hormann.jpg" width="700" height="350" alt="основные конкуренты Hörmann"/>
 <div class="figcaption">Каждый говорит, что именно его продукция безопасна, надежна, уникальна и&nbsp;пр.</div>
 </div>
 
@@ -94,8 +94,8 @@ width="1460" height="730" alt="гаражные ворота Хёрманн" ite
 </section>
 
 
-<section class="block__space--top-h2 row-gap--m" id="3">
-<h2 class="h1 bold">Изучаю целевую аудиторию</h2>
+<section class="row-gap--m" id="3">
+<h2 class="block__space--top-h2 h1 bold">Изучаю целевую аудиторию</h2>
 <p class="mb-m">Целевую аудиторию изучал в&nbsp;двух направлениях:</p>
 <ul class="additive-spacing max-width-text">
 	<li class="list-li">
@@ -144,8 +144,8 @@ width="1460" height="730" alt="гаражные ворота Хёрманн" ite
 
 
 
-<section class="block__space--top-h2 row-gap--m" id="4">
-<h2 class="h1 bold">Составляю структуру бренда </h2>
+<section class="row-gap--m" id="4">
+<h2 class="block__space--top-h2 h1 bold">Составляю структуру бренда </h2>
 
 <p>Сопоставив информацию о&nbsp;конкурентах и&nbsp;целевой аудитории, я&nbsp;предложил <b>структуру бренда</b> Hörmann. </p>
 
@@ -213,8 +213,8 @@ width="1460" height="730" alt="гаражные ворота Хёрманн" ite
 
 
 
-<section class="block__space--top-h2 full-bleed row-gap--m" id="5">
-<h2 class="h1 bold">Внедряем концепцию бренда</h2>
+<section class="full-bleed row-gap--m" id="5">
+<h2 class="block__space--top-h2 h1 bold">Внедряем концепцию бренда</h2>
 <p>Бренд&nbsp;— это не&nbsp;то, что в&nbsp;рабочих папках маркетолога, а&nbsp;то, что в&nbsp;головах людей. Поэтому вместе с&nbsp;белорусским офисом Hörmann мы&nbsp;принялись доносить концепцию до&nbsp;целевой аудитории. Несколько примеров. </p>
 
 <section class="mt-m row-gap--m">
@@ -339,8 +339,8 @@ width="1460" height="730" alt="гаражные ворота Хёрманн" ite
 		<h3 class="h2 bold mb-m">Наружная реклама </h3>
 		<p>Посылы привели в&nbsp;соответствие с&nbsp;концепцией бренда. </p>
 
-		<div class="figure" itemscope itemtype="http://schema.org/ImageObject">
-		<img class="image is-2by1" loading="lazy" src="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1594909933/site/bord_hormann.jpg" width="700" height="350" alt="билборд Хёрманн" itemprop="contentUrl" />
+		<div class="figure is-2by1" itemscope itemtype="http://schema.org/ImageObject">
+		<img class="image " loading="lazy" src="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1594909933/site/bord_hormann.jpg" width="700" height="350" alt="билборд Хёрманн" itemprop="contentUrl" />
 
 		<div class="figcaption" itemprop="description">рекламный щит Hörmann</div>
 		</div>
