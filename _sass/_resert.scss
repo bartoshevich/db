@@ -48,6 +48,11 @@ html {
   --link-active: #000000;
   --link-bg:  	#fffb27;
   --radio-focus: #000000;
+  --table-bg-color: #fbfbfd;
+  --table-border-top: #b5b5b5;
+  --table-border-td: #86868b;
+  --table-bg-th: #f2f2f2;
+  --table-gainsboro:#dcdcdc;
 }
 
 html[data-theme=dark] {
@@ -67,6 +72,11 @@ html[data-theme=dark] {
   --icon-filter: invert(100%);
   --icon-filter_hover: invert(40%);
   --image-filter: grayscale(40%); //brightness(.8) contrast(1.2); 
+  --table-bg-color: #292929;
+  --table-border-top: #4a4a4a;
+  --table-border-td: #797974;
+  --table-bg-th: #2f2f2f;
+  --table-gainsboro:#232323;
 }
 
 [data-theme=dark] img {

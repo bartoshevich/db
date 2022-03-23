@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title:  "Почасовая оплата умерла"
 name: "Почасовая оплата должна умереть"
 description: "Все еще используете часовые ставки? Ну&nbsp;это вы&nbsp;зря!"
@@ -29,12 +29,13 @@ keywords: "методы ценообразования, ценообразова
 
 
 <nav class="toc">
-<ul>
+<ol>
 		  <li>
 		    <a href="#1">
 		      <span class="tocnumber">1 </span>Что не&nbsp;так с&nbsp;оплатой за&nbsp;час?
 		    </a>
 		  </li>
+		  <ul>
 		  <li class="level2">
 		    <a href="#1.1">
 		      <span class="tocnumber">1.1 </span>Пережиток индустриальной эпохи
@@ -55,6 +56,7 @@ keywords: "методы ценообразования, ценообразова
 		      <span class="tocnumber">1.4 </span>Провоцирует конфликты
 		    </a>
 		  </li>
+		  </ul>
 			<li >
 		    <a href="#2">
 		      <span class="tocnumber">2 </span>Альтернатива почасовой оплате 
@@ -65,7 +67,7 @@ keywords: "методы ценообразования, ценообразова
 				<span class="tocnumber">3 </span>Как назначать цены на&nbsp;основе ценности
 			</a>
 		</li>
-</ul>
+</ol>
 </nav>
 
 

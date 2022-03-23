@@ -4,22 +4,58 @@ layout: compress
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-<meta charset="utf-8">
-  <title>{{ page.title }}</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">  
+    <meta charset="utf-8">
+    <title>{{ page.title }}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">  
 
-  {% include meta.html %} 
-  {% include script__theme.html %} 
+    {% include meta.html %} 
+    
 
- 
- 
-  <link rel="stylesheet" type="text/css" href="/assets/css/style.css"> 
+  
+  
+    <link rel="stylesheet" type="text/css" href="/assets/css/style.css"> 
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Article",
+      "headline": "{{ page.title }}",
+      "name": "{{ page.title }}",
+      "description": "{{ page.description }}",
+        "author": "Дмитрий Бартошевич",
+      "creator": "Дмитрий Бартошевич",
+      "datePublished": "{{ page.date | date: "%Y-%m-%e" }}",
+      "dateModified": "{{ page.last_modified_at | last_modified_at: "%Y-%m-%e" }}",
+      "image": "{{ site.url }}{{ page.image }}"
+    
+      }
+  </script>
 
 
-  </head>
+</head>
+
+
+
 <body class="body">
 
+  <div class="body__container">
+  
+    {% include menu__post.html %}
+
+  <main class="section__content row-gap--m">
+
+      
+ 
+
+
  {{ content }}
+
+
+  </main>
+
+
+  {% include footer.html %}
+  </div>
 
  {% include script.html %}
  {% include script__video.html %}

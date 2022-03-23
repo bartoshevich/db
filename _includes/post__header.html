@@ -1,0 +1,5 @@
+<div class="intro">
+    <h1 class=" bold max-width-text">{{ page.name }}</h1> 
+    <small class="small"><time  datetime="{{ page.date | date: "%Y-%m-%e" }}" > {{ page.date | date: "%e %B %Y" | replace: 'January', 'января' | replace: 'February', 'февраля' | replace: 'March', 'марта' | replace: 'April', 'апреля' | replace: 'May', 'мая' | replace: 'June', 'июня' | replace: 'July', 'июля' | replace: 'August', 'августа' | replace: 'September', 'сентября' | replace: 'October', 'октября' | replace: 'November', 'ноября' | replace: 'December', 'декабря' }}</time> 
+    </small>
+</div>

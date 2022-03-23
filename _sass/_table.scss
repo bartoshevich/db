@@ -1,0 +1,85 @@
+
+
+table {
+    position: relative;
+        background-color: var(--table-bg-color);
+        border-top: 7px solid var(--table-border-top);
+        border-collapse: collapse;
+        font-size: 0.87em;
+        margin: 0 0 1.5em 0;
+        text-align: left;
+      }
+    
+    
+    caption {
+        padding: 14px 14px 14px 0;
+        font-size: 1em;
+        font-weight: 700;
+        text-align: left;
+      }
+    
+      td, th {
+        border: 1px solid var(--table-border-td);
+        border-left-width: 0;
+        border-right-width: 0;
+        padding: .3em;
+        vertical-align: top;
+        line-height: 1.2;
+      }
+    
+      thead th, tfoot td {
+        font-weight: 700;
+      }
+    
+    
+      thead th {
+    
+        background-color: var(--table-bg-th);
+      }
+    
+      .sticky {
+        position: -webkit-sticky;
+        position: sticky;
+               top: -4px;
+        z-index: 1;
+    }
+      
+      thead th::after {
+        content: '';
+        position: absolute;
+        bottom: -1px;
+        left: 0;
+        width: 100%;
+        height: 1px;
+        background-color: var(--table-border-td);
+      }
+    
+    
+      .width43 {
+        width: 43%;
+      }
+    
+      .width50 {
+        width: 50%;
+      }
+    
+      .Gainsboro {
+        background-color: var(--table-gainsboro);
+    }
+    
+    td > ul,
+    td > li {
+        margin-left: .1em;
+    }
+    
+    .text-right {
+        text-align: right;
+    }
+    
+      @media (min-width: 768px) {
+        
+    
+        td, th {
+          padding: .9em;
+        }
+      }

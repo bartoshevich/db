@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-03-22T13:46:09+03:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Your awesome title</title><subtitle>Write an awesome description for your new site here. </subtitle><entry><title type="html">Почасовая оплата умерла</title><link href="http://localhost:4000/mnenie/value-based-price/" rel="alternate" type="text/html" title="Почасовая оплата умерла" /><published>2021-01-23T00:00:00+03:00</published><updated>2022-02-05T00:00:00+03:00</updated><id>http://localhost:4000/mnenie/value-based-price</id><content type="html" xml:base="http://localhost:4000/mnenie/value-based-price/"><![CDATA[<div class="with-side">
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-03-23T11:34:31+03:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Your awesome title</title><subtitle>Write an awesome description for your new site here. </subtitle><entry><title type="html">Почасовая оплата умерла</title><link href="http://localhost:4000/mnenie/value-based-price/" rel="alternate" type="text/html" title="Почасовая оплата умерла" /><published>2021-01-23T00:00:00+03:00</published><updated>2022-02-05T00:00:00+03:00</updated><id>http://localhost:4000/mnenie/value-based-price</id><content type="html" xml:base="http://localhost:4000/mnenie/value-based-price/"><![CDATA[<div class="with-side">
 <p>«Почасовая оплата должна умереть,&nbsp;— убежден Дмитрий Лазарев.&nbsp;— Ее&nbsp;место займет <strong>модель ценообразования на&nbsp;основе ценности</strong>». Я&nbsp;посмотрел видео на&nbsp;канале Дмитрия, послушал дебаты на&nbsp;его подкасте и&nbsp;записал основные тезисы в&nbsp;защиту такого подхода, а&nbsp;также примеры реализации. Если вы&nbsp;работник умственного труда и&nbsp;сами назначаете цену на&nbsp;свои услуги, прочтите статью до того, как выслать очередное коммерческое предложение. </p>
 <div class="side">
 		<div class="guests">
@@ -13,12 +13,13 @@
 </div>
 
 <nav class="toc">
-<ul>
+<ol>
 		  <li>
 		    <a href="#1">
 		      <span class="tocnumber">1 </span>Что не&nbsp;так с&nbsp;оплатой за&nbsp;час?
 		    </a>
 		  </li>
+		  <ul>
 		  <li class="level2">
 		    <a href="#1.1">
 		      <span class="tocnumber">1.1 </span>Пережиток индустриальной эпохи
@@ -39,6 +40,7 @@
 		      <span class="tocnumber">1.4 </span>Провоцирует конфликты
 		    </a>
 		  </li>
+		  </ul>
 			<li>
 		    <a href="#2">
 		      <span class="tocnumber">2 </span>Альтернатива почасовой оплате 
@@ -49,7 +51,7 @@
 				<span class="tocnumber">3 </span>Как назначать цены на&nbsp;основе ценности
 			</a>
 		</li>
-</ul>
+</ol>
 </nav>
 
 <h2 id="1">Что не&nbsp;так с&nbsp;оплатой за&nbsp;час?</h2>
@@ -330,87 +332,94 @@
 
 <p>Задача бренд-менеджера&nbsp;— достичь сознания целевой аудитории и&nbsp;там закрепиться. Я&nbsp;часто привожу пример со&nbsp;сперматозоидами, которые борются за&nbsp;возможность оплодотворения яйцеклетки. Эту&nbsp;же аналогию использовал Йенс Нордфальт, описывая задачи маркетолога в&nbsp;точке продаж. Цель не&nbsp;в&nbsp;том, как понравиться больше других, а&nbsp;как пробиться сквозь фильтры восприятия и&nbsp;стать заметным. Успех ждет того, кто сумеет это сделать и&nbsp;затем умело распорядится проторенными «ментальными дорожками». </p>
 
-<p>Мое мнение, <strong>бренд-менеджер и&nbsp;маркетолог в&nbsp;ритейле работает над одной задачей</strong>, но&nbsp;на&nbsp;разных уровнях. Слабый брендинг делает человека восприимчивым к&nbsp;любым спонтанным (случайным) стимулам среды. Сильный бренд делает чувствительность к&nbsp;внешним раздражителям избирательной. Низкой&nbsp;— к&nbsp;чужим маркам, высокой&nbsp;— к&nbsp;своей. С&nbsp;сильным брендом эффективность торговых акций выше.</p>]]></content><author><name></name></author><category term="мнение" /><category term="маркетолог" /><category term="управление" /><summary type="html"><![CDATA[Решение о&nbsp;покупке во&nbsp;многом зависит от&nbsp;внешних факторов. На&nbsp;выбор можно влиять, правильно организовав ритейл-среду.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/images/tizer-67.png" /><media:content medium="image" url="http://localhost:4000/images/tizer-67.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Разрабатываю концепцию бренда для Hörmann</title><link href="http://localhost:4000/opyt/brand-conception-hormann/" rel="alternate" type="text/html" title="Разрабатываю концепцию бренда для Hörmann" /><published>2020-07-16T00:00:00+03:00</published><updated>2022-02-05T00:00:00+03:00</updated><id>http://localhost:4000/opyt/hormann</id><content type="html" xml:base="http://localhost:4000/opyt/brand-conception-hormann/"><![CDATA[<div class="with-side">
-<p><a href="https://www.hoermann.by" target="_blank" rel="noopener">Белорусский офис концерна Hörmann</a> поручил мне <strong>разработать концепцию бренда</strong>. Предстояло найти идею, с&nbsp;помощью которой компании следует отстраиваться от&nbsp;конкурентов и&nbsp;привлекать клиентов. Поделюсь, как решал задачу и&nbsp;как внедряли результаты работы. </p>
+<p>Мое мнение, <strong>бренд-менеджер и&nbsp;маркетолог в&nbsp;ритейле работает над одной задачей</strong>, но&nbsp;на&nbsp;разных уровнях. Слабый брендинг делает человека восприимчивым к&nbsp;любым спонтанным (случайным) стимулам среды. Сильный бренд делает чувствительность к&nbsp;внешним раздражителям избирательной. Низкой&nbsp;— к&nbsp;чужим маркам, высокой&nbsp;— к&nbsp;своей. С&nbsp;сильным брендом эффективность торговых акций выше.</p>]]></content><author><name></name></author><category term="мнение" /><category term="маркетолог" /><category term="управление" /><summary type="html"><![CDATA[Решение о&nbsp;покупке во&nbsp;многом зависит от&nbsp;внешних факторов. На&nbsp;выбор можно влиять, правильно организовав ритейл-среду.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/images/tizer-67.png" /><media:content medium="image" url="http://localhost:4000/images/tizer-67.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Разрабатываю концепцию бренда для Hörmann</title><link href="http://localhost:4000/opyt/brand-conception-hormann/" rel="alternate" type="text/html" title="Разрабатываю концепцию бренда для Hörmann" /><published>2020-07-16T00:00:00+03:00</published><updated>2022-02-05T00:00:00+03:00</updated><id>http://localhost:4000/opyt/hormann</id><content type="html" xml:base="http://localhost:4000/opyt/brand-conception-hormann/"><![CDATA[<div class="intro">
+    <h1 class=" bold max-width-text">Кейс: концепция бренда для Hörmann Беларусь</h1> 
+    <small class="small"><time datetime="2020-07-16"> 16 июля 2020</time> 
+      <time datetime="2022-02-05">(обновил  5 февраля 2022)</time>
+    </small>
+</div>
+
+<div class="with-side row-gap--m">
+<p><a class="link" href="https://www.hoermann.by">Белорусский офис концерна Hörmann</a> поручил мне <strong>разработать концепцию бренда</strong>. Предстояло найти идею, с&nbsp;помощью которой компании следует отстраиваться от&nbsp;конкурентов и&nbsp;привлекать клиентов. Поделюсь, как решал задачу и&nbsp;как внедряли результаты работы. </p>
 <div class="side">
 <p>Hörmann (Хёрманн)&nbsp;— немецкий производитель дверей, гаражных и&nbsp;промышленных ворот, электроприводов. </p>
 </div>
 </div>
 
-<nav class="toc">
-<ul>
-		  <li>
-		    <a href="#1">
-		      <span class="tocnumber">1 </span>Анализирую задачу
+<nav class="toc mt-m">
+<h2 class="toc__title">Содержание</h2>
+<ul class="additive-spacing">
+		  <li>		  
+		      <span class="tocnumber">1 </span>
+			    <a class="link" href="#1">
+				Анализирую задачу
 		    </a>
 		  </li>
 		  <li>
-		    <a href="#2">
-		      <span class="tocnumber">2 </span>Изучаю конкурентов
-		    </a>
+				      <span class="tocnumber">2 </span> <a class="link" href="#2"> Изучаю конкурентов    </a>
 		  </li>
 			<li>
-		    <a href="#3">
-		      <span class="tocnumber">3 </span>Изучаю целевую аудиторию
-		    </a>
+		  		      <span class="tocnumber">3 </span>  <a class="link" href="#3"> Изучаю целевую аудиторию    </a>
 		  </li>
 		  <li>
-		    <a href="#4">
-		      <span class="tocnumber">4 </span>Составляю структуру бренда
-		    </a>
+		  		      <span class="tocnumber">4 </span>  <a class="link" href="#4">Составляю структуру бренда		    </a>
 		  </li>
 			<li>
-			 <a href="#5">
-				 <span class="tocnumber">5 </span>Внедряем концепцию бренда
-			 </a>
+						 <span class="tocnumber">5 </span>	 <a class="link" href="#5"> Внедряем концепцию бренда 		 </a>
 		 </li>
 </ul>
 </nav>
 
-<h2 id="1">Анализирую задачу </h2>
+<section class="full-bleed block__space--top-h2 row-gap--m" id="1">
+<h2 class="h1 bold">Анализирую задачу </h2>
 
 <p>Работу начал стандартно: встретился с&nbsp;руководством белорусского офиса и&nbsp;задавал много вопросов. Обсуждали ценности <b>бренда</b>, товарную линейку, конкурентов, работу с&nbsp;целевой аудиторией и&nbsp;многое другое. Результат&nbsp;— я&nbsp;и&nbsp;клиент были уверены, что одинаково понимаем задачу и&nbsp;ее&nbsp;контекст. </p>
 <p>У&nbsp;Hörmann широкий ассортимент продукции: промышленные, гаражные и&nbsp;скоростные ворота, электроприводы, перегрузочная техника, входные и&nbsp;межкомнатные двери, объектные двери, системы контроля въезда и&nbsp;др. Ключевым направлением для разработки концепции выбрали один из&nbsp;наиболее значимых продуктов концерна&nbsp;— гаражные ворота.</p>
 
-<figure class="image is-2by1" itemscope="" itemtype="http://schema.org/ImageObject">
-<img loading="lazy" srcset="https://res.cloudinary.com/bartoshevich/image/upload/w_760/f_auto,q_auto/v1626971559/site/hormann_alt.jpg 1x,
-https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1626971559/site/hormann_alt.jpg 2x" src="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1626971559/site/hormann_alt.jpg" width="1460" height="730" alt="гаражные ворота Хёрманн" itemprop="contentUrl" />
-<figcaption itemprop="description">Для разработки концепции выбрали один из&nbsp;значимых продуктов концерна&nbsp;— гаражные ворота.
-</figcaption>
-</figure>
+<div class="figure" itemscope="" itemtype="http://schema.org/ImageObject">
+<img class="image is-2by1" loading="lazy" srcset="https://res.cloudinary.com/bartoshevich/image/upload/w_1040/f_auto,q_auto/v1626971559/site/hormann_alt.jpg 1x,
+https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1626971559/site/hormann_alt.jpg 1.4x" src="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1626971559/site/hormann_alt.jpg" width="1460" height="730" alt="гаражные ворота Хёрманн" itemprop="contentUrl" />
+<div class="figcaption" itemprop="description">Для разработки концепции выбрали один из&nbsp;значимых продуктов концерна&nbsp;— гаражные ворота.
+</div>
+</div>
 
 <p>Hörmann&nbsp;— компания международная. В&nbsp;головном офисе ценности и&nbsp;концепция бренда были разработаны. Но&nbsp;часть ценностей (напр., использование возобновляемой энергии) не&nbsp;находит пока отклик у&nbsp;белорусов. А&nbsp;другую часть копируют конкуренты для своих рекламных материалов. И&nbsp;в&nbsp;потоке схожей информации покупателю сложно сделать выбор. </p>
 
 <p>Вопросы для решения: что ценно для клиентов? На&nbsp;какой характеристике делать акцент? Какую идею положить в&nbsp;основу продвижения Hörmann в&nbsp;Беларуси? </p>
+</section>
 
-<h2 id="2">Изучаю конкурентов </h2>
+<section class="block__space--top-h2 row-gap--m" id="2">
+<h2 class="h1 bold">Изучаю конкурентов </h2>
 <p>Основные конкуренты Hörmann в&nbsp;Беларуси: Алютех, Дорхан и&nbsp;Ритерна. Я&nbsp;изучил сайты компаний, посты в&nbsp;социальных сетях, рекламные брошюры. Для каждого конкурента вывел центральную идею, которую тот пытается донести до&nbsp;покупателей.</p>
 <p>Отметил, что компании описывают себя через одинаковые атрибуты. Каждое предприятие доказывает, что именно их&nbsp;продукция безопасна, надежна, уникальна и&nbsp;пр. </p>
 
-<div class="figure image is-2by1"><img loading="lazy" src="https://res.cloudinary.com/bartoshevich/image/upload/f_auto/v1594909933/site/competitors_hormann.jpg" width="700" height="350" alt="основные конкуренты Hörmann" />
+<div class="figure">
+<img class="image is-2by1" loading="lazy" src="https://res.cloudinary.com/bartoshevich/image/upload/f_auto/v1594909933/site/competitors_hormann.jpg" width="700" height="350" alt="основные конкуренты Hörmann" />
 <div class="figcaption">Каждый говорит, что именно его продукция безопасна, надежна, уникальна и&nbsp;пр.</div>
 </div>
 
-<p>Какие выводы сделал: </p>
+<p class="mb-m">Какие выводы сделал: </p>
 
-<ul>
-	<li>
+<ul class="additive-spacing max-width-text">
+	<li class="list-li">
 		Атрибуты необходимо описывать через факты. Фразу «мы&nbsp;большое внимание уделяем безопасности» может сказать и&nbsp;говорит каждый конкурент. Нужно подтверждение. Например, «у&nbsp;нас 50+&nbsp;патентов в&nbsp;сфере безопасности гаражных ворот».
 	</li>
-	<li>
+	<li class="list-li">
 		Технические показатели следует объяснять на&nbsp;понятных для клиента примерах. Напр., не&nbsp;«коэффициент теплоизоляции 2&nbsp;м2*С/Вт», а&nbsp;«теплоизоляция соответствует уровню теплоизоляции кирпичной стены толщиной 60&nbsp;сантиметров».
 	</li>
 </ul>
 
 <p>И&nbsp;здесь появились новые вопросы. Посчитает&nbsp;ли покупатель разницу в&nbsp;безопасности продукции существенной, если у&nbsp;одной компании 23&nbsp;патента в&nbsp;сфере безопасности, а&nbsp;у&nbsp;другой&nbsp;— 52? Покупатель предпочтет ворота с&nbsp;теплоизоляцией эквивалентной двухметровой стене или&nbsp;же сочтет, что и&nbsp;полуметровой стены достаточно? </p>
+</section>
 
-<h2 id="3">Изучаю целевую аудиторию</h2>
-<p>Целевую аудиторию изучал в&nbsp;двух направлениях:</p>
-<ul>
-	<li>
+<section class="block__space--top-h2 row-gap--m" id="3">
+<h2 class="h1 bold">Изучаю целевую аудиторию</h2>
+<p class="mb-m">Целевую аудиторию изучал в&nbsp;двух направлениях:</p>
+<ul class="additive-spacing max-width-text">
+	<li class="list-li">
 		Вместе с&nbsp;дилерами составил карты потребительского опыта: составили несколько портретов типичного клиента и&nbsp;для каждого описали путь от&nbsp;момента осознания потребностей до&nbsp;покупки и&nbsp;рекомендации продукции Hörmann.
 	</li>
-	<li>
+	<li class="list-li">
 		Вместе с&nbsp;исследовательским агентством МАСМИ провел опрос покупателей гаражных ворот и&nbsp;дверей (критерии выбора, слагаемые качества и&nbsp;надежности, восприятие игроков на&nbsp;рынке и&nbsp;пр.). Я&nbsp;готовил техническое задание на&nbsp;исследование, контролировал полевые работы (прослушал каждую запись интервью, проверил корректность озвучивания вопросов, точность и&nbsp;полноту фиксации ответов), анализировал результаты.
 	</li>
 </ul>
@@ -419,12 +428,12 @@ https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1626971559/s
 
 <p>Человек ищет внешние опоры, по&nbsp;которым он&nbsp;сможет принять решение о&nbsp;заказе. Ищет компанию, которая не ​навяжет свое мнение, не&nbsp;«всучит» товар, а&nbsp;предоставит простые и&nbsp;понятные маркеры надежности. </p>
 
-<p>Такими маркерами могут выступать:</p>
-<ul>
-	<li>
+<p class="mb-m">Такими маркерами могут выступать:</p>
+<ul class="additive-spacing max-width-text">
+	<li class="list-li">
 		мета-атрибут, которого нет у&nbsp;конкурентов и&nbsp;из&nbsp;которого будет выводиться безопасность, надежность, качество и&nbsp;другие характеристики продукции;
 	</li>
-	<li>
+	<li class="list-li">
 		социальное доказательство&nbsp;— «Кто уже покупал эти ворота?», «Могут&nbsp;ли они рекомендовать?».
 	</li>
 </ul>
@@ -437,88 +446,95 @@ https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1626971559/s
 
 <p>Я&nbsp;предложил ввести дополнительный мета-атрибут&nbsp;— опыт проектирования и&nbsp;эксплуатации ворот. Hörmann начал выпускать ворота с&nbsp;1935&nbsp;года. Все, что могло случиться, сломаться, выявиться&nbsp;— произошло, опыт получен и&nbsp;учтен немецкими разработчиками в&nbsp;каждой текущей модели. Ни&nbsp;у&nbsp;одной другой компании в&nbsp;этой сфере на&nbsp;рынке&nbsp;РБ подобного опыта нет. </p>
 
-<p>Onliner поделился новостью, как <a href="https://realt.onliner.by/2018/06/20/garazh-7" target="_blank" rel="noopener">в&nbsp;Ивацевичах воротами гаража придавило ребенка</a>. Реакция обывателя: «Я&nbsp;даже не&nbsp;думал, что такое может произойти». На&nbsp;Западе подобное тоже когда-то случалось. Разработчики учитывали свой и&nbsp;чужой опыт и&nbsp;улучшали конструкцию ворот. Сегодня ворота Hörmann оснащены уже проверенной временем системой защиты. Вас не&nbsp;придавит полотном, не&nbsp;защемит пальцы. Вот что означает долгая история эксплуатации и&nbsp;культура потребления. </p>
+<p>Onliner поделился новостью, как <a class="link" href="https://realt.onliner.by/2018/06/20/garazh-7">в&nbsp;Ивацевичах воротами гаража придавило ребенка</a>. Реакция обывателя: «Я&nbsp;даже не&nbsp;думал, что такое может произойти». На&nbsp;Западе подобное тоже когда-то случалось. Разработчики учитывали свой и&nbsp;чужой опыт и&nbsp;улучшали конструкцию ворот. Сегодня ворота Hörmann оснащены уже проверенной временем системой защиты. Вас не&nbsp;придавит полотном, не&nbsp;защемит пальцы. Вот что означает долгая история эксплуатации и&nbsp;культура потребления. </p>
 
-<p>Что касается социального доказательства, Hörmann тоже есть, что сказать. </p>
-<ul>
-	<li>
+<p class="mb-m">Что касается социального доказательства, Hörmann тоже есть, что сказать. </p>
+<ul class="additive-spacing max-width-text">
+	<li class="list-li">
 		Ворота и&nbsp;двери Hörmann используют от&nbsp;Аляски до&nbsp;Австралии. От&nbsp;минус 40⁰С до&nbsp;плюс 40⁰С.
 	</li>
-	<li>
+	<li class="list-li">
 	    В 2018г. исследование МАСМИ выявило, что&nbsp;97% клиентов Hörmann в&nbsp;РБ готовы их рекомендовать знакомым и&nbsp;друзьям.
 	</li>
 </ul>
 
-<h2 id="4">Составляю структуру бренда </h2>
+</section>
+
+<section class="block__space--top-h2 row-gap--m" id="4">
+<h2 class="h1 bold">Составляю структуру бренда </h2>
 
 <p>Сопоставив информацию о&nbsp;конкурентах и&nbsp;целевой аудитории, я&nbsp;предложил <b>структуру бренда</b> Hörmann. </p>
 
-<div class="flex-in">
-	<div class="flex-1">
-	<span class="bold">Атрибуты</span>
+<div class="block__item">
+	<div class="block__name--align-left bold">
+	Атрибуты
 	</div>
-	<div class="flex-2">
+	<div class="block__content max-width-text">
 	Немецкий​ производитель​ гаражных ворот, дверей, ​электроприводов.​
 	</div>
 </div>
-<div class="flex-in">
-	<div class="flex-1">
-	<span class="bold">Рациональные выгоды</span>
+<div class="block__item">
+	<div class="block__name--align-left bold">
+	Рациональные выгоды
 	</div>
-	<div class="flex-2">
+	<ul class="block__content max-width-text additive-spacing list-reset">
 
-		<p>a) Опыт разработок и&nbsp;производства продукции c&nbsp;1935г. В&nbsp;каждой модели, которую предлагает Hörmann, учтен опыт эксплуатации предыдущих моделей в&nbsp;разных странах с&nbsp;разными климатическими условиями и&nbsp;сценариями использования.  <br />
+		<li>а) Опыт разработок и&nbsp;производства продукции c&nbsp;1935г. В&nbsp;каждой модели Hörmann учтен опыт эксплуатации предыдущих моделей в&nbsp;разных странах с&nbsp;разными климатическими условиями и&nbsp;сценариями использования.  </li>
 
-		б) Используют от&nbsp;Аляски до&nbsp;Австралии.<br />
+		<li>б) Используют от&nbsp;Аляски до&nbsp;Австралии.</li>
 
-		в) Уверенно ​рекомендуют ​друзьям​ и&nbsp;​знакомым.</p>
+		<li>в) Уверенно ​рекомендуют ​друзьям​ и&nbsp;​знакомым.</li>
 
 
-	</div>
+	</ul>
 </div>
-<div class="flex-block">
-	<div class="flex-1">
-	<span class="bold">Эмоциональные выгоды</span>
+<div class="block__item">
+	<div class="block__name--align-left bold">
+Эмоциональные выгоды
 	</div>
-	<div class="flex-2">
+	<div class="block__content max-width-text">
 	«Я могу довериться и&nbsp;положиться на экспертность и&nbsp;репутацию бренда. Выбор и&nbsp;использование без хлопот. Все просто работает».
 	</div>
 </div>
 
-<div class="flex-block">
-	<div class="flex-1">
-	<span class="bold">Ассоциации ​с​ брендом</span>
+<div class="block__item">
+	<div class="block__name--align-left bold">
+	Ассоциации ​с​ брендом
 	</div>
-	<div class="flex-2">
+	<div class="block__content max-width-text">
 	Экспертность, надежность, ​стабильность,​ порядок, ​отлаженные​ процедуры.
 	</div>
 </div>
 
-<div class="flex-block">
-	<div class="flex-1">
-	<span class="bold">Личность</span>
+<div class="block__item">
+	<div class="block__name--align-left bold">
+	Личность
 	</div>
-	<div class="flex-2">
+	<div class="block__content max-width-text">
 Мужчина, 45&nbsp;лет. Увлечен делом. Знает и&nbsp;учитывает нюансы в&nbsp;работе, о&nbsp;которых новички могут даже не&nbsp;догадываться. Приводит знания и&nbsp;опыт в&nbsp;систему, раскладывает в&nbsp;голове по&nbsp;полочкам. У&nbsp;него ничего не&nbsp;происходит случайно и&nbsp;внезапно&nbsp;&mdash; он&nbsp;все рассчитал, предусмотрел и&nbsp;ко&nbsp;всему готов. Стремится к&nbsp;идеальному, совершенному. Любит порядок и&nbsp;контроль. Ответственный.
 	</div>
 </div>
 
-<div class="flex-block">
-	<div class="flex-1">
-	<span class="bold">Суть бренда</span>
+<div class="block__item">
+	<div class="block__name--align-left bold">
+Суть бренда
 	</div>
-	<div class="flex-2">
+	<div class="block__content max-width-text">
 	Hörmann — немецкий бренд с&nbsp;многолетней историей и&nbsp;культурой разработок и&nbsp;производства гаражных ворот и&nbsp;дверей. ​
 	</div>
 </div>
 
-<h2 id="5">Внедряем концепцию бренда</h2>
+</section>
+
+<section class="block__space--top-h2 full-bleed row-gap--m" id="5">
+<h2 class="h1 bold">Внедряем концепцию бренда</h2>
 <p>Бренд&nbsp;— это не&nbsp;то, что в&nbsp;рабочих папках маркетолога, а&nbsp;то, что в&nbsp;головах людей. Поэтому вместе с&nbsp;белорусским офисом Hörmann мы&nbsp;принялись доносить концепцию до&nbsp;целевой аудитории. Несколько примеров. </p>
 
-<h3>Видео</h3>
-<p>Сняли <a href="https://www.youtube.com/channel/UCyEPzGj0pU3OdwV2uvO9cmw" target="_blank" rel="noopener">цикл роликов</a>, через которые «красной нитью» проходит <b>концепция бренда</b>. Мы&nbsp;не&nbsp;делали ставку на&nbsp;один формат. Ролики разные: короткие и&nbsp;длинные, со&nbsp;словами и&nbsp;без слов, игровые и&nbsp;документальные. </p>
+<section class="mt-m row-gap--m">
+<h3 class="h2 bold mb-m">Видео</h3>
+<p>Сняли <a class="link" href="https://www.youtube.com/channel/UCyEPzGj0pU3OdwV2uvO9cmw">цикл роликов</a>, через которые «красной нитью» проходит <b>концепция бренда</b>. Мы&nbsp;не&nbsp;делали ставку на&nbsp;один формат. Ролики разные: короткие и&nbsp;длинные, со&nbsp;словами и&nbsp;без слов, игровые и&nbsp;документальные. </p>
 
-<p class="mb-0 mt-1"><span class="bold">Уверенно рекомендуют</span></p>
+<p class="mb-m"><span class="bold">Уверенно рекомендуют</span></p>
 
 <div class="figure">
  <div class="video ">
@@ -533,11 +549,13 @@ https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1626971559/s
         </button>
 </div>
 <div class="figcaption">
-Игровой проморолик белорусского офиса Hörmann. Идея&nbsp;— Дмитрий Бартошевич. Режиссер&nbsp;— <a href="https://alexbondarev.pro/" title="сайт режиссера Александра Бондарева" target="_blank" rel="noopener">Александр Бондарев</a> 
+Игровой проморолик белорусского офиса Hörmann. Идея&nbsp;— Дмитрий Бартошевич. Режиссер&nbsp;— <a class="link" href="https://alexbondarev.pro/" title="сайт режиссера Александра Бондарева">Александр Бондарев</a> 
 </div>
 </div>
 
-<p class="mb-0 mt-1"><span class="bold">Лексус Минск выбирает Hörmann </span></p>
+
+<p class="mb-m bold">Лексус Минск выбирает Hörmann</p>
+
 
 <div class="figure">
  <div class="video ">
@@ -556,7 +574,11 @@ https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1626971559/s
 </div>
 </div>
 
-<p class="mb-0 mt-1"><span class="bold">Установка гаражных ворот </span></p>
+
+<p class="mb-m bold">Установка гаражных ворот</p>
+
+
+
 
 <div class="figure">
  <div class="video ">
@@ -574,10 +596,13 @@ https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1626971559/s
 Показываем, как устанавливают гаражные секционные ворота Hörmann
 </div>
 </div>
+</section>
 
-<h3>Контекстная реклама </h3>
+<section class="mt-m row-gap--m">
+<h3 class="h2 bold mb-m">Контекстная реклама </h3>
 <p>Переписали текст объявлений для контекстной рекламы. Отказались от&nbsp;общих слов и&nbsp;превосходных степеней. Вместо них появились объективные, эмоционально нейтральные характеристики, которые работают на&nbsp;концепцию бренда и/или на&nbsp;усиление отличий конкретного наименования. </p>
 
+<div class="max-width-text">
 <table>
 <caption>Tекст объявлений для контекстной рекламы</caption>
 	<thead>
@@ -588,7 +613,7 @@ https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1626971559/s
  	</thead>
 		<tbody>
 			<tr>
-				<td>
+				<td class="additive-spacing">
 					
 							<p>Квали&shy;фицированный сервис</p>
 						
@@ -601,7 +626,7 @@ https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1626971559/s
 					
 					<br />
 				</td>
-				<td>
+				<td class="additive-spacing">
 					
 							<p>Опыт производства гаражных ворот с&nbsp;1935&nbsp;г.</p>
 						
@@ -620,12 +645,17 @@ https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1626971559/s
 			</tr>
 		</tbody>
 	</table>
+</div>
+</section>
 
-<h3>Наружная реклама </h3>
-<p>Посылы привели в&nbsp;соответствие с&nbsp;концепцией бренда. </p>
+	<section class="mt-m row-gap--m max-width-text">
+		<h3 class="h2 bold mb-m">Наружная реклама </h3>
+		<p>Посылы привели в&nbsp;соответствие с&nbsp;концепцией бренда. </p>
 
-<div class="figure image is-2by1" itemscope="" itemtype="http://schema.org/ImageObject">
-<img loading="lazy" src="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1594909933/site/bord_hormann.jpg" width="700" height="350" alt="билборд Хёрманн" itemprop="contentUrl" />
+		<div class="figure" itemscope="" itemtype="http://schema.org/ImageObject">
+		<img class="image is-2by1" loading="lazy" src="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1594909933/site/bord_hormann.jpg" width="700" height="350" alt="билборд Хёрманн" itemprop="contentUrl" />
 
-<div class="figcaption" itemprop="description">рекламный щит Hörmann</div>
-</div>]]></content><author><name></name></author><category term="опыт" /><category term="кейсы" /><summary type="html"><![CDATA[Разработал концепцию бренда для белорусского офиса Hörmann: рассказываю об&nbsp;этапах работы и&nbsp;результатах.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/images/tizer-66.png" /><media:content medium="image" url="http://localhost:4000/images/tizer-66.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
+		<div class="figcaption" itemprop="description">рекламный щит Hörmann</div>
+		</div>
+	</section>
+</section>]]></content><author><name></name></author><category term="опыт" /><category term="кейсы" /><summary type="html"><![CDATA[Разработал концепцию бренда для белорусского офиса Hörmann: рассказываю об&nbsp;этапах работы и&nbsp;результатах.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/images/tizer-66.png" /><media:content medium="image" url="http://localhost:4000/images/tizer-66.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
