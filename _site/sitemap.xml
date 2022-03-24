@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>http://localhost:4000/opyt/brand-conception-hormann/</loc>
+<loc>http://localhost:4000/blog/brand-conception-hormann/</loc>
 <lastmod>2022-02-05T00:00:00+03:00</lastmod>
 </url>
 <url>
-<loc>http://localhost:4000/mnenie/in-store-marketing/</loc>
+<loc>http://localhost:4000/blog/in-store-marketing/</loc>
 <lastmod>2022-02-05T00:00:00+03:00</lastmod>
 </url>
 <url>
-<loc>http://localhost:4000/mnenie/value-based-price/</loc>
+<loc>http://localhost:4000/blog/value-based-price/</loc>
 <lastmod>2022-02-05T00:00:00+03:00</lastmod>
 </url>
 <url>

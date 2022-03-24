@@ -49,6 +49,9 @@
   --fc-9xl-min: (var(--fc-s-min) * 11); 
   --fc-9xl-max: (var(--fc-s-max) * 11);
 
+  --fc-10xl-min: (var(--fc-s-min) * 35); 
+  --fc-10xl-max: (var(--fc-s-max) * 35);
+
   /* T-shirt sizes */
   --space-3xs: calc(((var(--fc-3xs-min) / 16) * 1rem) + (var(--fc-3xs-max) - var(--fc-3xs-min)) * var(--fluid-bp));
   --space-2xs: calc(((var(--fc-2xs-min) / 16) * 1rem) + (var(--fc-2xs-max) - var(--fc-2xs-min)) * var(--fluid-bp));
@@ -65,6 +68,7 @@
   --space-7xl: calc(((var(--fc-7xl-min) / 16) * 1rem) + (var(--fc-7xl-max) - var(--fc-7xl-min)) * var(--fluid-bp));
   --space-8xl: calc(((var(--fc-8xl-min) / 16) * 1rem) + (var(--fc-8xl-max) - var(--fc-8xl-min)) * var(--fluid-bp));
   --space-9xl: calc(((var(--fc-9xl-min) / 16) * 1rem) + (var(--fc-9xl-max) - var(--fc-9xl-min)) * var(--fluid-bp));
+  --space-10xl: calc(((var(--fc-10xl-min) / 16) * 1rem) + (var(--fc-10xl-max) - var(--fc-10xl-min)) * var(--fluid-bp));
   
   /* One-up pairs */
   --space-3xs-2xs: calc(((var(--fc-3xs-min) / 16) * 1rem) + (var(--fc-2xs-max) - var(--fc-3xs-min)) * var(--fluid-bp));
@@ -81,6 +85,7 @@
   --space-6xl-7xl: calc(((var(--fc-6xl-min) / 16) * 1rem) + (var(--fc-7xl-max) - var(--fc-6xl-min)) * var(--fluid-bp));
   --space-7xl-8xl: calc(((var(--fc-7xl-min) / 16) * 1rem) + (var(--fc-8xl-max) - var(--fc-7xl-min)) * var(--fluid-bp));
   --space-8xl-9xl: calc(((var(--fc-8xl-min) / 16) * 1rem) + (var(--fc-9xl-max) - var(--fc-8xl-min)) * var(--fluid-bp));
+  --space-9xl-10xl: calc(((var(--fc-9xl-min) / 16) * 1rem) + (var(--fc-10xl-max) - var(--fc-9xl-min)) * var(--fluid-bp));
   
     /* Custom pairs */
     --space-s-l: calc(((var(--fc-s-min) / 16) * 1rem) + (var(--fc-l-max) - var(--fc-s-min)) * var(--fluid-bp));

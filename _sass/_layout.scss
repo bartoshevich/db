@@ -118,7 +118,7 @@
     display: grid;
     grid-row-gap: var(--space-m);
     row-gap: var(--space-m);
- //   align-self: start;
+    align-content: start;
 }
 
 
@@ -126,7 +126,7 @@
     display: grid;
     grid-row-gap: var(--space-l);
     row-gap: var(--space-l);
-  //  align-self: start;
+    align-content: start;
 }
 
 
@@ -235,4 +235,8 @@
 
     .block__space--top-h2 {
         margin-top: var(--space-3xl);
+    }
+
+    .block__space--top-h1 {
+        margin-top: var(--space-7xl);
     }

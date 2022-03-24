@@ -6,7 +6,7 @@ description: "Разработал концепцию бренда для бел
 date:   2020-07-16
 last_modified_at: 2022-02-05
 categories: опыт
-permalink: "/opyt/brand-conception-hormann/"
+permalink: "/blog/brand-conception-hormann/"
 tags: "кейсы"
 image: /images/tizer-66.png
 keywords: "брендинг, разработка развитие создание бренда, стратегия, концепция Хёрманн"

@@ -18,7 +18,9 @@ p {
     font-size: calc(1.1*var(--step-2)); 
 }
 
-
+.relative {
+    position: relative;
+}
 
 
 .bold {
@@ -75,6 +77,11 @@ p {
 
 }
 
+.border-top {
+    border-top: 2px dashed var(--text-colour);
+    max-width: var(--space-10xl) ;
+}
+
 
 .inline {
     display: inline;
@@ -97,7 +104,14 @@ p {
    max-width: 670px;
 }
 
-
+.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: -4px;
+    z-index: 1;
+    background-color: $background-color;
+   
+  }
 
 
 /*  title   */

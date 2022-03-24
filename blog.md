@@ -37,10 +37,11 @@ image:
                     </a>
                 </h3>
 
-                
-                <span class="secondary-color"> 						
+                <small>
+                <time  datetime="{{ post.date | date: "%Y-%m-%d" }}" class="secondary-color"> 						
                     {{ post.date | date: "%e %B %Y" | replace: 'January', 'января' | replace: 'February', 'февраля' | replace: 'March', 'марта' | replace: 'April', 'апреля' | replace: 'May', 'мая' | replace: 'June', 'июня' | replace: 'July', 'июля' | replace: 'August', 'августа' | replace: 'September', 'сентября' | replace: 'October', 'октября' | replace: 'November', 'ноября' | replace: 'December', 'декабря' }}				
-                </span> 
+                </time> 
+                </small>
             
             </div>
                        

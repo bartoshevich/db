@@ -6,7 +6,7 @@ description: "Все еще используете часовые ставки? 
 date:   2021-01-23
 last_modified_at: 2022-02-05
 categories: мнение
-permalink: "/mnenie/value-based-price/"
+permalink: "/blog/value-based-price/"
 tags: "маркетолог управление инструменты"
 image: /images/tizer-68.png
 keywords: "методы ценообразования, ценообразование товаров и услуг, стоимость на основе ценности, почасовая оплата "
