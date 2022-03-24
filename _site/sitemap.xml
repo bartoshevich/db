@@ -30,6 +30,9 @@
 <loc>http://localhost:4000/</loc>
 </url>
 <url>
+<loc>http://localhost:4000/me/</loc>
+</url>
+<url>
 <loc>http://localhost:4000/uslugi/marketing-audit/</loc>
 </url>
 <url>

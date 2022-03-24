@@ -1,0 +1,41 @@
+---
+layout: compress
+---
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+  <title>{{ page.title }}</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">  
+
+  {% include meta.html %} 
+  
+
+
+  <link rel="stylesheet"  href="/assets/css/style.css"> 
+
+  </head>
+<body class="body">
+    <div class="body__container">
+  
+        {% include menu__project.html %}
+    
+      <main class="section__content row-gap--m">
+    
+          
+     
+      
+     {{ content }}
+    
+    
+      </main>
+    
+      
+      {% include footer.html %}
+    </div>
+
+ {% include script.html %}
+ {% include script__video.html %}
+
+</body>
+</html>

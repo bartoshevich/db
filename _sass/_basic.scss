@@ -68,6 +68,14 @@ p {
 .list-ol {
     margin-left: var(--space-s) ;
 }
+
+.list-sign:before {
+    content: "•";
+    padding-right: var(--space-3xs);
+
+}
+
+
 .inline {
     display: inline;
 }

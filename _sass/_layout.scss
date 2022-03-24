@@ -171,6 +171,16 @@
         grid-row: 2;
     }
 
+    .block__content--with-name {
+        grid-column: 2/-1;
+        grid-row: 2;
+    }
+
+    .block__content--with-name-same-line {
+        grid-column: 2/-1;
+        grid-row: 1;
+    }
+
     } 
     
     
@@ -215,9 +225,14 @@
         grid-column: 5 / -1;
        
     }
+    .block__content--with-name-same-line, 
+    .block__content--with-name {
+        grid-column: 2/-1;
+    }
 
     }
     
+
     .block__space--top-h2 {
         margin-top: var(--space-3xl);
     }
