@@ -150,7 +150,7 @@ keywords: "faq"
 
 
     <div class="additive-spacing" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
-        <h3 class="h2 bold" id="in-house" itemprop="name">В&nbsp;чем ваше отличие от&nbsp;штатных маркетологов?</h3>
+        <h3 class="h2 bold mt-m" id="in-house" itemprop="name">В&nbsp;чем ваше отличие от&nbsp;штатных маркетологов?</h3>
         <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
             <div itemprop="text">
                 <ul class="additive-spacing max-width-text">
@@ -167,7 +167,7 @@ keywords: "faq"
 
 
     <div class="additive-spacing" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
-        <h3 class="h2 bold" id="freelancer" itemprop="name">В&nbsp;чем ваше отличие от&nbsp;фрилансеров? </h3>
+        <h3 class="h2 bold mt-m" id="freelancer" itemprop="name">В&nbsp;чем ваше отличие от&nbsp;фрилансеров? </h3>
         <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
             <div itemprop="text">
                 <ul class="additive-spacing max-width-text">
