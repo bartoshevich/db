@@ -224,8 +224,20 @@ p {
 .post__note {
     border-left-width: var(--space-2xs);
     border-style: double;
-    padding-left: var(--space-xs);
-   
+    padding-left: var(--space-xs);   
 }
 
 
+/* Flex */
+
+.flex {
+    display: flex;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.flex-align-self-end {
+    align-self: flex-end;
+}

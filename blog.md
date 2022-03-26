@@ -14,7 +14,7 @@ image:
   
   {% include menu__blog.html %}
 
-<main class="section__content row-gap--m">
+<main class="section__content row-gap--l">
        
 
 
@@ -37,11 +37,13 @@ image:
                     </a>
                 </h3>
 
-                <small>
-                <time  datetime="{{ post.date | date: "%Y-%m-%d" }}" class="secondary-color"> 						
-                    {{ post.date | date: "%e %B %Y" | replace: 'January', 'января' | replace: 'February', 'февраля' | replace: 'March', 'марта' | replace: 'April', 'апреля' | replace: 'May', 'мая' | replace: 'June', 'июня' | replace: 'July', 'июля' | replace: 'August', 'августа' | replace: 'September', 'сентября' | replace: 'October', 'октября' | replace: 'November', 'ноября' | replace: 'December', 'декабря' }}				
-                </time> 
-                </small>
+                <p>
+                    <small>
+                    <time  datetime="{{ post.date | date: "%Y-%m-%d" }}" class="secondary-color"> 						
+                        {{ post.date | date: "%e %B %Y" | replace: 'January', 'января' | replace: 'February', 'февраля' | replace: 'March', 'марта' | replace: 'April', 'апреля' | replace: 'May', 'мая' | replace: 'June', 'июня' | replace: 'July', 'июля' | replace: 'August', 'августа' | replace: 'September', 'сентября' | replace: 'October', 'октября' | replace: 'November', 'ноября' | replace: 'December', 'декабря' }}				
+                    </time> 
+                    </small>
+                </p>
             
             </div>
                        

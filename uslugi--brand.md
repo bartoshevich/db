@@ -10,7 +10,7 @@ keywords: "разработка концепции бренда"
   
   {% include menu__uslugi--brand.html %}
 
-<main class="section__content row-gap--m">
+<main class="section__content row-gap--l">
        
 
  <div class="intro max-width-text"><h1 class="inline bold">Концепция бренда.</h1> Рассказываю, что это такое, зачем нужна и&nbsp;как разрабатываю. В&nbsp;конце&nbsp;&mdash; отзывы клиентов. </div>

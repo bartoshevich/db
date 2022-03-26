@@ -38,7 +38,7 @@ keywords: "стратегический маркетинг, концепция �
 </ul>
 </section>
 
-<section class="full-bleed block__item mb1">
+<section class="full-bleed block__item">
 <div class="block__sign"></div>
 <h2 class="block__name block__title bold"> Мне доверяют </h2>
 <div class=" block__content">

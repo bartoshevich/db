@@ -10,7 +10,7 @@ keywords: "услуги консультанта по маркетингу и с
   
   {% include menu__uslugi.html %}
 
-<main class="section__content">
+<main class="section__content row-gap--l">
        
 
 

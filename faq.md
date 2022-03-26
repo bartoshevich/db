@@ -10,7 +10,7 @@ keywords: "faq"
   
   {% include menu__faq.html %}
 
-<main class="section__content row-gap--m">
+<main class="section__content row-gap--l">
        
 
 

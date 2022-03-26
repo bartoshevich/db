@@ -14,7 +14,7 @@ image:
   
   {% include menu__contact.html %}
 
-<main class="section__content row-gap--m">
+<main class="section__content row-gap--l">
        
 
 

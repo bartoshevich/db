@@ -10,7 +10,7 @@ keywords: "реклама, рекламные кампании"
   
   {% include menu__uslugi--promo.html %}
 
-<main class="section__content row-gap--m">
+<main class="section__content row-gap--l">
        
 
 

@@ -10,7 +10,7 @@ keywords: "маркетинговое обслуживание"
   
   {% include menu__uslugi--subscription.html %}
 
-<main class="section__content row-gap--m">
+<main class="section__content row-gap--l">
        
 
 

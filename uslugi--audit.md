@@ -10,7 +10,7 @@ keywords: "услуги консультанта по маркетингу и с
   
   {% include menu__uslugi--audit.html %}
 
-<main class="section__content row-gap--m">
+<main class="section__content row-gap--l">
        
 
 
