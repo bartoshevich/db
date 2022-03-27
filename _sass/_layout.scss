@@ -87,30 +87,38 @@
 
 
 
-.grid-columns__default {
-    grid-column: 1/8;
-}
+        .grid-columns__default {
+            grid-column: 1/8;
+        }
 
-.grid-columns__first-one-half {
-    grid-column: 1/6;
-}
+        .grid-columns__first-one-half {
+            grid-column: 1/6;
+        }
 
 
-.grid-columns__last-one-half {
-    grid-column: 6/-1;
-}
+        .grid-columns__last-one-half {
+            grid-column: 6/-1;
+        }
 
-.grid-column__first-one-third {
-    grid-column: 1/4;
-}
+        .grid-column__first-one-third {
+            grid-column: 1/4;
+        }
 
-.grid-column__last-one-third {
-    grid-column: 7/-1;
-}
+        .grid-column__last-one-third {
+            grid-column: 7/-1;
+        }
 
-.grid-column__last-two-thirds {
-    grid-column: 4/-1;
-}
+        .grid-column__last-two-thirds {
+            grid-column: 4/-1;
+        }
+
+        .grid-column__first-four {
+            grid-column: 1/5;
+        }
+
+        .grid-column__last-six {
+            grid-column: 5/-1;
+        }
 
 }
 
