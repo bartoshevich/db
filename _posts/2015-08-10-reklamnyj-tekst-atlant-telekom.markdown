@@ -18,9 +18,9 @@ image: /assets/images/tizers/tizer-2.jpg
 
 <div class="figure" itemscope itemtype="http://schema.org/ImageObject">
 <picture>
-                <source srcset="/assets/images/posts/reklamnyj-tekst-atlant-telekom/atlant.avif" type="image/avif">
-                 <source srcset="/assets/images/posts/reklamnyj-tekst-atlant-telekom/atlant.webp" type="image/webp">               
-               <img loading="lazy" src="/assets/images/posts/reklamnyj-tekst-atlant-telekom/atlant.jpg" alt="Рекламное объявление Атлант Телеком" width="695" height="390" class="img-responsive" itemprop="contentUrl" >
+                <source srcset="/assets/images/blog/reklamnyj-tekst-atlant-telekom/atlant.avif" type="image/avif">
+                 <source srcset="/assets/images/blog/reklamnyj-tekst-atlant-telekom/atlant.webp" type="image/webp">               
+               <img loading="lazy" src="/assets/images/blog/reklamnyj-tekst-atlant-telekom/atlant.jpg" alt="Рекламное объявление Атлант Телеком" width="695" height="390" class="image" itemprop="contentUrl" >
     </picture>
 	<div class="figcaption">
 	фото листовки

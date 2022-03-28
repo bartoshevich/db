@@ -95,7 +95,7 @@ keywords: "торговый маркетинг, маркетинг в ритей
 <p>Посетитель магазина не&nbsp;видит всего, на&nbsp;что смотрит. Принимает простые, автоматические, неосознаваемые решения. В&nbsp;этих условиях у&nbsp;маркетолога одна основная задача: «Как обратить внимание на&nbsp;товар?». Ведь если продукт не&nbsp;попадет в&nbsp;поле восприятия посетителя, все остальное (цена, характеристики и&nbsp;пр.) не&nbsp;имеет значение. </p>
 
 <div class="figure" itemscope itemtype="http://schema.org/ImageObject">
-<img class="image" src="/assets/images/posts/in-store-marketing/in-store-marketing.svg" width="602" height="553" alt="схематичное изображение задач маркетолога в рознице" itemprop="contentUrl"/>
+<img class="image" src="/assets/images/blog/in-store-marketing/in-store-marketing.svg" width="602" height="553" alt="схематичное изображение задач маркетолога в рознице" itemprop="contentUrl"/>
 </div>
 
 <p class="mb-m">Рассмотренные Йенсом Нордфальтом способы решения этой задачи я&nbsp;разделил на&nbsp;четыре основных группы&nbsp;— по&nbsp;механизму работы. Чтобы посетитель магазина обратил внимание на&nbsp;товар, нужно: </p>

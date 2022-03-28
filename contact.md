@@ -67,12 +67,18 @@ image:
 <div class="with-side row-gap--m">
 
 
-						<p>Я прошел преквалификацию в&nbsp;Европейском банке реконструкции и&nbsp;развития. Банк может частично компенсировать предприятиям стоимость моих услуг в&nbsp;рамках поддержки малого и&nbsp;среднего бизнеса в&nbsp;Беларуси (если компания-клиент соответствует определенным условиям). </p>
+						<p>Я прошел преквалификацию в&nbsp;Европейском банке реконструкции и&nbsp;развития. Банк <del>может</del> мог* частично компенсировать предприятиям стоимость моих услуг в&nbsp;рамках поддержки малого и&nbsp;среднего бизнеса в&nbsp;Беларуси. </p>
 						<div class="side">
 							<img loading="lazy" src="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1608034473/site/ebrd.png" alt="логотип Европейского банка реконструкции и развития " width="254" height="58" >
 						<p>	Детальная информация о&nbsp;предоставлении финансовой поддержки&nbsp;— <a class="link" href="https://www.ebrd.com/work-with-us/advice-for-small-businesses/belarus-contact-us.html%20" >в&nbsp;белорусском офисе ЕБРР</a>. </p>
 						</div>
 						</div>
+
+						<p> <span class="bold">*</span> <time  datetime="2022-03-28">28 марта 2022&nbsp;г.</time>  ЕБРР объявил о&nbsp;закрытии офиса в&nbsp;Беларуси. <q cite="https://twitter.com/EBRD/status/1508474912222191618">Мы&nbsp;решительно осудили войну с&nbsp;Украиной, и&nbsp;решение о&nbsp;закрытии офисов в&nbsp;Москве и&nbsp;Минске является неизбежным следствием действий, предпринятых Российской Федерацией с&nbsp;помощью Беларуси</q>,&nbsp;— указано <a class="link" href="https://twitter.com/EBRD/status/1508474912222191618">в&nbsp;сообщении банка</a>.
+
+ 
+
+						</p>
 
 
 </section>
@@ -80,7 +86,7 @@ image:
 
 <section class="block__space--top-h2 row-gap--m max-width-text">
 <h2 class="h1 bold">Причины не&nbsp;обращаться ко&nbsp;мне</h2>
-<p>Чтобы сэкономить время нам обоим, назову несколько причин не&nbsp;связываться со&nbsp;мной:</p>
+<p>Чтобы сэкономить время нам обоим, назову несколько причин, когда не&nbsp;стоит ко&nbsp;мне обращаться:</p>
 <ul class="additive-spacing">
 	<li class="list-li">
 		<span class="bold">Вам нужна самая низкая стоимость услуг на&nbsp;рынке.</span>

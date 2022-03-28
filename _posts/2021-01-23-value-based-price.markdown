@@ -181,7 +181,7 @@ keywords: "методы ценообразования, ценообразова
 
 
 <div  itemscope itemtype="http://schema.org/ImageObject">
-<img class="image svg" src="/assets/images/posts/value-based-price/value-based-price.svg" width="445" height="500" alt="ценообразование на основе ценности" itemprop="contentUrl"/>
+<img class="image svg" src="/assets/images/blog/value-based-price/value-based-price.svg" width="445" height="500" alt="ценообразование на основе ценности" itemprop="contentUrl"/>
 </div>
 
 
