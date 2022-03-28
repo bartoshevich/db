@@ -179,6 +179,14 @@ p {
     
 } 
 
+.extract {
+    font-style: italic;
+    border-left: 1px solid $secondary-text-colour;
+    padding-left: var(--space-m);
+    margin: var(--space-m) 0 var(--space-m) var(--space-l) ;
+    line-height: 1.6em;
+  }
+
 
 .additive-spacing > * {
     margin-bottom: calc(var(--space-s-m)/2);

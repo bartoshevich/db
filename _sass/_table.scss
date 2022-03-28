@@ -72,6 +72,12 @@ table {
         margin-left: .1em;
     }
     
+
+    td > p:not(:first-child) {
+      margin-bottom: calc(var(--space-s-m)/2);
+      margin-top: calc(var(--space-s-m)/2);
+  }
+
     .text-right {
         text-align: right;
     }
