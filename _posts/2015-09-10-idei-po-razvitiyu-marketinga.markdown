@@ -50,8 +50,8 @@ image: /assets/images/tizers/tizer-5.jpg
 <div class="figure" itemscope itemtype="http://schema.org/ImageObject">
 <picture>
                 <source srcset="/assets/images/blog/2-idei-po-razvitiyu-marketinga/otlichie.avif" type="image/avif">
-                 <source srcset="/images/otlichie.webp" type="image/webp">               
-               <img loading="lazy" src='/images/otlichie.jpg' alt="пустые полки в магазинах в 90-х годах и изобилие товаров сегодня требуют разного маркетингового подхода" width="695" height="450" class="image" itemprop="contentUrl"/>
+                 <source srcset="/assets/images/blog/2-idei-po-razvitiyu-marketinga/otlichie.webp" type="image/webp">               
+               <img loading="lazy" src='/assets/images/blog/2-idei-po-razvitiyu-marketinga/otlichie.jpg' alt="пустые полки в магазинах в 90-х годах и изобилие товаров сегодня требуют разного маркетингового подхода" width="695" height="450" class="image" itemprop="contentUrl"/>
     </picture>
 </div>
 
