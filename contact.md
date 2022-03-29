@@ -74,7 +74,7 @@ image:
 						</div>
 						</div>
 
-						<p> <span class="bold">*</span> <time  datetime="2022-03-28">28 марта 2022&nbsp;г.</time>  ЕБРР объявил о&nbsp;закрытии офиса в&nbsp;Беларуси. <q cite="https://twitter.com/EBRD/status/1508474912222191618">Мы&nbsp;решительно осудили войну с&nbsp;Украиной, и&nbsp;решение о&nbsp;закрытии офисов в&nbsp;Москве и&nbsp;Минске является неизбежным следствием действий, предпринятых Российской Федерацией с&nbsp;помощью Беларуси</q>,&nbsp;— указано <a class="link" href="https://twitter.com/EBRD/status/1508474912222191618">в&nbsp;сообщении банка</a>.
+						<p> <span class="bold">*</span> <time  datetime="2022-03-28">28 марта 2022&nbsp;г.</time>  ЕБРР объявил о&nbsp;закрытии офиса в&nbsp;Беларуси. <q cite="https://twitter.com/EBRD/status/1508474912222191618">Мы&nbsp;решительно осудили войну с&nbsp;Украиной, и&nbsp;решение о&nbsp;закрытии офисов в&nbsp;Москве и&nbsp;Минске является неизбежным следствием действий, предпринятых Российской Федерацией с&nbsp;помощью Беларуси</q>,&nbsp;— указал банк <a class="link" href="https://twitter.com/EBRD/status/1508474912222191618">в&nbsp;сообщении</a>.
 
  
 
