@@ -1,8 +1,8 @@
 ---
 layout: default__video
-permalink: /uslugi/promo-conception/
+permalink: /uslugi/razrabotka-reklamnyh-kampanij/
 description: "Создание концепций рекламных кампаний"
-title: "Концепция рекламной кампании | Дмитрий Бартошевич"
+title: "Разработка рекламных кампаний | Дмитрий Бартошевич"
 keywords: "реклама, рекламные кампании"
 ---
 
@@ -14,7 +14,7 @@ keywords: "реклама, рекламные кампании"
        
 
 
-<div class="intro max-width-text"><h1 class="inline bold">Создаю концепции рекламных кампаний</h1> </div>
+<div class="intro max-width-text"><h1 class="inline bold">Разработка рекламных кампаний</h1> </div>
 
 <p>Стремлюсь, чтобы рекламная кампания содержала только одно ключевое послание, связанное с&nbsp;желаемым образом бренда. Без отвлеченных деталей и&nbsp;смыслов. Без ажитированной гонки за&nbsp;сиюминутными лайками и&nbsp;просмотрами. </p>
 

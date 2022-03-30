@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-03-28T23:17:08+03:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Your awesome title</title><subtitle>Write an awesome description for your new site here. </subtitle><entry><title type="html">Почасовая оплата умерла</title><link href="http://localhost:4000/blog/value-based-price/" rel="alternate" type="text/html" title="Почасовая оплата умерла" /><published>2021-01-23T00:00:00+03:00</published><updated>2022-02-05T00:00:00+03:00</updated><id>http://localhost:4000/blog/value-based-price</id><content type="html" xml:base="http://localhost:4000/blog/value-based-price/"><![CDATA[<div class="intro">
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-03-29T20:44:07+03:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Your awesome title</title><subtitle>Write an awesome description for your new site here. </subtitle><entry><title type="html">Почасовая оплата умерла</title><link href="http://localhost:4000/blog/value-based-price/" rel="alternate" type="text/html" title="Почасовая оплата умерла" /><published>2021-01-23T00:00:00+03:00</published><updated>2022-02-05T00:00:00+03:00</updated><id>http://localhost:4000/blog/value-based-price</id><content type="html" xml:base="http://localhost:4000/blog/value-based-price/"><![CDATA[<div class="intro">
     <h1 class=" bold max-width-text">Почасовая оплата должна умереть</h1> 
     <small class="small"><time datetime="2021-01-23"> 23 января 2021</time> 
     </small>
@@ -856,8 +856,8 @@ https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1626971559/s
 <div class="figure" itemscope="" itemtype="http://schema.org/ImageObject">
 <picture>
                 <source srcset="/assets/images/blog/2-idei-po-razvitiyu-marketinga/otlichie.avif" type="image/avif" />
-                 <source srcset="/images/otlichie.webp" type="image/webp" />               
-               <img loading="lazy" src="/images/otlichie.jpg" alt="пустые полки в магазинах в 90-х годах и изобилие товаров сегодня требуют разного маркетингового подхода" width="695" height="450" class="image" itemprop="contentUrl" />
+                 <source srcset="/assets/images/blog/2-idei-po-razvitiyu-marketinga/otlichie.webp" type="image/webp" />               
+               <img loading="lazy" src="/assets/images/blog/2-idei-po-razvitiyu-marketinga/otlichie.jpg" alt="пустые полки в магазинах в 90-х годах и изобилие товаров сегодня" width="695" height="450" class="image" itemprop="contentUrl" />
     </picture>
 </div>
 
@@ -1157,7 +1157,7 @@ https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1626971559/s
 
 <section class="row-gap--m">
 <h2 class="block__space--top-h2 h1 bold">Значимость стратегии в&nbsp;кризис</h2>
-<p>Значимый компонент <b>построения стратегии</b>&nbsp;— оценка внешней среды. Успешна та&nbsp;компания, которая функционирует в&nbsp;оптимальном соответствии с&nbsp;внешней средой. Поэтому в&nbsp;основе правильной стратегии лежит глубокое понимание рынка. И&nbsp;такого понимания следует добиваться в&nbsp;ситуации кризиса и&nbsp;непредсказуемости. Т.е. сама ситуация подталкивает к&nbsp;исследованию клиентов, конкурентов, корректировке способов достижения целей и&nbsp;анализу возможностей. </p>
+<p>Значимый компонент <b>разработки стратегии</b>&nbsp;— оценка внешней среды. Успешна та&nbsp;компания, которая функционирует в&nbsp;оптимальном соответствии с&nbsp;внешней средой. Поэтому в&nbsp;основе правильной стратегии лежит глубокое понимание рынка. И&nbsp;такого понимания следует добиваться в&nbsp;ситуации кризиса и&nbsp;непредсказуемости. Т.е. сама ситуация подталкивает к&nbsp;исследованию клиентов, конкурентов, корректировке способов достижения целей и&nbsp;анализу возможностей. </p>
 
 
 <p class="post__note h2">Как говорят боксеры, держите глаза открытыми, а&nbsp;то&nbsp;пропустите самое интересное.</p>

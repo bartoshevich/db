@@ -51,7 +51,7 @@ image: /assets/images/tizers/tizer-5.jpg
 <picture>
                 <source srcset="/assets/images/blog/2-idei-po-razvitiyu-marketinga/otlichie.avif" type="image/avif">
                  <source srcset="/assets/images/blog/2-idei-po-razvitiyu-marketinga/otlichie.webp" type="image/webp">               
-               <img loading="lazy" src='/assets/images/blog/2-idei-po-razvitiyu-marketinga/otlichie.jpg' alt="пустые полки в магазинах в 90-х годах и изобилие товаров сегодня требуют разного маркетингового подхода" width="695" height="450" class="image" itemprop="contentUrl"/>
+               <img loading="lazy" src='/assets/images/blog/2-idei-po-razvitiyu-marketinga/otlichie.jpg' alt="пустые полки в магазинах в 90-х годах и изобилие товаров сегодня" width="695" height="450" class="image" itemprop="contentUrl"/>
     </picture>
 </div>
 

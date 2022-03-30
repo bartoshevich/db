@@ -27,11 +27,11 @@ keywords: "услуги консультанта по маркетингу и с
                        <p class="block__content">Разрабатываю наиболее выгодные для компаний идеи, с&nbsp;помощью которых они могут значимо отстроиться от&nbsp;конкурентов и&nbsp;закрепиться в&nbsp;сознании целевой аудитории.  </p> 
                 </li>
                 <li class="block__item" itemprop="itemListElement" itemscope itemtype="https://schema.org/OfferCatalog">
-                        <h2  class="block__name--align-left h2 uslugi__mark" itemprop="name"><a href="/uslugi/promo-conception/"  class="link">Концепция рекламных кампаний</a></h2>
+                        <h2  class="block__name--align-left h2 uslugi__mark" itemprop="name"><a href="/uslugi/razrabotka-reklamnyh-kampanij/"  class="link">Разработка рекламных кампаний</a></h2>
                         <p class="block__content"><strong>Создаю концепции рекламных кампаний</strong>, которые помогут целевой аудитории быстро выделить торговую марку из&nbsp;фона конкурентов и&nbsp;признать своей. </p>                   
                 </li>
                 <li class="block__item" itemprop="itemListElement" itemscope itemtype="https://schema.org/OfferCatalog">             
-                    <h2 class="block__name--align-left h2 uslugi__mark" itemprop="name"><a href="/uslugi/subscription-service/" class="link">Абонентское обслуживание</a></h2>
+                    <h2 class="block__name--align-left h2 uslugi__mark" itemprop="name"><a href="/uslugi/autsorsing-marketinga/" class="link">Абонентское обслуживание</a></h2>
                     <p class="block__content"> <strong>Консультирую по&nbsp;вопросам продвижения бренда</strong>, оказываю экспертную помощь при работе с&nbsp;подрядчиками, сопровождаю маркетинговую активность компании. </p>                   
                 </li>              
             </ul>
