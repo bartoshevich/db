@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-03-29T20:44:07+03:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Your awesome title</title><subtitle>Write an awesome description for your new site here. </subtitle><entry><title type="html">Почасовая оплата умерла</title><link href="http://localhost:4000/blog/value-based-price/" rel="alternate" type="text/html" title="Почасовая оплата умерла" /><published>2021-01-23T00:00:00+03:00</published><updated>2022-02-05T00:00:00+03:00</updated><id>http://localhost:4000/blog/value-based-price</id><content type="html" xml:base="http://localhost:4000/blog/value-based-price/"><![CDATA[<div class="intro">
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-04-01T00:55:34+03:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Your awesome title</title><subtitle>Write an awesome description for your new site here. </subtitle><entry><title type="html">Почасовая оплата умерла</title><link href="http://localhost:4000/blog/value-based-price/" rel="alternate" type="text/html" title="Почасовая оплата умерла" /><published>2021-01-23T00:00:00+03:00</published><updated>2022-02-05T00:00:00+03:00</updated><id>http://localhost:4000/blog/value-based-price</id><content type="html" xml:base="http://localhost:4000/blog/value-based-price/"><![CDATA[<div class="intro">
     <h1 class=" bold max-width-text">Почасовая оплата должна умереть</h1> 
-    <small class="small"><time datetime="2021-01-23"> 23 января 2021</time> 
+    <small class="small"><time itemprop="datePublished" datetime="2021-01-23"> 23 января 2021</time> 
     </small>
 </div>
 
@@ -159,8 +159,12 @@
 </section>
 
 
-<div itemscope="" itemtype="http://schema.org/ImageObject">
-<img class="image svg" src="/assets/images/blog/value-based-price/value-based-price.svg" width="445" height="500" alt="ценообразование на основе ценности" itemprop="contentUrl" />
+<div itemprop="image" itemscope="" itemtype="http://schema.org/ImageObject">
+<img class="image is-1by1" loading="lazy" decoding="async" src="/assets/images/blog/value-based-price/value-based-price.jpg" width="4494" height="4494" srcset="https://res.cloudinary.com/bartoshevich/image/upload/w_640/f_auto,q_auto/v1648760933/site/value-based-price.jpg 640w,
+https://res.cloudinary.com/bartoshevich/image/upload/w_1040/f_auto,q_auto/v1648760933/site/value-based-price.jpg 1040w,
+https://res.cloudinary.com/bartoshevich/image/upload/w_1920/f_auto,q_auto/v1648760933/site/value-based-price.jpg 1920w,
+https://res.cloudinary.com/bartoshevich/image/upload/w_3000/f_auto,q_auto/v1648760933/site/value-based-price.jpg 3000w,
+https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1648760933/site/value-based-price.jpg 4494w" sizes="100vw" alt="Семь альтернатив почасовой оплате: пакеты услуг, подписка, гонорар успеха, ретроспективная оплата, плата за активности, поштучная оплата, процентная ставка" itemprop="contentUrl" />
 </div>
 
 
@@ -169,7 +173,7 @@
 <p>Как понять, что стоимость умственного труда адекватна? Если никто из&nbsp;клиентов не&nbsp;уходит от&nbsp;вас по&nbsp;причине высокой стоимости&nbsp;— цены ваши слишком низкие. Если ушли все клиенты&nbsp;— цены завышены. У&nbsp;вас адекватная стоимость, если&nbsp;50% потенциальных клиентов уходят из-за высокой цены. </p>
 </section>]]></content><author><name></name></author><category term="мнение" /><category term="маркетолог" /><category term="управление" /><category term="инструменты" /><summary type="html"><![CDATA[Все еще используете часовые ставки? Ну&nbsp;это вы&nbsp;зря!]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/tizers/tizer-68.png" /><media:content medium="image" url="http://localhost:4000/assets/images/tizers/tizer-68.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Практики ритейл-маркетинга Йенса Нордфальта</title><link href="http://localhost:4000/blog/in-store-marketing/" rel="alternate" type="text/html" title="Практики ритейл-маркетинга Йенса Нордфальта" /><published>2021-01-05T00:00:00+03:00</published><updated>2022-02-05T00:00:00+03:00</updated><id>http://localhost:4000/blog/in-store-marketing</id><content type="html" xml:base="http://localhost:4000/blog/in-store-marketing/"><![CDATA[<div class="intro">
     <h1 class=" bold max-width-text">Как влиять на&nbsp;решения о&nbsp;покупке в&nbsp;точках продаж</h1> 
-    <small class="small"><time datetime="2021-01-05">  5 января 2021</time> 
+    <small class="small"><time itemprop="datePublished" datetime="2021-01-05">  5 января 2021</time> 
     </small>
 </div>
 
@@ -250,8 +254,24 @@
 
 <p>Посетитель магазина не&nbsp;видит всего, на&nbsp;что смотрит. Принимает простые, автоматические, неосознаваемые решения. В&nbsp;этих условиях у&nbsp;маркетолога одна основная задача: «Как обратить внимание на&nbsp;товар?». Ведь если продукт не&nbsp;попадет в&nbsp;поле восприятия посетителя, все остальное (цена, характеристики и&nbsp;пр.) не&nbsp;имеет значение. </p>
 
-<div class="figure" itemscope="" itemtype="http://schema.org/ImageObject">
-<img class="image" src="/assets/images/blog/in-store-marketing/in-store-marketing.svg" width="602" height="553" alt="схематичное изображение задач маркетолога в рознице" itemprop="contentUrl" />
+<div class="figure" itemprop="image" itemscope="" itemtype="http://schema.org/ImageObject">
+<picture>
+    <source sizes="100vw" srcset="/assets/images/blog/in-store-marketing/in-store-marketing--640w.avif 640w, 
+		/assets/images/blog/in-store-marketing/in-store-marketing--1040w.avif 1040w,
+		/assets/images/blog/in-store-marketing/in-store-marketing--1920w.avif 1920w,
+		/assets/images/blog/in-store-marketing/in-store-marketing--3000w.avif 3000w,
+		/assets/images/blog/in-store-marketing/in-store-marketing.avif 4000w" type="image/avif" />
+    <source sizes="100vw" srcset="/assets/images/blog/in-store-marketing/in-store-marketing--640w.webp 640w, 
+		/assets/images/blog/in-store-marketing/in-store-marketing--1040w.webp 1040w,
+		/assets/images/blog/in-store-marketing/in-store-marketing--1920w.webp 1920w,
+		/assets/images/blog/in-store-marketing/in-store-marketing--3000w.webp 3000w,
+		/assets/images/blog/in-store-marketing/in-store-marketing.webp 4000w" type="image/webp" />  
+	<img class="image is-1by1" loading="lazy" decoding="async" src="/assets/images/blog/in-store-marketing/in-store-marketing.jpg" width="4000" height="4000" sizes="100vw" srcset="/assets/images/blog/in-store-marketing/in-store-marketing--640w.jpg 640w, 
+		/assets/images/blog/in-store-marketing/in-store-marketing--1040w.jpg 1040w,
+		/assets/images/blog/in-store-marketing/in-store-marketing--1920w.jpg 1920w,
+		/assets/images/blog/in-store-marketing/in-store-marketing--3000w.jpg 3000w,
+		/assets/images/blog/in-store-marketing/in-store-marketing.jpg 4000w" alt="Задача маркетолога в рознице - попасть в поле восприятия человека, который опирается на привычные патерны выбора среди ограниченного набора категорий и товаров" itemprop="contentUrl" />
+</picture>
 </div>
 
 <p class="mb-m">Рассмотренные Йенсом Нордфальтом способы решения этой задачи я&nbsp;разделил на&nbsp;четыре основных группы&nbsp;— по&nbsp;механизму работы. Чтобы посетитель магазина обратил внимание на&nbsp;товар, нужно: </p>
@@ -376,8 +396,8 @@
 
 </section>]]></content><author><name></name></author><category term="мнение" /><category term="маркетолог" /><category term="управление" /><summary type="html"><![CDATA[Решение о&nbsp;покупке во&nbsp;многом зависит от&nbsp;внешних факторов. На&nbsp;выбор можно влиять, правильно организовав ритейл-среду.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/tizers/tizer-67.png" /><media:content medium="image" url="http://localhost:4000/assets/images/tizers/tizer-67.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Разрабатываю концепцию бренда для Hörmann</title><link href="http://localhost:4000/blog/brand-conception-hormann/" rel="alternate" type="text/html" title="Разрабатываю концепцию бренда для Hörmann" /><published>2020-07-16T00:00:00+03:00</published><updated>2022-02-05T00:00:00+03:00</updated><id>http://localhost:4000/blog/hormann</id><content type="html" xml:base="http://localhost:4000/blog/brand-conception-hormann/"><![CDATA[<div class="intro">
     <h1 class=" bold max-width-text">Кейс: концепция бренда для Hörmann Беларусь</h1> 
-    <small class="small"><time datetime="2020-07-16"> 16 июля 2020</time> 
-      <time datetime="2022-02-05">(обновил  5 февраля 2022)</time>
+    <small class="small"><time itemprop="datePublished" datetime="2020-07-16"> 16 июля 2020</time> 
+      <time itemprop="dateModified" datetime="2022-02-05">(обновил  5 февраля 2022)</time>
     </small>
 </div>
 
@@ -418,9 +438,12 @@
 <p>Работу начал стандартно: встретился с&nbsp;руководством белорусского офиса и&nbsp;задавал много вопросов. Обсуждали ценности <b>бренда</b>, товарную линейку, конкурентов, работу с&nbsp;целевой аудиторией и&nbsp;многое другое. Результат&nbsp;— я&nbsp;и&nbsp;клиент были уверены, что одинаково понимаем задачу и&nbsp;ее&nbsp;контекст. </p>
 <p>У&nbsp;Hörmann широкий ассортимент продукции: промышленные, гаражные и&nbsp;скоростные ворота, электроприводы, перегрузочная техника, входные и&nbsp;межкомнатные двери, объектные двери, системы контроля въезда и&nbsp;др. Ключевым направлением для разработки концепции выбрали один из&nbsp;наиболее значимых продуктов концерна&nbsp;— гаражные ворота.</p>
 
-<div class="figure is-2by1" itemscope="" itemtype="http://schema.org/ImageObject">
-<img class="image" loading="lazy" srcset="https://res.cloudinary.com/bartoshevich/image/upload/w_1040/f_auto,q_auto/v1626971559/site/hormann_alt.jpg 1x,
-https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1626971559/site/hormann_alt.jpg 1.4x" src="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1626971559/site/hormann_alt.jpg" width="1460" height="730" alt="гаражные ворота Хёрманн" itemprop="contentUrl" />
+<div class="figure" itemprop="image" itemscope="" itemtype="http://schema.org/ImageObject">
+<img class="image is-16by9" loading="lazy" decoding="async" sizes="100vw" srcset="https://res.cloudinary.com/bartoshevich/image/upload/w_640/f_auto,q_auto/v1648644468/site/hormann_doors.jpg 640w,
+https://res.cloudinary.com/bartoshevich/image/upload/w_1040/f_auto,q_auto/v1648644468/site/hormann_doors.jpg 1040w,
+https://res.cloudinary.com/bartoshevich/image/upload/w_2000/f_auto,q_auto/v1648644468/site/hormann_doors.jpg 2000w,
+https://res.cloudinary.com/bartoshevich/image/upload/w_3000/f_auto,q_auto/v1648644468/site/hormann_doors.jpg 3000w,
+https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1648644468/site/hormann_doors.jpg 3540w" src="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1648644468/site/hormann_doors.jpg" width="3540" height="1991" alt="Хёрманн ассоциируется прежде всего с гаражными воротами" itemprop="contentUrl" />
 <div class="figcaption" itemprop="description">Для разработки концепции выбрали один из&nbsp;значимых продуктов концерна&nbsp;— гаражные ворота.
 </div>
 </div>
@@ -435,9 +458,12 @@ https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1626971559/s
 <p>Основные конкуренты Hörmann в&nbsp;Беларуси: Алютех, Дорхан и&nbsp;Ритерна. Я&nbsp;изучил сайты компаний, посты в&nbsp;социальных сетях, рекламные брошюры. Для каждого конкурента вывел центральную идею, которую тот пытается донести до&nbsp;покупателей.</p>
 <p>Отметил, что компании описывают себя через одинаковые атрибуты. Каждое предприятие доказывает, что именно их&nbsp;продукция безопасна, надежна, уникальна и&nbsp;пр. </p>
 
-<div class="figure is-2by1">
-<img class="image" loading="lazy" src="https://res.cloudinary.com/bartoshevich/image/upload/f_auto/v1594909933/site/competitors_hormann.jpg" width="700" height="350" alt="основные конкуренты Hörmann" />
+<div class="figure" itemprop="image" itemscope="" itemtype="http://schema.org/ImageObject">
+<img class="image is-2by1 border" loading="lazy" decoding="async" itemprop="contentUrl" sizes="100vw" srcset="https://res.cloudinary.com/bartoshevich/image/upload/w_640/f_auto,q_auto/v1648646401/site/konkurentnyj_analiz.jpg 640w,
+https://res.cloudinary.com/bartoshevich/image/upload/w_1040/f_auto,q_auto/v1648646401/site/konkurentnyj_analiz.jpg 1040w,
+https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1648646401/site/konkurentnyj_analiz.jpg 1500w" src="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1648646401/site/konkurentnyj_analiz.jpg" width="1500" height="750" alt="анализ конкурентов Хёрманн показывает, что все производители продвигают одинаковые характеристики" />
 <div class="figcaption">Каждый говорит, что именно его продукция безопасна, надежна, уникальна и&nbsp;пр.</div>
+<meta itemprop="description" content="анализ конкурентов Хёрманн показывает, что все производители продвигают одинаковые характеристики" />
 </div>
 
 <p class="mb-m">Какие выводы сделал: </p>
@@ -570,7 +596,7 @@ https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1626971559/s
 
 <section class="full-bleed row-gap--m" id="5">
 <h2 class="block__space--top-h2 h1 bold">Внедряем концепцию бренда</h2>
-<p>Бренд&nbsp;— это не&nbsp;то, что в&nbsp;рабочих папках маркетолога, а&nbsp;то, что в&nbsp;головах людей. Поэтому вместе с&nbsp;белорусским офисом Hörmann мы&nbsp;принялись доносить концепцию до&nbsp;целевой аудитории. Несколько примеров. </p>
+<p>Бренд&nbsp;— это не&nbsp;то, что в&nbsp;рабочих папках маркетолога, а&nbsp;то, что в&nbsp;головах людей. Поэтому вместе с&nbsp;белорусским офисом Hörmann мы&nbsp;принялись доносить концепцию до&nbsp;целевой аудитории. Несколько примеров коммуникации. </p>
 
 <section class="mt-m row-gap--m">
 <h3 class="h2 bold mb-m">Видео</h3>
@@ -578,19 +604,26 @@ https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1626971559/s
 
 <p class="mb-m"><span class="bold">Уверенно рекомендуют</span></p>
 
-<div class="figure">
- <div class="video ">
+<div class="figure" itemprop="video" itemscope="" itemtype="https://schema.org/VideoObject">
+ 	<link itemprop="url" href="https://youtu.be/Rl2jUmZWSfg" />
+ 	<meta itemprop="name" content="Уверенно рекомендуют" />
+   	<meta itemprop="uploadDate" content="2020-07-16" />
+  	<meta itemprop="duration" content="PT1M06S" />
+ 	<meta itemprop="isFamilyFriendly" content="true" />
+
+
+ <div class="video">
         <a class="video__link" href="https://youtu.be/Rl2jUmZWSfg" target="_blank" rel="noopener nofollow noreferrer">
-		 <picture>
+			<picture>
                 <source srcset="https://i.ytimg.com/vi_webp/Rl2jUmZWSfg/maxresdefault.webp" type="image/webp" />
-                <img loading="lazy" class="video__media " src="https://i.ytimg.com/vi/Rl2jUmZWSfg/maxresdefault.jpg" alt="рекламный ролик, идея Дмитрия Бартошевича" width="1280" height="720" />
-            </picture>          
+                <img loading="lazy" class="video__media is-16by9" src="https://i.ytimg.com/vi/Rl2jUmZWSfg/maxresdefault.jpg" alt="Один из элементов концепции бренда — Хёрманн уверенно рекомендуют. Ролик обыгрывает эту идею. Сын звонит отцу и спрашивает, как называются их ворота, которые никогда не ломаются. Отец отвечает и подтверждает, что это очень надежные ворота." width="1280" height="720" itemprop="thumbnail" />
+        	</picture>          
         </a>
       <button class="video__button" aria-label="Запустить видео">
             <svg width="68" height="48" viewBox="0 0 68 48"><path class="video__button-shape" d="M66.52,7.74c-0.78-2.93-2.49-5.41-5.42-6.19C55.79,.13,34,0,34,0S12.21,.13,6.9,1.55 C3.97,2.33,2.27,4.81,1.48,7.74C0.06,13.05,0,24,0,24s0.06,10.95,1.48,16.26c0.78,2.93,2.49,5.41,5.42,6.19 C12.21,47.87,34,48,34,48s21.79-0.13,27.1-1.55c2.93-0.78,4.64-3.26,5.42-6.19C67.94,34.95,68,24,68,24S67.94,13.05,66.52,7.74z"></path><path class="video__button-icon" d="M 45,24 27,14 27,34"></path></svg>
         </button>
 </div>
-<div class="figcaption">
+<div class="figcaption" itemprop="description">
 Игровой проморолик белорусского офиса Hörmann. Идея&nbsp;— Дмитрий Бартошевич. Режиссер&nbsp;— <a class="link" href="https://alexbondarev.pro/" title="сайт режиссера Александра Бондарева">Александр Бондарев</a> 
 </div>
 </div>
@@ -604,7 +637,7 @@ https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1626971559/s
         <a class="video__link " href="https://youtu.be/by2hD_Et_GA" target="_blank" rel="noopener nofollow noreferrer">
 		 <picture>
                 <source srcset="https://i.ytimg.com/vi_webp/by2hD_Et_GA/maxresdefault.webp" type="image/webp" />
-                <img loading="lazy" class="video__media " src="https://i.ytimg.com/vi/by2hD_Et_GA/maxresdefault.jpg" alt="Лексус Минск выбирает Hörmann" width="1280" height="720" />
+                <img loading="lazy" class="video__media is-16by9" src="https://i.ytimg.com/vi/by2hD_Et_GA/maxresdefault.jpg" alt="Документальный ролик, в котором сотрудник Лексус Минск рекомендует Хёрманн." width="1280" height="720" />
             </picture> 
         </a>
       <button class="video__button" aria-label="Запустить видео">
@@ -625,9 +658,9 @@ https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1626971559/s
 <div class="figure">
  <div class="video ">
         <a class="video__link " href="https://youtu.be/suO-2vF2wSE" target="_blank" rel="noopener nofollow noreferrer">
-	 <picture>
+	 		<picture>
                 <source srcset="https://i.ytimg.com/vi_webp/suO-2vF2wSE/maxresdefault.webp" type="image/webp" />
-                <img loading="lazy" class="video__media " src="https://i.ytimg.com/vi/suO-2vF2wSE/maxresdefault.jpg" alt="Установка гаражных ворот" width="1280" height="720" />
+                <img loading="lazy" class="video__media is-16by9" src="https://i.ytimg.com/vi/suO-2vF2wSE/maxresdefault.jpg" alt="Демонстрируем экспертизу Хёрманн на примере установки ворот." width="1280" height="720" />
             </picture> 
         </a>
       <button class="video__button" aria-label="Запустить видео">
@@ -639,6 +672,39 @@ https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1626971559/s
 </div>
 </div>
 </section>
+
+<section class="mt-m row-gap--m max-width-text">
+<h3 class="h2 bold mb-m">Аудио</h3>
+                       <div class="figure">
+                           <audio controls="">
+                               <source src="/assets/media/project/hormann_100.mp3" type="audio/mpeg" />		
+                               Аудиопроигрователь не поддерживается вашим браузером :-( 
+                           </audio>
+                           <div class="figcaption">
+                               Рекламный ролик для радио. Идея и&nbsp;сценарий&nbsp;&mdash; Дмитрий Бартошевич
+                           </div>
+                    
+   
+                           <details>
+                               <summary class="link">
+                               Транскрипт аудио ролика <small>(нажмите, чтобы открыть)</small>
+                               </summary>
+                               <div class="mt-m">
+                                   <p>—&nbsp;Папа, а&nbsp;сколько раз нужно сделать, чтобы получилось хорошо? </p>
+                                   <p>—&nbsp;Сто раз так точно, сынок. </p>
+                                   <p>—&nbsp;Ого!.. А&nbsp;вот наши ворота... мм, как там...</p>
+                                   <p>—&nbsp;Хёрманн? </p>
+                                   <p>—&nbsp;Да, Хёрманн! Им&nbsp;уже 10&nbsp;лет, а&nbsp;они работают. Вот их&nbsp;сколько раз делали? </p>
+                                   <p>—&nbsp;Больше 10&nbsp;миллионов раз. </p>
+                                   <p>—&nbsp;Так много?! Теперь понятно, почему у&nbsp;них так хорошо получается. </p>
+                                   <p>Отбивка: «Хёрманн знает, как делать гаражные ворота». </p>
+                               </div>
+                           </details>
+                       </div>
+</section>					   
+
+
+
 
 <section class="mt-m row-gap--m">
 <h3 class="h2 bold mb-m">Контекстная реклама </h3>
@@ -690,30 +756,107 @@ https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1626971559/s
 </div>
 </section>
 
-	<section class="mt-m row-gap--m max-width-text">
+<section class="full-bleed mt-m row-gap--m">
 		<h3 class="h2 bold mb-m">Наружная реклама </h3>
 		<p>Посылы привели в&nbsp;соответствие с&nbsp;концепцией бренда. </p>
-
-		<div class="figure is-2by1" itemscope="" itemtype="http://schema.org/ImageObject">
-		<img class="image " loading="lazy" src="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1594909933/site/bord_hormann.jpg" width="700" height="350" alt="билборд Хёрманн" itemprop="contentUrl" />
-
-		<div class="figcaption" itemprop="description">рекламный щит Hörmann</div>
+		<div class="full-bleed figure" itemprop="image" itemscope="" itemtype="http://schema.org/ImageObject">		
+		<img class="image is-2by1 border" loading="lazy" decoding="async" sizes="100vw" srcset="https://res.cloudinary.com/bartoshevich/image/upload/w_640/f_auto,q_auto/v1648633654/site/bilbord-posle-utverzhdeniya-koncepcii-brenda.jpg 640w,
+			https://res.cloudinary.com/bartoshevich/image/upload/w_1040/f_auto,q_auto/v1648633654/site/bilbord-posle-utverzhdeniya-koncepcii-brenda.jpg 1040w,
+			https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1648633654/site/bilbord-posle-utverzhdeniya-koncepcii-brenda.jpg 1920w" src="https://res.cloudinary.com/bartoshevich/image/upload/f_auto/v1648633654/site/bilbord-posle-utverzhdeniya-koncepcii-brenda.jpg" width="1920" height="960" alt="на билборде отражен один из постулатов концепции бренда: ворота Хёрманн используют от Аляски до Австралии" itemprop="contentUrl" />
+		<div class="figcaption">рекламный щит Hörmann</div>
+		<meta itemprop="description" content="на билборде отражен один из постулатов концепции бренда: ворота Хёрманн используют от Аляски до Австралии" />
 		</div>
 	</section>
-</section>]]></content><author><name></name></author><category term="опыт" /><category term="кейсы" /><summary type="html"><![CDATA[Разработал концепцию бренда для белорусского офиса Hörmann: рассказываю об&nbsp;этапах работы и&nbsp;результатах.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/tizers/tizer-66.png" /><media:content medium="image" url="http://localhost:4000/assets/images/tizers/tizer-66.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Интернет-проекты: советы по разработке и развитию</title><link href="http://localhost:4000/blog/sovety-po-razrabotke-i-razvitiyu-internet-proektov/" rel="alternate" type="text/html" title="Интернет-проекты: советы по разработке и развитию" /><published>2015-09-24T00:00:00+03:00</published><updated>2022-02-04T00:00:00+03:00</updated><id>http://localhost:4000/blog/sovety-po-razrabotke-i-razvitiyu-internet-proektov</id><content type="html" xml:base="http://localhost:4000/blog/sovety-po-razrabotke-i-razvitiyu-internet-proektov/"><![CDATA[<div class="intro">
+</section>]]></content><author><name></name></author><category term="опыт" /><category term="кейсы" /><summary type="html"><![CDATA[Разработал концепцию бренда для белорусского офиса Hörmann: рассказываю об&nbsp;этапах работы и&nbsp;результатах.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/tizers/tizer-66.png" /><media:content medium="image" url="http://localhost:4000/assets/images/tizers/tizer-66.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Зачем маркетинг нужен компании</title><link href="http://localhost:4000/blog/zachem-marketing-biznesu/" rel="alternate" type="text/html" title="Зачем маркетинг нужен компании" /><published>2015-10-01T00:00:00+03:00</published><updated>2022-02-04T00:00:00+03:00</updated><id>http://localhost:4000/blog/zachem-marketing-biznesu</id><content type="html" xml:base="http://localhost:4000/blog/zachem-marketing-biznesu/"><![CDATA[<div class="intro">
+    <h1 class=" bold max-width-text">Зачем нужен маркетинг</h1> 
+    <small class="small"><time itemprop="datePublished" datetime="2015-10-01">  1 октября 2015</time> 
+      <time itemprop="dateModified" datetime="2022-02-04">(обновил  4 февраля 2022)</time>
+    </small>
+</div>
+
+<p>Сталкивался с&nbsp;мнением, что <b>маркетинг</b> приносит только затраты, и&nbsp;что если маркетинговый бюджет перераспределить на&nbsp;нужды отдела продаж, то&nbsp;компания получит больше пользы. Маркетологи такой подход ожидаемо не&nbsp;разделяют. Но&nbsp;поскольку они&nbsp;— лица заинтересованные, то&nbsp;и&nbsp;доводы воспринимаются с&nbsp;недоверием.</p>
+<div class="with-side">
+<p>Я&nbsp;решил выяснить, как маркетинг воспринимают бизнес-тренеры по&nbsp;продажам. Они в&nbsp;наименьшей степени заинтересованы в&nbsp;преувеличении значимости маркетинга. Нужен&nbsp;ли он, по&nbsp;их&nbsp;мнению, белорусскому бизнесу, и&nbsp;если&nbsp;да, то&nbsp;зачем. Вопросы задавал двум консультантам по&nbsp;развитию системы продаж&nbsp;— Василию Хлобыстову и&nbsp;Сергею Дробышескому. Ответы в&nbsp;статье.</p>
+<div class="side">
+
+<div class="guests">
+    <div class="guest-person">
+        <picture>
+                    <source srcset="/assets/images/blog/zachem-marketing-biznesu/sd.avif" type="image/avif" />
+                    <source srcset="/assets/images/blog/zachem-marketing-biznesu/sd.webp" type="image/webp" />  
+                    <source srcset="/assets/images/blog/zachem-marketing-biznesu/sd.png" type="image/png" />               
+                <img loading="lazy" class="image is-150x150" src="/assets/images/blog/zachem-marketing-biznesu/sd.jpg" alt="Сергей Дробышевский" width="150" height="150" />
+        </picture>
+        <div class="guest-person__name">Сергей Дробышевский</div>
+        <div class="guest-person__position">В&nbsp;сервисе и&nbsp;продажах с&nbsp;2006г. Внедрял системы управления эффективностью розничных продаж в&nbsp;России: VW, SsangYong, Wallenstein, Skoda, СтройШефИнвест.</div>
+    </div>
+    <div class="guest-person">
+        <picture>
+                    <source srcset="/assets/images/blog/zachem-marketing-biznesu/vh.avif" type="image/avif" />
+                    <source srcset="/assets/images/blog/zachem-marketing-biznesu/vh.webp" type="image/webp" />  
+                    <source srcset="/assets/images/blog/zachem-marketing-biznesu/vh.png" type="image/png" />               
+                <img loading="lazy" class="image is-150x150" src="/assets/images/blog/zachem-marketing-biznesu/vh.jpg" alt="Василий Хлобыстов" width="150" height="150" /> 
+        </picture>
+        
+        <div class="guest-person__name">Василий Хлобыстов </div>
+        <div class="guest-person__position">Более 15&nbsp;лет опыта работы и&nbsp;консультирования в&nbsp;области построения дистрибуции, организации и&nbsp;развития продаж. Сферы: стройматериалы, продукты питания, инженерные решения, ИТ-услуги.<br />
+        География: Беларусь, Россия, Молдова, Украина.</div>
+    </div>
+</div>
+</div>
+
+
+
+
+
+<section class="row-gap--m">
+<h2 class="block__space--top-h2 h1 bold">Нужен&nbsp;ли маркетинг</h2>
+
+
+
+<p><span class="bold">Сергей Дробышевский:</span> Продавец&nbsp;— пчела, которая приносит мёд в&nbsp;компанию. Когда у&nbsp;пчёл много цветов, они могут в&nbsp;<span class="noperenos">2-3</span> раза быстрее строить соты и&nbsp;заполнять мёдом. Чем меньше расстояние от&nbsp;цветка до&nbsp;улья, тем лучше. Отдел маркетинга обеспечивает пчел цветами, т.е. создает постоянный поток клиентов в&nbsp;отдел продаж. Инвестиции в&nbsp;маркетинг, который приводит клиента в&nbsp;компанию, жизненно необходимы. Вместе с&nbsp;тем маркетологи должны стремиться к&nbsp;снижению стоимости привлечения клиента.</p>
+
+
+<p><span class="bold">Василий Хлобыстов:</span> <strong>Маркетинг обязателен. Если не&nbsp;в&nbsp;виде отдельного человека, то&nbsp;хотя&nbsp;бы в&nbsp;виде функции.</strong> Если руководитель достаточно компетентен, он&nbsp;может взять функцию маркетинга на&nbsp;себя. Но&nbsp;исключать ее&nbsp;никак нельзя.</p>
+
+<p>Маркетинг нужен, чтобы иметь понимание что, для кого, за&nbsp;сколько и&nbsp;сколько мы&nbsp;можем сделать и&nbsp;продать, чтобы увидеть, чего не&nbsp;хватает нам и&nbsp;где не&nbsp;хватает нас. Чтобы покупатели и&nbsp;потребители нас увидели и&nbsp;услышали, поняли и&nbsp;выбрали. Чтобы добавить картине еще одно важное измерение и&nbsp;сделать взгляд на&nbsp;рынок, клиента и&nbsp;ситуацию объемным.</p>
+
+
+
+<div class="post__note">
+<p>Некая Kimberly Whitler сравнила доход двух типов компаний: у&nbsp;одних в&nbsp;совете директоров есть хотя&nbsp;бы один маркетолог, у&nbsp;других&nbsp;— нет. Разница в&nbsp;динамике роста дохода&nbsp;— 5.78 процентных пункта в&nbsp;пользу маркетологов ;-) Любопытным&nbsp;— <a class="link" href="https://www.ama.org/marketing-news/marketer-representation-at-the-board-level-can-drive-growth-so-why%e2%80%89are-they-underrepresented/">описание исследования</a> (англ.). <br /> <span class="small">updated, 2019</span></p>
+
+</div>
+</section>
+
+<section class="row-gap--m">
+<h2 class="block__space--top-h2 h1 bold">Что снижает эффективность маркетинга</h2>
+
+<p><span class="bold">Сергей Дробышевский:</span> Из-за отсутствия четких границ ответственности отделы делят успехи, часто забирая их&nbsp;друг у&nbsp;друга, или перекладывают вину за&nbsp;низкие результаты. В&nbsp;ситуации такой по&nbsp;сути вражды невозможно эффективно решать главную задачу&nbsp;— работать с&nbsp;клиентом в&nbsp;долгосрочной и&nbsp;краткосрочной перспективе. Возможно, это объясняется тем, что в&nbsp;бизнес-культуре постсоветских компаний маркетинг&nbsp;— пока еще что-то «приделанное» к&nbsp;привычному укладу жизни компании.</p>
+
+<p><span class="bold">Василий Хлобыстов:</span> Маркетинг приносит результат, который «продажи» должны ждать, подхватывать и&nbsp;использовать. И&nbsp;для этого маркетингу с&nbsp;продажами надо хорошо знать и&nbsp;понимать друг друга. Между ними вполне может быть определенный системный конфликт&nbsp;— например, на&nbsp;этапе согласования годовых планов. Но&nbsp;точно также между ними должно быть выстроено рабочее взаимодействие, направленное на&nbsp;взаимную системную полезность.</p>
+<p>Директор предприятия также может снижать эффективность маркетинга. Две типичные ситуации:</p>
+<ul class="additive-spacing">
+<li class="list-li">Руководитель ограничивает КПД отдела маркетинга ситуационными задачами типа заказа подарков и&nbsp;печати визиток с&nbsp;каталогами.</li>
+<li class="list-li">Директор изначально скептически настроен по&nbsp;отношению к&nbsp;маркетингу и&nbsp;пропускает мимо ушей сказанное маркетологом. Классический пример&nbsp;— один маркетолог на&nbsp;предприятии, часто вчерашний студент, которого всерьез не&nbsp;воспринимают.</li>
+</ul>
+</section>
+<br />
+<div class="mt-m post__note h2 additive-spacing"><p>Маркетинг обязателен. </p> <p>Чтобы маркетинг приносил пользу, требуется согласованная работа отделов маркетинга и&nbsp;продаж, а&nbsp;также доверие руководителя компании к&nbsp;маркетологам.</p></div>
+</div>]]></content><author><name></name></author><category term="мнение" /><category term="управление" /><category term="интервью" /><summary type="html"><![CDATA[Зачем маркетинг белорусскому бизнесу и&nbsp;почему он&nbsp;иногда не&nbsp;приносит пользу предприятиям&nbsp;— рассуждают эксперты по&nbsp;продажам.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/tizers/tizer-8.jpg" /><media:content medium="image" url="http://localhost:4000/assets/images/tizers/tizer-8.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Интернет-проекты: советы по разработке и развитию</title><link href="http://localhost:4000/blog/sovety-po-razrabotke-i-razvitiyu-internet-proektov/" rel="alternate" type="text/html" title="Интернет-проекты: советы по разработке и развитию" /><published>2015-09-24T00:00:00+03:00</published><updated>2022-02-04T00:00:00+03:00</updated><id>http://localhost:4000/blog/sovety-po-razrabotke-i-razvitiyu-internet-proektov</id><content type="html" xml:base="http://localhost:4000/blog/sovety-po-razrabotke-i-razvitiyu-internet-proektov/"><![CDATA[<div class="intro">
     <h1 class=" bold max-width-text">Студия Борового: как развивать интернет-проекты</h1> 
-    <small class="small"><time datetime="2015-09-24"> 24 сентября 2015</time> 
-      <time datetime="2022-02-04">(обновил  4 февраля 2022)</time>
+    <small class="small"><time itemprop="datePublished" datetime="2015-09-24"> 24 сентября 2015</time> 
+      <time itemprop="dateModified" datetime="2022-02-04">(обновил  4 февраля 2022)</time>
     </small>
 </div>
 
 <p>Участвовал в&nbsp;семинаре по&nbsp;интернет-маркетингу «Стань эффективнее», который организовала Студия Борового и&nbsp;агентство «Скрытый маркетинг». Расскажу о&nbsp;ключевых идеях, которые услышал на&nbsp;мероприятии, и&nbsp;советах спикеров по&nbsp;разработке и&nbsp;развитию интернет-проектов.</p>
 
-<div class="figure" itemscope="" itemtype="http://schema.org/ImageObject">
+<div class="figure" itemprop="image" itemscope="" itemtype="http://schema.org/ImageObject">
 <picture>
                 <source srcset="/assets/images/blog/sovety-po-razrabotke/sb1.avif" type="image/avif" />
                  <source srcset="/assets/images/blog/sovety-po-razrabotke/sb1.webp" type="image/webp" />               
-               <img loading="lazy" src="/assets/images/blog/sovety-po-razrabotke/sb1.jpg" alt="семинар Студии Борового" width="695" height="462" class="image" itemprop="contentUrl" />
+               <img src="/assets/images/blog/sovety-po-razrabotke/sb1.jpg" alt="семинар Студии Борового" width="695" height="462" class="image" itemprop="contentUrl" />
     </picture>
 </div>
 
@@ -738,14 +881,14 @@ https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1626971559/s
 <h2 class="block__space--top-h2 h1 bold">Учет конверсии в&nbsp;интернет-маркетинге</h2>
 <p>Александр Огородников рассказал о&nbsp;коллтрекинге (call tracking). Эта технология связывает звонок покупателя с&nbsp;рекламным источником. С ней вы&nbsp;можете определить эффективность каждого канала и&nbsp;сообщения. Если ваша бизнес-модель предусматривает общение с&nbsp;клиентами по&nbsp;телефону, Александр призвал направлять маркетинговый бюджет в&nbsp;каналы с&nbsp;наибольшей отдачей.</p>
 
-<div class="figure" itemscope="" itemtype="http://schema.org/ImageObject">
+<div class="figure" itemprop="image" itemscope="" itemtype="http://schema.org/ImageObject">
 <div class="figcaption">
 Так Александр показал, как коллтрекинг определяет малоэффективные каналы рекламы:
 </div>
 <picture>
                 <source srcset="/assets/images/blog/sovety-po-razrabotke/sb2.avif" type="image/avif" />
                  <source srcset="/assets/images/blog/sovety-po-razrabotke/sb2.webp" type="image/webp" />               
-               <img loading="lazy" src="/assets/images/blog/sovety-po-razrabotke/sb2.jpg" alt="таблица со стоимостью и количеством звонков в рекламных каналах" width="695" height="334" class="image" itemprop="contentUrl" />
+               <img loading="lazy" decoding="async" src="/assets/images/blog/sovety-po-razrabotke/sb2.jpg" alt="таблица со стоимостью и количеством звонков в рекламных каналах" width="695" height="334" class="image" itemprop="contentUrl" />
     </picture>
 </div>
 
@@ -775,7 +918,7 @@ https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1626971559/s
 <p>В&nbsp;качестве заключения отмечу, что в&nbsp;сфере продвижения интернет-проектов истины нет, есть сплит-тестирование. Каждую идею воспринимайте как гипотезу, проверяйте и&nbsp;используете&nbsp;то, что дает наибольшую отдачу.</p>
 </section>]]></content><author><name></name></author><category term="мнение" /><category term="интернет-маркетинг" /><category term="семинары" /><summary type="html"><![CDATA[Ключевые идеи, советы спикеров и&nbsp;общее впечатление от&nbsp;семинара по&nbsp;интернет-маркетингу «Стань эффективнее» Студии Борового и&nbsp;«Скрытого маркетинга».]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/tizers/tizer-7.jpg" /><media:content medium="image" url="http://localhost:4000/assets/images/tizers/tizer-7.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Отличия маркетолога от брехуна</title><link href="http://localhost:4000/blog/otlichie-marketologa-ot-brexuna/" rel="alternate" type="text/html" title="Отличия маркетолога от брехуна" /><published>2015-09-17T00:00:00+03:00</published><updated>2022-02-04T00:00:00+03:00</updated><id>http://localhost:4000/blog/otlichie-marketologa-ot-brexuna</id><content type="html" xml:base="http://localhost:4000/blog/otlichie-marketologa-ot-brexuna/"><![CDATA[<div class="intro">
     <h1 class=" bold max-width-text">Как маркетолога отличить от&nbsp;брехуна</h1> 
-    <small class="small"><time datetime="2015-09-17"> 17 сентября 2015</time> 
+    <small class="small"><time itemprop="datePublished" datetime="2015-09-17"> 17 сентября 2015</time> 
     </small>
 </div>
 
@@ -817,8 +960,8 @@ https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1626971559/s
 <p>Этот семинар я&nbsp;запомнил лучше остальных, на&nbsp;которых обучался. Благодаря ему я&nbsp;начал дотошно проверять все, что показываю клиенту. А&nbsp;рекомендации подкреплять фактами и&nbsp;цифрами. В&nbsp;презентациях нет ничего, в&nbsp;чем не&nbsp;уверен. И&nbsp;я&nbsp;не&nbsp;считаю это чем-то особенным. Так делает каждый грамотный маркетолог. И&nbsp;это отличает его от&nbsp;брехуна.</p>
 </section>]]></content><author><name></name></author><category term="мнение" /><category term="инструменты" /><category term="маркетолог" /><summary type="html"><![CDATA[Если маркетолог влияет на&nbsp;политику предприятия, важно уметь отличать грамотный анализ рынка от&nbsp;брехни. На&nbsp;какие признаки профессионализма и&nbsp;его отсутствия стоит обратить внимание.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/tizers/tizer-6.jpg" /><media:content medium="image" url="http://localhost:4000/assets/images/tizers/tizer-6.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Качество товара и конкурентоспособность</title><link href="http://localhost:4000/blog/2-idei-po-razvitiyu-marketinga/" rel="alternate" type="text/html" title="Качество товара и конкурентоспособность" /><published>2015-09-10T00:00:00+03:00</published><updated>2022-03-28T00:00:00+03:00</updated><id>http://localhost:4000/blog/idei-po-razvitiyu-marketinga</id><content type="html" xml:base="http://localhost:4000/blog/2-idei-po-razvitiyu-marketinga/"><![CDATA[<div class="intro">
     <h1 class=" bold max-width-text">Качество и&nbsp;конкурентоспособность товара </h1> 
-    <small class="small"><time datetime="2015-09-10"> 10 сентября 2015</time> 
-      <time datetime="2022-03-28">(обновил 28 марта 2022)</time>
+    <small class="small"><time itemprop="datePublished" datetime="2015-09-10"> 10 сентября 2015</time> 
+      <time itemprop="dateModified" datetime="2022-03-28">(обновил 28 марта 2022)</time>
     </small>
 </div>
 
@@ -853,11 +996,11 @@ https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1626971559/s
 <h2 class="block__space--top-h2 h1 bold">Сущность маркетинга&nbsp;&mdash; в&nbsp;отличиях</h2>
 <p>Часто задачу маркетинга видят в&nbsp;удовлетворении нужд и&nbsp;потребностей клиентов. Это справедливо для ситуации времен распада СССР. Сейчас проблемы удовлетворения потребностей нет, у&nbsp;потребителей&nbsp;— проблема выбора.</p>
 
-<div class="figure" itemscope="" itemtype="http://schema.org/ImageObject">
+<div class="figure" itemprop="image" itemscope="" itemtype="http://schema.org/ImageObject">
 <picture>
                 <source srcset="/assets/images/blog/2-idei-po-razvitiyu-marketinga/otlichie.avif" type="image/avif" />
                  <source srcset="/assets/images/blog/2-idei-po-razvitiyu-marketinga/otlichie.webp" type="image/webp" />               
-               <img loading="lazy" src="/assets/images/blog/2-idei-po-razvitiyu-marketinga/otlichie.jpg" alt="пустые полки в магазинах в 90-х годах и изобилие товаров сегодня" width="695" height="450" class="image" itemprop="contentUrl" />
+               <img loading="lazy" decoding="async" src="/assets/images/blog/2-idei-po-razvitiyu-marketinga/otlichie.jpg" alt="пустые полки в магазинах в 90-х годах и изобилие товаров сегодня" width="695" height="450" class="image" itemprop="contentUrl" />
     </picture>
 </div>
 
@@ -874,9 +1017,9 @@ https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1626971559/s
 <h2 class="mt-m h2 bold">Может ли быть отличием качество?</h2>
 <p>Если вы&nbsp;считаете преимуществом качество, обратите внимание, что посыл «у&nbsp;нас качественный товар» сработает тогда, когда у&nbsp;конкурентов качество отсутствует в&nbsp;принципе. Если в&nbsp;Минске в&nbsp;ресторанах еда превратится в&nbsp;нечто несъедобное и&nbsp;опасное для здоровья, то&nbsp;правильно приготовленные блюда однозначно приведут к&nbsp;росту числа гостей заведения. В&nbsp;иных случаях посыл не&nbsp;принесет пользу.</p>
 
-<img loading="lazy" src="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1648470003/site/ways.jpg" alt="две дороги с ямами, одна с хорошим асфальтом" width="2000" height="1124" class="image" />
+<p itemprop="image" itemscope="" itemtype="http://schema.org/ImageObject"><img loading="lazy" decoding="async" src="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1648470003/site/ways.jpg" alt="На картинке две дороги с ямами и одна с хорошим асфальтом. Выбрать качественную дорогу легко. " width="2000" height="1124" class="image is-16by9" itemprop="contentUrl" /></p>
 
-<img loading="lazy" src="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1648470004/site/ways-2.jpg" alt="три дороги с хорошим асфальтом" width="2000" height="1124" class="image" />
+<p itemprop="image" itemscope="" itemtype="http://schema.org/ImageObject"><img loading="lazy" decoding="async" src="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1648470004/site/ways-2.jpg" alt="На картинке три дороги с хорошим асфальтом. Определить самую качественную дорогу сложно." width="2000" height="1124" class="image is-16by9" itemprop="contentUrl" /></p>
 
 <p class="post__note h2">Качество&nbsp;&mdash; преимущество лишь в&nbsp;том случае, когда у&nbsp;конкурентов оно отсутствует в&nbsp;принципе, когда брак мгновенно и&nbsp;точно распознает даже 90-летняя бабушка. В&nbsp;других случаях качество не&nbsp;очевидно. Заявления о&nbsp;качестве воспринимаются как рекламный шум. </p>
 
@@ -889,7 +1032,7 @@ https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1626971559/s
 </section>
 </section>]]></content><author><name></name></author><category term="мнение" /><category term="управление" /><summary type="html"><![CDATA[Продвижение продукта отталкивается не&nbsp;от&nbsp;продукта, а&nbsp;от&nbsp;сознания клиента. Основное значение&nbsp;&mdash; восприятие покупателя. Маркетинговые войны сегодня&nbsp;&mdash; это битва не&nbsp;продуктов, а&nbsp;идей и&nbsp;образов.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/tizers/tizer-5.jpg" /><media:content medium="image" url="http://localhost:4000/assets/images/tizers/tizer-5.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Практикум Взлом барьеров развития бизнеса</title><link href="http://localhost:4000/blog/vzlom-barerov-biznesa/" rel="alternate" type="text/html" title="Практикум Взлом барьеров развития бизнеса" /><published>2015-08-27T00:00:00+03:00</published><updated>2019-01-07T00:00:00+03:00</updated><id>http://localhost:4000/blog/vzlom-barerov-biznesa</id><content type="html" xml:base="http://localhost:4000/blog/vzlom-barerov-biznesa/"><![CDATA[<div class="intro">
     <h1 class=" bold max-width-text">Как мы ломали барьеры развития бизнеса</h1> 
-    <small class="small"><time datetime="2015-08-27"> 27 августа 2015</time> 
+    <small class="small"><time itemprop="datePublished" datetime="2015-08-27"> 27 августа 2015</time> 
     </small>
 </div>
 
@@ -901,7 +1044,7 @@ https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1626971559/s
 
 <p>Несколько фото</p>
 
-<div class="figure" itemscope="" itemtype="http://schema.org/ImageObject">
+<div class="figure" itemprop="image" itemscope="" itemtype="http://schema.org/ImageObject">
 <picture>
                 <source srcset="/assets/images/blog/vzlom-barerov-biznesa/bar1.avif" type="image/avif" />
                  <source srcset="/assets/images/blog/vzlom-barerov-biznesa/bar1.webp" type="image/webp" />               
@@ -917,7 +1060,7 @@ https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1626971559/s
 <picture>
                 <source srcset="/assets/images/blog/vzlom-barerov-biznesa/bar2.avif" type="image/avif" />
                  <source srcset="/assets/images/blog/vzlom-barerov-biznesa/bar2.webp" type="image/webp" />               
-               <img class="image" loading="lazy" src="/assets/images/blog/vzlom-barerov-biznesa/bar2.jpg" alt="" width="695" height="509" />
+               <img class="image" loading="lazy" decoding="async" src="/assets/images/blog/vzlom-barerov-biznesa/bar2.jpg" alt="" width="695" height="509" />
     </picture>
 <div class="figcaption">
 Дмитрий Григорьев. Фото: Павел Вилюха
@@ -928,7 +1071,7 @@ https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1626971559/s
 <picture>
                 <source srcset="/assets/images/blog/vzlom-barerov-biznesa/bar3.avif" type="image/avif" />
                  <source srcset="/assets/images/blog/vzlom-barerov-biznesa/bar3.webp" type="image/webp" />               
-               <img class="image" loading="lazy" src="/assets/images/blog/vzlom-barerov-biznesa/bar3.jpg" alt="" width="695" height="550" />
+               <img class="image" loading="lazy" decoding="async" src="/assets/images/blog/vzlom-barerov-biznesa/bar3.jpg" alt="" width="695" height="550" />
     </picture>
 
 <div class="figcaption">
@@ -962,12 +1105,13 @@ https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1626971559/s
 <p>Спасибо!</p>
 </div>
 
-<div class="figure">
+<div class="figure" itemprop="image" itemscope="" itemtype="http://schema.org/ImageObject">
 <picture>
                 <source srcset="/assets/images/blog/vzlom-barerov-biznesa/bar4.avif" type="image/avif" />
                  <source srcset="/assets/images/blog/vzlom-barerov-biznesa/bar4.webp" type="image/webp" />               
-               <img class="image" loading="lazy" src="/assets/images/blog/vzlom-barerov-biznesa/bar4.jpg" alt="благодарственное письмо Мебелинк" width="695" height="782" />
+               <img class="image" loading="lazy" decoding="async" src="/assets/images/blog/vzlom-barerov-biznesa/bar4.jpg" alt="благодарственное письмо Мебелинк" width="695" height="782" itemprop="contentUrl" />
     </picture>
+      <meta itemprop="name" content="благодарственное письмо Мебелинк" />
 </div>
 </section>
 
@@ -975,17 +1119,17 @@ https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1626971559/s
  И&nbsp;до&nbsp;встречи на&nbsp;следующих мероприятиях!
 </p>]]></content><author><name></name></author><category term="опыт" /><category term="семинары" /><summary type="html"><![CDATA[Рассказываю, как провели семинар по&nbsp;маркетингу и&nbsp;продажам для руководителей компаний.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/tizers/tizer-4.jpg" /><media:content medium="image" url="http://localhost:4000/assets/images/tizers/tizer-4.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Когда маркетинговые исследования не приносят пользы</title><link href="http://localhost:4000/blog/3-pravila-marketingovyx-issledovanij/" rel="alternate" type="text/html" title="Когда маркетинговые исследования не приносят пользы" /><published>2015-08-18T00:00:00+03:00</published><updated>2022-02-04T00:00:00+03:00</updated><id>http://localhost:4000/blog/pravila-marketingovyx-issledovanij</id><content type="html" xml:base="http://localhost:4000/blog/3-pravila-marketingovyx-issledovanij/"><![CDATA[<div class="intro">
     <h1 class=" bold max-width-text">Когда маркетинговые исследования&nbsp;&mdash; деньги на&nbsp;ветер</h1> 
-    <small class="small"><time datetime="2015-08-18"> 18 августа 2015</time> 
+    <small class="small"><time itemprop="datePublished" datetime="2015-08-18"> 18 августа 2015</time> 
     </small>
 </div>
 
 <p>В&nbsp;учебниках пишут, что <b>маркетинговые исследования</b> устраняют неопределенность в&nbsp;бизнесе и&nbsp;способствуют глубокому пониманию рынка. Однако реальность не&nbsp;всегда совпадает с&nbsp;написанным в&nbsp;книгах. Я&nbsp;знаю примеры, когда компании потратили значительные средства на&nbsp;исследования, но&nbsp;никакой отдачи не&nbsp;получили: ни&nbsp;понимания рынка, ни&nbsp;ясности в&nbsp;дальнейших шагах.</p>
 
-<div class="figure" itemscope="" itemtype="http://schema.org/ImageObject">
+<div class="figure" itemprop="image" itemscope="" itemtype="http://schema.org/ImageObject">
 <picture>
                 <source srcset="/assets/images/blog/pravila-marketingovyx-issledovanij/research1.avif" type="image/avif" />
                  <source srcset="/assets/images/blog/pravila-marketingovyx-issledovanij/research1.webp" type="image/webp" />               
-               <img loading="lazy" src="/assets/images/blog/pravila-marketingovyx-issledovanij/research1.jpg" alt="анекдот о видах исследований" width="695" height="583" class="image" itemprop="contentUrl" />
+               <img src="/assets/images/blog/pravila-marketingovyx-issledovanij/research1.jpg" alt="Объяснение различий в маркетинговых исследованиях. Провели два исследования, чтобы определить востребованную длину презерватива. Одно показало 21см., а второе — 15см. В первом случае опрашивали, а во втором — измеряли." width="695" height="583" class="image" itemprop="contentUrl" />
     </picture>
 </div>
 
@@ -1052,7 +1196,7 @@ https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1626971559/s
 </table>
 </section>]]></content><author><name></name></author><category term="инструкции" /><category term="инструменты" /><summary type="html"><![CDATA[Если нарушить эти правила, маркетинговые исследования не&nbsp;принесут ни&nbsp;понимания рынка, ни&nbsp;ясности в&nbsp;дальнейших шагах.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/tizers/tizer-3.jpg" /><media:content medium="image" url="http://localhost:4000/assets/images/tizers/tizer-3.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Рекламный текст - разбор ошибок</title><link href="http://localhost:4000/blog/reklamnyj-tekst-atlant-telekom/" rel="alternate" type="text/html" title="Рекламный текст - разбор ошибок" /><published>2015-08-10T00:00:00+03:00</published><updated>2022-02-04T00:00:00+03:00</updated><id>http://localhost:4000/blog/reklamnyj-tekst-atlant-telekom</id><content type="html" xml:base="http://localhost:4000/blog/reklamnyj-tekst-atlant-telekom/"><![CDATA[<div class="intro">
     <h1 class=" bold max-width-text">Редактирую рекламный текст Атлант Телеком</h1> 
-    <small class="small"><time datetime="2015-08-10"> 10 августа 2015</time> 
+    <small class="small"><time itemprop="datePublished" datetime="2015-08-10"> 10 августа 2015</time> 
     </small>
 </div>
 
@@ -1062,7 +1206,7 @@ https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1626971559/s
 <picture>
                 <source srcset="/assets/images/blog/reklamnyj-tekst-atlant-telekom/atlant.avif" type="image/avif" />
                  <source srcset="/assets/images/blog/reklamnyj-tekst-atlant-telekom/atlant.webp" type="image/webp" />               
-               <img loading="lazy" src="/assets/images/blog/reklamnyj-tekst-atlant-telekom/atlant.jpg" alt="Рекламное объявление Атлант Телеком" width="695" height="390" class="image" itemprop="contentUrl" />
+               <img src="/assets/images/blog/reklamnyj-tekst-atlant-telekom/atlant.jpg" alt="Рекламное объявление Атлант Телеком" width="695" height="390" class="image" itemprop="contentUrl" />
     </picture>
 	<div class="figcaption">
 	фото листовки
@@ -1140,32 +1284,4 @@ https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1626971559/s
  Консультант «Атлант Телеком»
 </p>
 </td></tr></tbody></table>
-</section>]]></content><author><name></name></author><category term="опыт" /><category term="реклама" /><category term="кейсы" /><summary type="html"><![CDATA[Разбираю текст рекламной листовки&nbsp;— объясняю, что можно улучшить, предлагаю свой вариант текста.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/tizers/tizer-2.jpg" /><media:content medium="image" url="http://localhost:4000/assets/images/tizers/tizer-2.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Маркетинговая стратегия в кризис</title><link href="http://localhost:4000/blog/vremya-dlya-strategii/" rel="alternate" type="text/html" title="Маркетинговая стратегия в кризис" /><published>2015-07-31T00:00:00+03:00</published><updated>2021-07-20T00:00:00+03:00</updated><id>http://localhost:4000/blog/vremya-dlya-strategii</id><content type="html" xml:base="http://localhost:4000/blog/vremya-dlya-strategii/"><![CDATA[<div class="intro">
-    <h1 class=" bold max-width-text">Маркетинговая стратегия в&nbsp;кризис&nbsp;— разрабатывать&nbsp;ли?</h1> 
-    <small class="small"><time datetime="2015-07-31"> 31 июля 2015</time> 
-      <time datetime="2021-07-20">(обновил 20 июля 2021)</time>
-    </small>
-</div>
-
-<p>Не&nbsp;первый раз сталкиваюсь с&nbsp;ситуацией, когда директоры, прикрываясь кризисом, откладывают работу над <b>маркетинговой стратегией предприятия</b>. Для меня это равносильно оставлению штурвала корабля капитаном во&nbsp;время шторма. Или как если&nbsp;бы Ставка Верховного Главнокомандования осенью сорок первого разошлась по&nbsp;домам, потому как информация с&nbsp;фронта каждый день новая, немцы воюют нечестно, стабильности нет, мало времени для детей, любимых друзей и&nbsp;чтения.</p>
-
-<section class="row-gap--m">
-<h2 class="block__space--top-h2 h1 bold">Когда думать о&nbsp;стратегии </h2>
-<p>Вопросы стратегии&nbsp;— вне зависимости от&nbsp;экономических циклов&nbsp;— это те&nbsp;вопросы, к&nbsp;которым следует возвращаться на&nbsp;постоянной основе. Иначе будет не&nbsp;система, а&nbsp;эпизодическая авральная маркетинговая (или&nbsp;же стратегическая) активность. И&nbsp;эффективность такой активности в&nbsp;долгосрочном плане низка.</p>
-<p>Есть&nbsp;ли какое-либо благоприятное время для анализа и&nbsp;корректировки стратегии развития компании? Мне кажется есть. И&nbsp;это время&nbsp;— время кризиса и&nbsp;неопределенности.</p>
-</section>
-
-<section class="row-gap--m">
-<h2 class="block__space--top-h2 h1 bold">Значимость стратегии в&nbsp;кризис</h2>
-<p>Значимый компонент <b>разработки стратегии</b>&nbsp;— оценка внешней среды. Успешна та&nbsp;компания, которая функционирует в&nbsp;оптимальном соответствии с&nbsp;внешней средой. Поэтому в&nbsp;основе правильной стратегии лежит глубокое понимание рынка. И&nbsp;такого понимания следует добиваться в&nbsp;ситуации кризиса и&nbsp;непредсказуемости. Т.е. сама ситуация подталкивает к&nbsp;исследованию клиентов, конкурентов, корректировке способов достижения целей и&nbsp;анализу возможностей. </p>
-
-
-<p class="post__note h2">Как говорят боксеры, держите глаза открытыми, а&nbsp;то&nbsp;пропустите самое интересное.</p>
-
-
-
-<p>Предсказуемое и&nbsp;некризисное время&nbsp;— время действий, нежели рефлексии и&nbsp;стратегии. Когда на&nbsp;мелководье много рыбы, то&nbsp;не&nbsp;требуется оттачивать мастерство рыбака. Здесь следует действовать и&nbsp;как можно быстрее руками перебрасывать рыбу на&nbsp;берег. А&nbsp;вот когда глубоко и&nbsp;рыбы мало, то&nbsp;здесь уже пора и&nbsp;о&nbsp;рыбацких хитростях подумать. Если продажи растут ежемесячно в&nbsp;геометрической прогрессии, то&nbsp;вопросы развития бренда, отстройки от&nbsp;конкурентов не&nbsp;столь актуальны. А&nbsp;когда рынок замирает или сужается, то&nbsp;вопрос восприятия клиентами вашей торговой марки играет одну из&nbsp;главных ролей. Ведь сознание клиента&nbsp;— это и&nbsp;есть реальность рынка.</p>
-
-<p>Кто-то на&nbsp;все вызовы отвечает скидками. А&nbsp;кто-то отталкивается от&nbsp;стратегии, адресно работая с&nbsp;целевой аудиторией, и&nbsp;его сложнее напугать очередным кризисом в&nbsp;стране.</p>
-<p class="post__note h2">Как капитан познается в&nbsp;шторм, так и&nbsp;маркетинг&nbsp;— в&nbsp;кризис. </p>
-</section>]]></content><author><name></name></author><category term="мнение" /><category term="управление" /><summary type="html"><![CDATA[Работу над стратегией маркетинга во&nbsp;время кризиса нельзя оставлять. Анализируйте возможности и&nbsp;корректируйте способы достижения целей.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/tizers/tizer-1.jpg" /><media:content medium="image" url="http://localhost:4000/assets/images/tizers/tizer-1.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
+</section>]]></content><author><name></name></author><category term="опыт" /><category term="реклама" /><category term="кейсы" /><summary type="html"><![CDATA[Разбираю текст рекламной листовки&nbsp;— объясняю, что можно улучшить, предлагаю свой вариант текста.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/tizers/tizer-2.jpg" /><media:content medium="image" url="http://localhost:4000/assets/images/tizers/tizer-2.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>

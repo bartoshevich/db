@@ -16,11 +16,11 @@ image: /assets/images/tizers/tizer-3.jpg
 
 <p>В&nbsp;учебниках пишут, что <b>маркетинговые исследования</b> устраняют неопределенность в&nbsp;бизнесе и&nbsp;способствуют глубокому пониманию рынка. Однако реальность не&nbsp;всегда совпадает с&nbsp;написанным в&nbsp;книгах. Я&nbsp;знаю примеры, когда компании потратили значительные средства на&nbsp;исследования, но&nbsp;никакой отдачи не&nbsp;получили: ни&nbsp;понимания рынка, ни&nbsp;ясности в&nbsp;дальнейших шагах.</p>
 
-<div class="figure" itemscope itemtype="http://schema.org/ImageObject">
+<div class="figure" itemprop="image" itemscope itemtype="http://schema.org/ImageObject">
 <picture>
                 <source srcset="/assets/images/blog/pravila-marketingovyx-issledovanij/research1.avif" type="image/avif">
                  <source srcset="/assets/images/blog/pravila-marketingovyx-issledovanij/research1.webp" type="image/webp">               
-               <img loading="lazy" src="/assets/images/blog/pravila-marketingovyx-issledovanij/research1.jpg" alt="анекдот о видах исследований" width="695" height="583" class="image" itemprop="contentUrl" >
+               <img src="/assets/images/blog/pravila-marketingovyx-issledovanij/research1.jpg" alt="Объяснение различий в маркетинговых исследованиях. Провели два исследования, чтобы определить востребованную длину презерватива. Одно показало 21см., а второе — 15см. В первом случае опрашивали, а во втором — измеряли." width="695" height="583" class="image" itemprop="contentUrl" >
     </picture>
 </div>
 

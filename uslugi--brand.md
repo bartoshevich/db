@@ -202,7 +202,7 @@ keywords: "разработка концепции бренда"
 <div class="figcaption">
             <p> <span class="bold">Пример.</span> Содержание презентации с&nbsp;концепцией бренда, которую я&nbsp;разработал для&nbsp;Hörmann. <a href="/blog/brand-conception-hormann/" class="link">Описание кейса </a></p>
     </div>
-	<img loading="lazy" class="image" width="2000" height="1500"
+	<img  loading="lazy" decoding="async"   class="image is4by3" width="2000" height="1500"
 	src="https://res.cloudinary.com/bartoshevich/image/upload/f_auto/bo_1px_solid_grey/v1622023855/site/hormann-slide.jpg" alt="слайд с содержанием итоговой презентации для Хёрманн" />
 </div>
 </li>

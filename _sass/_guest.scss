@@ -14,7 +14,7 @@
     .guests {
       display: grid;
       max-width: 720px;
-      grid-template-columns: repeat(auto-fit, minmax(180px, 240px));
+      grid-template-columns: repeat(auto-fit, minmax(130px, 240px));
       grid-row-gap: 1em;
       row-gap: 1em;
       grid-column-gap:1em;

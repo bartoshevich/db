@@ -94,8 +94,31 @@ keywords: "торговый маркетинг, маркетинг в ритей
 
 <p>Посетитель магазина не&nbsp;видит всего, на&nbsp;что смотрит. Принимает простые, автоматические, неосознаваемые решения. В&nbsp;этих условиях у&nbsp;маркетолога одна основная задача: «Как обратить внимание на&nbsp;товар?». Ведь если продукт не&nbsp;попадет в&nbsp;поле восприятия посетителя, все остальное (цена, характеристики и&nbsp;пр.) не&nbsp;имеет значение. </p>
 
-<div class="figure" itemscope itemtype="http://schema.org/ImageObject">
-<img class="image" src="/assets/images/blog/in-store-marketing/in-store-marketing.svg" width="602" height="553" alt="схематичное изображение задач маркетолога в рознице" itemprop="contentUrl"/>
+<div class="figure" itemprop="image" itemscope itemtype="http://schema.org/ImageObject">
+<picture>
+    <source sizes="100vw"  
+		srcset="/assets/images/blog/in-store-marketing/in-store-marketing--640w.avif 640w, 
+		/assets/images/blog/in-store-marketing/in-store-marketing--1040w.avif 1040w,
+		/assets/images/blog/in-store-marketing/in-store-marketing--1920w.avif 1920w,
+		/assets/images/blog/in-store-marketing/in-store-marketing--3000w.avif 3000w,
+		/assets/images/blog/in-store-marketing/in-store-marketing.avif 4000w" 
+	type="image/avif">
+    <source sizes="100vw"  
+		srcset="/assets/images/blog/in-store-marketing/in-store-marketing--640w.webp 640w, 
+		/assets/images/blog/in-store-marketing/in-store-marketing--1040w.webp 1040w,
+		/assets/images/blog/in-store-marketing/in-store-marketing--1920w.webp 1920w,
+		/assets/images/blog/in-store-marketing/in-store-marketing--3000w.webp 3000w,
+		/assets/images/blog/in-store-marketing/in-store-marketing.webp 4000w"
+		type="image/webp">  
+	<img class="image is-1by1"  loading="lazy" decoding="async"  src="/assets/images/blog/in-store-marketing/in-store-marketing.jpg" width="4000" height="4000" 
+		sizes="100vw"  
+		srcset="/assets/images/blog/in-store-marketing/in-store-marketing--640w.jpg 640w, 
+		/assets/images/blog/in-store-marketing/in-store-marketing--1040w.jpg 1040w,
+		/assets/images/blog/in-store-marketing/in-store-marketing--1920w.jpg 1920w,
+		/assets/images/blog/in-store-marketing/in-store-marketing--3000w.jpg 3000w,
+		/assets/images/blog/in-store-marketing/in-store-marketing.jpg 4000w"
+	alt="Задача маркетолога в рознице - попасть в поле восприятия человека, который опирается на привычные патерны выбора среди ограниченного набора категорий и товаров" itemprop="contentUrl"/>
+</picture>
 </div>
 
 <p class="mb-m">Рассмотренные Йенсом Нордфальтом способы решения этой задачи я&nbsp;разделил на&nbsp;четыре основных группы&nbsp;— по&nbsp;механизму работы. Чтобы посетитель магазина обратил внимание на&nbsp;товар, нужно: </p>

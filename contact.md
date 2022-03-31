@@ -18,7 +18,7 @@ image:
        
 
 
-<div class="intro max-width-text"><h1 class="inline bold">Работать вместе</h1>. Контакты&nbsp;— в&nbsp;конце страницы. Но&nbsp;сначала позвольте рассказать о&nbsp;том, как я&nbsp;работаю, и&nbsp;когда стоит&nbsp;/ не&nbsp;стоит ко&nbsp;мне обращаться. </div>
+<div class="intro max-width-text"><h1 class="inline bold">Работать вместе.</h1> Контакты&nbsp;— в&nbsp;конце страницы. Но&nbsp;сначала позвольте рассказать о&nbsp;том, как я&nbsp;работаю, и&nbsp;когда стоит&nbsp;/ не&nbsp;стоит ко&nbsp;мне обращаться. </div>
 
 	
 <section class="row-gap--m">
@@ -69,12 +69,12 @@ image:
 
 						<p>Я прошел преквалификацию в&nbsp;Европейском банке реконструкции и&nbsp;развития. Банк <del>может</del> мог* частично компенсировать предприятиям стоимость моих услуг в&nbsp;рамках поддержки малого и&nbsp;среднего бизнеса в&nbsp;Беларуси. </p>
 						<div class="side">
-							<img loading="lazy" src="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1608034473/site/ebrd.png" alt="логотип Европейского банка реконструкции и развития " width="254" height="58" >
+							<img  loading="lazy" decoding="async" src="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1608034473/site/ebrd.png" alt="логотип Европейского банка реконструкции и развития " width="254" height="58" >
 						<p>	Детальная информация о&nbsp;предоставлении финансовой поддержки&nbsp;— <a class="link" href="https://www.ebrd.com/work-with-us/advice-for-small-businesses/belarus-contact-us.html%20" >в&nbsp;белорусском офисе ЕБРР</a>. </p>
 						</div>
 						</div>
 
-						<p> <span class="bold">*</span> <time  datetime="2022-03-28">28 марта 2022&nbsp;г.</time>  ЕБРР объявил о&nbsp;закрытии офиса в&nbsp;Беларуси. <q cite="https://twitter.com/EBRD/status/1508474912222191618">Мы&nbsp;решительно осудили войну с&nbsp;Украиной, и&nbsp;решение о&nbsp;закрытии офисов в&nbsp;Москве и&nbsp;Минске является неизбежным следствием действий, предпринятых Российской Федерацией с&nbsp;помощью Беларуси</q>,&nbsp;— указал банк <a class="link" href="https://twitter.com/EBRD/status/1508474912222191618">в&nbsp;сообщении</a>.
+						<p> <span class="bold">*</span> <time  datetime="2022-03-28">28 марта 2022&nbsp;г.</time>  ЕБРР объявил о&nbsp;закрытии офиса в&nbsp;Беларуси. <q cite="https://www.ebrd.com">Мы&nbsp;решительно осудили войну с&nbsp;Украиной, и&nbsp;решение о&nbsp;закрытии офисов в&nbsp;Москве и&nbsp;Минске является неизбежным следствием действий, предпринятых Российской Федерацией с&nbsp;помощью Беларуси</q>,&nbsp;— указал банк <a class="link" href="https://twitter.com/EBRD/status/1508474912222191618">в&nbsp;сообщении</a>.
 
  
 
@@ -129,7 +129,7 @@ image:
 <p>Адрес для писем: 220073, г.&nbsp;Минск, ул. Ольшевского, 22, офис&nbsp;6 (7&nbsp;этаж)</p>
 <div class="side">
 <figure class="block-230">
-	<img loading="lazy" class="qr-code" src="/assets/images/contact/qr-code.svg" alt="QR-код с контактами Дмитрия Бартошевича" width="230" height="230"/>
+	<img  loading="lazy" decoding="async" class="qr-code" src="/assets/images/contact/qr-code.svg" alt="QR-код с контактами Дмитрия Бартошевича" width="230" height="230"/>
 	<figcaption>
 		чтобы быстро добавить меня в&nbsp;книгу контактов, отсканируйте телефоном QR-код или <a class="link" href="/assets/images/contact/contact.csv" download>импортируйте csv-файл</a> (0,27 KB)
 	</figcaption>

@@ -52,12 +52,16 @@ keywords: "брендинг, разработка развитие создан�
 <p>Работу начал стандартно: встретился с&nbsp;руководством белорусского офиса и&nbsp;задавал много вопросов. Обсуждали ценности <b>бренда</b>, товарную линейку, конкурентов, работу с&nbsp;целевой аудиторией и&nbsp;многое другое. Результат&nbsp;— я&nbsp;и&nbsp;клиент были уверены, что одинаково понимаем задачу и&nbsp;ее&nbsp;контекст. </p>
 <p>У&nbsp;Hörmann широкий ассортимент продукции: промышленные, гаражные и&nbsp;скоростные ворота, электроприводы, перегрузочная техника, входные и&nbsp;межкомнатные двери, объектные двери, системы контроля въезда и&nbsp;др. Ключевым направлением для разработки концепции выбрали один из&nbsp;наиболее значимых продуктов концерна&nbsp;— гаражные ворота.</p>
 
-<div class="figure is-2by1" itemscope itemtype="http://schema.org/ImageObject">
-<img class="image" loading="lazy" 
-srcset="https://res.cloudinary.com/bartoshevich/image/upload/w_1040/f_auto,q_auto/v1626971559/site/hormann_alt.jpg 1x,
-https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1626971559/site/hormann_alt.jpg 1.4x"
-src="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1626971559/site/hormann_alt.jpg"
-width="1460" height="730" alt="гаражные ворота Хёрманн" itemprop="contentUrl"
+<div class="figure" itemprop="image" itemscope itemtype="http://schema.org/ImageObject">
+<img class="image is-16by9" loading="lazy" decoding="async" 
+sizes="100vw"  
+srcset="https://res.cloudinary.com/bartoshevich/image/upload/w_640/f_auto,q_auto/v1648644468/site/hormann_doors.jpg 640w,
+https://res.cloudinary.com/bartoshevich/image/upload/w_1040/f_auto,q_auto/v1648644468/site/hormann_doors.jpg 1040w,
+https://res.cloudinary.com/bartoshevich/image/upload/w_2000/f_auto,q_auto/v1648644468/site/hormann_doors.jpg 2000w,
+https://res.cloudinary.com/bartoshevich/image/upload/w_3000/f_auto,q_auto/v1648644468/site/hormann_doors.jpg 3000w,
+https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1648644468/site/hormann_doors.jpg 3540w"
+src="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1648644468/site/hormann_doors.jpg"
+width="3540" height="1991" alt="Хёрманн ассоциируется прежде всего с гаражными воротами" itemprop="contentUrl"
 />
 <div class="figcaption" itemprop="description">Для разработки концепции выбрали один из&nbsp;значимых продуктов концерна&nbsp;— гаражные ворота.
 </div>
@@ -74,9 +78,16 @@ width="1460" height="730" alt="гаражные ворота Хёрманн" ite
 <p>Основные конкуренты Hörmann в&nbsp;Беларуси: Алютех, Дорхан и&nbsp;Ритерна. Я&nbsp;изучил сайты компаний, посты в&nbsp;социальных сетях, рекламные брошюры. Для каждого конкурента вывел центральную идею, которую тот пытается донести до&nbsp;покупателей.</p>
 <p>Отметил, что компании описывают себя через одинаковые атрибуты. Каждое предприятие доказывает, что именно их&nbsp;продукция безопасна, надежна, уникальна и&nbsp;пр. </p>
 
-<div class="figure is-2by1">
-<img class="image" loading="lazy" src="https://res.cloudinary.com/bartoshevich/image/upload/f_auto/v1594909933/site/competitors_hormann.jpg" width="700" height="350" alt="основные конкуренты Hörmann"/>
-<div class="figcaption">Каждый говорит, что именно его продукция безопасна, надежна, уникальна и&nbsp;пр.</div>
+<div class="figure" itemprop="image" itemscope itemtype="http://schema.org/ImageObject">
+<img class="image is-2by1 border"  loading="lazy" decoding="async" itemprop="contentUrl"
+sizes="100vw" 
+srcset="https://res.cloudinary.com/bartoshevich/image/upload/w_640/f_auto,q_auto/v1648646401/site/konkurentnyj_analiz.jpg 640w,
+https://res.cloudinary.com/bartoshevich/image/upload/w_1040/f_auto,q_auto/v1648646401/site/konkurentnyj_analiz.jpg 1040w,
+https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1648646401/site/konkurentnyj_analiz.jpg 1500w"
+src="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1648646401/site/konkurentnyj_analiz.jpg" 
+width="1500" height="750" alt="анализ конкурентов Хёрманн показывает, что все производители продвигают одинаковые характеристики"/>
+<div class="figcaption" >Каждый говорит, что именно его продукция безопасна, надежна, уникальна и&nbsp;пр.</div>
+<meta itemprop="description" content="анализ конкурентов Хёрманн показывает, что все производители продвигают одинаковые характеристики" />
 </div>
 
 <p class="mb-m">Какие выводы сделал: </p>
@@ -215,7 +226,7 @@ width="1460" height="730" alt="гаражные ворота Хёрманн" ite
 
 <section class="full-bleed row-gap--m" id="5">
 <h2 class="block__space--top-h2 h1 bold">Внедряем концепцию бренда</h2>
-<p>Бренд&nbsp;— это не&nbsp;то, что в&nbsp;рабочих папках маркетолога, а&nbsp;то, что в&nbsp;головах людей. Поэтому вместе с&nbsp;белорусским офисом Hörmann мы&nbsp;принялись доносить концепцию до&nbsp;целевой аудитории. Несколько примеров. </p>
+<p>Бренд&nbsp;— это не&nbsp;то, что в&nbsp;рабочих папках маркетолога, а&nbsp;то, что в&nbsp;головах людей. Поэтому вместе с&nbsp;белорусским офисом Hörmann мы&nbsp;принялись доносить концепцию до&nbsp;целевой аудитории. Несколько примеров коммуникации. </p>
 
 <section class="mt-m row-gap--m">
 <h3 class="h2 bold mb-m">Видео</h3>
@@ -223,19 +234,26 @@ width="1460" height="730" alt="гаражные ворота Хёрманн" ite
 
 <p class="mb-m"><span class="bold">Уверенно рекомендуют</span></p>
 
-<div class="figure">
- <div class="video ">
+<div class="figure" itemprop="video" itemscope itemtype="https://schema.org/VideoObject">
+ 	<link itemprop="url" href="https://youtu.be/Rl2jUmZWSfg" />
+ 	<meta itemprop="name" content="Уверенно рекомендуют" />
+   	<meta itemprop="uploadDate" content="2020-07-16" />
+  	<meta itemprop="duration" content="PT1M06S">
+ 	<meta itemprop="isFamilyFriendly" content="true">
+
+
+ <div class="video">
         <a class="video__link" href="https://youtu.be/Rl2jUmZWSfg" target="_blank" rel="noopener nofollow noreferrer">
-		 <picture>
+			<picture>
                 <source srcset="https://i.ytimg.com/vi_webp/Rl2jUmZWSfg/maxresdefault.webp" type="image/webp">
-                <img loading="lazy" class="video__media " src="https://i.ytimg.com/vi/Rl2jUmZWSfg/maxresdefault.jpg" alt="рекламный ролик, идея Дмитрия Бартошевича" width="1280" height="720"/>
-            </picture>          
+                <img loading="lazy" class="video__media is-16by9" src="https://i.ytimg.com/vi/Rl2jUmZWSfg/maxresdefault.jpg" alt="Один из элементов концепции бренда — Хёрманн уверенно рекомендуют. Ролик обыгрывает эту идею. Сын звонит отцу и спрашивает, как называются их ворота, которые никогда не ломаются. Отец отвечает и подтверждает, что это очень надежные ворота." width="1280" height="720" itemprop="thumbnail"/>
+        	</picture>          
         </a>
       <button class="video__button" aria-label="Запустить видео">
             <svg width="68" height="48" viewBox="0 0 68 48"><path class="video__button-shape" d="M66.52,7.74c-0.78-2.93-2.49-5.41-5.42-6.19C55.79,.13,34,0,34,0S12.21,.13,6.9,1.55 C3.97,2.33,2.27,4.81,1.48,7.74C0.06,13.05,0,24,0,24s0.06,10.95,1.48,16.26c0.78,2.93,2.49,5.41,5.42,6.19 C12.21,47.87,34,48,34,48s21.79-0.13,27.1-1.55c2.93-0.78,4.64-3.26,5.42-6.19C67.94,34.95,68,24,68,24S67.94,13.05,66.52,7.74z"></path><path class="video__button-icon" d="M 45,24 27,14 27,34"></path></svg>
         </button>
 </div>
-<div class="figcaption">
+<div class="figcaption" itemprop="description">
 Игровой проморолик белорусского офиса Hörmann. Идея&nbsp;— Дмитрий Бартошевич. Режиссер&nbsp;— <a class="link" href="https://alexbondarev.pro/" title="сайт режиссера Александра Бондарева">Александр Бондарев</a> 
 </div>
 </div>
@@ -249,7 +267,7 @@ width="1460" height="730" alt="гаражные ворота Хёрманн" ite
         <a class="video__link " href="https://youtu.be/by2hD_Et_GA" target="_blank" rel="noopener nofollow noreferrer">
 		 <picture>
                 <source srcset="https://i.ytimg.com/vi_webp/by2hD_Et_GA/maxresdefault.webp" type="image/webp">
-                <img loading="lazy" class="video__media " src="https://i.ytimg.com/vi/by2hD_Et_GA/maxresdefault.jpg" alt="Лексус Минск выбирает Hörmann"  width="1280" height="720" />
+                <img loading="lazy" class="video__media is-16by9" src="https://i.ytimg.com/vi/by2hD_Et_GA/maxresdefault.jpg" alt="Документальный ролик, в котором сотрудник Лексус Минск рекомендует Хёрманн."  width="1280" height="720" />
             </picture> 
         </a>
       <button class="video__button" aria-label="Запустить видео">
@@ -270,9 +288,9 @@ width="1460" height="730" alt="гаражные ворота Хёрманн" ite
 <div class="figure">
  <div class="video ">
         <a class="video__link " href="https://youtu.be/suO-2vF2wSE" target="_blank" rel="noopener nofollow noreferrer">
-	 <picture>
+	 		<picture>
                 <source srcset="https://i.ytimg.com/vi_webp/suO-2vF2wSE/maxresdefault.webp" type="image/webp">
-                <img loading="lazy" class="video__media " src="https://i.ytimg.com/vi/suO-2vF2wSE/maxresdefault.jpg" alt="Установка гаражных ворот"  width="1280" height="720" />
+                <img loading="lazy" class="video__media is-16by9" src="https://i.ytimg.com/vi/suO-2vF2wSE/maxresdefault.jpg" alt="Демонстрируем экспертизу Хёрманн на примере установки ворот."  width="1280" height="720" />
             </picture> 
         </a>
       <button class="video__button" aria-label="Запустить видео">
@@ -284,6 +302,39 @@ width="1460" height="730" alt="гаражные ворота Хёрманн" ite
 </div>
 </div>
 </section>
+
+<section class="mt-m row-gap--m max-width-text">
+<h3 class="h2 bold mb-m">Аудио</h3>
+                       <div class="figure">
+                           <audio controls>
+                               <source  src="/assets/media/project/hormann_100.mp3" type="audio/mpeg">		
+                               Аудиопроигрователь не поддерживается вашим браузером :-( 
+                           </audio>
+                           <div class="figcaption">
+                               Рекламный ролик для радио. Идея и&nbsp;сценарий&nbsp;&mdash; Дмитрий Бартошевич
+                           </div>
+                    
+   
+                           <details>
+                               <summary class="link">
+                               Транскрипт аудио ролика <small>(нажмите, чтобы открыть)</small>
+                               </summary>
+                               <div class="mt-m">
+                                   <p>—&nbsp;Папа, а&nbsp;сколько раз нужно сделать, чтобы получилось хорошо? </p>
+                                   <p>—&nbsp;Сто раз так точно, сынок. </p>
+                                   <p>—&nbsp;Ого!.. А&nbsp;вот наши ворота... мм, как там...</p>
+                                   <p>—&nbsp;Хёрманн? </p>
+                                   <p>—&nbsp;Да, Хёрманн! Им&nbsp;уже 10&nbsp;лет, а&nbsp;они работают. Вот их&nbsp;сколько раз делали? </p>
+                                   <p>—&nbsp;Больше 10&nbsp;миллионов раз. </p>
+                                   <p>—&nbsp;Так много?! Теперь понятно, почему у&nbsp;них так хорошо получается. </p>
+                                   <p>Отбивка: «Хёрманн знает, как делать гаражные ворота». </p>
+                               </div>
+                           </details>
+                       </div>
+</section>					   
+
+
+
 
 <section class="mt-m row-gap--m">
 <h3 class="h2 bold mb-m">Контекстная реклама </h3>
@@ -335,14 +386,20 @@ width="1460" height="730" alt="гаражные ворота Хёрманн" ite
 </div>
 </section>
 
-	<section class="mt-m row-gap--m max-width-text">
+<section class="full-bleed mt-m row-gap--m">
 		<h3 class="h2 bold mb-m">Наружная реклама </h3>
 		<p>Посылы привели в&nbsp;соответствие с&nbsp;концепцией бренда. </p>
-
-		<div class="figure is-2by1" itemscope itemtype="http://schema.org/ImageObject">
-		<img class="image " loading="lazy" src="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1594909933/site/bord_hormann.jpg" width="700" height="350" alt="билборд Хёрманн" itemprop="contentUrl" />
-
-		<div class="figcaption" itemprop="description">рекламный щит Hörmann</div>
+		<div class="full-bleed figure" itemprop="image" itemscope itemtype="http://schema.org/ImageObject">		
+		<img class="image is-2by1 border" loading="lazy" decoding="async" 
+			sizes="100vw" 
+			srcset="https://res.cloudinary.com/bartoshevich/image/upload/w_640/f_auto,q_auto/v1648633654/site/bilbord-posle-utverzhdeniya-koncepcii-brenda.jpg 640w,
+			https://res.cloudinary.com/bartoshevich/image/upload/w_1040/f_auto,q_auto/v1648633654/site/bilbord-posle-utverzhdeniya-koncepcii-brenda.jpg 1040w,
+			https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1648633654/site/bilbord-posle-utverzhdeniya-koncepcii-brenda.jpg 1920w"
+			src="https://res.cloudinary.com/bartoshevich/image/upload/f_auto/v1648633654/site/bilbord-posle-utverzhdeniya-koncepcii-brenda.jpg"
+			width="1920" height="960" alt="на билборде отражен один из постулатов концепции бренда: ворота Хёрманн используют от Аляски до Австралии" itemprop="contentUrl"
+		/>
+		<div class="figcaption">рекламный щит Hörmann</div>
+		<meta itemprop="description" content="на билборде отражен один из постулатов концепции бренда: ворота Хёрманн используют от Аляски до Австралии" />
 		</div>
 	</section>
 </section>

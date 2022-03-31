@@ -9,51 +9,37 @@ layout: compress
     <meta name="viewport" content="width=device-width, initial-scale=1">  
 
     {% include meta.html %} 
-    
-
   
   
     <link rel="stylesheet" type="text/css" href="/assets/css/style.css"> 
 
-    <script type="application/ld+json">
-      {
-        "@context": "https://schema.org",
-        "@type": "Article",
-      "headline": "{{ page.title }}",
-      "name": "{{ page.title }}",
-      "description": "{{ page.description }}",
-        "author": "Дмитрий Бартошевич",
-      "creator": "Дмитрий Бартошевич",
-      "datePublished": "{{ page.date | date: "%Y-%m-%e" }}",
-      "dateModified": "{{ page.last_modified_at | last_modified_at: "%Y-%m-%e" }}",
-      "image": "{{ site.url }}{{ page.image }}"
     
-      }
-  </script>
-
   {% include icons.html %} 
 </head>
 
 
 
-<body class="body">
+<body class="body" >
 
-  <div class="body__container">
+  <div class="body__container" >
+   
   
     {% include menu__post.html %}
 
-  <main class="section__content row-gap--l">
-
+  <main class="section__content row-gap--l" itemscope itemtype="https://schema.org/Article">
+    <meta itemprop="name" content="{{ page.title }}" />
+    <meta itemprop="description" content="{{ page.description }}" />
+    <meta itemprop="author" content="Дмитрий Бартошевич" />
       
- 
+    
 
 
  {{ content }}
 
-
+ {% include subscription.html %}
   </main>
 
-  {% include subscription.html %}
+ 
   {% include footer.html %}
   </div>
 

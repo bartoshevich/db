@@ -99,6 +99,9 @@ p {
     font-size:var(--step--1);
 }
 
+.border {
+    border: 1px solid var(--gray);
+}
 
 .max-width-text {
    max-width: 670px;

@@ -180,8 +180,14 @@ keywords: "методы ценообразования, ценообразова
 </section>
 
 
-<div  itemscope itemtype="http://schema.org/ImageObject">
-<img class="image svg" src="/assets/images/blog/value-based-price/value-based-price.svg" width="445" height="500" alt="ценообразование на основе ценности" itemprop="contentUrl"/>
+<div itemprop="image" itemscope itemtype="http://schema.org/ImageObject">
+<img class="image is-1by1" loading="lazy" decoding="async" src="/assets/images/blog/value-based-price/value-based-price.jpg" width="4494" height="4494" 
+srcset="https://res.cloudinary.com/bartoshevich/image/upload/w_640/f_auto,q_auto/v1648760933/site/value-based-price.jpg 640w,
+https://res.cloudinary.com/bartoshevich/image/upload/w_1040/f_auto,q_auto/v1648760933/site/value-based-price.jpg 1040w,
+https://res.cloudinary.com/bartoshevich/image/upload/w_1920/f_auto,q_auto/v1648760933/site/value-based-price.jpg 1920w,
+https://res.cloudinary.com/bartoshevich/image/upload/w_3000/f_auto,q_auto/v1648760933/site/value-based-price.jpg 3000w,
+https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1648760933/site/value-based-price.jpg 4494w" sizes="100vw" 
+ alt="Семь альтернатив почасовой оплате: пакеты услуг, подписка, гонорар успеха, ретроспективная оплата, плата за активности, поштучная оплата, процентная ставка" itemprop="contentUrl"/>
 </div>
 
 

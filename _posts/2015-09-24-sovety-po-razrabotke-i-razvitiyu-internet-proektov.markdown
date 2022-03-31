@@ -16,11 +16,11 @@ image: /assets/images/tizers/tizer-7.jpg
 
 <p>Участвовал в&nbsp;семинаре по&nbsp;интернет-маркетингу «Стань эффективнее», который организовала Студия Борового и&nbsp;агентство «Скрытый маркетинг». Расскажу о&nbsp;ключевых идеях, которые услышал на&nbsp;мероприятии, и&nbsp;советах спикеров по&nbsp;разработке и&nbsp;развитию интернет-проектов.</p> 
 
-<div class="figure" itemscope itemtype="http://schema.org/ImageObject">
+<div class="figure" itemprop="image" itemscope itemtype="http://schema.org/ImageObject">
 <picture>
                 <source srcset="/assets/images/blog/sovety-po-razrabotke/sb1.avif" type="image/avif">
                  <source srcset="/assets/images/blog/sovety-po-razrabotke/sb1.webp" type="image/webp">               
-               <img loading="lazy" src="/assets/images/blog/sovety-po-razrabotke/sb1.jpg" alt="семинар Студии Борового" width="695" height="462" class="image" itemprop="contentUrl"/>
+               <img src="/assets/images/blog/sovety-po-razrabotke/sb1.jpg" alt="семинар Студии Борового" width="695" height="462" class="image" itemprop="contentUrl"/>
     </picture>
 </div>
 
@@ -46,14 +46,14 @@ image: /assets/images/tizers/tizer-7.jpg
 <h2 class="block__space--top-h2 h1 bold">Учет конверсии в&nbsp;интернет-маркетинге</h2>
 <p>Александр Огородников рассказал о&nbsp;коллтрекинге (call tracking). Эта технология связывает звонок покупателя с&nbsp;рекламным источником. С ней вы&nbsp;можете определить эффективность каждого канала и&nbsp;сообщения. Если ваша бизнес-модель предусматривает общение с&nbsp;клиентами по&nbsp;телефону, Александр призвал направлять маркетинговый бюджет в&nbsp;каналы с&nbsp;наибольшей отдачей.</p>
 
-<div class="figure" itemscope itemtype="http://schema.org/ImageObject">
+<div class="figure" itemprop="image" itemscope itemtype="http://schema.org/ImageObject">
 <div class="figcaption">
 Так Александр показал, как коллтрекинг определяет малоэффективные каналы рекламы:
 </div>
 <picture>
                 <source srcset="/assets/images/blog/sovety-po-razrabotke/sb2.avif" type="image/avif">
                  <source srcset="/assets/images/blog/sovety-po-razrabotke/sb2.webp" type="image/webp">               
-               <img loading="lazy" src="/assets/images/blog/sovety-po-razrabotke/sb2.jpg" alt="таблица со стоимостью и количеством звонков в рекламных каналах" width="695" height="334"  class="image" itemprop="contentUrl"/>
+               <img loading="lazy" decoding="async" src="/assets/images/blog/sovety-po-razrabotke/sb2.jpg" alt="таблица со стоимостью и количеством звонков в рекламных каналах" width="695" height="334"  class="image" itemprop="contentUrl"/>
     </picture>
 </div>
 

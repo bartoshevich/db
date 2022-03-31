@@ -22,7 +22,7 @@ image: /assets/images/tizers/tizer-4.jpg
 
 <p>Несколько фото</p>
 
-<div class="figure" itemscope itemtype="http://schema.org/ImageObject">
+<div class="figure" itemprop="image" itemscope itemtype="http://schema.org/ImageObject">
 <picture>
                 <source srcset="/assets/images/blog/vzlom-barerov-biznesa/bar1.avif" type="image/avif">
                  <source srcset="/assets/images/blog/vzlom-barerov-biznesa/bar1.webp" type="image/webp">               
@@ -38,7 +38,7 @@ image: /assets/images/tizers/tizer-4.jpg
 <picture>
                 <source srcset="/assets/images/blog/vzlom-barerov-biznesa/bar2.avif" type="image/avif">
                  <source srcset="/assets/images/blog/vzlom-barerov-biznesa/bar2.webp" type="image/webp">               
-               <img  class="image" loading="lazy" src='/assets/images/blog/vzlom-barerov-biznesa/bar2.jpg' alt="" width="695" height="509" />
+               <img  class="image" loading="lazy" decoding="async" src='/assets/images/blog/vzlom-barerov-biznesa/bar2.jpg' alt="" width="695" height="509" />
     </picture>
 <div class="figcaption">
 Дмитрий Григорьев. Фото: Павел Вилюха
@@ -49,7 +49,7 @@ image: /assets/images/tizers/tizer-4.jpg
 <picture>
                 <source srcset="/assets/images/blog/vzlom-barerov-biznesa/bar3.avif" type="image/avif">
                  <source srcset="/assets/images/blog/vzlom-barerov-biznesa/bar3.webp" type="image/webp">               
-               <img  class="image" loading="lazy" src='/assets/images/blog/vzlom-barerov-biznesa/bar3.jpg' alt="" width="695" height="550" />
+               <img  class="image" loading="lazy" decoding="async"  src='/assets/images/blog/vzlom-barerov-biznesa/bar3.jpg' alt="" width="695" height="550" />
     </picture>
 
 <div class="figcaption">
@@ -84,12 +84,13 @@ image: /assets/images/tizers/tizer-4.jpg
 <p>Спасибо!</p>
 </div>
 
-<div class="figure">
+<div class="figure" itemprop="image" itemscope itemtype="http://schema.org/ImageObject">
 <picture>
                 <source srcset="/assets/images/blog/vzlom-barerov-biznesa/bar4.avif" type="image/avif">
                  <source srcset="/assets/images/blog/vzlom-barerov-biznesa/bar4.webp" type="image/webp">               
-               <img  class="image" loading="lazy" src='/assets/images/blog/vzlom-barerov-biznesa/bar4.jpg' alt="благодарственное письмо Мебелинк" width="695" height="782"  />
+               <img  class="image" loading="lazy" decoding="async" src='/assets/images/blog/vzlom-barerov-biznesa/bar4.jpg' alt="благодарственное письмо Мебелинк" width="695" height="782" itemprop="contentUrl" />
     </picture>
+      <meta itemprop="name" content="благодарственное письмо Мебелинк" />
 </div>
 </section>
 
