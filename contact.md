@@ -14,8 +14,25 @@ image:
   
   {% include menu__contact.html %}
 
-<main class="section__content row-gap--l">
+<div itemscope itemtype="https://schema.org/ContactPage">
+
+<div itemprop="publisher" itemscope itemtype="https://schema.org/LocalBusiness">     
+    <meta itemprop="email" content="dmitry@bartoshevich" />
+    <meta itemprop="telephone" content="+375297753340" />
+    <div itemprop="address" itemscope itemtype="https://schema.org/PostalAddress">
+        <meta itemprop="streetAddress" content="ул. Ольшевского, 22" />
+        <meta itemprop="addressLocality" content="Минск, Беларусь" />
+        <meta itemprop="postalCode" content="220073" />
+    </div>
+    <meta itemprop="priceRange" content="$$" /> 
+    <meta itemprop="openingHours" content="Пн-Сб 09:00-18:00" />
+    <link itemprop="image" href="/assets/images/main/bartoshevich@16x9.jpg" />
+    <link itemprop="image" href="/assets/images/main/bartoshevich@4x3.jpg" />
+    <link itemprop="image" href="/assets/images/main/bartoshevich@1x1.jpg" />
+</div>
        
+<main class="section__content row-gap--l" >
+
 
 
 <div class="intro max-width-text"><h1 class="inline bold">Работать вместе.</h1> Контакты&nbsp;— в&nbsp;конце страницы. Но&nbsp;сначала позвольте рассказать о&nbsp;том, как я&nbsp;работаю, и&nbsp;когда стоит&nbsp;/ не&nbsp;стоит ко&nbsp;мне обращаться. </div>
@@ -144,7 +161,7 @@ image:
 
 
 </main>
-
+</div>
 {% include footer.html %}
 </div>
 

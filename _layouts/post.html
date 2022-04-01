@@ -26,10 +26,28 @@ layout: compress
   
     {% include menu__post.html %}
 
-  <main class="section__content row-gap--l" itemscope itemtype="https://schema.org/Article">
+
+<div itemscope itemtype="https://schema.org/Article">
+
     <meta itemprop="name" content="{{ page.title }}" />
+    <meta itemprop="headline" content="{{ page.title }}" />
     <meta itemprop="description" content="{{ page.description }}" />
-    <meta itemprop="author" content="Дмитрий Бартошевич" />
+    <div itemprop="author" itemscope="" itemtype="https://schema.org/Person">
+      <link itemprop="sameAs" href="https://bartoshevich.by/" />
+      <link itemprop="sameAs" href="https://www.linkedin.com/in/bartoshevich" />
+      <link itemprop="sameAs" href="https://www.facebook.com/bartoshevichby/" />
+      <link itemprop="sameAs" href="https://twitter.com/dbartoshevich" />
+      <link itemprop="sameAs" href="https://t.me/bartoshevich" />
+      <meta itemprop="name" content="Дмитрий Бартошевич" />
+      <link itemprop="image" href="/assets/images/main/bartoshevich@16x9.jpg" />
+      <link itemprop="image" href="/assets/images/main/bartoshevich@4x3.jpg" />
+      <link itemprop="image" href="/assets/images/main/bartoshevich@1x1.jpg" />
+    </div>
+
+  <main class="section__content row-gap--l" >
+    
+    
+   
       
     
 
@@ -38,7 +56,7 @@ layout: compress
 
  {% include subscription.html %}
   </main>
-
+</div>
  
   {% include footer.html %}
   </div>

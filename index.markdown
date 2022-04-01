@@ -11,10 +11,27 @@ keywords: "стратегический маркетинг, концепция �
 
     {% include menu.html %}
    
+<div itemscope itemtype="https://schema.org/LocalBusiness">
+    <meta itemprop="email" content="dmitry@bartoshevich" />
+    <meta itemprop="telephone" content="+375297753340" />
+    <div itemprop="address" itemscope itemtype="https://schema.org/PostalAddress">
+        <meta itemprop="streetAddress" content="ул. Ольшевского, 22" />
+        <meta itemprop="addressLocality" content="Минск, Беларусь" />
+        <meta itemprop="postalCode" content="220073" />
+    </div>
+    <meta itemprop="priceRange" content="$$" /> 
+    <meta itemprop="openingHours" content="Пн-Сб 09:00-18:00" />
+    <link itemprop="image" href="/assets/images/main/bartoshevich@16x9.jpg" />
+    <link itemprop="image" href="/assets/images/main/bartoshevich@4x3.jpg" />
+    <link itemprop="image" href="/assets/images/main/bartoshevich@1x1.jpg" />
 
-<main class="section__content">
 
-    <div class="intro h1">Меня зовут Дмитрий Бартошевич.<br/> Я&nbsp;<h1 class="inline">консультант по&nbsp;маркетингу и&nbsp;стратегии.</h1></div> 
+<main class="section__content"  >     
+    
+
+    <div class="intro h1">Меня зовут <span itemprop="name">Дмитрий Бартошевич</span>.<br/>Я&nbsp;<h1 class="inline"><span  itemprop="description">консультант по&nbsp;маркетингу и&nbsp;стратегии</span>.</h1></div> 
+   
+
        
 <section>
     <div class="max-width-text"><h2 class="inline">Помогаю компаниям развивать бренды.</h2> Опираясь на&nbsp;исследования и&nbsp;анализ данных, разрабатываю план необходимых действий, контролирую реализацию. Противник «втюхинга» и&nbsp;манипуляций. </div> 
@@ -83,7 +100,7 @@ keywords: "стратегический маркетинг, концепция �
 
         
 </main>
-
+</div>
        {% include footer.html %} 
 
 </div>

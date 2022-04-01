@@ -23,6 +23,7 @@ image: /assets/images/tizers/tizer-4.jpg
 <p>Несколько фото</p>
 
 <div class="figure" itemprop="image" itemscope itemtype="http://schema.org/ImageObject">
+<link itemprop="url" href="/assets/images/blog/vzlom-barerov-biznesa/bar1.jpg" />
 <picture>
                 <source srcset="/assets/images/blog/vzlom-barerov-biznesa/bar1.avif" type="image/avif">
                  <source srcset="/assets/images/blog/vzlom-barerov-biznesa/bar1.webp" type="image/webp">               
@@ -85,6 +86,7 @@ image: /assets/images/tizers/tizer-4.jpg
 </div>
 
 <div class="figure" itemprop="image" itemscope itemtype="http://schema.org/ImageObject">
+<link itemprop="url" href="/assets/images/blog/vzlom-barerov-biznesa/bar4.jpg" />
 <picture>
                 <source srcset="/assets/images/blog/vzlom-barerov-biznesa/bar4.avif" type="image/avif">
                  <source srcset="/assets/images/blog/vzlom-barerov-biznesa/bar4.webp" type="image/webp">               

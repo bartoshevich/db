@@ -29,15 +29,25 @@ keywords: "реклама, рекламные кампании"
 						
 <div class="grid-columns__first-one-half">
 
-    <div class="figure">
-        <div class="figcaption">
+    
+
+    <div class="figure" itemscope itemtype="https://schema.org/VideoObject">
+ 	<link itemprop="url" href="https://youtu.be/LcRjumujYws" />
+	<link itemprop="contentUrl" href="https://youtu.be/LcRjumujYws" />
+	<link itemprop="thumbnailUrl" href="https://i.ytimg.com/vi_webp/LcRjumujYws/maxresdefault.webp" />
+ 	<meta itemprop="name" content="Эскиз видеоролика для банка Тинькова" />
+   	<meta itemprop="uploadDate" content="2015-09-22" />
+  	<meta itemprop="duration" content="PT0M27S">
+ 	<meta itemprop="isFamilyFriendly" content="true">
+
+        <div class="figcaption" itemprop="description">
             эскиз видеоролика
         </div>
         <div class="video">
             <a class="video__link " href="https://youtu.be/LcRjumujYws" target="_blank" rel="noopener nofollow noreferrer">
                 <picture>
                     <source srcset="https://i.ytimg.com/vi_webp/LcRjumujYws/maxresdefault.webp" type="image/webp">
-                    <img loading="lazy" class="video__media " src="https://i.ytimg.com/vi/LcRjumujYws/maxresdefault.jpg" alt="Эскиз видеоролика для банка Тинькова" width="1280" height="720"/>
+                    <img loading="lazy" class="video__media " src="https://i.ytimg.com/vi/LcRjumujYws/maxresdefault.jpg" alt="Смысл видео в ответе на вопрос, что объединяет клиентов банка и известных предпринимателей." width="1280" height="720" itemprop="thumbnail"/>
                 </picture>
             </a>
             <button class="video__button" aria-label="Запустить видео">
@@ -47,27 +57,33 @@ keywords: "реклама, рекламные кампании"
     </div>
 </div>
 <div class="grid-columns__last-one-half">
-    <div class="figure">
+    <div class="figure" itemscope itemtype="http://schema.org/ImageObject">
+		<link itemprop="url" href="/assets/images/uslugi/promo/tin2.jpg" />
         <div class="figcaption">реакция Тинькова  </div>
-        <picture> <source srcset="/assets/images/uslugi/promo/tin2-400.webp 1x, /assets/images/uslugi/promo/tin2-800.webp 2x" type="image/webp"> <img loading="lazy" class="image" src="/assets/images/uslugi/promo/tin2.jpg" alt="скриншот публикации Тинькова в твиттере" srcset="/assets/images/uslugi/promo/tin2-800.jpg 2x" width="400" height="483">
+        <picture> <source srcset="/assets/images/uslugi/promo/tin2-400.webp 1x, /assets/images/uslugi/promo/tin2-800.webp 2x" type="image/webp"> <img loading="lazy" class="image" src="/assets/images/uslugi/promo/tin2.jpg" alt="скриншот публикации Тинькова в твиттере" srcset="/assets/images/uslugi/promo/tin2-800.jpg 2x" width="400" height="483" itemprop="contentUrl">
         </picture>
     </div>
 </div>
 
 
 
-
-
 <p><span class="bold">Пример 3</span><br>
 Белорусскому офису немецкого концерна Hörmann предложил идеи цикла видеороликов и&nbsp;участвовал в&nbsp;их&nbsp;реализации: работал над сценариями, решал организационные вопросы, начиная от&nbsp;поиска и&nbsp;выбора режиссера до&nbsp;постпродакшена роликов. </p>
 
-<div class="full-bleed figure">
+<div class="full-bleed figure" itemscope itemtype="https://schema.org/VideoObject">
+ 	<link itemprop="url" href="https://youtu.be/Rl2jUmZWSfg" />
+	<link itemprop="contentUrl" href="https://youtu.be/Rl2jUmZWSfg" />
+	<link itemprop="thumbnailUrl" href="https://i.ytimg.com/vi_webp/Rl2jUmZWSfg/maxresdefault.webp" />
+ 	<meta itemprop="name" content="Уверенно рекомендуют" />
+   	<meta itemprop="uploadDate" content="2020-07-16" />
+  	<meta itemprop="duration" content="PT1M06S">
+ 	<meta itemprop="isFamilyFriendly" content="true">
 						
 	<div class="video">
 	    <a class="video__link " href="https://youtu.be/Rl2jUmZWSfg" target="_blank" rel="noopener nofollow noreferrer">
 			<picture>
 				<source srcset="https://i.ytimg.com/vi_webp/Rl2jUmZWSfg/maxresdefault.webp" type="image/webp">
-				<img loading="lazy" class="video__media " src="https://i.ytimg.com/vi/Rl2jUmZWSfg/maxresdefault.jpg" alt="" width="1280" height="720"/>
+				<img loading="lazy" class="video__media " src="https://i.ytimg.com/vi/Rl2jUmZWSfg/maxresdefault.jpg" alt="Один из элементов концепции бренда — Хёрманн уверенно рекомендуют. Ролик обыгрывает эту идею. Сын звонит отцу и спрашивает, как называются их ворота, которые никогда не ломаются. Отец отвечает и подтверждает, что это очень надежные ворота." width="1280" height="720" itemprop="thumbnail"/>
 			</picture>
 		</a>
 		<button class="video__button" aria-label="Запустить видео">
@@ -75,23 +91,15 @@ keywords: "реклама, рекламные кампании"
             </svg>
 		</button>
 	</div>
-    <div class="figcaption">
-							Проморолик белорусского офиса Hörmann.
-  Идея&nbsp;— Дмитрий Бартошевич. Режиссер&nbsp;— <a class="link" href="https://alexbondarev.pro/">Александр Бондарев</a>. Больше видео <a class="link" href="https://www.youtube.com/channel/UCyEPzGj0pU3OdwV2uvO9cmw">на&nbsp;youtube-канале компании</a>
+    <div class="figcaption"  itemprop="description">
+    Проморолик белорусского офиса Hörmann. Идея&nbsp;— Дмитрий Бартошевич. Режиссер&nbsp;— <a class="link" href="https://alexbondarev.pro/">Александр Бондарев</a>. Больше видео <a class="link" href="https://www.youtube.com/channel/UCyEPzGj0pU3OdwV2uvO9cmw">на&nbsp;youtube-канале компании</a>
 	</div>
 </div>
 
 
 
 
-
-
-
-
-
-
-
-        
+      
     
 </main>
 

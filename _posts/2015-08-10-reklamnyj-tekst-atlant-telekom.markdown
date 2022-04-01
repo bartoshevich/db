@@ -16,7 +16,8 @@ image: /assets/images/tizers/tizer-2.jpg
 
 <p>Рассмотрю <b>текст рекламной листовки</b>, которую сотрудники «Атлант Телеком» оставляют в&nbsp;дверях квартир потенциальных клиентов. Отмечу, что мне не&nbsp;нравится в&nbsp;тексте, и&nbsp;в&nbsp;конце статьи предложу свой вариант <b>рекламного текста</b>.</p>
 
-<div class="figure" itemscope itemtype="http://schema.org/ImageObject">
+<div class="figure" itemprop="image" itemscope itemtype="http://schema.org/ImageObject">
+<link itemprop="url" href="/assets/images/blog/reklamnyj-tekst-atlant-telekom/atlant.jpg" />
 <picture>
                 <source srcset="/assets/images/blog/reklamnyj-tekst-atlant-telekom/atlant.avif" type="image/avif">
                  <source srcset="/assets/images/blog/reklamnyj-tekst-atlant-telekom/atlant.webp" type="image/webp">               

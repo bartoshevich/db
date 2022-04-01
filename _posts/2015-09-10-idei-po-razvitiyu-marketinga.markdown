@@ -48,6 +48,7 @@ image: /assets/images/tizers/tizer-5.jpg
 <p>Часто задачу маркетинга видят в&nbsp;удовлетворении нужд и&nbsp;потребностей клиентов. Это справедливо для ситуации времен распада СССР. Сейчас проблемы удовлетворения потребностей нет, у&nbsp;потребителей&nbsp;— проблема выбора.</p>
 
 <div class="figure" itemprop="image" itemscope itemtype="http://schema.org/ImageObject">
+<link itemprop="url" href="/assets/images/blog/2-idei-po-razvitiyu-marketinga/otlichie.jpg" />
 <picture>
                 <source srcset="/assets/images/blog/2-idei-po-razvitiyu-marketinga/otlichie.avif" type="image/avif">
                  <source srcset="/assets/images/blog/2-idei-po-razvitiyu-marketinga/otlichie.webp" type="image/webp">               
@@ -68,9 +69,13 @@ image: /assets/images/tizers/tizer-5.jpg
 <h2 class="mt-m h2 bold">Может ли быть отличием качество?</h2>
 <p>Если вы&nbsp;считаете преимуществом качество, обратите внимание, что посыл «у&nbsp;нас качественный товар» сработает тогда, когда у&nbsp;конкурентов качество отсутствует в&nbsp;принципе. Если в&nbsp;Минске в&nbsp;ресторанах еда превратится в&nbsp;нечто несъедобное и&nbsp;опасное для здоровья, то&nbsp;правильно приготовленные блюда однозначно приведут к&nbsp;росту числа гостей заведения. В&nbsp;иных случаях посыл не&nbsp;принесет пользу.</p>
 
-<p itemprop="image" itemscope itemtype="http://schema.org/ImageObject"><img loading="lazy" decoding="async" src='https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1648470003/site/ways.jpg' alt="На картинке две дороги с ямами и одна с хорошим асфальтом. Выбрать качественную дорогу легко. " width="2000" height="1124" class="image is-16by9" itemprop="contentUrl"/></p>
+<p itemprop="image" itemscope itemtype="http://schema.org/ImageObject">
+<link itemprop="url" href="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1648470003/site/ways.jpg" />
+<img loading="lazy" decoding="async" src='https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1648470003/site/ways.jpg' alt="На картинке две дороги с ямами и одна с хорошим асфальтом. Выбрать качественную дорогу легко. " width="2000" height="1124" class="image is-16by9" itemprop="contentUrl"/></p>
 
-<p itemprop="image" itemscope itemtype="http://schema.org/ImageObject"><img loading="lazy" decoding="async"  src='https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1648470004/site/ways-2.jpg' alt="На картинке три дороги с хорошим асфальтом. Определить самую качественную дорогу сложно." width="2000" height="1124" class="image is-16by9" itemprop="contentUrl"/></p>
+<p itemprop="image" itemscope itemtype="http://schema.org/ImageObject">
+<link itemprop="url" href="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1648470004/site/ways-2.jpg" />
+<img loading="lazy" decoding="async"  src='https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1648470004/site/ways-2.jpg' alt="На картинке три дороги с хорошим асфальтом. Определить самую качественную дорогу сложно." width="2000" height="1124" class="image is-16by9" itemprop="contentUrl"/></p>
 
 <p class="post__note h2">Качество&nbsp;&mdash; преимущество лишь в&nbsp;том случае, когда у&nbsp;конкурентов оно отсутствует в&nbsp;принципе, когда брак мгновенно и&nbsp;точно распознает даже 90-летняя бабушка. В&nbsp;других случаях качество не&nbsp;очевидно. Заявления о&nbsp;качестве воспринимаются как рекламный шум. </p>
 

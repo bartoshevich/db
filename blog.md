@@ -22,7 +22,7 @@ image:
 
 	
 
-<div class="full-bleed row-gap--l" itemscope itemtype="https://schema.org/FAQPage">
+<div class="full-bleed row-gap--l">
     <h2 class="h2 bold">Все записи (74) </h2>
   
 	<ul class="row-gap--xl list-reset">

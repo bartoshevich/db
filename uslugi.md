@@ -10,28 +10,49 @@ keywords: "услуги консультанта по маркетингу и с
   
   {% include menu__uslugi.html %}
 
-<main class="section__content row-gap--l">
+  <div itemscope itemtype="https://schema.org/Service">
+    <div itemprop="provider" itemscope itemtype="https://schema.org/LocalBusiness">
+    <meta itemprop="name" content="Дмитрий Бартошевич" />
+    <meta itemprop="description" content="консультант по маркетингу и стратегии" />
+    <meta itemprop="email" content="dmitry@bartoshevich" />
+    <meta itemprop="telephone" content="+375297753340" />
+    <div itemprop="address" itemscope itemtype="https://schema.org/PostalAddress">
+        <meta itemprop="streetAddress" content="ул. Ольшевского, 22" />
+        <meta itemprop="addressLocality" content="Минск, Беларусь" />
+        <meta itemprop="postalCode" content="220073" />
+    </div>
+    <meta itemprop="priceRange" content="$$" /> 
+    <meta itemprop="openingHours" content="Пн-Сб 09:00-18:00" />
+    <link itemprop="image" href="/assets/images/main/bartoshevich@16x9.jpg" />
+    <link itemprop="image" href="/assets/images/main/bartoshevich@4x3.jpg" />
+    <link itemprop="image" href="/assets/images/main/bartoshevich@1x1.jpg" />
+  </div>
+
+<main class="section__content row-gap--l" >
+
+
+
        
 
 
  <div class="intro max-width-text"><h1 class="inline bold">Услуги консультанта по&nbsp;маркетингу и&nbsp;стратегии.</h1> Коротко рассказываю, что делаю. </div>
 
- <section class="full-bleed" itemscope itemtype="https://schema.org/Service">
-    <ul class="list-reset  row-gap--l" itemprop="hasOfferCatalog" itemscope itemtype="https://schema.org/OfferCatalog">
-                <li class="block__item" itemprop="itemListElement" itemscope itemtype="https://schema.org/OfferCatalog">                    
-                        <h2  class="block__name--align-left h2 uslugi__mark " itemprop="name"><a href="/uslugi/marketing-audit/" class="link">Аудит маркетинга</a></h2>
+ <section class="full-bleed">
+    <ul class="list-reset  row-gap--l" >
+                <li class="block__item" >                    
+                        <h2  class="block__name--align-left h2 uslugi__mark "><a href="/uslugi/marketing-audit/" class="link"><span itemprop="serviceType">Аудит маркетинга</span></a></h2>
                          <p class="block__content">Провожу аудит маркетинга, чтобы понять точки роста.  </p>                   
                 </li>
-                <li class="block__item" itemprop="itemListElement" itemscope itemtype="https://schema.org/OfferCatalog"> 
-                        <h2  class="block__name--align-left h2 uslugi__mark " itemprop="name"><a href="/uslugi/brand-conception/"  class="link">Концепция бренда</a></h2>
+                <li class="block__item" > 
+                        <h2  class="block__name--align-left h2 uslugi__mark " ><a href="/uslugi/brand-conception/"  class="link"><span itemprop="serviceType">Концепция бренда</span></a></h2>
                        <p class="block__content">Разрабатываю наиболее выгодные для компаний идеи, с&nbsp;помощью которых они могут значимо отстроиться от&nbsp;конкурентов и&nbsp;закрепиться в&nbsp;сознании целевой аудитории.  </p> 
                 </li>
-                <li class="block__item" itemprop="itemListElement" itemscope itemtype="https://schema.org/OfferCatalog">
-                        <h2  class="block__name--align-left h2 uslugi__mark" itemprop="name"><a href="/uslugi/razrabotka-reklamnyh-kampanij/"  class="link">Разработка рекламных кампаний</a></h2>
+                <li class="block__item" >
+                        <h2  class="block__name--align-left h2 uslugi__mark"><a href="/uslugi/razrabotka-reklamnyh-kampanij/"  class="link"><span itemprop="serviceType">Разработка рекламных кампаний</span></a></h2>
                         <p class="block__content"><strong>Создаю концепции рекламных кампаний</strong>, которые помогут целевой аудитории быстро выделить торговую марку из&nbsp;фона конкурентов и&nbsp;признать своей. </p>                   
                 </li>
-                <li class="block__item" itemprop="itemListElement" itemscope itemtype="https://schema.org/OfferCatalog">             
-                    <h2 class="block__name--align-left h2 uslugi__mark" itemprop="name"><a href="/uslugi/autsorsing-marketinga/" class="link">Абонентское обслуживание</a></h2>
+                <li class="block__item">             
+                    <h2 class="block__name--align-left h2 uslugi__mark"><a href="/uslugi/autsorsing-marketinga/" class="link"><span itemprop="serviceType">Абонентское обслуживание</span></a></h2>
                     <p class="block__content"> <strong>Консультирую по&nbsp;вопросам продвижения бренда</strong>, оказываю экспертную помощь при работе с&nbsp;подрядчиками, сопровождаю маркетинговую активность компании. </p>                   
                 </li>              
             </ul>
@@ -85,6 +106,7 @@ keywords: "услуги консультанта по маркетингу и с
         
     
 </main>
+</div>
 
 {% include footer.html %}
 </div>

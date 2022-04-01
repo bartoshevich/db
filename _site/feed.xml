@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-04-01T01:20:29+03:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Your awesome title</title><subtitle>Write an awesome description for your new site here. </subtitle><entry><title type="html">Почасовая оплата умерла</title><link href="http://localhost:4000/blog/value-based-price/" rel="alternate" type="text/html" title="Почасовая оплата умерла" /><published>2021-01-23T00:00:00+03:00</published><updated>2022-02-05T00:00:00+03:00</updated><id>http://localhost:4000/blog/value-based-price</id><content type="html" xml:base="http://localhost:4000/blog/value-based-price/"><![CDATA[<div class="intro">
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-04-01T19:39:59+03:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Your awesome title</title><subtitle>Write an awesome description for your new site here. </subtitle><entry><title type="html">Почасовая оплата умерла</title><link href="http://localhost:4000/blog/value-based-price/" rel="alternate" type="text/html" title="Почасовая оплата умерла" /><published>2021-01-23T00:00:00+03:00</published><updated>2022-02-05T00:00:00+03:00</updated><id>http://localhost:4000/blog/value-based-price</id><content type="html" xml:base="http://localhost:4000/blog/value-based-price/"><![CDATA[<div class="intro">
     <h1 class=" bold max-width-text">Почасовая оплата должна умереть</h1> 
     <small class="small"><time itemprop="datePublished" datetime="2021-01-23"> 23 января 2021</time> 
     </small>
@@ -160,6 +160,8 @@
 
 
 <div itemprop="image" itemscope="" itemtype="http://schema.org/ImageObject">
+<link itemprop="url" href="/assets/images/blog/value-based-price/value-based-price.jpg" />			
+
 <img class="image is-1by1" loading="lazy" decoding="async" src="/assets/images/blog/value-based-price/value-based-price.jpg" width="4494" height="4494" srcset="https://res.cloudinary.com/bartoshevich/image/upload/w_640/f_auto,q_auto/v1648760933/site/value-based-price.jpg 640w,
 https://res.cloudinary.com/bartoshevich/image/upload/w_1040/f_auto,q_auto/v1648760933/site/value-based-price.jpg 1040w,
 https://res.cloudinary.com/bartoshevich/image/upload/w_1920/f_auto,q_auto/v1648760933/site/value-based-price.jpg 1920w,
@@ -255,6 +257,8 @@ https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1648760933/s
 <p>Посетитель магазина не&nbsp;видит всего, на&nbsp;что смотрит. Принимает простые, автоматические, неосознаваемые решения. В&nbsp;этих условиях у&nbsp;маркетолога одна основная задача: «Как обратить внимание на&nbsp;товар?». Ведь если продукт не&nbsp;попадет в&nbsp;поле восприятия посетителя, все остальное (цена, характеристики и&nbsp;пр.) не&nbsp;имеет значение. </p>
 
 <div class="figure" itemprop="image" itemscope="" itemtype="http://schema.org/ImageObject">
+		<link itemprop="url" href="/assets/images/blog/in-store-marketing/in-store-marketing.jpg" />			
+
 <picture>
     <source sizes="100vw" srcset="/assets/images/blog/in-store-marketing/in-store-marketing--640w.avif 640w, 
 		/assets/images/blog/in-store-marketing/in-store-marketing--1040w.avif 1040w,
@@ -439,6 +443,7 @@ https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1648760933/s
 <p>У&nbsp;Hörmann широкий ассортимент продукции: промышленные, гаражные и&nbsp;скоростные ворота, электроприводы, перегрузочная техника, входные и&nbsp;межкомнатные двери, объектные двери, системы контроля въезда и&nbsp;др. Ключевым направлением для разработки концепции выбрали один из&nbsp;наиболее значимых продуктов концерна&nbsp;— гаражные ворота.</p>
 
 <div class="figure" itemprop="image" itemscope="" itemtype="http://schema.org/ImageObject">
+<link itemprop="url" href="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1648644468/site/hormann_doors.jpg" />
 <img class="image is-16by9" loading="lazy" decoding="async" sizes="100vw" srcset="https://res.cloudinary.com/bartoshevich/image/upload/w_640/f_auto,q_auto/v1648644468/site/hormann_doors.jpg 640w,
 https://res.cloudinary.com/bartoshevich/image/upload/w_1040/f_auto,q_auto/v1648644468/site/hormann_doors.jpg 1040w,
 https://res.cloudinary.com/bartoshevich/image/upload/w_2000/f_auto,q_auto/v1648644468/site/hormann_doors.jpg 2000w,
@@ -459,6 +464,7 @@ https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1648644468/s
 <p>Отметил, что компании описывают себя через одинаковые атрибуты. Каждое предприятие доказывает, что именно их&nbsp;продукция безопасна, надежна, уникальна и&nbsp;пр. </p>
 
 <div class="figure" itemprop="image" itemscope="" itemtype="http://schema.org/ImageObject">
+<link itemprop="url" href="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1648646401/site/konkurentnyj_analiz.jpg" />
 <img class="image is-2by1 border" loading="lazy" decoding="async" itemprop="contentUrl" sizes="100vw" srcset="https://res.cloudinary.com/bartoshevich/image/upload/w_640/f_auto,q_auto/v1648646401/site/konkurentnyj_analiz.jpg 640w,
 https://res.cloudinary.com/bartoshevich/image/upload/w_1040/f_auto,q_auto/v1648646401/site/konkurentnyj_analiz.jpg 1040w,
 https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1648646401/site/konkurentnyj_analiz.jpg 1500w" src="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1648646401/site/konkurentnyj_analiz.jpg" width="1500" height="750" alt="анализ конкурентов Хёрманн показывает, что все производители продвигают одинаковые характеристики" />
@@ -606,6 +612,8 @@ https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1648646401/s
 
 <div class="figure" itemprop="video" itemscope="" itemtype="https://schema.org/VideoObject">
  	<link itemprop="url" href="https://youtu.be/Rl2jUmZWSfg" />
+	<link itemprop="contentUrl" href="https://youtu.be/Rl2jUmZWSfg" />
+	<link itemprop="thumbnailUrl" href="https://i.ytimg.com/vi_webp/Rl2jUmZWSfg/maxresdefault.webp" />
  	<meta itemprop="name" content="Уверенно рекомендуют" />
    	<meta itemprop="uploadDate" content="2020-07-16" />
   	<meta itemprop="duration" content="PT1M06S" />
@@ -759,7 +767,8 @@ https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1648646401/s
 <section class="full-bleed mt-m row-gap--m">
 		<h3 class="h2 bold mb-m">Наружная реклама </h3>
 		<p>Посылы привели в&nbsp;соответствие с&nbsp;концепцией бренда. </p>
-		<div class="full-bleed figure" itemprop="image" itemscope="" itemtype="http://schema.org/ImageObject">		
+		<div class="full-bleed figure" itemprop="image" itemscope="" itemtype="http://schema.org/ImageObject">	
+		<link itemprop="url" href="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1648646401/site/konkurentnyj_analiz.jpg" />			
 		<img class="image is-2by1 border" loading="lazy" decoding="async" sizes="100vw" srcset="https://res.cloudinary.com/bartoshevich/image/upload/w_640/f_auto,q_auto/v1648633654/site/bilbord-posle-utverzhdeniya-koncepcii-brenda.jpg 640w,
 			https://res.cloudinary.com/bartoshevich/image/upload/w_1040/f_auto,q_auto/v1648633654/site/bilbord-posle-utverzhdeniya-koncepcii-brenda.jpg 1040w,
 			https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1648633654/site/bilbord-posle-utverzhdeniya-koncepcii-brenda.jpg 1920w" src="https://res.cloudinary.com/bartoshevich/image/upload/f_auto/v1648633654/site/bilbord-posle-utverzhdeniya-koncepcii-brenda.jpg" width="1920" height="960" alt="на билборде отражен один из постулатов концепции бренда: ворота Хёрманн используют от Аляски до Австралии" itemprop="contentUrl" />
@@ -853,6 +862,7 @@ https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1648646401/s
 <p>Участвовал в&nbsp;семинаре по&nbsp;интернет-маркетингу «Стань эффективнее», который организовала Студия Борового и&nbsp;агентство «Скрытый маркетинг». Расскажу о&nbsp;ключевых идеях, которые услышал на&nbsp;мероприятии, и&nbsp;советах спикеров по&nbsp;разработке и&nbsp;развитию интернет-проектов.</p>
 
 <div class="figure" itemprop="image" itemscope="" itemtype="http://schema.org/ImageObject">
+<link itemprop="url" href="/assets/images/blog/sovety-po-razrabotke/sb1.jpg" />
 <picture>
                 <source srcset="/assets/images/blog/sovety-po-razrabotke/sb1.avif" type="image/avif" />
                  <source srcset="/assets/images/blog/sovety-po-razrabotke/sb1.webp" type="image/webp" />               
@@ -882,6 +892,7 @@ https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1648646401/s
 <p>Александр Огородников рассказал о&nbsp;коллтрекинге (call tracking). Эта технология связывает звонок покупателя с&nbsp;рекламным источником. С ней вы&nbsp;можете определить эффективность каждого канала и&nbsp;сообщения. Если ваша бизнес-модель предусматривает общение с&nbsp;клиентами по&nbsp;телефону, Александр призвал направлять маркетинговый бюджет в&nbsp;каналы с&nbsp;наибольшей отдачей.</p>
 
 <div class="figure" itemprop="image" itemscope="" itemtype="http://schema.org/ImageObject">
+<link itemprop="url" href="/assets/images/blog/sovety-po-razrabotke/sb2.jpg" />
 <div class="figcaption">
 Так Александр показал, как коллтрекинг определяет малоэффективные каналы рекламы:
 </div>
@@ -997,6 +1008,7 @@ https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1648646401/s
 <p>Часто задачу маркетинга видят в&nbsp;удовлетворении нужд и&nbsp;потребностей клиентов. Это справедливо для ситуации времен распада СССР. Сейчас проблемы удовлетворения потребностей нет, у&nbsp;потребителей&nbsp;— проблема выбора.</p>
 
 <div class="figure" itemprop="image" itemscope="" itemtype="http://schema.org/ImageObject">
+<link itemprop="url" href="/assets/images/blog/2-idei-po-razvitiyu-marketinga/otlichie.jpg" />
 <picture>
                 <source srcset="/assets/images/blog/2-idei-po-razvitiyu-marketinga/otlichie.avif" type="image/avif" />
                  <source srcset="/assets/images/blog/2-idei-po-razvitiyu-marketinga/otlichie.webp" type="image/webp" />               
@@ -1017,9 +1029,13 @@ https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1648646401/s
 <h2 class="mt-m h2 bold">Может ли быть отличием качество?</h2>
 <p>Если вы&nbsp;считаете преимуществом качество, обратите внимание, что посыл «у&nbsp;нас качественный товар» сработает тогда, когда у&nbsp;конкурентов качество отсутствует в&nbsp;принципе. Если в&nbsp;Минске в&nbsp;ресторанах еда превратится в&nbsp;нечто несъедобное и&nbsp;опасное для здоровья, то&nbsp;правильно приготовленные блюда однозначно приведут к&nbsp;росту числа гостей заведения. В&nbsp;иных случаях посыл не&nbsp;принесет пользу.</p>
 
-<p itemprop="image" itemscope="" itemtype="http://schema.org/ImageObject"><img loading="lazy" decoding="async" src="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1648470003/site/ways.jpg" alt="На картинке две дороги с ямами и одна с хорошим асфальтом. Выбрать качественную дорогу легко. " width="2000" height="1124" class="image is-16by9" itemprop="contentUrl" /></p>
+<p itemprop="image" itemscope="" itemtype="http://schema.org/ImageObject">
+<link itemprop="url" href="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1648470003/site/ways.jpg" />
+<img loading="lazy" decoding="async" src="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1648470003/site/ways.jpg" alt="На картинке две дороги с ямами и одна с хорошим асфальтом. Выбрать качественную дорогу легко. " width="2000" height="1124" class="image is-16by9" itemprop="contentUrl" /></p>
 
-<p itemprop="image" itemscope="" itemtype="http://schema.org/ImageObject"><img loading="lazy" decoding="async" src="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1648470004/site/ways-2.jpg" alt="На картинке три дороги с хорошим асфальтом. Определить самую качественную дорогу сложно." width="2000" height="1124" class="image is-16by9" itemprop="contentUrl" /></p>
+<p itemprop="image" itemscope="" itemtype="http://schema.org/ImageObject">
+<link itemprop="url" href="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1648470004/site/ways-2.jpg" />
+<img loading="lazy" decoding="async" src="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1648470004/site/ways-2.jpg" alt="На картинке три дороги с хорошим асфальтом. Определить самую качественную дорогу сложно." width="2000" height="1124" class="image is-16by9" itemprop="contentUrl" /></p>
 
 <p class="post__note h2">Качество&nbsp;&mdash; преимущество лишь в&nbsp;том случае, когда у&nbsp;конкурентов оно отсутствует в&nbsp;принципе, когда брак мгновенно и&nbsp;точно распознает даже 90-летняя бабушка. В&nbsp;других случаях качество не&nbsp;очевидно. Заявления о&nbsp;качестве воспринимаются как рекламный шум. </p>
 
@@ -1045,6 +1061,7 @@ https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1648646401/s
 <p>Несколько фото</p>
 
 <div class="figure" itemprop="image" itemscope="" itemtype="http://schema.org/ImageObject">
+<link itemprop="url" href="/assets/images/blog/vzlom-barerov-biznesa/bar1.jpg" />
 <picture>
                 <source srcset="/assets/images/blog/vzlom-barerov-biznesa/bar1.avif" type="image/avif" />
                  <source srcset="/assets/images/blog/vzlom-barerov-biznesa/bar1.webp" type="image/webp" />               
@@ -1106,6 +1123,7 @@ https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1648646401/s
 </div>
 
 <div class="figure" itemprop="image" itemscope="" itemtype="http://schema.org/ImageObject">
+<link itemprop="url" href="/assets/images/blog/vzlom-barerov-biznesa/bar4.jpg" />
 <picture>
                 <source srcset="/assets/images/blog/vzlom-barerov-biznesa/bar4.avif" type="image/avif" />
                  <source srcset="/assets/images/blog/vzlom-barerov-biznesa/bar4.webp" type="image/webp" />               
@@ -1126,6 +1144,7 @@ https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1648646401/s
 <p>В&nbsp;учебниках пишут, что <b>маркетинговые исследования</b> устраняют неопределенность в&nbsp;бизнесе и&nbsp;способствуют глубокому пониманию рынка. Однако реальность не&nbsp;всегда совпадает с&nbsp;написанным в&nbsp;книгах. Я&nbsp;знаю примеры, когда компании потратили значительные средства на&nbsp;исследования, но&nbsp;никакой отдачи не&nbsp;получили: ни&nbsp;понимания рынка, ни&nbsp;ясности в&nbsp;дальнейших шагах.</p>
 
 <div class="figure" itemprop="image" itemscope="" itemtype="http://schema.org/ImageObject">
+<link itemprop="url" href="/assets/images/blog/pravila-marketingovyx-issledovanij/research1.jpg" />
 <picture>
                 <source srcset="/assets/images/blog/pravila-marketingovyx-issledovanij/research1.avif" type="image/avif" />
                  <source srcset="/assets/images/blog/pravila-marketingovyx-issledovanij/research1.webp" type="image/webp" />               
@@ -1202,7 +1221,8 @@ https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1648646401/s
 
 <p>Рассмотрю <b>текст рекламной листовки</b>, которую сотрудники «Атлант Телеком» оставляют в&nbsp;дверях квартир потенциальных клиентов. Отмечу, что мне не&nbsp;нравится в&nbsp;тексте, и&nbsp;в&nbsp;конце статьи предложу свой вариант <b>рекламного текста</b>.</p>
 
-<div class="figure" itemscope="" itemtype="http://schema.org/ImageObject">
+<div class="figure" itemprop="image" itemscope="" itemtype="http://schema.org/ImageObject">
+<link itemprop="url" href="/assets/images/blog/reklamnyj-tekst-atlant-telekom/atlant.jpg" />
 <picture>
                 <source srcset="/assets/images/blog/reklamnyj-tekst-atlant-telekom/atlant.avif" type="image/avif" />
                  <source srcset="/assets/images/blog/reklamnyj-tekst-atlant-telekom/atlant.webp" type="image/webp" />               
