@@ -10,7 +10,7 @@ image: /images/confidentiality.png
 
 
 
- <div class="intro"><h1 class="inline bold mb-m">Политика конфиден&shy;циаль&shy;ности</h1></div>
+ <div class="intro"><h1 class="inline bold mb-l">Политика конфиден&shy;циаль&shy;ности</h1></div>
 
 <section class="full-bleed  row-gap--m">
 <h2 class=" h1 bold" >Коротко</h2>
