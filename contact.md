@@ -14,9 +14,13 @@ image:
   
   {% include menu__contact.html %}
 
-<div itemscope itemtype="https://schema.org/ContactPage">
 
-<div itemprop="publisher" itemscope itemtype="https://schema.org/LocalBusiness">     
+       
+
+ <div itemscope itemtype="https://schema.org/ContactPage">
+    <div itemprop="author" itemscope itemtype="https://schema.org/LocalBusiness">
+    <meta itemprop="name" content="Дмитрий Бартошевич" />
+    <meta itemprop="description" content="консультант по маркетингу и стратегии" />
     <meta itemprop="email" content="dmitry@bartoshevich" />
     <meta itemprop="telephone" content="+375297753340" />
     <div itemprop="address" itemscope itemtype="https://schema.org/PostalAddress">
@@ -29,8 +33,8 @@ image:
     <link itemprop="image" href="/assets/images/main/bartoshevich@16x9.jpg" />
     <link itemprop="image" href="/assets/images/main/bartoshevich@4x3.jpg" />
     <link itemprop="image" href="/assets/images/main/bartoshevich@1x1.jpg" />
-</div>
-       
+  </div>
+
 <main class="section__content row-gap--l" >
 
 
@@ -162,6 +166,7 @@ image:
 
 </main>
 </div>
+
 {% include footer.html %}
 </div>
 

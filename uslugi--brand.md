@@ -23,8 +23,8 @@ keywords: "разработка концепции бренда"
 
 <section class="additive-spacing example--card max-width-text ">
 		<div>
-		<h2 class="bold">самопрезентация компании без концепции бренда</h2>
-		<p>подобные компании встречал каждый </p>
+		<h2 class="bold">Компания без концепции бренда. Признаки</h2>
+		<p>подобное встречал каждый </p>
 		</div>
 		<div class="row">
 		<div class="c-5">
