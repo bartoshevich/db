@@ -23,10 +23,6 @@ image:
 
 
 
-
-
-
-
 <section class="full-bleed  row-gap--m">
     
 
@@ -87,11 +83,33 @@ image:
 
     {% include about__jobs.html %}
    
-
-  
     {% include about__education.html %}
+
+
    
-            
+
+
+<picture class="full-bleed mt-m" >
+        <source sizes="100vw" 
+                srcset="/assets/images/main/bartoshevich@16x9_640w.avif 640w,
+                        /assets/images/main/bartoshevich@16x9_1040w.avif 1040w,
+                        /assets/images/main/bartoshevich@16x9_1280w.avif 1280w,
+                        /assets/images/main/bartoshevich@16x9_2080w.avif 2080w,
+                        /assets/images/main/bartoshevich@16x9.avif 2400w" 
+                type="image/avif"> 
+    <source sizes="100vw" 
+                srcset="/assets/images/main/bartoshevich@16x9_640w.webp 640w,
+                        /assets/images/main/bartoshevich@16x9_1040w.webp 1040w,
+                        /assets/images/main/bartoshevich@16x9_1280w.webp 1280w,
+                        /assets/images/main/bartoshevich@16x9_2080w.webp 2080w,
+                        /assets/images/main/bartoshevich@16x9.webp 2400w" 
+                type="image/webp">
+    <img loading="lazy" decoding="async"  class="full-bleed image is-16by9" src="/assets/images/main/bartoshevich@16x9.jpg" alt="Дмитрий Бартошевич, портрет" width="2400" height="1350">  
+    </picture>
+
+
+   
+           
             
       
 
