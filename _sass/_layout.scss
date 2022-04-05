@@ -129,6 +129,12 @@
     align-content: start;
 }
 
+.row-gap--lm {
+    display: grid;
+    grid-row-gap: var(--space-l-m);
+    row-gap: var(--space-l-m);
+    align-content: start;
+}
 
 .row-gap--l {
     display: grid;

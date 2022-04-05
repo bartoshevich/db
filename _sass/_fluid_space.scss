@@ -92,6 +92,7 @@
     --space-l-xl: calc(((var(--fc-l-min) / 16) * 1rem) + (var(--fc-xl-max) - var(--fc-l-min)) * var(--fluid-bp));
     --space-xl-2xl: calc(((var(--fc-xl-min) / 16) * 1rem) + (var(--fc-2xl-max) - var(--fc-xl-min)) * var(--fluid-bp));
     --space-xl-4xl: calc(((var(--fc-xl-min) / 16) * 1rem) + (var(--fc-4xl-max) - var(--fc-xl-min)) * var(--fluid-bp));
+    --space-l-m: calc(((var(--fc-l-min) / 16) * 1rem) + (var(--fc-m-max) - var(--fc-l-min)) * var(--fluid-bp));
 
     --content-top-gap: .5em;
     --content-bottom-gap: .5em;
