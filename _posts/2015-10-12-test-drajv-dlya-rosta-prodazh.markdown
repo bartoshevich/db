@@ -36,7 +36,7 @@ image: /assets/images/tizers/tizer-9.jpg
 		<link itemprop="url" href="/assets/images/blog/test-drajv-dlya-rosta-prodazh/test3.jpg" />
 <picture>
     <source srcset="/assets/images/blog/test-drajv-dlya-rosta-prodazh/test3.webp" type="image/webp">
-    <img loading="lazy" class="img-responsive" src="/assets/images/blog/test-drajv-dlya-rosta-prodazh/test3.jpg" alt="стул с предупреждением не садиться" width="695" height="857"  itemprop="contentUrl"/>
+    <img loading="lazy" class="image" src="/assets/images/blog/test-drajv-dlya-rosta-prodazh/test3.jpg" alt="стул с предупреждением не садиться" width="695" height="857"  itemprop="contentUrl"/>
     </picture>
 <div class="figcaption">
 На&nbsp;образец не&nbsp;садиться! Уже пятый за&nbsp;час сломали! :-) 
