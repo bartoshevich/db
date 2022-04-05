@@ -27,7 +27,7 @@ image: /assets/images/tizers/tizer-4.jpg
 <picture>
                 <source srcset="/assets/images/blog/vzlom-barerov-biznesa/bar1.avif" type="image/avif">
                  <source srcset="/assets/images/blog/vzlom-barerov-biznesa/bar1.webp" type="image/webp">               
-               <img  class="image" loading="lazy" src='/assets/images/blog/vzlom-barerov-biznesa/bar1.jpg' alt="" width="695" height="462" itemprop="contentUrl"/>
+               <img  class="image" src='/assets/images/blog/vzlom-barerov-biznesa/bar1.jpg' alt="" width="695" height="462" itemprop="contentUrl"/>
     </picture>
 <div class="figcaption" itemprop="name">
 Дмитрий Бартошевич. Фото: Павел Вилюха
@@ -70,7 +70,7 @@ image: /assets/images/tizers/tizer-4.jpg
 	«отдельное спасибо за&nbsp;минутку знакомства со&nbsp;всеми»<br/>
 	«вначале непонятно к&nbsp;чему все идет, потом все круто»
 </div>
-<p class="mb-0">Обратная связь официально:</p>
+<p>Обратная связь официально:</p>
 <div class="extract additive-spacing">
 <span class="bold">ООО «Мебелинк»:</span>
 <p>Выражаем благодарность организаторам Практикума «Взлом барьеров развития бизнеса» и&nbsp;спикерам Бартошевичу Дмитрию, Григорьеву Дмитрию и&nbsp;Дробышевскому Сергею. </p>

@@ -16,17 +16,17 @@ image: /assets/images/tizers/tizer-7.jpg
 
 <p>Участвовал в&nbsp;семинаре по&nbsp;интернет-маркетингу «Стань эффективнее», который организовала Студия Борового и&nbsp;агентство «Скрытый маркетинг». Расскажу о&nbsp;ключевых идеях, которые услышал на&nbsp;мероприятии, и&nbsp;советах спикеров по&nbsp;разработке и&nbsp;развитию интернет-проектов.</p> 
 
-<div class="figure" itemprop="image" itemscope itemtype="http://schema.org/ImageObject">
+<div class="max-width-text" itemprop="image" itemscope itemtype="http://schema.org/ImageObject">
 <link itemprop="url" href="/assets/images/blog/sovety-po-razrabotke/sb1.jpg" />
 <picture>
                 <source srcset="/assets/images/blog/sovety-po-razrabotke/sb1.avif" type="image/avif">
                  <source srcset="/assets/images/blog/sovety-po-razrabotke/sb1.webp" type="image/webp">               
-               <img src="/assets/images/blog/sovety-po-razrabotke/sb1.jpg" alt="семинар Студии Борового" width="695" height="462" class="image" itemprop="contentUrl"/>
+               <img class="image" src="/assets/images/blog/sovety-po-razrabotke/sb1.jpg" alt="приглашение на семинар Студии Борового" width="695" height="462"  itemprop="contentUrl"/>
     </picture>
 </div>
 
 
-<section class="row-gap--m">
+<section class="row-gap--m max-width-text">
 <h2 class="block__space--top-h2 h1 bold">Алгоритм разработки сайта</h2>
 
 <p>Директор Студии Виталий Денисенков призвал повышать потребление b2b услуг до&nbsp;профессионального уровня. По&nbsp;его словам, предприятие выиграет, если корпоративный сайт создаст проверенное агентство. Если и&nbsp;нанимать сотрудника, то&nbsp;не&nbsp;веб-разработчика, а&nbsp;специалиста, который грамотно поставит подрядчику задачу и&nbsp;проконтролирует работу.</p>
@@ -43,7 +43,7 @@ image: /assets/images/tizers/tizer-7.jpg
 
 </section>
 
-<section class="row-gap--m">
+<section class="row-gap--m max-width-text">
 <h2 class="block__space--top-h2 h1 bold">Учет конверсии в&nbsp;интернет-маркетинге</h2>
 <p>Александр Огородников рассказал о&nbsp;коллтрекинге (call tracking). Эта технология связывает звонок покупателя с&nbsp;рекламным источником. С ней вы&nbsp;можете определить эффективность каждого канала и&nbsp;сообщения. Если ваша бизнес-модель предусматривает общение с&nbsp;клиентами по&nbsp;телефону, Александр призвал направлять маркетинговый бюджет в&nbsp;каналы с&nbsp;наибольшей отдачей.</p>
 
@@ -55,7 +55,7 @@ image: /assets/images/tizers/tizer-7.jpg
 <picture>
                 <source srcset="/assets/images/blog/sovety-po-razrabotke/sb2.avif" type="image/avif">
                  <source srcset="/assets/images/blog/sovety-po-razrabotke/sb2.webp" type="image/webp">               
-               <img loading="lazy" decoding="async" src="/assets/images/blog/sovety-po-razrabotke/sb2.jpg" alt="таблица со стоимостью и количеством звонков в рекламных каналах" width="695" height="334"  class="image" itemprop="contentUrl"/>
+               <img  class="image" loading="lazy" decoding="async" src="/assets/images/blog/sovety-po-razrabotke/sb2.jpg" alt="таблица со стоимостью и количеством звонков в рекламных каналах" width="695" height="334"   itemprop="contentUrl"/>
     </picture>
 </div>
 

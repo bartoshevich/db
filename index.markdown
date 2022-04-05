@@ -29,7 +29,7 @@ keywords: "стратегический маркетинг, концепция �
 <main class="section__content"  >     
     
 
-    <div class="intro h1">Меня зовут <span itemprop="name">Дмитрий Бартошевич</span>.<br/>Я&nbsp;<h1 class="inline"><span  itemprop="description">консультант по&nbsp;маркетингу и&nbsp;стратегии</span>.</h1></div> 
+    <div class="intro">Меня зовут <span itemprop="name">Дмитрий Бартошевич</span>.<br/>Я&nbsp;<h1 class="inline"><span  itemprop="description">консультант по&nbsp;маркетингу и&nbsp;стратегии</span>.</h1></div> 
    
 
        

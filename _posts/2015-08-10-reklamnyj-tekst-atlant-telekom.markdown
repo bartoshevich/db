@@ -14,18 +14,16 @@ image: /assets/images/tizers/tizer-2.jpg
 
 {% include post__header.html %}
 
-<p>Рассмотрю <b>текст рекламной листовки</b>, которую сотрудники «Атлант Телеком» оставляют в&nbsp;дверях квартир потенциальных клиентов. Отмечу, что мне не&nbsp;нравится в&nbsp;тексте, и&nbsp;в&nbsp;конце статьи предложу свой вариант <b>рекламного текста</b>.</p>
+<p>Рассмотрю <b>текст рекламной листовки</b>, которую сотрудники «Атлант Телеком» оставляют в&nbsp;дверях квартир потенциальных клиентов. Отмечу, что мне не&nbsp;нравится, и&nbsp;в&nbsp;конце статьи предложу свой вариант <b>рекламного текста</b>.</p>
 
-<div class="figure" itemprop="image" itemscope itemtype="http://schema.org/ImageObject">
+<div class="max-width-text" itemprop="image" itemscope itemtype="http://schema.org/ImageObject">
 <link itemprop="url" href="/assets/images/blog/reklamnyj-tekst-atlant-telekom/atlant.jpg" />
-<picture>
+    <picture>
                 <source srcset="/assets/images/blog/reklamnyj-tekst-atlant-telekom/atlant.avif" type="image/avif">
                  <source srcset="/assets/images/blog/reklamnyj-tekst-atlant-telekom/atlant.webp" type="image/webp">               
-               <img  src="/assets/images/blog/reklamnyj-tekst-atlant-telekom/atlant.jpg" alt="Рекламное объявление Атлант Телеком" width="695" height="390" class="image" itemprop="contentUrl" >
+               <img  class="image is-16by9" src="/assets/images/blog/reklamnyj-tekst-atlant-telekom/atlant.jpg" alt="рекламная листовка Атлант Телеком" width="1100" height="619"  itemprop="contentUrl" >
     </picture>
-	<div class="figcaption">
-	фото листовки
-	</div>
+	<div class="figcaption"> Внешний вид листовки оставлю без внимания, сфокусируюсь на тексте.  	</div>
 </div>
 
 
@@ -65,7 +63,7 @@ image: /assets/images/tizers/tizer-2.jpg
 <p>Длинный список для преимуществ в&nbsp;рекламе. Я&nbsp;бы указывал только главные и&nbsp;весомые аргументы. Безлимитными тарифами, wi-fi роутерами и&nbsp;цифровым телевидением никого не&nbsp;удивишь. И&nbsp;бесплатность телевидения не&nbsp;привлекает. Люди усвоили формулу «Заплати за&nbsp;интернет по&nbsp;цене пакета „интернет + телевидение“ и&nbsp;получи пакет телевизионных каналов бесплатно». Я&nbsp;бы анализировал предложения конкурентов, находил и&nbsp;обозначал четкие и&nbsp;понятные отличия «Атлант Телеком». А&nbsp;пока&nbsp;— из&nbsp;текста&nbsp;— отличие только во&nbsp;внутренних ресурсах.</p>
 </section>
 
-<section class="row-gap--m">
+<section class="row-gap--m max-width-text">
 <h2 class="block__space--top-h2 h1 bold">Новый вариант рекламного текста</h2>
 <p>С&nbsp;учетом замечаний выше <strong>переписал рекламный текст</strong>, который&nbsp;<em>—</em> предполагается&nbsp;<em>—</em> клиенты получат в&nbsp;руки.</p>
 <table>

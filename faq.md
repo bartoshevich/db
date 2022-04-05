@@ -136,7 +136,7 @@ keywords: "faq"
                     </li>
                 </ul>
                     <div class="side">
-                        <em>Подробнее</em><br/>
+                        <p class="italic">Подробнее</p>
                         <ul>
                             <li><a class="link" href="/uslugi/brand-conception/">Зачем нужна концепция бренда</a></li>
                             <li><a class="link" href="/uslugi/brand-conception/#algorithm">Как я&nbsp;разрабатываю идею (концепцию) бренда</a></li>

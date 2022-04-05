@@ -12,6 +12,7 @@
   margin: 0;
   padding: 0;
   border: 0;
+  
 }
 
 * {
@@ -103,6 +104,7 @@ body {
   color: $text-colour;
   background-color: $background-color;
   overflow-x: hidden;
+  font-size: 0;
 }
 
 
