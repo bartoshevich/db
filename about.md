@@ -69,7 +69,7 @@ image:
      </p>       
      <ul class="additive-spacing">
             <li class="list-li ">
-                <a class="link" href="/blog/konkurentnoe-preimushhestvo/" > Конкурентное преимущество, о&nbsp;котором молчат маркетологи</a>    
+                <a class="link" href="/blog/konkurentnoe-preimushhestvo/" > Конкурентное преимущество в&nbsp;пользе и&nbsp;доверии</a>    
             </li>
             <li class="list-li">
                 <a class="link" href="/blog/kak-reklamu-podrujit-s-potrebitelyami/" >Время блокировать рекламу</a>      

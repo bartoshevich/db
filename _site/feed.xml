@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-04-06T01:03:52+03:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Your awesome title</title><subtitle>Write an awesome description for your new site here. </subtitle><entry><title type="html">Почасовая оплата должна умереть | Дмитрий Бартошевич</title><link href="http://localhost:4000/blog/value-based-price/" rel="alternate" type="text/html" title="Почасовая оплата должна умереть | Дмитрий Бартошевич" /><published>2021-01-23T00:00:00+03:00</published><updated>2022-02-05T00:00:00+03:00</updated><id>http://localhost:4000/blog/value-based-price</id><content type="html" xml:base="http://localhost:4000/blog/value-based-price/"><![CDATA[<div class="intro">
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-04-07T01:00:48+03:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Your awesome title</title><subtitle>Write an awesome description for your new site here. </subtitle><entry><title type="html">Почасовая оплата должна умереть | Дмитрий Бартошевич</title><link href="http://localhost:4000/blog/value-based-price/" rel="alternate" type="text/html" title="Почасовая оплата должна умереть | Дмитрий Бартошевич" /><published>2021-01-23T00:00:00+03:00</published><updated>2022-02-05T00:00:00+03:00</updated><id>http://localhost:4000/blog/value-based-price</id><content type="html" xml:base="http://localhost:4000/blog/value-based-price/"><![CDATA[<div class="intro">
     <h1 class=" bold max-width-text">Почасовая оплата должна умереть</h1> 
     <small class="small"><time itemprop="datePublished" datetime="2021-01-23"> 23 января 2021</time> 
     </small>
@@ -776,7 +776,364 @@ https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1648646401/s
 		<meta itemprop="description" content="на билборде отражен один из постулатов концепции бренда: ворота Хёрманн используют от Аляски до Австралии" />
 		</div>
 	</section>
-</section>]]></content><author><name></name></author><category term="опыт" /><category term="кейсы" /><summary type="html"><![CDATA[Разработал концепцию бренда для белорусского офиса Hörmann: рассказываю об&nbsp;этапах работы и&nbsp;результатах.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/tizers/tizer-66.png" /><media:content medium="image" url="http://localhost:4000/assets/images/tizers/tizer-66.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Новый год: как поздравить клиентов</title><link href="http://localhost:4000/blog/gifts2clients/" rel="alternate" type="text/html" title="Новый год: как поздравить клиентов" /><published>2015-12-15T00:00:00+03:00</published><updated>2019-01-06T00:00:00+03:00</updated><id>http://localhost:4000/blog/gifts2clients</id><content type="html" xml:base="http://localhost:4000/blog/gifts2clients/"><![CDATA[<div class="intro">
+</section>]]></content><author><name></name></author><category term="опыт" /><category term="кейсы" /><summary type="html"><![CDATA[Разработал концепцию бренда для белорусского офиса Hörmann: рассказываю об&nbsp;этапах работы и&nbsp;результатах.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/tizers/tizer-66.png" /><media:content medium="image" url="http://localhost:4000/assets/images/tizers/tizer-66.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Стратегия бренда 3Dom | Дмитрий Бартошевич</title><link href="http://localhost:4000/blog/3dom-mebel-dlya-semi/" rel="alternate" type="text/html" title="Стратегия бренда 3Dom | Дмитрий Бартошевич" /><published>2016-02-25T00:00:00+03:00</published><updated>2022-02-04T00:00:00+03:00</updated><id>http://localhost:4000/blog/3dom-mebel-dlya-semi</id><content type="html" xml:base="http://localhost:4000/blog/3dom-mebel-dlya-semi/"><![CDATA[<div class="intro">
+    <h1 class=" bold max-width-text">Кейс: стратегия бренда 3Dom</h1> 
+    <small class="small"><time itemprop="datePublished" datetime="2016-02-25"> 25 февраля 2016</time> 
+    </small>
+</div>
+
+<p>Производители корпусной мебели один за&nbsp;одним повторяют, что мебель их&nbsp;качественная, функциональная и&nbsp;современная. Говорят о&nbsp;стильности, практичности, модульности и&nbsp;широком модельном ряде. Предлагают бесплатную доставку и&nbsp;сборку. Через полчаса серфинга по&nbsp;сайтам все компании сливаются в&nbsp;один невыразительный образ. В&nbsp;статье поделюсь, что я&nbsp;предложил компании&nbsp;— белорусскому производителю домашней мебели&nbsp;— для исправления ситуации.</p>
+
+<section class="full-bleed row-gap--m ">
+<h2 class="block__space--top-h2 h1 bold max-width-text">Как создавалась концепция развития торговой марки 3Dom</h2>
+<p>Работать над <b>брендом</b> 3Dom я&nbsp;начал с&nbsp;анализа конкурентного окружения компании и&nbsp;предпочтений покупателей мебели, бесед с&nbsp;технологами и&nbsp;консультантами салонов.</p>
+
+
+<div itemprop="image" itemscope="" itemtype="http://schema.org/ImageObject">
+	<link itemprop="url" href="/assets/images/blog3dom-mebel-dlya-semi/3Dom@2,8x.jpg" />	
+<picture> 
+<source srcset="/assets/images/blog/3dom-mebel-dlya-semi/3Dom@1x.avif 1x, /assets/images/blog/3dom-mebel-dlya-semi/3Dom@2x.avif 2x, /assets/images/blog/3dom-mebel-dlya-semi/3Dom@2,8x.avif 2.8x" type="image/avif" /> 
+<source srcset="/assets/images/blog/3dom-mebel-dlya-semi/3Dom@1x.webp 1x, /assets/images/blog/3dom-mebel-dlya-semi/3Dom@2x.webp 2x, /assets/images/blog/3dom-mebel-dlya-semi/3Dom@2,8x.webp 2.8x" type="image/webp" /> 
+<img class="image" loading="lazy" decoding="async" src="/assets/images/blog/3dom-mebel-dlya-semi/3Dom@2,8x.jpg" srcset="/assets/images/blog/3dom-mebel-dlya-semi/3Dom@1x.jpg 1x, /assets/images/blog/3dom-mebel-dlya-semi/3Dom@2x.jpg 2x, /assets/images/blog/3dom-mebel-dlya-semi/3Dom@2,8x.jpg 2.8x" alt="3Dom" width="250" height="83" itemprop="contentUrl" /> 
+</picture>
+
+<div class="figcaption" itemprop="description">
+<span class="bold">Справка.</span> Торговая марка 3Dom объединяет две компании&nbsp;— ООО «Мебелинк» и&nbsp;ООО «ЕвроСтильМебель». Первая изготавливает домашнюю мебель, вторая&nbsp;— ее&nbsp;продвигает и&nbsp;продает.
+</div>
+</div>
+
+
+
+
+<p>Несколько вещей из&nbsp;того, что бросилось в&nbsp;глаза. Производители мебели, которых исследовал, описывали себя шаблонно, через технические характеристики товара. Не&nbsp;было вербализованных конкурентных преимуществ и&nbsp;единой коммуникационной политики.</p>
+<p>Предполагаю, <strong>у&nbsp;компаний нет четкого фокуса в&nbsp;маркетинговой активности&nbsp;и, как следствие, затраты на&nbsp;продвижение могут быть завышены</strong>. Кроме того, без внятного позиционирования у&nbsp;покупателя нет побудительных причин для выбора торговой марки, что для предприятия означает риск снижения продаж.</p>
+
+<div class="full-bleed figure" itemprop="image" itemscope="" itemtype="http://schema.org/ImageObject">
+	<link itemprop="url" href="/assets/images/blog/3dom-mebel-dlya-semi/antiformula_brenda.jpg" />	
+    <picture>
+            <source srcset="/assets/images/blog/3dom-mebel-dlya-semi/antiformula_brenda.avif" type="image/avif" />
+            <source srcset="/assets/images/blog/3dom-mebel-dlya-semi/antiformula_brenda.webp" type="image/webp" /> 
+            <img class="image" loading="lazy" decoding="async" src="/assets/images/blog/3dom-mebel-dlya-semi/antiformula_brenda.jpg" alt="Стандартные атрибуты, которые упоминаются мебельными торговыми марками." width="1920" height="1080" itemprop="contentUrl" />
+    </picture>
+    <div class="figcaption">
+    Назовите мебель качественной, функциональной, современной, стильной. И&nbsp;растворитесь в&nbsp;море шаблонных текстов и&nbsp;однотипных предложений.
+    </div>
+</div>
+
+
+<p>Рассказывая о&nbsp;мебели, сотрудники 3Dom соскальзывали на&nbsp;семейную тему. У&nbsp;стеллажей 3Dom конструкции устойчивые, «чтобы дети случайно не&nbsp;опрокинули». На&nbsp;фабрике используют австрийские плиты с&nbsp;высоким классом безопасности (экологический стандарт&nbsp;Е1) и&nbsp;закрывают все торцы кромкой ПВХ. Закрывать кромкой невидимые торцы мебели для гостиных и&nbsp;спален не&nbsp;требуется по&nbsp;законодательству, не&nbsp;каждый покупатель обратит на&nbsp;их&nbsp;отсутствие внимание, и&nbsp;это легкий способ снижения затрат в&nbsp;кризис. Однако, 3Dom не&nbsp;идет на&nbsp;такую экономию, ведь «в&nbsp;квартире могут быть дети и&nbsp;им&nbsp;дышать ДСП незачем». Собирает мебель сервисная служба 3Dom сразу&nbsp;же после доставки. «Чтобы женщины десять раз не&nbsp;просили мужей разобрать коробки&nbsp;и, наконец-то, собрать мебель». </p>
+<p>Опрос покупателей четко указал, что мебель 3Dom выбирают семьи. Сотрудники 3Dom, описывая мебель, упоминали семьи клиентов. Руководству предприятия семейные ценности тоже близки. Но&nbsp;в&nbsp;коммуникациях торговой марки семейная тема не&nbsp;звучала.</p>
+<p>Я&nbsp;предложил не&nbsp;прятать семейную направленность компании, а&nbsp;гордо о&nbsp;ней заявить. 3Dom&nbsp;— мебель для семьи. Вместо того, чтобы толкаться в&nbsp;коридоре схожих технических описаний, предприятие преподносит себя через тех, для кого работает.</p>
+<p>Вместе с&nbsp;отделом маркетинга мы&nbsp;разработали семейную дисконтную программу, ряд рекламных кампаний. Скидки 3Dom предоставляет только тем, кто состоит в&nbsp;официальном браке. А&nbsp;размер скидки напрямую зависит от&nbsp;стажа семейной жизни.</p>
+</section>
+
+<section class="full-bleed row-gap--m ">
+<h2 class="block__space--top-h2 h1 bold ">Семейные праздники 3Dom</h2>
+<p>Доброй традицией 3Dom стали семейные праздники, на&nbsp;которые компания приглашает клиентов и&nbsp;посетителей салона. Детей ждали пушистые кролики, веселые клоуны, вкусные угощения, родителей&nbsp;— розыгрыши призов. Гости салона и&nbsp;сотрудники 3Dom заряжались позитивными эмоциями. Мне признавались, что появлялся дополнительный стимул в&nbsp;работе.</p>
+<p>Радость и&nbsp;веселье&nbsp;— это хорошо. Но&nbsp;мне&nbsp;— <b>консультанту по&nbsp;маркетингу</b>&nbsp;— этого было мало. После праздника дети с&nbsp;восторгом рассказывали об&nbsp;огромных мыльных пузырях, о&nbsp;победах в&nbsp;конкурсах, а&nbsp;мне хотелось, чтобы они рассказывали о&nbsp;мебели, волшебной мебели 3Dom. В&nbsp;моем представлении стеллажи, кровати и&nbsp;тумбы должны были стать частью содержания представлений.</p>
+<p>Задумку реализовал вместе с&nbsp;бэби-театром «Бусы». Поделюсь некоторыми эпизодами новогодней программы.</p>
+
+
+
+<div class="full-bleed" itemprop="image" itemscope="" itemtype="http://schema.org/ImageObject">
+	<link itemprop="url" href="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1648365692/site/3Dom.jpg" />	
+   <img class="image is-3by2" loading="lazy" decoding="async" src="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1648365692/site/3Dom.jpg" alt="фотография семейного праздника 3Dom" width="3408" height="2272" itemprop="contentUrl" />
+</div>
+
+
+
+
+<p>Через маленькую щелочку приоткрытой двери шкафа дети смотрели на&nbsp;северное сияние. Видя удивление на&nbsp;лицах, родители пытались подойти ближе, посмотреть и&nbsp;узнать, что&nbsp;же там придумал 3Dom.</p>
+<p>В&nbsp;каждом ящике комода детей ожидал сюрприз: интересное задание или игра. В&nbsp;зависимости от&nbsp;того, какой ящик выдвигали, салон 3Dom превращался в&nbsp;ледяную юрту, Северный Ледовитый океан или заснеженный лес.</p>
+<p>Семейные ценности сближают компании. В&nbsp;празднике участвовал и&nbsp;<a class="link" href="http://kovrova.by/">Семейный центр Катерины Ковровой</a> с&nbsp;благотворительной акцией «Коробка смелости». Желающие приобретали гипсовую игрушку для раскраски и&nbsp;помогали детям, находящимся на&nbsp;лечении во&nbsp;<span class="noperenos">2-ой</span> городской детской клинической больнице г.&nbsp;Минска.</p>
+
+
+<div class="full-bleed figure" itemprop="image" itemscope="" itemtype="http://schema.org/ImageObject">
+	<link itemprop="url" href="/assets/images/blog/3dom-mebel-dlya-semi/kovrova.jpg" />	
+    <picture>
+            <source srcset="/assets/images/blog/3dom-mebel-dlya-semi/kovrova.avif" type="image/avif" />
+            <source srcset="/assets/images/blog/3dom-mebel-dlya-semi/kovrova.webp" type="image/webp" /> 
+            <img class="image is-16by9" loading="lazy" decoding="async" src="/assets/images/blog/3dom-mebel-dlya-semi/kovrova.jpg" alt="Cемейный центр Ковровой предлагает гипсовые игрушки." width="1200" height="675" itemprop="contentUrl" />
+    </picture>
+</div>
+
+
+
+
+
+<div class="" itemprop="image" itemscope="" itemtype="http://schema.org/ImageObject">
+	<link itemprop="url" href="/assets/images/blog/3dom-mebel-dlya-semi/kovrova__thanks.jpg" />	
+<picture>
+              <source srcset="/assets/images/blog/3dom-mebel-dlya-semi/kovrova__thanks.avif" type="image/avif" />
+             <source srcset="/assets/images/blog/3dom-mebel-dlya-semi/kovrova__thanks.webp" type="image/webp" /> 
+              <img class="image" loading="lazy" decoding="async" src="/assets/images/blog/3dom-mebel-dlya-semi/kovrova__thanks.jpg" alt="благодарность от центра Ковровой" title="благодарность от центра Катерины Ковровой" width="626" height="692" itemprop="contentUrl" />
+    </picture>
+
+</div>
+</section>
+
+<p>Я&nbsp;описал крупными мазками опыт работы с&nbsp;торговой маркой 3Dom. Постепенно появятся новые статьи о&nbsp;развитии концепции «мебель для семьи», примеры решения задач других предприятий. Подписывайтесь, чтобы ничего не&nbsp;пропустить.</p>]]></content><author><name></name></author><category term="опыт" /><category term="кейсы" /><summary type="html"><![CDATA[Рассказываю, как создавал и&nbsp;развивал концепцию и&nbsp;стратегию развития бренда корпусной мебели.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/tizers/tizer-16.jpg" /><media:content medium="image" url="http://localhost:4000/assets/images/tizers/tizer-16.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Маркетинг на пользе и доверии | Дмитрий Бартошевич</title><link href="http://localhost:4000/blog/konkurentnoe-preimushhestvo/" rel="alternate" type="text/html" title="Маркетинг на пользе и доверии | Дмитрий Бартошевич" /><published>2016-01-30T00:00:00+03:00</published><updated>2022-02-04T00:00:00+03:00</updated><id>http://localhost:4000/blog/konkurentnoe-preimushhestvo</id><content type="html" xml:base="http://localhost:4000/blog/konkurentnoe-preimushhestvo/"><![CDATA[<div class="intro">
+    <h1 class=" bold max-width-text">Конкурентное преимущество в&nbsp;пользе и&nbsp;доверии</h1> 
+    <small class="small"><time itemprop="datePublished" datetime="2016-01-30"> 30 января 2016</time> 
+      <time itemprop="dateModified" datetime="2022-02-04">(обновил  4 февраля 2022)</time>
+    </small>
+</div>
+
+<p>Нас окружает непрерывный поток хвалебных рекламных сообщений. «Восхитительный вкус», «высококачественные услуги», «непревзойденный гуру маркетинга». Среди источников, заслуживающих доверия, редко называют рекламу и&nbsp;пресс-релизы корпораций. Тем самым потребители говорят компаниям: «Вы&nbsp;лжете!» Люди устали и&nbsp;скрываются от&nbsp;рекламы. <b>Маркетологи</b>&nbsp;же кричат о&nbsp;якобы конкурентных преимуществах громче и&nbsp;чаще, вызывая лишь раздражение.</p>
+<p>В&nbsp;такой ситуации, <strong>чтобы отличаться и&nbsp;выделиться из&nbsp;фона конкурентов</strong>, достаточно перестать себя расхваливать, сконцентрироваться на&nbsp;полезности и&nbsp;говорить клиентам правду. Объективное описание пользы услуг или товара&nbsp;— это&nbsp;то, чего боятся маркетологи. Сама идея правдивой презентации вызывает шок и&nbsp;нервный смех.</p>
+<p>«В&nbsp;канун дня влюбленных мы&nbsp;снизили стоимость квартир... Стоп. Только правду? Давайте еще раз... Полгода мы&nbsp;не&nbsp;можем продать квартиры с&nbsp;окнами на&nbsp;мусорные контейнеры, поэтому снижаем цену на&nbsp;10%».</p>
+
+<section class="row-gap--m max-width-text">
+<h2 class="block__space--top-h2 h1 bold ">Маркетинг как «втюхинг»</h2>
+<p>В&nbsp;конце статьи вернемся к&nbsp;квартирам с&nbsp;плохим видом из&nbsp;окон, а&nbsp;пока поговорим о&nbsp;ценностях, лежащих в&nbsp;основе маркетинга. Доминирующей ценностью в&nbsp;недавнем прошлом был рост потребления. Высшая степень ее&nbsp;проявления&nbsp;— восприятие маркетинга как «втюхинга»: отождествление профессионализма маркетолога и&nbsp;способности увеличить рост продаж дрянного товара. Чем хуже товар и&nbsp;чем выше рост продаж, тем круче маркетолог.</p>
+<p>Если маркетолог принимал правила игры, то&nbsp;вскоре начинал стыдиться работы либо оправдываться.</p>
+<p>Сейчас не&nbsp;каждый поверит, что когда-то Coca-Cola призывала поить газировкой грудных детей, чтобы те&nbsp;лучше стартовали в&nbsp;жизни. А&nbsp;маркетологи «Дюпон» были готовы обернуть в&nbsp;целлофан всех и&nbsp;вся.</p>
+
+
+
+
+<div class="row">
+   <div class="c-5" itemprop="image" itemscope="" itemtype="http://schema.org/ImageObject">
+   <link itemprop="url" href="/assets/images/blog/konkurentnoe-preimushhestvo/cola.jpg" />
+      <picture>
+         <source srcset="/assets/images/blog/konkurentnoe-preimushhestvo/cola.avif" type="image/avif" />
+         <source srcset="/assets/images/blog/konkurentnoe-preimushhestvo/cola.webp" type="image/webp" />        
+         <img class="image is-4by5" loading="lazy" decoding="async" src="/assets/images/blog/konkurentnoe-preimushhestvo/cola.jpg" alt="Архивный рекламный плакат CocaCola с грудным ребенком." width="1600" height="2000" itemprop="contentUrl" />
+      </picture>
+   </div>
+   <div class="c-5" itemprop="image" itemscope="" itemtype="http://schema.org/ImageObject">
+   <link itemprop="url" href="/assets/images/blog/konkurentnoe-preimushhestvo/cellophane.jpg" />
+      <picture>
+      <source srcset="/assets/images/blog/konkurentnoe-preimushhestvo/cellophane.avif" type="image/avif" />
+         <source srcset="/assets/images/blog/konkurentnoe-preimushhestvo/cellophane.webp" type="image/webp" />
+         <img class="image is-4by5" loading="lazy" decoding="async" src="/assets/images/blog/konkurentnoe-preimushhestvo/cellophane.jpg" alt="Архивный рекламный плакат Du Pont, на котором младенца обернули в целофан." width="795" height="994" itemprop="contentUrl" />
+      </picture>
+   </div>
+</div>
+
+
+
+<p>В&nbsp;<span class="noperenos">90-хх</span> годах прошлого века американцы начали осваивать новый сегмент рынка стрелкового оружия&nbsp;— дети. Создали винтовку с&nbsp;малой отдачей при стрельбе, раскрасили в&nbsp;цвета от&nbsp;розового до&nbsp;оранжевого с&nbsp;синим. Запустили рекламные кампании.</p>
+<p>Акции дали плоды: продажи росли, а&nbsp;вместе с&nbsp;ними росло и&nbsp;количество детских смертей. Когда СМИ облетела новость, что <a class="link" href="https://edition.cnn.com/2013/05/01/us/kentucky-accidential-shooting/index.html">пятилетний ребенок застрелил двухлетнюю сестру во&nbsp;время игры с&nbsp;ружьем, которое ему подарили на&nbsp;день рождения</a>, производитель оружия вынуждено закрыл сайт на&nbsp;несколько недель.</p>
+
+<div itemprop="image" itemscope="" itemtype="http://schema.org/ImageObject">
+ <link itemprop="url" href="/assets/images/blog/konkurentnoe-preimushhestvo/cricket.jpg" />
+   <picture>  
+         <source srcset="/assets/images/blog/konkurentnoe-preimushhestvo/cricket.avif" type="image/avif" />
+         <source srcset="/assets/images/blog/konkurentnoe-preimushhestvo/cricket.webp" type="image/webp" />
+         <img class="image is-16by9" loading="lazy" decoding="async" src="/assets/images/blog/konkurentnoe-preimushhestvo/cricket.jpg" alt="Упаковка с ружьем Cricket." width="900" height="506" itemprop="contentUrl" />
+   </picture>
+</div>  
+
+
+<p>Обратите внимание на&nbsp;упаковку ружья. Для большей привлекательности предложения маркетологи преподнесли ружье как безопасную игрушку, коротко призвав играть под наблюдением взрослых. Нет ни&nbsp;малейшего намека, что неосторожное обращение с&nbsp;оружием приводит к&nbsp;смерти.</p>
+
+<p>Для сравнения приведу пример упаковки, которая призывает осторожно обращаться с&nbsp;содержимым.</p>
+
+
+<div itemprop="image" itemscope="" itemtype="http://schema.org/ImageObject">
+ <link itemprop="url" href="/assets/images/blog/konkurentnoe-preimushhestvo/poison.jpg" />
+   <picture>  
+         <source srcset="/assets/images/blog/konkurentnoe-preimushhestvo/poison.avif" type="image/avif" />
+         <source srcset="/assets/images/blog/konkurentnoe-preimushhestvo/poison.webp" type="image/webp" />
+         <img class="image is-16by9" loading="lazy" decoding="async" src="/assets/images/blog/konkurentnoe-preimushhestvo/poison.jpg" alt="Упаковка с интуитивно понятным знаком опасного вещества." width="1100" height="619" itemprop="contentUrl" />
+   </picture>
+</div>  
+
+<p>Представьте последствия, если&nbsp;бы тару с&nbsp;ядохимикатами оформляли в&nbsp;фирменном стиле магазинов детских товаров.</p>
+</section>
+
+<section class="row-gap--m max-width-text">
+<h2 class="block__space--top-h2 h1 bold ">Основа маркетинга&nbsp;— польза и&nbsp;доверие</h2>
+<p>К счастью, потребление как ценность постепенно уступает место новой ценности&nbsp;— полезности. Поэтому развиваются проекты OpenStreetMap, Wikipedia и&nbsp;краудфандинговые площадки. Поэтому <a class="link" href="//www.campaignlive.com/article/end-false-recognitions/1379124">Амир Кассей</a>, получивший больше <span class="noperenos">60-ти</span> Канских Львов, призывает рекламщиков решать реальные проблемы компаний и&nbsp;общества в&nbsp;целом, а&nbsp;не&nbsp;работать ради наград на&nbsp;фестивалях.</p>
+<p>В&nbsp;новой ценностной картине мира хвалебно-назойливый маркетинг обречен. Обречен на&nbsp;короткий взлет продаж и&nbsp;последующий спад, постоянный поиск новых и&nbsp;новых клиентов. Для маркетинга, акцентированного на&nbsp;пользу, характерен медленный, но&nbsp;стабильный рост продаж, постоянные и&nbsp;лояльные клиенты.</p>
+<p>Если в&nbsp;ситуации культа потребления покупатели выбирают товар, поддавшись агитации, то&nbsp;в&nbsp;«полезном маркетинге»&nbsp;— благодаря росту доверия к&nbsp;компании.</p> <p>Развитие отношений с&nbsp;клиентами напоминает приручение лиса Маленьким Принцем. <strong>Потребуется запастись терпением и&nbsp;постепенно входить в&nbsp;личное пространство клиента, а&nbsp;не&nbsp;обрушиваться градом коммерческих предложений.</strong></p>
+<p>Доверие клиентов&nbsp;— то&nbsp;конкурентное преимущество, которому сложно что-то противопоставить. Но&nbsp;его невозможно завоевать, опираясь на&nbsp;рекламные лозунги и&nbsp;расхваливая себя в&nbsp;каждом предложении. Основа доверия&nbsp;— открытое и&nbsp;честное обсуждение с&nbsp;клиентами полезности услуг и&nbsp;конкретные действия по&nbsp;улучшению и&nbsp;развитию.</p>
+<p>Популярная в&nbsp;Беларуси интернет платформа предложила директору крупного белорусского предприятия рекламироваться. Условия сделки: стоимость ноль рублей, фиксация обращений, вызванных рекламой, и&nbsp;последующее совместное обсуждение результатов. Лишь убедившись в&nbsp;пользе размещения, стороны оговорят цену дальнейшего сотрудничества. Если&nbsp;бы платформа отправила коммерческое предложение сразу, то&nbsp;вероятнее всего оно отправилось&nbsp;бы в&nbsp;корзину.</p>
+<p>В&nbsp;«полезном маркетинге» пропагандистский стиль в&nbsp;коммуникации заменяется открытым общением с&nbsp;клиентами. Компания не&nbsp;боится признавать ошибки.</p>
+
+<p class="post__note h2"> Главное&nbsp;— не&nbsp;«эго» предприятия, а&nbsp;решение запроса клиента.</p>
+<p>Отсутствует нужда во&nbsp;что&nbsp;бы то&nbsp;ни&nbsp;стало продать товар каждому клиенту. Компания не&nbsp;боится отговаривать от&nbsp;покупки, если уверена, что она не&nbsp;принесет клиенту пользы.</p>
+<p>Так «Patagonia» в&nbsp;одном из&nbsp;самых дорогих печатных изданий США выкупила рекламное место и&nbsp;призвала читателей не&nbsp;покупать их&nbsp;продукцию, не&nbsp;подумав дважды.</p>
+
+
+
+<div itemprop="image" itemscope="" itemtype="http://schema.org/ImageObject">
+ <link itemprop="url" href="/assets/images/blog/konkurentnoe-preimushhestvo/patagonia.jpg" />
+   <picture>  
+         <source srcset="/assets/images/blog/konkurentnoe-preimushhestvo/patagonia.avif" type="image/avif" />
+         <source srcset="/assets/images/blog/konkurentnoe-preimushhestvo/patagonia.webp" type="image/webp" />
+         <img class="image is-16by9" loading="lazy" decoding="async" src="/assets/images/blog/konkurentnoe-preimushhestvo/patagonia.jpg" alt="Patagonia призывает не покупать их куртки." width="1600" height="883" itemprop="contentUrl" />
+   </picture>
+</div> 
+
+
+
+
+
+
+<p>Создатель движка для ведения блога «Эгея» признает, что «Эгея» обладает как достоинствами, так и&nbsp;недостатками. И&nbsp;на&nbsp;официальном сайте рекомендует альтернативы разработанному им&nbsp;продукту.</p>
+<p>На&nbsp;сайте операционной системы Debian отдельную страницу посвятили <a class="link" href="https://www.debian.org/Bugs/">списку обнаруженных ошибок</a>. Ошибки есть и&nbsp;у&nbsp;OS&nbsp;X, но&nbsp;Apple предпочитает, чтобы клиенты узнавали о&nbsp;них после покупки гаджетов, и&nbsp;расхваливает каждый миллиметр продуктовой линейки.</p>
+
+
+<div itemprop="image" itemscope="" itemtype="http://schema.org/ImageObject">
+ <link itemprop="url" href="/assets/images/blog/konkurentnoe-preimushhestvo/yandex.jpg" />
+   <picture>  
+         <source srcset="/assets/images/blog/konkurentnoe-preimushhestvo/yandex.avif" type="image/avif" />
+         <source srcset="/assets/images/blog/konkurentnoe-preimushhestvo/yandex.webp" type="image/webp" />
+         <img class="image is-3by2" loading="lazy" decoding="async" src="/assets/images/blog/konkurentnoe-preimushhestvo/yandex.jpg" alt="При вводе запроса Яндекс подсказывает, какие проблемы могут быть с MacBook Pro." width="870" height="580" itemprop="contentUrl" />
+   </picture>
+   <div class="figcaption">
+Яндекс найдет все проблемы MacBook Pro :-)
+</div>
+</div> 
+
+
+
+<p>Вернемся к&nbsp;квартирам, упомянутым в&nbsp;начале статьи. Если недостаток очевиден и&nbsp;значим, то&nbsp;не&nbsp;упомянуть его риелтор не&nbsp;может, иначе потеряет доверие клиента. Как это сделать грамотно&nbsp;— отдельная тема. Сейчас&nbsp;же задамся вопросом, как вообще появилась проблема с&nbsp;мусорными контейнерами.</p>
+<p>Маркетинг начинается с&nbsp;идеи продукта. И&nbsp;если основываться на&nbsp;пользе для клиента, то&nbsp;в&nbsp;концепции жилого комплекса не&nbsp;должно быть никакого мусора перед окнами. Если все изначально спроектировано с&nbsp;мыслями о&nbsp;пользе для будущих клиентов, то&nbsp;сверх-усилия по&nbsp;сбыту станут не&nbsp;нужны.</p>
+</section>]]></content><author><name></name></author><category term="мнение" /><category term="управление" /><summary type="html"><![CDATA[Отказ от&nbsp;навязчивого маркетинга и&nbsp;хвалебных презентаций, фокус на&nbsp;полезности, формирование доверия&nbsp;— основа конкурентного преимущества компании.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/tizers/tizer-15.jpg" /><media:content medium="image" url="http://localhost:4000/assets/images/tizers/tizer-15.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Тенденции, которые нельзя игнорировать маркетологам | Дмитрий Бартошевич</title><link href="http://localhost:4000/blog/sem-tendencij-marketinga/" rel="alternate" type="text/html" title="Тенденции, которые нельзя игнорировать маркетологам | Дмитрий Бартошевич" /><published>2016-01-16T00:00:00+03:00</published><updated>2022-02-04T00:00:00+03:00</updated><id>http://localhost:4000/blog/sem-tendencij-marketinga</id><content type="html" xml:base="http://localhost:4000/blog/sem-tendencij-marketinga/"><![CDATA[<div class="intro">
+    <h1 class=" bold max-width-text">Семь&nbsp;тенденций, на&nbsp;которые маркетологам стоит обратить внимание</h1> 
+    <small class="small"><time itemprop="datePublished" datetime="2016-01-16"> 16 января 2016</time> 
+      <time itemprop="dateModified" datetime="2022-02-04">(обновил  4 февраля 2022)</time>
+    </small>
+</div>
+
+<p><strong>Тенденции, описанные ниже, отражают изменения в&nbsp;покупательском поведении и&nbsp;развитии маркетинга.</strong> Если вы&nbsp;не&nbsp;намереваетесь выпасть из&nbsp;поля зрения потенциальных клиентов, обратите на&nbsp;них внимание.</p>
+
+<nav class="toc">
+ <h2 class="toc__title">Содержание</h2>
+ <ul class="additive-spacing">
+  <li>   
+      <span class="tocnumber">1 </span>
+       <a class="link" href="#1">
+       Навязчивая реклама умирает
+      </a>
+  </li>
+  <li>    
+      <span class="tocnumber">2 </span>
+      <a class="link" href="#2"> Ориентация на&nbsp;диалог с&nbsp;клиентом     </a>
+  </li>
+
+  <li>        
+        <span class="tocnumber">3 </span>
+        <a class="link" href="#3">Рост мобильного интернет-трафика        </a>
+      </li>
+      <li>
+        <span class="tocnumber">4 </span>
+        <a class="link" href="#4"> Рост скорости реагирования         </a>
+      </li>
+      <li>       
+        <span class="tocnumber">5 </span>
+         <a class="link" href="#5"> Использование эмоций в&nbsp;маркетинговых коммуникациях         </a>
+      </li>
+      <li>       
+        <span class="tocnumber">6 </span>
+         <a class="link" href="#6"> Рост качества контента        </a>
+      </li>
+      <li>       
+        <span class="tocnumber">7 </span> <a class="link" href="#7">Рост видеоконтента        </a>
+      </li>
+    </ul>
+</nav>
+
+<section class="row-gap--m max-width-text" id="1">
+<h2 class="block__space--top-h2 h1 bold ">1) Навязчивая реклама умирает</h2>
+<p>Расширения браузеров, блокирующие рекламу, набирают популярность. В&nbsp;июне 2015 года Adobe и&nbsp;PageFair насчитали 191 миллион пользователей блокировщиков рекламы, отметив, что их&nbsp;количество увеличилось на&nbsp;41% в&nbsp;течение года.</p>
+
+<div class="figure" itemprop="image" itemscope="" itemtype="http://schema.org/ImageObject">
+<link itemprop="url" href="/assets/images/blog/sem-tendencij-marketinga/global-adblocking-trends.jpg" />
+   <picture>
+              <source srcset="/assets/images/blog/sem-tendencij-marketinga/global-adblocking-trends.avif" type="image/avif" />
+                <source srcset="/assets/images/blog/sem-tendencij-marketinga/global-adblocking-trends.webp" type="image/webp" />
+                <img class="image" loading="lazy" decoding="async" src="/assets/images/blog/sem-tendencij-marketinga/global-adblocking-trends.jpg" alt="Рост пользователей AdBlock" width="965" height="572" itemprop="contentUrl" />
+    </picture>
+</div>
+
+
+
+ <p>У&nbsp;меня нет информации, насколько распространены подобные расширения в&nbsp;Беларуси. В&nbsp;соседней Польше рекламу блокируют&nbsp;35% пользователей интернета. Что касается меня, uBlock Origin, Ghostery и&nbsp;NoScript&nbsp;— постоянные спутники серфинга в&nbsp;сети. Меня не&nbsp;отвлекают всплывающие окна, яркие мигающие баннеры и&nbsp;громкие рекламные призывы в&nbsp;духе <span class="noperenos">90-х.</span>
+</p>
+<p>Устанавливают блокировщики из-за роста количества рекламы, а&nbsp;также&nbsp;— а&nbsp;может и&nbsp;прежде всего&nbsp;— из-за низкой ценности текста объявлений. Потребители научились распознавать манипуляции и&nbsp;попытки обмана. Лозунгам типа «увеличение доли рынка на&nbsp;40%!» не&nbsp;верят. Но&nbsp;вместо того, чтобы улучшить предложение, маркетологи закричали громче и&nbsp;чаще. Естественная реакция окружения&nbsp;— избавиться от&nbsp;назойливого шума.</p>
+<p><strong>Рекламодатели терпят убытки и&nbsp;вынуждены менять методы работы.</strong> Однако, блокировщики рекламы&nbsp;— вопрос не&nbsp;только интернет-маркетинга. Это сигнал востребованности иного подхода в&nbsp;общении с&nbsp;потребителем, принцип которого «меньше агитации&nbsp;— больше пользы». Люди готовы слушать честную и&nbsp;полную информацию о&nbsp;продукте. И&nbsp;прибегнут к&nbsp;берушам как только почувствуют <a class="link" href="/blog/otlichie-marketologa-ot-brexuna/">брехню</a>.</p>
+
+<p class="mb-m mt-m"> Дополнительные материалы:</p>
+<ul class="addictive-spacing">
+<li class="list-li">
+  <a href="/blog/kak-reklamu-podrujit-s-potrebitelyami/" class="link"> Время блокировать рекламу </a>
+</li>
+</ul>
+
+</section>
+
+<section class="row-gap--m max-width-text" id="2">
+<h2 class="block__space--top-h2 h1 bold ">2) Ориентация на&nbsp;диалог с&nbsp;клиентом</h2>
+<p>В&nbsp;2015&nbsp;г. маркетологи Nescafe <a class="link" href="https://vc.ru/marketing/10580-nescafe-tumblr">закрыли корпоративный сайт</a>. Объяснили тем, что он&nbsp;не&nbsp;подталкивает клиентов к&nbsp;общению. Поэтому всю коммуникацию перенесли в&nbsp;блог на&nbsp;платформе Tumblr.</p>
+<p>Это один из&nbsp;примеров отказа маркетологов от&nbsp;«статичного» контента. «Продать себя» аудитории с&nbsp;помощью статей, новостей компании и&nbsp;пресс-релизов сложно. Эти методы перестают работать. Исследования показывают, что <a class="link" href="//lifehacker.ru/2013/08/07/endless/">посты не&nbsp;читают до&nbsp;конца</a>. Люди ставят «лайки» и&nbsp;нажимают «поделиться», прочитав только заголовок, так и&nbsp;не&nbsp;приступив к&nbsp;содержанию. Если вы&nbsp;в&nbsp;тренде, эту статью вы&nbsp;не&nbsp;прочтете полностью ;-) </p>
+<p>Вот почему компании озаботились инструментами, подталкивающими пользователей к&nbsp;осознанному взаимодействию с&nbsp;контентом и&nbsp;активному общению. На&nbsp;сайты добавляют тесты, опросы, объявляют конкурсы.</p>
+<p>Когда я&nbsp;с&nbsp;коллегами организовывал практикум <a class="link" href="/blog/vzlom-barerov-biznesa/">«Взлом барьеров развития бизнеса»</a>, мы&nbsp;разработали тест для диагностики состояния управления продажами и&nbsp;маркетингом в&nbsp;компании. Желающие отвечали на&nbsp;вопросы и&nbsp;получали нашу оценку рабочих процессов. Тест нашел больший отклик, чем реклама практикума.</p>
+</section>
+
+<section class="row-gap--m max-width-text" id="3">
+<h2 class="block__space--top-h2 h1 bold ">3) Рост мобильного интернет-трафика</h2>
+<p>В&nbsp;10&nbsp;странах, включая США и&nbsp;Японию, <a class="link" href="//searchengineland.com/its-official-google-says-more-searches-now-on-mobile-than-on-desktop-220369">мобильный трафик уже превышает «десктопный»</a>. В&nbsp;Беларуси, насколько я&nbsp;могу судить по&nbsp;своим проектам, со&nbsp;смартфонов и&nbsp;планшетов открывают сайты 20%-30% пользователей. И&nbsp;их&nbsp;количество увеличивается.</p>
+<p>С&nbsp;апреля 2015 Google изменил алгоритм поисковой выдачи: mobile-friendly сайты ранжируются выше прочих. Таким образом результаты интернет-поиска теперь зависят от&nbsp;устройства, с&nbsp;которого делается запрос.</p>
+<p>Высказывание «если вас нет в&nbsp;интернете, вас нет в&nbsp;бизнесе» белорусы вскоре осознают как «если вас нет в&nbsp;мобильном интернете, вас нет в&nbsp;бизнесе».</p>
+<p>Google помогает определить, <a class="link" href="https://search.google.com/test/mobile-friendly">насколько удобно просматривать сайт на&nbsp;мобильных устройствах,</a> и&nbsp;подсказывает, что исправить. Если вы&nbsp;еще не&nbsp;тестировали свой сайт в&nbsp;прошлом году, сделайте это после прочтения статьи.</p>
+</section>
+
+<section class="row-gap--m max-width-text" id="4">
+<h2 class="block__space--top-h2 h1 bold ">4) Рост скорости реагирования</h2>
+<p>Чиновников заставляют отвечать на&nbsp;обращения граждан в&nbsp;течение 30&nbsp;дней. В&nbsp;мире бизнеса это правило не&nbsp;работает. Если на&nbsp;коммерческом сайте новости месячной давности, пользователь может усомниться в&nbsp;благополучии предприятия. Оставив сообщение в&nbsp;форме обратной связи, человек ожидает реакции в&nbsp;течение одного-двух часов.</p>
+<p>К&nbsp;чему приводят оставленные без оперативной реакции комментарии в&nbsp;интернете, показывает история Нобелевского лауреата, биохимика сэра Тима Ханта. На&nbsp;конференции в&nbsp;Южной Корее он&nbsp;отметил заслуги женщин ученых и&nbsp;подчеркнул, что наука в&nbsp;женщинах нуждается. Свою похвалу разбавил шуткой, что женщины в&nbsp;лаборатории отвлекают от&nbsp;работы: то&nbsp;в&nbsp;них влюбляются, то&nbsp;влюбляются они.</p>
+<p>Пока Нобелевский лауреат возвращался из&nbsp;Южной Кореи домой, одна присутствующая на&nbsp;конференции журналистка, вырвав из&nbsp;контекста слова биохимика, описала ученого в&nbsp;Twitter как мужского шовиниста. Это подхватили феминистки и&nbsp;сочувствующие. Пока Тим Хант летел в&nbsp;самолете, на&nbsp;земле разгорался скандал. Заочно ученого осудили СМИ, университеты и&nbsp;коллеги. Тим Хант лишился поста почетного профессора в&nbsp;Университетском колледже Лондона, поста в&nbsp;комитете по&nbsp;награждению в&nbsp;области биологических наук Королевского общества и&nbsp;приостановил членство в&nbsp;Европейском исследовательском совете. Позже выяснилось, что слова ученого исказили, что <a class="link" href="https://www.svoboda.org/a/27101883.html">личность журналистки, обвинившей Ханта, вызывает вопросы</a>, однако, как говорится, осадочек остался.</p>
+
+<p>Вот почему все большее значение приобретает способность маркетолога правильно и&nbsp;быстро работать с&nbsp;внешними стимулами.</p>
+
+<div class="post__note">Если компания не&nbsp;реагирует на&nbsp;окружающие события&nbsp;— она мертва.</div>
+</section>
+
+<section class="row-gap--m max-width-text" id="5">
+<h2 class="block__space--top-h2 h1 bold ">5) Использование эмоций в&nbsp;маркетинговых коммуникациях</h2>
+<p>Если раньше акцент в&nbsp;<b>дифференциации брендов</b> делали на&nbsp;характеристиках товара или услуги, то&nbsp;сейчас компании отстраиваются от&nbsp;конкурентов с&nbsp;помощью эмоций. Эмоциональные ценности используются для позиционирования, дифференциации и&nbsp;легенды торговой марки.</p>
+
+<div class="figure">
+ <div class="video ">
+        <a class="video__link " href="https://youtu.be/zvgyWsSQOh8" target="_blank" rel="noopener nofollow noreferrer">
+            <picture>
+                <source srcset="https://i.ytimg.com/vi_webp/zvgyWsSQOh8/maxresdefault.webp" type="image/webp" />
+                <img loading="lazy" class="video__media " src="https://i.ytimg.com/vi/zvgyWsSQOh8/maxresdefault.jpg" alt="Пример использования эмоций в рекламе Cineplex" width="1280" height="720" />
+            </picture>
+        </a>
+        <button class="video__button" aria-label="Запустить видео">
+            <svg width="68" height="48" viewBox="0 0 68 48"><path class="video__button-shape" d="M66.52,7.74c-0.78-2.93-2.49-5.41-5.42-6.19C55.79,.13,34,0,34,0S12.21,.13,6.9,1.55 C3.97,2.33,2.27,4.81,1.48,7.74C0.06,13.05,0,24,0,24s0.06,10.95,1.48,16.26c0.78,2.93,2.49,5.41,5.42,6.19 C12.21,47.87,34,48,34,48s21.79-0.13,27.1-1.55c2.93-0.78,4.64-3.26,5.42-6.19C67.94,34.95,68,24,68,24S67.94,13.05,66.52,7.74z"></path><path class="video__button-icon" d="M 45,24 27,14 27,34"></path></svg>
+        </button>
+</div>
+<div class="figcaption">
+Пример использования эмоций в рекламе Cineplex
+</div>
+</div>
+
+
+
+
+
+<p>В&nbsp;начале 2016г. компания Нильсен опубликовала результаты исследования, которое показало, что <a class="link" href="https://www.nielsen.com/us/en/insights/article/2016/were-ruled-by-our-emotions-and-so-are-the-ads-we-watch/">эмоциональная реклама увеличивает рост продаж</a>. Ожидаю, эмоций в&nbsp;рекламе станет больше.</p>
+<p>Работая над маркетинговым мероприятием, по&nbsp;меньшей мере задумайтесь, найдет&nbsp;ли кампания эмоциональный отклик у&nbsp;потребителя и&nbsp;какой.</p>
+</section>
+
+<section class="row-gap--m max-width-text" id="6">
+<h2 class="block__space--top-h2 h1 bold ">6) Рост качества контента</h2>
+<p>Выживет&nbsp;ли сообщение в&nbsp;информационном шуме зависит от&nbsp;того, насколько оно полезно для клиента. Если речь идет о&nbsp;странице товара на&nbsp;сайте, то&nbsp;одной фотографии и&nbsp;указания цены недостаточно. Необходима помощь в&nbsp;принятии решения. Подробно опишите продукт, укажите плюсы и&nbsp;возможные минусы, делитесь примерами использования, инструкциями, отзывами. Ответы на&nbsp;часто задаваемые вопросы выведите в&nbsp;отдельный блок.</p>
+<p>Изменились и&nbsp;требования к&nbsp;языку. Преимущество за&nbsp;однозначными, точными и&nbsp;объективными формулировками. Описывая товар, удаляйте лишние слова и&nbsp;эмоции. Избавляйтесь от&nbsp;«стильный», «эффектный», «уникальный», «профессиональный» и&nbsp;других рекламных штампов <span class="noperenos">90-х</span> гг.</p>
+<p>От&nbsp;словесного мусора текст помогут очистить <a class="link" href="/blog/dlya-tex-kto-pishet/">специальные сервисы</a>.</p>
+</section>
+
+<section class="row-gap--m max-width-text" id="7">
+<h2 class="block__space--top-h2 h1 bold ">7) Рост видеоконтента</h2>
+<p>О&nbsp;необходимости использования видеороликов говорят и&nbsp;web-разработчики, и&nbsp;seo-шники и&nbsp;специалисты по&nbsp;соц.сетям. Каждый со&nbsp;своей стороны подчеркивает плюсы. По&nbsp;оценкам Cisco, <a class="link" href="https://web.archive.org/web/20181217174834/https://www.cisco.com/c/en/us/solutions/collateral/service-provider/visual-networking-index-vni/white-paper-c11-741490.html">доля видео в&nbsp;2019г. составит&nbsp;80% от&nbsp;мирового интернет-трафика.</a></p>
+<p>Видео не&nbsp;обязательно должно быть «вирусным», скорeе наоборот, поскольку коммерчески успешные «вирусные» ролики единичны. Делайте ставку на&nbsp;видео-обзоры и&nbsp;обучающие видео. Чем меньше профессиональных эффектов используете в&nbsp;съемке, тем в&nbsp;большей степени ролик будет выглядеть настоящим и&nbsp;вызывать доверие.</p>
+</section>]]></content><author><name></name></author><category term="мнение" /><category term="управление" /><summary type="html"><![CDATA[Пересмотреть привычные модели организации работы помогут эти семь трендов развития маркетинга и&nbsp;изменения покупательского поведении.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/tizers/tizer-14.jpg" /><media:content medium="image" url="http://localhost:4000/assets/images/tizers/tizer-14.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Новый год: как поздравить клиентов | Дмитрий Бартошевич</title><link href="http://localhost:4000/blog/gifts2clients/" rel="alternate" type="text/html" title="Новый год: как поздравить клиентов | Дмитрий Бартошевич" /><published>2015-12-15T00:00:00+03:00</published><updated>2019-01-06T00:00:00+03:00</updated><id>http://localhost:4000/blog/gifts2clients</id><content type="html" xml:base="http://localhost:4000/blog/gifts2clients/"><![CDATA[<div class="intro">
     <h1 class=" bold max-width-text">Подарки клиентам на Новый год</h1> 
     <small class="small"><time itemprop="datePublished" datetime="2015-12-15"> 15 декабря 2015</time> 
       <time itemprop="dateModified" datetime="2019-01-06">(обновил  6 января 2019)</time>
@@ -857,7 +1214,7 @@ https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1648646401/s
 
 <section class="row-gap--m max-width-text" id="1">
 <h2 class="block__space--top-h2 h1 bold ">Net Promoter Score (NPS). История и&nbsp;значение</h2>
-<p>В&nbsp;начале <span class="noperenos">2000-х</span> Фредерик Райхельд исследовал факторы лояльности потребителей и&nbsp;определил, что с&nbsp;лояльностью клиентов и&nbsp;— в&nbsp;конечном счете&nbsp;— с&nbsp;прибылью компании тесно связан только один фактор&nbsp;— готовность рекомендовать продукт или услугу другим. Он&nbsp;вывел <strong>формулу индекса лояльности (Net Promoter Score&nbsp;) и&nbsp;предложил методику определения</strong>.</p>
+<p>В&nbsp;начале <span class="noperenos">2000-х</span> Фредерик Райхельд исследовал факторы лояльности потребителей и&nbsp;определил, что с&nbsp;лояльностью клиентов и&nbsp;— в&nbsp;конечном счете&nbsp;— с&nbsp;прибылью компании тесно связан только один фактор&nbsp;— готовность рекомендовать продукт или услугу другим. Он&nbsp;<strong>вывел формулу индекса лояльности (Net Promoter Score&nbsp;) и&nbsp;предложил методику определения</strong>.</p>
 <p>Привлекательность методики NPS в&nbsp;том, что вместо десятка вопросов задается всего два. Вы&nbsp;получите ответы, которые сильно коррелируют с&nbsp;экономическим поведением клиентов. Исчезает необходимость в&nbsp;многостраничных опросниках и&nbsp;отзывах, которые никак не&nbsp;проясняют желание сотрудничать с&nbsp;предприятием. </p>
 <p class="post__note">NPS&nbsp;— это не&nbsp;два дополнительных вопроса для <span class="noperenos">100-страничной</span> анкеты, а&nbsp;центральный момент получения обратной связи от&nbsp;клиентов. </p>
 <p>Представим пиццерию и&nbsp;маркетолога, который решил получить фидбек от&nbsp;клиентов, заказавших пиццу домой. В&nbsp;анкете он&nbsp;поинтересовался, была&nbsp;ли доставлена пицца вовремя, была&nbsp;ли она горячей, был&nbsp;ли вежлив курьер и&nbsp;выдал&nbsp;ли чек. Допустим, клиенты ответили, что горячую пиццу вежливый курьер доставил вовремя, выдал чек и&nbsp;сдачу. Маркетолог делает радужные выводы и&nbsp;спешит к&nbsp;руководству. А&nbsp;директор показывает выписку из&nbsp;1С&nbsp;— ни&nbsp;одного повторного заказа. Озадаченный маркетолог позвонил двум клиентам узнать, почему они больше не&nbsp;заказывают пиццу. Оказалось, пицца вызвала у&nbsp;них такое сильное расстройство желудка, что о&nbsp;повторных заказах не&nbsp;могло быть и&nbsp;речи.</p>
@@ -1101,232 +1458,4 @@ https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1648646401/s
 <h2 class="block__space--top-h2 h1 bold ">Опыт оценки использования времени</h2>
 <p>В&nbsp;компаниях, где я&nbsp;использовал и&nbsp;рекомендовал этот метод, всегда открывались неожиданные вещи. «Мы&nbsp;понимали, что на&nbsp;вопросы отдела продаж уходит много времени, но&nbsp;чтобы столько!», «В&nbsp;сумме&nbsp;8 (!) часов на&nbsp;обсуждение шрифта визитки?!» Руководители предприятий убеждались в&nbsp;постоянной занятости отдела маркетинга... на&nbsp;малозначимых проектах. Иногда только демонстрация цифр с&nbsp;затратами времени изменяла стиль управления в&nbsp;компании.</p>
 <p>Сложность проведения хронометража в&nbsp;том, что мало кто, загоревшись, продолжает фиксировать продолжительность выполняемых действий длительное время. Но&nbsp;чем больше данных, тем точнее анализ, прогноз временных затрат и&nbsp;меньше «поглотителей времени».</p>
-</section>]]></content><author><name></name></author><category term="инструкции" /><category term="инструменты" /><summary type="html"><![CDATA[Эффективность маркетинга оценивается не&nbsp;только с&nbsp;помощью финансовых показателей. Рассказываю...]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/tizers/tizer-10.jpg" /><media:content medium="image" url="http://localhost:4000/assets/images/tizers/tizer-10.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Хотите продать — предложите бесплатно | Дмитрий Бартошевич</title><link href="http://localhost:4000/blog/test-drajv-dlya-rosta-prodazh/" rel="alternate" type="text/html" title="Хотите продать — предложите бесплатно | Дмитрий Бартошевич" /><published>2015-10-12T00:00:00+03:00</published><updated>2022-02-04T00:00:00+03:00</updated><id>http://localhost:4000/blog/test-drajv-dlya-rosta-prodazh</id><content type="html" xml:base="http://localhost:4000/blog/test-drajv-dlya-rosta-prodazh/"><![CDATA[<div class="intro">
-    <h1 class=" bold max-width-text">Хотите продать — предложите бесплатно</h1> 
-    <small class="small"><time itemprop="datePublished" datetime="2015-10-12"> 12 октября 2015</time> 
-      <time itemprop="dateModified" datetime="2022-02-04">(обновил  4 февраля 2022)</time>
-    </small>
-</div>
-
-<p>Не&nbsp;понимаю мотивацию компаний, которые в&nbsp;торговых залах размещают плакаты «Руками не&nbsp;трогать», «Детям не&nbsp;играть». Для меня надпись в&nbsp;магазине стульев «не&nbsp;садиться» равносильна вывеске в&nbsp;магазине одежды «не&nbsp;примерять». Эффект тот&nbsp;же. </p>
-<p>Автоцентры организовывают тест драйвы. В&nbsp;книжных онлайн-магазинах можно прочесть несколько глав вызвавшей интерес книги. Представители косметических и&nbsp;парфюмерных компаний добавляют к&nbsp;покупке набор пробников. Эти примеры&nbsp;— не&nbsp;благотворительность, а&nbsp;способ увеличения продаж. </p>
-
-<div class="post__note h2 max-width-text">Если хотите меньше продаж в&nbsp;книжном магазине, заверните книги в&nbsp;целлофан. Хотите, чтобы книги покупали&nbsp;— целлофан уберите.</div>
-
-<div class="max-width-text" itemprop="image" itemscope="" itemtype="http://schema.org/ImageObject">	
-		<link itemprop="url" href="/assets/images/blog/test-drajv-dlya-rosta-prodazh/test2.jpg" />	
-   <picture>
-    <source srcset="/assets/images/blog/test-drajv-dlya-rosta-prodazh/test2.avif" type="image/avif" />
-        <source srcset="/assets/images/blog/test-drajv-dlya-rosta-prodazh/test2.webp" type="image/webp" />
-        <img loading="lazy" decoding="async" class="image" src="/assets/images/blog/test-drajv-dlya-rosta-prodazh/test2.jpg" alt="детский стол с предупреждением беречь от детей" width="695" height="521" itemprop="contentUrl" />
-	</picture>
-<div class="figcaption">
-Сел ребенок за&nbsp;стол&nbsp;&mdash; жесточайще наказать. А&nbsp;потом купить мебель. Видимо, такая у&nbsp;продавцов логика.
-</div>
-</div>
-
-<div class="max-width-text" itemprop="image" itemscope="" itemtype="http://schema.org/ImageObject">	
-		<link itemprop="url" href="/assets/images/blog/test-drajv-dlya-rosta-prodazh/test3.jpg" />
-<picture>
-    <source srcset="/assets/images/blog/test-drajv-dlya-rosta-prodazh/test3.webp" type="image/webp" />
-    <img loading="lazy" decoding="async" class="image" src="/assets/images/blog/test-drajv-dlya-rosta-prodazh/test3.jpg" alt="стул с предупреждением не садиться" width="695" height="857" itemprop="contentUrl" />
-    </picture>
-<div class="figcaption">
-На&nbsp;образец не&nbsp;садиться! Уже пятый за&nbsp;час сломали! :-) 
-</div>	
-</div>
-
-<section class="full-bleed row-gap--m max-width-text">
-<h2 class="block__space--top-h2 h1 bold ">Польза тестирования продукта покупателями</h2>
-<ul class="additice-spacing">
-	<li class="list-li">Если продукт тестируют в&nbsp;торговом салоне, у&nbsp;продавцов появляется дополнительное время для предметного общения с&nbsp;посетителями. Выявляйть потребности, работать с&nbsp;сомнениями, слушать предложения по&nbsp;развитию.</li>
-
-	<li class="list-li">Тестируя продукт, покупатель на&nbsp;время становится его обладателем. И&nbsp;чем дольше длится это чувство, тем труднее затем отказаться от&nbsp;товара.</li>
-
-	<li class="list-li">Благодаря тест-драйву покупатель делает осознанный выбор. Количество разочарованных клиентов уменьшится.</li>
-
-	<li class="list-li">Тест-драйв порождает обязательства. Чалдини в&nbsp;книге «Психология влияния» утверждает, что люди чувствуют себя обязанными купить те&nbsp;товары, которые попробовали бесплатно. И&nbsp;приводит примеры, как после массовой раздачи пробников в&nbsp;местах скопления людей, продажи косметики выросли.</li>
-
-	<li class="list-li">Тест-драйв&nbsp;— <strong>сигнал о&nbsp;намерении совершить покупку.</strong> Число людей, которые согласились испытать товар, укажет на потенциальный спрос. По&nbsp;этому индикатору можно прогнозировать успешность продаж нового товара и&nbsp;<strong>оценивать эффективность проводимых маркетинговых мероприятий</strong>.</li>
-
-	<li class="list-li">Сарафанное радио. Необычный тест-драйв побудит людей поделиться информацией о&nbsp;продукте. Возьмем блендер и&nbsp;попробуем перемолоть iPhone 6&nbsp;Plus и&nbsp;Samsung Galaxy Note&nbsp;3, снимем процесс на&nbsp;видео, разместим на&nbsp;youtube и&nbsp;наберем свыше 4&nbsp;млн. просмотров. Как это сделал Blendtec.</li>
-</ul>
-
-
-<div class="figure">
- <div class="video ">
-        <a class="video__link " href="https://youtu.be/lBUJcD6Ws6s" target="_blank" rel="noopener nofollow noreferrer">
-                <img loading="lazy" class="video__media " src="https://i.ytimg.com/vi/lBUJcD6Ws6s/maxresdefault.jpg" alt="тест-драйв блендера: справится ли с iPhone 6&nbsp;Plus и&nbsp;Samsung Galaxy Note&nbsp;3?" width="1280" height="720" />
-        </a>
-      <button class="video__button" aria-label="Запустить видео">
-            <svg width="68" height="48" viewBox="0 0 68 48"><path class="video__button-shape" d="M66.52,7.74c-0.78-2.93-2.49-5.41-5.42-6.19C55.79,.13,34,0,34,0S12.21,.13,6.9,1.55 C3.97,2.33,2.27,4.81,1.48,7.74C0.06,13.05,0,24,0,24s0.06,10.95,1.48,16.26c0.78,2.93,2.49,5.41,5.42,6.19 C12.21,47.87,34,48,34,48s21.79-0.13,27.1-1.55c2.93-0.78,4.64-3.26,5.42-6.19C67.94,34.95,68,24,68,24S67.94,13.05,66.52,7.74z"></path><path class="video__button-icon" d="M 45,24 27,14 27,34"></path></svg>
-        </button>
-</div>
-<div class="figcaption">
-тест-драйв блендера: справится ли с iPhone 6&nbsp;Plus и&nbsp;Samsung Galaxy Note&nbsp;3?
-</div>
-</div>
-</section>
-
-<section class="full-bleed row-gap--m max-width-text">
-<h2 class="block__space--top-h2 h1 bold ">Не&nbsp;бойтесь делиться бесплатно</h2>
-<p class="mb-m">В&nbsp;заключение приведу цитату из&nbsp;книги «Rework: Бизнес без предрассудков»: </p>
-
-
-<blockquote class="italic row-gap--m">
-<p>«Наркоторговцы&nbsp;— очень дальновидные бизнесмены. Они знают: их&nbsp;товар настолько хорош, что они готовы бесплатно дать на&nbsp;пробу небольшую порцию... Копируйте наркоторговцев. Сделайте свой продукт фантастически хорошим... Таким, чтобы вы&nbsp;были уверены, давая клиентам кусочек на&nbsp;пробу бесплатно: они вернутся уже с&nbsp;наличными.</p>
-<p>Для начала создайте небольшую пробную версию своего продукта. Устройте простую и&nbsp;понятную презентацию, которая даст потребителям возможность попробовать продукт, не&nbsp;тратя при этом много времени и&nbsp;денег... Не&nbsp;бойтесь делиться бесплатно. Вы&nbsp;должны знать, что люди вернутся „за&nbsp;добавкой“. А&nbsp;если вы&nbsp;в&nbsp;этом пока не&nbsp;уверены, значит, достаточно сильный продукт вами еще не&nbsp;создан».</p>
-</blockquote>
-
-</section>]]></content><author><name></name></author><category term="мнение" /><category term="инструменты" /><summary type="html"><![CDATA[Рассказываю, почему важно бесплатно давать покупателю на&nbsp;пробу свой продукт или услугу]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/tizers/tizer-9.jpg" /><media:content medium="image" url="http://localhost:4000/assets/images/tizers/tizer-9.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Зачем маркетинг нужен компании | Дмитрий Бартошевич</title><link href="http://localhost:4000/blog/zachem-marketing-biznesu/" rel="alternate" type="text/html" title="Зачем маркетинг нужен компании | Дмитрий Бартошевич" /><published>2015-10-01T00:00:00+03:00</published><updated>2022-02-04T00:00:00+03:00</updated><id>http://localhost:4000/blog/zachem-marketing-biznesu</id><content type="html" xml:base="http://localhost:4000/blog/zachem-marketing-biznesu/"><![CDATA[<div class="intro">
-    <h1 class=" bold max-width-text">Зачем нужен маркетинг</h1> 
-    <small class="small"><time itemprop="datePublished" datetime="2015-10-01">  1 октября 2015</time> 
-      <time itemprop="dateModified" datetime="2022-02-04">(обновил  4 февраля 2022)</time>
-    </small>
-</div>
-
-<p>Сталкивался с&nbsp;мнением, что <b>маркетинг</b> приносит только затраты, и&nbsp;что если маркетинговый бюджет перераспределить на&nbsp;нужды отдела продаж, то&nbsp;компания получит больше пользы. Маркетологи такой подход ожидаемо не&nbsp;разделяют. Но&nbsp;поскольку они&nbsp;— лица заинтересованные, то&nbsp;и&nbsp;доводы воспринимаются с&nbsp;недоверием.</p>
-<div class="with-side">
-<p>Я&nbsp;решил выяснить, как маркетинг воспринимают бизнес-тренеры по&nbsp;продажам. Они в&nbsp;наименьшей степени заинтересованы в&nbsp;преувеличении значимости маркетинга. Нужен&nbsp;ли он, по&nbsp;их&nbsp;мнению, белорусскому бизнесу, и&nbsp;если&nbsp;да, то&nbsp;зачем. Вопросы задавал двум консультантам по&nbsp;развитию системы продаж&nbsp;— Василию Хлобыстову и&nbsp;Сергею Дробышескому. Ответы в&nbsp;статье.</p>
-<div class="side">
-
-<div class="guests">
-    <div class="guest-person">
-        <picture>
-                    <source srcset="/assets/images/blog/zachem-marketing-biznesu/sd.avif" type="image/avif" />
-                    <source srcset="/assets/images/blog/zachem-marketing-biznesu/sd.webp" type="image/webp" />  
-                    <source srcset="/assets/images/blog/zachem-marketing-biznesu/sd.png" type="image/png" />               
-                <img loading="lazy" class="image is-150x150" src="/assets/images/blog/zachem-marketing-biznesu/sd.jpg" alt="Сергей Дробышевский" width="150" height="150" />
-        </picture>
-        <div class="guest-person__name">Сергей Дробышевский</div>
-        <div class="guest-person__position">В&nbsp;сервисе и&nbsp;продажах с&nbsp;2006г. Внедрял системы управления эффективностью розничных продаж в&nbsp;России: VW, SsangYong, Wallenstein, Skoda, СтройШефИнвест.</div>
-    </div>
-    <div class="guest-person">
-        <picture>
-                    <source srcset="/assets/images/blog/zachem-marketing-biznesu/vh.avif" type="image/avif" />
-                    <source srcset="/assets/images/blog/zachem-marketing-biznesu/vh.webp" type="image/webp" />  
-                    <source srcset="/assets/images/blog/zachem-marketing-biznesu/vh.png" type="image/png" />               
-                <img loading="lazy" class="image is-150x150" src="/assets/images/blog/zachem-marketing-biznesu/vh.jpg" alt="Василий Хлобыстов" width="150" height="150" /> 
-        </picture>
-        
-        <div class="guest-person__name">Василий Хлобыстов </div>
-        <div class="guest-person__position">Более 15&nbsp;лет опыта работы и&nbsp;консультирования в&nbsp;области построения дистрибуции, организации и&nbsp;развития продаж. Сферы: стройматериалы, продукты питания, инженерные решения, ИТ-услуги.<br />
-        География: Беларусь, Россия, Молдова, Украина.</div>
-    </div>
-</div>
-</div>
-
-
-
-
-
-<section class="row-gap--m">
-<h2 class="block__space--top-h2 h1 bold">Нужен&nbsp;ли маркетинг</h2>
-
-
-
-<p><span class="bold">Сергей Дробышевский:</span> Продавец&nbsp;— пчела, которая приносит мёд в&nbsp;компанию. Когда у&nbsp;пчёл много цветов, они могут в&nbsp;<span class="noperenos">2-3</span> раза быстрее строить соты и&nbsp;заполнять мёдом. Чем меньше расстояние от&nbsp;цветка до&nbsp;улья, тем лучше. Отдел маркетинга обеспечивает пчел цветами, т.е. создает постоянный поток клиентов в&nbsp;отдел продаж. Инвестиции в&nbsp;маркетинг, который приводит клиента в&nbsp;компанию, жизненно необходимы. Вместе с&nbsp;тем маркетологи должны стремиться к&nbsp;снижению стоимости привлечения клиента.</p>
-
-
-<p><span class="bold">Василий Хлобыстов:</span> <strong>Маркетинг обязателен. Если не&nbsp;в&nbsp;виде отдельного человека, то&nbsp;хотя&nbsp;бы в&nbsp;виде функции.</strong> Если руководитель достаточно компетентен, он&nbsp;может взять функцию маркетинга на&nbsp;себя. Но&nbsp;исключать ее&nbsp;никак нельзя.</p>
-
-<p>Маркетинг нужен, чтобы иметь понимание что, для кого, за&nbsp;сколько и&nbsp;сколько мы&nbsp;можем сделать и&nbsp;продать, чтобы увидеть, чего не&nbsp;хватает нам и&nbsp;где не&nbsp;хватает нас. Чтобы покупатели и&nbsp;потребители нас увидели и&nbsp;услышали, поняли и&nbsp;выбрали. Чтобы добавить картине еще одно важное измерение и&nbsp;сделать взгляд на&nbsp;рынок, клиента и&nbsp;ситуацию объемным.</p>
-
-
-
-<div class="post__note">
-<p>Некая Kimberly Whitler сравнила доход двух типов компаний: у&nbsp;одних в&nbsp;совете директоров есть хотя&nbsp;бы один маркетолог, у&nbsp;других&nbsp;— нет. Разница в&nbsp;динамике роста дохода&nbsp;— 5.78 процентных пункта в&nbsp;пользу маркетологов ;-) Любопытным&nbsp;— <a class="link" href="https://www.ama.org/marketing-news/marketer-representation-at-the-board-level-can-drive-growth-so-why%e2%80%89are-they-underrepresented/">описание исследования</a> (англ.). <br /> <span class="small">updated, 2019</span></p>
-
-</div>
-</section>
-
-<section class="row-gap--m max-width-text">
-<h2 class="block__space--top-h2 h1 bold">Что снижает эффективность маркетинга</h2>
-
-<p><span class="bold">Сергей Дробышевский:</span> Из-за отсутствия четких границ ответственности отделы делят успехи, часто забирая их&nbsp;друг у&nbsp;друга, или перекладывают вину за&nbsp;низкие результаты. В&nbsp;ситуации такой по&nbsp;сути вражды невозможно эффективно решать главную задачу&nbsp;— работать с&nbsp;клиентом в&nbsp;долгосрочной и&nbsp;краткосрочной перспективе. Возможно, это объясняется тем, что в&nbsp;бизнес-культуре постсоветских компаний маркетинг&nbsp;— пока еще что-то «приделанное» к&nbsp;привычному укладу жизни компании.</p>
-
-<p><span class="bold">Василий Хлобыстов:</span> Маркетинг приносит результат, который «продажи» должны ждать, подхватывать и&nbsp;использовать. И&nbsp;для этого маркетингу с&nbsp;продажами надо хорошо знать и&nbsp;понимать друг друга. Между ними вполне может быть определенный системный конфликт&nbsp;— например, на&nbsp;этапе согласования годовых планов. Но&nbsp;точно также между ними должно быть выстроено рабочее взаимодействие, направленное на&nbsp;взаимную системную полезность.</p>
-<p>Директор предприятия также может снижать эффективность маркетинга. Две типичные ситуации:</p>
-<ul class="additive-spacing">
-<li class="list-li">Руководитель ограничивает КПД отдела маркетинга ситуационными задачами типа заказа подарков и&nbsp;печати визиток с&nbsp;каталогами.</li>
-<li class="list-li">Директор изначально скептически настроен по&nbsp;отношению к&nbsp;маркетингу и&nbsp;пропускает мимо ушей сказанное маркетологом. Классический пример&nbsp;— один маркетолог на&nbsp;предприятии, часто вчерашний студент, которого всерьез не&nbsp;воспринимают.</li>
-</ul>
-</section>
-<br />
-<div class="mt-m post__note h2 additive-spacing max-width-text"><p>Маркетинг обязателен. </p> <p>Чтобы маркетинг приносил пользу, требуется согласованная работа отделов маркетинга и&nbsp;продаж, а&nbsp;также доверие руководителя компании к&nbsp;маркетологам.</p></div>
-</div>]]></content><author><name></name></author><category term="мнение" /><category term="управление" /><category term="интервью" /><summary type="html"><![CDATA[Зачем маркетинг белорусскому бизнесу и&nbsp;почему он&nbsp;иногда не&nbsp;приносит пользу предприятиям&nbsp;— рассуждают эксперты по&nbsp;продажам.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/tizers/tizer-8.jpg" /><media:content medium="image" url="http://localhost:4000/assets/images/tizers/tizer-8.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Интернет-проекты: советы по разработке и развитию | Дмитрий Бартошевич</title><link href="http://localhost:4000/blog/sovety-po-razrabotke-i-razvitiyu-internet-proektov/" rel="alternate" type="text/html" title="Интернет-проекты: советы по разработке и развитию | Дмитрий Бартошевич" /><published>2015-09-24T00:00:00+03:00</published><updated>2022-02-04T00:00:00+03:00</updated><id>http://localhost:4000/blog/sovety-po-razrabotke-i-razvitiyu-internet-proektov</id><content type="html" xml:base="http://localhost:4000/blog/sovety-po-razrabotke-i-razvitiyu-internet-proektov/"><![CDATA[<div class="intro">
-    <h1 class=" bold max-width-text">Студия Борового: как развивать интернет-проекты</h1> 
-    <small class="small"><time itemprop="datePublished" datetime="2015-09-24"> 24 сентября 2015</time> 
-      <time itemprop="dateModified" datetime="2022-02-04">(обновил  4 февраля 2022)</time>
-    </small>
-</div>
-
-<p>Участвовал в&nbsp;семинаре по&nbsp;интернет-маркетингу «Стань эффективнее», который организовала Студия Борового и&nbsp;агентство «Скрытый маркетинг». Расскажу о&nbsp;ключевых идеях, которые услышал на&nbsp;мероприятии, и&nbsp;советах спикеров по&nbsp;разработке и&nbsp;развитию интернет-проектов.</p>
-
-<div class="max-width-text" itemprop="image" itemscope="" itemtype="http://schema.org/ImageObject">
-<link itemprop="url" href="/assets/images/blog/sovety-po-razrabotke/sb1.jpg" />
-<picture>
-                <source srcset="/assets/images/blog/sovety-po-razrabotke/sb1.avif" type="image/avif" />
-                 <source srcset="/assets/images/blog/sovety-po-razrabotke/sb1.webp" type="image/webp" />               
-               <img class="image" src="/assets/images/blog/sovety-po-razrabotke/sb1.jpg" alt="приглашение на семинар Студии Борового" width="695" height="462" itemprop="contentUrl" />
-    </picture>
-</div>
-
-<section class="row-gap--m max-width-text">
-<h2 class="block__space--top-h2 h1 bold">Алгоритм разработки сайта</h2>
-
-<p>Директор Студии Виталий Денисенков призвал повышать потребление b2b услуг до&nbsp;профессионального уровня. По&nbsp;его словам, предприятие выиграет, если корпоративный сайт создаст проверенное агентство. Если и&nbsp;нанимать сотрудника, то&nbsp;не&nbsp;веб-разработчика, а&nbsp;специалиста, который грамотно поставит подрядчику задачу и&nbsp;проконтролирует работу.</p>
-
-<p>Начало разработки сайта&nbsp;— анализ рабочих процессов компании и&nbsp;роли интернет-ресурса в&nbsp;этих процессах, сбор семантики (поисковых запросов) и&nbsp;анализ конкурентов. Далее составляется структура сайта, требования к&nbsp;содержанию и&nbsp;предложения по&nbsp;функционалу.</p>
-
-<p>По&nbsp;мнению сотрудников Студии, значимость креатива в&nbsp;веб-разработке завышена. Людям нравятся привычные решения. Если пользователи привыкли видеть кнопку «купить» в&nbsp;определенной части экрана, то&nbsp;разумно ее&nbsp;там и&nbsp;оставить. Стремитесь не&nbsp;к&nbsp;«творческой изюминке», а&nbsp;к&nbsp;понятному, удобному и&nbsp;технологически правильному сайту.</p>
-
-<p>Приходите к&nbsp;разработчику не&nbsp;с&nbsp;запросом &laquo;сделайте мне красивый сайт&raquo;, а&nbsp;с&nbsp;четким видением задач сайта, SEO-требований, требований к&nbsp;программной части.</p>
-
-
-
-<p><span class="bold">update:</span> Рекомендую прочесть <a class="link" href="/opyt/delovoy/">историю Павла Супрунюка</a>, как создавался интернет-магазин Delovoy.by. Он&nbsp;вывел <strong>4&nbsp;принципа, следуя которым вы&nbsp;сможете создать успешный интернет-проект</strong>.  </p>
-
-</section>
-
-<section class="row-gap--m max-width-text">
-<h2 class="block__space--top-h2 h1 bold">Учет конверсии в&nbsp;интернет-маркетинге</h2>
-<p>Александр Огородников рассказал о&nbsp;коллтрекинге (call tracking). Эта технология связывает звонок покупателя с&nbsp;рекламным источником. С ней вы&nbsp;можете определить эффективность каждого канала и&nbsp;сообщения. Если ваша бизнес-модель предусматривает общение с&nbsp;клиентами по&nbsp;телефону, Александр призвал направлять маркетинговый бюджет в&nbsp;каналы с&nbsp;наибольшей отдачей.</p>
-
-<div class="figure" itemprop="image" itemscope="" itemtype="http://schema.org/ImageObject">
-<link itemprop="url" href="/assets/images/blog/sovety-po-razrabotke/sb2.jpg" />
-<div class="figcaption">
-Так Александр показал, как коллтрекинг определяет малоэффективные каналы рекламы:
-</div>
-<picture>
-                <source srcset="/assets/images/blog/sovety-po-razrabotke/sb2.avif" type="image/avif" />
-                 <source srcset="/assets/images/blog/sovety-po-razrabotke/sb2.webp" type="image/webp" />               
-               <img class="image" loading="lazy" decoding="async" src="/assets/images/blog/sovety-po-razrabotke/sb2.jpg" alt="таблица со стоимостью и количеством звонков в рекламных каналах" width="695" height="334" itemprop="contentUrl" />
-    </picture>
-</div>
-
-
-<p>Если&nbsp;бы рассказывал&nbsp;я, то&nbsp;добавил&nbsp;бы <strong>несколько замечаний, которые помогут более осознанно использовать коллтрекинг</strong>:</p>
-<ul class="addictive-spacing">
-<li class="list-li">Разные сегменты &laquo;воронки продаж&raquo; требуют своих каналов коммуникации. Отфильтровывая только результативные каналы, мы&nbsp;концентрируемся на&nbsp;нижних участках воронки и&nbsp;не&nbsp;вовлекаем новых людей. </li>
-<li class="list-li">На&nbsp;эффективность промоакций влияет известность бренда, которая&nbsp;&mdash; в&nbsp;свою очередь&nbsp;&mdash; требует массовой коммуникации с&nbsp;меньшими показателями конверсии.  </li>
-<li class="list-li">Допустим вы&nbsp;разместили баннер и&nbsp;с&nbsp;помощью коллтрекинга оценивали его эффективность. Спустя время сменили баннер и&nbsp;заменили телефонный номер, отказавшись от&nbsp;прежнего. Теоретически может возникнуть ситуация, когда потенциальный покупатель сохранил у&nbsp;себя прежний номер и&nbsp;уже не&nbsp;сможет по&nbsp;нему к&nbsp;вам дозвониться. </li>
-
-</ul>
-</section>
-
-<section class="row-gap--m">
-<h2 class="block__space--top-h2 h1 bold">Использование социальных сетей</h2>
-<p>Представители компании «Скрытый маркетинг» делились примерами использования социальных сетей белорусским бизнесом. Между слов слышался призыв использовать сети везде. Даже если вы&nbsp;торгуете лопатами, «Скрытый маркетинг» призывал зарегистрироваться в&nbsp;instagram и&nbsp;фотографировать ситуации использования продукции, например, как <a class="link" href="https://blisch.by/">Денис Блищ</a> копает в&nbsp;огороде. Подобные материалы&nbsp;&mdash; уверено агентство&nbsp;&mdash; &laquo;завирусятся&raquo;.</p>
-
-
-<p>Я&nbsp;не&nbsp;разделяю восторга по&nbsp;поводу социальных сетей. Присутствие в&nbsp;сетях ради присутствия не&nbsp;имеет смысла. А&nbsp;<a class="link" href="/mnenie/razvitie-brenda/">стремление к&nbsp;вирусности&nbsp;&mdash; убивает бренд</a>. Впрочем, соц. сети&nbsp;&mdash; тема для отдельной статьи.
-</p>
-</section>
-
-<section class="row-gap--m">
-<h2 class="block__space--top-h2 h1 bold">Общее впечатление</h2>
-<p>По&nbsp;построению выступлений и&nbsp;глубине освещения тем сделал вывод, что семинар ориентировался на&nbsp;руководителей и&nbsp;директоров, которые не&nbsp;занимаются интернет-маркетингом профессионально. И&nbsp;эта категория участников после семинара&nbsp;— как минимум&nbsp;— станет лучше понимать маркетологов и&nbsp;внешних подрядчиков.</p>
-<p>Немного дегтя. Спикеры семинара иногда показывали цифры, но&nbsp;не&nbsp;говорили, откуда они. А&nbsp;порой указывали «по&nbsp;данным исследований» без сноски, кто исследовал. Выглядело <a class="link" href="/mnenie/otlichie-marketologa-ot-brexuna/"><span class="noperenos">как брехня</span></a>. К&nbsp;тому&nbsp;же не&nbsp;указывать используемые источники информации&nbsp;— плохой тон.</p>
-<p>В&nbsp;качестве заключения отмечу, что в&nbsp;сфере продвижения интернет-проектов истины нет, есть сплит-тестирование. Каждую идею воспринимайте как гипотезу, проверяйте и&nbsp;используете&nbsp;то, что дает наибольшую отдачу.</p>
-</section>]]></content><author><name></name></author><category term="мнение" /><category term="интернет-маркетинг" /><category term="семинары" /><summary type="html"><![CDATA[Ключевые идеи, советы спикеров и&nbsp;общее впечатление от&nbsp;семинара по&nbsp;интернет-маркетингу «Стань эффективнее» Студии Борового и&nbsp;«Скрытого маркетинга».]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/tizers/tizer-7.jpg" /><media:content medium="image" url="http://localhost:4000/assets/images/tizers/tizer-7.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
+</section>]]></content><author><name></name></author><category term="инструкции" /><category term="инструменты" /><summary type="html"><![CDATA[Эффективность маркетинга оценивается не&nbsp;только с&nbsp;помощью финансовых показателей. Рассказываю...]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/tizers/tizer-10.jpg" /><media:content medium="image" url="http://localhost:4000/assets/images/tizers/tizer-10.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
