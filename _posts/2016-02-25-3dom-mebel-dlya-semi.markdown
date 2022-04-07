@@ -17,17 +17,12 @@ image: /assets/images/tizers/tizer-16.jpg
 
 <p>Производители корпусной мебели один за&nbsp;одним повторяют, что мебель их&nbsp;качественная, функциональная и&nbsp;современная. Говорят о&nbsp;стильности, практичности, модульности и&nbsp;широком модельном ряде. Предлагают бесплатную доставку и&nbsp;сборку. Через полчаса серфинга по&nbsp;сайтам все компании сливаются в&nbsp;один невыразительный образ. В&nbsp;статье поделюсь, что я&nbsp;предложил компании&nbsp;— белорусскому производителю домашней мебели&nbsp;— для исправления ситуации.</p>
 
-<section class="full-bleed row-gap--m ">
-<h2 class="block__space--top-h2 h1 bold max-width-text">Как создавалась концепция развития торговой марки 3Dom</h2>
-<p>Работать над <b>брендом</b> 3Dom я&nbsp;начал с&nbsp;анализа конкурентного окружения компании и&nbsp;предпочтений покупателей мебели, бесед с&nbsp;технологами и&nbsp;консультантами салонов.</p>
-
-
 <div itemprop="image" itemscope itemtype="http://schema.org/ImageObject">
 	<link itemprop="url" href="/assets/images/blog3dom-mebel-dlya-semi/3Dom@2,8x.jpg" />	
 <picture> 
 <source srcset="/assets/images/blog/3dom-mebel-dlya-semi/3Dom@1x.avif 1x, /assets/images/blog/3dom-mebel-dlya-semi/3Dom@2x.avif 2x, /assets/images/blog/3dom-mebel-dlya-semi/3Dom@2,8x.avif 2.8x" type="image/avif"> 
 <source srcset="/assets/images/blog/3dom-mebel-dlya-semi/3Dom@1x.webp 1x, /assets/images/blog/3dom-mebel-dlya-semi/3Dom@2x.webp 2x, /assets/images/blog/3dom-mebel-dlya-semi/3Dom@2,8x.webp 2.8x" type="image/webp"> 
-<img class="image" loading="lazy" decoding="async"  src="/assets/images/blog/3dom-mebel-dlya-semi/3Dom@2,8x.jpg" srcset="/assets/images/blog/3dom-mebel-dlya-semi/3Dom@1x.jpg 1x, /assets/images/blog/3dom-mebel-dlya-semi/3Dom@2x.jpg 2x, /assets/images/blog/3dom-mebel-dlya-semi/3Dom@2,8x.jpg 2.8x" alt="3Dom" width="250" height="83" itemprop="contentUrl"> 
+<img class="image"  src="/assets/images/blog/3dom-mebel-dlya-semi/3Dom@2,8x.jpg" srcset="/assets/images/blog/3dom-mebel-dlya-semi/3Dom@1x.jpg 1x, /assets/images/blog/3dom-mebel-dlya-semi/3Dom@2x.jpg 2x, /assets/images/blog/3dom-mebel-dlya-semi/3Dom@2,8x.jpg 2.8x" alt="3Dom" width="250" height="83" itemprop="contentUrl"> 
 </picture>
 
 <div class="figcaption" itemprop="description">
@@ -36,12 +31,15 @@ image: /assets/images/tizers/tizer-16.jpg
 </div>
 
 
+<section class="row-gap--m ">
+<h2 class="block__space--top-h2 h1 bold max-width-text">Как создавалась концепция развития торговой марки 3Dom</h2>
+<p><strong>Работать над брендом</strong> 3Dom я&nbsp;<strong>начал с&nbsp;анализа конкурентного окружения компании</strong> и&nbsp;предпочтений покупателей мебели, бесед с&nbsp;технологами и&nbsp;консультантами салонов. Несколько вещей из&nbsp;того, что бросилось в&nbsp;глаза.</p>
 
 
-<p>Несколько вещей из&nbsp;того, что бросилось в&nbsp;глаза. Производители мебели, которых исследовал, описывали себя шаблонно, через технические характеристики товара. Не&nbsp;было вербализованных конкурентных преимуществ и&nbsp;единой коммуникационной политики.</p>
-<p>Предполагаю, <strong>у&nbsp;компаний нет четкого фокуса в&nbsp;маркетинговой активности&nbsp;и, как следствие, затраты на&nbsp;продвижение могут быть завышены</strong>. Кроме того, без внятного позиционирования у&nbsp;покупателя нет побудительных причин для выбора торговой марки, что для предприятия означает риск снижения продаж.</p>
 
-<div class="full-bleed figure" itemprop="image" itemscope itemtype="http://schema.org/ImageObject">
+<p>Производители мебели, которых исследовал, описывали себя шаблонно, через технические характеристики товара. Не&nbsp;было вербализованных конкурентных преимуществ и&nbsp;единой коммуникационной политики.</p>
+
+<div class="figure" itemprop="image" itemscope itemtype="http://schema.org/ImageObject">
 	<link itemprop="url" href="/assets/images/blog/3dom-mebel-dlya-semi/antiformula_brenda.jpg" />	
     <picture>
             <source srcset="/assets/images/blog/3dom-mebel-dlya-semi/antiformula_brenda.avif"  type="image/avif">
@@ -54,17 +52,33 @@ image: /assets/images/tizers/tizer-16.jpg
 </div>
 
 
-<p>Рассказывая о&nbsp;мебели, сотрудники 3Dom соскальзывали на&nbsp;семейную тему. У&nbsp;стеллажей 3Dom конструкции устойчивые, «чтобы дети случайно не&nbsp;опрокинули». На&nbsp;фабрике используют австрийские плиты с&nbsp;высоким классом безопасности (экологический стандарт&nbsp;Е1) и&nbsp;закрывают все торцы кромкой ПВХ. Закрывать кромкой невидимые торцы мебели для гостиных и&nbsp;спален не&nbsp;требуется по&nbsp;законодательству, не&nbsp;каждый покупатель обратит на&nbsp;их&nbsp;отсутствие внимание, и&nbsp;это легкий способ снижения затрат в&nbsp;кризис. Однако, 3Dom не&nbsp;идет на&nbsp;такую экономию, ведь «в&nbsp;квартире могут быть дети и&nbsp;им&nbsp;дышать ДСП незачем». Собирает мебель сервисная служба 3Dom сразу&nbsp;же после доставки. «Чтобы женщины десять раз не&nbsp;просили мужей разобрать коробки&nbsp;и, наконец-то, собрать мебель». </p>
-<p>Опрос покупателей четко указал, что мебель 3Dom выбирают семьи. Сотрудники 3Dom, описывая мебель, упоминали семьи клиентов. Руководству предприятия семейные ценности тоже близки. Но&nbsp;в&nbsp;коммуникациях торговой марки семейная тема не&nbsp;звучала.</p>
+<p><strong>Когда у&nbsp;компаний нет четкого фокуса в&nbsp;маркетинговой активности, затраты на&nbsp;продвижение, как правило, завышены</strong>. Кроме того, без внятного позиционирования у&nbsp;покупателя нет побудительных причин для выбора торговой марки, что для предприятия означает риск снижения продаж.</p>
+
+
+<p class="mb-m">Сотрудники 3Dom, рассказывая о&nbsp;мебели, часто соскальзывали на&nbsp;семейную тему:</p>
+
+<ul class="">
+ <li class="list-li"> 
+ <p>У&nbsp;стеллажей 3Dom конструкции устойчивые, «чтобы дети случайно не&nbsp;опрокинули».</p>
+ </li>
+ <li class="list-li"> 
+ <p>На&nbsp;фабрике используют австрийские плиты с&nbsp;высоким классом безопасности (экологический стандарт&nbsp;Е1) и&nbsp;закрывают все торцы кромкой ПВХ. Закрывать кромкой невидимые торцы мебели для гостиных и&nbsp;спален не&nbsp;требуется по&nbsp;законодательству, не&nbsp;каждый покупатель обратит на&nbsp;их&nbsp;отсутствие внимание, и&nbsp;это легкий способ снижения затрат в&nbsp;кризис. Однако, 3Dom не&nbsp;идет на&nbsp;такую экономию, ведь «в&nbsp;квартире могут быть дети и&nbsp;им&nbsp;дышать ДСП незачем».</p>
+ </li>
+<li class="list-li"> 
+  <p>Собирает мебель сервисная служба 3Dom сразу&nbsp;же после доставки. «Чтобы женщины десять раз не&nbsp;просили мужей разобрать коробки&nbsp;и, наконец-то, собрать мебель». </p></li>
+</ul>
+
+  
+<p>Опрос покупателей четко указал, что мебель 3Dom выбирают люди семейные. Сотрудники 3Dom, описывая мебель, упоминали семьи клиентов. Руководству предприятия семейные ценности тоже близки. Но&nbsp;в&nbsp;коммуникациях торговой марки семейная тема не&nbsp;звучала.</p>
 <p>Я&nbsp;предложил не&nbsp;прятать семейную направленность компании, а&nbsp;гордо о&nbsp;ней заявить. 3Dom&nbsp;— мебель для семьи. Вместо того, чтобы толкаться в&nbsp;коридоре схожих технических описаний, предприятие преподносит себя через тех, для кого работает.</p>
 <p>Вместе с&nbsp;отделом маркетинга мы&nbsp;разработали семейную дисконтную программу, ряд рекламных кампаний. Скидки 3Dom предоставляет только тем, кто состоит в&nbsp;официальном браке. А&nbsp;размер скидки напрямую зависит от&nbsp;стажа семейной жизни.</p>
 </section>
 
-<section class="full-bleed row-gap--m ">
+<section class="row-gap--m ">
 <h2 class="block__space--top-h2 h1 bold ">Семейные праздники 3Dom</h2>
 <p>Доброй традицией 3Dom стали семейные праздники, на&nbsp;которые компания приглашает клиентов и&nbsp;посетителей салона. Детей ждали пушистые кролики, веселые клоуны, вкусные угощения, родителей&nbsp;— розыгрыши призов. Гости салона и&nbsp;сотрудники 3Dom заряжались позитивными эмоциями. Мне признавались, что появлялся дополнительный стимул в&nbsp;работе.</p>
 <p>Радость и&nbsp;веселье&nbsp;— это хорошо. Но&nbsp;мне&nbsp;— <b>консультанту по&nbsp;маркетингу</b>&nbsp;— этого было мало. После праздника дети с&nbsp;восторгом рассказывали об&nbsp;огромных мыльных пузырях, о&nbsp;победах в&nbsp;конкурсах, а&nbsp;мне хотелось, чтобы они рассказывали о&nbsp;мебели, волшебной мебели 3Dom. В&nbsp;моем представлении стеллажи, кровати и&nbsp;тумбы должны были стать частью содержания представлений.</p>
-<p>Задумку реализовал вместе с&nbsp;бэби-театром «Бусы». Поделюсь некоторыми эпизодами новогодней программы.</p>
+<p>Задумку реализовал вместе <a class="link" href="https://www.instagram.com/baby_theatre_busy/">с&nbsp;бэби-театром «Бусы»</a>. Поделюсь некоторыми эпизодами новогодней программы.</p>
 
 
 
@@ -81,7 +95,7 @@ image: /assets/images/tizers/tizer-16.jpg
 <p>Семейные ценности сближают компании. В&nbsp;празднике участвовал и&nbsp;<a class="link" href="http://kovrova.by/" >Семейный центр Катерины Ковровой</a> с&nbsp;благотворительной акцией «Коробка смелости». Желающие приобретали гипсовую игрушку для раскраски и&nbsp;помогали детям, находящимся на&nbsp;лечении во&nbsp;<span class="noperenos">2-ой</span> городской детской клинической больнице г.&nbsp;Минска.</p>
 
 
-<div class="full-bleed figure" itemprop="image" itemscope itemtype="http://schema.org/ImageObject">
+<div class=" figure" itemprop="image" itemscope itemtype="http://schema.org/ImageObject">
 	<link itemprop="url" href="/assets/images/blog/3dom-mebel-dlya-semi/kovrova.jpg" />	
     <picture>
             <source srcset="/assets/images/blog/3dom-mebel-dlya-semi/kovrova.avif"  type="image/avif">
@@ -99,10 +113,10 @@ image: /assets/images/tizers/tizer-16.jpg
 <picture>
               <source srcset="/assets/images/blog/3dom-mebel-dlya-semi/kovrova__thanks.avif"  type="image/avif">
              <source srcset="/assets/images/blog/3dom-mebel-dlya-semi/kovrova__thanks.webp"  type="image/webp"> 
-              <img class="image" loading="lazy" decoding="async" src="/assets/images/blog/3dom-mebel-dlya-semi/kovrova__thanks.jpg" alt="благодарность от центра Ковровой" title="благодарность от центра Катерины Ковровой" width="626" height="692" itemprop="contentUrl"/>
+              <img class="image is-4by5" loading="lazy" decoding="async" src="/assets/images/blog/3dom-mebel-dlya-semi/kovrova__thanks.jpg" alt="Центр Ковровой благодарит меня за поддержку благотворительной акции для детей." width="1500" height="2000" itemprop="contentUrl"/>
     </picture>
 
 </div>
 </section>
 
-<p>Я&nbsp;описал крупными мазками опыт работы с&nbsp;торговой маркой 3Dom. Постепенно появятся новые статьи о&nbsp;развитии концепции «мебель для семьи», примеры решения задач других предприятий. Подписывайтесь, чтобы ничего не&nbsp;пропустить.</p>
+<p class="mt-m">Я&nbsp;описал крупными мазками опыт работы с&nbsp;торговой маркой 3Dom. Постепенно появятся новые статьи о&nbsp;развитии концепции «мебель для семьи», примеры решения задач других предприятий. Подписывайтесь, чтобы ничего не&nbsp;пропустить.</p>
