@@ -25,7 +25,7 @@ image: /assets/images/tizers/tizer-11.jpg
 </div>
 
 <section class="full-bleed row-gap--m max-width-text" >
-<h2 class="block__space--top-h2 h1 bold ">Что упускают маркетологи</h2>
+<h2 class="section__title h1 bold ">Что упускают маркетологи</h2>
 <ul class="additive-spacing">
 	<li class="list-li">Скидки переключают внимание с&nbsp;ценности предложения на&nbsp;цену. То, что товар подешевел на&nbsp;10%, еще не&nbsp;повод его купить. Донесите до&nbsp;сознания клиента пользу, а&nbsp;потом уже говорите о&nbsp;деньгах.</li>
 
@@ -40,14 +40,14 @@ image: /assets/images/tizers/tizer-11.jpg
 
 
 <section class="full-bleed row-gap--m max-width-text" >
-<h2 class="block__space--top-h2 h1 bold ">Как предлагать скидки правильно </h2>
+<h2 class="section__title h1 bold ">Как предлагать скидки правильно </h2>
 
 <p>Сущность маркетинга — в&nbsp;создании и&nbsp;подкреплении отличий. И&nbsp;если уж&nbsp;и&nbsp;предлагать скидки, то&nbsp;только на&nbsp;условиях, отражающих значимые отличия компании.</p>
 
 <p>Поясню на&nbsp;примере <a class="link" href="/blog/3dom-mebel-dlya-semi/">компании 3Dom</a>&nbsp;— производителя мебели для семьи. Многие «мебельщики» предлагают скидки. Отличие 3Dom в&nbsp;том, что скидки получают только&nbsp;те, кто состоит в&nbsp;официальном браке. Предлагая участие в&nbsp;дисконтной программе, компания невольно подчеркивает ценности бренда.</p>
 <p>В&nbsp;каждой ситуации соприкосновения клиента с&nbsp;компанией показывайте клиенту отличия компании и&nbsp;ее&nbsp;предложения. Если целевая аудитория&nbsp;— киноманы, принимайте оплату части стоимости товара использованными билетами в&nbsp;кино. Напрашивается мысль о&nbsp;сотрудничестве с&nbsp;кинотеатрами. Впрочем, это уже другая история...</p>
 
-<p class="mb-m mt-m"> Дополнительные материалы</p>
+<p class="mb-m mt-m"> Дополнительные материалы:</p>
 <ul class="addictive-spacing">
 <li class="list-li">
   <a class="link" href="/blog/2-idei-po-razvitiyu-marketinga/#distinction">Почему важны отличия</a>

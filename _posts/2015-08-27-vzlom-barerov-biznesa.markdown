@@ -14,11 +14,12 @@ image: /assets/images/tizers/tizer-4.jpg
 
 {% include post__header.html %}
 
+
 <p>Двадцатого августа мы&nbsp;с&nbsp;Дмитрием Григорьевым, Сергеем Дробышевским и&nbsp;Павлом Вилюхой провели Практикум «Взлом барьеров развития бизнеса».</p>
 <p>Обсуждали с&nbsp;позиций продаж, маркетинга и&nbsp;рекламы, <strong>что тормозит рост белорусских предприятий и&nbsp;как придать бизнесу ускорение</strong>.</p>
 
 <section class="row-gap--m">
-<h2 class="block__space--top-h2 h1 bold">Как проводили практикум</h2>
+<h2 class="section__title h1 bold">Как проводили практикум</h2>
 
 <p>Несколько фото</p>
 
@@ -61,7 +62,7 @@ image: /assets/images/tizers/tizer-4.jpg
 
 
 <section class="row-gap--m">
-<h2 class="block__space--top-h2 h1 bold">Отзывы</h2>
+<h2 class="section__title h1 bold">Отзывы</h2>
 <p class="mb-0">Выдержки из&nbsp;отзывов участников мероприятия:</p>
 <div class="extract additive-spacing">
  «интересно и&nbsp;самое главное&nbsp;— понятно»<br/>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-04-08T00:39:27+03:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Your awesome title</title><subtitle>Write an awesome description for your new site here. </subtitle><entry><title type="html">Почасовая оплата должна умереть | Дмитрий Бартошевич</title><link href="http://localhost:4000/blog/value-based-price/" rel="alternate" type="text/html" title="Почасовая оплата должна умереть | Дмитрий Бартошевич" /><published>2021-01-23T00:00:00+03:00</published><updated>2022-02-05T00:00:00+03:00</updated><id>http://localhost:4000/blog/value-based-price</id><content type="html" xml:base="http://localhost:4000/blog/value-based-price/"><![CDATA[<div class="intro__post">
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-04-08T23:22:09+03:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Your awesome title</title><subtitle>Write an awesome description for your new site here. </subtitle><entry><title type="html">Почасовая оплата должна умереть | Дмитрий Бартошевич</title><link href="http://localhost:4000/blog/value-based-price/" rel="alternate" type="text/html" title="Почасовая оплата должна умереть | Дмитрий Бартошевич" /><published>2021-01-23T00:00:00+03:00</published><updated>2022-02-05T00:00:00+03:00</updated><id>http://localhost:4000/blog/value-based-price</id><content type="html" xml:base="http://localhost:4000/blog/value-based-price/"><![CDATA[<div class="intro__post">
     <h1 class=" bold max-width-text">Почасовая оплата должна умереть</h1> 
     <small class="small"><time itemprop="datePublished" datetime="2021-01-23"> 23 января 2021</time> 
     </small>
@@ -49,11 +49,11 @@
 </nav>
 
 <section class="row-gap--m" id="1">
-<h2 class="block__space--top-h2 mb-m h1 bold">Что не&nbsp;так с&nbsp;оплатой за&nbsp;час? </h2>
+<h2 class="section__title h1 bold">Что не&nbsp;так с&nbsp;оплатой за&nbsp;час? </h2>
 
 
 <section class="row-gap--m" id="1.1">
-<h3 class="mt-m mb-m h2 bold">Пережиток индустриальной эпохи</h3>
+<h3 class="mb-m h2 bold">Пережиток индустриальной эпохи</h3>
 
 <p>Почасовую оплату «родила» индустриализация. Процесс производства был расчленен на&nbsp;отдельные, короткие операции. Каждая операция измерена и&nbsp;нормирована. Из&nbsp;затраченного времени можно было вывести сколько деталей выточил токарь или сколько машин вышло с&nbsp;конвейера. </p>
 
@@ -78,7 +78,7 @@
 </section>
 
 <section class="row-gap--m" id="2">
-<h2 class="block__space--top-h2 mb-m h1 bold">Альтернатива почасовой оплате </h2>
+<h2 class="section__title h1 bold">Альтернатива почасовой оплате </h2>
 <p>Время легко измерить. Но&nbsp;из&nbsp;этого не&nbsp;следует, что мы&nbsp;должны использовать его как мерило работы. Покупая автомобиль, нас не&nbsp;интересует, сколько часов было потрачено на&nbsp;его производство. В&nbsp;ресторане мы&nbsp;не&nbsp;выбираем блюда по&nbsp;тому, сколько человеко-часов ушло на&nbsp;их&nbsp;приготовление. Нас интересует конечный результат. «Никому не&nbsp;интересно, сколько вы&nbsp;тужились. Важно, кого в&nbsp;итоге родили». </p>
 
 
@@ -97,7 +97,7 @@
 </section>
 
 <section class="row-gap--m" id="3">
-<h2 class="block__space--top-h2 mb-m h1 bold">Как назначать цены на&nbsp;основе ценности </h2>
+<h2 class="section__title h1 bold">Как назначать цены на&nbsp;основе ценности </h2>
 
 <p>Формирование цены начинается со&nbsp;встречи с&nbsp;клиентом. Если не&nbsp;разговаривать, не&nbsp;выяснять ожидания, опасения, значимость задач, подход не&nbsp;сработает. У&nbsp;вас просто не&nbsp;будет информации, от&nbsp;которой отталкиваться. </p>
 
@@ -211,7 +211,7 @@ https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1648760933/s
 </nav>
 
 <section class="full-bleed row-gap--m" id="1">
-<h2 class="block__space--top-h2 h1 bold">Покупатель рациональный&nbsp;— миф </h2>
+<h2 class="section__title h1 bold">Покупатель рациональный&nbsp;— миф </h2>
 <p>Исследования показывают, что большинство решений о&nbsp;покупке принимаются непосредственно в&nbsp;торговом зале. При этом ассортимент покупатель не&nbsp;изучает. Он&nbsp;не&nbsp;оценивает детально характеристики товаров, чтобы сделать взвешенный и&nbsp;рациональный выбор. Человек опирается на&nbsp;имеющейся опыт. Выбирает привычный набор категорий из&nbsp;существующего диапазона, а&nbsp;в&nbsp;категории ограничивается знакомым набором объектов. Альтернативы не&nbsp;рассматриваются. </p>
 
 <p class="mb-m">Почему так? Это результат влияния совокупности факторов: </p>
@@ -252,7 +252,7 @@ https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1648760933/s
 </section>
 
 <section class="row-gap--m" id="2">
-<h2 class="block__space--top-h2 h1 bold">Задача маркетолога в&nbsp;рознице</h2>
+<h2 class="section__title h1 bold">Задача маркетолога в&nbsp;рознице</h2>
 
 <p>Посетитель магазина не&nbsp;видит всего, на&nbsp;что смотрит. Принимает простые, автоматические, неосознаваемые решения. В&nbsp;этих условиях у&nbsp;маркетолога одна основная задача: «Как обратить внимание на&nbsp;товар?». Ведь если продукт не&nbsp;попадет в&nbsp;поле восприятия посетителя, все остальное (цена, характеристики и&nbsp;пр.) не&nbsp;имеет значение. </p>
 
@@ -389,7 +389,7 @@ https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1648760933/s
  </section>
 
 <section class="row-gap--m" id="3">
-	<h2 class="h1 bold block__space--top-h2 mb-m">Ритейл-маркетинг и&nbsp;брендинг </h2>
+	<h2 class="h1 bold section__title">Ритейл-маркетинг и&nbsp;брендинг </h2>
 
 
 	<p>Если выбор покупок определяют внешние случайные раздражители, может забыть о&nbsp;развитии бренда и&nbsp;весь маркетинговый бюджет направить на&nbsp;<b>торговый маркетинг</b>? </p>
@@ -437,7 +437,7 @@ https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1648760933/s
 </nav>
 
 <section class="full-bleed  row-gap--m" id="1">
-<h2 class="block__space--top-h2 h1 bold">Анализирую задачу </h2>
+<h2 class="section__title h1 bold">Анализирую задачу </h2>
 
 <p>Работу начал стандартно: встретился с&nbsp;руководством белорусского офиса и&nbsp;задавал много вопросов. Обсуждали ценности <b>бренда</b>, товарную линейку, конкурентов, работу с&nbsp;целевой аудиторией и&nbsp;многое другое. Результат&nbsp;— я&nbsp;и&nbsp;клиент были уверены, что одинаково понимаем задачу и&nbsp;ее&nbsp;контекст. </p>
 <p>У&nbsp;Hörmann широкий ассортимент продукции: промышленные, гаражные и&nbsp;скоростные ворота, электроприводы, перегрузочная техника, входные и&nbsp;межкомнатные двери, объектные двери, системы контроля въезда и&nbsp;др. Ключевым направлением для разработки концепции выбрали один из&nbsp;наиболее значимых продуктов концерна&nbsp;— гаражные ворота.</p>
@@ -459,7 +459,7 @@ https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1648644468/s
 </section>
 
 <section class="row-gap--m" id="2">
-<h2 class="block__space--top-h2 h1 bold">Изучаю конкурентов </h2>
+<h2 class="section__title h1 bold">Изучаю конкурентов </h2>
 <p>Основные конкуренты Hörmann в&nbsp;Беларуси: Алютех, Дорхан и&nbsp;Ритерна. Я&nbsp;изучил сайты компаний, посты в&nbsp;социальных сетях, рекламные брошюры. Для каждого конкурента вывел центральную идею, которую тот пытается донести до&nbsp;покупателей.</p>
 <p>Отметил, что компании описывают себя через одинаковые атрибуты. Каждое предприятие доказывает, что именно их&nbsp;продукция безопасна, надежна, уникальна и&nbsp;пр. </p>
 
@@ -487,7 +487,7 @@ https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1648646401/s
 </section>
 
 <section class="row-gap--m" id="3">
-<h2 class="block__space--top-h2 h1 bold">Изучаю целевую аудиторию</h2>
+<h2 class="section__title h1 bold">Изучаю целевую аудиторию</h2>
 <p class="mb-m">Целевую аудиторию изучал в&nbsp;двух направлениях:</p>
 <ul class="additive-spacing max-width-text">
 	<li class="list-li">
@@ -535,7 +535,7 @@ https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1648646401/s
 </section>
 
 <section class="row-gap--m" id="4">
-<h2 class="block__space--top-h2 h1 bold">Составляю структуру бренда </h2>
+<h2 class="section__title h1 bold">Составляю структуру бренда </h2>
 
 <p>Сопоставив информацию о&nbsp;конкурентах и&nbsp;целевой аудитории, я&nbsp;предложил <b>структуру бренда</b> Hörmann. </p>
 
@@ -601,7 +601,7 @@ https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1648646401/s
 </section>
 
 <section class="full-bleed row-gap--m" id="5">
-<h2 class="block__space--top-h2 h1 bold">Внедряем концепцию бренда</h2>
+<h2 class="section__title h1 bold">Внедряем концепцию бренда</h2>
 <p>Бренд&nbsp;— это не&nbsp;то, что в&nbsp;рабочих папках маркетолога, а&nbsp;то, что в&nbsp;головах людей. Поэтому вместе с&nbsp;белорусским офисом Hörmann мы&nbsp;принялись доносить концепцию до&nbsp;целевой аудитории. Несколько примеров коммуникации. </p>
 
 <section class="mt-m row-gap--m">
@@ -767,7 +767,7 @@ https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1648646401/s
 <section class="full-bleed mt-m row-gap--m">
 		<h3 class="h2 bold mb-m">Наружная реклама </h3>
 		<p>Посылы привели в&nbsp;соответствие с&nbsp;концепцией бренда. </p>
-		
+
 		<div class="full-bleed figure" itemprop="image" itemscope="" itemtype="http://schema.org/ImageObject">	
 		<link itemprop="url" href="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1648646401/site/konkurentnyj_analiz.jpg" />			
 		<img class="image is-2by1 border" loading="lazy" decoding="async" sizes="100vw" srcset="https://res.cloudinary.com/bartoshevich/image/upload/w_640/f_auto,q_auto/v1648633654/site/bilbord-posle-utverzhdeniya-koncepcii-brenda.jpg 640w,
@@ -797,7 +797,7 @@ https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1648646401/s
 </div>
 
 <section class="row-gap--m">
-<h2 class="block__space--top-h2 h1 bold ">Реклама&nbsp;— ловушка, отвлекающая от&nbsp;маркетинга </h2>
+<h2 class="section__title h1 bold ">Реклама&nbsp;— ловушка, отвлекающая от&nbsp;маркетинга </h2>
 <p>Долгое время рекламу и&nbsp;маркетинг отождествляли. Все, что нужно было маркетологу,&nbsp;— заказать и&nbsp;оплатить рекламу. И&nbsp;такой подход работал. Сейчас реклама стала более дешевой и&nbsp;измеряемой. Почему&nbsp;бы тогда не&nbsp;продолжать в&nbsp;том&nbsp;же духе? Потому что никогда ранее рекламу не&nbsp;игнорировали так, как сегодня. Можно показать баннер сотне тысяч человек и&nbsp;не&nbsp;получить ни&nbsp;одного клика. </p>
 <p>Чтобы достучаться,&nbsp;— нам скажут,&nbsp;— нужно еще больше упоминаний, нужно лучше находить правильных людей и&nbsp;более эффективно красть их&nbsp;внимание. Однако, в&nbsp;долгосрочной перспективе такой подход губителен. </p>
 <p>Не&nbsp;то, чтобы реклама не&nbsp;работала в&nbsp;принципе. Она&nbsp;— решение не&nbsp;для каждой ситуации. И&nbsp;совершенно точно, маркетинг не&nbsp;начинается с&nbsp;рекламы и&nbsp;его нельзя сводить к&nbsp;рекламе. </p>
@@ -809,7 +809,7 @@ https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1648646401/s
 <p>Первый шаг к&nbsp;тому, чтобы вашу компанию заметили,&nbsp;— не&nbsp;рассказать о&nbsp;себе, а&nbsp;посмотреть на&nbsp;мир глазами других. Вас не&nbsp;заметят, пока вы&nbsp;не&nbsp;научитесь смотреть. </p>
 </section>
 <section class="row-gap--m">
-<h2 class="block__space--top-h2 h1 bold ">Концентрация на&nbsp;малом ведет к&nbsp;росту </h2>
+<h2 class="section__title h1 bold ">Концентрация на&nbsp;малом ведет к&nbsp;росту </h2>
 
 <p>Желание охватить как можно больше человек делает вас скучными. Вы&nbsp;должны удовлетворить каждого и&nbsp;никого не&nbsp;обидеть. Вы&nbsp;прибегаете к&nbsp;обобщениям и&nbsp;компромиссам. Вы&nbsp;становитесь усредненными. </p>
 
@@ -826,7 +826,7 @@ https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1648646401/s
 <p>Отказ от&nbsp;работы со&nbsp;всеми&nbsp;— проявление уважения. «Это не&nbsp;для вас. Я&nbsp;не&nbsp;хочу тратить ваше время, пытаться переубедить или дожимать вас. Вот, возьмите телефон моего конкурента». </p>
 </section>
 <section class="row-gap--m">
-<h2 class="block__space--top-h2 h1 bold ">Ваш товар никому не&nbsp;нужен </h2>
+<h2 class="section__title h1 bold ">Ваш товар никому не&nbsp;нужен </h2>
 <p>Люди выбирают не&nbsp;товар, а&nbsp;то, он&nbsp;для них делает. Не&nbsp;товар, а&nbsp;чувства, которые он&nbsp;пробуждает. Не&nbsp;товар, а&nbsp;историю. </p>
 
 <p>Теодор Левит говорил, что люди хотят не&nbsp;дрель, а&nbsp;дырку в&nbsp;стене. Это не&nbsp;совсем так. Дыра тоже не&nbsp;нужна. Людям нужна полка, которую они повесят на&nbsp;стену. Порядок в&nbsp;комнате. Похвала домашних. Чувство удовлетворения от&nbsp;осознания, что справился с&nbsp;задачей самостоятельно. </p>
@@ -847,7 +847,7 @@ https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1648646401/s
 </ul>
 </section>
 <section class="row-gap--m">
-<h2 class="block__space--top-h2 h1 bold ">Сетевой эффект&nbsp;— альтернатива рекламе</h2>
+<h2 class="section__title h1 bold ">Сетевой эффект&nbsp;— альтернатива рекламе</h2>
 <p>Реклама постоянно пытается украсть наше внимание и&nbsp;время, которое не&nbsp;вернуть. От&nbsp;обилия рекламных обещаний накапливается усталость. Рекламу ожидаемо игнорируют и&nbsp;блокируют. </p>
 
 <p>Есть альтернатива: пусть о&nbsp;вас говорят ваши клиенты. Пусть о&nbsp;вашем продукте узнают не&nbsp;от&nbsp;вас, а&nbsp;от&nbsp;друзей. Как это сделать? Создайте нечто такое, о&nbsp;чем люди захотят рассказать. </p>
@@ -872,7 +872,7 @@ https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1648646401/s
 
 </section>
 <section class="row-gap--m">
-<h2 class="block__space--top-h2 h1 bold ">Клиент&nbsp;— это ученик </h2>
+<h2 class="section__title h1 bold ">Клиент&nbsp;— это ученик </h2>
 
 <p>Чтобы лучше понять, с&nbsp;кем и&nbsp;как вам нужно работать, измените одно слово. Вместо «клиент» скажите «ученик». Имеется ввиду не&nbsp;контекст школьной системы тестирования и&nbsp;оценок, а&nbsp;ситуация менторства и&nbsp;заботы. </p>
 
@@ -895,7 +895,7 @@ https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1648646401/s
 </ul>
 </section>
 <section class="row-gap--m">
-<h2 class="block__space--top-h2 h1 bold ">Цена&nbsp;— это история</h2>
+<h2 class="section__title h1 bold ">Цена&nbsp;— это история</h2>
 <p>Стоимость&nbsp;— не&nbsp;просто способ получить деньги. Это сигнал, знак для других. Это история о&nbsp;вас, уровне обслуживания, о&nbsp;тех, кто пользуется вашим товаром или услугами. Низкая цена&nbsp;— последнее прибежище маркетолога, который не&nbsp;может придумать стоящую историю. </p>
 
 <p>Представьте человека, который всегда пьет самое дешевое вино. Насколько он&nbsp;отличается от&nbsp;того, кто пьет вино дорогое? В&nbsp;вопросах нет ни&nbsp;слова о&nbsp;характеристиках вина, но&nbsp;портреты потребителей отличаются. Вы&nbsp;сделали вывод только на&nbsp;основании стоимости. </p>
@@ -903,677 +903,643 @@ https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1648646401/s
 </section>
 
 <section class="row-gap--m">
-<h2 class="block__space--top-h2 h1 bold ">Маркетинг в&nbsp;5&nbsp;шагов </h2>
+<h2 class="section__title h1 bold ">Маркетинг в&nbsp;5&nbsp;шагов </h2>
 <p><span class="italic">шаг 1.</span> Придумайте&nbsp;то, что достойно воплощения. Достойно того, чтобы об&nbsp;этом рассказать. Достойно, чтобы об&nbsp;этом говорили. </p>
 <p><span class="italic">шаг 2.</span> Реализуйте задуманное с&nbsp;максимальной выгодой для конкретной небольшой группы клиентов. </p>
 <p><span class="italic">шаг 3.</span> Расскажите историю, которая коррелирует со&nbsp;взглядами и&nbsp;мечтами выбранной группы. </p>
 <p><span class="italic">шаг 4.</span> Содействуйте распространению молвы о&nbsp;вас. </p>
 <p><span class="italic">шаг 5.</span> Держитесь выбранного пути. Стройте доверие. Заслужите разрешение обращаться и&nbsp;желание вас слушать.  </p>
-</section>]]></content><author><name></name></author><category term="мнение" /><category term="управление" /><category term="маркетолог" /><summary type="html"><![CDATA[Маркетологи не&nbsp;используют клиентов в&nbsp;целях предприятия. Они используют маркетинг, чтобы помочь людям достичь собственных целей. Сет Годин «This Is&nbsp;Marketing».]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/tizers/tizer-56.jpg" /><media:content medium="image" url="http://localhost:4000/assets/images/tizers/tizer-56.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Сайт агроусадьбы: как привлечь иностранного клиента | Дмитрий Бартошевич</title><link href="http://localhost:4000/blog/sajt-agrousadby/" rel="alternate" type="text/html" title="Сайт агроусадьбы: как привлечь иностранного клиента | Дмитрий Бартошевич" /><published>2016-07-20T00:00:00+03:00</published><updated>2022-02-04T00:00:00+03:00</updated><id>http://localhost:4000/blog/sajt-agrousadby</id><content type="html" xml:base="http://localhost:4000/blog/sajt-agrousadby/"><![CDATA[<div class="intro__post">
-    <h1 class=" bold max-width-text">Сайт агроусадьбы: как привлечь иностранного клиента</h1> 
-    <small class="small"><time itemprop="datePublished" datetime="2016-07-20"> 20 июля 2016</time> 
-    </small>
-</div>
-
-<p>Портал «Про бизнес» выпустил статью, где на&nbsp;примере сайтов агроусадеб я&nbsp;<a class="link" href="//probusiness.io/tech/2323-eti-elementarnye-oshibki-na-saytakh-meshayut-kompaniyam-privlekat-klientov-inostrancev-primer-agrousadeb.html">рассказываю об&nbsp;ошибках, которые мешают привлечь иностранных туристов</a>. Публикую версию для блога.</p>
-<p>***</p>
-<p><strong>Сосредоточусь на&nbsp;задачах, которые должен решать сайт</strong>. Вопросы поисковой оптимизации, концепции и&nbsp;дизайна, технической работы сайтов оставлю за&nbsp;скобками. Примерами послужат случайно выбранные сайты хозяйств.</p>
-
-<nav class="toc">
- <h2 class="toc__title">Содержание</h2>
- <ul class="additive-spacing">
-   <li>   
-      <span class="tocnumber">1 </span> 
-      <a class="link" href="#requirements"> Требования к&nbsp;сайту 
-    </a>
-  </li>
-
-  <li>   
-      <span class="tocnumber">2 </span> 
-      <a class="link" href="#language-version"> Языковая версия сайта
-    </a>
-  </li>
-  <li>    
-      <span class="tocnumber">3 </span>
-      <a class="link" href="#content"> Информационное наполнение сайта
-    </a>
-  </li>
-      <li>
-      
-        <span class="tocnumber">4 </span>  
-        <a class="link" href="#interaction">Взаимодействие с&nbsp;посетителем сайта
-        </a>
-      </li>
-      <li>
-       
-        <span class="tocnumber">5 </span>
-         <a class="link" href="#developing-relationships">Развитие отношений с&nbsp;клиентами
-        </a>
-      </li>
-    </ul>
-</nav>
-
-<section class="row-gap--m" id="requirements">
-<h2 class="block__space--top-h2 h1 bold ">Требования к&nbsp;сайту </h2>
-
-<p>Исхожу из&nbsp;того, что сайт агроусадьбы предназначен для человека, который самостоятельно выбирает, где и&nbsp;как отдохнуть. Если раньше туристы шли в&nbsp;агентства, то&nbsp;сейчас способ потребления туристических услуг изменился. Человек сам найдет в&nbsp;интернете детали поездки, сравнит стоимость гостиничных номеров и&nbsp;забронирует билет на&nbsp;самолет. Потребность в&nbsp;посредниках в&nbsp;отрасли снижается с&nbsp;каждым днем. На&nbsp;Западе эта тенденция ярко выражена. Поэтому владельцам белорусских усадьб следует делать ставку на&nbsp;самостоятельных иностранцев и&nbsp;помочь им&nbsp;взвешенно выбрать место отдыха.</p>
-<p class="mb-m">Сайт агроусадьбы должен:</p>
-<ul>
-	<li class="list-li">быть на&nbsp;понятном для пользователе языке;</li>
-	<li class="list-li">давать необходимую информацию;</li>
-	<li class="list-li">предоставить возможность задавать вопросы. забронировать дни отдыха и&nbsp;оплатить пребывание;</li>
-	<li class="list-li">стимулировать повторные визиты.</li>
- </ul>
-<p>Давайте посмотрим, как эти требования реализованы <b>белорусскими предпринимателями</b> и&nbsp;что можно улучшить.</p>
-</section>
-
-<section class="row-gap--m" id="language-version">
-<h2 class="block__space--top-h2 h1 bold ">Языковая версия сайта</h2>
-<p>Вы&nbsp;не&nbsp;привлечете иностранца сайтом на&nbsp;русском языке. Но&nbsp;таких сайтов большинство. Это работает с&nbsp;белорусами и&nbsp;россиянами, но&nbsp;если задача привлечь немца или шведа, подход следует менять.</p>
-<p>Усадьба «Кали ласка» применяет автоматический переводчик Гугл. Я&nbsp;бы не&nbsp;рекомендовал использовать такое решение. Машинный перевод чувствуется, а&nbsp;часть контента остается на&nbsp;русском.</p>
-
-<div itemprop="image" itemscope="" itemtype="http://schema.org/ImageObject">	
-		<link itemprop="url" href="/assets/images/blog/sajt-agrousadby/agro1.jpg" />
-<picture>
-        <source srcset="/assets/images/blog/sajt-agrousadby/agro1.avif" type="image/avif" />
-        <source srcset="/assets/images/blog/sajt-agrousadby/agro1.webp" type="image/webp" />
-         <img class="image" loading="lazy" decoding="async" src="/assets/images/blog/sajt-agrousadby/agro1.jpg" alt="Частичный перевод сайта «кали ласка»" width="695" height="539" itemprop="contentUrl" />
-</picture>
-  <div class="figcaption" itemprop="description">
-    скриншот сайта усадьбы «Кали ласка» (включен перевод на&nbsp;английский язык)
-  </div>
-</div>
-
-
-<p>Частая ошибка&nbsp;— на&nbsp;иностранных версиях сайтов переведен не&nbsp;весь материал. В&nbsp;этом случае теряется смысл иностранной версии. Подобную ошибку встречал на&nbsp;сайтах частных хозяйств и&nbsp;общественных организаций, которые пропагандируют агротуризм в&nbsp;Беларуси.</p>
-
-<div itemprop="image" itemscope="" itemtype="http://schema.org/ImageObject">	
-		<link itemprop="url" href="/assets/images/blog/sajt-agrousadby/agro2.jpg" />
-    <picture>
-        <source srcset="/assets/images/blog/sajt-agrousadby/agro2.avif" type="image/avif" />
-        <source srcset="/assets/images/blog/sajt-agrousadby/agro2.webp" type="image/webp" />
-        <img class="image" loading="lazy" decoding="async" src="/assets/images/blog/sajt-agrousadby/agro2.jpg" alt="Отсутствует перевод с русского языка." width="695" height="415" itemprop="contentUrl" />
-</picture>
-  <div class="figcaption" itemprop="description">
-    скриншот английской версии сайта усадьбы «Помяна»
-  </div>
-</div>
-
-<div itemprop="image" itemscope="" itemtype="http://schema.org/ImageObject">	
-		<link itemprop="url" href="/assets/images/blog/sajt-agrousadby/agro3.jpg" />
-
-    <picture>
-         <source srcset="/assets/images/blog/sajt-agrousadby/agro3.avif" type="image/avif" />
-        <source srcset="/assets/images/blog/sajt-agrousadby/agro3.webp" type="image/webp" />
-        <img class="image" loading="lazy" decoding="async" src="/assets/images/blog/sajt-agrousadby/agro3.jpg" alt="На сайте Ruralbelarus.by новости только на русском языке" width="695" height="508" itemprop="contentUrl" />
-    </picture>
-  <div class="figcaption" itemprop="description">
-    скриншот английской версии сайта ruralbelarus.by
-  </div>
-</div>
-
-
- <p>Если вы&nbsp;думаете, что одной версии сайта на&nbsp;английском языке достаточно, то&nbsp;заблуждаетесь. Даже в&nbsp;англоговорящих странах английский язык различается. Это касается диалектов и&nbsp;идиом, правил употребления артиклей, предлогов, написания окончаний. В&nbsp;каждой стране есть свои культурные отличия, отражающиеся в&nbsp;языке. Одна и&nbsp;та&nbsp;же фраза на&nbsp;английском в&nbsp;разных странах может быть эмоционально воспринята по-разному.</p>
-<p>Сказанное справедливо и&nbsp;для других языков. Французский во&nbsp;Франции отличается от&nbsp;французского в&nbsp;Квебеке и&nbsp;от&nbsp;французского в&nbsp;Камеруне. Испанский в&nbsp;Европе&nbsp;— от&nbsp;испанского в&nbsp;Латинской Америке.</p>
-<p>Хотите доверия&nbsp;— соответствуйте синтаксическим, орфографическим нормам и&nbsp;тону, принятому в&nbsp;стране клиента.</p>
-<p>Люди отличаются не&nbsp;только речью, но&nbsp;и&nbsp;поведением в&nbsp;интернете. Поэтому на&nbsp;разных версиях сайта целесообразно расставлять различные акценты. Если французам важны изображения, то&nbsp;шведы обращают внимание прежде всего на&nbsp;отзывы и&nbsp;рекомендации, а&nbsp;немцы&nbsp;— на&nbsp;политику конфиденциальности и&nbsp;условия оплаты. По&nbsp;крайней мере так говорят результаты исследований, с&nbsp;которыми я&nbsp;сталкивался.</p>
-
-<div class="post__note additive-spacing"><p>Решите, туристов какой страны вы&nbsp;хотите привлечь, и&nbsp;готовьте наполнение сайта на&nbsp;их&nbsp;родном языке.</p> <p>Не&nbsp;предлагайте посетителям сайта выбирать язык, пусть они выберут свою страну. </p></div>
-</section>
-
-<section class="row-gap--m" id="content">
-<h2 class="block__space--top-h2 h1 bold ">Информационное наполнение сайта</h2>
-<p>Владельцы усадьб часто ограничиваются указанием количества комнат, кроватей, наличия телевизора, интернета и&nbsp;бани. Представьте, что вы&nbsp;выбираете деревенский дом в&nbsp;аренду для недельного отдыха где-нибудь в&nbsp;Южной Америке. Достаточно&nbsp;ли вам подобной информации для выбора? Думаю, нет.</p>
-<p>На&nbsp;сайте должны быть:</p>
-<ul>
-	<li class="list-li">сведения о&nbsp;регионе,</li>
-	<li class="list-li">контакты посольства (консульства) страны клиента,</li>
-	<li class="list-li">схема проезда и&nbsp;информация о&nbsp;трансфере,</li>
-	<li class="list-li">детальная информация о&nbsp;проживании, питании, услугах и&nbsp;стоимости,</li>
-	<li class="list-li">описание доступных развлечений вне усадьбы, советы иностранному туристу, отзывы, прогноз погоды и&nbsp;календарь предстоящих событий.</li>
- </ul>
-<p>Можно выделить сегменты посетителей (студенты, бизнесмены, молодые родители, др.) и&nbsp;сделать отдельные информационные блоки для них.</p>
-<p>На&nbsp;сайте обязательно разместите качественные изображения, а&nbsp;лучше&nbsp;— видео.</p>
-</section>
-
-<section class="row-gap--m" id="interaction">
-<h2 class="block__space--top-h2 h1 bold ">Взаимодействие с&nbsp;посетителем сайта</h2>
-<p>Эпоха сайтов-визиток прошла. Уровень взаимодействия посетителей с&nbsp;коммерческими сайтами растет каждый день. Задача не&nbsp;только дать информацию, но&nbsp;и&nbsp;наладить общение с&nbsp;клиентом.</p>
-<p>Как минимум сайт должен содержать контактную информацию (адрес, телефон, электронная почта), форму обратной связи, ссылки на&nbsp;социальные медиа и&nbsp;блок ответов на&nbsp;часто встречающиеся вопросы.</p>
-<p>Важно упрощать и&nbsp;устранять лишние этапы в&nbsp;общении. Клиенту не&nbsp;потребуется звонить или писать запрос, если он&nbsp;забронирует усадьбу через сайт. В&nbsp;режиме реального времени увидит свободные для посещения дни и&nbsp;спланирует отдых, получит на&nbsp;электронную почту письмо с&nbsp;подтверждением брони, распечатает и&nbsp;приложит к&nbsp;другим документам для получения визы.</p>
-<p>Подобный функционал использует усадьба «Вераги». Однако, английская версия сайта содержит русский текст и&nbsp;возникают сомнения, пользуются&nbsp;ли онлайн-бронированием иностранцы.</p>
-
-<div itemprop="image" itemscope="" itemtype="http://schema.org/ImageObject">	
-		<link itemprop="url" href="/assets/images/blog/sajt-agrousadby/agro4.jpg" />
-    <picture>
-     <source srcset="/assets/images/blog/sajt-agrousadby/agro4.avif" type="image/avif" />
-        <source srcset="/assets/images/blog/sajt-agrousadby/agro4.webp" type="image/webp" />
-<img class="image" loading="lazy" decoding="async" src="/assets/images/blog/sajt-agrousadby/agro4.jpg" alt="Часть формф бронирования усадьбы на русском, часть - на английском." width="695" height="447" itemprop="contentUrl" />
-</picture>
-  <div class="figcaption" itemprop="description">
-    скриншот английской версии сайта усадьбы «Вераги»
-  </div>
-</div>
-</section>
-
-<section class="row-gap--m" id="developing-relationships">
-<h2 class="block__space--top-h2 h1 bold ">Развитие отношений с&nbsp;клиентами</h2>
-<p>На&nbsp;конкурентном рынке задача бизнеса не&nbsp;совершить разовую сделку, а&nbsp;создать постоянного клиента. С&nbsp;этой целью на&nbsp;сайте сообщают о&nbsp;скидках, программе лояльности, партнерских программах. К&nbsp;сожалению, для большинства усадьб пока это только теория. Я&nbsp;не&nbsp;увидел, как белорусские агроусадьбы стимулируют повторные визиты иностранных туристов.</p>
-</section>]]></content><author><name></name></author><category term="мнение" /><category term="интернет-маркетинг" /><category term="бизнес" /><summary type="html"><![CDATA[Рассказываю об&nbsp;ошибках на&nbsp;сайтах агроусадеб, которые мешают привлечь иностранных туристов в&nbsp;Беларусь.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/tizers/tizer-25.jpg" /><media:content medium="image" url="http://localhost:4000/assets/images/tizers/tizer-25.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Возможности Битрикс | Дмитрий Бартошевич</title><link href="http://localhost:4000/blog/1s-bitriks/" rel="alternate" type="text/html" title="Возможности Битрикс | Дмитрий Бартошевич" /><published>2016-06-27T00:00:00+03:00</published><updated>2022-02-04T00:00:00+03:00</updated><id>http://localhost:4000/blog/bitriks</id><content type="html" xml:base="http://localhost:4000/blog/1s-bitriks/"><![CDATA[<div class="intro__post">
-    <h1 class=" bold max-width-text">1С-Битрикс: какие возможности платформы вы упускаете</h1> 
-    <small class="small"><time itemprop="datePublished" datetime="2016-06-27"> 27 июня 2016</time> 
-    </small>
-</div>
-<p>23&nbsp;июня прошел региональный семинар «1С-Битрикс» в&nbsp;Минске. Как сэкономить время и&nbsp;деньги и&nbsp;избежать ошибок при создании и&nbsp;продвижении интернет-магазина, организаторы обещали показать на&nbsp;примерах. Я&nbsp;посетил семинар и&nbsp;расскажу, насколько он&nbsp;полезен для руководителей бизнеса и&nbsp;<b>маркетологов</b>.</p>
-<p class="mb-m">Условно семинар разделю на&nbsp;три части:</p>
-<ul class="additive-spacing">
-	<li class="list-li"><a class="link" href="#1">Презентация продуктов «1С-Битрикс».</a> О&nbsp;возможностях «1С-Битрикс» через функции интернет-магазина и&nbsp;CRM-решения говорили сотрудники B3x.by.</li>
-	<li class="list-li"><a class="link" href="#2">SEO интернет-магазина с&nbsp;помощью «1С-Битрикс».</a> Сотрудники Seoconsult.by поделились секретами автоматизации SEO в&nbsp;«Битриксе».</li>
-	<li class="list-li"><a class="link" href="#3">Юридическое сопровождение работы интернет-магазина.</a> На&nbsp;вопросы участников семинара ответила Ольга Мещерякова&nbsp;— юрист агентства «Белзакон».</li>
- </ul>
-
-<section class="row-gap--m" id="1">
-<h2 class="block__space--top-h2 h1 bold ">Презентация продуктов «1С-Битрикс»</h2>
-<p>Егор Урбан и&nbsp;Феликс Ермоленко рассказывали о&nbsp;функциях интернет-магазина и&nbsp;CRM-решениях. Говорили, как интернет-магазин должен выглядеть и&nbsp;работать, и&nbsp;как в&nbsp;этом поможет «1С-Битрикс».</p>
-
-<div itemprop="image" itemscope="" itemtype="http://schema.org/ImageObject">	
-		<link itemprop="url" href="/assets/images/blog/1s-bitriks/bitrix1.jpg" />
-<picture>
-               <source srcset="/assets/images/blog/1s-bitriks/bitrix1.avif" type="image/avif" />
-			    <source srcset="/assets/images/blog/1s-bitriks/bitrix1.webp" type="image/webp" />
-                <img class="image" loading="lazy" decoding="async" src="/assets/images/blog/1s-bitriks/bitrix1.jpg" alt="Егор Урбан" width="695" height="666" itemprop="contentUrl" />
-    </picture>
-	<div class="figcaption" itemprop="description">
-		Егор Урбан рассказывает, что должно быть в&nbsp;карточке товара
-	</div>
-</div>
-
-
-
-
-
-<p>Если вы&nbsp;тщательно изучили рекламные материалы «Битрикса», ничего принципиально нового спикеры&nbsp;бы вам не&nbsp;сообщили. Но&nbsp;как выяснилось в&nbsp;ходе семинара, не&nbsp;каждый владелец интернет-магазина, работающего на&nbsp;1С-Битрикс, знает все возможности используемой платформы.</p>
-<p>Невольно вспоминаю рассказ о&nbsp;человеке, который на&nbsp;последние деньги купил билет на&nbsp;круиз и&nbsp;во&nbsp;время долгого плавания отказывался от&nbsp;еды, опасаясь счетов на&nbsp;оплату. И&nbsp;только в&nbsp;конце путешествия он&nbsp;узнал, что еда и&nbsp;напитки входили в&nbsp;стоимость билета.</p>
-<p><span class="bold">Если вы&nbsp;купили лицензию Битрикс</span> и&nbsp;не&nbsp;хотите походить на&nbsp;персонажа рассказа, узнайте, за&nbsp;какие возможности вы&nbsp;уже заплатили. Откройте панель администратора сайта, зайдите в&nbsp;настройки продукта и&nbsp;выберите раздел «модули». Вы&nbsp;увидите, чем уже пользуетесь и&nbsp;что можете использовать, но&nbsp;пока не&nbsp;установили. Обсудите с&nbsp;разработчиком сайта назначение и&nbsp;целесообразность подключения каждого модуля.</p>
-
-<div itemprop="image" itemscope="" itemtype="http://schema.org/ImageObject">	
-		<link itemprop="url" href="/assets/images/blog/1s-bitriks/bitrix2.jpg" />
-<picture>
-               <source srcset="/assets/images/blog/1s-bitriks/bitrix2.avif" type="image/avif" />
-			    <source srcset="/assets/images/blog/1s-bitriks/bitrix2.webp" type="image/webp" />
-                <img class="image" loading="lazy" decoding="async" src="/assets/images/blog/1s-bitriks//bitrix2.jpg" alt="модули Битрикс" width="695" height="334" itemprop="contentUrl" />
-    </picture>
-</div>
-
-
-
-<p>Если вы&nbsp;ищите сервис для email-маркетинга, знайте, что можете рассылать письма через сайт. Сомневаетесь, на&nbsp;каком дизайне главной страницы сайта остановиться,&nbsp;— установите модуль А/Б -тестирования. Хотите повысить повторные продажи&nbsp;— настройте триггерные рассылки.</p>
-<p>С&nbsp;помощью «Битрикса» интернет-магазин, 1С&nbsp;и&nbsp;CRM могут работать как одно целое. Часто эффективность рекламных каналов измеряют по&nbsp;количеству звонков или визитов. Схематично выглядит так: «канал&nbsp;Х дал нам 10&nbsp;визитов, а&nbsp;канал Y&nbsp;— всего 3. Вывод&nbsp;— канал&nbsp;Х эффективнее». Вывод преждевременный.&nbsp;10&nbsp;визитов могло принести 5&nbsp;покупок по&nbsp;$5, а&nbsp;3&nbsp;визита&nbsp;— 2&nbsp;покупки по&nbsp;$40. Настройте интеграцию интернет-магазина и&nbsp;1С, ведите CRM и&nbsp;оценивайте эффективность маркетинговых кампаний правильно.</p>
-<p><span class="italic">Лайфхак от&nbsp;спикеров: </span>Разработчики сайтов на&nbsp;«Битрикс» для управления задачами часто используют Битрикс24. Попросите назначить вас наблюдателем. Вас добавят в&nbsp;систему так, чтобы вы&nbsp;могли следить за&nbsp;сроками каждого этапа разработки и&nbsp;контролировать исполнение. Так вы&nbsp;снизите риски неприятных сюрпризов и&nbsp;<a class="link" href="/blog/autsorsing-marketinga/">повысите управляемость проекта</a>.</p>
-</section>
-
-<section class="row-gap--m" id="2">
-<h2 class="block__space--top-h2 h1 bold ">SEO интернет-магазина с&nbsp;помощью <span class="noperenos"> «1С-Битрикс»</span></h2>
-<p>Задачи по&nbsp;SEO Илья Черняковский разделил на&nbsp;две категории: то, что делается один раз, и&nbsp;то, над чем следует работать постоянно. Первая категория&nbsp;— фундамент. Если проигнорируете&nbsp;— снизите эффективность дальнейшей работы по&nbsp;поисковой оптимизации.</p>
-<p class="mb-m">Что входит в&nbsp;фундамент SEO интернет-магазина:</p>
-<ul>
-	<li class="list-li">корректно пропишите title и&nbsp;discription;</li>
-	<li class="list-li">убедитесь, что картинки идут с&nbsp;атрибутом alt;</li>
-	<li class="list-li">настройте страницу 404&nbsp;ошибки;</li>
-	<li class="list-li">проверьте сервисом Гугл, удобно&nbsp;ли работать с&nbsp;сайтом на&nbsp;мобильных устройствах, и&nbsp;устраните ошибки;</li>
-	<li class="list-li">создайте карту сайта xml;</li>
-	<li class="list-li">добавьте яндекс-файл yml.</li>
- </ul>
- 
-
-<div itemprop="image" itemscope="" itemtype="http://schema.org/ImageObject">	
-		<link itemprop="url" href="/assets/images/blog/1s-bitriks/bitrix3.jpg" />
-<picture>
-               <source srcset="/assets/images/blog/1s-bitriks/bitrix3.avif" type="image/avif" />
-			    <source srcset="/assets/images/blog/1s-bitriks/bitrix3.webp" type="image/webp" />
-                <img class="image" loading="lazy" decoding="async" src="/assets/images/blog/1s-bitriks/bitrix3.jpg" alt="Илья показывает как яндекс yml-файл улучшает сниппет в поисковой выдаче" width="695" height="553" itemprop="contentUrl" />
-    </picture>
-<div class="figcaption" itemprop="description">
-	Илья Черняковский показывает как яндекс yml-файл улучшает сниппет в&nbsp;поисковой выдаче
-</div>
-</div>
-
-<p>Девять месяцев назад я&nbsp;посетил <a class="link" href="/blog/sovety-po-razrabotke-i-razvitiyu-internet-proektov/">семинар Студии Борового</a> и&nbsp;слышал идентичные рекомендации. Но&nbsp;в&nbsp;отличие от&nbsp;коллег, Илья не&nbsp;ограничился повторением сеошных истин, а&nbsp;продемонстрировал, что и&nbsp;как можно сделать на&nbsp;платформе Битрикс самостоятельно. Если в&nbsp;вашей отрасли конкуренция не&nbsp;высокая, этих шагов может хватить для топовых позиций в&nbsp;поисковой выдаче.</p>
-</section>
-
-<section class="row-gap--m" id="3">
-<h2 class="block__space--top-h2 h1 bold ">Юридическое сопровождение работы интернет-магазина</h2>
-<p>Обычно на&nbsp;подобные семинары организаторы приглашают сеошников, рекламщиков, специалистов по&nbsp;соц.медиа. Юристов обходят стороной и&nbsp;— как оказалось&nbsp;— зря. Этот блок&nbsp;— рекордсмен по&nbsp;количеству заданных вопросов.</p>
-<p>Не&nbsp;каждый в&nbsp;аудитории понимал, что считается интернет-магазином и&nbsp;в&nbsp;каких случаях требуется регистрировать сайт как интернет-магазин.</p>
-<p>Если на&nbsp;сайте нет кнопки «Купить», но&nbsp;при этом клиент может позвонить и&nbsp;попросить доставить товар по&nbsp;удобному адресу,&nbsp;— это интернет-магазин. Чтобы не&nbsp;попасться на&nbsp;контрольной закупке, регистрируйте интернет-магазин или приглашайте звонящих в&nbsp;торговую точку.</p>
-<p>О&nbsp;таких требованиях к&nbsp;интернет-магазину как доменное имя в&nbsp;зоне «бел» или «by», хостинг в&nbsp;РБ, регистрация в&nbsp;торговом реестре знали многие, но&nbsp;то, что следует оформить кассовый аппарат, отдельно подавать сведение о&nbsp;товарообороте&nbsp;— слышали единицы.</p>
-<p>Общий вывод: вышли в&nbsp;интернет&nbsp;— заручитесь поддержкой юриста.</p>
-</section>]]></content><author><name></name></author><category term="опыт" /><category term="интернет-маркетинг" /><category term="семинары" /><summary type="html"><![CDATA[Интернет-магазин: какие возможности Битрикс и&nbsp;CRM-решения использовать обязательно. Главные тезисы регионального семинара 1С-Битрикс]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/tizers/tizer-24.jpg" /><media:content medium="image" url="http://localhost:4000/assets/images/tizers/tizer-24.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Собрал базу подписчиков | Дмитрий Бартошевич</title><link href="http://localhost:4000/blog/sobiraem-bazu-podpischikov/" rel="alternate" type="text/html" title="Собрал базу подписчиков | Дмитрий Бартошевич" /><published>2016-06-17T00:00:00+03:00</published><updated>2016-07-26T00:00:00+03:00</updated><id>http://localhost:4000/blog/sobiraem-bazu-podpischikov</id><content type="html" xml:base="http://localhost:4000/blog/sobiraem-bazu-podpischikov/"><![CDATA[<div class="intro__post">
-    <h1 class=" bold max-width-text">Кейс: собираем с&nbsp;нуля базу подписчиков</h1> 
-    <small class="small"><time itemprop="datePublished" datetime="2016-06-17"> 17 июня 2016</time> 
-      <time itemprop="dateModified" datetime="2016-07-26">(обновил 26 июля 2016)</time>
-    </small>
-</div>
-
-<p>Для компании 3Dom&nbsp;— производителя корпусной мебели&nbsp;— <a class="link" href="/blog/3dom-mebel-dlya-semi/" title="рассказываю, как разрабатывал концепцию бренда 3Dom">я&nbsp;создал концепцию бренда</a>, разработал и&nbsp;координировал проведение рекламный кампаний. Одной из&nbsp;моих инициатив была и&nbsp;<b>email-рассылка</b>. Идея клиенту нравилась, но&nbsp;на&nbsp;тот момент у&nbsp;компании не&nbsp;было базы адресов потенциальных клиентов. В&nbsp;статье расскажу, <strong>как с&nbsp;нуля собирали базу подписчиков</strong>.</p>
-
-<section class="row-gap--m">
-<h2 class="block__space--top-h2 h1 bold ">Замысел</h2>
-<p>Я&nbsp;предложил провести розыгрыш комплекта мебели. Участники оставляют адреса электронной почты. Победитель получает мебель бесплатно, все остальные&nbsp;— специальное предложение на&nbsp;покупку.</p>
-<p>Вначале хотел провести розыгрыш вместе с&nbsp;компанией, которая работает со&nbsp;схожей аудиторией&nbsp;— семейными людьми. В&nbsp;поисках партнера встречался с&nbsp;предприятиями и&nbsp;обсуждал варианты механики розыгрыша.</p>
-<p>Кто-то настойчиво продвигал собственный сервис и&nbsp;хотел, чтобы 3Dom его финансировал, а&nbsp;кто-то не&nbsp;верил в&nbsp;идею розыгрыша и&nbsp;отклонял ее&nbsp;на&nbsp;пороге. </p>
-
-<div>
-<img class="image" loading="lazy" decoding="async" src="https://res.cloudinary.com/bartoshevich/image/upload/bo_1px_solid_grey/w_550/f_auto,q_auto/v1614142662/site/3dom-letter.jpg" width="550" height="276" alt="Rebenok.by отклонил идею розыгрыша и назвал идею провальной." />
-
-<p class="figcaption"> С&nbsp;rebenok.by мы&nbsp;так и&nbsp;не&nbsp;договорились. </p>
-</div>
-
-<p>Желание найти точки соприкосновения и&nbsp;варианты совместной работы встретил со&nbsp;стороны рекламного агентства «Дигеста Диджитал». Вместе разработали концепцию розыгрыша, который устраивал все стороны. Кампанию назвали «Подари семье 3Dom».</p>
-</section>
-
-<section class="row-gap--m">
-<h2 class="block__space--top-h2 h1 bold ">Как реализовывали</h2>
-<p>Зарегистрировали сообщества 3Dom в&nbsp;социальных сетях&nbsp;— фейсбуке, одноклассниках и&nbsp;в&nbsp;вконтаке. Создали промо-страницу акции с&nbsp;формой обратной связи для заявок на&nbsp;участие в&nbsp;розыгрыше.</p>
-<p>31&nbsp;марта объявили о&nbsp;начале акции.</p>
-
-<div itemprop="image" itemscope="" itemtype="http://schema.org/ImageObject">
-		<link itemprop="url" href="/assets/images/blog/sobiraem-bazu-podpischikov/email2.jpg" />	
-<picture>
-	<source srcset="/assets/images/blog/sobiraem-bazu-podpischikov/email2.avif" type="image/avif" /> 
-	<source srcset="/assets/images/blog/sobiraem-bazu-podpischikov/email2.webp" type="image/webp" /> 
-	<source srcset="/assets/images/blog/sobiraem-bazu-podpischikov/email2.png" type="image/png" /> 
-	<img class="image" loading="lazy" decoding="async" src="/assets/images/blog/sobiraem-bazu-podpischikov/email2.jpg" width="550" height="629" alt="объявление акции 3Dom" itemprop="contentUrl" />
-</picture>
-
-
-</div>
-
-<p>Розыгрыш продвигали с&nbsp;помощью рекламы в&nbsp;социальных сетях и&nbsp;постов в&nbsp;сообществах.</p>
-<p>Как акцию восприняла аудитория:</p>
-
-<div itemprop="image" itemscope="" itemtype="http://schema.org/ImageObject">
-<link itemprop="url" href="/assets/images/blog/sobiraem-bazu-podpischikov/email3.jpg" />
-	<picture>
-	<source srcset="/assets/images/blog/sobiraem-bazu-podpischikov/email3.avif" type="image/avif" /> 
-	<source srcset="/assets/images/blog/sobiraem-bazu-podpischikov/email3.webp" type="image/webp" /> 
-	<img class="image" loading="lazy" decoding="async" src="/assets/images/blog/sobiraem-bazu-podpischikov/email3.jpg" width="533" height="411" alt="реакция людей на акцию 3Dom" itemprop="contentUrl" />
-	</picture>
-</div>
-</section>
-
-<section class="row-gap--m">
-<h2 class="block__space--top-h2 h1 bold ">Что получили</h2>
-<p>Акция продолжалась с&nbsp;31&nbsp;марта по&nbsp;2&nbsp;мая 2016&nbsp;года. Собрали 4&nbsp;541 адрес электронной почты. В&nbsp;сообщества 3Dom в&nbsp;социальных сетях вступило 6&nbsp;344&nbsp;человека.</p>
-<p>На&nbsp;сайт 3Dom ЯндексМетрика зарегистрировала 2,5&nbsp;тыс. переходов с&nbsp;промостраницы акции, с&nbsp;социальных сетей&nbsp;— 1,3&nbsp;тыс.</p>
-
-<div>
-	<picture>
-		<source srcset="/assets/images/blog/sobiraem-bazu-podpischikov/email4.avif" type="image/avif" /> 
-		<source srcset="/assets/images/blog/sobiraem-bazu-podpischikov/email4.webp" type="image/webp" /> 
-		<img class="image" loading="lazy" decoding="async" src="/assets/images/blog/sobiraem-bazu-podpischikov/email4.jpg" width="695" height="177" alt="" />
-	</picture>	
-	<div class="figcaption">
-		Данные ЯндексМетрики. Источники трафика, 3dom.by. Апрель, 2016г. 
-	</div>
-</div>
-
-
-<p>У&nbsp;компании появился инструмент получения быстрой обратной связи. Ниже примеры как с&nbsp;помощью участников сообществ выбрать изображения для каталога или главной страницы сайта.</p>
-
-<div itemprop="image" itemscope="" itemtype="http://schema.org/ImageObject">
-<link itemprop="url" href="https://res.cloudinary.com/bartoshevich/image/upload/f_auto/v1540025305/email5.png" />
-<img class="image" loading="lazy" decoding="async" src="https://res.cloudinary.com/bartoshevich/image/upload/q_auto,f_auto/v1540025305/email5.png" width="612" height="658" alt="участники акции голосуют за лучший дизайн" itemprop="contentUrl" />
-</div>
-
-<div itemprop="image" itemscope="" itemtype="http://schema.org/ImageObject">
-<link itemprop="url" href="https://res.cloudinary.com/bartoshevich/image/upload/f_auto/v1540025305/email6.png" />
-<img class="image" loading="lazy" decoding="async" src="https://res.cloudinary.com/bartoshevich/image/upload/w_612/q_auto,f_auto/v1540025256/email6.png" width="612" height="665" alt="пример голосования пользователей в социальных сетях" itemprop="contentUrl" />
-</div>
-</section>
-
-<section class="row-gap--m">
-<h2 class="block__space--top-h2 h1 bold ">Штрихи к&nbsp;описанию акции</h2>
-<p>Поздравления победителя чередовались с&nbsp;высказанными сомнениями в&nbsp;честности организаторов. Это при том, что мы&nbsp;вели прямую трансляцию в&nbsp;интернете, где показывали и&nbsp;комментировали каждый шаг. Для большей открытости разыгрывали мебель в&nbsp;салоне 3Dom, чтобы скептики и&nbsp;любопытные могли приехать и&nbsp;следить за&nbsp;выбором победителя вживую. Запись прямого эфира выложили на&nbsp;сайте... Чем более открыто вы&nbsp;проводите розыгрыш, тем легче затем разговаривать с&nbsp;недовольными участниками <span class="italic">#прочувствовал</span></p>
-<p>Сбор базы подписчиков&nbsp;— первый шаг в&nbsp;работе. Важно вовлекать людей в&nbsp;общение, высылать полезный материал и&nbsp;завоевывать доверие. Первый шаг сделали, а&nbsp;дальше сотрудничества с&nbsp;«Дигеста Диджитал» не&nbsp;получилось. К&nbsp;сожалению, во&nbsp;взаимодействии появились паузы, а&nbsp;потом и&nbsp;вовсе в&nbsp;разгар проекта руководство рекламного агентства перестало реагировать на&nbsp;звонки и&nbsp;письма. Когда я&nbsp;пишу это предложение, заканчивается неделя, как я&nbsp;и&nbsp;собственник 3Dom безуспешно пытаемся выйти с&nbsp;директором «Дигесты Диджитал» на&nbsp;связь. <span class="italic">#неприятно</span></p>
-
-<footer class="row-gap--m">
-<h2 class="block__space--top-h2 mb-m bold ">Дополнение, 26&nbsp;июля 2016</h2>
-<p>Получил письмо от&nbsp;директора «Дигеста Диджитал»&nbsp;— Дмитрия Сасковца. Ему не&nbsp;понравилось упоминание, что агентство перестало выходить с&nbsp;клиентом на&nbsp;связь, «за&nbsp;что, &mdash;&nbsp;цитирую,&nbsp;&mdash; можно ответить по&nbsp;закону, так как данное высказывания наносят вред имиджу агентства».</p>
-<p>К&nbsp;сожалению, он&nbsp;не&nbsp;объяснил, почему в&nbsp;июне игнорировал звонки и&nbsp;письма от&nbsp;3Dom и&nbsp;от&nbsp;меня, почему никто из&nbsp;сотрудников агентства не&nbsp;мог объяснить происходящее и&nbsp;четко обозначить, как работаем и&nbsp;работаем&nbsp;ли. Поскольку «Дигесту Диджитал» в&nbsp;3Dom привел&nbsp;я, мне эта ситуация была неприятна вдвойне... Я&nbsp;быстро обучаем. Проверять, повторится&nbsp;ли подобное в&nbsp;других проектах, нет желания. Несмотря на&nbsp;достойные результаты акции, «Дигеста Диджитал» в&nbsp;моем черном списке агентств.</p>
-</footer>
-</section>]]></content><author><name></name></author><category term="опыт" /><category term="кейсы" /><category term="интернет-маркетинг" /><summary type="html"><![CDATA[Рассказываю, как за&nbsp;месяц c&nbsp;нуля собрали 4,5 тысячи адресов электронной почты потенциальных клиентов.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/tizers/tizer-23.jpg" /><media:content medium="image" url="http://localhost:4000/assets/images/tizers/tizer-23.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Customer journey map: примеры и алгоритм создания | Дмитрий Бартошевич</title><link href="http://localhost:4000/blog/customer-journey-map/" rel="alternate" type="text/html" title="Customer journey map: примеры и алгоритм создания | Дмитрий Бартошевич" /><published>2016-06-06T00:00:00+03:00</published><updated>2022-02-04T00:00:00+03:00</updated><id>http://localhost:4000/blog/customer-journey-map</id><content type="html" xml:base="http://localhost:4000/blog/customer-journey-map/"><![CDATA[<div class="intro__post">
-    <h1 class=" bold max-width-text">Customer journey map: правила и&nbsp;алгоритм создания</h1> 
-    <small class="small"><time itemprop="datePublished" datetime="2016-06-06">  6 июня 2016</time> 
+</section>]]></content><author><name></name></author><category term="мнение" /><category term="управление" /><category term="маркетолог" /><summary type="html"><![CDATA[Маркетологи не&nbsp;используют клиентов в&nbsp;целях предприятия. Они используют маркетинг, чтобы помочь людям достичь собственных целей. Сет Годин «This Is&nbsp;Marketing».]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/tizers/tizer-56.jpg" /><media:content medium="image" url="http://localhost:4000/assets/images/tizers/tizer-56.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Алгоритм проведения рекламной кампании | Дмитрий Бартошевич</title><link href="http://localhost:4000/blog/algoritm-provedeniya-reklamnoj-kampanii/" rel="alternate" type="text/html" title="Алгоритм проведения рекламной кампании | Дмитрий Бартошевич" /><published>2016-12-20T00:00:00+03:00</published><updated>2022-02-04T00:00:00+03:00</updated><id>http://localhost:4000/blog/algoritm-provedeniya-reklamnoj-kampanii</id><content type="html" xml:base="http://localhost:4000/blog/algoritm-provedeniya-reklamnoj-kampanii/"><![CDATA[<div class="intro__post">
+    <h1 class=" bold max-width-text">Рекламная кампания: алгоритм проведения</h1> 
+    <small class="small"><time itemprop="datePublished" datetime="2016-12-20"> 20 декабря 2016</time> 
       <time itemprop="dateModified" datetime="2022-02-04">(обновил  4 февраля 2022)</time>
     </small>
 </div>
 
-<p> По&nbsp;запросу «<b>Customer Journey Map</b>» («<b>CJM</b>», «<b>карта потребительского опыта</b>») поисковики выдают статьи с&nbsp;одними и&nbsp;теми&nbsp;же, скопированными друг у&nbsp;друга общими фразами. Портал «Про бизнес» попросил объяснить на&nbsp;простом примере, <a class="link" href="//probusiness.io/tech/2150-kak-vzglyanut-na-rabotu-kompanii-glazami-klientov-chtoby-povysit-prodazhi-metodika-customer-journey-mapping.html">как составлять карту потребительского опыта правильно</a>. Публикую версию для блога. </p>
+<p><strong>Как правильно разрабатывать рекламную кампанию</strong> обсудил со&nbsp;специалистами международного рекламного холдинга&nbsp;— Дмитрием Буховцом и&nbsp;Дмитрием Григорьевым. Обсуждение резюмировал, свел в&nbsp;систему и&nbsp;получил  <strong>общий алгоритм проведения рекламной кампании</strong>.</p>
+
+<div class="guests">
+<div class="guest-person">
+	<img class="image is-150x150" src="https://res.cloudinary.com/bartoshevich/image/upload/q_auto,f_auto/v1532010600/grigoruev.jpg" alt="Дмитрий Григорьев" width="150" height="150" />	
+		<div class="guest-person__name">Дмитрий Григорьев</div>
+		<div class="guest-person__position">New Business Director</div>
+	
+</div>
+<div class="guest-person">
+		<img class="image is-150x150" src="https://res.cloudinary.com/bartoshevich/image/upload/q_auto,f_auto/v1532010600/bukhovets.jpg" alt="Дмитрий Буховец" width="150" height="150" />	
+			<div class="guest-person__name">Дмитрий Буховец</div>
+			<div class="guest-person__position">Media Group Head</div>
+	
+</div>
+</div>
+
+<p>Если вы&nbsp;хотите вложиться в&nbsp;рекламу с&nbsp;умом&nbsp;— используйте статью как инструкцию.</p>
 
 <nav class="toc">
- <h2 class="toc__title">Содержание</h2>
+ <h2 class="toc__title">Алгоритм</h2>
  <ul class="additive-spacing">
-      <li>       
-          <span class="tocnumber">1 </span><a class="link" href="#1">Зачем customer journey mapping
-        </a>
-      </li>
-      <li>       
-          <span class="tocnumber">2 </span>
-          <a class="link" href="#2">Правила составления CJM, которые помогут избежать ошибок
-        </a>
-      </li>
-      <li>            
-            <span class="tocnumber">3 </span>
-            <a class="link" href="#3">
-            Алгоритм создания карты потребительского опыта
-            </a>
-      </li>
-      <li>            
-            <span class="tocnumber">4 </span>
-            <a class="link" href="#CJM-tools">
-            Инструменты для разработки CJM
-            </a>
-      </li>
+<li>
+	<span class="tocnumber">1</span><a class="link" href="#1">Убедитесь в&nbsp;необходимости рекламной кампании</a>
+</li>
+<li>
+	<span class="tocnumber">2</span><a class="link" href="#2">Проработайте идею рекламной кампании </a>
+</li>
+
+<li class="level2">
+	<span class="tocnumber">а)</span><a class="link" href="#2.1">определите аудиторию</a>
+</li>
+<li class="level2">
+	<span class="tocnumber">б)</span><a class="link" href="#2.2">выберите каналы коммуникации</a>
+</li>
+<li class="level2">
+<span class="tocnumber">в)</span><a class="link" href="#2.3">определите частоту контактов с&nbsp;рекламным сообщением</a>
+</li>
+<li class="level2">
+	<span class="tocnumber">г)</span><a class="link" href="#2.4">составьте рекламное сообщение</a>
+</li>
+<li>
+	<span class="tocnumber">3</span>
+	<a class="link" href="#3">
+	Определите бюджет на&nbsp;размещение рекламы
+	</a>
+</li>
+<li>
+	<span class="tocnumber">4</span>
+	<a class="link" href="#4">
+	Оцените эффективность рекламной кампании
+	</a>
+</li>
+<li>
+	<span class="tocnumber">5&nbsp;</span><a class="link" href="#5">Создайте информационный банк рекламных кампаний</a>
+</li>
 </ul>
 </nav>
 
 <section class="row-gap--m" id="1">
-<h2 class="block__space--top-h2 h1 bold ">Зачем customer journey mapping</h2>
+<h2 class="section__title h1 bold ">Шаг&nbsp;1. Убедитесь в&nbsp;необходимости рекламной кампании</h2>
+<p>Проводить рекламную кампанию следует тогда, когда вы&nbsp;изучили ситуацию на&nbsp;рынке и&nbsp;пришли к&nbsp;выводу, что без рекламы задач бизнеса не&nbsp;решить.</p>
 
-<p>Потребительский опыт&nbsp;— все, что клиент думает и&nbsp;чувствует, когда контактирует с&nbsp;компанией, будь-то видит всплывающую рекламу в&nbsp;интернете или звонит в&nbsp;отдел продаж. Если отобразить все случаи взаимодействия клиента с&nbsp;фирмой и&nbsp;отметить его мысли и&nbsp;эмоции на&nbsp;каждом этапе, мы&nbsp;получим карту потребительского опыта или customer journey map.</p>
+<p>Давайте представим предприятие&nbsp;N., у&nbsp;которого за&nbsp;последние полгода снизился объем продаж в&nbsp;два раза. Нужна&nbsp;ли ему рекламная кампания? Если не&nbsp;выяснить причины падения продаж, любой ответ&nbsp;— гадание. И&nbsp;вот почему.</p>
 
-<div itemprop="image" itemscope="" itemtype="http://schema.org/ImageObject">	
-		<link itemprop="url" href="/assets/images/blog/customer-journey-map/cjm4.jpg" />
-<picture>
-<source srcset="/assets/images/blog/customer-journey-map/cjm4.avif" type="image/avif" /> 
-<source srcset="/assets/images/blog/customer-journey-map//cjm4.webp" type="image/webp" /> 
-<img class="image" src="/assets/images/blog/customer-journey-map/cjm4.jpg" alt="варианты карт потребительского опыта" width="695" height="695" itemprop="contentUrl" />
-</picture>
-<div class="figcaption">
-Карты потребительского опыта могут выглядеть по-разному. Не&nbsp;волнуйтесь, если сейчас ничего не&nbsp;понятно. Скоро вы&nbsp;поймете принцип и&nbsp;сможете &laquo;читать&raquo; и&nbsp;составлять карты
-</div>
-</div>
-
-<p> Представим, что у&nbsp;нас сервисный центр по&nbsp;ремонту компьютеров. Что даст нам CJM? Благодаря карте мы&nbsp;увидим центр глазами клиентов. Поймем, какие каналы необходимо задействовать в&nbsp;коммуникации, что требуется усилить, чего не&nbsp;хватает, а&nbsp;что, наоборот, не&nbsp;влияет на&nbsp;итоговый результат. Мы&nbsp;увидим, как сделать так, чтобы обслуживание в&nbsp;сервисном центре клиентам нравилось, чтобы люди легко обращались к&nbsp;нам за&nbsp;помощью и&nbsp;так&nbsp;же легко рекомендовали друзьям и&nbsp;знакомым.  </p>
-
-<p class="post__note">Цель customer journey mapping&nbsp;— улучшить потребительский опыт </p>
+<p>Реклама&nbsp;— не&nbsp;панацея. Это инструмент, который необходим в&nbsp;одних ситуациях и&nbsp;бесполезен в&nbsp;других. Реклама напрямую влияет на&nbsp;уровень знания продукта и&nbsp;его восприятие. А&nbsp;продажи могут снизиться из-за факторов, на&nbsp;которые реклама не&nbsp;способна повлиять в&nbsp;принципе.</p>
 
 
+<table>
+<caption>Определение целесообразности рекламной кампании</caption>
+<thead>
+<tr>
+<th>Причина спада продаж</th>
+<th>Может реклама исправить ситуацию?</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>В&nbsp;салонах нет достаточных запасов высокооборачиваемых позиций.</td>
+<td>Нет</td>
+</tr>
+<tr>
+<td>Конкуренты провели несколько масштабных кампаний, в&nbsp;которых продемонстрировали дополнительные выгоды своего товара.</td>
+<td>Да</td>
+</tr>
+<tr>
+<td>В&nbsp;торговом зале сменились консультанты. Посетители жалуются, что ни&nbsp;на&nbsp;один вопрос не&nbsp;могут получить внятный ответ.</td>
+<td>Нет</td>
+</tr>
+<tr>
+<td>Снизилось качество продукции, количество случаев возврата товара выросло.</td>
+<td>Нет</td>
+</tr>
+<tr>
+<td>Снизился уровень знания предприятия N.</td>
+<td>Да</td>
+</tr>
+</tbody>
+</table>
 
-<p>Это все, конечно, в&nbsp;идеале. Я&nbsp;знаю примеры, как люди загорались идей CJM, неделями чертили диаграммы и&nbsp;схемы, но&nbsp;итогом была только запутанность и&nbsp;раздраженность. «Это еще одна,&nbsp;— говорят они,&nbsp;— бесполезная выдумка <b>маркетологов</b>!»</p>
-<p>Чтобы карта потребительского опыта действительно оказалась полезным инструментом, перед ее&nbsp;составлением необходимо усвоить и&nbsp;следовать трем правилам.</p>
+
+
+<p>Поэтому важно изучать рынок, выявлять, что мешает достижению цели, и&nbsp;принимать меры, адекватные ситуации. Проигнорируете это правило&nbsp;— готовьтесь к&nbsp;проблемам с&nbsp;рекламными кампаниями.</p>
+
+<p class="mb-m">При анализе рынка обратите внимание:</p>
+<ul class="list-li">
+	<li>на&nbsp;действия и&nbsp;предложения конкурентов;</li>
+	<li>кто и&nbsp;как часто покупает ваш товар;</li>
+	<li>на&nbsp;сильные и&nbsp;слабые стороны товара в&nbsp;восприятии клиентов.</li>
+</ul> 
+<p>Собранная информация поможет понять, целесообразно&nbsp;ли использовать рекламу как инструмент решения задач бизнеса. И&nbsp;далее&nbsp;— в&nbsp;случае положительного решения&nbsp;— сформулировать задание для рекламного агентства.</p>
 </section>
 
 <section class="row-gap--m" id="2">
-<h2 class="block__space--top-h2 h1 bold ">Правила составления CJM, которые помогут избежать ошибок</h2>
+<h2 class="section__title h1 bold ">Шаг&nbsp;2. Проработайте идею рекламной кампании</h2>
 
-<section class="row-gap--m">
-<h3 class="h2 bold mb-m">1) Начинайте работу с&nbsp;выбора персонажа</h3>
-<p>Одна карта описывает потребительский опыт одного клиента. Если у&nbsp;вас много клиентов, используйте метод персонажей. Персонаж&nbsp;— обобщенный образ выбранного сегмента клиентов. Поведение и&nbsp;мысли персонажа отражают реальное поведение и&nbsp;мысли представителей сегмента.</p>
+<section class="row-gap--m" id="2.1">
+<h3 class="h2 bold mb-m">а) Определите аудиторию, до&nbsp;которой хотите донести сообщение</h3>
+<p>Когда не&nbsp;знают портрет типичного клиента компании, целевую аудиторию часто описывают широко&nbsp;— например, население Беларуси старше 18&nbsp;лет. На&nbsp;языке рекламного агентства или ТВ-канала это означает «Покажите рекламу студентам и&nbsp;пенсионерам, банкирам и&nbsp;рабочим, мужчинам и&nbsp;женщинам».</p>
 
-<p>Различные персонажи выбирают и&nbsp;используют ваш продукт по&nbsp;разному. Если вам интересны несколько персонажей&nbsp;— составляйте несколько карт.</p>
+<p>У&nbsp;каждой из&nbsp;перечисленных групп свои любимые газеты, сайты, радио- и&nbsp;ТВ-каналы. Предприятию придется значимо увеличить бюджет на&nbsp;размещение, чтобы одинаково эффективно охватить всю обозначенную аудиторию.</p>
 
+<p>Каждая группа опирается на&nbsp;свои критерии выбора товара, требования к&nbsp;качеству и&nbsp;обслуживанию. Группы по-разному воспринимают информацию: одним важны рациональные аргументы, другим&nbsp;— эмоциональность сообщения. Кто-то смотрит обзорные видео, другие предпочитают экспертные статьи. Когда ориентируются на&nbsp;«белорусы старше&nbsp;18», эти особенности игнорируют и&nbsp;создают рекламу, которая не&nbsp;интересует никого.</p>
 
-<p>В&nbsp;нашем примере с&nbsp;сервисным центром персонаж может быть таким: девушка-блогер, проводит с&nbsp;сетях 4+&nbsp;часов в&nbsp;день. Ноутбук стал внезапно выключаться, самостоятельно устранить неисправность девушка не&nbsp;может. </p>
-<p>Чем больше деталей&nbsp;/ характеристик в&nbsp;описании персонажа, тем проще будет &laquo;идти&raquo; по&nbsp;его пути потребителя. Для удобства можете придумать персонажу имя и&nbsp;даже нарисовать портрет. </p>
+<p>Делайте кампанию сильной и&nbsp;фокусированной. Условно разделите клиентов на&nbsp;однородные группы и&nbsp;выделите&nbsp;ту, до&nbsp;которой хотели&nbsp;бы достучаться в&nbsp;первую очередь. Опишите ее&nbsp;участников&nbsp;— обозначьте пол, возраст, социальное положение, уровень образования, место жительства&nbsp;— и&nbsp;переходите к&nbsp;следующим этапам работы над рекламой.</p>
 </section>
 
-<section class="row-gap--m">
-<h3 class="h2 bold mt-m mb-m">2) Описывайте реальный клиентский опыт</h3>
-<p>Если подменить клиентский опыт собственными представлениями и&nbsp;догадками, методика не&nbsp;принесет пользы. Вы&nbsp;построите фантазию, которая с&nbsp;действительностью может не&nbsp;иметь ничего общего.</p>
-<p class="mb-m">Как погрузиться в&nbsp;мир клиента:</p>
-<ul class="additive-spacing">
-<li class="list-li">Опирайтесь на&nbsp;доступные результаты исследований, опросы, метрики.</li>
-<li class="list-li">Описывая взаимодействие с&nbsp;компанией, говорите от&nbsp;первого лица («Я&nbsp;сделал...», «Я&nbsp;услышал...»).</li>
-<li class="list-li">Готовую карту обсудите с&nbsp;клиентами. Найдите 10&nbsp;добровольцев из&nbsp;нужного сегмента и&nbsp;уточните, весь&nbsp;ли их&nbsp;опыт вы&nbsp;отразили, правильно&nbsp;ли описали поведение и&nbsp;намерения на&nbsp;каждом шаге взаимодействия с&nbsp;компанией.</li>
- </ul>
+<section class="row-gap--m" id="2.2">
+<h3 class="h2 bold mt-m mb-m">б) Выберите каналы коммуникации</h3>
+<p>При выборе каналов коммуникации не&nbsp;важно, какие передачи смотрите вы&nbsp;или ваше ближайшее окружение. Даже специальные льготные условия, предложенные директором радиоканала по&nbsp;старой дружбе,&nbsp;— еще не&nbsp;повод у&nbsp;него рекламироваться.</p>
+
+<p>Ваша задача&nbsp;— разместить рекламу так, чтобы охватить максимум человек из&nbsp;целевой аудитории. И&nbsp;здесь имеет значение только одно&nbsp;— что и&nbsp;как часто смотрят и&nbsp;слушают нужные вам люди.</p>
+
+<p class="mb-m">Обратитесь в&nbsp;рекламное или медиа-агентство. Специалисты агентства возьмут данные независимых измерителей рынка, сведения о&nbsp;вашей аудитории и&nbsp;рассчитают:</p>
+<ul class="list-li">
+	<li>следует&nbsp;ли использовать один канал коммуникации или&nbsp;же подключать разные;</li>
+	<li>если для размещения рекламы используется, например, телевидение, то&nbsp;какие конкретно каналы выбрать и&nbsp;в&nbsp;какое время рекламу показывать;</li>
+	<li>прогнозируемый охват аудитории.</li>
+</ul>
+<p class="mb-m">За&nbsp;работу агентство попросит деньги. Эти расходы оправданы:</p>
+<ul class="list-li">
+	<li>если вы&nbsp;не&nbsp;уверены в&nbsp;собственных силах и&nbsp;хотите опираться на&nbsp;опыт специалистов и&nbsp;результаты исследований;</li>
+	<li>если вы&nbsp;намерены сэкономить время: вам не&nbsp;понадобится вести переговоры с&nbsp;редакциями средств массовой информации;</li>
+	<li>иногда размещение рекламы через посредников выгоднее за&nbsp;счет скидок, которые получают рекламные агентства.</li>
+</ul>
+
+
 </section>
 
-<section class="row-gap--m">
-<h3 class="h2 bold mt-m mb-m">3) Работайте коллективно</h3>
-<p>Привлекайте коллег к&nbsp;работе над картой. Соберите за&nbsp;одним столом бухгалтеров, юриста, продавцов, маркетолога и&nbsp;попробуйте вместе «влезть в&nbsp;шкуру» клиента. Пользы компании принесет больше, чем многие рядовые совещания.</p>
+<section class="row-gap--m" id="2.3">
+<h3 class="h2 bold mt-m mb-m">в) Определите частоту контактов с&nbsp;рекламным сообщением</h3>
+<p>Если в&nbsp;период большой активности рекламодателей вы&nbsp;сообщите о&nbsp;новом продукте один раз, скорее всего сообщение «утонет» в&nbsp;рекламном шуме. Если рекламу увидят через каждые 20&nbsp;минут&nbsp;— вы&nbsp;станете раздражать. Сколько&nbsp;же раз показывать рекламу&nbsp;— готового ответа нет.</p>
+
+<p class="mb-m">Решение зависит от&nbsp;многих факторов: </p>
+<ul class="list-li">
+	<li>Канала коммуникации.</li>
+	<li>Сложности аудитории и&nbsp;ее&nbsp;поведенческих характеристик.</li>
+	<li>Решаемой задачи. Вывод нового продукта на&nbsp;рынок требует большей частоты чем поддержание уровня знания известной марки.</li>
+	<li>Конкурентного окружения.</li>
+	<li>Общей активности рекламодателей.</li>
+	<li>Новизны рекламного сообщения.</li>
+	<li>...</li>
+</ul> 
+<p>Если сомневаетесь, определите частоту вместе со&nbsp;специалистами рекламного агентства.</p>
+</section>
+
+<section class="row-gap--m" id="2.4">
+<h3 class="h2 bold mt-m mb-m">г) Составьте рекламное сообщение</h3>
+<p>Для формирования позитивного отношения к&nbsp;рекламируемому продукту или услуге нужна хорошая идея и&nbsp;правильный формат.</p>
+
+<p><span class="bold">Хорошая идея сообщения</span>:</p>
+<ul class="list-li">
+	<li>Легко считывается и&nbsp;коротко формулируется. Содержание рекламы построено вокруг одного ключевого послания. Нет второстепенных деталей и&nbsp;смыслов.</li>
+</ul>
+
+<table>
+<caption>Пример. Варианты рекламного сообщения</caption>
+<thead>
+<tr>
+<th>Нет</th>
+<th>Да</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="width50">«У&nbsp;нас новая коллекция, теперь выбор больше. Наши диваны тестируют каждую ночь. Мы&nbsp;переехали ближе к&nbsp;центру&nbsp;— удобно добираться. Новогодняя акция до&nbsp;февраля»</td>
+<td>«Наши диваны тестируют каждую ночь»</td>
+</tr>
+</tbody>
+</table>
+
+<ul class="list-li additive-spacing">
+	<li>Перекликается с&nbsp;ценностями целевой аудитории и&nbsp;мотивами, влияющими на&nbsp;выбор товара.</li>
+	<li>Поддерживает и&nbsp;укрепляет отличия бренда. Если отталкиваться от&nbsp;сиюминутных задач и&nbsp;реагировать на&nbsp;них рекламой, то&nbsp;образ бренда скорее всего размоется и&nbsp;умрет. У&nbsp;сильных брендов прослеживаются единые принципы и&nbsp;тон коммуникации от&nbsp;кампании к&nbsp;кампании.</li>
+</ul>
+
+<p class="mb-m mt-m"><span class="bold">Правильный формат учитывает:</span></p>
+<ul class="list-li mb-m">
+	<li>поведение и&nbsp;привычки целевой аудитории → способы и&nbsp;частоту потребления информации</li>
+</ul>
+<p><span class="italic">Пример:</span> аудитория в&nbsp;возрасте <span class="noperenos">15-25</span> лет гораздо охотнее посмотрит обзорное видео, нежели прочитает обзорную статью.</p>
+
+<ul class="list-li mb-m">
+	<li>особенности выбранных каналов коммуникации</li>
+</ul>
+<p><span class="italic">Пример:</span> используя наружную рекламу, вы&nbsp;не&nbsp;расскажете подробно о&nbsp;продукте. Скорее всего вы&nbsp;сможете донести очень простое сообщение&nbsp;— название и&nbsp;внешний вид. А&nbsp;для знакомства с&nbsp;его характеристиками стоит выбрать более подходящие инструменты: обзорные статьи и&nbsp;видеообзоры.</p>
 </section>
 </section>
 
 <section class="row-gap--m" id="3">
-<h2 class="block__space--top-h2 h1 bold ">Алгоритм создания карты потребительского опыта</h2>
-<p>Чтобы&nbsp;— наконец-то&nbsp;— составить CJM, следуйте описанным ниже шагам и&nbsp;схематичным примерам.</p>
-<section class="row-gap--m">
-<h3 class="h2 bold mb-m">Шаг&nbsp;1. Проследите путь персонажа</h3>
-<p> Опишите действия персонажа от&nbsp;момента осознания потребности до&nbsp;покупки и&nbsp;использования вашего товара или услуги. Если затрудняетесь с&nbsp;определением этапов, воспользуетесь схемой: осознание потребности → сбор информации → выбор → покупка → использование → рекомендации. Укажите, что делает персонаж на&nbsp;каждом этапе.
-</p>
+<h2 class="section__title h1 bold ">Шаг&nbsp;3. Определите бюджет на&nbsp;размещение рекламы</h2>
+<p>Выбранные каналы и&nbsp;частота показа рекламы определяют бюджет размещения. Но&nbsp;и&nbsp;выбор медийных инструментов зависит от&nbsp;суммы, которую вы&nbsp;готовы вложить в&nbsp;размещение.</p>
+
+
+<div class="with-side row-gap--m">
+<p>Если задача&nbsp;— быстро увеличить знание торговой марки, то&nbsp;нет более эффективного инструмента чем реклама на&nbsp;телевидении. Финансовый «порог входа» для ТВ-кампании&nbsp;— в&nbsp;среднем&nbsp;— начинается с&nbsp;$15 тысяч для белорусских предприятий и&nbsp;$35 тысяч&nbsp;— для иностранных компаний. С&nbsp;меньшим бюджетом на&nbsp;размещение рекламы вы&nbsp;не&nbsp;достигните высокого охвата аудитории и&nbsp;частоты показа. В&nbsp;подобных случаях лучше не&nbsp;рекламироваться вообще, чем потратить&nbsp;то, что есть, без результата.</p>
+<div class="side"><p><span class="bold">2&nbsp;недели</span> <br /> рекламной кампании на&nbsp;ТВ понадобится, чтобы охватить&nbsp;70% взрослого населения Беларуси. Если&nbsp;же использовать только интернет и&nbsp;радио&nbsp;— полтора месяца.</p></div></div>
+
+<p>Если бюджет на&nbsp;размещение скромный&nbsp;— откажитесь от&nbsp;идеи рассказать о&nbsp;себе всем белорусам. Ваш приоритет&nbsp;— не&nbsp;увеличить уровень знания торговой марки, а&nbsp;повысить конверсию в&nbsp;покупку. Работайте в&nbsp;первую очередь с&nbsp;теми, кто уже к&nbsp;вам пришел или интересуется вашей тематикой. Вложите деньги в&nbsp;торговый зал, работу персонала. Сделайте и&nbsp;продвигайте лендинг по&nbsp;популярным в&nbsp;вашей сфере запросам с&nbsp;помощью контекстной рекламы.</p>
+</section>
+
+<section class="row-gap--m" id="4">
+<h2 class="section__title h1 bold ">Шаг&nbsp;4. Оцените эффективность рекламной кампании </h2>
+<p>Реклама напрямую влияет на&nbsp;уровень знания торговой марки и&nbsp;ее&nbsp;восприятие. Когда речь заходит о&nbsp;знании, важно получить максимальный охват аудитории. В&nbsp;этом помогает грамотное использование медийных инструментов. Содержание рекламного сообщения влияет на&nbsp;восприятие. Поэтому <strong>эффективность рекламной кампании разумно оценивать по&nbsp;динамике уровня осведомленности и&nbsp;положительному восприятию рекламируемого продукта</strong>.</p>
+
+<p>Вы&nbsp;можете возразить: «конечная цель рекламы&nbsp;— рост продаж, поэтому оценивать следует по&nbsp;динамике объема продаж». Давайте разберем это утверждение на&nbsp;«воронке продаж».</p>
 
 <div itemprop="image" itemscope="" itemtype="http://schema.org/ImageObject">	
-		<link itemprop="url" href="/assets/images/blog/customer-journey-map/cjm1.jpg" />	
+		<link itemprop="url" href="/assets/images/blog/algoritm-provedeniya-reklamnoj-kampanii/voronka_prodaz.jpg" />	
 <picture>
-<source srcset="/assets/images/blog/customer-journey-map/cjm1.avif" type="image/avif" /> 
-<source srcset="/assets/images/blog/customer-journey-map/cjm1.webp" type="image/webp" /> 
-<img class="image" loading="lazy" src="/assets/images/blog/customer-journey-map/cjm1.jpg" alt="Первый этап разработки карты потребительского опыта" width="695" height="344" itemprop="contentUrl" />
+<source srcset="/assets/images/blog/algoritm-provedeniya-reklamnoj-kampanii/voronka_prodaz.avif" type="image/avif" /> 
+<source srcset="/assets/images/blog/algoritm-provedeniya-reklamnoj-kampanii/voronka_prodaz.webp" type="image/webp" /> 
+<img class="image is-16by9" loading="lazy" decoding="async" src="/assets/images/blog/algoritm-provedeniya-reklamnoj-kampanii/voronka_prodaz.jpg" alt="Воронка продаж показывает, что процесс покупки более сложен, чем увидел рекламу и сразу же купил." width="1920" height="1080" itemprop="contentUrl" />
 </picture>
-<div class="figcaption">
-Путь выбранного ранее персонажа
-</div>
-</div>
-</section>
 
-<section class="row-gap--m">
-<h3 class="h2 bold mt-m mb-m">Шаг&nbsp;2. Выясните задачи, мысли и&nbsp;эмоции персонажа</h3>
-<p> Вживитесь в&nbsp;роль максимально полно. Задача&nbsp;— на&nbsp;каждом этапе пути понять эмоциональную реакцию, ожидания, надежды и&nbsp;мысли персонажа. Что хочет достичь? Что чувствует? Какие ожидания? О чем думает?
-</p>
-</section>
-
-<section class="row-gap--m">
-<h3 class="h2 bold mt-m mb-m">Шаг&nbsp;3. Определите каналы коммуникации и&nbsp;точки контакта</h3>
- <p>Осознайте, как компания присутствует в&nbsp;опыте персонажа на&nbsp;каждом этапе. Как компания появляется, как персонаж с&nbsp;ней контактирует или потенциально может контактировать. Варианты: сайт, СМИ, сплетни, рассылка, колцентр, шоурумы и&nbsp;пр. Если на&nbsp;каком-то этапе компания не&nbsp;присутствует, это важно отметить.
-</p>
-</section>
-
-<section class="row-gap--m">
-<h3 class="h2 bold mt-m mb-m">Шаг&nbsp;4. Выявите барьеры</h3>
- <p>Задача компании&nbsp;— легко и&nbsp;комфортно провести человека от&nbsp;момента осознания потребности до&nbsp;момента, когда он&nbsp;становится лояльным клиентом. Что в&nbsp;силах затормозить этот процесс? Для каждого этапа выявите факторы, которые могут помешать переходу клиента к&nbsp;следующему шагу. 
-</p>
-
-
-<div itemprop="image" itemscope="" itemtype="http://schema.org/ImageObject">	
-		<link itemprop="url" href="/assets/images/blog/customer-journey-map/cjm2.jpg" />	
-<picture>
-<source srcset="/assets/images/blog/customer-journey-map/cjm2.avif" type="image/avif" /> 
-<source srcset="/assets/images/blog/customer-journey-map/cjm2.webp" type="image/webp" /> 
-<img class="image" loading="lazy" src="/assets/images/blog/customer-journey-map/cjm2.jpg" alt="Визуализация выполненных шагов по созданию карты потребительского опыта" width="686" height="915" itemprop="contentUrl" />
-</picture>
 </div>
 
+<p>Мы&nbsp;создали продукт. Чтобы его покупали, люди должны узнать о&nbsp;его существовании. Поэтому мы&nbsp;рассказываем о&nbsp;продукте как можно большему числу потенциальных покупателей. Далее нам необходимо сформировать положительное восприятие продукта, которое вызовет желание купить. Люди начнут изучать отзывы, читать рекомендации, задавать вопросы консультантам, ощупывать продукт в&nbsp;торговом зале. Некоторые купят. Но&nbsp;чтобы продажа состоялась, как минимум, у&nbsp;человека должны быть деньги, а&nbsp;в&nbsp;торговом зале&nbsp;— продукт.</p>
+
+
+<p>Воронка показывает, что процесс продажи более сложный чем «увидел рекламу&nbsp;— купил». И&nbsp;чем сложнее продукт и&nbsp;значительнее стоимость, тем сложнее «воронка продаж». Когда вы&nbsp;оцениваете лишь конечный результат, вы&nbsp;не&nbsp;учитываете все факторы, влияющие на&nbsp;выбор товара, и&nbsp;не&nbsp;знаете, на&nbsp;каком этапе теряете покупателей.</p>
+<div class="post__note row-gap--m">
+<p>Вы&nbsp;провели кампанию и&nbsp;объем продаж не&nbsp;увеличился. Какой вывод сделаете? Должны&nbsp;ли вы&nbsp;поменять сценарий ролика? Или&nbsp;же составить другой медиасплит? А&nbsp;может нанять более вежливого консультанта? Или все&nbsp;же поменять дизайн продукта?</p>
+<p>Изучите динамику знания и&nbsp;восприятия продукта. Если она положительная, а&nbsp;прироста продаж нет, значит проблемы на&nbsp;других этапах покупки&nbsp;— делать далее кампании на&nbsp;увеличение знания нет смысла.</p></div>
 </section>
 
-<section class="row-gap--m">
-<h3 class="h2 bold mt-m mb-m">Шаг&nbsp;5. Определите действия компании</h3>
- <p>После описания потребительского опыта решите, что компания сделает для нивелирования негативных переживаний клиента, как будет преодолевать барьеры.
-</p>
-<p>Действительно&nbsp;ли на&nbsp;каждом этапе компания на&nbsp;100% помогает клиенту справиться с&nbsp;задачей? Если нет, то&nbsp;как усилить полезность компании?</p>
-<p>Возможно вы&nbsp;выявите «слепые пятна»&nbsp;— стадии потребительского опыта, о&nbsp;которых вам известно чрезвычайно мало. Запланируйте дополнительное исследование.</p>
-</section>
+<section class="row-gap--m" id="5">
+<h2 class="section__title h1 bold ">Шаг&nbsp;5. Создайте информационный банк рекламных кампаний</h2>
+<p>Анализировать ход и&nbsp;итоги рекламной кампании важно и&nbsp;полезно. Вы&nbsp;увеличите полезность еще больше, если будете изучать кампании по&nbsp;единой методике и&nbsp;хранить отчеты в&nbsp;одном месте.</p>
 
-<section class="row-gap--m">
-<h3 class="h2 bold mt-m mb-m">Шаг&nbsp;6. Назначьте ответственных</h3>
- <p>Определили действие&nbsp;— определите кто сделает.
-</p>
+<p>Так вы&nbsp;создадите единый банк решений, идей и&nbsp;результатов. Это хорошая страховка от&nbsp;повторения ошибок, база для сравнения, генерирования новых предложений и&nbsp;прогнозирования результатов.</p>
 
-<div itemprop="image" itemscope="" itemtype="http://schema.org/ImageObject">	
-		<link itemprop="url" href="/assets/images/blog/customer-journey-map/cjm3.jpg" />	
-<picture> 
-<source srcset="/assets/images/blog/customer-journey-map/cjm3.avif" type="image/avif" /> 
-<source srcset="/assets/images/blog/customer-journey-map/cjm3.webp" type="image/webp" /> 
-<img class="image" loading="lazy" src="/assets/images/blog/customer-journey-map/cjm3.jpg" alt="Завершающий этап составления карты потребительского опыта" width="695" height="609" itemprop="contentUrl" />
-</picture>
-</div>
-
-
-<p>&nbsp;</p>
-<p>В&nbsp;последних двух шагах&nbsp;&mdash; смысл предыдущей работы. Мы&nbsp;получаем список задач и&nbsp;можем приступить к&nbsp;реализации. <strong>Благодаря карте потребительского опыта вся активность по&nbsp;продвижению приобретает цельный характер. Мы&nbsp;понимаем, какие маркетинговые инструменты использовать, зачем и&nbsp;когда.</strong> Появляется ощущение контроля над развитием бизнеса. </p>
-</section>
-</section>
-
-<section class="row-gap--m" id="CJM-tools">
-<h2 class="block__space--top-h2 h1 bold ">Инструменты для разработки CJM</h2>
-
-<p>Опубликовал статью и&nbsp;получил отзыв от&nbsp;UXPressia&nbsp;&mdash; компании, которая развивает онлайн-сервис построения карт потребительского опыта.</p> 
-
-<div itemprop="image" itemscope="" itemtype="http://schema.org/ImageObject">	
-		<link itemprop="url" href="/assets/images/blog/customer-journey-map/UXPressia@1x.jpg" />	
-<picture>
-<source srcset="/assets/images/blog/customer-journey-map/UXPressia@1x.avif" type="image/avif" /> 
-<source srcset="/assets/images/blog/customer-journey-map/UXPressia@1x.webp" type="image/webp" /> 
-<img class="image" loading="lazy" src="/assets/images/blog/customer-journey-map/UXPressia@1x.jpg" alt="твит UXPressia после прочтения моей статьи" width="540" height="270" itemprop="contentUrl" />
-</picture>
-<div class="figcaption">
-Обратная связь UXPressia в&nbsp;Твиттере
-</div>
-</div>
-
-<p>Решил дополнить материал полезными ссылками. Составить CJM можно и&nbsp;на&nbsp;школьной доске, но, боюсь, поддерживать ее&nbsp;будет неудобно. А&nbsp;если вам необходимо переслать карту партнерам или инвесторам, то&nbsp;скорее всего вы&nbsp;захотите, чтобы она была не&nbsp;только информативна, но&nbsp;и&nbsp;хорошо выглядела. В&nbsp;этом могут помочь сервисы. </p>
-
-<ul class="additive-spacing">
-<li class="list-li"> <a class="link" href="https://uxpressia.com/">UXPressia</a>. Компания предлагает готовые шаблоны для разных сфер бизнеса. Есть бесплатный тариф: можно составить одну карту без ограничения возможностей ее&nbsp;форматирования. Для работы потребуется минимальное знание английского языка. Локализации сайта и&nbsp;интерфейса сервиса нет, но&nbsp;саму карту можно составлять на&nbsp;любом языке.  </li>
-<li class="list-li"> <a class="link" href="https://www.smaply.com/">Smaply</a>. Еще один сервис для создания CJM.  </li>
-<li class="list-li"> <a class="link" href="https://www.touchpointdashboard.com/">Touchpoint Dashboard</a>. Судя по&nbsp;обзорам на&nbsp;youtube, это комбайн в&nbsp;мире CJM . Из&nbsp;понравившихся возможностей&nbsp;&mdash; можно работать над картой всей командой онлайн, а&nbsp;также подключать пользователей и&nbsp;просить их&nbsp;оценить, например, важность точки контакта. </li>
-<li class="list-li"> <a class="link" href="https://miro.com/templates/customer-journey-map/"> Miro</a> (до&nbsp;2019&nbsp;г. &mdash;&nbsp;RealtimeBoard). Онлайн аналог маркерной доски для совместной работы. Для создания карт потребительского опыта есть специальный шаблон.  </li>
-
-</ul>
-
-</section>]]></content><author><name></name></author><category term="инструкции" /><category term="инструменты" /><category term="бизнес" /><summary type="html"><![CDATA[Карта потребительского опыта (customer journey map): пошаговая инструкция по&nbsp;составлению и&nbsp;использованию.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/tizers/tizer-22.jpg" /><media:content medium="image" url="http://localhost:4000/assets/images/tizers/tizer-22.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Система скидок: как разрабатывал | Дмитрий Бартошевич</title><link href="http://localhost:4000/blog/kejs-delayu-sistemu-skidok/" rel="alternate" type="text/html" title="Система скидок: как разрабатывал | Дмитрий Бартошевич" /><published>2016-05-16T00:00:00+03:00</published><updated>2022-02-04T00:00:00+03:00</updated><id>http://localhost:4000/blog/delayu-sistemu-skidok</id><content type="html" xml:base="http://localhost:4000/blog/kejs-delayu-sistemu-skidok/"><![CDATA[<div class="intro__post">
-    <h1 class=" bold max-width-text">Кейс: делаю систему скидок</h1> 
-    <small class="small"><time itemprop="datePublished" datetime="2016-05-16"> 16 мая 2016</time> 
+<p>Изучив ход и&nbsp;результаты десятка рекламных кампаний, вы&nbsp;поймете, какие маркетинговые инструменты и&nbsp;когда работают в&nbsp;вашем бизнесе, какие ожидания реалистичны, а&nbsp;каких целей не&nbsp;достигнуть даже 100% охватом, не&nbsp;изменив качество товара и&nbsp;сервиса.</p>
+</section>]]></content><author><name></name></author><category term="инструкции" /><category term="реклама" /><category term="инструменты" /><category term="интервью" /><summary type="html"><![CDATA[Алгоритм проведения рекламной кампании: когда реклама необходима, как проработать идею и&nbsp;определить бюджет, оценить эффективность.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/tizers/tizer-35.jpg" /><media:content medium="image" url="http://localhost:4000/assets/images/tizers/tizer-35.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Польза корпоративов — миф | Дмитрий Бартошевич</title><link href="http://localhost:4000/blog/direktor-xochet-korporativ/" rel="alternate" type="text/html" title="Польза корпоративов — миф | Дмитрий Бартошевич" /><published>2016-11-26T00:00:00+03:00</published><updated>2022-02-04T00:00:00+03:00</updated><id>http://localhost:4000/blog/direktor-xochet-korporativ</id><content type="html" xml:base="http://localhost:4000/blog/direktor-xochet-korporativ/"><![CDATA[<div class="intro__post">
+    <h1 class=" bold max-width-text">Статья для директора, который хочет организовать корпоратив</h1> 
+    <small class="small"><time itemprop="datePublished" datetime="2016-11-26"> 26 ноября 2016</time> 
     </small>
 </div>
-<p>Производитель и&nbsp;оптовый поставщик столов, кухонных и&nbsp;барных стульев обратился за&nbsp;помощью в&nbsp;изменении дисконтной политики предприятия. Руководство признало, что существующая система скидок не&nbsp;работает, клиенты и&nbsp;сотрудники ею&nbsp;не&nbsp;пользуются и&nbsp;звонят директору за&nbsp;одобрением каждого изменения указанной в&nbsp;прайс-листе цены. Требовалось создать доступную для восприятия и&nbsp;легкую в&nbsp;использовании систему скидок. Рассказываю, как я&nbsp;справлялся с&nbsp;задачей.</p>
 
-<section class="row-gap--m">
-<h2 class="block__space--top-h2 h1 bold max-width-text">Проблема</h2>
-<p>Описание видов и&nbsp;условий предоставления скидок занимало 6&nbsp;страниц печатного текста. Три вида скидок в&nbsp;зависимости от&nbsp;объема закупок, скидки за&nbsp;ассортимент, за&nbsp;эксклюзив, четыре вида скидок за&nbsp;крупные единовременные заказы, скидки на&nbsp;образцы и&nbsp;три предложения (условия и&nbsp;расчеты) по&nbsp;отсрочке платежа. Продавцы не&nbsp;могли коротко объяснить дисконтную политику компании, покупатели&nbsp;— пользоваться.</p>
-<p>Получив запрос от&nbsp;клиента, менеджер листал <span class="noperenos">6-страничное</span> руководство, пытался вычленить доступные опции, запутывался и&nbsp;шел в&nbsp;кабинет директора за&nbsp;советом, какую скидку дать. Новая сделка&nbsp;— новый круг «запрос&nbsp;— 6&nbsp;листов текста&nbsp;— директор», а&nbsp;то&nbsp;и&nbsp;вовсе «запрос&nbsp;— директор».</p>
-<p>Подобная ситуация типична для предприятий, которые накапливают скидочные предложения с&nbsp;момента основания. Вначале компания предлагает <span class="noperenos">1-2</span> опции в&nbsp;зависимости от&nbsp;объема закупок, затем стимулирует предоплату, потом появляются клиенты с&nbsp;разовыми тендерными заказами и&nbsp;незаметно система скидок превращается в&nbsp;запутанный набор условий и&nbsp;опций.</p>
-<p>Руководство приглашало дизайнера, чтобы графически отобразить дисконтную политику. Получалось красиво, но&nbsp;сложно. Не&nbsp;было единства и&nbsp;целостности. Проблему дизайнер не&nbsp;решил.</p>
-</section>
-<section class="row-gap--m">
-<h2 class="block__space--top-h2 h1 bold max-width-text">Решение</h2>
+<p>За&nbsp;свою карьеру я&nbsp;прошел через десятки корпоративов. Большинство из&nbsp;них&nbsp;— напрасная трата денег компании и&nbsp;упущенные возможности. Вместо того, чтобы сосредотачиваться на&nbsp;задачах <b>бизнеса</b>, сотрудники и&nbsp;директор метались в&nbsp;поисках ресторана, баз отдыха, спорили по&nbsp;пунктам программы мероприятий и&nbsp;обсуждали меню.</p>
 
-<section class="row-gap--m">
-<h3 class="h2 bold mb-m">Шаг первый</h3>
-<p> Я&nbsp;рекомендовал создать новую дисконтную программу. Связать условия предоставления скидки с&nbsp;отличиями компании от&nbsp;конкурентов, чтобы клиенты за&nbsp;ценой видели ценность предложения. Примеры подобной реализации описывал <a class="link" href="/blog/skidki-instrukciya-po-primeneniyu/" title="Как снижать цену правильно">в&nbsp;статье «Скидки&nbsp;— инструкция по&nbsp;применению»</a>.
-</p>
-<p>Однако, заказчик не&nbsp;согласился детально анализировать конкурентов, формулировать отличия и&nbsp;пожелал сохранить по&nbsp;максимуму существующие скидки, к&nbsp;которым привыкли «старые» клиенты. Несколько десятков стоимостных опций требовалось уместить в&nbsp;простое и&nbsp;ясное предложение.</p>
-</section>
-<section class="row-gap--m">
-<h3 class="h2 bold mt-m mb-m">Шаг второй</h3>
- <p>Пересмотрел основы дисконтной программы. Предложил сфокусироваться не&nbsp;на&nbsp;отдельно взятой сделке, а&nbsp;на&nbsp;клиенте. И&nbsp;определять условия работы в&nbsp;зависимости от&nbsp;ценности клиента для компании.
-</p>
-<p>Для отражения степени полезности клиента ввел систему трех разрядов. Клиенту с&nbsp;высшим разрядом компания предлагает лучшие условия сотрудничества. Клиенту без присвоенного разряда продукция отгружается по&nbsp;стоимости, указанной в&nbsp;прайс-листе.</p>
-<p>Скидки, к&nbsp;которым привыкли «старожилы», превратились в&nbsp;характеристики сотрудничества: у&nbsp;каждого разряда свои значения.</p>
-<p>Идея заказчику понравилась. Вместе определили критерий ценности клиента&nbsp;— объем закупок за&nbsp;последний квартал. По&nbsp;этому показателю присудили разряды.</p>
-
-<div itemprop="image" itemscope="" itemtype="http://schema.org/ImageObject">
-<link itemprop="url" href="/assets/images//blog/kejs-delayu-sistemu-skidok/sav.jpg" />
+<div itemprop="image" itemscope="" itemtype="http://schema.org/ImageObject">	
+		<link itemprop="url" href="/assets/images/blog/direktor-xochet-korporativ/corp1.jpg" />	
 <picture>
-  <source srcset="/assets/images//blog/kejs-delayu-sistemu-skidok/sav.avif" type="image/avif" />
-  <source srcset="/assets/images//blog/kejs-delayu-sistemu-skidok/sav.webp" type="image/webp" />
-  <img loading="lazy" decoding="async" src="/assets/images//blog/kejs-delayu-sistemu-skidok/sav.jpg" alt="Система скидок." class="image" width="695" height="486" itemprop="contentUrl" />
+<source srcset="/assets/images/blog/direktor-xochet-korporativ/corp1.avif" type="image/avif" /> 
+<source srcset="/assets/images/blog/direktor-xochet-korporativ/corp1.webp" type="image/webp" /> 
+<img class="image" loading="lazy" decoding="async" src="/assets/images/blog/direktor-xochet-korporativ/corp1.jpg" alt="Корпоративы придумали те, кто зарабатывает на тренингах. Хотите убить бизнес - развлекайтесь с персоналом." width="695" height="583" itemprop="contentUrl" />
+</picture>
+</div>
+
+<p>Агентства, бизнес-тренеры и&nbsp;организаторы праздников убеждают, что корпоративы «способствуют командообразованию, повышают лояльность сотрудников и&nbsp;увеличивают сплоченность». Отнеситесь к&nbsp;этому с&nbsp;пониманием. Это их&nbsp;хлеб и&nbsp;они вынуждены придумывать пользу собственных услуг.</p>
+
+<section class="row-gap--m">
+<h2 class="section__title h1 bold ">Корпоратив не&nbsp;создаст команду</h2>
+<p>Чтобы команда по&nbsp;футболу начала выигрывать, следует играть в&nbsp;футбол чаще. Чтобы отряд специального назначения справлялся с&nbsp;боевыми задачами, бойцы должны тренироваться в&nbsp;условиях максимально приближенных к&nbsp;реальным. Только безумный поверит, что успех боевой операции зависит от&nbsp;количества дней бухания на&nbsp;природе. Но&nbsp;так считают бизнес-тренеры, которые во&nbsp;имя сплоченной деятельности предлагают всем списочным составом выехать за&nbsp;город и&nbsp;поиграть в&nbsp;резиночки и&nbsp;веревочки.</p>
+<p>Тимбилдинг происходит всегда на&nbsp;рабочем месте, всегда в&nbsp;рабочей обстановке и&nbsp;напрямую связан с&nbsp;оптимизацией рабочих процессов в&nbsp;компании.</p>
+</section>
+
+<section class="row-gap--m">
+<h2 class="section__title h1 bold ">Корпоратив не&nbsp;решит проблемы</h2>
+<p>Корпоратив&nbsp;— не&nbsp;палочка-выручалочка. Если сотрудники работают на&nbsp;износ, если они чувствуют, что их&nbsp;обманывает руководство, то&nbsp;<span class="noperenos">2-3</span> дня коллективного отдыха ситуацию не&nbsp;исправят.</p>
+<p>Меня убеждали, что корпоратив&nbsp;— прекрасная возможность для новичка узнать коллег, понять, к&nbsp;кому и&nbsp;по&nbsp;каким вопросам обращаться. Я&nbsp;же считаю, что если новичок способен понять рабочие процессы только на&nbsp;корпоративе, следует срочно менять эйчара и&nbsp;руководителей подразделений. Первый пускает на&nbsp;самотек адаптацию сотрудника, вторые не&nbsp;обеспечивают прозрачность процессов.</p>
+</section>
+
+<section class="row-gap--m">
+<h2 class="section__title h1 bold ">Корпоратив разобщает</h2>
+<p>Добровольно-принудительные развлечения компании ориентируются на&nbsp;усредненный образ работника. Чем больше коллектив&nbsp;— тем больше людей, чьи особенности, увлечения и&nbsp;предпочтения игнорируются. Корпоратив пробуждает чувство инаковости.</p>
+<p>Не&nbsp;каждому нравится пейнтбол, картинг или встреча Нового года в&nbsp;усадьбе на&nbsp;озере. Кто-то не&nbsp;ест мясо, равнодушен к&nbsp;шашлыкам и&nbsp;не&nbsp;употребляет алкоголь. А&nbsp;если и&nbsp;употребляет, не&nbsp;факт, что сольется с&nbsp;коллегами в&nbsp;душевном единении.</p>
+
+<div itemprop="image" itemscope="" itemtype="http://schema.org/ImageObject">	
+		<link itemprop="url" href="/assets/images/blog/direktor-xochet-korporativ/corp2.jpg" />	
+<picture>
+<source srcset="/assets/images/blog/direktor-xochet-korporativ/corp2.avif" type="image/avif" /> 
+<source srcset="/assets/images/blog/direktor-xochet-korporativ/corp2.webp" type="image/webp" /> 
+<img class="image" loading="lazy" decoding="async" src="/assets/images/blog/direktor-xochet-korporativ/corp2.jpg" alt="Корпоративы часто превращаются в пьянку." width="695" height="364" itemprop="contentUrl" />
+</picture>
+</div>
+
+<p>Пока секретарь Жанна делает третий глоток белого вина, ее&nbsp;сосед&nbsp;— токарь Василий&nbsp;— допивает бутылку водки. Культурно пообщаться не&nbsp;получится, а&nbsp;вот репутация коллег и&nbsp;— возможно&nbsp;— отношения пострадают. Подобные сцены наблюдал неоднократно.</p>
+</section>
+
+<section class="row-gap--m">
+<h2 class="section__title h1 bold ">Корпоратив&nbsp;— не&nbsp;дело компании</h2>
+<p>То, как я&nbsp;провожу время после работы, не&nbsp;касается работодателя. Взрослый и&nbsp;зрелый человек понимает, что&nbsp;же ему интересно, и&nbsp;он&nbsp;в&nbsp;состоянии организовать досуг сам. Когда компания решает за&nbsp;других, как, когда и&nbsp;с&nbsp;кем кому отдыхать, она&nbsp;— мягко говоря&nbsp;— занимается не&nbsp;своим делом. Сотрудники не&nbsp;в&nbsp;детском саду, а&nbsp;директор&nbsp;— не&nbsp;воспитатель. Хотите ответственных работников&nbsp;— относитесь к&nbsp;ним как к&nbsp;взрослым.</p>
+<p>Задача руководителя компании&nbsp;— развивать бизнес, а&nbsp;не&nbsp;организовывать корпоративы. Если с&nbsp;бизнесом все в&nbsp;порядке, у&nbsp;сотрудников предприятия будет время и&nbsp;деньги на&nbsp;свои увлечения. И&nbsp;если появится желание отдохнуть с&nbsp;коллегами, человек без помощи администрации найдет способ, как и&nbsp;когда это сделать.</p>
+<p class="post__note h2">Задача руководителя компании&nbsp;— развивать бизнес, а&nbsp;не&nbsp;организовывать корпоративы.</p>
+<p>Я&nbsp;знаю примеры, когда в&nbsp;Новый год сотрудники предприятия спонтанно разбивались на&nbsp;малые группы, определялись с&nbsp;форматом и&nbsp;временем отдыха. Каждый выбирал&nbsp;то, что по&nbsp;душе. Кто-то пел с&nbsp;коллегами в&nbsp;караоке, кто-то прыгал с&nbsp;вышки в&nbsp;бассейне или ужинал в&nbsp;ресторане. А&nbsp;кто-то успевал везде. И&nbsp;все были довольны, даже директор.</p>
+</section>]]></content><author><name></name></author><category term="мнение" /><category term="маркетолог" /><summary type="html"><![CDATA[Корпоратив не&nbsp;создаст команду, не&nbsp;решит проблемы и&nbsp;может разрушить отношения коллег. Занимайтесь бизнесом, а&nbsp;как отдохнуть сотрудники решат самостоятельно.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/tizers/tizer-34.jpg" /><media:content medium="image" url="http://localhost:4000/assets/images/tizers/tizer-34.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Как компании выделиться среди акций со скидками | Дмитрий Бартошевич</title><link href="http://localhost:4000/blog/akcii-so-skidkami/" rel="alternate" type="text/html" title="Как компании выделиться среди акций со скидками | Дмитрий Бартошевич" /><published>2016-11-24T00:00:00+03:00</published><updated>2022-01-20T00:00:00+03:00</updated><id>http://localhost:4000/blog/akcii-so-skidkami</id><content type="html" xml:base="http://localhost:4000/blog/akcii-so-skidkami/"><![CDATA[<div class="intro__post">
+    <h1 class=" bold max-width-text">Как компании выделиться среди акций со скидками</h1> 
+    <small class="small"><time itemprop="datePublished" datetime="2016-11-24"> 24 ноября 2016</time> 
+    </small>
+</div>
+
+<p>На&nbsp;вопросы о&nbsp;скидках я&nbsp;обычно отвечаю коротко: <strong>«Скидка должна подчеркивать ценность бренда и&nbsp;усиливать ваши конкурентные преимущества»</strong>. Этот секрет не&nbsp;знают, не&nbsp;понимают или игнорируют многие <b>маркетологи</b>. А&nbsp;зря...</p>
+<p>Порталу «Про бизнес» рассказал, <a class="link" href="https://probusiness.io/management/2778-v-chernuyu-pyatnicu-skidki-budut-u-mnogikh-chem-vydelitsya-na-fone-konkurentov.html">как выделиться компаниям в&nbsp;«черную пятницу»</a>. Ниже&nbsp;— версия для блога. </p>
+
+<section class="row-gap--m">
+<h2 class="section__title h1 bold ">Свяжите условия предоставления скидки с&nbsp;отличиями бренда</h2>
+<p>Если вы&nbsp;работаете не&nbsp;в&nbsp;формате «дискаунт», не&nbsp;стоит делать сильный акцент на&nbsp;цене. Иначе вы&nbsp;поставите себя в&nbsp;проигрышное положение. Подумайте, как дать скидку так, чтобы подчеркнуть ценность предложения. Не&nbsp;довольствуйтесь стандартными преимуществами вроде «качества» и&nbsp;«профессионализма». Найдите значимые отличия предприятия и&nbsp;свяжите их&nbsp;с&nbsp;условиями получения скидки. <strong>Это автоматически вас выделит и&nbsp;усилит образ бренда.</strong></p>
+<p class="post__note h2">Найдите значимые отличия и&nbsp;свяжите их&nbsp;со&nbsp;скидкой. Это автоматически вас выделит и&nbsp;усилит образ бренда.</p>
+<p>Одна компания варьирует стоимость товаров в&nbsp;зависимости от&nbsp;стажа семейной жизни, вторая&nbsp;— определяет скидку по&nbsp;количеству штампов пограничного контроля в&nbsp;паспорте, третья&nbsp;— вместо снижения цены направляет районным больницам&nbsp;30% дневной выручки. Важно не&nbsp;копировать, а&nbsp;найти собственный голос в&nbsp;хоре предложений.</p>
+</section>
+
+<section class="row-gap--m">
+<h2 class="section__title h1 bold ">Сообщите о&nbsp;распродажах заранее </h2>
+<p>Клиент не&nbsp;должен гадать, будут&nbsp;ли у&nbsp;вас скидки в&nbsp;сезон распродаж. Не&nbsp;допускайте, чтобы покупатель тратил время на&nbsp;поиск ответов на&nbsp;вопросы. За&nbsp;дня три до&nbsp;распродажи расскажите о&nbsp;ней подписчикам компании. Сделайте анонс в&nbsp;социальных сетях. Создайте страницу на&nbsp;сайте или отдельный промосайт. Запустите контекстную рекламу.</p>
+<p>Если вы&nbsp;проводите распродажу не&nbsp;в&nbsp;первый раз, подумайте, как вы&nbsp;можете улучшить покупательский опыт. Например, подскажите, где лучше припарковать машину, в&nbsp;какое время ожидаете наибольший поток посетителей, предложите круглосуточную доставку и&nbsp;прием заказов через интернет, чтобы клиент избежал нервозной суеты торгового центра.</p>
+</section>
+
+<section class="row-gap--m">
+<h2 class="section__title h1 bold">Делайте пакетные предложения</h2>
+<p>Если вы&nbsp;знаете, что с&nbsp;телефоном&nbsp;Х часто покупают карту памяти, предлагайте телефон и&nbsp;карту памяти вместе. Предложите рубашку вместе со&nbsp;свитером и&nbsp;брюками. Сделайте готовые наборы подарков к&nbsp;Новому году, товаров для дома, для мужчин и&nbsp;женщин, для студентов и&nbsp;школьников. Товары не&nbsp;обязательно физически помещать в&nbsp;одну коробку. Достаточно соответствующих рубрик на&nbsp;странице сайте и&nbsp;информационных плакатов в&nbsp;торговых залах.</p>
+</section>
+
+<section class="row-gap--m">
+<h2 class="section__title h1 bold ">Стимулируйте повторные покупки</h2>
+<p>Жизнь после «черной пятницы» не&nbsp;останавливается. Не&nbsp;теряйте клиентов, вместе с&nbsp;чеком вручайте купон на&nbsp;скидку при следующей покупке. Разрешите передавать его знакомым и&nbsp;близким. Установите срок действия купона, чтобы подтолкнуть человека к&nbsp;действиям.</p>
+</section>
+
+<div itemprop="image" itemscope="" itemtype="http://schema.org/ImageObject">	
+		<link itemprop="url" href="/assets/images/blog/akcii-so-skidkami/dis1.jpg" />	
+<picture>
+<source srcset="/assets/images/blog/akcii-so-skidkami/dis1.avif" type="image/avif" /> 
+<source srcset="/assets/images/blog/akcii-so-skidkami/dis1.webp" type="image/webp" /> 
+<img class="image" loading="lazy" decoding="async" src="/assets/images/blog/akcii-so-skidkami/dis1.jpg" alt="Предлагаем скидки правильно: связываем условия предоставления с отличиями бренда, делаем пакетные предложения, стимулируем повторные покупки, информируем заранее." width="695" height="422" itemprop="contentUrl" />
+</picture>
+</div>]]></content><author><name></name></author><category term="мнение" /><category term="инструменты" /><category term="бизнес" /><summary type="html"><![CDATA[Рассказываю, как выделиться компании в&nbsp;сезон распродаж, когда скидки предлагают многие.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/tizers/tizer-33.jpg" /><media:content medium="image" url="http://localhost:4000/assets/images/tizers/tizer-33.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Как оформить магазин к Новому году | Дмитрий Бартошевич</title><link href="http://localhost:4000/blog/novogodnee-oformlenie-magazina/" rel="alternate" type="text/html" title="Как оформить магазин к Новому году | Дмитрий Бартошевич" /><published>2016-11-06T00:00:00+03:00</published><updated>2022-02-04T00:00:00+03:00</updated><id>http://localhost:4000/blog/novogodnee-oformlenie-magazina</id><content type="html" xml:base="http://localhost:4000/blog/novogodnee-oformlenie-magazina/"><![CDATA[<div class="intro__post">
+    <h1 class=" bold max-width-text">Новогоднее оформление магазина</h1> 
+    <small class="small"><time itemprop="datePublished" datetime="2016-11-06">  6 ноября 2016</time> 
+    </small>
+</div>
+
+<div class="with-side row-gap--m">
+<p>Как оформить магазин к&nbsp;новогодним праздникам обсудил со&nbsp;специалистом в&nbsp;визуальном мерчендайзинге и&nbsp;витринистике&nbsp;— Алей Назаркиной. Беседа получилась интересной. <strong>Поговорили о&nbsp;задачах и&nbsp;роли визуального мерчендайзинга</strong>, типичных ошибках, ситуации на&nbsp;рынке и&nbsp;принципах выбора специалистов для новогоднего оформления магазина.</p>
+	<div class="side">
+		<div class="guests">
+			<div class="guest-person">
+				<img class="image is-150x150" src="https://res.cloudinary.com/bartoshevich/image/upload/f_auto/v1615120270/site/newyear1.jpg" alt="Александра Назаркина" width="150" height="150" />	
+					<div class="guest-person__name">Аля Назаркина</div>
+					<div class="guest-person__position">руководитель проекта «Магазин под ключ», <a class="link" href="https://nzr.by/">nzr.by</a></div>				
+			</div>
+		</div>
+	</div>
+</div>
+
+<section class="row-gap--m">
+<h2 class="section__title h1 bold ">Идеалы и&nbsp;реальность визуального мерчендайзинга в&nbsp;Беларуси</h2>
+<p>—&nbsp;Грамотное оформление магазина должно <strong>подчеркивать и&nbsp;укреплять образ бренда</strong>, помогать отстраиваться от&nbsp;конкурентов. Примеры&nbsp;— Starbucks, Desigual, Victoria’s Secret, чей стиль вы&nbsp;узнаете и&nbsp;в&nbsp;Москве, и&nbsp;в&nbsp;Нью-Йорке. Это ориентиры, «чистые» идеи, которые объясняют миссию и&nbsp;творческую задачу специалистов по&nbsp;визуальному мерчендайзингу.</p>
+<p>Воплотить&nbsp;же эти идеи в&nbsp;Беларуси не&nbsp;легко. Бизнесмены не&nbsp;стремятся получить событийный дизайн, действительно способный визуально «отыграть», привлечь внимание, повлиять на&nbsp;лояльность клиентов. Не&nbsp;каждый руководитель понимает значимость единого образа компании и&nbsp;роли мерчендайзинга. «Нам дизайн не&nbsp;нужен: мы&nbsp;уже елку купили, сотрудники дождик на&nbsp;нее повесили...» В&nbsp;итоге белорусские магазины напоминают безликие копии одной маловразумительной несуществующей витрины.</p>
+</section>
+
+<section class="row-gap--m">
+<h2 class="section__title h1 bold ">Подход к&nbsp;оформлению магазина в&nbsp;Новый год</h2>
+<p>—&nbsp;Новый год не&nbsp;означает одинаковый праздничный образ магазинов. Контекст праздника раскрывается в&nbsp;бесчисленном калейдоскопе образов и&nbsp;идей, которые, хотя и&nbsp;отсылают к&nbsp;Новому году, в&nbsp;корне отличаются друг от&nbsp;друга. Все зависит от&nbsp;расставленных акцентов и&nbsp;смыслов, эмоций и&nbsp;настроения: от&nbsp;наивных, сказочных и&nbsp;детских до&nbsp;деловых, винтажных или даже с&nbsp;намеком на&nbsp;сексуальность.
+</p>
+
+<p>Праздник или сезон&nbsp;— часть инструментария, который на&nbsp;практике можно применить самым неожиданным образом в&nbsp;контексте конкретного <b>бренда</b>, конкретной культуры, конкретного места и&nbsp;конкретной узкой задачи.</p>
+
+<div itemprop="image" itemscope="" itemtype="http://schema.org/ImageObject">	
+		<link itemprop="url" href="https://res.cloudinary.com/bartoshevich/image/upload/q_auto,f_auto/v1540025279/newyear2.jpg" />	
+<img class="image" loading="lazy" decoding="async" src="https://res.cloudinary.com/bartoshevich/image/upload/q_auto,f_auto/v1540025279/newyear2.jpg" alt="фотографии витрин" width="695" height="576" itemprop="contentUrl" />
+<div class="figcaption" itemprop="description">
+		Новогодние витрины. Разный инструментарий, разный подход, разные интерпретации
+</div>
+</div>
+</section>
+
+<section class="row-gap--m">
+<h2 class="section__title h1 bold ">Типичные ошибки при оформлении магазинов</h2>
+<p>—&nbsp;Я&nbsp;против универсальных рецептов и&nbsp;формул по&nbsp;созданию идеальной витрины. Какую&nbsp;бы инструкцию не&nbsp;составили, она не&nbsp;поможет человеку без специальной подготовки провести операцию по&nbsp;удалению аппендицита. Также и&nbsp;в&nbsp;визуальном мерчендайзинге. Эта сфера требует специфических навыков, компетенций и&nbsp;опыта. Желаете понять, что с&nbsp;витриной не&nbsp;так и&nbsp;что делать,&nbsp;— пригласите для анализа специалиста по&nbsp;визуальному мерчендайзингу.</p>
+<p>Если&nbsp;же кратко выделить ключевые моменты, то&nbsp;отмечу следующее:</p>
+<ul class="additive-spacing">
+	<li class="list-li">«В&nbsp;норме» витрина рассказывает историю, которая легко считывается через визуальные образы. Вместо этого часто наблюдаю архаичную демонстрацию «достижений народного хозяйства».</li>
+	<li class="list-li">Если полумрак&nbsp;— не&nbsp;задумка дизайнера, осветите витрину максимально. Не&nbsp;одним светильником, а&nbsp;несколькими и&nbsp;с&nbsp;разных точек. Свет на&nbsp;манекены и&nbsp;на&nbsp;товар должен быть разным.</li>
+	<li class="list-li">Оденьте и&nbsp;обуйте манекены. Чем полнее и&nbsp;живее образы манекенов, тем лучше.</li>
+	<li class="list-li">Манекены и&nbsp;прочие атрибуты должны вписываться в&nbsp;стиль и&nbsp;сюжет витрины, дополнять историю, участвовать в&nbsp;ней.</li>
+ </ul>
+</section>
+
+<section class="row-gap--m">
+<h2 class="section__title h1 bold ">Кого и&nbsp;как выбирать для оформления магазина</h2>
+<p>—&nbsp;Целостный качественный образ магазина должны создавать специалисты по&nbsp;визуальному мерчендайзингу и&nbsp;витринистике, которые знают и&nbsp;понимают розницу. Не&nbsp;дизайнеры квартир, не&nbsp;архитекторы и&nbsp;даже не&nbsp;флористы.</p>
+<p>Идеальная ситуация&nbsp;— слаженная работа над проектом нескольких специалистов&nbsp;— торгового маркетолога, дизайнера и&nbsp;архитектора. Такая синергия принесет магазину больше пользы чем талантливый дизайнер, который раньше работал оформителем на&nbsp;праздниках.</p>
+
+<div itemprop="image" itemscope="" itemtype="http://schema.org/ImageObject">	
+		<link itemprop="url" href="/assets/images/blog/novogodnee-oformlenie-magazina/newyear3.jpg" />
+<picture>
+<source srcset="/assets/images/blog/novogodnee-oformlenie-magazina/newyear3.avif" type="image/avif" /> 
+<source srcset="/assets/images/blog/novogodnee-oformlenie-magazina/newyear3.webp" type="image/webp" /> 
+<img class="image" loading="lazy" decoding="async" src="/assets/images/blog/novogodnee-oformlenie-magazina/newyear3.jpg" alt="образ магазина должны создавать специалисты по визуальному мерчендайзингу и витринистике" width="695" height="364" itemprop="description" />
+</picture>
+</div>
+
+<p>В&nbsp;первую очередь о&nbsp;профессиональном оформлении магазинов следует задуматься владельцам торговых сетей. Специалист создаст образ и&nbsp;стандарты для одного магазина, проведет внутреннее обучение, а&nbsp;сотрудники сети займутся масштабированием.</p>
+<p>При выборе специалиста обратите внимание&nbsp;на:</p>
+<ul class="additive-spacing">
+	<li class="list-li">специализацию (розница, кафе, события, корпоративы, др.);</li>
+	<li class="list-li">обоснование предлагаемых идей (одни скажут «так красиво», другие&nbsp;— «это увеличит средний чек»);</li>
+	<li class="list-li">срок разработки проекта и&nbsp;срок реализации;</li>
+	<li class="list-li">возможность обучения персонала для поддержки витрины или ее&nbsp;масштабирования;</li>
+	<li class="list-li">стоимость услуг и&nbsp;стоимость материалов (это разные сметы).</li>
+ </ul>
+</section>]]></content><author><name></name></author><category term="мнение" /><category term="инструменты" /><category term="интервью" /><summary type="html"><![CDATA[Визуальный мерчендайзинг в&nbsp;новогодний период: задачи, типичные ошибки, принципы выбора специалистов.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/tizers/tizer-32.jpg" /><media:content medium="image" url="http://localhost:4000/assets/images/tizers/tizer-32.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Как написать сильный текст: полезные ресурсы | Дмитрий Бартошевич</title><link href="http://localhost:4000/blog/dlya-tex-kto-pishet/" rel="alternate" type="text/html" title="Как написать сильный текст: полезные ресурсы | Дмитрий Бартошевич" /><published>2016-10-16T00:00:00+03:00</published><updated>2022-02-04T00:00:00+03:00</updated><id>http://localhost:4000/blog/dlya-tex-kto-pishet</id><content type="html" xml:base="http://localhost:4000/blog/dlya-tex-kto-pishet/"><![CDATA[<div class="intro__post">
+    <h1 class=" bold max-width-text">Как написать сильный текст: полезные ресурсы</h1> 
+    <small class="small"><time itemprop="datePublished" datetime="2016-10-16"> 16 октября 2016</time> 
+      <time itemprop="dateModified" datetime="2022-02-04">(обновил  4 февраля 2022)</time>
+    </small>
+</div>
+
+<p><strong>Составить сильный рекламный текст, подготовить понятное коммерческое предложение и&nbsp;ясно описать товар на&nbsp;сайте</strong> помогут сервисы и&nbsp;материалы, о&nbsp;которых расскажу в&nbsp;статье.</p>
+<p>Читайте, изучайте и&nbsp;используйте. Устали от&nbsp;«словесного мусора»&nbsp;— поделитесь статьей в&nbsp;социальных сетях.</p>
+
+<section class="row-gap--m">
+<h2 class="section__title h1 bold ">Сервисы</h2>
+
+<article class="row-gap--m">
+<h3 class="h2 bold mb-m">1) Главред&nbsp;— <a class="link" href="https://glvrd.ru/">glvrd.ru</a></h3>
+<div class="with-side row-gap--m">
+<p>Сервис беспощадно отмечает и&nbsp;просит убрать из&nbsp;текста стоп-слова, рекламные штампы, канцелярит и&nbsp;плохой синтаксис. Последуете советам&nbsp;— текст станет короче, понятнее и&nbsp;информативнее.</p>
+<p>Когда я&nbsp;узнал о&nbsp;Главреде, пробовал писать новые статьи в&nbsp;браузере на&nbsp;странице сервиса. Результат&nbsp;— «зависал» на&nbsp;первом абзаце, который полировал несколько часов. Не&nbsp;повторяйте ошибки&nbsp;— проверяйте и&nbsp;редактируйте уже написанный текст.</p>
+<p>Также советую ознакомиться <a class="link" href="http://maximilyahov.ru/blog/all/glvrd-7/">с&nbsp;рекомендациями Максима Ильяхова&nbsp;</a>— автора Главреда&nbsp;— по&nbsp;работе с&nbsp;сервисом.</p>
+
+<div class="side">
+<p><span class="bold">Дополнено:</span> в&nbsp;декабре 2017 компания «Ашманов и&nbsp;партнёры» открыла доступ к&nbsp;сервису по&nbsp;оценке качества текста&nbsp;— <a class="link" href="https://turgenev.ashmanov.com/">«Тургенев»</a>. Сделан сервис на&nbsp;основе мониторинга факторов ранжирования в&nbsp;Яндексе и&nbsp;Гугл. Еще один полезный инструмент для <b>маркетолога</b>. </p></div></div>
+</article>
+
+<article class="row-gap--m">
+<h3 class="h2 bold mt-m mb-m">2) Оценка читабельности текста&nbsp;— <a class="link" href="http://readability.io/">readability.io</a></h3>
+<p>Сервис считает длину слов и&nbsp;предложений, долю сложных слов и&nbsp;терминов, уровень абстрактности лексики и&nbsp;прочее, чтобы определить легкость восприятия текста. После вычислений показывает индекс уровня читабельности и&nbsp;возраст человека, которому текст будет понятен.</p>
+<p><em>Пример:</em> взял заведомо сложный материал&nbsp;— несколько глав из&nbsp;«Критики чистого разума» Канта&nbsp;— и&nbsp;оцифровал легкость восприятия. Уровень читабельности&nbsp;— 17.2. Аудитория&nbsp;— <span class="noperenos">4-6</span> курсы ВУЗа. Эти показатели&nbsp;— точка отсчета. По&nbsp;отношению к&nbsp;ним рассмотрел другие, случайно выбранные статьи. Обнаружил, что Нацбанк РБ&nbsp;описывает работу с&nbsp;обращениями граждан сложнее, чем Кант рассуждал о&nbsp;категориях рассудка и&nbsp;антиномиях разума.</p>
+
+<div class="figure">
+	<div class="figcaption">
+<p>	пример использования readability.io</p>
+</div>
+<table>
+<thead>
+<tr>
+<th>ресурс</th>
+	<th class="text-right">уровень читабель&shy;ности</th>
+	<th>ауди&shy;тория</th>
+
+ 		</tr>
+</thead>
+<tbody>		 
+		<tr>
+	<td>главы «Критики чистого разума»</td>
+	<td class="text-right">17.2</td>
+	<td><span class="noperenos">4-6</span> курс ВУЗа</td>
+
+ 		</tr>
+		<tr>
+	<td>статья <a class="link" href="/mnenie/effektivnost-vlozhenij-v-marketing/">«Как увеличить отдачу от&nbsp;вложений в&nbsp;маркетинг»</a></td>
+	<td class="text-right">10.33</td>
+	<td><span class="noperenos">10-11</span> класс</td>
+
+ 		</tr>
+		<tr>
+<td>сказка папы-маркетолога <a class="link" href="/mnenie/skazki-papy-marketologa/">«Бульба»</a></td>
+	<td class="text-right">4.41</td>
+	<td><span class="noperenos">4-6</span> класс</td>
+
+ 		</tr>
+		<tr>
+	<td>страница сайта Нацбанка РБ&nbsp;<a class="link" href="//www.nbrb.by/today/applications/" target="_blank" rel="noopener">«Работа с&nbsp;обращениями граждан и&nbsp;юридических лиц»</a> (15.10.2016)</td>
+	<td class="text-right">21.87</td>
+	<td>аспи&shy;рантура, ученая степень</td>
+
+ 	</tr>
+ 	</tbody>
+ </table>
+</div>
+</article>
+
+
+<article class="row-gap--m">
+<h3 class="h2 bold mt-m mb-m">3) Проверка текста на&nbsp;уникальность&nbsp;— <a class="link" href="//text.ru/">text.ru</a></h3>
+<p>Сервис проверит орфографию, наличие дубликатов в&nbsp;сети и&nbsp;проведет SEO-анализ текста.</p>
+<p>Перед публикацией статьи убеждаюсь, что уникальность близка или равна 100%. Несколько раз проверял и&nbsp;после опубликования. Дважды находил воров&nbsp;— люди скопировали мои записи и&nbsp;выдали за&nbsp;свои.</p>
+</article>
+
+
+<article class="row-gap--m">
+<h3 class="h2 bold mt-m mb-m">4) <a class="link" href="https://www.artlebedev.ru/typograf/">Типограф</a> Студии Артемия Лебедева</h3>
+<p>Типограф грамотно оформляет статью перед публикацией в&nbsp;интернете: расставляет правильные кавычки, правильное тире между словами и&nbsp;дефис для двойных слов, убирает лишние пробелы и&nbsp;т.д. С&nbsp;типографом статьи выглядят опрятно.</p>
+
+
+<div itemprop="image" itemscope="" itemtype="http://schema.org/ImageObject">	
+	<link itemprop="url" href="/assets/images/blog/dlya-tex-kto-pishet/typograf.jpg" />
+	<picture>
+               <source srcset="/assets/images/blog/dlya-tex-kto-pishet/typograf.avif" type="image/avif" />
+			    <source srcset="/assets/images/blog/dlya-tex-kto-pishet/typograf.webp" type="image/webp" />
+                <img class="image" loading="lazy" decoding="async" src="/assets/images/blog/dlya-tex-kto-pishet/typograf.jpg" alt="работа типографа" width="695" height="284" itemprop="contentUrl" />
     </picture>
-<div class="figcaption">Предложенная система разрядов. Значения показателей изменены</div>
 </div>
-
-<p>Разряд определяет не&nbsp;только размер скидки, но&nbsp;и&nbsp;другие аспекты работы с&nbsp;предприятием: от&nbsp;количества личных встреч с&nbsp;менеджером до&nbsp;совместных рекламных кампаний. Это уже не&nbsp;просто система скидок, а&nbsp;правила, нормы и&nbsp;стандарты сотрудничества с&nbsp;партнерами.</p>
+</article>
 </section>
-</section>]]></content><author><name></name></author><category term="опыт" /><category term="кейсы" /><summary type="html"><![CDATA[Задача: создание доступной для восприятия и&nbsp;легкой в&nbsp;использовании системы скидок. Дано: десятки стоимостных опций. Как решал&nbsp;— в&nbsp;статье.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/tizers/tizer-21.jpg" /><media:content medium="image" url="http://localhost:4000/assets/images/tizers/tizer-21.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Встреча Про бизнес | Дмитрий Бартошевич</title><link href="http://localhost:4000/blog/vstrecha-pro-biznes/" rel="alternate" type="text/html" title="Встреча Про бизнес | Дмитрий Бартошевич" /><published>2016-05-07T00:00:00+03:00</published><updated>2022-01-20T00:00:00+03:00</updated><id>http://localhost:4000/blog/vstrecha-pro-biznes</id><content type="html" xml:base="http://localhost:4000/blog/vstrecha-pro-biznes/"><![CDATA[<div class="intro__post">
-    <h1 class=" bold max-width-text">Встреча Про бизнес. Личный взгляд</h1> 
-    <small class="small"><time itemprop="datePublished" datetime="2016-05-07">  7 мая 2016</time> 
+
+<section class="row-gap--m">
+<h2 class="section__title h1 bold ">Знания</h2>
+
+<article class="row-gap--m">
+<h3 class="h2 bold mb-m">5) Основной <a class="link" href="http://maximilyahov.ru/blog/all/availability/">курс по&nbsp;информационному стилю</a></h3>
+<p>Текст в&nbsp;информационном стиле&nbsp;— лаконичный, честный и&nbsp;интересный. Рассылку базового курса Максим Ильяхов выложил в&nbsp;сеть. Изучите и&nbsp;оставьте «Главред» без работы </p>
+<p>Как дополнение к&nbsp;рассылке рекомендую
+ <a class="link" href="http://lib.ru/TRANSLATORS/NORA_GAL/slowo.txt">книгу Норы Галь «Слово живое и&nbsp;мертвое»</a>
+и&nbsp;книгу Уильяма Зинсера «Как писать хорошо»</p>
+</article>
+
+<article class="row-gap--m">
+<h3 class="h2 bold mt-m mb-m">6) <a class="link" href="https://soviet.glvrd.ru/">Советы и&nbsp;статьи о&nbsp;тексте, редактуре и&nbsp;рекламе</a></h3>
+<p>Вы&nbsp;узнаете, как объяснить сложные вещи, сделать занудное описание интересным, подтолкнуть человека к&nbsp;полезному действию и&nbsp;многое другое. Каждый совет с&nbsp;примерами.</p>
+</article>
+
+<article class="row-gap--m">
+<h3 class="h2 bold mt-m mb-m">7) Блоги</h3>
+<ul class="additive-spacing">
+	<li class="list-li"><a class="link" href="http://maximilyahov.ru/blog/">Блог Максима Ильяхова</a> о&nbsp;сильном тексте</li>
+	<li class="list-li"><a class="link" href="https://sarycheva.plus/notes/">Блог Люды Сарычевой</a> о&nbsp;редакторском мастерстве</li>
+	<li class="list-li"><a class="link" href="https://irinausichenko.ru/blog/">Безжалостная Усиченко</a> о&nbsp;том, как быть сильным: в&nbsp;жизни, редактуре и&nbsp;просто так.</li>
+ </ul>
+</article>
+
+<article class="row-gap--m">
+<h3 class="h2 bold mt-m mb-m">8) Редполитики <a class="link" href="https://docs.google.com/document/d/14XdGIjVJLM_FsjHzyh5ca8PkffngykzXd2bLPHzA2ME/edit#heading=h.1xvoj9mbqgeo">Тинькофф-журнала</a>&nbsp;и <a class="link" href="https://docs.google.com/document/d/1c_2uP1PpiM12h1ee8egVXAoUCJ9mE9r68zMqrqmS8VA/edit#heading=h.qfb376lrh4iy">Модульбанка</a></h3>
+<p>Привожу как пример принципов работы с&nbsp;текстом, ориентированных на&nbsp;пользу и&nbsp;развитие доверия у&nbsp;читателей.</p>
+
+
+<div itemprop="image" itemscope="" itemtype="http://schema.org/ImageObject">
+<div class="figcaption">
+<p>	выдержка из&nbsp;редполитики Тинькофф-журнала</p>
+</div>	
+	<link itemprop="url" href="/assets/images/blog/dlya-tex-kto-pishet/typograf.jpg" />
+	<picture>
+               <source srcset="/assets/images/blog/dlya-tex-kto-pishet/tin_redpolicy.avif" type="image/avif" />
+			    <source srcset="/assets/images/blog/dlya-tex-kto-pishet/tin_redpolicy.webp" type="image/webp" />
+                <img class="image" loading="lazy" decoding="async" src="/assets/images/blog/dlya-tex-kto-pishet/tin_redpolicy.jpg" alt="правило о повелительном наклонении: допустимо в инструкциях и когда просят совет" width="900" height="300" itemprop="contentUrl" />
+    </picture>
+</div>
+</article>
+
+
+<article class="row-gap--m">
+<h3 class="h2 bold mt-m mb-m">9) <a class="link" href="//royallib.com/book/klark_roy_piter/50_priemov_pisma.html">Книга «50&nbsp;приемов письма»</a> Роя Питера Кларка</h3>
+<p>Ресурс для «отличников». После каждой главы вас ждут задания. Пригодятся карандаши, толстые газеты, книги и&nbsp;черновики. Результат&nbsp;— научитесь более осознанно выбирать слова, строить фразы и&nbsp;предложения.</p>
+</article>
+</section>]]></content><author><name></name></author><category term="мнение" /><category term="инструменты" /><summary type="html"><![CDATA[Сервисы и&nbsp;материалы, которые помогут составить сильный рекламный текст, подготовить понятное коммерческое предложение и&nbsp;ясно описать товар на&nbsp;сайте.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/tizers/tizer-31.jpg" /><media:content medium="image" url="http://localhost:4000/assets/images/tizers/tizer-31.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Идея рекламы для банка Тинькова | Дмитрий Бартошевич</title><link href="http://localhost:4000/blog/reklama-dlya-banka-tinkova/" rel="alternate" type="text/html" title="Идея рекламы для банка Тинькова | Дмитрий Бартошевич" /><published>2016-10-05T00:00:00+03:00</published><updated>2022-02-04T00:00:00+03:00</updated><id>http://localhost:4000/blog/opyt-reklama-dlya-banka-tinkova</id><content type="html" xml:base="http://localhost:4000/blog/reklama-dlya-banka-tinkova/"><![CDATA[<div class="intro__post">
+    <h1 class=" bold max-width-text">Как я рекламировал банк Олега Тинькова</h1> 
+    <small class="small"><time itemprop="datePublished" datetime="2016-10-05">  5 октября 2016</time> 
     </small>
 </div>
 
-<p>5 мая состоялась «Встреча „Про бизнес“». Приглашенные спикеры — генеральный директор Svitland Development в Беларуси и Литве Иосиф Фридман и директор компании «Волис», сооснователь «Инволюкс» Андрей Торсунов.</p>
-
-<picture>
-<source srcset="/assets/images/blog/vstrecha-pro-biznes/pro1.avif" type="image/avif" />
-                <source srcset="/assets/images/blog/vstrecha-pro-biznes/pro1.webp" type="image/webp" />
-             <img class="image" src="/assets/images/blog/vstrecha-pro-biznes/pro1.jpg" alt="" width="695" height="539" />
-</picture>
-
-<div class="notetip mb-1"><span class="bold">Справка.</span> Встреча Про Бизнес — разговор о бизнесе с двумя успешными бизнесменами в формате вопрос-ответ. Вопросы задает модератор встречи, спикеры друг другу и зрители. Организатор — портал «Про бизнес».</div>
-<p><a class="link" href="//probusiness.io/">На портале «Про бизнес»</a> вы найдете детальное описание ключевых идей, высказанных спикерами. Здесь же — личная история посещения мероприятия и то важное, что я отметил для себя.</p>
+<p>Рассказываю историю, как <strong>придумал идею рекламы для банка Олега Тинькова</strong>, предложил Тинькову и что из этого вышло.</p>
 
 <section class="row-gap--m">
-<h2 class="block__space--top-h2 h1 bold max-width-text">С чем шел на встречу</h2>
-<p>Svitland Development у меня ассоциируется прежде всего с жилым комплексом D3. Он настолько отличается от того, что строят в Минске, что, читая описание D3, у меня невольно родился слоган: «При возведении комплекса строители не ругались матом» :-) </p>
-
-<p>Компанией управляет 35-летний Иосиф Фридман. По интервью с ним составил образ человека, который точно знает, что хочет, ставит амбициозные цели и обязательно достигает. Читаешь и заряжаешься энергией. И хочется в свои 36 делать чуть-чуть больше.</p>
-
-<p>С «Волис» и «Инволюкс» я познакомился в 2011 году, когда <strong>работал руководителем отдела маркетинга</strong> в конкурирующей компании — ООО «Мебелинк» (торговая марка Pro-Trade). Мы изучали ассортимент конкурентов, узнавали стоимость, дистрибьюторскую политику и прочее. Старались увидеть рынок глазами того же «Инволюкс» и предугадать дальнейшие действия… Прошло время и я снова пересекся с «Инволюкс», когда <a class="link" href="/blog/3dom-mebel-dlya-semi/">разрабатывал концепцию развития торговой марки 3Dom.</a> Нужно ли говорить, что Андрея Торсунова я собирался слушать внимательно.</p>
+<h2 class="section__title h1 bold ">Придумал идею рекламы, но&nbsp;не&nbsp;настоял</h2>
+<p>В&nbsp;2012 году я&nbsp;работал в&nbsp;Москве директором по&nbsp;развитию агентства креативного брендинга GetPoint. Олег Анисимов&nbsp;— в&nbsp;то&nbsp;время вице-президент по&nbsp;маркетингу банка «Тинькофф Кредитные Системы»&nbsp;— предложил нам придумать <b>идею рекламной кампании</b>. Согласовали задачи, сроки и&nbsp;креативный отдел агентства с&nbsp;энтузиазмом принялся за&nbsp;работу.</p>
+<p>Придумали несколько достойных концепций. Но&nbsp;моему представлению о&nbsp;рекламе банка Тинькова они не&nbsp;соответствовали. Мыслями поделился с&nbsp;креативным директором, расписал, как&nbsp;бы делал рекламу&nbsp;я. Но&nbsp;или был недостаточно убедителен, или мои идеи действительно уступали, предложение он&nbsp;отклонил.</p>
+<p>В&nbsp;день&nbsp;Х мы&nbsp;презентовали концепции креативного отдела в&nbsp;банке. Тиньков к&nbsp;нам отнесся скептически. Ему сразу не&nbsp;понравилось, что вариантов было несколько. «Вы&nbsp;ключ к&nbsp;замку пришли подбирать? Должна быть одна концепция, за&nbsp;которую будете сражаться... Ладно, показывайте». Мы&nbsp;презентовали одну идею, вторую и&nbsp;по&nbsp;комментариям понимали, что «ключ к&nbsp;замку не&nbsp;подбирается». Перед последней концепцией&nbsp;— откровенно, более слабой, чем предыдущие&nbsp;— обмолвились, что «идея, возможно, Олегу не&nbsp;понравится, но...» Договорить не&nbsp;успели, Тиньков встал и&nbsp;направился к&nbsp;выходу. Даже Анисимов удивился: «Уходишь?» «Конечно, если они не&nbsp;уверены в&nbsp;идее, то&nbsp;чего мне тогда тут делать».</p>
+<p>Формально мы&nbsp;проиграли, но&nbsp;ни&nbsp;я, ни&nbsp;креативный директор не&nbsp;чувствовали себя проигравшими. Мы&nbsp;получили такой заряд энергии и&nbsp;мыслей, словно за&nbsp;раз прошли сотни мотивирующих бизнес-тренингов.</p>
 </section>
 
 <section class="row-gap--m">
-<h2 class="block__space--top-h2 h1 bold max-width-text">Разговор о бизнесе</h2>
-
-<article class="row-gap--m">
-<h3 class="h2 bold list-sign"> с Иосифом Фридманом</h3>
-
-<div itemprop="image" itemscope="" itemtype="http://schema.org/ImageObject">
-		<link itemprop="url" href="/assets/images/blog/vstrecha-pro-biznes/pro2.jpg" />			
-<picture>
-<source srcset="/assets/images/blog/vstrecha-pro-biznes/pro2.avif" type="image/avif" />
-                <source srcset="/assets/images/blog/vstrecha-pro-biznes/pro2.webp" type="image/webp" />
-           <img loading="lazy" class="image" src="/assets/images/blog/vstrecha-pro-biznes/pro2.jpg" alt="" width="695" height="463" title="Иосиф Фридман" itemprop="contentUrl" />
-</picture>
-<div class="figcaption" itemprop="description">
-Иосиф Фридман. Фото: Андрей Пискун, портал «Про бизнес»
-</div>
-</div>
-
-
-<p>Иосиф ожидаемо для меня отметил, что хоть кризис в Беларуси — один из крупных в его карьере, благодаря ему работа интереснее. Иосиф не боится не продать квартиры в D3, несмотря на высокую стоимость квадратного метра. Он не отказывается от новых идей для инвестиций. И в ближайшее время полетит в Ригу, чтобы обсудить проект в 50–60 млн. евро.</p>
-
-<p>Иосиф советует принимать решения без эмоций. Решения в состоянии паники — плохие решения. Следует думать и рассчитывать все на несколько шагов вперед.</p>
-
-<p><span class="bold">Мой вопрос Иосифу:</span> «В одном интервью вы сказали, что быстрому развитию инвестпроектов в РБ мешает ментальность, законодательство и бюрократия. Если речь идет о ментальности белорусов, то от каких ценностных установок, культурных особенностей белорусов следует избавиться в первую очередь, чтобы бизнес развивался быстро?»</p>
-
-<p><span class="bold">Ответ:</span> Я говорил о ментальности чиновников. Они очень долго принимают решения. И если есть возможность не принимать, они решений принимать не будут. Работают по принципу: «инициатива наказуема». А каждый день их обдумывания — убытки для меня — инвестора… Поймите, нельзя строить так, как это делали 30 лет назад. Появились новые материалы, новые технологии, другие требования к удобству жилья. Я возил белорусскую делегацию во главе с замминистра архитектуры и строительства по Тель-Авиву и городу-спутнику и показывал, как сейчас застраивают новые районы. Всем понравилось, но прошло несколько лет, а так ничего и не поменялось. К сожалению, среди чиновников единомышленников я не нашел.</p>
-</article>
-<article class="row-gap--m">
-<h3 class="h2 bold mt-m list-sign"> с Андреем Торсуновым</h3>
-
-<div itemprop="image" itemscope="" itemtype="http://schema.org/ImageObject">
-		<link itemprop="url" href="/assets/images/blog/vstrecha-pro-biznes/pro3.jpg" />	
-<picture>
-<source srcset="/assets/images/blog/vstrecha-pro-biznes/pro3.avif" type="image/avif" />
-                <source srcset="/assets/images/blog/vstrecha-pro-biznes/pro3.webp" type="image/webp" />
-         <img loading="lazy" class="image" src="/assets/images/blog/vstrecha-pro-biznes/pro3.jpg" alt="" width="695" height="463" title="Андрей Торсунов" itemprop="contentUrl" />
-</picture>
-<div class="figcaption" itemprop="description">
-Андрей Торсунов. Фото: Андрей Пискун, портал «Про бизнес»
-</div>
-</div>
-
-
-
-<p>Андрей затронул интересные темы, но здесь отмечу только рассуждения о кризисе и предпринимательстве.</p>
-
-<p class="mb-m">Две ключевые цитаты:</p>
+<h2 class="section__title h1 bold ">Сделал эскиз и&nbsp;показал Тинькову</h2>
+<p>Порою пытался представить, что было&nbsp;бы, если&nbsp;бы презентовали мое видение ролика. В&nbsp;основе того, что предлагал&nbsp;я, было три тезиса:</p>
 <ul class="additive-spacing">
-<li class="list-li">«Если денег много — это работа для менеджера, если мало — для предпринимателя. Я — предприниматель».</li>
-<li class="list-li">«Кризис мобилизует. Пока ты сидишь и думаешь, ничего не происходит. Чтобы выжить, нужно действовать, быть проактивным. Когда некуда отступать, то движешься только вперед».</li>
-</ul>
+	<li class="list-li">В&nbsp;то&nbsp;время Олег Тиньков активно пропагандировал предпринимательство. Это и&nbsp;его «Бизнес-секреты», и&nbsp;книги, где он&nbsp;делился опытом. Если есть устойчивая положительная ассоциация «Тиньков&nbsp;— предприниматели», то&nbsp;игнорировать ее&nbsp;не&nbsp;следует.</li>
+	<li class="list-li">Кредиты&nbsp;— не&nbsp;кабала, а&nbsp;возможность, ресурс для развития. Концентрация на&nbsp;возможностях&nbsp;— как раз&nbsp;то, что характеризует и&nbsp;предпринимателей, и&nbsp;правильных заемщиков.</li>
+	<li class="list-li">Песня Цоя «Дальше действовать будем&nbsp;мы» стала частью и&nbsp;образа Тинькова, и&nbsp;образа банка. Она гармонично будет звучать и&nbsp;в&nbsp;рекламе.</li>
+ </ul>
+<p>Попробовал переложить <b>идею рекламы</b> на&nbsp;слайды в&nbsp;Prezi. Готовую презентацию показал сам себе, записывая ее&nbsp;с&nbsp;экрана ноутбука. На&nbsp;видео наложил музыку. С&nbsp;песней Цоя возился долго. Опыта работы в&nbsp;музыкальных редакторах не&nbsp;было. И&nbsp;пока не&nbsp;догадался использовать несколько дорожек, никак не&nbsp;получалось вырезать и&nbsp;склеить фрагменты песни правильно. Готовый набросок&nbsp;— ролик не&nbsp;более, чем набросок рекламы&nbsp;— отправил друзьям, попросил поделиться впечатлениями.</p>
 
-<p>Главное качество предпринимателя в кризисное время — по мнению Андрея — стрессоустойчивость. Рецепт стрессоустойчивости — активные виды спорта («чтоб дышать тяжело, потеть») и семья.</p>
+<div class="figure">
+	<div class="figcaption">
+		Эскиз видеоролика
+	   </div>
+	<div class="video ">
+		   <a class="video__link " href="https://youtu.be/LcRjumujYws" target="_blank" rel="noopener nofollow noreferrer">
+			   <picture>
+				   <source srcset="https://i.ytimg.com/vi_webp/LcRjumujYws/maxresdefault.webp" type="image/webp" />
+				   <img loading="lazy" class="video__media " src="https://i.ytimg.com/vi/LcRjumujYws/maxresdefault.jpg" alt="Эскиз видеоролика для банка Тинькова" width="1280" height="720" />
+			   </picture>
+		   </a>
+		   <button class="video__button" aria-label="Запустить видео">
+			   <svg width="68" height="48" viewBox="0 0 68 48"><path class="video__button-shape" d="M66.52,7.74c-0.78-2.93-2.49-5.41-5.42-6.19C55.79,.13,34,0,34,0S12.21,.13,6.9,1.55 C3.97,2.33,2.27,4.81,1.48,7.74C0.06,13.05,0,24,0,24s0.06,10.95,1.48,16.26c0.78,2.93,2.49,5.41,5.42,6.19 C12.21,47.87,34,48,34,48s21.79-0.13,27.1-1.55c2.93-0.78,4.64-3.26,5.42-6.19C67.94,34.95,68,24,68,24S67.94,13.05,66.52,7.74z"></path><path class="video__button-icon" d="M 45,24 27,14 27,34"></path></svg>
+		   </button>
+   </div>
+</div>
 
-<p><span class="bold">Мой вопрос Андрею:</span> «Андрей Иванович, удивляли ли вас конкуренты в Беларуси? Если да, то как и кто?»</p>
-<p><span class="bold">Ответ:</span> «Нет. Белорусские компании меня не удивляли».</p>
-</article>
-</section>
+<p>А&nbsp;затем подумал, что буду вечно гадать, как отреагировал&nbsp;бы Олег Тиньков на&nbsp;мою идею. Выложил видео в&nbsp;ютуб, поставил ссылку на&nbsp;видео в&nbsp;твитере, где упомянул аккаунт Тинькова и&nbsp;его банка. И&nbsp;через минут 15&nbsp;получил обратную связь.</p>
 
-<section class="row-gap--m">
-<h2 class="block__space--top-h2 h1 bold max-width-text">Штрихи к описанию встречи</h2>
-<ul class="additive-spacing">
- 	<li class="list-li">Заявленное время начала встречи — 19.00. Во столько она и началась. <span class="italic">#понравилось</span></li>
- 	<li class="list-li">Объявили о завершении мероприятия. Зрители обступили спикеров и общение продолжилось. К Иосифу подходили по одному, выстроилась очередь. Иосиф быстро схватывал суть вопроса и направлял к личному помощнику, которая стояла рядом. Коротко ей указывал, что сделать, и переходил к следующему человеку… Личного помощника у Андрея я не заметил. Вокруг него собралась группа людей, желающие подходили и включались в общую беседу. <span class="italic">#бросилось_в_глаза</span></li>
- 	<li class="list-li">Полезно взбадривать себя подобными встречами! <span class="italic">#словил_себя_на_мысли</span></li>
-</ul>
-</section>]]></content><author><name></name></author><category term="опыт" /><category term="бизнес" /><summary type="html"><![CDATA[Встреча Про бизнес. Разговор с&nbsp;Андреем Торсуновым и&nbsp;Иосифом Фридманом. Впечатления, идеи.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/tizers/tizer-20.jpg" /><media:content medium="image" url="http://localhost:4000/assets/images/tizers/tizer-20.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
+ <div class="figure" itemprop="image" itemscope="" itemtype="http://schema.org/ImageObject">
+		<link itemprop="url" href="/assets/images/uslugi/promo/tin2-800.jpg" />
+        <div class="figcaption">реакция Тинькова  </div>
+        <picture> 
+		<source srcset="/assets/images/uslugi/promo/tin2-400.webp 1x, /assets/images/uslugi/promo/tin2-800.webp 2x" type="image/webp" />
+		<img loading="lazy" decoding="async" class="image" src="/assets/images/uslugi/promo/tin2.jpg" alt="Тиньков в твиттере написал, что идея рекламы понравилась" srcset="/assets/images/uslugi/promo/tin2-800.jpg 2x" width="400" height="483" itemprop="contentUrl" />
+        </picture>
+</div>
+
+<p>Примерно в&nbsp;тот&nbsp;же момент получил письма от&nbsp;друзей, которые откликнулись на&nbsp;мою просьбу. Ролик разнесли в&nbsp;пух и&nbsp;прах. И&nbsp;слишком быстро, и&nbsp;какая-то полоса по&nbsp;середине дергается, и&nbsp;т.д. :-)</p>
+
+
+<div class="post__note mt-m">
+<p>Мораль истории: <br /> <span class="bold h2">&laquo;Делайте, что считаете правильным, и&nbsp;будь, что будет&raquo;</span></p>
+</div>
+</section>]]></content><author><name></name></author><category term="опыт" /><category term="реклама" /><category term="кейсы" /><summary type="html"><![CDATA[Рассказываю историю, как придумал идею рекламы для банка Олега Тинькова, поделился с&nbsp;Тиньковым и&nbsp;что из&nbsp;этого вышло.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/tizers/tizer-30.jpg" /><media:content medium="image" url="http://localhost:4000/assets/images/tizers/tizer-30.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>

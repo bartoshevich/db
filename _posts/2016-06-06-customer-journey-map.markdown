@@ -45,7 +45,7 @@ image: /assets/images/tizers/tizer-22.jpg
 
 
 <section class="row-gap--m" id="1">
-<h2 class="block__space--top-h2 h1 bold ">Зачем customer journey mapping</h2>
+<h2 class="section__title h1 bold ">Зачем customer journey mapping</h2>
 
 <p>Потребительский опыт&nbsp;— все, что клиент думает и&nbsp;чувствует, когда контактирует с&nbsp;компанией, будь-то видит всплывающую рекламу в&nbsp;интернете или звонит в&nbsp;отдел продаж. Если отобразить все случаи взаимодействия клиента с&nbsp;фирмой и&nbsp;отметить его мысли и&nbsp;эмоции на&nbsp;каждом этапе, мы&nbsp;получим карту потребительского опыта или customer journey map.</p>
 
@@ -72,7 +72,7 @@ image: /assets/images/tizers/tizer-22.jpg
 </section>
 
 <section class="row-gap--m" id="2">
-<h2 class="block__space--top-h2 h1 bold ">Правила составления CJM, которые помогут избежать ошибок</h2>
+<h2 class="section__title h1 bold ">Правила составления CJM, которые помогут избежать ошибок</h2>
 
 <section class="row-gap--m">
 <h3 class="h2 bold mb-m">1) Начинайте работу с&nbsp;выбора персонажа</h3>
@@ -103,7 +103,7 @@ image: /assets/images/tizers/tizer-22.jpg
 </section>
 
 <section class="row-gap--m" id="3">
-<h2 class="block__space--top-h2 h1 bold ">Алгоритм создания карты потребительского опыта</h2>
+<h2 class="section__title h1 bold ">Алгоритм создания карты потребительского опыта</h2>
 <p>Чтобы&nbsp;— наконец-то&nbsp;— составить CJM, следуйте описанным ниже шагам и&nbsp;схематичным примерам.</p>
 <section class="row-gap--m">
 <h3 class="h2 bold mb-m">Шаг&nbsp;1. Проследите путь персонажа</h3>
@@ -181,7 +181,7 @@ image: /assets/images/tizers/tizer-22.jpg
 </section>
 
 <section class="row-gap--m" id="CJM-tools">
-<h2 class="block__space--top-h2 h1 bold ">Инструменты для разработки CJM</h2>
+<h2 class="section__title h1 bold ">Инструменты для разработки CJM</h2>
 
 <p>Опубликовал статью и&nbsp;получил отзыв от&nbsp;UXPressia&nbsp;&mdash; компании, которая развивает онлайн-сервис построения карт потребительского опыта.</p> 
 

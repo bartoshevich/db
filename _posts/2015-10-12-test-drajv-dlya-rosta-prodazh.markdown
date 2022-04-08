@@ -44,8 +44,8 @@ image: /assets/images/tizers/tizer-9.jpg
 </div>
 
 
-<section class="full-bleed row-gap--m max-width-text" >
-<h2 class="block__space--top-h2 h1 bold ">Польза тестирования продукта покупателями</h2>
+<section class="row-gap--m" >
+<h2 class="section__title h1 bold">Польза тестирования продукта покупателями</h2>
 <ul class="additice-spacing">
 	<li class="list-li">Если продукт тестируют в&nbsp;торговом салоне, у&nbsp;продавцов появляется дополнительное время для предметного общения с&nbsp;посетителями. Выявляйть потребности, работать с&nbsp;сомнениями, слушать предложения по&nbsp;развитию.</li>
 
@@ -78,8 +78,8 @@ image: /assets/images/tizers/tizer-9.jpg
 
 
 
-<section class="full-bleed row-gap--m max-width-text" >
-<h2 class="block__space--top-h2 h1 bold ">Не&nbsp;бойтесь делиться бесплатно</h2>
+<section class=" row-gap--m " >
+<h2 class="section__title h1 bold ">Не&nbsp;бойтесь делиться бесплатно</h2>
 <p class="mb-m">В&nbsp;заключение приведу цитату из&nbsp;книги «Rework: Бизнес без предрассудков»: </p>
 
 

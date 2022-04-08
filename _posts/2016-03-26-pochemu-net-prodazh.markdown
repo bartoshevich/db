@@ -19,7 +19,7 @@ image: /assets/images/tizers/tizer-18.jpg
 
 
 <section class="row-gap--m">
-<h2 class="block__space--top-h2 h1 bold max-width-text">Обсуждайте не&nbsp;продажи, а&nbsp;действия </h2>
+<h2 class="section__title h1 bold">Обсуждайте не&nbsp;продажи, а&nbsp;действия </h2>
 <div class="with-side row-gap--m">
 <p>Не&nbsp;рассуждайте абстрактно. Превратите слово «продажи» в&nbsp;глагол. Говорите о&nbsp;действиях. Какие шаги сотрудника N (X, Y, Z&nbsp;и&nbsp;т.д.) определили результат? </p>
 
@@ -54,23 +54,23 @@ image: /assets/images/tizers/tizer-18.jpg
 
 
 <section class="row-gap--m">
-<h2 class="block__space--top-h2 h1 bold max-width-text">Меняйте поведение, которое не&nbsp;дает отдачи</h2>
+<h2 class="section__title h1 bold ">Меняйте поведение, которое не&nbsp;дает отдачи</h2>
 <p>Многие с&nbsp;удвоенной скоростью повторяют&nbsp;то, что не&nbsp;работает. Выглядит это так: «В&nbsp;прошлом месяце я&nbsp;предлагал скидку&nbsp;5% на&nbsp;товар&nbsp;Х, ни&nbsp;одного не&nbsp;продал. В&nbsp;этом даю 5%-ю скидку снова. Почему нет продаж, а?». Хотите иного результата&nbsp;— действуйте иначе. </p>
 </section>
 
 
 <section class="row-gap--m">
-<h2 class="block__space--top-h2 h1 bold max-width-text">Анализируйте успешные истории</h2>
+<h2 class="section__title h1 bold">Анализируйте успешные истории</h2>
 <p>Объясняйте не&nbsp;только ошибки, но&nbsp;и&nbsp;успех. Например, если в&nbsp;целом в&nbsp;стране объем продаж в&nbsp;категории сократился на&nbsp;20%, а&nbsp;регионе Х&nbsp;— только на&nbsp;2% или даже вырос, найдите факторы успеха: что там делали иначе, нежели в&nbsp;других регионах.</p>
 </section>
 
 
 <section class="row-gap--m">
-<h2 class="block__space--top-h2 h1 bold max-width-text">Разговаривайте с&nbsp;клиентами </h2>
+<h2 class="section__title h1 bold">Разговаривайте с&nbsp;клиентами </h2>
 <p>Не&nbsp;закрывайтесь в&nbsp;переговорках на&nbsp;внутренних совещаниях. Идите к&nbsp;клиентам. Ответы, что делать и&nbsp;как вам выживать, у&nbsp;них. Узнайте, например, как в&nbsp;кризис изменились их&nbsp;приоритеты, какие навыки и&nbsp;опыт вашего предприятия может быть для них сегодня полезен. </p>
 </section>
 
 
 <section class="row-gap--m">
-<h2 class="block__space--top-h2 h1 bold max-width-text">Привносите в&nbsp;деятельность элементы тестирования</h2>
+<h2 class="section__title h1 bold">Привносите в&nbsp;деятельность элементы тестирования</h2>
 <p>Не&nbsp;существует «Виагры», которая поднимет продажи с&nbsp;гарантией 100%. В&nbsp;лучшем случае есть некая система координат, накопленный опыт и&nbsp;предположения, что работает, а&nbsp;что нет. Но&nbsp;сработает&nbsp;ли в&nbsp;вашем конкретном случае&nbsp;— вопрос. Тестируйте. Тестируйте и&nbsp;используйте лучшее. </p>

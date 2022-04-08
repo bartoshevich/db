@@ -53,7 +53,7 @@ image: /assets/images/tizers/tizer-12.jpg
 
 
 <section class="row-gap--m max-width-text" id="1">
-<h2 class="block__space--top-h2 h1 bold ">Net Promoter Score (NPS). История и&nbsp;значение</h2>
+<h2 class="section__title h1 bold ">Net Promoter Score (NPS). История и&nbsp;значение</h2>
 <p>В&nbsp;начале <span class="noperenos">2000-х</span> Фредерик Райхельд исследовал факторы лояльности потребителей и&nbsp;определил, что с&nbsp;лояльностью клиентов и&nbsp;— в&nbsp;конечном счете&nbsp;— с&nbsp;прибылью компании тесно связан только один фактор&nbsp;— готовность рекомендовать продукт или услугу другим. Он&nbsp;<strong>вывел формулу индекса лояльности (Net Promoter Score&nbsp;) и&nbsp;предложил методику определения</strong>.</p>
 <p>Привлекательность методики NPS в&nbsp;том, что вместо десятка вопросов задается всего два. Вы&nbsp;получите ответы, которые сильно коррелируют с&nbsp;экономическим поведением клиентов. Исчезает необходимость в&nbsp;многостраничных опросниках и&nbsp;отзывах, которые никак не&nbsp;проясняют желание сотрудничать с&nbsp;предприятием. </p>
 <p class="post__note">NPS&nbsp;— это не&nbsp;два дополнительных вопроса для <span class="noperenos">100-страничной</span> анкеты, а&nbsp;центральный момент получения обратной связи от&nbsp;клиентов. </p>
@@ -63,7 +63,7 @@ image: /assets/images/tizers/tizer-12.jpg
 
 
 <section class="row-gap--m max-width-text" id="2" itemscope itemtype="https://schema.org/HowTo">
-<h2 class="block__space--top-h2 h1 bold " itemprop="name">Как рассчитать Net Promoter Score</h2>
+<h2 class="section__title h1 bold " itemprop="name">Как рассчитать Net Promoter Score</h2>
 
 <section class="row-gap--m" itemprop="step" itemscope itemtype="https://schema.org/HowToSection">     
       <h3 class="h2 bold mb-m" itemprop="name" >Шаг 1. Задайте клиентам два вопроса</h3>
@@ -143,7 +143,7 @@ image: /assets/images/tizers/tizer-12.jpg
 
 
 <section class="full-bleed row-gap--m " id="3">
-<h2 class="block__space--top-h2 h1 bold ">Что упускают при анализе NPS</h2>
+<h2 class="section__title h1 bold ">Что упускают при анализе NPS</h2>
 
 <section class="full-bleed row-gap--m">
 <h3 class="h2 bold mb-m list-sign" id="revenue">Не&nbsp;соотносят ответы с&nbsp;выручкой</h3>

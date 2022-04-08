@@ -28,7 +28,7 @@ image: /assets/images/tizers/tizer-2.jpg
 
 
 <section class="row-gap--m">
-<h2 class="block__space--top-h2 h1 bold">Анализирую текст</h2>
+<h2 class="section__title h1 bold">Анализирую текст</h2>
 <p class=" ">Начнем с&nbsp;первой фразы:</p>
 <div class="extract">
 <p>Уважаемые жильцы и&nbsp;квартиросъемщики!</p>
@@ -64,7 +64,7 @@ image: /assets/images/tizers/tizer-2.jpg
 </section>
 
 <section class="row-gap--m max-width-text">
-<h2 class="block__space--top-h2 h1 bold">Новый вариант рекламного текста</h2>
+<h2 class="section__title h1 bold">Новый вариант рекламного текста</h2>
 <p>С&nbsp;учетом замечаний выше <strong>переписал рекламный текст</strong>, который&nbsp;<em>—</em> предполагается&nbsp;<em>—</em> клиенты получат в&nbsp;руки.</p>
 <table>
 <caption>Рекламный текст Атлант Телеком</caption>

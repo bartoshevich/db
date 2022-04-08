@@ -4,7 +4,7 @@ title: "Зачем маркетинг нужен компании | Дмитри
 name: "Зачем нужен маркетинг"
 description: "Зачем маркетинг белорусскому бизнесу и&nbsp;почему он&nbsp;иногда не&nbsp;приносит пользу предприятиям&nbsp;— рассуждают эксперты по&nbsp;продажам."
 date:   2015-10-01
-last_modified_at: 2022-02-04
+last_modified_at: 2019-12-04
 categories: мнение
 permalink: "/blog/zachem-marketing-biznesu/"
 image: /assets/images/tizers/tizer-8.jpg
@@ -50,7 +50,7 @@ keywords: "продавцы о маркетинге"
 
 
 <section class="row-gap--m">
-<h2 class="block__space--top-h2 h1 bold">Нужен&nbsp;ли маркетинг</h2>
+<h2 class="section__title h1 bold">Нужен&nbsp;ли маркетинг</h2>
 
 
 
@@ -62,15 +62,14 @@ keywords: "продавцы о маркетинге"
 <p>Маркетинг нужен, чтобы иметь понимание что, для кого, за&nbsp;сколько и&nbsp;сколько мы&nbsp;можем сделать и&nbsp;продать, чтобы увидеть, чего не&nbsp;хватает нам и&nbsp;где не&nbsp;хватает нас. Чтобы покупатели и&nbsp;потребители нас увидели и&nbsp;услышали, поняли и&nbsp;выбрали. Чтобы добавить картине еще одно важное измерение и&nbsp;сделать взгляд на&nbsp;рынок, клиента и&nbsp;ситуацию объемным.</p>
 
 
-
 <div class="post__note">
-<p>Некая Kimberly Whitler сравнила доход двух типов компаний: у&nbsp;одних в&nbsp;совете директоров есть хотя&nbsp;бы один маркетолог, у&nbsp;других&nbsp;— нет. Разница в&nbsp;динамике роста дохода&nbsp;— 5.78 процентных пункта в&nbsp;пользу маркетологов ;-) Любопытным&nbsp;— <a class="link" href="https://www.ama.org/marketing-news/marketer-representation-at-the-board-level-can-drive-growth-so-why%e2%80%89are-they-underrepresented/" >описание исследования</a> (англ.). <br /> <span class="small">updated, 2019</span></p>
+<p>Некая Kimberly Whitler сравнила доход двух типов компаний: у&nbsp;одних в&nbsp;совете директоров есть хотя&nbsp;бы один маркетолог, у&nbsp;других&nbsp;— нет. Разница в&nbsp;динамике роста дохода&nbsp;— 5.78 процентных пункта в&nbsp;пользу маркетологов ;-) Любопытным&nbsp;— <a class="link" href="https://www.ama.org/marketing-news/marketer-representation-at-the-board-level-can-drive-growth-so-why%e2%80%89are-they-underrepresented/" >описание исследования</a> (англ.). <br> <span class="small">updated, 2019</span></p>
 
 </div>
 </section>
 
-<section class="row-gap--m max-width-text">
-<h2 class="block__space--top-h2 h1 bold">Что снижает эффективность маркетинга</h2>
+<section class="row-gap--m">
+<h2 class="section__title h1 bold">Что снижает эффективность маркетинга</h2>
 
 <p><span class="bold">Сергей Дробышевский:</span> Из-за отсутствия четких границ ответственности отделы делят успехи, часто забирая их&nbsp;друг у&nbsp;друга, или перекладывают вину за&nbsp;низкие результаты. В&nbsp;ситуации такой по&nbsp;сути вражды невозможно эффективно решать главную задачу&nbsp;— работать с&nbsp;клиентом в&nbsp;долгосрочной и&nbsp;краткосрочной перспективе. Возможно, это объясняется тем, что в&nbsp;бизнес-культуре постсоветских компаний маркетинг&nbsp;— пока еще что-то «приделанное» к&nbsp;привычному укладу жизни компании.</p>
 
