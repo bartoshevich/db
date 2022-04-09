@@ -20,13 +20,13 @@ image: /assets/images/tizers/tizer-35.jpg
 
 <div class="guests">
 <div class="guest-person">
-	<img class="image is-150x150" src="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1649529150/site/dmitry_grigoruev.jpg" alt="Дмитрий Григорьев" width="150" height="150"/>	
+	<img class="image is-150x150" src="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto:best/v1649529150/site/dmitry_grigoruev.jpg" alt="Дмитрий Григорьев" width="150" height="150"/>	
 		<div class="guest-person__name">Дмитрий Григорьев</div>
 		<div class="guest-person__position">New Business Director</div>
 	
 </div>
 <div class="guest-person">
-		<img class="image is-150x150" src="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1649529149/site/dmitry_bukhovets.jpg" alt="Дмитрий Буховец" width="150" height="150" />	
+		<img class="image is-150x150" src="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto:best/v1649529149/site/dmitry_bukhovets.jpg" alt="Дмитрий Буховец" width="150" height="150" />	
 			<div class="guest-person__name">Дмитрий Буховец</div>
 			<div class="guest-person__position">Media Group Head</div>
 	
