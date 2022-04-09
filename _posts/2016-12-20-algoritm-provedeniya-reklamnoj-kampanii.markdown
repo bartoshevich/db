@@ -20,13 +20,13 @@ image: /assets/images/tizers/tizer-35.jpg
 
 <div class="guests">
 <div class="guest-person">
-	<img class="image is-150x150" src="https://res.cloudinary.com/bartoshevich/image/upload/q_auto,f_auto/v1532010600/grigoruev.jpg" alt="Дмитрий Григорьев" width="150" height="150"/>	
+	<img class="image is-150x150" src="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1649529150/site/dmitry_grigoruev.jpg" alt="Дмитрий Григорьев" width="150" height="150"/>	
 		<div class="guest-person__name">Дмитрий Григорьев</div>
 		<div class="guest-person__position">New Business Director</div>
 	
 </div>
 <div class="guest-person">
-		<img class="image is-150x150" src="https://res.cloudinary.com/bartoshevich/image/upload/q_auto,f_auto/v1532010600/bukhovets.jpg" alt="Дмитрий Буховец" width="150" height="150" />	
+		<img class="image is-150x150" src="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1649529149/site/dmitry_bukhovets.jpg" alt="Дмитрий Буховец" width="150" height="150" />	
 			<div class="guest-person__name">Дмитрий Буховец</div>
 			<div class="guest-person__position">Media Group Head</div>
 	
@@ -255,7 +255,7 @@ image: /assets/images/tizers/tizer-35.jpg
 <picture>
 <source srcset="/assets/images/blog/algoritm-provedeniya-reklamnoj-kampanii/voronka_prodaz.avif" type="image/avif"> 
 <source srcset="/assets/images/blog/algoritm-provedeniya-reklamnoj-kampanii/voronka_prodaz.webp" type="image/webp"> 
-<img class="image is-16by9" loading="lazy" decoding="async"  src="/assets/images/blog/algoritm-provedeniya-reklamnoj-kampanii/voronka_prodaz.jpg" alt="Воронка продаж показывает, что процесс покупки более сложен, чем увидел рекламу и сразу же купил." width="1920" height="1080" itemprop="contentUrl" />
+<img class="image is-16by9" loading="lazy" decoding="async"  src="/assets/images/blog/algoritm-provedeniya-reklamnoj-kampanii/voronka_prodaz.jpg" alt="Воронка продаж подсказывает, как правильно оценивать эффективность рекламы." width="1920" height="1080" itemprop="contentUrl" />
 </picture>
 
 </div>
