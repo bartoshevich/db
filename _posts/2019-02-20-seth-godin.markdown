@@ -13,7 +13,7 @@ keywords: "Сет Годин книга"
 ---
 
 {% include post__header.html %}
-<div class="with-side">
+<div class="with-side row-gap--m">
 <p>В&nbsp;конце 2018 года <strong>Сет Годин издал книгу «This is&nbsp;marketing»</strong>. В&nbsp;первые недели было продано 50&nbsp;000+&nbsp;копий. Газета Financial Times назвала ее&nbsp;книгой месяца. Читатели делятся восторженными отзывами в&nbsp;ютубе. Книги пока нет на&nbsp;русском и&nbsp;я&nbsp;решил рассказать об&nbsp;основных ее&nbsp;идеях здесь. </p>
 	<div class="side">
 		<div class="guests">

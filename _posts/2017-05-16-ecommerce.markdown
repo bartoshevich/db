@@ -30,7 +30,7 @@ image: /assets/images/tizers/tizer-40.jpg
 
 
 <p class="mb-m mt-m italic"> Дополнительные материалы</p>
-<ul class="addictive-spacing">
+<ul>
 <li class="list-li">
   <a class="link" href="/blog/2-idei-po-razvitiyu-marketinga/#distinction">Сущность маркетинга&nbsp;&mdash; в&nbsp;отличиях</a>
 </li>
@@ -54,14 +54,14 @@ image: /assets/images/tizers/tizer-40.jpg
 
 
 <p class="mb-m">Польза карт:</p>
-<ul class="list-li additive-spacing">
-	<li>
+<ul class="additive-spacing">
+	<li class="list-li">
 		создадите ясный план действий по&nbsp;развитию интернет-магазина;
 	</li>
-	<li>
+	<li class="list-li">
 		в&nbsp;маркетинговой активности выделите главное, откажетесь от&nbsp;лишнего и&nbsp;избыточного;
 	</li>
-	<li>
+	<li class="list-li">
 		снизите потери клиентов при переходе от&nbsp;одной стадии потребительского опыта к&nbsp;другой.
 	</li>
 </ul>

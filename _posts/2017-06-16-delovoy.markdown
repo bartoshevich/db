@@ -1,0 +1,141 @@
+---
+layout: post
+title: "Кейс: создание и развитие интернет-магазина | Дмитрий Бартошевич"
+name: "Как создать и развивать интернет-магазин"
+description: "История и принципы создания интернет-магазина канцелярских товаров, признанного лучшим в Беларуси"
+date:   2017-06-16
+last_modified_at: 2022-02-05
+categories: опыт
+permalink: "/blog/delovoy/"
+image: /assets/images/tizers/tizer-42.jpg
+tags: "интернет-маркетинг интервью"
+keywords:  "развитие интернет-магазина"
+---
+
+
+{% include post__header.html %}
+
+<div class="with-side row-gap--m">
+<p>Павел Супрунюк&nbsp;— начальник отдела клиентского сервиса Delovoy.by&nbsp;— <strong>поделился опытом создания интернет-магазина</strong>. На&nbsp;идеи и&nbsp;рекомендации Павла стоит обратить внимание. Они помогут вам в&nbsp;развитии собственных интернет-проектов. </p>
+<div class="side">
+		<div class="guests">
+			<div class="guest-person">
+				<picture>
+					<source srcset="/assets/images/blog/delovoy/delovoy1.avif" type="image/avif">
+			   		<source srcset="/assets/images/blog/delovoy/delovoy1.webp" type="image/webp">	
+					<img class="image is-150x150" src="/assets/images/blog/delovoy/delovoy1.jpg" alt="Супрунюк Павел" width="150" height="150"/>
+				</picture>
+					<div class="guest-person__name">Павел Супрунюк</div>
+					<div class="guest-person__position"> начальник отдела клиентского сервиса <a class="link" href="https://www.delovoy.by/">Delovoy.by</a></div>				
+			</div>
+		</div>
+	</div>
+</div>
+
+
+<section class="row-gap--m">
+<h2 class="section__title h1 bold ">Концентрируйтесь на&nbsp;важном для клиентов </h2>
+<p>—&nbsp;Готовые шаблоны интернет-магазинов не&nbsp;могут одинаково эффективно продавать и&nbsp;косметику, и&nbsp;металлопрокат. Поэтому не&nbsp;полагайтесь на&nbsp;стандартные решения. Ориентироваться на&nbsp;конкурентов и&nbsp;слепо копировать функциональность их&nbsp;сайтов тоже не&nbsp;следует. Функции могут быть избыточны для потребителей или неоправданно дорогими в&nbsp;поддержке. </p>
+<p>Концентрируйтесь на&nbsp;целевой аудитории и&nbsp;особенностях продаж в&nbsp;вашей товарной группе. На&nbsp;этой основе создавайте интернет-магазин: определяйте, каким будет каталог, как будет работать фильтр и&nbsp;сравнение, какие виды доставки нужны и&nbsp;т.д. </p>
+<p>Интернет-магазин delovoy.by мы&nbsp;открыли в&nbsp;2011&nbsp;году. Перед тем, как обратиться в&nbsp;веб-студию, мы&nbsp;перелопатили кучу западных сайтов. Оценивали, какие функции приносят пользу клиентам, а&nbsp;какие&nbsp;— нет. Опирались на&nbsp;собственный опыт работы в&nbsp;оффлайне. Вспоминали, как клиенты заказывают, какие вопросы задают, какие опасения и&nbsp;сложности у&nbsp;них возникают. Так постепенно формировались требования к&nbsp;сайту. </p>
+<p>Когда пришли в&nbsp;веб-студию, мы&nbsp;не&nbsp;бросились сразу&nbsp;же разрабатывать карточку товара, фильтры и&nbsp;другие привычные элементы. Мы&nbsp;сконцентрировались на&nbsp;главном. Сокращали время навигации по&nbsp;каталогу, внедрили «умный поиск», синхронизировали интернет-магазин с&nbsp;внутренней учетной системой, «научили» сайт выставлять счета. Это важно нашим клиентам. </p>
+<p>Представьте, покупатель заходит на&nbsp;интернет-магазин канцтоваров. Множество наименований, вариантов, цветов, цен. Во&nbsp;всем этом нужно разобраться и&nbsp;выбрать. На&nbsp;заказ может уйти и&nbsp;полчаса, и&nbsp;час. И&nbsp;вот заказ сформирован, отправлен и&nbsp;через минут 20&nbsp;звонит менеджер и&nbsp;говорит: «Знаете, вот этого у&nbsp;нас нет, это по&nbsp;другой цене, а&nbsp;это мы&nbsp;привезем только через неделю». Смысла в&nbsp;таком заказе нет. </p>
+<p>Если на&nbsp;delovoy.by человек хочет купить 50&nbsp;папок, а&nbsp;в&nbsp;наличии только&nbsp;43, мы&nbsp;сразу&nbsp;же ему скажем. Когда заказ оформлен, клиенту не&nbsp;придется ждать счет на&nbsp;оплату, он&nbsp;получит его тут&nbsp;же. Заказанный товар автоматически резервируется и&nbsp;никто другой его выписать уже не&nbsp;сможет. </p>
+<p>В&nbsp;исследовании белорусских интернет-магазинов, торгующими канцелярскими товарами, мы&nbsp;заняли первое место, победив даже oz.by. Не&nbsp;потому, что мы&nbsp;лучше oz.by. У&nbsp;нас нет адаптивности. Возможно, у&nbsp;нас не&nbsp;так все красиво, не&nbsp;самый передовой дизайн, сложнее оформление заказа. Но&nbsp;мы&nbsp;выиграли. Выиграли, потому что были лучше по&nbsp;показателям, значимым для закупки канцтоваров для офиса.</p>
+
+
+<div itemprop="image" itemscope itemtype="http://schema.org/ImageObject">	
+		<link itemprop="url" href="/assets/images/blog/delovoy/delovoy2.jpg" />
+<picture>
+                <source media="(min-width: 500px)" srcset="/assets/images/blog/delovoy/delovoy2.avif" type="image/avif">
+				<source media="(min-width: 500px)" srcset="/assets/images/blog/delovoy/delovoy2.webp" type="image/webp">
+				<source media="(min-width: 500px)" srcset="/assets/images/blog/delovoy/delovoy2.png" type="image/png">
+				<source media="(min-width: 500px)" srcset="/assets/images/blog/delovoy/delovoy2.jpg" type="image/jpg">
+
+				<source media="(min-width: 350px)" srcset="/assets/images/blog/delovoy/delovoy2-500.avif" type="image/avif">
+				<source media="(min-width: 350px)" srcset="/assets/images/blog/delovoy/delovoy2-500.webp" type="image/webp">
+				<source media="(min-width: 350px)" srcset="/assets/images/blog/delovoy/delovoy2-500.png" type="image/png">
+				<source media="(min-width: 350px)" srcset="/assets/images/blog/delovoy/delovoy2-500.jpg" type="image/jpg">
+
+				<source media="(min-width: 200px)" srcset="/assets/images/blog/delovoy/delovoy2-377.avif" type="image/avif">
+				<source media="(min-width: 200px)" srcset="/assets/images/blog/delovoy/delovoy2-377.webp" type="image/webp">
+				<source media="(min-width: 200px)" srcset="/assets/images/blog/delovoy/delovoy2-377.png" type="image/png">
+				<source media="(min-width: 200px)" srcset="/assets/images/blog/delovoy/delovoy2-377.jpg" type="image/jpg">
+               
+                <img class="image" loading="lazy" decoding="async"  src="/assets/images/blog/delovoy/delovoy2.jpg" alt="В рейтинге белорусских интернет-магазинов канцелярских товаров delovoy.by занимает первое место." width="720" height="531" itemprop="contentUrl"/>
+    </picture>
+</div>
+
+
+</section>
+
+
+<section class="row-gap--m">
+<h2 class="section__title h1 bold ">Говорите на&nbsp;языке клиента </h2>
+<p>—&nbsp;Важно переводить язык бизнеса, термины и&nbsp;названия на&nbsp;язык клиента. Товар и&nbsp;его свойства могут быть очевидны и&nbsp;понятны для продавца, но&nbsp;не&nbsp;для покупателя. </p>
+<p>Яркий пример&nbsp;— сайты банков. Клиентам банк предлагает продукты. </p>
+
+<div itemprop="image" itemscope itemtype="http://schema.org/ImageObject">	
+		<link itemprop="url" href="/assets/images/blog/delovoy/delovoy3.jpg" />
+<picture>
+               <source srcset="/assets/images/blog/delovoy/delovoy3.avif" type="image/avif">
+			    <source srcset="/assets/images/blog/delovoy/delovoy3.webp" type="image/webp">
+				 <source srcset="/assets/images/blog/delovoy/delovoy3.png" type="image/png">
+              <img class="image" loading="lazy" decoding="async" src="/assets/images/blog/delovoy/delovoy3.jpg" alt="Плохой маркетинг банков: банки настойчиво предлагают продукты, но в банк не идут за продуктами." width="720" height="412"  itemprop="contentUrl" />
+    </picture>
+	<div class="figcaption">
+		 пример предложения не&nbsp;в&nbsp;мире&nbsp;клиента
+	</div>
+</div>
+
+
+
+
+
+<p>Но&nbsp;человек не&nbsp;идет в&nbsp;банк за&nbsp;продуктами. Он&nbsp;хочет положить деньги на&nbsp;счет. Банк предлагает выбрать срок вклада, но&nbsp;человек не&nbsp;думает об&nbsp;этом. Он&nbsp;хочет понемногу откладывать, чтобы накопить и&nbsp;когда-нибудь забрать деньги. </p>
+<p>Другой пример. Я&nbsp;ищу легковые шины. Захожу на&nbsp;интернет-магазин через поиск. Сайт хороший, но&nbsp;меня озадачивают цифры под названием шин.</p>
+
+
+<div itemprop="image" itemscope itemtype="http://schema.org/ImageObject">	
+		<link itemprop="url" href="/assets/images/blog/delovoy/delovoy4.jpg" />
+<picture>
+               <source srcset="/assets/images/blog/delovoy/delovoy4.avif" type="image/avif">
+			    <source srcset="/assets/images/blog/delovoy/delovoy4.webp" type="image/webp">
+				 <source srcset="/assets/images/blog/delovoy/delovoy4.png" type="image/png">
+              <img class="image" loading="lazy" decoding="async" src="/assets/images/blog/delovoy/delovoy4.jpg" alt="Пример сайта интернет-магазина, где много непонятных обозначений." width="720" height="412"  itemprop="contentUrl" />
+    </picture>
+	<div class="figcaption">
+		&laquo;меня озадачивают цифры под названием шин&raquo;
+	</div>
+</div>
+
+
+
+<p>Догадываюсь, что здесь указаны диаметр диска, ширина и&nbsp;высота профиля, но&nbsp;я&nbsp;боюсь ошибиться. И&nbsp;даже если я&nbsp;выберу правильный размер шин, мне сложно остановиться на&nbsp;конкретной модели, потому как у&nbsp;каждого наименования оценка «отлично». Видно, что над сайтом работали, потратили время и&nbsp;деньги, но&nbsp;мне&nbsp;— потенциальному клиенту&nbsp;— сайт не&nbsp;помогает. Нужно звонить менеджеру или идти в&nbsp;другое место, где все объяснят. </p>
+<p>При заказе канцтоваров один и&nbsp;тот&nbsp;же товар кто-то называет регистратором, а&nbsp;кто-то&nbsp;— папкой на&nbsp;кольцах. Один ищет ластик, а&nbsp;другой&nbsp;— стёрку. Поэтому мы&nbsp;создали базу синонимов и&nbsp;много сил вложили, чтобы человек мог найти нужный товар по&nbsp;запросу на&nbsp;привычном ему языке. </p>
+</section>
+
+
+<section class="row-gap--m">
+<h2 class="section__title h1 bold ">Разрабатывайте сайт с&nbsp;учетом требований SEO</h2>
+<p>—&nbsp;Если не&nbsp;думать о&nbsp;поисковой оптимизации с&nbsp;самого начала, то&nbsp;после запуска сайта, скорее всего, понадобится что-то серьезно изменять и&nbsp;переделывать. Чтобы избежать ненужных проблем, желательно сразу&nbsp;же разработать четкую и&nbsp;понятную структуру сайта для поисковиков, сделать понятной навигацию, утвердить требования к&nbsp;текстам и&nbsp;заголовкам, прописать теги, создать файлы sitemap.xml и&nbsp;robots.txt. Уже на&nbsp;этапе проектирования сайта в&nbsp;команде должен быть человек, который не&nbsp;даст сделать типичные ошибки в&nbsp;SEO. </p>
+</section>
+
+<section class="row-gap--m">
+<h2 class="section__title h1 bold ">Настройте и&nbsp;используйте сервисы <span class="noperenos">веб-аналитики</span></h2>
+<p>—&nbsp;Важно убедиться, что на&nbsp;сайте не&nbsp;просто стоят счетчики, а&nbsp;что они правильно настроены и&nbsp;работают. Если инструменты веб-аналитики не&nbsp;настроены, вы&nbsp;не&nbsp;поймете, кто и&nbsp;какие функции на&nbsp;сайте использует, от&nbsp;чего можно и&nbsp;нужно отказаться, что вызывает у&nbsp;посетителей затруднения и&nbsp;на&nbsp;каком этапе клиенты теряются.</p>
+<p>Отслеживайте каждое событие&nbsp;— добавление товаров в&nbsp;корзину, в&nbsp;избранное, применение фильтров, сортировок, использование личного кабинета и&nbsp;т.д. Если планируете на&nbsp;сайте нововведение&nbsp;— удостоверьтесь, что будете получать по&nbsp;нему данные в&nbsp;отчетах сервисов веб-аналитики.</p>
+</section>
+
+
+<p class="mt-m mb-m">Итак, <strong>маркетинг интернет-магазина состоит из следующих 4 принципов</strong>:</p>
+<ul class="list-li additive-spacing">
+<li><p>Концентрируйтесь на&nbsp;важном. Сначала сделайте&nbsp;то, что принесет клиенту наибольшую пользу. И&nbsp;сделайте это хорошо.</p></li>
+<li><p>Пишите в&nbsp;мире клиента и&nbsp;говорите на&nbsp;его языке.</p></li>
+<li><p>Займитесь SEO с&nbsp;первого дня разработки сайта. Пригласите эксперта, чтобы избежать типичных ошибок.</p></li>
+<li><p>Настройте сервисы веб-аналитики и&nbsp;анализируйте поведение клиентов.</p></li>
+</ul>
+ 
+
+
+

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-04-10T02:27:29+03:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Your awesome title</title><subtitle>Write an awesome description for your new site here. </subtitle><entry><title type="html">Почасовая оплата должна умереть | Дмитрий Бартошевич</title><link href="http://localhost:4000/blog/value-based-price/" rel="alternate" type="text/html" title="Почасовая оплата должна умереть | Дмитрий Бартошевич" /><published>2021-01-23T00:00:00+03:00</published><updated>2022-02-05T00:00:00+03:00</updated><id>http://localhost:4000/blog/value-based-price</id><content type="html" xml:base="http://localhost:4000/blog/value-based-price/"><![CDATA[<div class="intro__post">
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-04-11T00:17:09+03:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Your awesome title</title><subtitle>Write an awesome description for your new site here. </subtitle><entry><title type="html">Почасовая оплата должна умереть | Дмитрий Бартошевич</title><link href="http://localhost:4000/blog/value-based-price/" rel="alternate" type="text/html" title="Почасовая оплата должна умереть | Дмитрий Бартошевич" /><published>2021-01-23T00:00:00+03:00</published><updated>2022-02-05T00:00:00+03:00</updated><id>http://localhost:4000/blog/value-based-price</id><content type="html" xml:base="http://localhost:4000/blog/value-based-price/"><![CDATA[<div class="intro__post">
     <h1 class=" bold max-width-text">Почасовая оплата должна умереть</h1> 
     <small class="small"><time itemprop="datePublished" datetime="2021-01-23"> 23 января 2021</time> 
     </small>
@@ -782,7 +782,7 @@ https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1648646401/s
     <small class="small"><time itemprop="datePublished" datetime="2019-02-20"> 20 февраля 2019</time> 
     </small>
 </div>
-<div class="with-side">
+<div class="with-side row-gap--m">
 <p>В&nbsp;конце 2018 года <strong>Сет Годин издал книгу «This is&nbsp;marketing»</strong>. В&nbsp;первые недели было продано 50&nbsp;000+&nbsp;копий. Газета Financial Times назвала ее&nbsp;книгой месяца. Читатели делятся восторженными отзывами в&nbsp;ютубе. Книги пока нет на&nbsp;русском и&nbsp;я&nbsp;решил рассказать об&nbsp;основных ее&nbsp;идеях здесь. </p>
 	<div class="side">
 		<div class="guests">
@@ -909,645 +909,890 @@ https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1648646401/s
 <p><span class="italic">шаг 3.</span> Расскажите историю, которая коррелирует со&nbsp;взглядами и&nbsp;мечтами выбранной группы. </p>
 <p><span class="italic">шаг 4.</span> Содействуйте распространению молвы о&nbsp;вас. </p>
 <p><span class="italic">шаг 5.</span> Держитесь выбранного пути. Стройте доверие. Заслужите разрешение обращаться и&nbsp;желание вас слушать.  </p>
-</section>]]></content><author><name></name></author><category term="мнение" /><category term="управление" /><category term="маркетолог" /><summary type="html"><![CDATA[Маркетологи не&nbsp;используют клиентов в&nbsp;целях предприятия. Они используют маркетинг, чтобы помочь людям достичь собственных целей. Сет Годин «This Is&nbsp;Marketing».]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/tizers/tizer-56.jpg" /><media:content medium="image" url="http://localhost:4000/assets/images/tizers/tizer-56.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Маркетинговая стратегия для интернет-проектов | Дмитрий Бартошевич</title><link href="http://localhost:4000/blog/ecommerce/" rel="alternate" type="text/html" title="Маркетинговая стратегия для интернет-проектов | Дмитрий Бартошевич" /><published>2017-05-16T00:00:00+03:00</published><updated>2022-02-05T00:00:00+03:00</updated><id>http://localhost:4000/blog/ecommerce</id><content type="html" xml:base="http://localhost:4000/blog/ecommerce/"><![CDATA[<div class="intro__post">
-    <h1 class=" bold max-width-text">Маркетинговая стратегия интернет-магазина</h1> 
-    <small class="small"><time itemprop="datePublished" datetime="2017-05-16"> 16 мая 2017</time> 
+</section>]]></content><author><name></name></author><category term="мнение" /><category term="управление" /><category term="маркетолог" /><summary type="html"><![CDATA[Маркетологи не&nbsp;используют клиентов в&nbsp;целях предприятия. Они используют маркетинг, чтобы помочь людям достичь собственных целей. Сет Годин «This Is&nbsp;Marketing».]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/tizers/tizer-56.jpg" /><media:content medium="image" url="http://localhost:4000/assets/images/tizers/tizer-56.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Способы оптимизации изображений, о которых вы могли не знать | Дмитрий Бартошевич</title><link href="http://localhost:4000/blog/optimizaciya-izobrajenii/" rel="alternate" type="text/html" title="Способы оптимизации изображений, о которых вы могли не знать | Дмитрий Бартошевич" /><published>2018-10-02T00:00:00+03:00</published><updated>2022-01-09T00:00:00+03:00</updated><id>http://localhost:4000/blog/optimizaciya-izobrajenii</id><content type="html" xml:base="http://localhost:4000/blog/optimizaciya-izobrajenii/"><![CDATA[<div class="intro__post">
+    <h1 class=" bold max-width-text">Как оптимизировать изображения для сайта</h1> 
+    <small class="small"><time itemprop="datePublished" datetime="2018-10-02">  2 октября 2018</time> 
+      <time itemprop="dateModified" datetime="2022-01-09">(обновил  9 января 2022)</time>
     </small>
 </div>
 
-<p>11&nbsp;мая компания «1С-Битрикс» и&nbsp;веб-студия «Новый сайт» провели семинар «Формула сайта: от&nbsp;идеи интернет-магазина до&nbsp;лидера отрасли». Я&nbsp;был в&nbsp;числе спикеров и&nbsp;рассказывал о&nbsp;<strong>маркетинговой стратегии интернет-магазина</strong>. Тезисно остановлюсь на&nbsp;главных идеях выступления.</p>
-
-<div itemprop="image" itemscope="" itemtype="http://schema.org/ImageObject">	
-		<link itemprop="url" href="https://res.cloudinary.com/bartoshevich/image/upload/f_auto/v1615123529/site/seminar110517.jpg" />
-<img src="https://res.cloudinary.com/bartoshevich/image/upload/f_auto/v1615123529/site/seminar110517.jpg" alt="Дмитрий Бартошевич рассказывает о маркетинговой стратегии интернет-магазинов" class="image" width="720" height="540" itemprop="contentUrl" />
-<div class="figcaption">Фото: Арина Чернышева</div>
-</div>
-
-<section class="row-gap--m">
-<h2 class="section__title h1 bold ">Фокусируйтесь на&nbsp;клиенте</h2>
-<p>Чтобы бизнес стабильно приносил прибыль, необходимо создавать и&nbsp;укреплять отличия, значимые для клиента. Когда&nbsp;же обсуждают <b>работу интернет-магазина</b>, то&nbsp;чаще говорят не&nbsp;о&nbsp;клиенте и&nbsp;о&nbsp;том, что&nbsp;же для него значимо, а&nbsp;о&nbsp;технической стороне работы сайта, ассортиментной политике, рекламе и&nbsp;работе с&nbsp;поставщиками. Упускается основа, без которой развитие превращается в&nbsp;изматывающие крысиные бега.</p>
-
-
-
-<p class="mb-m mt-m italic"> Дополнительные материалы</p>
-<ul class="addictive-spacing">
-<li class="list-li">
-  <a class="link" href="/blog/2-idei-po-razvitiyu-marketinga/#distinction">Сущность маркетинга&nbsp;&mdash; в&nbsp;отличиях</a>
-</li>
-<li class="list-li">
-  <a href="/blog/seth-godin/" class="link"> Сет Годин «Это маркетинг». Ключевые идеи новой книги</a>
-</li>
-<li class="list-li">
-  <a href="/blog/marketing-mind/" class="link"> Акция не&nbsp;сработает, если не&nbsp;думать как маркетолог</a>
-</li>
-</ul>
-</section>
-
-<section class="row-gap--m">
-<h2 class="section__title h1 bold ">Составляйте карты потребительского опыта</h2>
-
-
-<div class="with-side row-gap--m">
-<p>О&nbsp;важности клиентов говорить модно. Чтобы забота о&nbsp;клиенте не&nbsp;превратилась в&nbsp;пустой лозунг, переходите от&nbsp;слов к&nbsp;инструментам&nbsp;— <strong>составляйте карты потребительского опыта (customer journey map)</strong>. </p>
-<div class="side"><p>Карта потребительского опыта&nbsp;— отображение процесса взаимодействия человека с&nbsp;компанией, от&nbsp;момента осознания потребности до&nbsp;рекомендации предприятия. См. <a class="link" href="/blog/customer-journey-map/">алгоритм составления</a>.</p></div></div>
-
-
-<p class="mb-m">Польза карт:</p>
-<ul class="list-li additive-spacing">
-	<li>
-		создадите ясный план действий по&nbsp;развитию интернет-магазина;
-	</li>
-	<li>
-		в&nbsp;маркетинговой активности выделите главное, откажетесь от&nbsp;лишнего и&nbsp;избыточного;
-	</li>
-	<li>
-		снизите потери клиентов при переходе от&nbsp;одной стадии потребительского опыта к&nbsp;другой.
-	</li>
-</ul>
-
-<div itemprop="image" itemscope="" itemtype="http://schema.org/ImageObject">	
-		<link itemprop="url" href="/assets/images/blog/ecommerce/polza-cjm.jpg" />
-<picture>
-               <source srcset="/assets/images/blog/ecommerce/polza-cjm.avif" type="image/avif" />
-			    <source srcset="/assets/images/blog/ecommerce/polza-cjm.webp" type="image/webp" />
-              <img class="image" loading="lazy" decoding="async" src="/assets/images/blog/ecommerce/polza-cjm.jpg" alt="Польза карты потребительского опыта: ясный план действий, приоритеты в маркетинговой активности, увеличение конверсии, повышение воспринимаемого качества работы." width="720" height="540" itemprop="contentUrl" />
-    </picture>
-</div>
-</section>
-
-<section class="row-gap--m">
-<h2 class="section__title h1 bold ">Следуйте за&nbsp;клиентом </h2>
-<p>Универсальные, общие закономерности и&nbsp;шаблоны не&nbsp;работают. Составьте карту потребительского опыта и&nbsp;следуйте за&nbsp;вашей целевой аудиторией. </p>
-<p>Рассмотрим на&nbsp;примерах, как меняется значимость и&nbsp;содержание каталога в&nbsp;зависимости от&nbsp;аудитории.</p>
-<p><span class="bold">Пример&nbsp;1.</span> Интернет-магазин мебели X. Ориентирован на&nbsp;жильцов новостроек нового микрорайона. Вместо кучи элементов в&nbsp;каталоге сайт может предложить посетителям выбрать планировку своей квартиры, а&nbsp;затем&nbsp;— понравившийся дизайн интерьера. Заказанная мебель автоматически подойдет по&nbsp;цвету, стилю и&nbsp;размеру.</p>
-<p><span class="bold">Пример&nbsp;2.</span> Интернет-магазин сантехники Y. Значимую роль в&nbsp;потребительском опыте клиентов магазина играют дизайнеры интерьеров. Разумно на&nbsp;сайте не&nbsp;только показать каталог продукции, но&nbsp;и&nbsp;объяснить, что дизайнерам с&nbsp;этим интернет-магазином работать легко, удобно и&nbsp;полезно. </p>
-<p><span class="bold">Пример&nbsp;3.</span> Интернет-магазин оборудования и&nbsp;ингредиентов для варки домашнего пива Z. Целевая аудитория&nbsp;— эксперты. Они регулярно читают профессиональную литературу и&nbsp;общаются на&nbsp;тематических форумах, знают все точки продаж, удивляют друзей новыми вкусами и&nbsp;стилями пива. На&nbsp;сайте магазина их&nbsp;интересует только каталог: технологическое описание продукции (напр., хмель&nbsp;— альфа-кислотность, год урожая, аромат, таблица взаимозаменяемости, тип использования и&nbsp;пр.), стоимость, наличие или ожидаемое время доставки. Тратить ресурсы на&nbsp;рерайтинг статей о&nbsp;пиве и&nbsp;публикацию популярных рецептов&nbsp;— нецелесообразно. </p>
-
-
-<div itemprop="image" itemscope="" itemtype="http://schema.org/ImageObject">	
-		<link itemprop="url" href="/assets/images/blog/ecommerce/seminar110517.jpg" />
-<picture>
-               <source srcset="/assets/images/blog/ecommerce/seminar110517.avif" type="image/avif" />
-			    <source srcset="/assets/images/blog/ecommerce/seminar110517.webp" type="image/webp" />
-         <img class="image" loading="lazy" decoding="async" src="/assets/images/blog/ecommerce/seminar110517.jpg" alt="Дмитрий Бартошевич рассказывает об алгоритме составления карт потребительского опыта" width="720" height="540" title="Фото: Арина Чернышева" itemprop="contentUrl" />
-    </picture>
-</div>
-</section>]]></content><author><name></name></author><category term="опыт" /><category term="интернет-маркетинг" /><category term="семинары" /><summary type="html"><![CDATA[Рассказываю о&nbsp;маркетинговой стратегии интернет-магазина: без чего развитие превратится в&nbsp;изматывающие крысиные бега.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/tizers/tizer-40.jpg" /><media:content medium="image" url="http://localhost:4000/assets/images/tizers/tizer-40.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">О богах и звездах маркетинга | Дмитрий Бартошевич</title><link href="http://localhost:4000/blog/stars/" rel="alternate" type="text/html" title="О богах и звездах маркетинга | Дмитрий Бартошевич" /><published>2017-05-01T00:00:00+03:00</published><updated>2022-02-04T00:00:00+03:00</updated><id>http://localhost:4000/blog/stars</id><content type="html" xml:base="http://localhost:4000/blog/stars/"><![CDATA[<div class="intro__post">
-    <h1 class=" bold max-width-text">О&nbsp;звездах и&nbsp;богах маркетинга</h1> 
-    <small class="small"><time itemprop="datePublished" datetime="2017-05-01">  1 мая 2017</time> 
-    </small>
-</div>
-
-<p>Часто встречаю <b>маркетологов</b>, которые переоценивают значимость своего влияния на&nbsp;итоговый результат деятельности компании. Иногда и&nbsp;за&nbsp;собой замечаю подобное. Написал статью-напоминание, как&nbsp;же нелепо выглядит такое поведение со&nbsp;стороны.</p>
-<div class="extract"> 
-<p>—&nbsp;Я&nbsp;увеличил прибыль банка на&nbsp;20%,&nbsp;— говорит маркетолог на&nbsp;собеседовании. </p>
- <p>—&nbsp;Как&nbsp;же вам это удалось?</p>
- <p>—&nbsp;Я&nbsp;написал текст всех <b>рекламных материалов</b> и&nbsp;страниц на&nbsp;сайте. </p>
- <p>—&nbsp;Студия Артемия Лебедева сделала сайт для «Газпрома». Правильно&nbsp;ли я&nbsp;понимаю, что именно благодаря Лебедеву у&nbsp;«Газпрома» выросла чистая выручка от&nbsp;продаж газа в&nbsp;Европу?</p>
-</div>
-
-<section class="row-gap--m">
-<h2 class="section__title h1 bold ">Секрет успеха Мальборо</h2>
-<p>«Икона» рекламной индустрии&nbsp;— созданный агентством Лео Бернетта образ ковбоя. В&nbsp;нем маркетологи видят причину популярности сигарет «Мальборо» и&nbsp;не&nbsp;перестают нахваливать рекламную кампанию, которая&nbsp;— по&nbsp;заверению «аналитиков»&nbsp;— десятикратно увеличила продажи «Филип Моррис». Но&nbsp;действительно&nbsp;ли только ковбой увеличил объем продаж «Мальборо»?</p>
-
-<div itemprop="image" itemscope="" itemtype="http://schema.org/ImageObject">	
-		<link itemprop="url" href="/assets/images/blog/stars/marlboro-min.jpg" />
-<picture>
-                <source srcset="/assets/images/blog/stars/marlboro-min.avif" type="image/avif" />
-                <source srcset="/assets/images/blog/stars/marlboro-min.webp" type="image/webp" />                
-                <img class="image" loading="lazy" decoding="async" src="/assets/images/blog/stars/marlboro-min.jpg" alt="Образ ковбоя Мальборо, в котором видят причину успеха Филип Моррис." width="720" height="445" itemprop="contentUrl" />
-    </picture>
-</div>
-
-<p>Технологи утверждают, что «Мальборо» <strong>стал популярным брендом</strong> из-за изменения рецептуры. <a class="link" href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2424107/">В&nbsp;сигареты «Филип Моррис» добавила пластины аммиака</a>, что увеличило количество «свободного» никотина в&nbsp;дыме и&nbsp;ускорило развитие физической зависимости у&nbsp;курильщиков. Конкурент «Филип Моррис»&nbsp;— компания «Браун энд Вильямсон»&nbsp;— назвала технологию аммиака ключевым фактором, который сделал из&nbsp;мальборо «Мальборо». </p>
-</section>
-
-<section class="row-gap--m">
-<h2 class="section__title h1 bold ">Секрет Zappos</h2>
-<p>Интернет-магазин Zappos. Оборот более $1&nbsp;млрд. Успех магазина объясняют особой культурой всеобщей дружбы и&nbsp;счастья, которую развивают в&nbsp;компании. В&nbsp;интернете вы&nbsp;найдете много статей, в&nbsp;которых вас попытаются убедить, что корпоративная культура&nbsp;— главный драйвер успеха любого предприятия. И&nbsp;в&nbsp;доказательство расскажут адаптированную историю Zappos. </p>
-<p>В&nbsp;книге «Доставляя счастье» глава Zappos&nbsp;— Тони Шей&nbsp;— пишет о&nbsp;ценностях компании и&nbsp;обслуживании клиентов. Пишет много. Подчеркивает важность того, чтобы ценности разделял и&nbsp;воплощал каждый сотрудник. Но&nbsp;вместе с&nbsp;тем он&nbsp;рассказывает, как периодически компания оказывалась в&nbsp;ситуации, когда денег оставалось на&nbsp;несколько недель и&nbsp;никто не&nbsp;был уверен в&nbsp;выживании магазина. </p>
-
-
-<div itemprop="image" itemscope="" itemtype="http://schema.org/ImageObject">	
-		<link itemprop="url" href="/assets/images/blog/stars/zappos-min.jpg" />
-<picture>
-                <source srcset="/assets/images/blog/stars/zappos-min.avif" type="image/avif" />
-                <source srcset="/assets/images/blog/stars/zappos-min.webp" type="image/webp" />                
-               <img class="image" loading="lazy" decoding="async" src="/assets/images/blog/stars/zappos-min.jpg" alt="Тони Шей, портрет" width="720" height="377" itemprop="contentUrl" />
-    </picture>
-</div>
-
-
-<p>Финансовые трудности Zappos закончились лишь после того, как компания решила вопросы хранения и&nbsp;доставки товаров. Если&nbsp;бы не&nbsp;появился собственный склад, если&nbsp;бы руководство не&nbsp;наладило его бесперебойную работу, интернет-магазин закрылся&nbsp;бы и&nbsp;Тони Шей не&nbsp;приступил&nbsp;бы к&nbsp;написанию главы о&nbsp;корпоративных ценностях Zappos. </p>
-</section>
-
-<section class="row-gap--m">
-<h2 class="section__title h1 bold ">Об «эффективных» маркетологах</h2>
-<p>Предприятия хотят, чтобы у&nbsp;них и&nbsp;с&nbsp;ними работали супергерои, и&nbsp;под эту систему ожиданий подстраиваются специалисты. <strong>Появляются маркетологи с&nbsp;«комплексом бога». Привычная риторика на&nbsp;семинарах&nbsp;— «мы&nbsp;создали ролик, который увеличил продажи на&nbsp;400%!»</strong> </p>
-<p>Но&nbsp;как только начинаешь детально интересоваться внутренним механизмом роста продаж, <i>«звезды»</i> маркетинга тускнеют. Слышишь общие эмоциональные фразы, нагромождение терминов, банальностей, ссылок на&nbsp;тренды. Спикер пытается скрыть, что не&nbsp;способен объяснить итоговый результат только лишь своим участием. И&nbsp;вместо того, чтобы честно рассказать о&nbsp;работе и&nbsp;подвластных результатах, маркетолог превращается в&nbsp;брехуна с&nbsp;раздутым Эго: «да&nbsp;если&nbsp;бы не&nbsp;я, не&nbsp;видать клиенту счастья!». </p>
-</section>
-
-<section class="row-gap--m">
-<h2 class="section__title h1 bold ">Вывод для маркетолога</h2>
-<p>Маркетологам&nbsp;— и&nbsp;мне самому&nbsp;— полезно периодически напоминать, что предприятие&nbsp;— сложная система взаимосвязей стимулов, реакций и&nbsp;огромного количества факторов между ними. Поэтому нельзя сводить развитие компании к&nbsp;линейному «Х&nbsp;вызывает Y». Нельзя отождествлять «после этого» и&nbsp;«по&nbsp;причине этого». Выдергивать маркетолога, агентство из&nbsp;общей системы и&nbsp;приписывать им&nbsp;исключительную роль в&nbsp;судьбе предприятия&nbsp;— неправильно. </p>
-</section>]]></content><author><name></name></author><category term="мнение" /><category term="маркетолог" /><summary type="html"><![CDATA[Приписывать маркетологам исключительную роль в&nbsp;итоговых результатах деятельности компании&nbsp;— неправильно и&nbsp;нелепо.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/tizers/tizer-39.jpg" /><media:content medium="image" url="http://localhost:4000/assets/images/tizers/tizer-39.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Когда рекламные агентства халтурят | Дмитрий Бартошевич</title><link href="http://localhost:4000/blog/choice/" rel="alternate" type="text/html" title="Когда рекламные агентства халтурят | Дмитрий Бартошевич" /><published>2017-03-03T00:00:00+03:00</published><updated>2022-02-04T00:00:00+03:00</updated><id>http://localhost:4000/blog/choice</id><content type="html" xml:base="http://localhost:4000/blog/choice/"><![CDATA[<div class="intro__post">
-    <h1 class=" bold max-width-text">Почему три варианта концепции рекламы плохо</h1> 
-    <small class="small"><time itemprop="datePublished" datetime="2017-03-03">  3 марта 2017</time> 
-      <time itemprop="dateModified" datetime="2022-02-04">(обновил  4 февраля 2022)</time>
-    </small>
-</div>
-
-<p><strong>Когда рекламное агентство предоставляет заказчику на&nbsp;выбор три варианта креативной концепции рекламы, значит агентство сделало свою работу плохо.</strong> И&nbsp;вот почему. </p>
-
-<section class="row-gap--m">
-<h2 class="section__title h1 bold ">Если вы&nbsp;клиент рекламного агентства</h2>
-<p>Вы&nbsp;платите не&nbsp;за&nbsp;концепции, а&nbsp;за&nbsp;решение задачи. Когда вместо решения вам подсовывают варианты, агентство не&nbsp;разобралось в&nbsp;задаче или не&nbsp;придумало сильное решение. </p>
-<p>Концепции могут быть интересными, они могут даже понравится. Но&nbsp;вам не&nbsp;нужны две, три и&nbsp;более идеи кампании. Вам нужно только одна&nbsp;— та, которая лучше всего подходит ситуации и&nbsp;вашей задаче. </p>
-<p>Представьте, что вы&nbsp;нанимаете электрика для замены электропроводки в&nbsp;квартире. Он&nbsp;приходит к&nbsp;вам со&nbsp;схемой проводки и&nbsp;спрашивает, кабель с&nbsp;каким сечением вы&nbsp;хотите использовать. Он&nbsp;не&nbsp;рассчитал правильный размер сечения, а&nbsp;предлагает вам самим угадать или заняться расчетом, взяв на&nbsp;себя функции электрика. Точно также и&nbsp;агентство, озвучивая варианты концепции, пытается повесить на&nbsp;вас роль копирайтера, дизайнера, аналитика, стратега и&nbsp;прочих персонажей.</p>
-<p class="post__note h2">Клиент платит не&nbsp;за&nbsp;концепции, а&nbsp;за&nbsp;решение задачи. </p>
-<p>В&nbsp;норме сотрудники агентства должны прийти с&nbsp;одной идеей и&nbsp;обосновывать ее&nbsp;соответствие задаче и&nbsp;требованиям проекта. </p>
-<p>Если&nbsp;же представители агентства пришли с&nbsp;несколькими концепциями, предложите им&nbsp;презентовать только одну&nbsp;— лучшую. Вам незачем тратить время на&nbsp;посредственные варианты. </p>
-<div class="extract">
-	<p>—&nbsp;Здравствуйте, мы&nbsp;подготовили три принципиально разные <b>идеи рекламной кампании</b>. </p>
-	<p>—&nbsp;Здравствуйте, выберите одну идею и&nbsp;презентуйте. </p>
-	<p>—&nbsp;Понимаете, очень сложно выбрать. Каждая идея решает задачу по&nbsp;своему и&nbsp;у&nbsp;каждой есть свои особенности. </p>
-	<p>—&nbsp;Верю. Выберите&nbsp;ту, которая решает задачу лучше и&nbsp;объясните, почему следует решать задачу именно так. </p>
- </div>
-<p>Если вы&nbsp;только начинаете работать с&nbsp;агентством, сразу обозначьте, что работаете по&nbsp;принципу «одна задача&nbsp;— одно решение». Агентство поймет, что креатив ради креатива не&nbsp;прокатит, и&nbsp;начнет искать решения и&nbsp;обоснование концепциям.</p>
-</section>
-
-<section class="row-gap--m">
-<h2 class="section__title h1 bold ">Если вы&nbsp;сотрудник рекламного агентства </h2>
-<p>Когда работаете над задачей, много концепций&nbsp;— норма. Было&nbsp;бы странно, если&nbsp;бы вы&nbsp;остановились на&nbsp;первой идее, которая пришла в&nbsp;голову, а&nbsp;все остальные оставили&nbsp;без внимания. </p>
-<p>Не&nbsp;меньшая странность&nbsp;— презентовать клиенту каждую идею, которая только появилась в&nbsp;голове по&nbsp;поводу его проекта. Клиенту не&nbsp;нужны все ваши идеи, ему нужно решение проблемы. </p>
-<p>Выберите одну концепцию и&nbsp;готовьтесь к&nbsp;презентации. Если не&nbsp;можете остановиться на&nbsp;одном варианте&nbsp;— значит все варианты слабые либо вы&nbsp;плохо понимаете задачу клиента. </p>
-
-<div itemprop="image" itemscope="" itemtype="http://schema.org/ImageObject">	
-		<link itemprop="url" href="/assets/images/blog/choice/choice.jpg" />
-<picture>
-               <source srcset="/assets/images/blog/choice/choice.avif" type="image/avif" />
-			    <source srcset="/assets/images/blog/choice/choice.webp" type="image/webp" />
-                <img class="image" loading="lazy" decoding="async" src="/assets/images/blog/choice/choice.jpg" alt="Рекламное агентство халтурит, когда предлагает несколько вариантов на выбор." width="720" height="377" itemprop="contentUrl" />
-    </picture>
-</div>
-
-
-<p>Когда вы&nbsp;просите клиента выбрать между вариантом&nbsp;А и&nbsp;вариантом&nbsp;Б, вы&nbsp;просите его стать на&nbsp;минуту дизайнером, или маркетологом-аналитиком, или кем-то еще. Клиент&nbsp;— как правило&nbsp;— с&nbsp;ролями справляется плохо. </p>
-
-<div class="post__note h2">Вместо перебора вариантов выявляйте дополнительные условия задачи, чтобы самим&nbsp;— как <b>профессиона&shy;лам</b>&nbsp;— определить, какой&nbsp;же вариант решения предпочтитель&shy;нее.</div>
-<p>Сказанное выше справедливо для концепций акций, макетов и&nbsp;даже визиток. Перебираете варианты&nbsp;— у&nbsp;вас нет решения. Не&nbsp;знаете, почему вариант&nbsp;А лучше варианта В&nbsp;— поверхностно изучили задачу. Боитесь предлагать всего одну концепцию? Напрасно. Клиент ценит не&nbsp;количество идей, а&nbsp;помощь в&nbsp;решении проблем. </p>
-</section>]]></content><author><name></name></author><category term="мнение" /><category term="реклама" /><category term="управление" /><summary type="html"><![CDATA[Когда рекламное агентство предоставляет на&nbsp;выбор три креативные концепции, оно не&nbsp;разобралось в&nbsp;задаче или не&nbsp;придумало сильное решение.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/tizers/tizer-38.jpg" /><media:content medium="image" url="http://localhost:4000/assets/images/tizers/tizer-38.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Маркетинг и спасение бизнеса | Дмитрий Бартошевич</title><link href="http://localhost:4000/blog/igra/" rel="alternate" type="text/html" title="Маркетинг и спасение бизнеса | Дмитрий Бартошевич" /><published>2017-02-18T00:00:00+03:00</published><updated>2022-02-04T00:00:00+03:00</updated><id>http://localhost:4000/blog/igra</id><content type="html" xml:base="http://localhost:4000/blog/igra/"><![CDATA[<div class="intro__post">
-    <h1 class=" bold max-width-text">Маркетинг и&nbsp;игра в&nbsp;«Cпасителя»</h1> 
-    <small class="small"><time itemprop="datePublished" datetime="2017-02-18"> 18 февраля 2017</time> 
-    </small>
-</div>
-
-<p>Несколько раз я&nbsp;сильно переживал за&nbsp;бизнес клиентов. Чрезмерно сильно. Делал больше первоначальных договоренностей и&nbsp;значимо превосходил ожидания. Это <strong>можно было&nbsp;бы отнести к&nbsp;примерам хорошего клиенториентированного подхода</strong>, если&nbsp;бы не&nbsp;одно&nbsp;но. </p>
-<p>Во&nbsp;всех подобных случаях я&nbsp;с&nbsp;сожалением замечал, что мои предложения, которыми клиент так восхищался, не&nbsp;реализуются. Находились десятки причин, почему следовало подождать. Признаюсь, я&nbsp;злился, по&nbsp;второму и&nbsp;третьему кругу объяснял и&nbsp;«разжевывал».</p>
-<p>«Дмитрий, это гениально! Как хорошо, что вы&nbsp;еще раз обратили наше внимание на&nbsp;важность. Сегодня&nbsp;же приступим»,&nbsp;— но&nbsp;шли недели и&nbsp;ничего не&nbsp;происходило. К&nbsp;этому всему добавлялись просрочки в&nbsp;оплате. На&nbsp;руках у&nbsp;меня подписанные договоры, акты выполненных работ, комплименты в&nbsp;почте, а&nbsp;денег на&nbsp;счете нет.</p>
-<p>Когда я&nbsp;попал в&nbsp;такую ситуацию в&nbsp;первый раз, я&nbsp;не&nbsp;сделал нужных выводов. А&nbsp;вот когда события стали разворачиваться по&nbsp;такой&nbsp;же схеме с&nbsp;другим клиентом и&nbsp;я&nbsp;словил себя на&nbsp;ощущении дежа&nbsp;вю, начал анализировать.</p>
-
-<div class="with-side row-gap--m">
-<p>Осознал, что между мной и&nbsp;клиентом были не&nbsp;рабочие равные отношения, а&nbsp;некая психологическая игра. Я&nbsp;назвал ее&nbsp;игрой в&nbsp;«Спасителя» и&nbsp;описал ее&nbsp;динамику через роли «Спасителя», «Жертвы» и&nbsp;«Преследователя». </p>
-<div class="side"><p>Использовал терминологию Э.Берна. Под игрой он&nbsp;понимал социальное взаимодействие с&nbsp;четко предсказуемым драматичным финалом.</p> </div></div>
-
-<p>Присмотрелся к&nbsp;компаниям, в&nbsp;которых за&nbsp;год сменилось несколько руководителей отдела маркетинга, и&nbsp;обнаружил, что события развивались по&nbsp;сценарию игры. </p>
-
-<div itemprop="image" itemscope="" itemtype="http://schema.org/ImageObject">	
-		<link itemprop="url" href="/assets/images/blog/igra/game_marketing.jpg" />
-<picture>
-                <source srcset="/assets/images/blog/igra/game_marketing.avif" type="image/avif" />
-                 <source srcset="/assets/images/blog/igra/game_marketing.webp" type="image/webp" />               
-               <img class="image" loading="lazy" decoding="async" src="/assets/images/blog/igra/game_marketing.jpg" alt="Маркетолога в роли Спасителя приглашают, чтобы распять." width="720" height="377" itemprop="contentUrl" />
-    </picture>
-</div>
-
-<p>Игрой в&nbsp;«Спасителя» подменяют работу. Я&nbsp;не&nbsp;стану рассматривать психологическое основание игры. Скажу только, что выиграть невозможно. «Спасителя» приглашают для того, чтобы распять.</p>
-
-<section class="row-gap--m">
-<h2 class="section__title h1 bold ">Описание игры в&nbsp;«Спасителя»</h2>
-<p><span class="bold">Этап&nbsp;1.</span> Начинается игра с&nbsp;того, что директор компании выступает в&nbsp;роли «Жертвы». Он&nbsp;жалуется на&nbsp;сотрудников, корит себя за&nbsp;ошибки, сетует на&nbsp;отставание от&nbsp;трендов, благодарит за&nbsp;обратную связь и&nbsp;особенно за&nbsp;критику. Относится к&nbsp;бизнесу как к&nbsp;вещи, которую готов передать <b>маркетологу</b> для ремонта. Щедр на&nbsp;комплименты. <b>Маркетолога</b> видит «Спасителем» бизнеса. «Вот теперь-то с&nbsp;вами у&nbsp;нас все наладится». Маркетолог соглашается с&nbsp;ролью и&nbsp;бросает все силы и&nbsp;энергию на&nbsp;проект. </p>
-<p><span class="bold">Этап&nbsp;2.</span> Предложения маркетолога одобряются, но&nbsp;не&nbsp;реализуются. И&nbsp;разобраться в&nbsp;причинах довольно сложно. Маркетолог становится «Преследователем»&nbsp;— злится, ругается, пытается контролировать сотрудников других отделов.</p>
-<p><span class="bold">Этап&nbsp;3.</span> Маркетолог становится «Жертвой». Его обвиняют в&nbsp;неудачах бизнеса. Могут задерживать оплату или не&nbsp;подписывать акты. Директор компании выступает в&nbsp;роли «Преследователя». Может обрушиться с&nbsp;критикой не&nbsp;только в&nbsp;личном разговоре, но&nbsp;и&nbsp;выступить в&nbsp;СМИ по&nbsp;поводу дураков-маркетологов.</p>
-</section>
-
-<section class="row-gap--m">
-<h2 class="section__title h1 bold ">Как маркетологу избежать игр с&nbsp;клиентами</h2>
-<p>Правила, которые я&nbsp;вывел для себя:</p>
-<ul class="list-li additive-spacing">
-<li class="additive-spacing"> <p>Следует отслеживать и&nbsp;соблюдать баланс вклада каждой стороны в&nbsp;развитие сотрудничества. Если нет баланса, вы&nbsp;в&nbsp;игре.</p>
-<p><span class="italic">Пример.</span> Одноклассник&nbsp;— владелец типографии&nbsp;— просит вас&nbsp;— лучшего эксперта в&nbsp;маркетинге, которого он&nbsp;только знает&nbsp;— написать стратегию выхода на&nbsp;европейский рынок. Бесплатно, по&nbsp;дружески. Он&nbsp;хочет, чтобы вы&nbsp;помогли ему заработать, но&nbsp;не&nbsp;хочет, чтобы заработали&nbsp;вы. Если согласились, добро пожаловать в&nbsp;игру.</p>
- </li>
-
-<li>Нельзя подпитывать чрезмерные ожидания и&nbsp;соглашаться на&nbsp;роль «Спасителя» бизнеса. Нужно четко обозначить, за&nbsp;какие результаты вы&nbsp;несете ответственность, а&nbsp;что вне сферы вашего влияния и&nbsp;контроля. Говорить о&nbsp;том, что вы&nbsp;делать не&nbsp;можете,&nbsp;— один из&nbsp;признаков профессионализма.</li>
-<li>Нельзя поощрять роль «Жертвы» у&nbsp;клиента. Клиент&nbsp;— не&nbsp;инертное пассивное существо. Маркетинг работает, если маркетолог и&nbsp;директор работают вместе. Следует оговорить, что именно делает сам клиент и&nbsp;когда.</li>
-<li>Начинать работу над проектом следует после подписания договора. В&nbsp;договоре необходимо зафиксировать цели, задачи проекта, план выполнения и&nbsp;критерии оценки результата. За&nbsp;пересмотром объема работы должен следовать пересмотр размера вознаграждения.</li>
-<li>Спасать и&nbsp;ругать клиента не&nbsp;стоит. Если клиент хочет ошибаться за&nbsp;собственные деньги, он&nbsp;имеет на&nbsp;это право.</li></ul>
-</section>]]></content><author><name></name></author><category term="мнение" /><category term="маркетолог" /><category term="управление" /><summary type="html"><![CDATA[Недовольство маркетингом может быть частью игры. Рассказываю, как маркетологу распознать и&nbsp;перестать играть в&nbsp;игры.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/tizers/tizer-37.jpg" /><media:content medium="image" url="http://localhost:4000/assets/images/tizers/tizer-37.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Делаю сайт психолога | Дмитрий Бартошевич</title><link href="http://localhost:4000/blog/delayu-sajt-detskogo-psixologa/" rel="alternate" type="text/html" title="Делаю сайт психолога | Дмитрий Бартошевич" /><published>2017-02-05T00:00:00+03:00</published><updated>2022-02-04T00:00:00+03:00</updated><id>http://localhost:4000/blog/delayu-sajt-detskogo-psixologa</id><content type="html" xml:base="http://localhost:4000/blog/delayu-sajt-detskogo-psixologa/"><![CDATA[<div class="intro__post">
-    <h1 class=" bold max-width-text">Кейс: делаю сайт для психолога</h1> 
-    <small class="small"><time itemprop="datePublished" datetime="2017-02-05">  5 февраля 2017</time> 
-      <time itemprop="dateModified" datetime="2022-02-04">(обновил  4 февраля 2022)</time>
-    </small>
-</div>
-
-<p>Для психолога Натальи Масюкевич сверстал сайт&nbsp;— <a class="link" href="//www.vitaline.by">www.vitaline.by</a>. Расскажу о&nbsp;ходе работы.</p>
-
-<div itemprop="image" itemscope="" itemtype="http://schema.org/ImageObject">	
-		<link itemprop="url" href="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1642407624/site/vitaline_site.jpg" />	
-<img class="image" src="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1642407624/site/vitaline_site.jpg" alt="Демонстрирую сайт психолога Натальи Масюкевич на разных устройствах" width="2000" height="1500" itemprop="contentUrl" />
-<div class="figcaption" itemprop="description">
-первый экран vitaline.by
-</div>
-</div>
-
-<p>Я&nbsp;не&nbsp;ставил задачей сделать сайт, который похвалил&nbsp;бы Артемий Лебедев. У&nbsp;меня нет для этого нужных знаний, да&nbsp;и&nbsp;подобная цель&nbsp;— от&nbsp;лукавого. У&nbsp;Натальи сайта раньше не&nbsp;было, четкие критерии и&nbsp;требования к&nbsp;ресурсу отсутствовали. В&nbsp;подобной ситуации требуется площадка для тестирования и&nbsp;база для сбора обратной связи и&nbsp;статистики. Нужен не&nbsp;сайт-эталон, а&nbsp;сайт&nbsp;— точка отсчета в&nbsp;развитии. Работу начал с&nbsp;определения необходимых составляющих «базового пакета» сайта психолога.</p>
-
-<section class="row-gap--m">
-<h2 class="section__title h1 bold ">Сфокусировался на&nbsp;пользе</h2>
-<p>Процентов девяносто психологов, с&nbsp;которыми сталкивался, описывают себя через инструменты и&nbsp;ничего не&nbsp;говорят о&nbsp;пользе. «Я&nbsp;— гештальт-терапевт, использую приемы арт-терапии». Это выглядит так, как если&nbsp;бы строительная компания на&nbsp;вопрос «Кто&nbsp;вы?» отвечала «мы&nbsp;используем бетон марки 400&nbsp;— B30». «Наверное, это круто»,&nbsp;— подумает обыватель, но&nbsp;не&nbsp;сможет соотнести это со&nbsp;своими проблемами, задачами и&nbsp;целями.</p>
-</section>
-
-<section class="row-gap--m">
-<h2 class="section__title h1 bold ">Перешел на&nbsp;язык боли клиента</h2>
-
-<p>Лет шесть назад я&nbsp;создал проект <a class="link" href="https://www.psycareer.ru">www.psycareer.ru</a>&nbsp;— рассказываю психологам, <strong>как привлекать клиентов</strong> и&nbsp;зарабатывать частными консультациями. Как-то разместил запрос клиента и&nbsp;самопрезентации нескольких психологов. Попросил посетителей решить, к&nbsp;кому из&nbsp;психологов стоит обратиться с&nbsp;указанным запросом. В&nbsp;комментариях к&nbsp;задаче отмечали, что однозначно ответить на&nbsp;вопрос нельзя. Описания психологов слишком расплывчатые и&nbsp;неконкретные. Но&nbsp;и&nbsp;описания, и&nbsp;запрос&nbsp;— реальные. Так говорят о&nbsp;себе психологи. И&nbsp;сами&nbsp;же признают, что из&nbsp;описания нельзя понять с&nbsp;какими запросами к&nbsp;ним стоит обращаться.</p>
-
-<div class="post__note row-gap--m">
-<p> В&nbsp;марте 2018&nbsp;г. выступил на&nbsp;международной онлайн-конференции «Психологическая практика-онлайн: возможности и&nbsp;перспективы». <strong>Рассказывал об&nbsp;ошибках, которые допускают психологи на&nbsp;своих сайтах, и&nbsp;рекомендовал полезные инструменты.</strong> </p>
- 
- 
- <div class="figure">						
-			<div class="video ">
-				   <a class="video__link " href="https://youtu.be/1y5jNAP28kE" target="_blank" rel="noopener nofollow noreferrer">
-					   <picture>
-						   <source srcset="https://i.ytimg.com/vi_webp/1y5jNAP28kE/maxresdefault.webp" type="image/webp" />
-						   <img loading="lazy" class="video__media " src="https://i.ytimg.com/vi/1y5jNAP28kE/maxresdefault.jpg" alt="Видео выступления Дмитрия Бартошевича на конференции" width="1280" height="720" />
-					   </picture>
-				   </a>
-				   <button class="video__button" aria-label="Запустить видео">
-					   <svg width="68" height="48" viewBox="0 0 68 48"><path class="video__button-shape" d="M66.52,7.74c-0.78-2.93-2.49-5.41-5.42-6.19C55.79,.13,34,0,34,0S12.21,.13,6.9,1.55 C3.97,2.33,2.27,4.81,1.48,7.74C0.06,13.05,0,24,0,24s0.06,10.95,1.48,16.26c0.78,2.93,2.49,5.41,5.42,6.19 C12.21,47.87,34,48,34,48s21.79-0.13,27.1-1.55c2.93-0.78,4.64-3.26,5.42-6.19C67.94,34.95,68,24,68,24S67.94,13.05,66.52,7.74z"></path><path class="video__button-icon" d="M 45,24 27,14 27,34"></path></svg>
-				   </button>
-		   </div>
-		   <div class="figcaption">
-			<p>«Сайт психолога.&nbsp;5&nbsp;типичных ошибок и&nbsp;10+&nbsp;полезных советов». Запись выступления на&nbsp;конференции</p>
-		   </div>
-		   </div>
- 
-</div>
-</section>
-
-<section class="row-gap--m">
-<h2 class="section__title h1 bold ">Обозначил проекты и&nbsp;результаты</h2>
-
-<p>Заявить о&nbsp;пользе&nbsp;— мало. Слова без дел ничего не&nbsp;стоят. Заявили о&nbsp;пользе&nbsp;— расскажите, что полезного уже сделали.</p>
-
-<p>Хвастовство отталкивает. Хотите убедительно рассказывать о&nbsp;себе&nbsp;— сухо перечисляйте проекты, обозначайте задачи, которые выполняли, говорите о&nbsp;результатах.</p>
-
-
-<table>
-<caption>Пример: <br />«Я&nbsp;помогу леворукому ребенку сформировать пространственные представления, потому что...»</caption>
-<thead>
-<tr>
-<th>-</th>
-<th>+</th>
-<th>++</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><i>я&nbsp;в&nbsp;этом лучший в&nbsp;мире</i></td>
-<td><i>у&nbsp;меня психологическое образование</i></td>
-<td><i>я&nbsp;15&nbsp;лет провожу коррекционные занятия с&nbsp;леворукими детьми</i></td>
-</tr>
-</tbody>
-</table>
-
-</section>
-
-<section class="row-gap--m">
-<h2 class="section__title h1 bold ">Ответил на&nbsp;потенциальные вопросы </h2>
-<p>Вопрос не&nbsp;в&nbsp;том, зачем сайт психологу. Важно понимать, зачем сайт психолога нужен клиенту. Напр., уточнить адрес кабинета и&nbsp;понять, как добраться. Отсюда → указываем адрес, объясняем, как лучше добраться, показываем карту. Как записаться на&nbsp;прием, что ожидать от&nbsp;первой консультации, почему важно принести медицинскую карту ребенка,&nbsp;— на&nbsp;эти и&nbsp;другие вопросы следует ответить на&nbsp;сайте. </p>
-</section>
-
-<section class="row-gap--m">
-<h2 class="section__title h1 bold ">Убрал из&nbsp;дизайна все, что отвлекает</h2>
-<p>Дизайн сайта должен соответствовать мотивам целевой аудитории ресурса. Если пользователи нацелены на&nbsp;поиск полезной для себя информации, то&nbsp;ничего не&nbsp;должно отвлекать от&nbsp;содержания. Все мигающее, всплывающее, заслоняющее&nbsp;— под запретом.</p>
-</section>
-
-<section class="row-gap--m">
-<h2 class="section__title h1 bold ">Выбрал движок сайта</h2>
-<p>Сначала движком сайта выбрал вордпрес и&nbsp;начал занудно искать простую и&nbsp;минималистичную тему. Через час понял, что занимаюсь не&nbsp;тем. Вместо того, чтобы думать, как создать содержательно интересный ресурс, я&nbsp;копался в&nbsp;настройках. Отказался в&nbsp;принципе от&nbsp;вордпреса и&nbsp;начал искать другой движок.</p>
-
-<p>Остановился <a class="link" href="//blogengine.ru/">на&nbsp;«Эгее»</a>. Мне понравился лаконичный дизайн и&nbsp;— по&nbsp;отзывам&nbsp;— отсутствие избыточности в&nbsp;функциональности. Когда несколько пользователей сказали, что авторов ничего не&nbsp;отвлекает от&nbsp;содержания, я&nbsp;подумал «Да&nbsp;это&nbsp;же то, что нужно!»</p>
-
-<p>Установил движок на&nbsp;сервер и&nbsp;начал разбираться. Нет админской панели, из&nbsp;настроек&nbsp;— указываю название блога, разрешаю комментирование и&nbsp;социальные кнопки. Все. Больше ничего нет. Идеальный вариант для тех, кто хочет сосредоточенно писать и&nbsp;не&nbsp;отвлекаться на&nbsp;html, плагины и&nbsp;прочее.</p>
-
-<p class="mb-m">Из&nbsp;минусов&nbsp;— закрытый код и&nbsp;— насколько понял&nbsp;— небольшая команда разработчиков. Что это означает:</p>
-<ul class="list-li additive-spacing">
-	<li>Поддержки пользователей нет.</li>
-	<li>Функциональность зависит от&nbsp;одного человека&nbsp;— Ильи Бирмана&nbsp;— автора движка. Илье не&nbsp;нравится, когда в&nbsp;блогах часть текста прячут «под кат», и&nbsp;подобной возможности у&nbsp;пользователей «Эгеи» нет. Илья не&nbsp;принимает значимость карты сайта для поисковых роботов и&nbsp;в&nbsp;«Эгее» нет sitemap.xml.</li>
-	<li>Оперативность обновлений и&nbsp;стабильность развития движка под вопросом. Неизвестно, что будет с&nbsp;«Эгеей», стоит только автору заболеть или увлечься иными проектами.</li>
-</ul> 
-<p>А&nbsp;еще в&nbsp;«Эгее» нельзя добавить страницы. Главную страницу, страницы с&nbsp;контактами и&nbsp;перечислением проектов я&nbsp;написал на&nbsp;html с&nbsp;нуля.</p>
-
-<p>Сайт работает уже месяц. Идеи, замечания заношу в&nbsp;Trello. Как накопится критическая масса&nbsp;— возьмусь за&nbsp;изменения.</p>
-
-<p>Не&nbsp;факт, что внешний вид сайта не&nbsp;изменится. Пока разбирался с&nbsp;версткой, возникло желание отказаться от&nbsp;блогового движка и&nbsp;баз данных, верстать и&nbsp;помещать на&nbsp;сервер готовые html-страницы. Поиск привел меня к&nbsp;генераторам статических сайтов. Изучаю плюсы и&nbsp;минусы, тестирую. Но&nbsp;независимо от&nbsp;внешнего вида и&nbsp;технической составляющей, принципы, которые легли в&nbsp;основу сайта, останутся прежними.</p>
-
-
-
-
-<section class="row-gap--m">
- <h3 class="element--hidden">Дополнение: выбор генератора статических сайтов</h3>
-<p class="mt-m mb-m"><span class="bold">Updated</span></p>
-<div class="with-side row-gap--m">
-<p>После изучения и&nbsp;тестирования я&nbsp;полностью перевел сайт на&nbsp;Jekyll&nbsp;— генератор статических сайтов.</p>
-<div class="row">
-<div class="c-5">
-<p class=" italic">Плюсы </p>
-<ul class="list-li">
-	<li>нет баз данных → высокая скорость загрузки;</li>
-	<li>нет лишней функциональности;</li>
-	<li>100% контроль работы;</li>
-	<li>безопасность;</li>
-	<li>бесплатный хостинг на&nbsp;GitHub.</li>
-</ul>
-</div>
-<div class="c-5">
-<p class="italic">Минусы</p>
-<ul class="list-li">
-	<li>более высокий «порог входа» (в&nbsp;сравнении с&nbsp;тем&nbsp;же wordpress)</li>
-</ul>
-</div>
-</div>
-
-<div class="side">
-<p>Ссылки для интересующихся:</p>
-<ul>
-	<li><a class="link" href="http://prgssr.ru/documentation/">Документация Jekyll</a></li>
-	<li><a class="link" href="https://jekyllrb.com/">Сайт Jekyll</a></li>
-</ul>
-</div>
-</div>
-</section>
-</section>]]></content><author><name></name></author><category term="опыт" /><category term="кейсы" /><category term="интернет-маркетинг" /><summary type="html"><![CDATA[Рассказываю, как верстал сайт психолога&nbsp;— от&nbsp;чего отталкивался в&nbsp;содержании, дизайне и&nbsp;выборе движка сайта.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/tizers/tizer-36.jpg" /><media:content medium="image" url="http://localhost:4000/assets/images/tizers/tizer-36.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Алгоритм проведения рекламной кампании | Дмитрий Бартошевич</title><link href="http://localhost:4000/blog/algoritm-provedeniya-reklamnoj-kampanii/" rel="alternate" type="text/html" title="Алгоритм проведения рекламной кампании | Дмитрий Бартошевич" /><published>2016-12-20T00:00:00+03:00</published><updated>2022-02-04T00:00:00+03:00</updated><id>http://localhost:4000/blog/algoritm-provedeniya-reklamnoj-kampanii</id><content type="html" xml:base="http://localhost:4000/blog/algoritm-provedeniya-reklamnoj-kampanii/"><![CDATA[<div class="intro__post">
-    <h1 class=" bold max-width-text">Рекламная кампания: алгоритм проведения</h1> 
-    <small class="small"><time itemprop="datePublished" datetime="2016-12-20"> 20 декабря 2016</time> 
-      <time itemprop="dateModified" datetime="2022-02-04">(обновил  4 февраля 2022)</time>
-    </small>
-</div>
-
-<p><strong>Как правильно разрабатывать рекламную кампанию</strong> обсудил со&nbsp;специалистами международного рекламного холдинга&nbsp;— Дмитрием Буховцом и&nbsp;Дмитрием Григорьевым. Обсуждение резюмировал, свел в&nbsp;систему и&nbsp;получил  <strong>общий алгоритм проведения рекламной кампании</strong>.</p>
-
-<div class="guests">
-<div class="guest-person">
-	<img class="image is-150x150" src="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto:best/v1649529150/site/dmitry_grigoruev.jpg" alt="Дмитрий Григорьев" width="150" height="150" />	
-		<div class="guest-person__name">Дмитрий Григорьев</div>
-		<div class="guest-person__position">New Business Director</div>
-	
-</div>
-<div class="guest-person">
-		<img class="image is-150x150" src="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto:best/v1649529149/site/dmitry_bukhovets.jpg" alt="Дмитрий Буховец" width="150" height="150" />	
-			<div class="guest-person__name">Дмитрий Буховец</div>
-			<div class="guest-person__position">Media Group Head</div>
-	
-</div>
-</div>
-
-<p>Если вы&nbsp;хотите вложиться в&nbsp;рекламу с&nbsp;умом&nbsp;— используйте статью как инструкцию.</p>
+<p>Скорость загрузки сайта была в&nbsp;числе моих основных приоритетов еще до&nbsp;настойчивых рекомендаций Google. Один из&nbsp;факторов, влияющих на&nbsp;скорость,&nbsp;— вес изображений. Меньше вес&nbsp;— браузер быстрее показывает страницу. <strong>Я&nbsp;пробовал разные способы оптимизации изображений и&nbsp;в&nbsp;результате выбрал несколько, которые использую сам и&nbsp;рекомендую другим.</strong> </p>
 
 <nav class="toc">
- <h2 class="toc__title">Алгоритм</h2>
+ <h2 class="toc__title">Содержание</h2>
  <ul class="additive-spacing">
-<li>
-	<span class="tocnumber">1</span><a class="link" href="#1">Убедитесь в&nbsp;необходимости рекламной кампании</a>
-</li>
-<li>
-	<span class="tocnumber">2</span><a class="link" href="#2">Проработайте идею рекламной кампании </a>
-</li>
+  <li>
+    <a class="link" href="#1">
+      <span class="tocnumber">1 </span>Стандартный подход
+    </a>
+  </li>
+  <li>
+    <a class="link" href="#2">
+      <span class="tocnumber">2 </span>Новое требование: каждому экрану свое изображение
+    </a>
+  </li>
 
-<li class="level2">
-	<span class="tocnumber">а)</span><a class="link" href="#2.1">определите аудиторию</a>
-</li>
-<li class="level2">
-	<span class="tocnumber">б)</span><a class="link" href="#2.2">выберите каналы коммуникации</a>
-</li>
-<li class="level2">
-<span class="tocnumber">в)</span><a class="link" href="#2.3">определите частоту контактов с&nbsp;рекламным сообщением</a>
-</li>
-<li class="level2">
-	<span class="tocnumber">г)</span><a class="link" href="#2.4">составьте рекламное сообщение</a>
-</li>
-<li>
-	<span class="tocnumber">3</span>
-	<a class="link" href="#3">
-	Определите бюджет на&nbsp;размещение рекламы
-	</a>
-</li>
-<li>
-	<span class="tocnumber">4</span>
-	<a class="link" href="#4">
-	Оцените эффективность рекламной кампании
-	</a>
-</li>
-<li>
-	<span class="tocnumber">5&nbsp;</span><a class="link" href="#5">Создайте информационный банк рекламных кампаний</a>
-</li>
+      <li>
+        <a class="link" href="#3">
+        <span class="tocnumber">3 </span>А&nbsp;можно&nbsp;ли проще?
+        </a>
+      </li>
 </ul>
 </nav>
 
 <section class="row-gap--m" id="1">
-<h2 class="section__title h1 bold ">Шаг&nbsp;1. Убедитесь в&nbsp;необходимости рекламной кампании</h2>
-<p>Проводить рекламную кампанию следует тогда, когда вы&nbsp;изучили ситуацию на&nbsp;рынке и&nbsp;пришли к&nbsp;выводу, что без рекламы задач бизнеса не&nbsp;решить.</p>
+<h2 class="section__title h1 bold ">Стандартный подход</h2>
+<p>Перед публикацией фотографии на&nbsp;сайте я&nbsp;уменьшаю ее&nbsp;вес. Делаю это в&nbsp;графическом редакторе (Gimp + плагин «gimp-plugin-saveforweb») или <a href="https://imagecompressor.com/ru/">сервисе Optimizilla</a>. </p>
 
-<p>Давайте представим предприятие&nbsp;N., у&nbsp;которого за&nbsp;последние полгода снизился объем продаж в&nbsp;два раза. Нужна&nbsp;ли ему рекламная кампания? Если не&nbsp;выяснить причины падения продаж, любой ответ&nbsp;— гадание. И&nbsp;вот почему.</p>
+<span class="bold">Пример</span>
+<div class="row">
+<div class="c-5">
+<img class="image" loading="lazy" decoding="async" src="/assets/images/blog/optimizaciya-izobrajenii/coin-optimizilla.jpg" alt="фотография монеты" width="300" height="298" />
+</div>
+<div class="c-5">
+<div class="small">оригинал, 300px*298px, 102,4&nbsp;КБ <br />
+автор фото&nbsp;— www.flickr.com/photos/simon50000/</div>
+</div>
+</div>
 
-<p>Реклама&nbsp;— не&nbsp;панацея. Это инструмент, который необходим в&nbsp;одних ситуациях и&nbsp;бесполезен в&nbsp;других. Реклама напрямую влияет на&nbsp;уровень знания продукта и&nbsp;его восприятие. А&nbsp;продажи могут снизиться из-за факторов, на&nbsp;которые реклама не&nbsp;способна повлиять в&nbsp;принципе.</p>
+<div class="row">
+<div class="c-5">
+<img class="image" loading="lazy" decoding="async" src="/assets/images/blog/optimizaciya-izobrajenii/coin-optimizilla.jpg" alt="оптимизированная с помощью Gimp фотография монеты" width="300" height="298" />
+</div>
+<div class="c-5">
+<div class="small">оптимизировано в&nbsp;Gimp, 32,4&nbsp;КБ <br />
+открыл фото и&nbsp;сохранил для веб. настройки программы&nbsp;— по&nbsp;умолчанию</div>
+</div>
+</div>
 
+<div class="row">
+<div class="c-5">
+<img class="image" loading="lazy" decoding="async" src="/assets/images/blog/optimizaciya-izobrajenii/coin-optimizilla.jpg" alt="оптимизированная с помощью Optimizilla фотография монеты" width="300" height="298" />
+</div>
+<div class="c-5">
+<div class="small">оптимизировано в&nbsp;Optimizilla, 20,5&nbsp;КБ<br />
+настройки онлайн сервиса&nbsp;— по&nbsp;умолчанию</div>
+</div>
+</div>
 
-<table>
-<caption>Определение целесообразности рекламной кампании</caption>
-<thead>
-<tr>
-<th>Причина спада продаж</th>
-<th>Может реклама исправить ситуацию?</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>В&nbsp;салонах нет достаточных запасов высокооборачиваемых позиций.</td>
-<td>Нет</td>
-</tr>
-<tr>
-<td>Конкуренты провели несколько масштабных кампаний, в&nbsp;которых продемонстрировали дополнительные выгоды своего товара.</td>
-<td>Да</td>
-</tr>
-<tr>
-<td>В&nbsp;торговом зале сменились консультанты. Посетители жалуются, что ни&nbsp;на&nbsp;один вопрос не&nbsp;могут получить внятный ответ.</td>
-<td>Нет</td>
-</tr>
-<tr>
-<td>Снизилось качество продукции, количество случаев возврата товара выросло.</td>
-<td>Нет</td>
-</tr>
-<tr>
-<td>Снизился уровень знания предприятия N.</td>
-<td>Да</td>
-</tr>
-</tbody>
-</table>
+<p>Уменьшили размер фото&nbsp;— можно публиковать. В&nbsp;код html-страницы добавляем такую строку: </p>
+
+<pre class="language-terminal highlight ">&lt;img src="путь к&nbsp;изображению" alt="описание,что изображено" width="ширина" height="высота"/&gt;</pre>
 
 
 
-<p>Поэтому важно изучать рынок, выявлять, что мешает достижению цели, и&nbsp;принимать меры, адекватные ситуации. Проигнорируете это правило&nbsp;— готовьтесь к&nbsp;проблемам с&nbsp;рекламными кампаниями.</p>
 
-<p class="mb-m">При анализе рынка обратите внимание:</p>
-<ul class="list-li">
-	<li>на&nbsp;действия и&nbsp;предложения конкурентов;</li>
-	<li>кто и&nbsp;как часто покупает ваш товар;</li>
-	<li>на&nbsp;сильные и&nbsp;слабые стороны товара в&nbsp;восприятии клиентов.</li>
-</ul> 
-<p>Собранная информация поможет понять, целесообразно&nbsp;ли использовать рекламу как инструмент решения задач бизнеса. И&nbsp;далее&nbsp;— в&nbsp;случае положительного решения&nbsp;— сформулировать задание для рекламного агентства.</p>
+<p class="mb-m">Раньше этих действий было достаточно. Сейчас&nbsp;— нет. Назову три причины:</p>
+
+
+<ul class="additive-spacing">
+	<li class="list-li">
+		<p>Иногда оптимизированные фото на&nbsp;«ретине» выглядят плохо → «ретине» нужно предлагать свои картинки. </p>
+	</li>
+	<li class="list-li">
+		<p>Появился <a class="link" href="https://developers.google.com/speed/webp/">новый формат изображений&nbsp;— WebP</a>, который делает вес фото еще меньше. Пока формат поддерживается не&nbsp;всеми браузерами → для браузеров, которые «видят» WebP, следует предлагать WebP, а&nbsp;остальным&nbsp;— другие форматы. </p>
+	</li>
+	<li class="list-li">
+		<p>Чтобы браузеры в&nbsp;смартфонах не&nbsp;отвлекались на&nbsp;адаптацию картинок под размер экрана, нужно предлагать картинки нужного размера сразу. Один размер для смартфонов, другой&nbsp;— для планшетов, третий&nbsp;— для десктопов.</p>
+	</li>
+</ul>
+
+<p class="post__note">Вместо одной фотографии, одной строчки кода с&nbsp;адресом и&nbsp;описанием следует готовить набор фотографий (разного размера и&nbsp;формата) и&nbsp;указывать в&nbsp;html-коде условия, при которых должна показываться та&nbsp;или иная фотография из&nbsp;набора. Для каждого экрана должно загружаться наиболее релевантное изображение&nbsp;— нужного размера, формата и&nbsp;разрешения.</p>
 </section>
 
 <section class="row-gap--m" id="2">
-<h2 class="section__title h1 bold ">Шаг&nbsp;2. Проработайте идею рекламной кампании</h2>
+<h2 class="section__title h1 bold ">Новое требование: каждому экрану свое изображение </h2>
+<p>Принцип «каждому экрану свое изображение» можно реализовать с&nbsp;помощью плагинов: загружаем одну фотографию и&nbsp;плагин автоматически делает копии, меняет размеры и&nbsp;прописывает условия показа. Не&nbsp;нужно сосредотачиваться на&nbsp;технической составляющей работы сайта. Это плюс. </p>
 
-<section class="row-gap--m" id="2.1">
-<h3 class="h2 bold mb-m">а) Определите аудиторию, до&nbsp;которой хотите донести сообщение</h3>
-<p>Когда не&nbsp;знают портрет типичного клиента компании, целевую аудиторию часто описывают широко&nbsp;— например, население Беларуси старше 18&nbsp;лет. На&nbsp;языке рекламного агентства или ТВ-канала это означает «Покажите рекламу студентам и&nbsp;пенсионерам, банкирам и&nbsp;рабочим, мужчинам и&nbsp;женщинам».</p>
+<p>Минусы тоже есть. Во-первых, не&nbsp;все плагины написаны хорошо. Иногда можно здорово проиграть в&nbsp;производительности сайта. Во-вторых, некоторые задачи нельзя решить в&nbsp;автоматическом режиме. Например, кадрирование. Панорамная фотография хорошо смотрится на&nbsp;большом экране, но&nbsp;на&nbsp;смартфоне лучше показать только наиболее значимую часть фотографии. </p>
 
-<p>У&nbsp;каждой из&nbsp;перечисленных групп свои любимые газеты, сайты, радио- и&nbsp;ТВ-каналы. Предприятию придется значимо увеличить бюджет на&nbsp;размещение, чтобы одинаково эффективно охватить всю обозначенную аудиторию.</p>
+<p>Показывать разные изображения для разных ситуаций поможет тег &lt;picture&gt;. </p>
 
-<p>Каждая группа опирается на&nbsp;свои критерии выбора товара, требования к&nbsp;качеству и&nbsp;обслуживанию. Группы по-разному воспринимают информацию: одним важны рациональные аргументы, другим&nbsp;— эмоциональность сообщения. Кто-то смотрит обзорные видео, другие предпочитают экспертные статьи. Когда ориентируются на&nbsp;«белорусы старше&nbsp;18», эти особенности игнорируют и&nbsp;создают рекламу, которая не&nbsp;интересует никого.</p>
+<p>Если вы&nbsp;читаете статью со&nbsp;смартфона, ниже вы&nbsp;видите котенка, который спит, свернувшись калачиком. Если читаете с&nbsp;большого экрана&nbsp;— ваш кот зевает и&nbsp;потягивается. Еще есть кот, который сидит и&nbsp;смотрит на&nbsp;вас. Поэкспериментируете с&nbsp;гаджетами или размером окна браузера и&nbsp;убедитесь, что так и&nbsp;есть. </p>
 
-<p>Делайте кампанию сильной и&nbsp;фокусированной. Условно разделите клиентов на&nbsp;однородные группы и&nbsp;выделите&nbsp;ту, до&nbsp;которой хотели&nbsp;бы достучаться в&nbsp;первую очередь. Опишите ее&nbsp;участников&nbsp;— обозначьте пол, возраст, социальное положение, уровень образования, место жительства&nbsp;— и&nbsp;переходите к&nbsp;следующим этапам работы над рекламой.</p>
-</section>
+<figure>
+<picture>
+  <source media="(min-width: 650px)" srcset="/images/kitten-large.png" />
+  <source media="(min-width: 465px)" srcset="/images/kitten-medium.png" />
+  <img class="image" loading="lazy" decoding="async" src="/images/kitten-small.png" alt="a cute kitten" />
+</picture>
+<figcaption>Пример взят <a class="link" href="https://cloudfour.com/examples/img-currentsrc/">отсюда</a></figcaption>
+</figure>
 
-<section class="row-gap--m" id="2.2">
-<h3 class="h2 bold mt-m mb-m">б) Выберите каналы коммуникации</h3>
-<p>При выборе каналов коммуникации не&nbsp;важно, какие передачи смотрите вы&nbsp;или ваше ближайшее окружение. Даже специальные льготные условия, предложенные директором радиоканала по&nbsp;старой дружбе,&nbsp;— еще не&nbsp;повод у&nbsp;него рекламироваться.</p>
-
-<p>Ваша задача&nbsp;— разместить рекламу так, чтобы охватить максимум человек из&nbsp;целевой аудитории. И&nbsp;здесь имеет значение только одно&nbsp;— что и&nbsp;как часто смотрят и&nbsp;слушают нужные вам люди.</p>
-
-<p class="mb-m">Обратитесь в&nbsp;рекламное или медиа-агентство. Специалисты агентства возьмут данные независимых измерителей рынка, сведения о&nbsp;вашей аудитории и&nbsp;рассчитают:</p>
-<ul class="list-li">
-	<li>следует&nbsp;ли использовать один канал коммуникации или&nbsp;же подключать разные;</li>
-	<li>если для размещения рекламы используется, например, телевидение, то&nbsp;какие конкретно каналы выбрать и&nbsp;в&nbsp;какое время рекламу показывать;</li>
-	<li>прогнозируемый охват аудитории.</li>
-</ul>
-<p class="mb-m">За&nbsp;работу агентство попросит деньги. Эти расходы оправданы:</p>
-<ul class="list-li">
-	<li>если вы&nbsp;не&nbsp;уверены в&nbsp;собственных силах и&nbsp;хотите опираться на&nbsp;опыт специалистов и&nbsp;результаты исследований;</li>
-	<li>если вы&nbsp;намерены сэкономить время: вам не&nbsp;понадобится вести переговоры с&nbsp;редакциями средств массовой информации;</li>
-	<li>иногда размещение рекламы через посредников выгоднее за&nbsp;счет скидок, которые получают рекламные агентства.</li>
-</ul>
+<p>А&nbsp;вот как это работает:</p>
 
 
-</section>
+<pre class="language-terminal highlight ">
+&lt;picture&gt;<br />
+&lt;source media="(min-width: 650px)" srcset="...kitten-large.png"&gt;<br />
+&lt;source media="(min-width: 465px)" srcset="...kitten-medium.png"&gt;<br />
+&lt;img src="...kitten-small.png" alt="a cute kitten"&gt;<br />
+&lt;/picture&gt;
+</pre>
 
-<section class="row-gap--m" id="2.3">
-<h3 class="h2 bold mt-m mb-m">в) Определите частоту контактов с&nbsp;рекламным сообщением</h3>
-<p>Если в&nbsp;период большой активности рекламодателей вы&nbsp;сообщите о&nbsp;новом продукте один раз, скорее всего сообщение «утонет» в&nbsp;рекламном шуме. Если рекламу увидят через каждые 20&nbsp;минут&nbsp;— вы&nbsp;станете раздражать. Сколько&nbsp;же раз показывать рекламу&nbsp;— готового ответа нет.</p>
 
-<p class="mb-m">Решение зависит от&nbsp;многих факторов: </p>
-<ul class="list-li">
-	<li>Канала коммуникации.</li>
-	<li>Сложности аудитории и&nbsp;ее&nbsp;поведенческих характеристик.</li>
-	<li>Решаемой задачи. Вывод нового продукта на&nbsp;рынок требует большей частоты чем поддержание уровня знания известной марки.</li>
-	<li>Конкурентного окружения.</li>
-	<li>Общей активности рекламодателей.</li>
-	<li>Новизны рекламного сообщения.</li>
-	<li>...</li>
-</ul> 
-<p>Если сомневаетесь, определите частоту вместе со&nbsp;специалистами рекламного агентства.</p>
-</section>
+<p>Атрибут srcset указывает путь изображения для загрузки. Тег &lt;source&gt; и&nbsp;атрибут media указывают условия появления каждой из&nbsp;картинок. Если ширина экрана больше 650px, показывается зевающий кот, если от&nbsp;465px до&nbsp;650px&nbsp;— кот сидит. Если экран меньше 465px или если браузер не&nbsp;распознает тег &lt;picture&gt;, вы&nbsp;увидите спящего кота. </p>
 
-<section class="row-gap--m" id="2.4">
-<h3 class="h2 bold mt-m mb-m">г) Составьте рекламное сообщение</h3>
-<p>Для формирования позитивного отношения к&nbsp;рекламируемому продукту или услуге нужна хорошая идея и&nbsp;правильный формат.</p>
+<p>В&nbsp;блоге Opera есть <a class="link" href="https://dev.opera.com/articles/responsive-images/">15&nbsp;примеров использования тега &lt;picture&gt;</a> (на&nbsp;англ.). Я&nbsp;заглядываю туда как в&nbsp;шпаргалку по&nbsp;синтаксису: какой код нужен, чтобы для ретины загружать изображения с&nbsp;высоким разрешением, чтобы показывать разные фото для разных экранов, чтобы предлагать WebP там, где браузеры распознают этот формат, чтобы все эти условия указать разом для одного изображения. </p>
 
-<p><span class="bold">Хорошая идея сообщения</span>:</p>
-<ul class="list-li">
-	<li>Легко считывается и&nbsp;коротко формулируется. Содержание рекламы построено вокруг одного ключевого послания. Нет второстепенных деталей и&nbsp;смыслов.</li>
-</ul>
+<div class="markedfield">
 
-<table>
-<caption>Пример. Варианты рекламного сообщения</caption>
-<thead>
-<tr>
-<th>Нет</th>
-<th>Да</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td class="width50">«У&nbsp;нас новая коллекция, теперь выбор больше. Наши диваны тестируют каждую ночь. Мы&nbsp;переехали ближе к&nbsp;центру&nbsp;— удобно добираться. Новогодняя акция до&nbsp;февраля»</td>
-<td>«Наши диваны тестируют каждую ночь»</td>
-</tr>
-</tbody>
-</table>
+<div class="figure">
+ <div class="video ">
+        <a class="video__link " href="https://youtu.be/VnjrIGvoO_Y" target="_blank" rel="noopener nofollow noreferrer">
+            <picture>
+                <source srcset="https://i.ytimg.com/vi_webp/VnjrIGvoO_Y/maxresdefault.webp" type="image/webp" />
+                <img loading="lazy" class="video__media " src="https://i.ytimg.com/vi/VnjrIGvoO_Y/maxresdefault.jpg" alt="Вадим Макеев рассказывает об image-set" width="1280" height="720" />
+            </picture>
+        </a>
+        <button class="video__button" aria-label="Запустить видео">
+            <svg width="68" height="48" viewBox="0 0 68 48"><path class="video__button-shape" d="M66.52,7.74c-0.78-2.93-2.49-5.41-5.42-6.19C55.79,.13,34,0,34,0S12.21,.13,6.9,1.55 C3.97,2.33,2.27,4.81,1.48,7.74C0.06,13.05,0,24,0,24s0.06,10.95,1.48,16.26c0.78,2.93,2.49,5.41,5.42,6.19 C12.21,47.87,34,48,34,48s21.79-0.13,27.1-1.55c2.93-0.78,4.64-3.26,5.42-6.19C67.94,34.95,68,24,68,24S67.94,13.05,66.52,7.74z"></path><path class="video__button-icon" d="M 45,24 27,14 27,34"></path></svg>
+        </button>
+</div>
+<div class="figcaption">
+<span class="bold">updated</span>  Для желающих углубиться в&nbsp;тему Вадим Макеев рассказывает, как с&nbsp;помощью image-set можно подключать картинки разных типов и&nbsp;разрешения
+</div>
+</div>
+</div>
 
-<ul class="list-li additive-spacing">
-	<li>Перекликается с&nbsp;ценностями целевой аудитории и&nbsp;мотивами, влияющими на&nbsp;выбор товара.</li>
-	<li>Поддерживает и&nbsp;укрепляет отличия бренда. Если отталкиваться от&nbsp;сиюминутных задач и&nbsp;реагировать на&nbsp;них рекламой, то&nbsp;образ бренда скорее всего размоется и&nbsp;умрет. У&nbsp;сильных брендов прослеживаются единые принципы и&nbsp;тон коммуникации от&nbsp;кампании к&nbsp;кампании.</li>
-</ul>
-
-<p class="mb-m mt-m"><span class="bold">Правильный формат учитывает:</span></p>
-<ul class="list-li mb-m">
-	<li>поведение и&nbsp;привычки целевой аудитории → способы и&nbsp;частоту потребления информации</li>
-</ul>
-<p><span class="italic">Пример:</span> аудитория в&nbsp;возрасте <span class="noperenos">15-25</span> лет гораздо охотнее посмотрит обзорное видео, нежели прочитает обзорную статью.</p>
-
-<ul class="list-li mb-m">
-	<li>особенности выбранных каналов коммуникации</li>
-</ul>
-<p><span class="italic">Пример:</span> используя наружную рекламу, вы&nbsp;не&nbsp;расскажете подробно о&nbsp;продукте. Скорее всего вы&nbsp;сможете донести очень простое сообщение&nbsp;— название и&nbsp;внешний вид. А&nbsp;для знакомства с&nbsp;его характеристиками стоит выбрать более подходящие инструменты: обзорные статьи и&nbsp;видеообзоры.</p>
-</section>
 </section>
 
 <section class="row-gap--m" id="3">
-<h2 class="section__title h1 bold ">Шаг&nbsp;3. Определите бюджет на&nbsp;размещение рекламы</h2>
-<p>Выбранные каналы и&nbsp;частота показа рекламы определяют бюджет размещения. Но&nbsp;и&nbsp;выбор медийных инструментов зависит от&nbsp;суммы, которую вы&nbsp;готовы вложить в&nbsp;размещение.</p>
+<h2 class="section__title h1 bold ">А&nbsp;можно&nbsp;ли проще? </h2>
+
+<p>С&nbsp;тегом &lt;picture&gt; код картинки занимает иногда более 10&nbsp;строк, не&nbsp;говоря уже о&nbsp;том, что нужно вручную подготовить несколько вариантов изображения. Если писать <span class="noperenos">1-2</span> статьи в&nbsp;месяц, это необременительно. А&nbsp;если у&nbsp;вас интернет-магазин с&nbsp;тысячей наименований и&nbsp;соответствующим количеством фотографий? </p>
+
+<p>Однажды я&nbsp;верстал фотогалерею в&nbsp;flexbox. В&nbsp;зависимости от&nbsp;размера экрана ширина фотографий могла занимать любое значение от&nbsp;250px до&nbsp;1200px. Этот диапазон я&nbsp;разбил на&nbsp;интервалы и&nbsp;для каждого подготовил свое изображение со&nbsp;своим размером и&nbsp;форматом. Большой объем ручной работы + неидеальный результат (часто требуемая ширина картинки не&nbsp;совпадала с&nbsp;имеющейся, что расстраивало гугловский pagespeed insight)&nbsp;— все это вынудило меня искать другое решение. И&nbsp;я&nbsp;его нашел&nbsp;— <a class="link" href="https://cloudinary.com/invites/lpov9zyyucivvxsnalc5/wtgfrafckbpng93fntsg?t=default">Cloudinary</a>. </p>
+
+<p>C&nbsp;Cloudinary работа по&nbsp;оптимизации изображений сводится к&nbsp;корректировке адреса картинки, загруженной в&nbsp;облако сервиса. Поясню на&nbsp;примере. Давайте войдем в&nbsp;Cloudinary, добавим фотографию монеты из&nbsp;примера выше и&nbsp;скопируем url картинки. </p>
+
+<img src="//res.cloudinary.com/bartoshevich/image/upload/q_auto,f_auto/v1538445318/copy_cloudinary.jpg" alt="пример работы с Cloudinary" width="519" height="478" />
 
 
-<div class="with-side row-gap--m">
-<p>Если задача&nbsp;— быстро увеличить знание торговой марки, то&nbsp;нет более эффективного инструмента чем реклама на&nbsp;телевидении. Финансовый «порог входа» для ТВ-кампании&nbsp;— в&nbsp;среднем&nbsp;— начинается с&nbsp;$15 тысяч для белорусских предприятий и&nbsp;$35 тысяч&nbsp;— для иностранных компаний. С&nbsp;меньшим бюджетом на&nbsp;размещение рекламы вы&nbsp;не&nbsp;достигните высокого охвата аудитории и&nbsp;частоты показа. В&nbsp;подобных случаях лучше не&nbsp;рекламироваться вообще, чем потратить&nbsp;то, что есть, без результата.</p>
-<div class="side"><p><span class="bold">2&nbsp;недели</span> <br /> рекламной кампании на&nbsp;ТВ понадобится, чтобы охватить&nbsp;70% взрослого населения Беларуси. Если&nbsp;же использовать только интернет и&nbsp;радио&nbsp;— полтора месяца.</p></div></div>
+<p>Адрес фото:</p>
 
-<p>Если бюджет на&nbsp;размещение скромный&nbsp;— откажитесь от&nbsp;идеи рассказать о&nbsp;себе всем белорусам. Ваш приоритет&nbsp;— не&nbsp;увеличить уровень знания торговой марки, а&nbsp;повысить конверсию в&nbsp;покупку. Работайте в&nbsp;первую очередь с&nbsp;теми, кто уже к&nbsp;вам пришел или интересуется вашей тематикой. Вложите деньги в&nbsp;торговый зал, работу персонала. Сделайте и&nbsp;продвигайте лендинг по&nbsp;популярным в&nbsp;вашей сфере запросам с&nbsp;помощью контекстной рекламы.</p>
-</section>
 
-<section class="row-gap--m" id="4">
-<h2 class="section__title h1 bold ">Шаг&nbsp;4. Оцените эффективность рекламной кампании </h2>
-<p>Реклама напрямую влияет на&nbsp;уровень знания торговой марки и&nbsp;ее&nbsp;восприятие. Когда речь заходит о&nbsp;знании, важно получить максимальный охват аудитории. В&nbsp;этом помогает грамотное использование медийных инструментов. Содержание рекламного сообщения влияет на&nbsp;восприятие. Поэтому <strong>эффективность рекламной кампании разумно оценивать по&nbsp;динамике уровня осведомленности и&nbsp;положительному восприятию рекламируемого продукта</strong>.</p>
+<pre class="language-terminal highlight ">
+//res.cloudinary.com/bartoshevich/image/upload/v1538423803/coin_original.jpg
+</pre>
 
-<p>Вы&nbsp;можете возразить: «конечная цель рекламы&nbsp;— рост продаж, поэтому оценивать следует по&nbsp;динамике объема продаж». Давайте разберем это утверждение на&nbsp;«воронке продаж».</p>
 
-<div itemprop="image" itemscope="" itemtype="http://schema.org/ImageObject">	
-		<link itemprop="url" href="/assets/images/blog/algoritm-provedeniya-reklamnoj-kampanii/voronka_prodaz.jpg" />	
-<picture>
-<source srcset="/assets/images/blog/algoritm-provedeniya-reklamnoj-kampanii/voronka_prodaz.avif" type="image/avif" /> 
-<source srcset="/assets/images/blog/algoritm-provedeniya-reklamnoj-kampanii/voronka_prodaz.webp" type="image/webp" /> 
-<img class="image is-16by9" loading="lazy" decoding="async" src="/assets/images/blog/algoritm-provedeniya-reklamnoj-kampanii/voronka_prodaz.jpg" alt="Воронка продаж подсказывает, как правильно оценивать эффективность рекламы." width="1920" height="1080" itemprop="contentUrl" />
-</picture>
+<p>Все, что требуется,&nbsp;— это после upload/ в&nbsp;адресе добавить q_auto,f_auto/. Новый адрес:</p>
 
+
+<pre class="language-terminal highlight ">
+//res.cloudinary.com/bartoshevich/image/upload/q_auto,f_auto/v1538423803/coin_original.jpg
+</pre>
+
+
+<p>На&nbsp;этом работа по&nbsp;оптимизации картинки завершена. Сервис автоматически изменит качество и&nbsp;формат изображения в&nbsp;зависимости от&nbsp;экрана, на&nbsp;котором открывают адрес картинки. Не&nbsp;нужно готовить много вариантов изображения, прописывать условия для «ретины» и&nbsp;WebP. Все это уже «зашито» в&nbsp;адресе. Код картинки снова умещается в&nbsp;одну строку. </p>
+
+<p>Ниже — оптимизированная с&nbsp;помощью Cloudinary фотография монеты. Если вы&nbsp;откроете статью в&nbsp;разных браузерах (Firefox и&nbsp;Chrome) и&nbsp;сохраните фото, вы&nbsp;получите фотографии разных форматов и&nbsp;веса. У&nbsp;меня скачанная с&nbsp;Chrome фотография весит всего 10,9&nbsp;КБ&nbsp;— почти в&nbsp;10&nbsp;раз меньше оригинала. Код&nbsp;же&nbsp;— одна строка. Нет &lt;picture&gt;, &lt;source&gt;, media и&nbsp;пр. </p>
+
+<img class="image" loading="lazy" decoding="async" src="https://res.cloudinary.com/bartoshevich/image/upload/q_auto,f_auto/v1538423803/coin_original.jpg" alt="оптимизированная с помощью Optimizilla фотография монеты" width="300" height="298" />
+<p>Сотрудники Cloudinary подготовили <a class="link" href="https://cloudinary.com/cookbook">Cookbook</a>, где описывают возможности сервиса: что можно добавить в&nbsp;адрес изображения и&nbsp;какой результат получить. Например, можно улучшить фотографию, если после upload/ написать в&nbsp;адресе e_improve/. Результат:</p>
+
+<img class="image" loading="lazy" decoding="async" src="https://res.cloudinary.com/bartoshevich/image/upload/e_improve/q_auto,f_auto/v1538423803/coin_original.jpg" alt="оптимизированная с помощью Optimizilla фотография монеты" width="300" height="298" />
+
+<p>Иногда я&nbsp;не&nbsp;могу обходиться без тега &lt;picture&gt;. И&nbsp;если тег комбинирую с&nbsp;Cloudinary, «пропуская» адреса изображений через сервис, я&nbsp;использую больше возможностей оптимизации при минимальных усилиях. </p>
+
+</section>]]></content><author><name></name></author><category term="инструкции" /><category term="инструменты" /><summary type="html"><![CDATA[Делюсь способами оптимизации изображений для сайта, которые использую сам и&nbsp;рекомендую другим.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/tizers/tizer-50.jpg" /><media:content medium="image" url="http://localhost:4000/assets/images/tizers/tizer-50.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Как вирусный маркетинг убивает бренд | Дмитрий Бартошевич</title><link href="http://localhost:4000/blog/razvitie-brenda/" rel="alternate" type="text/html" title="Как вирусный маркетинг убивает бренд | Дмитрий Бартошевич" /><published>2018-05-25T00:00:00+03:00</published><updated>2022-02-05T00:00:00+03:00</updated><id>http://localhost:4000/blog/razvitie-brenda</id><content type="html" xml:base="http://localhost:4000/blog/razvitie-brenda/"><![CDATA[<div class="intro__post">
+    <h1 class=" bold max-width-text">Почему вирусный маркетинг убивает бренд</h1> 
+    <small class="small"><time itemprop="datePublished" datetime="2018-05-25"> 25 мая 2018</time> 
+      <time itemprop="dateModified" datetime="2022-02-05">(обновил  5 февраля 2022)</time>
+    </small>
 </div>
 
-<p>Мы&nbsp;создали продукт. Чтобы его покупали, люди должны узнать о&nbsp;его существовании. Поэтому мы&nbsp;рассказываем о&nbsp;продукте как можно большему числу потенциальных покупателей. Далее нам необходимо сформировать положительное восприятие продукта, которое вызовет желание купить. Люди начнут изучать отзывы, читать рекомендации, задавать вопросы консультантам, ощупывать продукт в&nbsp;торговом зале. Некоторые купят. Но&nbsp;чтобы продажа состоялась, как минимум, у&nbsp;человека должны быть деньги, а&nbsp;в&nbsp;торговом зале&nbsp;— продукт.</p>
+<p><strong>Полезность вирусного маркетинга сильно преувеличена.</strong> Горе бренду, если <b>маркетолог</b> во&nbsp;главу всего ставит создание вирусов. В&nbsp;желании снять ролик и&nbsp;распространить в&nbsp;сети нет ничего плохого, но&nbsp;когда гонка за&nbsp;шумихой становится самоцелью&nbsp;— беда.</p>
+
+<section class="row-gap--m">
+<h2 class="section__title h1 bold ">Вирусы размывают восприятие бренда </h2>
+<p>Для вируса нужен цепляющий контент. Допустим вы&nbsp;сняли видео, которое быстро стало популярным. Чтобы привлечь внимание аудитории еще раз, нужен другой ролик, который будет более смешным или более шокирующим.
+</p>
+
+<p>Каждый раз маркетологу придется повышать градус. Еще смешнее, еще скандальнее. И&nbsp;те&nbsp;идеи, которые он&nbsp;станет транслировать, будут все дальше и&nbsp;дальше уходить от&nbsp;смысла, изначально заложенного в&nbsp;бренд. </p>
 
 
-<p>Воронка показывает, что процесс продажи более сложный чем «увидел рекламу&nbsp;— купил». И&nbsp;чем сложнее продукт и&nbsp;значительнее стоимость, тем сложнее «воронка продаж». Когда вы&nbsp;оцениваете лишь конечный результат, вы&nbsp;не&nbsp;учитываете все факторы, влияющие на&nbsp;выбор товара, и&nbsp;не&nbsp;знаете, на&nbsp;каком этапе теряете покупателей.</p>
-<div class="post__note row-gap--m">
-<p>Вы&nbsp;провели кампанию и&nbsp;объем продаж не&nbsp;увеличился. Какой вывод сделаете? Должны&nbsp;ли вы&nbsp;поменять сценарий ролика? Или&nbsp;же составить другой медиасплит? А&nbsp;может нанять более вежливого консультанта? Или все&nbsp;же поменять дизайн продукта?</p>
-<p>Изучите динамику знания и&nbsp;восприятия продукта. Если она положительная, а&nbsp;прироста продаж нет, значит проблемы на&nbsp;других этапах покупки&nbsp;— делать далее кампании на&nbsp;увеличение знания нет смысла.</p></div>
+
+<p class="italic"><span class="bold">Пример</span> <br />
+Компания «Славная»&nbsp;— производитель питьевой воды. Сайт компании подчеркивает натуральность и&nbsp;безопасность ее&nbsp;состава, доступность для всех слоев населения, поддержку компанией спорта. На&nbsp;странице компании в&nbsp;соц. сети маркетологи размещают вот такие фото. </p>
+
+
+<div itemprop="image" itemscope="" itemtype="http://schema.org/ImageObject">	
+	<link itemprop="url" href="https://res.cloudinary.com/bartoshevich/image/upload/f_auto/v1615127540/site/slavby-720.jpg" />
+	<img class="image" loading="lazy" decoding="async" src="https://res.cloudinary.com/bartoshevich/image/upload/f_auto/v1615127540/site/slavby-720.jpg" width="720" height="469" alt="девушка стоит на коленях, на ее лицо льют воду из бутылки" itemprop="contentUrl" />
+	<div class="figcaption" itemprop="description">
+		Фото никак не&nbsp;соотносится с&nbsp;указанными на&nbsp;сайте характеристиками, размывает образ компании ненужными ассоциациями
+	</div>
+</div>
+
+<p class="italic">После волны возмущения в&nbsp;байнете появились комментарии белорусских «гуру» вирусного маркетинга. Комментарии сводились к&nbsp;«Э-э-э, ну&nbsp;я&nbsp;бы так не&nbsp;делала». Чувствовалось, что они сами не&nbsp;понимают, почему. Предполагаю, если&nbsp;бы не&nbsp;негативная реакция, их&nbsp;комментарий был&nbsp;бы «Отличный пример вируса. Количество упоминаний в&nbsp;сети выросло в&nbsp;Х раз».</p>
+
 </section>
 
-<section class="row-gap--m" id="5">
-<h2 class="section__title h1 bold ">Шаг&nbsp;5. Создайте информационный банк рекламных кампаний</h2>
-<p>Анализировать ход и&nbsp;итоги рекламной кампании важно и&nbsp;полезно. Вы&nbsp;увеличите полезность еще больше, если будете изучать кампании по&nbsp;единой методике и&nbsp;хранить отчеты в&nbsp;одном месте.</p>
+<section class="row-gap--m">
+<h2 class="section__title h1 bold ">Вирусы мешают развитию бренда</h2>
+<p>Становлению бренда помогает не&nbsp;шум, а&nbsp;прежде всего те&nbsp;смыслы, которые останутся в&nbsp;голове у&nbsp;человека после просмотра сообщения компании. «Что сказать» важнее, чем «сколько услышало». </p>
 
-<p>Так вы&nbsp;создадите единый банк решений, идей и&nbsp;результатов. Это хорошая страховка от&nbsp;повторения ошибок, база для сравнения, генерирования новых предложений и&nbsp;прогнозирования результатов.</p>
+<p>Когда есть четкая <b>концепция бренда</b>, отдел маркетинга не&nbsp;мечется от&nbsp;одной идеи к&nbsp;другой, а&nbsp;четко понимает, что нужно делать и&nbsp;почему. Если такой идеи нет, получаем суетливую атмосферу, непродуманные авральные акции и&nbsp;сомнения в&nbsp;эффективности сотрудников. </p>
 
-<p>Изучив ход и&nbsp;результаты десятка рекламных кампаний, вы&nbsp;поймете, какие маркетинговые инструменты и&nbsp;когда работают в&nbsp;вашем бизнесе, какие ожидания реалистичны, а&nbsp;каких целей не&nbsp;достигнуть даже 100% охватом, не&nbsp;изменив качество товара и&nbsp;сервиса.</p>
-</section>]]></content><author><name></name></author><category term="инструкции" /><category term="реклама" /><category term="инструменты" /><category term="интервью" /><summary type="html"><![CDATA[Алгоритм проведения рекламной кампании: когда реклама необходима, как проработать идею и&nbsp;определить бюджет, оценить эффективность.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/tizers/tizer-35.jpg" /><media:content medium="image" url="http://localhost:4000/assets/images/tizers/tizer-35.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
+<p>В&nbsp;такой ситуации следует остановиться и&nbsp;осознать, что и&nbsp;зачем делает компания, что делает ее&nbsp;отличной от&nbsp;других, какой посыл она несет клиентам. Вместо этого вирусный маркетинг усиливает ажитацию и&nbsp;гонится за&nbsp;лайками, просмотрами и&nbsp;публикациями. </p>
+</section>
+
+<section class="row-gap--m">
+<h2 class="section__title h1 bold ">Вирусы тянут деньги </h2>
+<p>Обыватель уверен, что вирусный маркетинг&nbsp;— это <b>маркетинг без бюджета</b>. Он&nbsp;думает, что ролики распространяются так: человек снял видео и&nbsp;выложил в&nbsp;интернет → видео посмотрели друзья и&nbsp;поделились в&nbsp;соц. сетях → новые зрители показали ролик своим знакомым → и&nbsp;вот уже 10000+&nbsp;просмотров. На&nbsp;самом&nbsp;же деле ролики сами себя не&nbsp;воспроизводят и&nbsp;не&nbsp;растут по&nbsp;принципу «снежного кома». Здесь иные законы. </p>
+
+<p>Жизнь вирусам дают «агенты влияния»&nbsp;— люди с&nbsp;большим количеством фолловеров, подписчиков, друзей в&nbsp;соц. сетях. В&nbsp;результате так называемого посева ролик сразу видит большое количество людей. Количество просмотров резко увеличивается, но&nbsp;затем быстро начинает снижаться. Потому как не&nbsp;каждый запостит видео у&nbsp;себя или поделится с&nbsp;друзьями. </p>
+
+<p>На&nbsp;рисунках ниже визуализации результатов исследования компании <a class="link" href="https://www.pulsarplatform.com/">Pulsar</a>, которая изучала характер распространения вирусов в&nbsp;социальных медиа. Каждая голубая точка&nbsp;— это твит с&nbsp;вирусным сообщением. Желтая&nbsp;— ретвит. Размер точки&nbsp;— примерный охват твита. «Агентов влияния» можно увидеть воочию. </p>
+
+<div class="row">
+	<div class="c-5" itemprop="image" itemscope="" itemtype="http://schema.org/ImageObject">
+			<link itemprop="url" href="/assets/images/blog/razvitie-brenda/pulsar1.jpg" />
+			<picture>
+				<source srcset="/assets/images/blog/razvitie-brenda/pulsar1.avif" type="image/avif" />	
+				<source srcset="/assets/images/blog/razvitie-brenda/pulsar1.webp" type="image/webp" />
+				<img class="image" loading="lazy" decoding="async" src="/assets/images/blog/razvitie-brenda/pulsar1.jpg" width="356" height="393" alt="распространение вирусов в социальных сетях" itemprop="contentUrl" />
+			</picture>
+	</div>
+	<div class="c-5" itemprop="image" itemscope="" itemtype="http://schema.org/ImageObject">
+			<link itemprop="url" href="/assets/images/blog/razvitie-brenda/pulsar2.jpg" />
+			<picture>	
+					<source srcset="/assets/images/blog/razvitie-brenda/pulsar2.avif" type="image/avif" />	
+					<source srcset="/assets/images/blog/razvitie-brenda/pulsar2.webp" type="image/webp" />
+					<img class="image" loading="lazy" decoding="async" src="/assets/images/blog/razvitie-brenda/pulsar2.jpg" width="356" height="393" alt="распространение вирусов в твитере во время волнений в Турции" itemprop="contentUrl" />
+			</picture>
+	</div>
+</div>
+
+
+<p>Желающим узнать по&nbsp;теме больше, рекомендую видео, в&nbsp;котором <a class="link" href="https://ru.wikipedia.org/wiki/%D0%90%D1%88%D0%BC%D0%B0%D0%BD%D0%BE%D0%B2,_%D0%98%D0%B3%D0%BE%D1%80%D1%8C_%D0%A1%D1%82%D0%B0%D0%BD%D0%B8%D1%81%D0%BB%D0%B0%D0%B2%D0%BE%D0%B2%D0%B8%D1%87">Игорь Ашманов</a> рассказывает о&nbsp;механике распространения вирусов и&nbsp;новостных вбросов. Бесплатность вирусного маркетинга&nbsp;— миф. Вам придется найти «агентов влияния» в&nbsp;своей сфере и&nbsp;стимулировать публиковать ваш контент. И&nbsp;делать это регулярно.</p>
+
+
+
+
+<div class="figure">
+ <div class="video ">
+        <a class="video__link " href="https://youtu.be/I33IM8MRHIo" target="_blank" rel="noopener nofollow noreferrer">
+                <img loading="lazy" class="video__media " src="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1626969281/video/pic/ashmanov.jpg" alt="видео, в котором Игорь Ашманов рассказывает о&nbsp;механике распространения вирусов" width="1920" height="1080" />
+	</a>
+      <button class="video__button" aria-label="Запустить видео">
+            <svg width="68" height="48" viewBox="0 0 68 48"><path class="video__button-shape" d="M66.52,7.74c-0.78-2.93-2.49-5.41-5.42-6.19C55.79,.13,34,0,34,0S12.21,.13,6.9,1.55 C3.97,2.33,2.27,4.81,1.48,7.74C0.06,13.05,0,24,0,24s0.06,10.95,1.48,16.26c0.78,2.93,2.49,5.41,5.42,6.19 C12.21,47.87,34,48,34,48s21.79-0.13,27.1-1.55c2.93-0.78,4.64-3.26,5.42-6.19C67.94,34.95,68,24,68,24S67.94,13.05,66.52,7.74z"></path><path class="video__button-icon" d="M 45,24 27,14 27,34"></path></svg>
+        </button>
+</div>
+<div class="figcaption">
+Игорь Ашманов рассказывает о&nbsp;механике распространения вирусов. <br />Тизерное фото: narasputye.ru
+</div>
+</div>
+ </section>
+
+<section class="row-gap--m">
+<h2 class="section__title h1 bold ">Если не&nbsp;вирусы, то&nbsp;что? </h2>
+<p><strong>Маркетинг&nbsp;— это системная работа</strong>, которая строится вокруг центральной идеи бренда. Все, что вы&nbsp;делаете, все что публикуете в&nbsp;интернете&nbsp;— должно подкреплять и&nbsp;усиливать эту идею. Если такой идеи нет, то&nbsp;не&nbsp;делайте ничего, пока ее&nbsp;не&nbsp;создадите. Возникли сложности&nbsp;— <a class="link" href="/contact/">смело обращайтесь.</a></p>
+</section>]]></content><author><name></name></author><category term="мнение" /><category term="управление" /><summary type="html"><![CDATA[Если маркетолог предлагает запустить вирусный ролик, дайте ему почитать эту статью, а&nbsp;затем увольте ;-)]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/tizers/tizer-49.jpg" /><media:content medium="image" url="http://localhost:4000/assets/images/tizers/tizer-49.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Создаю концепцию бренда типографии | Дмитрий Бартошевич</title><link href="http://localhost:4000/blog/brand-strategy-flex-n-roll/" rel="alternate" type="text/html" title="Создаю концепцию бренда типографии | Дмитрий Бартошевич" /><published>2018-04-18T00:00:00+03:00</published><updated>2022-02-04T00:00:00+03:00</updated><id>http://localhost:4000/blog/brand-strategy-flex-n-roll</id><content type="html" xml:base="http://localhost:4000/blog/brand-strategy-flex-n-roll/"><![CDATA[<div class="intro__post">
+    <h1 class=" bold max-width-text">Разрабатываю концепцию бренда типографии</h1> 
+    <small class="small"><time itemprop="datePublished" datetime="2018-04-18"> 18 апреля 2018</time> 
+    </small>
+</div>
+
+<div class="with-side row-gap--m">
+
+   <p>В&nbsp;2017 году я&nbsp;<strong>разработал концепцию бренда</strong> типографии <span class="noperenos">«Флекс-н-Ролл»</span>. Проект длился 6&nbsp;месяцев, за&nbsp;которыми стояли две волны исследований агентства МАСМИ, мозговые штурмы, встречи и&nbsp;многочасовые обсуждения. Вместе с&nbsp;Еленой Горбачевой&nbsp;— генеральным директором типографии&nbsp;— раскрываем подробности проекта. </p>
+   <div class="side">
+		<div class="guests">			
+					<div class="guest-person">
+						<img class="image is-150x150" src="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto,e_improve/v1588702100/site/gorbacheva-600.jpg" alt="" aria-hidden="true" width="150" height="150" />						
+					<div class="guest-person__name">Елена Горбачева</div>
+					<div class="guest-person__position">генеральный директор <a class="link" href="https://flex-n-roll.by/"><span class="noperenos">ООО «Флекс-н-Ролл»</span></a></div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<p class="italic">«Флекс-н-Ролл»&nbsp;— лидер белорусского рынка в&nbsp;производстве самоклеящихся​ этикеток. Занимает первое место по&nbsp;уровню знания торговой марки в&nbsp;сегменте самоклеящихся этикеток по&nbsp;результатам исследования МАСМИ, 2&nbsp;квартал 2017г, Беларусь. </p>
+
+<section class="row-gap--m">
+<h2 class="section__title h1 bold ">Задача&nbsp;— четкое позиционирование компании и&nbsp;отстройка от&nbsp;конкурентов</h2>
+<p><span class="bold">Елена Горбачева:</span> Типография <span class="noperenos">«Флекс-н-Ролл»</span>&nbsp;— крупное предприятие, работающее в&nbsp;сфере самоклеящейся этикетки с&nbsp;2003&nbsp;года. За&nbsp;15&nbsp;лет развития из&nbsp;небольшой компании нам удалось перерасти в&nbsp;мощное успешное производство. </p>
+
+
+
+<p>Но&nbsp;время не&nbsp;стоит на&nbsp;месте, меняются правила и&nbsp;подходы ведения бизнеса, рынок становится все более тесным. Чтобы сохранять лидерские позиции и&nbsp;приумножать достижения, <strong>потребовалось четко позиционировать компанию на&nbsp;рынке</strong> и&nbsp;максимально отстроиться от&nbsp;конкурентов. Мы&nbsp;поставили перед собой цель укрепить и&nbsp;развить бренд <span class="noperenos">«Флекс-н-Ролл»,</span> придав ему целенаправленности, сплотив вокруг него наших клиентов и&nbsp;сотрудников. </p>
+
+
+
+
+ <p>Проект заинтересовал Европейский банк реконструкции и&nbsp;развития, и&nbsp;он&nbsp;выделил нам грант на&nbsp;его реализацию в&nbsp;рамках поддержки женского предпринимательства «Женщины в&nbsp;бизнесе». Благодаря этому мы&nbsp;привлекли маркетолога Дмитрия Бартошевича и&nbsp;исследовательское агентство МАСМИ, которое провело исследование белорусского и&nbsp;российского рынка типографских услуг.</p>
+
+<div itemprop="image" itemscope="" itemtype="http://schema.org/ImageObject">	
+		<link itemprop="url" href="/assets/images/blog/brand-strategy-flex-n-roll/flex_label-720.jpg" />
+<picture>
+	<source media="(min-width: 450px)" srcset="/assets/images/blog/brand-strategy-flex-n-roll/flex_label-720.webp" type="image/webp" />
+	<source media="(min-width: 200px)" srcset="/assets/images/blog/brand-strategy-flex-n-roll/flex_label-420.webp" type="image/webp" />
+	<source media="(min-width: 450px)" srcset="/assets/images/blog/brand-strategy-flex-n-roll/flex_label-720.jpg" /> 	
+	<source media="(min-width: 200px)" srcset="/assets/images/blog/brand-strategy-flex-n-roll/flex_label-420.jpg" />
+	<img class="image" loading="lazy" decoding="async" src="/assets/images/blog/brand-strategy-flex-n-roll/flex_label-720.jpg" width="720" height="535" alt="Этикетка, напечатанная в&nbsp;типографии «Флекс-н-Ролл»" itemprop="contentUrl" /> 
+</picture>
+<div class="figcaption">
+	Фото с&nbsp;сайта <span class="noperenos">flex-n-roll.ru</span>
+</div>
+</div>
+
+
+
+</section>
+
+<section class="row-gap--m">
+<h2 class="section__title h1 bold ">Как решали задачу&nbsp;— этапы работы над концепцией бренда </h2>
+<p><span class="bold">Дмитрий Бартошевич:</span> Первый шаг&nbsp;— детальное описание контекста задачи. Я&nbsp;не&nbsp;доверяю высланным по&nbsp;почте брифам и&nbsp;предпочитаю обсуждать задачу лично. Вместе с&nbsp;генеральным директором, заместителями генерального директора по&nbsp;маркетингу и&nbsp;продажам мы&nbsp;обсуждали цели проекта, планы развития компании, клиентов и&nbsp;главных конкурентов. Мне было важно добиться единого понимания задачи, желаемого результата и&nbsp;требований к&nbsp;выполнению.</p>
+
+ <p>С&nbsp;сотрудниками отдела продаж мы&nbsp;составили собирательный образ клиента <span class="noperenos">«Флекс-н-Ролл»</span> и&nbsp;<a class="link" href="/blog/customer-journey-map/" title="алгоритм составления карты потребительского опыта">карту потребительского опыта</a>&nbsp;— описали путь клиента от&nbsp;момента осознания потребности до&nbsp;рекомендации типографии коллегам. Мы&nbsp;выделили, что может помешать клиенту плавно переходить от&nbsp;одной стадии пути к&nbsp;другой, придумали способы нейтрализации барьеров. Уже на&nbsp;этом этапе работы типография получила полезные <b>идеи для развития бренда</b>, но&nbsp;это было только начало.</p>
+
+ <p>Я&nbsp;изучил доступные материалы о&nbsp;конкурентах (сайт, коммерческие письма и&nbsp;презентации), сопоставил с&nbsp;картой потребительского опыта, целями и&nbsp;задачами проекта. Определил «слепые пятна»&nbsp;— какой информации о&nbsp;клиентах и&nbsp;рынке не&nbsp;хватает. С&nbsp;этим «багажом» пошел в&nbsp;исследовательское агентство МАСМИ. </p>
+
+<p> Исследование провели в&nbsp;два этапа. Первый&nbsp;— глубинные интервью. МАСМИ опросило специалистов, которые на&nbsp;предприятиях отвечают за&nbsp;закупку самоклеящейся этикетки. Мы&nbsp;выявили критерии выбора подрядчиков, ценностные ориентиры, требования к&nbsp;качеству и&nbsp;уровню обслуживания, и&nbsp;— главное&nbsp;— составили гипотезы, которые проверили на&nbsp;втором этапе&nbsp;— количественном исследовании (провели опрос).</p>
+
+<div itemprop="image" itemscope="" itemtype="http://schema.org/ImageObject">	
+		<link itemprop="url" href="/assets/images/blog/brand-strategy-flex-n-roll/flex_stat.jpg" />
+	<picture>
+	<source media="(min-width: 450px)" srcset="/assets/images/blog/brand-strategy-flex-n-roll/flex_stat.webp" type="image/webp" />
+	<source media="(min-width: 200px)" srcset="/assets/images/blog/brand-strategy-flex-n-roll/flex_stat-420.webp" type="image/webp" />
+	<source media="(min-width: 450px)" srcset="/assets/images/blog/brand-strategy-flex-n-roll/flex_stat.jpg" /> 	
+	<source media="(min-width: 200px)" srcset="/assets/images/blog/brand-strategy-flex-n-roll/flex_stat-420.jpg" />
+	<img class="image" loading="lazy" decoding="async" src="/assets/images/blog/brand-strategy-flex-n-roll/flex_stat.jpg" width="720" height="587" alt="Уровень знания торговых марок типографий, МАСМИ" itemprop="contentUrl" /> </picture>
+</div>
+
+
+
+ <p>После исследований мы&nbsp;знали, как специалисты промышленных предприятий воспринимают типографии, на&nbsp;что обращают внимание при выборе подрядчиков, что для них важно в&nbsp;работе, что побуждает рекомендовать типографию и&nbsp;наоборот, что вынуждает отказаться от&nbsp;ее&nbsp;услуг.</p>
+
+ <p>У&nbsp;меня было достаточно информации, чтобы найти востребованную нишу для позиционирования <span class="noperenos">«Флекс-н-Ролл»</span>, описать рациональные и&nbsp;эмоциональные преимущества предприятия, составить образ-личность бренда и&nbsp;принципы коммуникации компании. </p>
+</section>
+
+<section class="row-gap--m">
+<h2 class="section__title h1 bold ">Что получили&nbsp;— основные результаты</h2>
+<p><span class="bold">Дмитрий Бартошевич:</span> Анализируя данные, я&nbsp;пришел к&nbsp;выводу, что на&nbsp;белорусском рынке в&nbsp;сегменте самоклеящихся этикеток нет сильного бренда с&nbsp;согласованной коммуникационной политикой.</p>
+
+<p>В&nbsp;восприятии характеристик типографий статистически значимых отличий обнаружено не&nbsp;было. Типографии злоупотребляли перечислением преимуществ, не&nbsp;связывали их&nbsp;с&nbsp;основной идеей бренда и&nbsp;размывали образ компании.</p>
+
+<p>Популярные способы самопрезентации&nbsp;— акценты на&nbsp;технологиях, качестве и&nbsp;продающих свойствах этикетки. Но&nbsp;такой подход не&nbsp;работает. Это особенно важно понимать тем типографиям, которые намерены работать на&nbsp;российском рынке. Идеи новейших технологий, привлекающих и&nbsp;продающих этикеток постоянно используются известными в&nbsp;России типографиями: «Аврора», «Исратэк», «Окил-Сато» и&nbsp;<span class="noperenos">«ССЛ-Контур»</span>. Качественная же печать этикетки&nbsp;— это гигиенический фактор. Это&nbsp;то, что должно быть, но&nbsp;само по&nbsp;себе не&nbsp;дает преимуществ. Качество не&nbsp;гарантирует поток заявок, но&nbsp;без качества, определенно, заказов станет меньше.</p>
+
+<p>Исследования выявили значимую для клиентов характеристику, которая игнорируется конкурентами <span class="noperenos">«Флекс-н-Ролл»</span>&nbsp;— потребительский опыт. Клиенты типографий стремятся к&nbsp;гармоничным и&nbsp;предсказуемым отношениям, им&nbsp;важно работать с&nbsp;подрядчиком как одна команда. Поэтому основой продвижения <span class="noperenos">«Флекс-н-Ролл»</span> я&nbsp;предложил сделать качество потребительского опыта.</p>
+
+<p><em>Суть концепции бренда:</em> <span class="noperenos">«Флекс-н-Ролл»</span> работает в&nbsp;ритме клиента. Типография подстраивается под задачи заказчика, предлагает варианты оптимизации заказа, печатает в&nbsp;соответствии с&nbsp;утвержденным макетом и&nbsp;согласованные сроки. Клиенты ощущают помощь и&nbsp;поддержку со&nbsp;стороны <span class="noperenos">«Флекс-н-Ролл»</span>, слаженную командную работу. С&nbsp;<span class="noperenos">«Флекс-н-Ролл»</span> сотрудничать легко. </p>
+
+
+<div itemprop="image" itemscope="" itemtype="http://schema.org/ImageObject">	
+		<link itemprop="url" href="/assets/images/blog/brand-strategy-flex-n-roll/flex-n-roll@3x.jpg" />
+	<picture>
+	<source srcset="/assets/images/blog/brand-strategy-flex-n-roll/flex-n-roll@1x.avif 1x, /assets/images/blog/brand-strategy-flex-n-roll/flex-n-roll@2x.avif 2x, /assets/images/blog/brand-strategy-flex-n-roll/flex-n-roll@3x.avif 3x" type="image/webp" />
+	<source srcset="/assets/images/blog/brand-strategy-flex-n-roll/flex-n-roll@1x.webp 1x, /assets/images/blog/brand-strategy-flex-n-roll/flex-n-roll@2x.webp 2x, /assets/images/blog/brand-strategy-flex-n-roll/flex-n-roll@3x.webp 3x" type="image/webp" />
+	<img class="image" loading="lazy" decoding="async" src="/assets/images/blog/brand-strategy-flex-n-roll/flex-n-roll@3x.jpg" srcset="/assets/images/blog/brand-strategy-flex-n-roll/flex-n-roll@1x.jpg 1x, /assets/images/blog/brand-strategy-flex-n-roll/flex-n-roll@2x.jpg 2x, /assets/images/blog/brand-strategy-flex-n-roll/flex-n-roll@3x.jpg 3x" width="360" height="120" alt="Флекс-н-Ролл" itemprop="contentUrl" /> 
+	</picture>
+</div>
+
+
+
+<p><span class="bold">Елена Горбачева:</span> <strong>Концепция бренда, предложенная Дмитрием Бартошевичем, нас полностью устроила</strong>, и&nbsp;мы&nbsp;сразу&nbsp;же начали внедрять изменения в&nbsp;бизнес-процессы.</p>
+<p>Приятно отметить, как вокруг идеи бренда объединились сотрудники разных отделов компании. Старались все делать сообща, чтобы каждый член нашей большой производственной команды смог принять, прочувствовать концепцию и&nbsp;успешно ее&nbsp;внедрить на&nbsp;рабочем месте.</p>
+
+ <p>Улучшения коснулись корпоративного сайта. Перестроили структуру текстов и&nbsp;рубрик, добавили новый виджет «Запрос обратного звонка» и&nbsp;разместили формы для связи с&nbsp;нами в&nbsp;зонах прямого доступа. Чтобы сотрудничество было еще более комфортным, разработали Кабинет клиента, в&nbsp;котором можно посмотреть всю актуальную информацию о&nbsp;заказах.</p>
+
+ <p>Поскольку у&nbsp;типографии есть зарубежные клиенты и&nbsp;партнеры, решили перевести статьи сайта на&nbsp;английский язык. Сейчас находимся в&nbsp;стадии активной реализации проекта.</p>
+
+ <p>Как видим, много достойных идей воплощено в&nbsp;жизнь. Но&nbsp;мы&nbsp;не&nbsp;собираемся останавливаться на&nbsp;достигнутом. Впереди много планов и&nbsp;есть главное&nbsp;— четкий выверенный вектор развития компании, который обозначил для нас Дмитрий Бартошевич. Поэтому хотелось&nbsp;бы поблагодарить его за&nbsp;предложенную концепцию и&nbsp;проведенную большую работу по&nbsp;брендингу нашего предприятия. Также мы&nbsp;очень признательны агентству МАСМИ, позволившему нам посмотреть на&nbsp;рынок глазами клиентов. Огромную благодарность выражаем Европейскому банку реконструкции и&nbsp;развития, чьи инвестиции способствуют росту и&nbsp;развитию бизнеса.</p>
+
+<p> Теперь мы&nbsp;работаем в&nbsp;ритме клиента! </p>
+</section>
+
+<section class="row-gap--m">
+<h2 class="section__title h1 bold ">Комментарий заместителя генерального директора «МАСМИ» Марины Ефименко: </h2>
+<p>«Проект был очень интересным. Воедино сошлось все, о&nbsp;чем только можно мечтать: профессионализм всех участников в&nbsp;своей области, партнерские отношения в&nbsp;работе, вовлеченность в&nbsp;проект на&nbsp;все 100%, оперативная обратная связь, эффективное обсуждение возникающих вопросов и&nbsp;ответственность за&nbsp;результат.</p>
+
+ <p>Приятно было, что мы&nbsp;в&nbsp;очередной раз увидели, как необходимы и&nbsp;ценны результаты исследовательского проекта для <strong>планирования стратегического развития компании</strong> Клиента». </p>
+</section>]]></content><author><name></name></author><category term="опыт" /><category term="кейсы" /><summary type="html"><![CDATA[Детали разработки концепции бренда типографии раскрываю вместе с&nbsp;генеральным директором «Флекс-н-Ролл».]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/tizers/tizer-48.jpg" /><media:content medium="image" url="http://localhost:4000/assets/images/tizers/tizer-48.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Как работать с проблемными клиентами | Дмитрий Бартошевич</title><link href="http://localhost:4000/blog/difficult-clients/" rel="alternate" type="text/html" title="Как работать с проблемными клиентами | Дмитрий Бартошевич" /><published>2018-02-06T00:00:00+03:00</published><updated>2022-02-04T00:00:00+03:00</updated><id>http://localhost:4000/blog/difficult-client</id><content type="html" xml:base="http://localhost:4000/blog/difficult-clients/"><![CDATA[<div class="intro__post">
+    <h1 class=" bold max-width-text">Делюсь опытом работы с&nbsp;проблемными клиентами</h1> 
+    <small class="small"><time itemprop="datePublished" datetime="2018-02-06">  6 февраля 2018</time> 
+    </small>
+</div>
+
+<p>Я&nbsp;работаю с&nbsp;клиентами с&nbsp;2003&nbsp;года. Работал в&nbsp;разных странах и&nbsp;на&nbsp;разных позициях. С&nbsp;разными заказчиками. В&nbsp;том числе и&nbsp;с&nbsp;теми, которых обычно причисляют к&nbsp;проблемным. Для портала «Про бизнес» я&nbsp;обобщил опыт и&nbsp;поделился мнением, <a class="link" href="https://probusiness.io/management/4239-neadekvaty-ikholodnaya-shaurma-kak-rabotat-sproblemnymi-klientami.html">как работать с&nbsp;проблемными клиентами</a>. Публикую версию для блога. </p>
+
+<p>Тему «проблемного клиента» можно рассмотреть с&nbsp;двух позиций&nbsp;— сотрудника и&nbsp;предприятия. Это определяет видение темы и&nbsp;подход в&nbsp;работе.</p>
+
+<nav class="toc">
+ <h2 class="toc__title">Содержание</h2>
+ <ul class="additive-spacing">
+		  <li>
+		   
+		      <span class="tocnumber">1 </span>
+			   <a class="link" href="#1">Проблемный клиент и&nbsp;сотрудник компании
+		    </a>
+		  </li>
+		  <li class="level2">
+		   
+		      <span class="tocnumber">1.1 </span>
+			   <a class="link" href="#1.1">Проблемный клиент
+		    </a>
+		  </li>
+			<li class="level2">
+		   
+		      <span class="tocnumber">1.2 </span>
+			   <a class="link" href="#1.2">Проблемная ситуация
+		    </a>
+		  </li>
+			<li>
+			
+				 <span class="tocnumber">2 </span>
+				  <a class="link" href="#2">Проблемный клиент и&nbsp;компания
+			 </a>
+		 </li>
+		 <li>
+			
+				<span class="tocnumber">3 </span>
+				<a class="link" href="#3">Шпаргалка
+			</a>
+		</li>
+</ul>
+</nav>
+
+<section class="row-gap--m" id="1">
+<h2 class="section__title h1 bold ">Проблемный клиент и&nbsp;сотрудник компании </h2>
+<p>Когда менеджер говорит «проблемный клиент», он&nbsp;неявно утверждает, что причина проблем в&nbsp;клиенте. Но&nbsp;это не&nbsp;всегда правда. <strong>Важно различать «проблемного клиента» и&nbsp;«проблемную ситуацию».</strong></p>
+
+<table>
+		<caption>Различаем проблемную ситуацию и&nbsp;клиента</caption>
+		<thead>
+			<tr>
+				<th>
+					Описание ситуации
+				</th>
+				<th>
+					Проблема в&nbsp;клиенте?
+				</th>
+			</tr>
+		</thead>
+		<tbody>	
+			<tr>
+				<td>
+					Веб-студия значимо задерживает согласованные ранее сроки разработки сайта, заказчик настаивает на&nbsp;применении штрафных санкций.
+				</td>
+				<td>
+					нет
+				</td>
+			</tr>
+			<tr>
+				<td>
+					Заказ выполнен. Заказчик указал на&nbsp;несоответствие с&nbsp;техническим заданием и&nbsp;отказывается оплачивать услугу до&nbsp;устранения замечаний.
+				</td>
+				<td>
+					нет
+				</td>
+			</tr>
+			<tr>
+				<td>
+					В&nbsp;семье и&nbsp;на&nbsp;работе человек постоянно раздражен, часто критикует других, провоцирует конфликты и&nbsp;хамит. Модель поведения не&nbsp;зависит от&nbsp;ситуации: будь-то «медленное» обслуживание кассиром в&nbsp;супермаркете или «холодная» шаурма в&nbsp;закусочной.
+				</td>
+				<td>
+					да
+				</td>
+			</tr>
+		</tbody>
+</table>
+
+<article class="row-gap--m " id="1.1">
+<h3 class="h2 bold mt-m mb-m">Проблемный клиент</h3>
+<p>Проблемный&nbsp;— это тот клиент, реакции которого не&nbsp;зависят от&nbsp;ситуации, часто неадекватны контексту и&nbsp;вытекают из&nbsp;психологических особенностей личности. Проблемность может проявляться в&nbsp;агрессивности, лживости, навязчивости и&nbsp;т.д.</p>
+<p>Лучшее, что можно сделать, когда вы&nbsp;встречаете такого заказчика,&nbsp;— это свести общение к&nbsp;необходимому деловому минимуму. Вы&nbsp;не&nbsp;получите полезной обратной связи, не&nbsp;сможете разобраться в&nbsp;мотивах или скорректировать его реакции.</p>
+<p>Спокойно работайте, уверенно отстаивайте свои интересы и&nbsp;интересы работодателя, не&nbsp;пасуйте и&nbsp;не&nbsp;поддавайтесь на&nbsp;манипуляцию и&nbsp;агрессию. Безопасная среда для отработки подобных навыков&nbsp;— тренинги по&nbsp;ассертивному поведению. Там вы&nbsp;сможете разобрать варианты реальных ситуаций и&nbsp;довести до&nbsp;автоматизма оптимальные модели реагирования.</p>
+</article>
+
+<article class="row-gap--m " id="1.2">
+<h3 class="h2 bold mt-m mb-m">Проблемная ситуация</h3>
+<p>Проблемная ситуация&nbsp;— это затруднение, связанное с&nbsp;отсутствием алгоритмов поведения, согласованной позиции сторон, завышенными ожиданиями заказчика и&nbsp;исполнителя друг от&nbsp;друга и&nbsp;другими пробелами в&nbsp;коммуникации.</p>
+<p>Подход здесь один&nbsp;— встречаться с&nbsp;партнерами и&nbsp;обсуждать вопросы, параллельно улучшая навыки ведения переговоров и&nbsp;процесс управления проектами в&nbsp;компании.</p>
+<p>Нашли решение сложной проблемной ситуации&nbsp;— не&nbsp;держите его при себе, поделитесь с&nbsp;коллегами. Создавайте и&nbsp;поддерживайте информационный банк решенных проблем. Тогда менее опытным коллегам или службе поддержки не&nbsp;придется «изобретать велосипед».</p>
+<p>Популярные запросы можно выложить в&nbsp;общий доступ, например на&nbsp;сайт в&nbsp;раздел FAQ, чтобы клиентам не&nbsp;приходилось звонить в&nbsp;офис.</p>
+</article>
+</section>
+
+<section class="row-gap--m" id="2">
+<h2 class="section__title h1 bold ">Проблемный клиент и&nbsp;компания</h2>
+<p>На&nbsp;уровне компании к&nbsp;проблемным отношу тех клиентов, на&nbsp;работу с&nbsp;которыми предприятие тратит больше ресурсов, чем получает.</p>
+<p>Заказчик может быть приятен в&nbsp;общении, его может не&nbsp;считать проблемным менеджер, но&nbsp;сотрудничество с&nbsp;ним может быть проблемой для фирмы.</p>
+<p>Представим агентство, оказывающее услуги организации Х.&nbsp;Допустим, что основные затраты агентства&nbsp;— это рабочее время. Зная сотрудников, которые вовлечены в&nbsp;работу с&nbsp;Х, размер их&nbsp;зарплаты и&nbsp;количество часов, которое они уделяют&nbsp;Х, мы&nbsp;вычислим стоимость обслуживания. Увеличим полученное значение на&nbsp;величину депозитной ставки в&nbsp;банке и&nbsp;получим минимальную цену услуги для организации Х.</p>
+
+<table>
+<caption>
+пример расчета &laquo;стоимости клиента&raquo;
+</caption>
+
+
+<thead>
+		<tr>
+			<th>
+				Сотрудник
+			</th>
+			<th class="text-right">
+				ЗП за&nbsp;один час*, у.е.
+			</th>
+			<th class="text-right">
+				Работа с&nbsp;Х, час/мес.
+			</th>
+			<th class="text-right">
+				Цена серви&shy;са, год, у.е.
+			</th>
+		</tr>
+</thead>
+<tbody>
+		<tr>
+			<td><br />
+			</td>
+			<td class="text-right">
+				<span class="italic">A</span>
+			</td>
+			<td class="text-right">
+				<span class="italic">B</span>
+			</td>
+			<td class="text-right">
+				<span class="italic">A*B*12</span>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<span class="italic"><b>маркетолог</b></span>
+			</td>
+			<td class="text-right">
+				<span class="italic">6 </span>
+			</td>
+			<td class="text-right">
+				<span class="italic">60</span>
+			</td>
+			<td class="text-right">
+				<span class="italic">4320</span>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<span class="italic">руководитель отдела </span>
+			</td>
+			<td class="text-right">
+				<span class="italic">10</span>
+			</td>
+			<td class="text-right">
+				<span class="italic">20</span>
+			</td>
+			<td class="text-right">
+				<span class="italic">2400</span>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<span class="italic">директор </span>
+			</td>
+			<td class="text-right">
+				<span class="italic">20</span>
+			</td>
+			<td class="text-right">
+				<span class="italic">10</span>
+			</td>
+			<td class="text-right">
+				<span class="italic">2400</span>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="3">
+				Итого
+			</td>
+			<td class="text-right">
+				9120
+			</td>
+		</tr>
+		<tr>
+			<td colspan="4">
+<div class="wtf">* с&nbsp;учетом налогов и&nbsp;необходимых выплат</div><br />
+			</td>
+		</tr>
+	</tbody>
+	<tbody>	
+		<tr>
+			<td colspan="3">
+				Депозитная ставка в&nbsp;банке, %
+			</td>
+			<td class="text-right">
+				5%
+			</td>
+		</tr>
+		<tr>
+			<td colspan="3">
+				Минимальная цена услуг для&nbsp;Х (стоимость обслуживания + сумма по&nbsp;депозиту), у.е.
+			</td>
+			<td class="text-right">
+				9576
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+
+
+
+
+
+
+<p>Когда заказчик платит меньше минимальной цены, сотрудничать с&nbsp;ним не&nbsp;выгодно: исполнитель не&nbsp;покрывает свои расходы либо упускает возможности (положив деньги в&nbsp;банк можно заработать больше). Такой заказчик&nbsp;— проблемный клиент для компании.</p>
+<p class="mb-m">Чаще всего я&nbsp;наблюдал две причины появления проблемных клиентов: </p>
+<ul class="additive-spacing">
+	<li class="list-li">
+		<p>Фирма не&nbsp;пересматривает условия сотрудничества с&nbsp;партнерами. Если изменилась сложность работ, качество услуг, появились новые опции&nbsp;— обсуждайте изменение стоимости.</p>
+	</li>
+	<li class="list-li">
+		<p>Не&nbsp;отлажены внутренние процедуры работы с&nbsp;клиентами, слабая подготовка сотрудников, отсутствует информационный банк решенных проблемных ситуаций. В&nbsp;результате сотрудники могут неправильно посчитать стоимость услуг в&nbsp;предложении, тратить энергию на&nbsp;«изобретение велосипеда», отвлекать коллег и&nbsp;бегать за&nbsp;одобрением к&nbsp;руководству, забирая временные ресурсы от&nbsp;других проектов.</p>
+	</li>
+</ul>
+<p>Если в&nbsp;организации ведется учет времени, которое уходит на&nbsp;обслуживание клиентов, постройте две таблицы. В&nbsp;одной расположите фирмы в&nbsp;порядке убывания выручки, которую они приносят, а&nbsp;во&nbsp;второй разместите их&nbsp;в&nbsp;порядке убывания временных затрат. В&nbsp;идеале ТОП10 клиентов в&nbsp;таблицах должен более-менее совпадать. Если это не&nbsp;так, ищите причины.</p>
+<p>Когда вы&nbsp;выявили проблемных клиентов, обдумайте возможность пересмотра условий сотрудничества. Здесь нельзя подходить механически. У&nbsp;клиента может быть потенциал развития отношений или важны репутационные выгоды от&nbsp;работы с&nbsp;ним. <b>Маркетологам</b> следует подходить к&nbsp;вопросу осознанно и&nbsp;быть уверенным, что сотрудничество соответствует интересам предприятия.</p>
+</section>
+
+<section class="row-gap--m" id="3">
+<h2 class="section__title h1 bold ">Шпаргалка</h2>
+<p class="bold mb-m">Для сотрудника</p>
+<ul class="additive-spacing">
+	<li class="list-li">
+		Неадекваты попадаются. Вести себя правильно помогут тренинги по&nbsp;ассертивному поведению.
+	</li>
+	<li class="list-li">
+		Чтобы легко разрешать проблемные ситуации, постоянно совершенствуйте навыки ведения переговоров и&nbsp;управления проектами.
+	</li>
+</ul>
+
+<p class="bold mb-m">Для компании</p>
+<ul class="additive-spacing">
+	<li class="list-li">
+		Фиксируйте затраты на&nbsp;обслуживание клиентов, сопоставляйте с&nbsp;выручкой.
+	</li>
+	<li class="list-li">
+		Анализируйте проблемные ситуации, извлекайте уроки, составляйте информационный банк проблемных ситуаций, обучайте сотрудников желаемым алгоритмам действий.
+	</li>
+</ul>
+</section>]]></content><author><name></name></author><category term="мнение" /><category term="бизнес" /><category term="маркетолог" /><summary type="html"><![CDATA[Делюсь опытом работы с&nbsp;проблемными клиентами: что важно знать сотруднику и&nbsp;что&nbsp;— управляющему компанией.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/tizers/tizer-47.jpg" /><media:content medium="image" url="http://localhost:4000/assets/images/tizers/tizer-47.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Как бизнесу использовать новые технологии | Дмитрий Бартошевич</title><link href="http://localhost:4000/blog/crowdconference/" rel="alternate" type="text/html" title="Как бизнесу использовать новые технологии | Дмитрий Бартошевич" /><published>2017-10-22T00:00:00+03:00</published><updated>2022-02-04T00:00:00+03:00</updated><id>http://localhost:4000/blog/crowdconference</id><content type="html" xml:base="http://localhost:4000/blog/crowdconference/"><![CDATA[<div class="intro__post">
+    <h1 class=" bold max-width-text">Новые технологии: что нужно использовать бизнесу</h1> 
+    <small class="small"><time itemprop="datePublished" datetime="2017-10-22"> 22 октября 2017</time> 
+    </small>
+</div>
+
+<p>Посетил конференцию «Новая реальность: вызовы для Беларуси». На&nbsp;два дня ушел в&nbsp;мир блокчейна, финансовых технологий, искусственного интеллекта и&nbsp;краудфандинга. Делюсь идеями, которые пригодятся вне зависимости от&nbsp;степени близости к&nbsp;ИТ и&nbsp;финансовой сфере. </p>
+
+<p><span class="italic">Дисклеймер: это не&nbsp;конспект двухдневной конференции, а&nbsp;некоторые мысли спикеров и&nbsp;участников групповых обсуждений, которые я&nbsp;отметил для себя.</span></p>
+
+<section class="row-gap--m">
+<h2 class="section__title h1 bold ">Занимайтесь тем бизнесом, где у&nbsp;вас экспертиза</h2>
+<p>Не&nbsp;поддавайтесь общему ажиотажу и&nbsp;не&nbsp;бросайтесь слепо в&nbsp;ИТ-бизнес. Работайте в&nbsp;той сфере, где у&nbsp;вас накоплены опыт и&nbsp;знания.</p>
+<p>Будьте открыты новым возможностям, расширяйте информационное поле, в&nbsp;котором находитесь. </p>
+<p>Технологии&nbsp;— инструмент решения задач. Вопрос «Как применить блокчейн к&nbsp;обычному бизнесу?» неправильный. Правильная формулировка: «У&nbsp;меня проблема Х.&nbsp;Могу&nbsp;ли я&nbsp;ее&nbsp;решить с&nbsp;помощью блокчейна?» </p>
+<p>Внедряете технологии на&nbsp;предприятии&nbsp;— будьте готовы изменить всю экосистему фирмы. Смарт-контракты не&nbsp;заработают, если вы&nbsp;не&nbsp;умеете руководить проектами и&nbsp;грамотно ставить задачи. </p>
+</section>
+
+<section class="row-gap--m">
+<h2 class="section__title h1 bold ">Собирайте и&nbsp;анализируйте данные </h2>
+<p>Извлекать закономерности из&nbsp;данных можно быстро и&nbsp;дешево. Языки программирования R, Python&nbsp;— это современный Excel. <b>Маркетологам</b> важно пройти дополнительное обучение, освоить эти языки и&nbsp;работать с&nbsp;данными на&nbsp;ином уровне. </p>
+<p>Если допустить, что через несколько лет у&nbsp;большинства компаний будет доступ к&nbsp;технологиям, то&nbsp;конкуренция между предприятиями перейдет на&nbsp;уровень владения данными. Если вы&nbsp;еще не&nbsp;собираете информацию о&nbsp;потребительском опыте клиентов&nbsp;— заручитесь поддержкой юристов и&nbsp;начинайте. </p>
+</section>
+
+<section class="row-gap--m">
+<h2 class="section__title h1 bold ">Фокусируйтесь не&nbsp;на&nbsp;продуктах, а&nbsp;на&nbsp;бизнес-моделях </h2>
+<p>Инвестиции в&nbsp;продукты&nbsp;— это инвестиции с&nbsp;самым высоким риском. Сегодня не&nbsp;продукты конкурируют друг с&nbsp;другом, а&nbsp;бизнес-модели и&nbsp;стили управления. Убер, Фейсбук, Алибаба&nbsp;— это история не&nbsp;о&nbsp;продуктах, а&nbsp;о&nbsp;бизнес-моделях. </p>
+
+
+<p class="italic"><span class="bold">Пример</span><br />Мы&nbsp;привыкли, что магазин обуви&nbsp;— это торговый зал, склад и&nbsp;большой ассортимент. <a class="link" href="https://www.else-corp.com/">Компания ELSE Corp.</a> предлагает иное видение. Магазин обуви&nbsp;— это несколько компьютеров и&nbsp;биометрическое сканирование ступней. Клиент выбирает обувь на&nbsp;основе предпочтений и&nbsp;результатов сканирования, оплачивает и&nbsp;через некоторое время получает заказ через службу доставки.</p>
+
+<p class="italic">В&nbsp;этой схеме товар остался прежним, но&nbsp;модель бизнеса иная. Склад не&nbsp;нужен. Большой торговый зал не&nbsp;нужен. Производится&nbsp;то, что клиент уже купил. </p>
+
+
+<div itemprop="image" itemscope="" itemtype="http://schema.org/ImageObject">	
+		<link itemprop="url" href="/assets/images/blog/crowdconference/else-corp.jpg" />
+<picture>
+               <source srcset="/assets/images/blog/crowdconference/else-corp.avif" type="image/avif" />
+			    <source srcset="/assets/images/blog/crowdconference/else-corp.webp" type="image/webp" />
+			   <img class="image" loading="lazy" decoding="async" src="/assets/images/blog/crowdconference/else-corp.jpg" alt="подбор обуви с помощью биометрического сканирования ступней - технология ELSE Corp." width="720" height="328" itemprop="contentUrl" />
+    </picture>
+	<div class="figcaption">
+		слайд из&nbsp;презентации ELSE Corp.
+	</div>
+</div>
+
+
+
+
+
+<p>Хорошая идея бизнеса&nbsp;— это хорошая бизнес-модель. Хорошая бизнес-модель всегда построена вокруг решения проблемы клиента. Но&nbsp;этого недостаточно. Бизнес-модель включает <b>сегментирование целевой аудитории</b>, каналы коммуникации и&nbsp;управление отношениями с&nbsp;клиентами, ценообразование, ресурсы для достижения целей, план действий, работу с&nbsp;партнерами. Упустите что-либо&nbsp;— бизнес работать не&nbsp;будет. </p>
+
+</section>
+
+<section class="row-gap--m">
+<h2 class="section__title h1 bold ">Не&nbsp;стремитесь создать новый рынок </h2>
+<p>Если корпорации кто-то и&nbsp;сместит с&nbsp;рынка, то&nbsp;это будут не&nbsp;сопоставимые по&nbsp;величине компании, а&nbsp;большое количество небольших фирм. Смерть гигантов наступит от&nbsp;тысячи мелких порезов. </p>
+<p>Не&nbsp;создавайте новые рынки, идите туда, где рынок сформирован и&nbsp;понятен спрос. Проанализируйте, что есть и&nbsp;где вы&nbsp;можете откусить кусочек «пирога»: что вы&nbsp;можете сделать быстрее и&nbsp;дешевле. </p>
+<p class="italic"><span class="bold">Пример</span><br /> Сотрудник банка звонит клиентам и&nbsp;предлагает инвестиционные решения. Один час работы такого сотрудника обходится банку более 60&nbsp;долларов (в&nbsp;США). Кто-то посмотрел на&nbsp;это, разработал и&nbsp;предложил автоматизированную платформу для финансовых консультаций, где участие человека минимально. Так появились робо-эдвайзеры. Для банков это возможность сократить расходы и&nbsp;улучшить качество сервиса (персональные рекомендации клиентам в&nbsp;любое время и&nbsp;в&nbsp;любом месте с&nbsp;выходом в&nbsp;интернет).</p>
+</section>]]></content><author><name></name></author><category term="мнение" /><category term="семинары" /><summary type="html"><![CDATA[Идеи, озвученные спикерами и&nbsp;участниками конференции &laquo;Новая реальность: вызовы для Беларуси 2017&raquo;. Актуально и&nbsp;сегодня.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/tizers/tizer-46.jpg" /><media:content medium="image" url="http://localhost:4000/assets/images/tizers/tizer-46.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Заменит ли ИИ маркетолога? | Дмитрий Бартошевич</title><link href="http://localhost:4000/blog/hype/" rel="alternate" type="text/html" title="Заменит ли ИИ маркетолога? | Дмитрий Бартошевич" /><published>2017-10-12T00:00:00+03:00</published><updated>2022-02-05T00:00:00+03:00</updated><id>http://localhost:4000/blog/hype</id><content type="html" xml:base="http://localhost:4000/blog/hype/"><![CDATA[<div class="intro__post">
+    <h1 class=" bold max-width-text">Заменит&nbsp;ли ИИ&nbsp;маркетолога</h1> 
+    <small class="small"><time itemprop="datePublished" datetime="2017-10-12"> 12 октября 2017</time> 
+    </small>
+</div>
+
+<p>Нельзя не&nbsp;заметить всплеск интереса к&nbsp;темам, связанных с&nbsp;машинным обучением, блокчейном, криптовалютами. О&nbsp;цифровой экономике говорят в&nbsp;выпусках новостей, ток-шоу, на&nbsp;бизнес-порталах. И&nbsp;разговорами дело не&nbsp;ограничивается. Сбербанк России, например, <a class="link" href="https://www.aif.ru/money/economy/7_prognozov_ot_grefa_glava_sberbanka_predskazal_nashe_blizhayshee_budushchee">перестал брать на&nbsp;работу юристов</a>, которые не&nbsp;умеют работать с&nbsp;нейронной сетью. Мир стремительно меняется. Рассуждаю, к&nbsp;чему готовиться и&nbsp;что делать <b>маркетологам</b>. </p>
+
+<nav class="toc">
+ <h2 class="toc__title">Содержание</h2>
+ <ul class="additive-spacing">
+		  <li>
+		    
+		      <span class="tocnumber">1 </span>
+			  <a class="link" href="#1">Трезвый расчет вместо хайпа
+		    </a>
+		  </li>
+		  <li>
+		    
+		      <span class="tocnumber">2 </span>
+			  <a class="link" href="#2">Зоны ближайшего развития маркетинга
+		    </a>
+		  </li>
+			<li class="level2">
+		   
+		      <span class="tocnumber">a) </span>
+			   <a class="link" href="#2.1">анализ информации и&nbsp;прогнозирование
+		    </a>
+		  </li>
+		  <li class="level2">
+		   
+		      <span class="tocnumber">б) </span>
+			   <a class="link" href="#2.2">контент
+		    </a>
+		  </li>
+			<li class="level2">
+			
+				 <span class="tocnumber">в) </span> <a class="link" href="#2.3">мерчендайзинг
+			 </a>
+		 </li>
+		 <li class="level2">
+			
+				<span class="tocnumber">г) </span>
+				<a class="link" href="#2.4">работа с&nbsp;клиентами
+			</a>
+		</li>
+		<li class="level2">
+		 
+			 <span class="tocnumber">д)</span>
+			 <a class="link" href="#2.5">реклама
+		 </a>
+	 </li>
+		 
+</ul>
+</nav>
+
+<section class="row-gap--m" id="1">
+<h2 class="section__title h1 bold ">Трезвый расчет вместо хайпа</h2>
+<div class="with-side row-gap--m">
+<div class="side"><p>Искусственный интеллект&nbsp;— в&nbsp;тексте&nbsp;— термин, объединяющий технологии машинного обучения, глубокого обучения, генерации естественного языка, распознавания изображений и&nbsp;речи. </p></div>
+<p>Агентство Wakefield Research заинтересовалось <a class="link" href="https://web.archive.org/web/20170501204308/http://www.prnewswire.com/news-releases/80-percent-of-all-marketing-executives-predict-artificial-intelligence-will-revolutionize-marketing-by-2020-300377076.html"><strong>влиянием искусственного интеллекта на&nbsp;маркетинг</strong></a>. Опросили 500&nbsp;маркетологов.&nbsp;80% однозначно высказались, что искусственный интеллект изменит отрасль к&nbsp;2020 году. И&nbsp;изменит существенно. И&nbsp;сразу&nbsp;же 74% опрошенных признались, что не&nbsp;понимают точно, как использовать искусственный интеллект в&nbsp;маркетинге. На&nbsp;чем основывается их&nbsp;уверенность в&nbsp;неотвратимости и&nbsp;значимости изменений&nbsp;— непонятно.</p></div>
+<p>В&nbsp;Беларуси&nbsp;— такое впечатление&nbsp;— последние несколько месяцев об&nbsp;искусственном интеллекте, блокчейне и&nbsp;криптовалютах заговорили все. Люди отрабатывают на&nbsp;заводе смену, приходят домой, заводят кошельки и&nbsp;думают, чтобы такого замайнить. Директору фабрики, который не&nbsp;знает, что такое блокчейн, стало стыдно в&nbsp;этом признаться.</p>
+
+
+<div itemprop="image" itemscope="" itemtype="http://schema.org/ImageObject">	
+		<link itemprop="url" href="/assets/images/blog/hype/hype2.jpg" />
+<picture>
+               <source srcset="/assets/images/blog/hype/hype2.avif" type="image/avif" />
+			    <source srcset="/assets/images/blog/hype/hype2.webp" type="image/webp" />
+				<img class="image" loading="lazy" decoding="async" src="/assets/images/blog/hype/hype2.jpg" alt="статистика поисковых показов" width="720" height="399" itemprop="contentUrl" />
+    </picture>
+	<div class="figcaption">
+		Количество показов по&nbsp;фразе «биткоин» выросло в&nbsp;5,2 раза<br />
+Май’17-Сен’17&nbsp;vs. Май’16-Сен’16, Беларусь, Яндекс 
+	</div>
+</div>
+
+
+
+<p>Шумиха и&nbsp;ажиотаж вокруг технологий&nbsp;— не&nbsp;то, что должно определять поведение. Ажиотаж&nbsp;— это то, что поверхностно. В&nbsp;таком состоянии редко принимаются взвешенные и&nbsp;обдуманные решения. Ажиотаж&nbsp;— это сиюминутно. Вы&nbsp;сливаете в&nbsp;общий хайп часть жизни, а&nbsp;завтра люди переключатся на&nbsp;иное и&nbsp;предмет текущих дискуссий забудут.</p>
+
+<p>Не&nbsp;нужно поддаваться ажиотажу и&nbsp;бездумно становится «техническим евангелистом». Придавать технологиям сакральный оттенок&nbsp;— лишнее. Заниматься промышленному предприятию машинным обучением ради машинного обучения&nbsp;— по&nbsp;меньшей мере, нерационально.</p>
+
+<article class="additive-spacing italic extract">
+<h3 class="element--hidden"> Об IT евангелистах </h3>
+<p>Когда мне кто-то представляется как «евангелист», в&nbsp;уме невольно всплывает вопрос «Пятый? Матфей, Марк, Лука, Иоанн и&nbsp;ты?».</p>
+<p>«Нет, ты&nbsp;не&nbsp;понял, я&nbsp;технический евангелист, я&nbsp;вне религии»,&nbsp;— словно отвечает собеседник. </p>
+<p>«То&nbsp;есть те&nbsp;первые говорили о&nbsp;спасении души и&nbsp;вечности, а&nbsp;ты&nbsp;об&nbsp;преходящем. Мельчают евангелисты, не&nbsp;кажется?»,&nbsp;— не&nbsp;унимаюсь&nbsp;я. </p>
+<p>«Ну&nbsp;это&nbsp;же простая аналогия. Как апостолы шли в&nbsp;массы и&nbsp;распространяли слово Христа, так и&nbsp;я&nbsp;рассказываю о&nbsp;технологиях»,&nbsp;— говорит «виртуальный» собеседник. </p>
+<p>«Трое из&nbsp;четырех евангелистов были казнены, а&nbsp;ты&nbsp;готов умереть за&nbsp;право говорить о&nbsp;технологии компании, на&nbsp;которую работаешь? Нет? Тогда ты&nbsp;только пропагандист или популяризатор». </p>
+<p>Внутренний диалог угасает. Сатори :-) </p>
+</article>
+
+<p>Поддаваться ажиотажу не&nbsp;стоит, но&nbsp;и&nbsp;игнорировать развитие искусственного интеллекта нельзя. Конкурировать человеку с&nbsp;людьми уже недостаточно. Важно убедиться, что с&nbsp;рынка вас не&nbsp;вытеснят технологии.</p>
+<p>Если почувствовали, что машины заходят на&nbsp;вашу «территорию», не&nbsp;конкурируйте, а&nbsp;превратите их&nbsp;в&nbsp;ресурс.</p>
+<p>Технологии&nbsp;— это инструмент. Смысл любого инструмента, который вы&nbsp;используете, лежит вне его. Возьмем шариковую ручку. Смысл ручки&nbsp;— не&nbsp;в&nbsp;ней самой, а&nbsp;в&nbsp;тексте, который я&nbsp;пишу в&nbsp;блокноте. Следует&nbsp;ли мне бороться за&nbsp;шариковые ручки и&nbsp;бояться компьютеров с&nbsp;текстовыми редакторами? Нет, конечно. Компьютеры помогают мне писать и&nbsp;редактировать текст быстрее. Но&nbsp;если я&nbsp;путаю средство и&nbsp;цель, если смысл письма нахожу в&nbsp;письме ручкой, то&nbsp;тогда в&nbsp;компьютерах я&nbsp;могу увидеть угрозу. </p>
+<p>Почувствовали опасность со&nbsp;стороны технического прогресса&nbsp;— подумайте, на&nbsp;каком смысловом уровне деятельности вы&nbsp;находитесь. Много раз спросите себя «Зачем я&nbsp;это делаю (пишу текст, строю дома, читаю лекции и&nbsp;пр.)?», чтобы найти тот смысл и&nbsp;цели, где машины будут вам помощниками. Учитывая скорость изменений в&nbsp;мире, будьте готовы проделывать это упражнение часто и&nbsp;подниматься по&nbsp;лестнице смыслов.</p>
+</section>
+
+<section class="row-gap--m" id="2">
+<h2 class="section__title h1 bold ">Зоны ближайшего развития маркетинга </h2>
+<p>Я&nbsp;выделил несколько сфер, <strong>где искусственный интеллект уже сейчас меняет маркетинг</strong>. </p>
+
+<article class="row-gap--m " id="2.1">
+<h3 class="h2 bold mb-m">а) анализ информации и&nbsp;прогнозирование</h3>
+
+<p>Технологии помогут объединить данные о&nbsp;клиентах, полученных с&nbsp;разных источников и&nbsp;каналов. Это приведет к&nbsp;более глубокому и&nbsp;целостному пониманию потребительского поведения и&nbsp;принципиально изменит взаимодействие компаний и&nbsp;клиентов, <strong>подход к&nbsp;созданию и&nbsp;развитию брендов.</strong> </p>
+<p>С&nbsp;развитием искусственного интеллекта появится возможность собирать и&nbsp;обрабатывать больше данных о&nbsp;клиентах. Например, развилась технология распознавания изображений и&nbsp;появился <a class="link" href="https://www.netra.io/">сервис Netra</a>. Netra сканирует фотографии, выложенные в&nbsp;социальных сетях и&nbsp;анализирует&nbsp;те, где присутствуют логотипы и&nbsp;названия брендов. Сервис помогает понять, в&nbsp;каком контексте бренд (ваш или конкурента) присутствует, кто бренд использует, как часто и&nbsp;в&nbsp;каких ситуациях, какие фотографии с&nbsp;брендом собирают больше откликов.</p>
+
+
+<div itemprop="image" itemscope="" itemtype="http://schema.org/ImageObject">	
+		<link itemprop="url" href="/assets/images/blog/hype/hype3.jpg" />
+	<picture>
+               <source srcset="/assets/images/blog/hype/hype3.avif" type="image/avif" />
+			    <source srcset="/assets/images/blog/hype/hype3.webp" type="image/webp" />
+				<img class="image" loading="lazy" decoding="async" src="/assets/images/blog/hype/hype3.jpg" alt="пример работы Netra" width="471" height="562" itemprop="contentUrl" />
+    </picture>
+	<div class="figcaption">
+		Сервис обнаружил логотипы Starbucks и&nbsp;Toronto Blue Jays в&nbsp;твите о&nbsp;чьем-то прекрасном дне. <br />Источник: канал Netra на&nbsp;Medium.com. 
+	</div>
+</div>
+
+
+<p>A/Б-тестирование перейдет в&nbsp;автоматический режим. Искусственный интеллект сам определит элементы для сравнения, внесет изменения, измерит результат, снова начнет экспериментировать и&nbsp;так постепенно будет повышать целевые показатели. </p>
+<p>Технологии возьмут на&nbsp;себя не&nbsp;только рутинные операции по&nbsp;анализу данных, но&nbsp;и&nbsp;некоторые прогностические функции. Например, смогут определить вероятность перехода клиентов к&nbsp;конкурентам и&nbsp;в&nbsp;случае необходимости рекомендовать упреждающие виды активности.</p>
+</article>
+
+<article class="row-gap--m " id="2.2">
+<h3 class="h2 bold mt-m mb-m">б) контент</h3>
+<p>Переводить цифровую информацию в&nbsp;осмысленный текст технологии умеют уже сейчас. Финансовые сводки для Yahoo Finance, например, пишет не&nbsp;человек. Дальше&nbsp;— больше. Агентство стратегических инициатив прогнозирует <a class="link" href="https://www.cossa.ru/149/117262/">исчезновение профессий журналиста и&nbsp;копирайтера</a> в&nbsp;ближайшие 15&nbsp;лет. </p>
+<p>Готовить коммерческие предложения будут роботы. Начало положено. <a class="link" href="https://www.persado.com/">Сервис Persado</a> подбирает слова, фразы, изображения так, чтобы увеличить уровень эмоциональной вовлеченности клиента.</p>
+<p>Возможно через несколько лет предприятия вместо найма SMM-специалиста заключат договор с&nbsp;сервисами, которые в&nbsp;автоматическом режиме будут анализировать клиентов и&nbsp;подписчиков, собирать в&nbsp;интернете интересную для них информацию, приводить в&nbsp;нужный вид и&nbsp;размещать в&nbsp;сетях.</p>
+</article>
+
+
+<article class="row-gap--m " id="2.3">
+<h3 class="h2 bold mt-m mb-m">в) мерчендайзинг</h3>
+<p>Крупнейшая европейская торговая сеть внедрила <a class="link" href="https://www.youtube.com/watch?v=rZ2VfhyUXYM&amp;feature=youtu.be&amp;t=5m5s">систему, которая отслеживает поведение каждого покупателя в&nbsp;торговом зале</a>: на&nbsp;что обращает внимание, какие товары покупает и&nbsp;т.&nbsp;д. Далее система предлагает владельцу магазина переставить товары таким образом, чтобы увеличить максимальный чек. Система работает в&nbsp;автоматическом режиме и&nbsp;— по&nbsp;оценкам&nbsp;— в&nbsp;16&nbsp;раз лучше, чем мерчендайзер-человек или маркетолог-аналитик. Ожидаю, со&nbsp;временем подобные системы станут доступнее, проще и&nbsp;их&nbsp;начнут использовать даже в&nbsp;минском «Азарэнне» :-) </p>
+</article>
+
+<article class="row-gap--m " id="2.4">
+<h3 class="h2 bold mt-m mb-m">г) работа с&nbsp;клиентами </h3>
+<p>Искусственный интеллект поможет глубже понимать потребительское поведение. Общение с&nbsp;клиентами станет персонифицированным. Рекомендации и&nbsp;предложения компании будут основаны на&nbsp;точном понимании потребностей и&nbsp;предпочтений конкретного потребителя. В&nbsp;том или ином виде подобные технологии уже использует Google, Facebook, Yandex, Amazon, Netflix. </p>
+<p>Чат-боты из&nbsp;раздражающих всплывающих окон превратятся в&nbsp;личных помощников клиентов, готовых отвечать на&nbsp;вопросы и&nbsp;консультировать в&nbsp;режиме 7/24.</p>
+</article>
+
+<article class="row-gap--m" id="2.5">
+<h3 class="h2 bold  mt-m mb-m">д) реклама </h3>
+<p>Программы решат, какую рекламу стоит показывать, кому, когда и&nbsp;по&nbsp;какой цене. Информационные рассылки и&nbsp;коммерческие предложения станут приходить в&nbsp;то&nbsp;время и&nbsp;по&nbsp;тем каналам, где вероятность отклика выше. </p>
+</article>
+</section>
+
+<div class="section__title post__note additive-spacing h2 ">
+
+		<p><b>Маркетинг</b> стремительно меняется. </p>
+
+		<p>Конкурировать с&nbsp;людьми уже недостаточно. Убедитесь, что вашу работу не&nbsp;заменит искусственный интеллект.</p>
+
+		<p>Ажиотаж заменяйте поиском смыслов и&nbsp;значений, превращайте технологии в&nbsp;ресурсы для достижения целей. </p>
+
+</div>]]></content><author><name></name></author><category term="мнение" /><category term="маркетолог" /><summary type="html"><![CDATA[Процесс автоматизации маркетинга набирает обороты. Сможет&nbsp;ли искусственный интеллект заменить маркетолога полностью?]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/tizers/tizer-45.jpg" /><media:content medium="image" url="http://localhost:4000/assets/images/tizers/tizer-45.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>

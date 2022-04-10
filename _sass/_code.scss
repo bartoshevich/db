@@ -1,0 +1,26 @@
+
+$terminal-window-height: 10px;
+$base-color: #393e46;
+$terminal-border-radius: 0.125em;
+$terminal-border-color: mix(#fff, $base-color, 80%);
+
+
+
+.language-terminal {
+  position: relative;
+   margin-bottom: 1.5em;
+   padding: 1em;
+   border: 1px solid $terminal-border-color;
+   border-radius: $terminal-border-radius;
+   -webkit-box-shadow: 0 0.25em 1em rgba($base-color, 0.25);
+           box-shadow: 0 0.25em 1em rgba($base-color, 0.25);
+   background-color: $base-color;
+   color:#fff;
+   white-space: pre-wrap;
+     width: 100%;
+  //   max-width:80vw;
+ overflow-x: scroll;
+ font-size: .8em;
+  -webkit-overflow-scrolling: touch;
+
+}

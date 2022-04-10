@@ -41,7 +41,8 @@
     line-height: 1.36;
   }
 
-  .guest-person > img {
+  .guest-person > img,
+  .guest-person > picture {
     order: -1;
     margin-bottom: var(--space-2xs-xs);
    }
