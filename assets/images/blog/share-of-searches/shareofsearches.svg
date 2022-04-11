@@ -1,0 +1,16 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1043.5 132.5" width="2087" height="265">
+  <!-- svg-source:excalidraw -->
+  
+  <defs>
+    <style>
+      @font-face {
+        font-family: "Virgil";
+        src: url("https://excalidraw.com/Virgil.woff2");
+      }
+      @font-face {
+        font-family: "Cascadia";
+        src: url("https://excalidraw.com/Cascadia.woff2");
+      }
+    </style>
+  </defs>
+  <g transform="translate(10 17.5) rotate(0 106.5 52.5)"><text x="106.5" y="28" font-family="Cascadia, Segoe UI Emoji" font-size="28px" fill="#000000" text-anchor="middle" style="white-space: pre;" direction="ltr">Доля в поиске</text><text x="106.5" y="63" font-family="Cascadia, Segoe UI Emoji" font-size="28px" fill="#000000" text-anchor="middle" style="white-space: pre;" direction="ltr">бренда Х </text><text x="106.5" y="98" font-family="Cascadia, Segoe UI Emoji" font-size="28px" fill="#000000" text-anchor="middle" style="white-space: pre;" direction="ltr">  </text></g><g transform="translate(373 10) rotate(0 287 17.5)"><text x="287" y="28" font-family="Cascadia, Segoe UI Emoji" font-size="28px" fill="#000000" text-anchor="middle" style="white-space: pre;" direction="ltr">кол-во брендовых запросов (бренд Х)</text></g><g transform="translate(318.5 75) rotate(0 344.5 17.5)"><text x="344.5" y="28" font-family="Cascadia, Segoe UI Emoji" font-size="28px" fill="#000000" text-anchor="middle" style="white-space: pre;" direction="ltr">кол-во всех брендовых запросов в категории</text></g><g stroke-linecap="round" transform="translate(294.5 60) rotate(0 369.5 0.5)"><path d="M0 0 C202.25 0, 404.51 0, 739 0 M0 0 C267.71 0, 535.43 0, 739 0 M739 0 C739 0.31, 739 0.63, 739 1 M739 0 C739 0.37, 739 0.74, 739 1 M739 1 C468.66 1, 198.31 1, 0 1 M739 1 C476.91 1, 214.81 1, 0 1 M0 1 C0 0.78, 0 0.57, 0 0 M0 1 C0 0.74, 0 0.48, 0 0" stroke="#1d1d1f" stroke-width="1" fill="none"/></g><g transform="translate(245.5 39) rotate(0 10.5 22)"><text x="10.5" y="35" font-family="Cascadia, Segoe UI Emoji" font-size="36px" fill="#1d1d1f" text-anchor="middle" style="white-space: pre;" direction="ltr">=</text></g></svg>

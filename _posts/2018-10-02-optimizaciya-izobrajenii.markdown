@@ -52,7 +52,7 @@ keywords: "оптимизация изображений"
 <img class="image" loading="lazy" decoding="async" src="/assets/images/blog/optimizaciya-izobrajenii/coin-optimizilla.jpg" alt="фотография монеты" width="300" height="298">
 </div>
 <div class="c-5">
-<div class="small">оригинал, 300px*298px, 102,4&nbsp;КБ <br/>
+<div class="small">оригинал, 300px*298px, 102.4&nbsp;КБ <br/>
 автор фото&nbsp;— www.flickr.com/photos/simon50000/</div>
 </div>
 </div>
@@ -62,7 +62,7 @@ keywords: "оптимизация изображений"
 <img class="image" loading="lazy" decoding="async" src="/assets/images/blog/optimizaciya-izobrajenii/coin-optimizilla.jpg" alt="оптимизированная с помощью Gimp фотография монеты" width="300" height="298" >
 </div>
 <div class="c-5">
-<div class="small">оптимизировано в&nbsp;Gimp, 32,4&nbsp;КБ <br />
+<div class="small">оптимизировано в&nbsp;Gimp, 32.4&nbsp;КБ <br />
 открыл фото и&nbsp;сохранил для веб. настройки программы&nbsp;— по&nbsp;умолчанию</div>
 </div>
 </div>
@@ -72,7 +72,7 @@ keywords: "оптимизация изображений"
 <img class="image" loading="lazy" decoding="async" src="/assets/images/blog/optimizaciya-izobrajenii/coin-optimizilla.jpg" alt="оптимизированная с помощью Optimizilla фотография монеты" width="300" height="298" >
 </div>
 <div class="c-5">
-<div class="small">оптимизировано в&nbsp;Optimizilla, 20,5&nbsp;КБ<br />
+<div class="small">оптимизировано в&nbsp;Optimizilla, 20.5&nbsp;КБ<br />
 настройки онлайн сервиса&nbsp;— по&nbsp;умолчанию</div>
 </div>
 </div>
@@ -190,7 +190,7 @@ keywords: "оптимизация изображений"
 
 <p>На&nbsp;этом работа по&nbsp;оптимизации картинки завершена. Сервис автоматически изменит качество и&nbsp;формат изображения в&nbsp;зависимости от&nbsp;экрана, на&nbsp;котором открывают адрес картинки. Не&nbsp;нужно готовить много вариантов изображения, прописывать условия для «ретины» и&nbsp;WebP. Все это уже «зашито» в&nbsp;адресе. Код картинки снова умещается в&nbsp;одну строку. </p>
 
-<p>Ниже — оптимизированная с&nbsp;помощью Cloudinary фотография монеты. Если вы&nbsp;откроете статью в&nbsp;разных браузерах (Firefox и&nbsp;Chrome) и&nbsp;сохраните фото, вы&nbsp;получите фотографии разных форматов и&nbsp;веса. У&nbsp;меня скачанная с&nbsp;Chrome фотография весит всего 10,9&nbsp;КБ&nbsp;— почти в&nbsp;10&nbsp;раз меньше оригинала. Код&nbsp;же&nbsp;— одна строка. Нет &lt;picture&gt;, &lt;source&gt;, media и&nbsp;пр. </p>
+<p>Ниже — оптимизированная с&nbsp;помощью Cloudinary фотография монеты. Если вы&nbsp;откроете статью в&nbsp;разных браузерах (Firefox и&nbsp;Chrome) и&nbsp;сохраните фото, вы&nbsp;получите фотографии разных форматов и&nbsp;веса. У&nbsp;меня скачанная с&nbsp;Chrome фотография весит всего 10.9&nbsp;КБ&nbsp;— почти в&nbsp;10&nbsp;раз меньше оригинала. Код&nbsp;же&nbsp;— одна строка. Нет &lt;picture&gt;, &lt;source&gt;, media и&nbsp;пр. </p>
 
 <img class="image" loading="lazy" decoding="async" src="https://res.cloudinary.com/bartoshevich/image/upload/q_auto,f_auto/v1538423803/coin_original.jpg" alt="оптимизированная с помощью Optimizilla фотография монеты" width="300" height="298" >
 <p>Сотрудники Cloudinary подготовили <a class="link" href="https://cloudinary.com/cookbook">Cookbook</a>, где описывают возможности сервиса: что можно добавить в&nbsp;адрес изображения и&nbsp;какой результат получить. Например, можно улучшить фотографию, если после upload/ написать в&nbsp;адресе e_improve/. Результат:</p>

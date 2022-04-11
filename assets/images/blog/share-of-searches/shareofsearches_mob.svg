@@ -1,0 +1,16 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 672.5 199" width="1345" height="398">
+  <!-- svg-source:excalidraw -->
+  
+  <defs>
+    <style>
+      @font-face {
+        font-family: "Virgil";
+        src: url("https://excalidraw.com/Virgil.woff2");
+      }
+      @font-face {
+        font-family: "Cascadia";
+        src: url("https://excalidraw.com/Cascadia.woff2");
+      }
+    </style>
+  </defs>
+  <g transform="translate(10 59.5) rotate(0 106.5 52.5)"><text x="106.5" y="28" font-family="Cascadia, Segoe UI Emoji" font-size="28px" fill="#000000" text-anchor="middle" style="white-space: pre;" direction="ltr">Доля в поиске</text><text x="106.5" y="63" font-family="Cascadia, Segoe UI Emoji" font-size="28px" fill="#000000" text-anchor="middle" style="white-space: pre;" direction="ltr">бренда Х </text><text x="106.5" y="98" font-family="Cascadia, Segoe UI Emoji" font-size="28px" fill="#000000" text-anchor="middle" style="white-space: pre;" direction="ltr">  </text></g><g transform="translate(323.5 10) rotate(0 147.5 35)"><text x="147.5" y="28" font-family="Cascadia, Segoe UI Emoji" font-size="28px" fill="#000000" text-anchor="middle" style="white-space: pre;" direction="ltr">кол-во брендовых </text><text x="147.5" y="63" font-family="Cascadia, Segoe UI Emoji" font-size="28px" fill="#000000" text-anchor="middle" style="white-space: pre;" direction="ltr">запросов (бренд Х)</text></g><g transform="translate(301.5 119) rotate(0 180.5 35)"><text x="180.5" y="28" font-family="Cascadia, Segoe UI Emoji" font-size="28px" fill="#000000" text-anchor="middle" style="white-space: pre;" direction="ltr">кол-во всех брендовых </text><text x="180.5" y="63" font-family="Cascadia, Segoe UI Emoji" font-size="28px" fill="#000000" text-anchor="middle" style="white-space: pre;" direction="ltr">запросов в категории</text></g><g stroke-linecap="round" transform="translate(294.5 102) rotate(0 172.5 0.5)"><path d="M0 0 C94.42 0, 188.84 0, 345 0 M0 0 C124.98 0, 249.96 0, 345 0 M345 0 C345 0.31, 345 0.63, 345 1 M345 0 C345 0.37, 345 0.74, 345 1 M345 1 C218.79 1, 92.58 1, 0 1 M345 1 C222.64 1, 100.28 1, 0 1 M0 1 C0 0.78, 0 0.57, 0 0 M0 1 C0 0.74, 0 0.48, 0 0" stroke="#1d1d1f" stroke-width="1" fill="none"></path></g><g transform="translate(245.5 81) rotate(0 10.5 22)"><text x="10.5" y="35" font-family="Cascadia, Segoe UI Emoji" font-size="36px" fill="#1d1d1f" text-anchor="middle" style="white-space: pre;" direction="ltr">=</text></g></svg>

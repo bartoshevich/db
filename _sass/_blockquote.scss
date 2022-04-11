@@ -1,5 +1,6 @@
 .blockquote--emphasis {
-    position: relative;   
+    position: relative; 
+    display: inherit;  
 }
 
 .blockquote--emphasis:not(:last-child) {   
@@ -30,7 +31,7 @@
   }
 
   .citation__author {
-        margin-top: var(--space-m);
+        margin-top: var(--space-m)!important;
     }
     
 

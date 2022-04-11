@@ -44,7 +44,7 @@ keywords: "реклама, рекламные кампании"
             эскиз видеоролика
         </div>
         <div class="video">
-            <a class="video__link " href="https://youtu.be/LcRjumujYws" target="_blank" rel="noopener nofollow noreferrer">
+            <a class="video__link " href="https://youtu.be/LcRjumujYws" >
                 <picture>
                     <source srcset="https://i.ytimg.com/vi_webp/LcRjumujYws/maxresdefault.webp" type="image/webp">
                     <img loading="lazy" class="video__media " src="https://i.ytimg.com/vi/LcRjumujYws/maxresdefault.jpg" alt="Смысл видео в ответе на вопрос, что объединяет клиентов банка и известных предпринимателей." width="1280" height="720" itemprop="thumbnail"/>

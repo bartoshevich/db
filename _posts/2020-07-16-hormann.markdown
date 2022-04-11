@@ -21,7 +21,7 @@ keywords: "брендинг, разработка развитие создан�
 </div>
 </div>
 
-<nav class="toc mt-m">
+<nav class="toc">
 <h2 class="toc__title">Содержание</h2>
 <ul class="additive-spacing">
 		  <li>		  

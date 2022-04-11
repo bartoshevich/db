@@ -84,7 +84,6 @@ p {
 .list-sign:before {
     content: "•";
     padding-right: var(--space-3xs);
-
 }
 
 .border-top {
@@ -195,7 +194,7 @@ p {
     font-style: italic;
     border-left: 1px solid $secondary-text-colour;
     padding-left: var(--space-m);
-    margin: var(--space-m) 0 var(--space-m) var(--space-l) ;
+    margin: var(--space-s) 0 var(--space-s) var(--space-l) ;
     line-height: 1.6em;
   }
 
