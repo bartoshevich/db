@@ -152,7 +152,7 @@ image:
 <figure class="block-230">
 	<img  loading="lazy" decoding="async" class="qr-code" src="/assets/images/contact/qr-code.svg" alt="QR-код с контактами Дмитрия Бартошевича" width="230" height="230"/>
 	<figcaption>
-		чтобы быстро добавить меня в&nbsp;книгу контактов, отсканируйте телефоном QR-код или <a class="link" href="/assets/images/contact/contact.csv" download>импортируйте csv-файл</a> (0,27 KB)
+		чтобы быстро добавить меня в&nbsp;книгу контактов, отсканируйте телефоном QR-код или <a class="link" href="/assets/images/contact/contact.csv" download>импортируйте csv-файл</a> (0.27 KB)
 	</figcaption>
 </figure>
 

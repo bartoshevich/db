@@ -20,19 +20,22 @@ keywords: "оптимизация изображений"
  <h2 class="toc__title">Содержание</h2>
  <ul class="additive-spacing">
   <li>
-    <a class="link" href="#1">
-      <span class="tocnumber">1 </span>Стандартный подход
+   
+      <span class="tocnumber">1 </span>
+       <a class="link" href="#1">Стандартный подход
     </a>
   </li>
   <li>
-    <a class="link" href="#2">
-      <span class="tocnumber">2 </span>Новое требование: каждому экрану свое изображение
+   
+      <span class="tocnumber">2 </span>
+       <a class="link" href="#2">Новое требование: каждому экрану свое изображение
     </a>
   </li>
 
       <li>
-        <a class="link" href="#3">
-        <span class="tocnumber">3 </span>А&nbsp;можно&nbsp;ли проще?
+       
+        <span class="tocnumber">3 </span>
+         <a class="link" href="#3">А&nbsp;можно&nbsp;ли проще?
         </a>
       </li>
 </ul>
@@ -41,7 +44,7 @@ keywords: "оптимизация изображений"
 
 <section class="row-gap--m" id="1">
 <h2 class="section__title h1 bold ">Стандартный подход</h2>
-<p>Перед публикацией фотографии на&nbsp;сайте я&nbsp;уменьшаю ее&nbsp;вес. Делаю это в&nbsp;графическом редакторе (Gimp + плагин «gimp-plugin-saveforweb») или <a href="https://imagecompressor.com/ru/">сервисе Optimizilla</a>. </p>
+<p>Перед публикацией фотографии на&nbsp;сайте я&nbsp;уменьшаю ее&nbsp;вес. Делаю это в&nbsp;графическом редакторе (Gimp + плагин «gimp-plugin-saveforweb») или <a class="link" href="https://imagecompressor.com/ru/">сервисе Optimizilla</a>. </p>
 
 <span class="bold">Пример</span>
 <div class="row">
@@ -110,14 +113,15 @@ keywords: "оптимизация изображений"
 
 <p>Если вы&nbsp;читаете статью со&nbsp;смартфона, ниже вы&nbsp;видите котенка, который спит, свернувшись калачиком. Если читаете с&nbsp;большого экрана&nbsp;— ваш кот зевает и&nbsp;потягивается. Еще есть кот, который сидит и&nbsp;смотрит на&nbsp;вас. Поэкспериментируете с&nbsp;гаджетами или размером окна браузера и&nbsp;убедитесь, что так и&nbsp;есть. </p>
 
-<figure>
+<div itemprop="image" itemscope itemtype="http://schema.org/ImageObject">	
+	<link itemprop="url" href="/assets/images/blog/optimizaciya-izobrajenii/kitten-large.png" />
 <picture>
-  <source media="(min-width: 650px)" srcset="/images/kitten-large.png">
-  <source media="(min-width: 465px)" srcset="/images/kitten-medium.png">
-  <img class="image" loading="lazy" decoding="async" src="/images/kitten-small.png" alt="a cute kitten" >
+  <source media="(min-width: 650px)" srcset="/assets/images/blog/optimizaciya-izobrajenii/kitten-large.png">
+  <source media="(min-width: 465px)" srcset="/assets/images/blog/optimizaciya-izobrajenii/kitten-medium.png">
+  <img class="image" loading="lazy" decoding="async" src="/assets/images/blog/optimizaciya-izobrajenii/kitten-small.png" alt="котенок, который меняется в зависимости от ширины экрана монитора" itemprop="contentUrl">
 </picture>
-<figcaption>Пример взят <a class="link" href="https://cloudfour.com/examples/img-currentsrc/" >отсюда</a></figcaption>
-</figure>
+<div class="figcaption">Пример взят <a class="link" href="https://cloudfour.com/examples/img-currentsrc/" >отсюда</a></div>
+</div>
 
 <p>А&nbsp;вот как это работает:</p>
 
@@ -133,11 +137,14 @@ keywords: "оптимизация изображений"
 
 <p>Атрибут srcset указывает путь изображения для загрузки. Тег &lt;source&gt; и&nbsp;атрибут media указывают условия появления каждой из&nbsp;картинок. Если ширина экрана больше 650px, показывается зевающий кот, если от&nbsp;465px до&nbsp;650px&nbsp;— кот сидит. Если экран меньше 465px или если браузер не&nbsp;распознает тег &lt;picture&gt;, вы&nbsp;увидите спящего кота. </p>
 
-<p>В&nbsp;блоге Opera есть <a class="link" href="https://dev.opera.com/articles/responsive-images/" >15&nbsp;примеров использования тега &lt;picture&gt;</a> (на&nbsp;англ.). Я&nbsp;заглядываю туда как в&nbsp;шпаргалку по&nbsp;синтаксису: какой код нужен, чтобы для ретины загружать изображения с&nbsp;высоким разрешением, чтобы показывать разные фото для разных экранов, чтобы предлагать WebP там, где браузеры распознают этот формат, чтобы все эти условия указать разом для одного изображения. </p>
+<p>В&nbsp;блоге Opera есть <a class="link" href="https://dev.opera.com/articles/responsive-images/" >15&nbsp;примеров использования тега &lt;picture&gt;</a> (англ.). Я&nbsp;заглядываю туда как в&nbsp;шпаргалку по&nbsp;синтаксису: какой код нужен, чтобы для ретины загружать изображения с&nbsp;высоким разрешением, чтобы показывать разные фото для разных экранов, чтобы предлагать WebP там, где браузеры распознают этот формат, чтобы все эти условия указать разом для одного изображения. </p>
 
-<div class="markedfield">
+
 
 <div class="figure">
+<div class="figcaption">
+<span class="bold">updated</span>  Для желающих углубиться в&nbsp;тему Вадим Макеев рассказывает, как с&nbsp;помощью image-set можно подключать картинки разных типов и&nbsp;разрешения
+</div>
  <div class="video ">
         <a class="video__link " href="https://youtu.be/VnjrIGvoO_Y" target="_blank" rel="noopener nofollow noreferrer">
             <picture>
@@ -148,10 +155,6 @@ keywords: "оптимизация изображений"
         <button class="video__button" aria-label="Запустить видео">
             <svg width="68" height="48" viewBox="0 0 68 48"><path class="video__button-shape" d="M66.52,7.74c-0.78-2.93-2.49-5.41-5.42-6.19C55.79,.13,34,0,34,0S12.21,.13,6.9,1.55 C3.97,2.33,2.27,4.81,1.48,7.74C0.06,13.05,0,24,0,24s0.06,10.95,1.48,16.26c0.78,2.93,2.49,5.41,5.42,6.19 C12.21,47.87,34,48,34,48s21.79-0.13,27.1-1.55c2.93-0.78,4.64-3.26,5.42-6.19C67.94,34.95,68,24,68,24S67.94,13.05,66.52,7.74z"></path><path class="video__button-icon" d="M 45,24 27,14 27,34"></path></svg>
         </button>
-</div>
-<div class="figcaption">
-<span class="bold">updated</span>  Для желающих углубиться в&nbsp;тему Вадим Макеев рассказывает, как с&nbsp;помощью image-set можно подключать картинки разных типов и&nbsp;разрешения
-</div>
 </div>
 </div>
 
@@ -166,13 +169,13 @@ keywords: "оптимизация изображений"
 
 <p>C&nbsp;Cloudinary работа по&nbsp;оптимизации изображений сводится к&nbsp;корректировке адреса картинки, загруженной в&nbsp;облако сервиса. Поясню на&nbsp;примере. Давайте войдем в&nbsp;Cloudinary, добавим фотографию монеты из&nbsp;примера выше и&nbsp;скопируем url картинки. </p>
 
-<img src="//res.cloudinary.com/bartoshevich/image/upload/q_auto,f_auto/v1538445318/copy_cloudinary.jpg" alt="пример работы с Cloudinary" width="519" height="478"/>
+<img class="image" loading="lazy" decoding="async" src="//res.cloudinary.com/bartoshevich/image/upload/q_auto,f_auto/v1538445318/copy_cloudinary.jpg" alt="пример работы с Cloudinary" width="519" height="478"/>
 
 
 <p>Адрес фото:</p>
 
 
-<pre class="language-terminal highlight ">
+<pre class="language-terminal highlight">
 //res.cloudinary.com/bartoshevich/image/upload/v1538423803/coin_original.jpg
 </pre>
 
