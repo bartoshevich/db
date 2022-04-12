@@ -170,6 +170,7 @@ p {
     white-space: nowrap;
     width: 1px;
     z-index: -1000;
+    -ms-user-select:none;
     -webkit-user-select: none;
   padding: 0px;
   margin: 0px;

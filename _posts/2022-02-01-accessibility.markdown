@@ -415,9 +415,9 @@ keywords: "доступность"
 		<p><a class="link" href="https://userway.org/blog/" >блог компании UserWay</a> (en)</p>
 	</li>
 	<li class="list-li"> 
-		<p><a class="link" href="https://www.udacity.com/course/web-accessibility--ud891" target="_blank" rel="noopener">бесплатный курс Google «Web Accessibility»</a></p>
+		<p><a class="link" href="https://www.udacity.com/course/web-accessibility--ud891" >бесплатный курс Google «Web Accessibility»</a></p>
 	</li>
 	<li class="list-li"> 
-		<p><a class="link" href="https://wave.webaim.org/extension/" target="_blank" rel="noopener">WAVE расширение браузера</a> (для Chrome, Firefox, Edge)&nbsp;— оценивает доступность веб-страниц непосредственно в&nbsp;браузере </p>
+		<p><a class="link" href="https://wave.webaim.org/extension/" >WAVE расширение браузера</a> (для Chrome, Firefox, Edge)&nbsp;— оценивает доступность веб-страниц непосредственно в&nbsp;браузере </p>
 	</li>
 </ul>

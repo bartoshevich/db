@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-04-12T09:49:22+03:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Your awesome title</title><subtitle>Write an awesome description for your new site here. </subtitle><entry><title type="html">Доступность сайтов и приложений — новая норма | Дмитрий Бартошевич</title><link href="http://localhost:4000/blog/accessibility/" rel="alternate" type="text/html" title="Доступность сайтов и приложений — новая норма | Дмитрий Бартошевич" /><published>2022-02-01T00:00:00+03:00</published><updated>2022-02-05T00:00:00+03:00</updated><id>http://localhost:4000/blog/accessibility</id><content type="html" xml:base="http://localhost:4000/blog/accessibility/"><![CDATA[<div class="intro__post">
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-04-12T12:20:45+03:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Your awesome title</title><subtitle>Write an awesome description for your new site here. </subtitle><entry><title type="html">Доступность сайтов и приложений — новая норма | Дмитрий Бартошевич</title><link href="http://localhost:4000/blog/accessibility/" rel="alternate" type="text/html" title="Доступность сайтов и приложений — новая норма | Дмитрий Бартошевич" /><published>2022-02-01T00:00:00+03:00</published><updated>2022-02-05T00:00:00+03:00</updated><id>http://localhost:4000/blog/accessibility</id><content type="html" xml:base="http://localhost:4000/blog/accessibility/"><![CDATA[<div class="intro__post">
     <h1 class=" bold max-width-text">Доступность сайтов&nbsp;— новая норма</h1> 
     <small class="small"><time itemprop="datePublished" datetime="2022-02-01">  1 февраля 2022</time> 
       <time itemprop="dateModified" datetime="2022-02-05">(обновил  5 февраля 2022)</time>
@@ -402,10 +402,10 @@
 		<p><a class="link" href="https://userway.org/blog/">блог компании UserWay</a> (en)</p>
 	</li>
 	<li class="list-li"> 
-		<p><a class="link" href="https://www.udacity.com/course/web-accessibility--ud891" target="_blank" rel="noopener">бесплатный курс Google «Web Accessibility»</a></p>
+		<p><a class="link" href="https://www.udacity.com/course/web-accessibility--ud891">бесплатный курс Google «Web Accessibility»</a></p>
 	</li>
 	<li class="list-li"> 
-		<p><a class="link" href="https://wave.webaim.org/extension/" target="_blank" rel="noopener">WAVE расширение браузера</a> (для Chrome, Firefox, Edge)&nbsp;— оценивает доступность веб-страниц непосредственно в&nbsp;браузере </p>
+		<p><a class="link" href="https://wave.webaim.org/extension/">WAVE расширение браузера</a> (для Chrome, Firefox, Edge)&nbsp;— оценивает доступность веб-страниц непосредственно в&nbsp;браузере </p>
 	</li>
 </ul>
 </section>]]></content><author><name></name></author><category term="мнение" /><category term="управление" /><category term="бизнес" /><summary type="html"><![CDATA[Доступность&nbsp;&mdash; это практика, позволяющая использовать ваши сайты как можно большему числу людей.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/tizers/tizer-74.png" /><media:content medium="image" url="http://localhost:4000/assets/images/tizers/tizer-74.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Построение бренда и конверсия — на чем фокусироваться маркетологу | Дмитрий Бартошевич</title><link href="http://localhost:4000/blog/perfomance-and-brand-marketing/" rel="alternate" type="text/html" title="Построение бренда и конверсия — на чем фокусироваться маркетологу | Дмитрий Бартошевич" /><published>2021-11-01T00:00:00+03:00</published><updated>2022-02-05T00:00:00+03:00</updated><id>http://localhost:4000/blog/perfomance-marketing</id><content type="html" xml:base="http://localhost:4000/blog/perfomance-and-brand-marketing/"><![CDATA[<div class="intro__post">
@@ -1153,7 +1153,7 @@
 <div class="full-bleed" itemprop="image" itemscope="" itemtype="http://schema.org/ImageObject">
 	<link itemprop="url" href="https://res.cloudinary.com/bartoshevich/image/upload/v1614108947/site/draft-helper.jpg" />
   <img class="image" loading="lazy" decoding="async" src="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto:best/v1614108947/site/draft-helper.jpg" width="1280" height="853" alt="" itemprop="contentUrl" />
-  <div class="figcaption">«Помощник в выборе ворот». <a class="link" href="https://res.cloudinary.com/bartoshevich/image/upload/v1614108947/site/draft-helper.jpg" target="_blank" rel="noopener">Открыть в&nbsp;отдельном окне</a>
+  <div class="figcaption">«Помощник в выборе ворот». <a class="link" href="https://res.cloudinary.com/bartoshevich/image/upload/v1614108947/site/draft-helper.jpg" target="_blank" rel="noopener noreferrer">Открыть в&nbsp;отдельном окне</a>
   </div>
 </div>
 
@@ -1169,7 +1169,7 @@
 <div class="full-bleed" itemprop="image" itemscope="" itemtype="http://schema.org/ImageObject">
 	<link itemprop="url" href="https://res.cloudinary.com/bartoshevich/image/upload/v1614110806/site/helper-1.jpg" />
   <img class="image" loading="lazy" decoding="async" src="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto:best/v1614110806/site/helper-1.jpg" width="1280" height="853" alt="финальный вариант таблицы с критериями выбора" itemprop="contentUrl" />
-  <div class="figcaption" itemprop="description">Внутренний разворот «помощника». <a class="link" href="https://res.cloudinary.com/bartoshevich/image/upload/v1614110806/site/helper-1.jpg" target="_blank" rel="noopener">Открыть в&nbsp;отдельном окне</a></div>
+  <div class="figcaption" itemprop="description">Внутренний разворот «помощника». <a class="link" href="https://res.cloudinary.com/bartoshevich/image/upload/v1614110806/site/helper-1.jpg" target="_blank" rel="noopener noreferrer">Открыть в&nbsp;отдельном окне</a></div>
 </div>
 
 
@@ -1178,7 +1178,7 @@
 <div class="full-bleed" itemprop="image" itemscope="" itemtype="http://schema.org/ImageObject">
 	<link itemprop="url" href="https://res.cloudinary.com/bartoshevich/image/upload/v1614110807/site/helper-2.jpg" />
   <img class="image" loading="lazy" decoding="async" src="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto:best/v1614110807/site/helper-2.jpg" width="1280" height="853" alt="помощник в выборе" itemprop="contentUrl" />
-  <div class="figcaption">Варианты исполнения. <a class="link" href="https://res.cloudinary.com/bartoshevich/image/upload/v1614110807/site/helper-2.jpg" target="_blank" rel="noopener">Открыть в&nbsp;отдельном окне</a></div>
+  <div class="figcaption">Варианты исполнения. <a class="link" href="https://res.cloudinary.com/bartoshevich/image/upload/v1614110807/site/helper-2.jpg" target="_blank" rel="noopener noreferrer">Открыть в&nbsp;отдельном окне</a></div>
 </div>
 
 <p>«Наличие обложки позволило расположить необходимые рекламные и&nbsp;контактные элементы, которые прямо заявляют об&nbsp;отношении к&nbsp;бренду,&nbsp;— пояснила свое решение Елизавета. —&nbsp;Таким образом, довольно технический с&nbsp;точки зрения идеи <strong>носитель работает на&nbsp;имидж бренда</strong>».</p>
@@ -1186,7 +1186,7 @@
 <div class="full-bleed" itemprop="image" itemscope="" itemtype="http://schema.org/ImageObject">
 	<link itemprop="url" href="https://res.cloudinary.com/bartoshevich/image/upload/v1614110807/site/helper-3.jpg" />
   <img class="image" loading="lazy" decoding="async" src="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto:best/v1614110807/site/helper-3.jpg" title="Визуализация: Елизавета Мамчиц" width="1280" height="853" alt="альтернатива рекламной листовке" itemprop="contentUrl" />
-  <div class="figcaption"><a class="link" href="https://res.cloudinary.com/bartoshevich/image/upload/v1614110807/site/helper-3.jpg" target="_blank" rel="noopener">Открыть в&nbsp;отдельном окне</a></div>
+  <div class="figcaption"><a class="link" href="https://res.cloudinary.com/bartoshevich/image/upload/v1614110807/site/helper-3.jpg" target="_blank" rel="noopener noreferrer">Открыть в&nbsp;отдельном окне</a></div>
 </div>
 
 </section>]]></content><author><name></name></author><category term="опыт" /><category term="кейсы" /><category term="инструменты" /><summary type="html"><![CDATA[Мне не&nbsp;нравится большинство рекламных листовок, которые попадают мне в&nbsp;руки. А&nbsp;вот эту я&nbsp;бы точно не&nbsp;выбросил ;-)]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/tizers/tizer-69.png" /><media:content medium="image" url="http://localhost:4000/assets/images/tizers/tizer-69.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Почасовая оплата должна умереть | Дмитрий Бартошевич</title><link href="http://localhost:4000/blog/value-based-price/" rel="alternate" type="text/html" title="Почасовая оплата должна умереть | Дмитрий Бартошевич" /><published>2021-01-23T00:00:00+03:00</published><updated>2022-02-05T00:00:00+03:00</updated><id>http://localhost:4000/blog/value-based-price</id><content type="html" xml:base="http://localhost:4000/blog/value-based-price/"><![CDATA[<div class="intro__post">
