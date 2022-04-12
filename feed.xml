@@ -9,10 +9,10 @@ layout: none
     <link>https://bartoshevich.by/blog/</link>
     <language>ru-BY</language> 
     <atom:link href="{{ site.url }}/feed.xml" rel="self" type="application/rss+xml" />
-    {% for post in site.posts limit:20 %}
+    {% for post in site.posts limit:70 %}
       <item>
         <title>{{ post.title | xml_escape }}</title>
-        <description>{{ post.description | xml_escape }}<a href="{{ post.url | prepend: site.baseurl | prepend: site.url }}"> Далее... </a></description>
+        <description>{{ post.description | xml_escape }} <a href="{{ post.url | prepend: site.baseurl | prepend: site.url }}">Читать... </a></description>
         <pubDate>{{ post.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
         <link>{{ post.url | prepend: site.baseurl | prepend: site.url }}</link>
         <guid isPermaLink="true">{{ post.url | prepend: site.baseurl | prepend: site.url }}</guid>
