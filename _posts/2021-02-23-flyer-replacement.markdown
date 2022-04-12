@@ -8,7 +8,7 @@ last_modified_at: 2022-02-05
 categories: опыт
 permalink: "/blog/spam-replacement/"
 tags: "кейсы инструменты"
-image: /assets/images/tizers/tizer-69.png
+image: /assets/images/tizers/tizer-69.jpg
 keywords: "рекламные листовки, реклама "
 ---
 

@@ -8,7 +8,7 @@ last_modified_at: 2022-02-05
 categories: мнение
 permalink: "/blog/system-marketing/"
 tags: "управление маркетолог"
-image: /assets/images/tizers/tizer-70.png
+image: /assets/images/tizers/tizer-70.jpg
 keywords: "системный маркетинг"
 ---
 

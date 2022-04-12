@@ -8,7 +8,7 @@ last_modified_at: 2022-02-05
 categories: мнение
 permalink: "/blog/emotions-in-marketing/"
 tags: "инструменты управление маркетолог"
-image: /assets/images/tizers/tizer-65.png
+image: /assets/images/tizers/tizer-65.jpg
 keywords: "брендинг эмоции"
 ---
 

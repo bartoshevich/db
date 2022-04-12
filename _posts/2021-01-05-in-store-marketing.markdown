@@ -8,7 +8,7 @@ last_modified_at: 2022-02-05
 categories: мнение
 permalink: "/blog/in-store-marketing/"
 tags: "маркетолог управление"
-image: /assets/images/tizers/tizer-67.png
+image: /assets/images/tizers/tizer-67.jpg
 keywords: "торговый маркетинг, маркетинг в ритейле, задачи торгового маркетинга, сущность торгового маркетинга, решение о покупке в точках продаж"
 ---
 
