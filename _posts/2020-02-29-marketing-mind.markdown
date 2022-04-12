@@ -17,7 +17,7 @@ keywords: "мышление маркетолога"
 <p>Рассуждаю вслух, почему важно и&nbsp;что значит <strong>думать, как маркетолог</strong>. </p>
 
 
-<div itemprop="video" itemscope itemtype="https://schema.org/VideoObject">
+<div class="full-bleed" itemprop="video" itemscope itemtype="https://schema.org/VideoObject">
  	<link itemprop="url" href="https://youtu.be/fXspplVnrEM" />
 	<link itemprop="contentUrl" href="https://youtu.be/fXspplVnrEM" />
 	<link itemprop="thumbnailUrl" href="https://i.ytimg.com/vi/fXspplVnrEM/maxresdefault.jpg" />

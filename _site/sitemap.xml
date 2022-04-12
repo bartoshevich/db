@@ -321,6 +321,9 @@
 <loc>http://localhost:4000/</loc>
 </url>
 <url>
+<loc>http://localhost:4000/offline/</loc>
+</url>
+<url>
 <loc>http://localhost:4000/uslugi/marketing-audit/</loc>
 </url>
 <url>

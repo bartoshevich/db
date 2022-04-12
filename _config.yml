@@ -1,9 +1,9 @@
 
-title: Your awesome title
+title: Консультант по маркетингу и стратегии | Дмитрий Бартошевич
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. 
+  Развиваю бренды, опираясь на&nbsp;исследования и&nbsp;анализ данных. Разрабатываю план необходимых действий, контролирую реализацию. Противник &laquo;втюхинга&raquo; и&nbsp;манипуляций.
 baseurl: "" 
-url: "https://doc2022.netlify.app/" 
+url: "https://doc2022.netlify.app" 
 
 
 sass:
