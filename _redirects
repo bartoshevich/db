@@ -1,0 +1,7 @@
+
+/me/  /cases/
+/mnenie/*  /blog/:splat
+/opyt/*  /blog/:splat
+/instrukcii/*  /blog/:splat
+/mnemie/*  /blog/:splat
+
