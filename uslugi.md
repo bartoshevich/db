@@ -45,7 +45,7 @@ keywords: "услуги консультанта по маркетингу и с
                 </li>
                 <li class="block__item" > 
                         <h2  class="block__name--align-left h2 uslugi__mark " ><a href="/uslugi/brand-conception/"  class="link"><span itemprop="serviceType">Концепция бренда</span></a></h2>
-                       <p class="block__content">Для компаний и&nbsp;торговых марок разрабатываю концепцию бренда&nbsp;&mdash; ключевую идею, которая поможет отстроиться от&nbsp;конкурентов и&nbsp;закрепиться в&nbsp;сознании целевой аудитории. Концепция&nbsp;&mdash; основа позиционирования компании и&nbsp;развития бренда.  </p> 
+                       <p class="block__content">Для компаний и&nbsp;торговых марок разрабатываю концепцию бренда&nbsp;&mdash; ключевую идею, которая поможет отстроиться от&nbsp;конкурентов и&nbsp;закрепиться в&nbsp;сознании целевой аудитории. Концепция&nbsp;&mdash; <strong>основа позиционирования компании и&nbsp;развития бренда</strong>.  </p> 
                 </li>
                 <li class="block__item" >
                         <h2  class="block__name--align-left h2 uslugi__mark"><a href="/uslugi/razrabotka-reklamnyh-kampanij/"  class="link"><span itemprop="serviceType">Разработка рекламных кампаний</span></a></h2>
