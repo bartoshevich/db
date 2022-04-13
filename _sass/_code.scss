@@ -16,11 +16,24 @@ $terminal-border-color: mix(#fff, $base-color, 80%);
            box-shadow: 0 0.25em 1em rgba($base-color, 0.25);
    background-color: $base-color;
    color:#fff;
-   white-space: pre-wrap;
-     width: 100%;
+    width: 100%;
     max-width:90vw;
  overflow-x: scroll;
  font-size: .9em;
   -webkit-overflow-scrolling: touch;
+ 
+  text-align: start;
+  white-space: pre;
+  word-spacing: normal;
+  word-break: normal;
 
 }
+
+.tag {
+  color: #66d9ef; //#FFCA57;
+}
+
+.attr-value {
+  color: #d7bb7e; 
+}
+

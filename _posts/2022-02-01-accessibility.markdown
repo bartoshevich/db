@@ -251,14 +251,14 @@ keywords: "доступность"
 <div class="figcaption">Пример. Структура заголовков <a class="link" href="/blog/in-store-marketing/">статьи «Как влиять на&nbsp;решения о&nbsp;покупке в&nbsp;точках продаж»</a></div>
 
 <pre class="language-terminal highlight ">
-&lt;h1&gt; Как влиять на&nbsp;решения о&nbsp;покупке в&nbsp;точках продаж &lt;/h1&gt; 
-	&lt;h2&gt; Покупатель рациональный&nbsp;— миф &lt;/h2&gt;
-	&lt;h2&gt; Задача маркетолога в&nbsp;рознице &lt;/h2&gt;
-		&lt;h3&gt; Стать визуально большим и&nbsp;выделяющимся &lt;/h3&gt;
-		&lt;h3&gt; Использовать ассоциативные связи &lt;/h3&gt;
-		&lt;h3&gt; Подсказать критерии выбора &lt;/h3&gt;
-		&lt;h3&gt; Влиять на&nbsp;эмоции &lt;/h3&gt;
-	&lt;h2&gt; Ритейл-маркетинг и&nbsp;брендинг &lt;/h2&gt;
+&lt;<span class="tag">h1</span>&gt; Как влиять на&nbsp;решения о&nbsp;покупке в&nbsp;точках продаж &lt;/<span class="tag">h1</span>&gt; 
+	&lt;<span class="tag">h2</span>&gt; Покупатель рациональный&nbsp;— миф &lt;/<span class="tag">h2</span>&gt;
+	&lt;<span class="tag">h2</span>&gt; Задача маркетолога в&nbsp;рознице &lt;/<span class="tag">h2</span>&gt;
+		&lt;<span class="tag">h3</span>&gt; Стать визуально большим и&nbsp;выделяющимся &lt;/<span class="tag">h3</span>&gt;
+		&lt;<span class="tag">h3</span>&gt; Использовать ассоциативные связи &lt;/<span class="tag">h3</span>&gt;
+		&lt;<span class="tag">h3</span>&gt; Подсказать критерии выбора &lt;/<span class="tag">h3</span>&gt;
+		&lt;<span class="tag">h3</span>&gt; Влиять на&nbsp;эмоции &lt;/<span class="tag">h3</span>&gt;
+	&lt;<span class="tag">h2</span>&gt; Ритейл-маркетинг и&nbsp;брендинг &lt;/<span class="tag">h2</span>&gt;
 </pre>
 </div>
 

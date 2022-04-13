@@ -79,7 +79,7 @@ keywords: "оптимизация изображений"
 
 <p>Уменьшили размер фото&nbsp;— можно публиковать. В&nbsp;код html-страницы добавляем такую строку: </p>
 
-<pre class="language-terminal highlight ">&lt;img src="путь к&nbsp;изображению" alt="описание,что изображено" width="ширина" height="высота"/&gt;</pre>
+<pre class="language-terminal highlight ">&lt;<span class="tag">img</span> src=<span class="attr-value">"путь к&nbsp;изображению"</span> alt=<span class="attr-value">"описание, что изображено"</span> width=<span class="attr-value">"ширина"</span> height=<span class="attr-value">"высота"</span> /&gt;</pre>
 
 
 
@@ -127,11 +127,11 @@ keywords: "оптимизация изображений"
 
 
 <pre class="language-terminal highlight ">
-&lt;picture&gt;<br />
-&lt;source media="(min-width: 650px)" srcset="...kitten-large.png"&gt;<br />
-&lt;source media="(min-width: 465px)" srcset="...kitten-medium.png"&gt;<br />
-&lt;img src="...kitten-small.png" alt="a cute kitten"&gt;<br />
-&lt;/picture&gt;
+&lt;<span class="tag">picture</span>&gt;<br />
+    &lt;<span class="tag">source</span> media=<span class="attr-value">"(min-width: 650px)"</span> srcset=<span class="attr-value">"...kitten-large.png"</span> &gt;<br />
+    &lt;<span class="tag">source</span> media=<span class="attr-value">"(min-width: 465px)"</span> srcset=<span class="attr-value">"...kitten-medium.png"</span> &gt;<br />
+    &lt;<span class="tag">img</span> src=<span class="attr-value">"...kitten-small.png"</span> alt=<span class="attr-value">"кот"</span> &gt;<br />
+&lt;/<span class="tag">picture</span>&gt;
 </pre>
 
 
@@ -174,11 +174,11 @@ keywords: "оптимизация изображений"
 
 <p>Адрес фото:</p>
 
-
+<div class="highlight">
 <pre class="language-terminal highlight">
 //res.cloudinary.com/bartoshevich/image/upload/v1538423803/coin_original.jpg
 </pre>
-
+</div>
 
 <p>Все, что требуется,&nbsp;— это после upload/ в&nbsp;адресе добавить q_auto,f_auto/. Новый адрес:</p>
 
