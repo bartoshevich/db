@@ -38,7 +38,7 @@ layout: null
                 '/blog/brand-conception-hormann/',
                 '/blog/brand-strategy-flex-n-roll/',
                 '/assets/css/style.css',
-                '/assets/css/style-home.css'               
+                '/assets/css/style-home-min.css'               
               ]);
           });
   };
