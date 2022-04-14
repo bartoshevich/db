@@ -4,17 +4,4 @@
     Referrer-Policy: no-referrer-when-downgrade
     Permissions-Policy: geolocation=(self "https://bartoshevich.by"), microphone=()
     X-Content-Type-Options: nosniff
-    Content-Security-Policy: default-src 'self' res.cloudinary.com;
-                            base-uri 'self';
-                            font-src 'self' ;
-                            worker-src 'self';
-                            object-src 'none';
-                            manifest-src 'self';
-                            form-action 'self';
-                            img-src 'self' res.cloudinary.com i.ytimg.com static.probusiness.io;
-                            connect-src 'self';
-                            upgrade-insecure-requests ;
-                            style-src   'self' 'unsafe-inline' unpkg.com;
-                            script-src  'self' 'unsafe-inline';
-                            frame-src 'self' www.youtube-nocookie.com www.youtube.com embed.ted.com youtu.be/;
-                            media-src 'self' www.youtube-nocookie.com www.youtube.com embed.ted.com youtu.be/;
+    Content-Security-Policy: default-src 'self' res.cloudinary.com; base-uri 'self'; font-src 'self' ; worker-src 'self'; object-src 'none'; manifest-src 'self'; form-action 'self'; img-src 'self' res.cloudinary.com i.ytimg.com static.probusiness.io; connect-src 'self';upgrade-insecure-requests ; style-src   'self' 'unsafe-inline' unpkg.com; style-src-elem unpkg.com; script-src  'self' 'unsafe-inline';           frame-src 'self' www.youtube-nocookie.com www.youtube.com embed.ted.com youtu.be/; media-src 'self' www.youtube-nocookie.com www.youtube.com embed.ted.com youtu.be/;
