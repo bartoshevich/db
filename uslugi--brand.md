@@ -23,12 +23,12 @@ keywords: "разработка концепции бренда"
 
 <section class="additive-spacing example--card max-width-text ">
 		<div>
-		<h2 class="bold">Компания без концепции бренда. <br>Вербальные признаки</h2>
+		<h2 class="bold">Компания без концепции бренда. <br>Признаки в&nbsp;описании</h2>
 		
 		</div>
 		<div class="row">
 		<div class="c-5">
-		<p class="italic">Описание</p>
+		<p class="italic">Характеристики</p>
 		<ul>
 		<li class="list-li">индивидуальный подход;</li>
 		<li class="list-li">выгодные цены;</li>
