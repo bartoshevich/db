@@ -12,7 +12,8 @@ sass:
    
 
 include: 
-    - _redirects     
+    - _redirects
+    - _headers     
 
 # Build settings
 
