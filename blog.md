@@ -22,7 +22,7 @@ image:
 
 	
 
-<div class="full-bleed row-gap--l">
+<div class="full-bleed row-gap--l" id="all-posts">
     <h2 class="h2 bold">Записи (74) </h2>
   
 	<ul class="row-gap--xl list-reset">
