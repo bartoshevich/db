@@ -13,7 +13,7 @@ layout: null
   // A cache for images to store for offline
   var imagesCacheName = 'images';
   // Update 'version' if you need to refresh the caches
-  var version = 'v4::';
+  var version = 'v5::';
 
   // Store core files in a cache (including a page to display when offline)
   var updateStaticCache = function() {
@@ -38,7 +38,7 @@ layout: null
                 '/blog/brand-conception-hormann/',
                 '/blog/brand-strategy-flex-n-roll/',
                 '/assets/css/style.css',
-                '/assets/css/style-home-min.css'               
+                '/assets/css/style-home.css'               
               ]);
           });
   };
