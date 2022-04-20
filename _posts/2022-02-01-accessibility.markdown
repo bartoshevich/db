@@ -324,8 +324,8 @@ keywords: "доступность"
 				</td>
 			</tr>
 			<tr>
-			<td><p>О маркетинге я пишу <a href="/blog/" class="link">тут</a></p></td>
-			<td> <p>Я веду <a href="/blog/" class="link">блог о&nbsp;маркетинге</a></p></td>
+			<td><p>О маркетинге я пишу <a href="/blog/#" class="link">тут</a></p></td>
+			<td> <p>Я веду <a href="/blog/#" class="link">блог о&nbsp;маркетинге</a></p></td>
 			</tr>
 			<tr>
 			<td><p>Он <a href="#" class="link">выложил</a> новый ролик</p></td>
@@ -400,19 +400,19 @@ keywords: "доступность"
 		<p><a class="link" href="https://weblind.ru/" >Веблайнд&nbsp;— рекомендации по&nbsp;разработке сайтов для людей с&nbsp;нарушениями зрения</a></p>
 	</li>
 	<li class="list-li"> 
-		<p><a class="link" href="https://webaim.org/articles/" >статьи WebAIM</a> (en) </p>
+		<p><a class="link" href="https://webaim.org/articles/" >статьи WebAIM</a> (англ.) </p>
 	</li>
 	<li class="list-li"> 
-		<p><a class="link" href="https://www.boia.org/blog" >блог Bureau of&nbsp;Internet Accessibility</a> (en)</p>
+		<p><a class="link" href="https://www.boia.org/blog" >блог Bureau of&nbsp;Internet Accessibility</a> (англ.)</p>
 	</li>
 	<li class="list-li"> 
-		<p><a class="link" href="https://www.a11yproject.com/posts/" >блог A11Y Project</a> (en)</p>
+		<p><a class="link" href="https://www.a11yproject.com/posts/" >блог A11Y Project</a> (англ.)</p>
 	</li>
 	<li class="list-li"> 
-		<p><a class="link" href="https://www.audioeye.com/blog" >блог компании AudioEye</a> (en)</p>
+		<p><a class="link" href="https://www.audioeye.com/blog" >блог компании AudioEye</a> (англ.)</p>
 	</li>
 	<li class="list-li"> 
-		<p><a class="link" href="https://userway.org/blog/" >блог компании UserWay</a> (en)</p>
+		<p><a class="link" href="https://userway.org/blog/" >блог компании UserWay</a> (англ.)</p>
 	</li>
 	<li class="list-li"> 
 		<p><a class="link" href="https://www.udacity.com/course/web-accessibility--ud891" >бесплатный курс Google «Web Accessibility»</a></p>
