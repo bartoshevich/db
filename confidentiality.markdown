@@ -55,7 +55,7 @@ image: /images/confidentiality.png
 <p> 9.&nbsp;В&nbsp;настоящее время я&nbsp;использую: </p>
 <ul>
 	<li class="list-li"> сервис email-рассылок MailChimp. <a class="link" href="https://mailchimp.com/legal/privacy/">Политика конфиденциальности</a></li>
-	<li class="list-li"> сеть доставки контента CloudFlare. <a class="link" href="https://www.cloudflare.com/privacypolicy/">Политика конфиденциальности</a></li>
+	<li class="list-li"> платформу веб-разработчиков Netlify. <a class="link" href="https://www.netlify.com/privacy">Политика конфиденциальности</a></li>
 	<li class="list-li"> почтовый сервис FastMail. <a class="link" href="https://www.fastmail.com/about/privacy/">Политика конфиденциальности</a></li>
 	<li class="list-li"> мессенджер Telegram. <a class="link" href="https://telegram.org/privacy">Политика конфиденциальности</a></li>
 </ul>
