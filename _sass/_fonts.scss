@@ -1,9 +1,17 @@
 /* pt-sans-regular - latin_cyrillic */
 @font-face {
-  font-family: 'PT Sans';
+  font-family: "PT Sans-fallback";
+  size-adjust: 92.90%;
+  ascent-override: 106%;
+  src: local("Arial");
+}
+
+
+@font-face {
+  font-family: 'PT 1Sans';
   font-style: normal;
   font-weight: 400;
-  font-display: wrap;
+  font-display: swap;
   src: url('/assets/fonts/pt-sans-v12-latin_cyrillic/pt-sans-v12-latin_cyrillic-regular.eot'); /* IE9 Compat Modes */
   src: local(''),
        url('/assets/fonts/pt-sans-v12-latin_cyrillic/pt-sans-v12-latin_cyrillic-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
@@ -15,10 +23,10 @@
 
 /* pt-sans-italic - latin_cyrillic */
 @font-face {
-  font-family: 'PT Sans';
+  font-family: 'PT 1Sans';
   font-style: italic;
   font-weight: 400;
-  font-display: wrap;
+  font-display: swap;
   src: url('/assets/fonts/pt-sans-v12-latin_cyrillic/pt-sans-v12-latin_cyrillic-italic.eot'); /* IE9 Compat Modes */
   src: local(''),
        url('/assets/fonts/pt-sans-v12-latin_cyrillic/pt-sans-v12-latin_cyrillic-italic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
@@ -30,10 +38,10 @@
 
 /* pt-sans-700 - latin_cyrillic */
 @font-face {
-  font-family: 'PT Sans';
+  font-family: 'PT 1Sans';
   font-style: normal;
   font-weight: 700;
-  font-display: wrap;
+  font-display: swap;
   src: url('/assets/fonts/pt-sans-v12-latin_cyrillic/pt-sans-v12-latin_cyrillic-700.eot'); /* IE9 Compat Modes */
   src: local(''),
        url('/assets/fonts/pt-sans-v12-latin_cyrillic/pt-sans-v12-latin_cyrillic-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
