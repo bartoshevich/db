@@ -23,11 +23,11 @@ image: /assets/images/tizers/tizer-29.jpg
 <p>Слово «маркетер» режет слух. Не&nbsp;нравится оно и&nbsp;моему текстовому редактору: каждый раз предлагает заменить на&nbsp;«мушкетер».</p>
 
 <div itemprop="image" itemscope itemtype="http://schema.org/ImageObject">
-<link itemprop="url" href="/assets/images/marketer1.jpg" />
+<link itemprop="url" href="/assets/images/blog/marketers/marketer1.jpg" />
 <picture>
-<source srcset="/assets/images//blog/marketers/marketer1.avif" type="image/avif"> 
-<source srcset="/assets/images//blog/marketers/marketer1.webp" type="image/webp"> 
-<img class="image" loading="lazy" decoding="async" src="/assets/images/marketer1.jpg" alt="результаты поисковой выдачи Google по запросу 'маркетолог' и 'маркетер' " width="695" height="301" itemprop="contentUrl" />
+<source srcset="/assets/images/blog/marketers/marketer1.avif" type="image/avif"> 
+<source srcset="/assets/images/blog/marketers/marketer1.webp" type="image/webp"> 
+<img class="image" loading="lazy" decoding="async" src="/assets/images/blog/marketers/marketer1.jpg" alt="результаты поисковой выдачи Google по запросу 'маркетолог' и 'маркетер' " width="695" height="301" itemprop="contentUrl" />
 </picture>
 <div class="figcaption" itemprop="description">
 	В&nbsp;поисковой выдаче Google слово «маркетолог» встречается в&nbsp;41&nbsp;раз чаще, чем «маркетер»
