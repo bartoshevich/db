@@ -156,7 +156,7 @@ keywords: "доступность"
 	</li>
 </ul>
 
-<p><a class="link" href="https://www.sb.by/articles/v-belarusi-naschityvaetsya-118-tysyach-invalidov-trudosposobnogo-vozrasta.html" >В&nbsp;Беларуси более 564 тысяч человек&nbsp;— люди с&nbsp;инвалидностью</a>. Также есть люди со&nbsp;снижением слуха, зрения, двигательными и&nbsp;другими нарушениями, которым не&nbsp;присвоена группа инвалидности. Не&nbsp;доступный сайт автоматически означает, что компания исключает этих людей из&nbsp;своей коммуникации. </p>
+<p><a class="link" href="https://web.archive.org/web/20210519122434/https://www.sb.by/articles/v-belarusi-naschityvaetsya-118-tysyach-invalidov-trudosposobnogo-vozrasta.html" >В&nbsp;Беларуси более 564 тысяч человек&nbsp;— люди с&nbsp;инвалидностью</a>. Также есть люди со&nbsp;снижением слуха, зрения, двигательными и&nbsp;другими нарушениями, которым не&nbsp;присвоена группа инвалидности. Не&nbsp;доступный сайт автоматически означает, что компания исключает этих людей из&nbsp;своей коммуникации. </p>
 
 
 <div class="figure">

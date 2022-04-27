@@ -26,7 +26,6 @@ keywords: "системный маркетинг"
 <span class="span__side">Узнать больше:</span>
 <ul>
 <li><a class="link" href="https://ru.wikipedia.org/wiki/%D0%A1%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D0%BD%D0%B0%D1%8F_%D0%B8%D0%BD%D0%B6%D0%B5%D0%BD%D0%B5%D1%80%D0%B8%D1%8F" >статья в&nbsp;википедии</a></li>
-<li><a class="link" href="https://www.coursera.org/learn/system-thinking">курс на&nbsp;coursera</a></li>
 <li> <a class="link" href="https://ailev.livejournal.com/">блог Анатолия Левенчука</a></li>
 </ul>
 
