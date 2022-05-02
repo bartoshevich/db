@@ -90,3 +90,16 @@ image: /assets/images/tizers/tizer-3.jpg
 </tbody>		 
 </table>
 </section>
+
+<p class="mb-m mt-m"> Дополнительные материалы:</p>
+<ul class="addictive-spacing">
+<li class="list-li">
+  <a href="/blog/research-quality/" class="link"> Как контролировать качество маркетингового исследования</a>
+</li>
+<li class="list-li">
+  <a href="/blog/eye-tracking/" class="link"> Айтрекинг: какую пользу приносит и&nbsp;как использовать правильно</a>
+</li>
+<li class="list-li">
+  <a href="/blog/autsorsing-marketinga/" class="link"> Аутсорсинг маркетинговых услуг: как защитить деньги компании</a>
+</li>
+</ul>
