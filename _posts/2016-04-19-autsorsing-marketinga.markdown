@@ -130,16 +130,7 @@ image: /assets/images/tizers/tizer-19.jpg
 
 <p>Кому-то из&nbsp;подрядчиков удобно все делать в&nbsp;последний момент. Может быть, они перегружены другими заказами и&nbsp;банально не&nbsp;успевают, возможно им&nbsp;важно ощущать дыхание дедлайна, поэтому берутся за&nbsp;работу в&nbsp;последний день. Допускаю, что кому-то нравится такой подход в&nbsp;работе. Но&nbsp;мне это не&nbsp;подходит. Опыт научил, что в&nbsp;подобных случаях исполнители часто что-то упускают и&nbsp;переделывают задание. Мне не&nbsp;нужны сверхусилия, работа по&nbsp;ночам и&nbsp;бесконечные итерации. Поэтому я&nbsp;не&nbsp;сотрудничаю с&nbsp;теми фрилансерами и&nbsp;агентствами, кто не&nbsp;согласен работать и&nbsp;отчитываться поэтапно.</p>
 
-<div itemprop="image" itemscope itemtype="http://schema.org/ImageObject">
-		<link itemprop="url" href="/assets/images/blog/autsorsing-marketinga/creative_process.jpg" />			
-<picture>
-            <source srcset="/assets/images/blog/autsorsing-marketinga/creative_process.avif" type="image/avif">
-                <source srcset="/assets/images/blog/autsorsing-marketinga/creative_process.webp" type="image/webp">     
-             <img class="image" loading="lazy"  decoding="async" src="/assets/images/blog/autsorsing-marketinga/creative_process.jpg" alt="Стадии творческого процесса: ничего не делаю, паникую, делаю все сквозь кровавые слезы." width="1920" height="1080" itemprop="contentUrl"/>
-    </picture>
 
-<div class="figcaption">«Это&nbsp;же не&nbsp;наш метод!» :-) </div>
-</div>
 </section>
 
 
@@ -154,3 +145,22 @@ image: /assets/images/tizers/tizer-19.jpg
 </ul>
 
 </section>
+
+
+<footer class="mt-m additive-spacing">
+<p class="mb-m "> Дополнительные материалы:</p>
+<ul class="addictive-spacing">
+<li class="list-li">
+  <a href="/blog/stars/" class="link"> О&nbsp;звездах и&nbsp;богах маркетинга</a>
+</li>
+<li class="list-li">
+  <a href="/blog/algoritm-provedeniya-reklamnoj-kampanii/" class="link">Рекламная кампания: алгоритм проведения</a>
+</li>
+<li class="list-li">
+  <a href="/blog/choice/" class="link">Почему три варианта концепции рекламы плохо</a>
+</li>
+<li class="list-li">
+  <a href="/blog/research-quality/" class="link">Как контролировать качество маркетингового исследования</a>
+</li>
+</ul>
+</footer>

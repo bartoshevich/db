@@ -43,3 +43,16 @@ image: /assets/images/tizers/tizer-13.jpg
 </p>
 <p><strong>Хотите выделиться из&nbsp;общего поздравительного шума&nbsp;— отметьте, как клиент на&nbsp;протяжении года помогал развиваться вашей компании</strong>, что дали в&nbsp;профессиональном плане проекты и&nbsp;заказы клиента. За&nbsp;каждой успешной компанией стоят клиенты. Если вы&nbsp;еще в&nbsp;бизнесе, вам есть кого благодарить.</p>
 </section>
+
+<footer class="mt-m additive-spacing">
+<p class="mb-m "> Дополнительные материалы:</p>
+<ul >
+<li class="list-li">
+  <a href="//blog/novogodnee-oformlenie-magazina/" class="link">Новогоднее оформление магазина</a>
+</li>
+<li class="list-li">
+  <a href="/blog/direktor-xochet-korporativ/" class="link">Статья для директора, который хочет организовать корпоратив</a>
+</li>
+
+</ul>
+</footer>

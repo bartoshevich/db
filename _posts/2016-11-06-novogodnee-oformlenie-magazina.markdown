@@ -77,8 +77,8 @@ image: /assets/images/tizers/tizer-32.jpg
 </div>
 
 <p>В&nbsp;первую очередь о&nbsp;профессиональном оформлении магазинов следует задуматься владельцам торговых сетей. Специалист создаст образ и&nbsp;стандарты для одного магазина, проведет внутреннее обучение, а&nbsp;сотрудники сети займутся масштабированием.</p>
-<p>При выборе специалиста обратите внимание&nbsp;на:</p>
-<ul  class="additive-spacing">
+<p class="mb-m">При выборе специалиста обратите внимание&nbsp;на:</p>
+<ul>
 	<li class="list-li">специализацию (розница, кафе, события, корпоративы, др.);</li>
 	<li class="list-li">обоснование предлагаемых идей (одни скажут «так красиво», другие&nbsp;— «это увеличит средний чек»);</li>
 	<li class="list-li">срок разработки проекта и&nbsp;срок реализации;</li>
@@ -86,3 +86,18 @@ image: /assets/images/tizers/tizer-32.jpg
 	<li class="list-li">стоимость услуг и&nbsp;стоимость материалов (это разные сметы).</li>
  </ul>
 </section>
+
+
+
+<footer class="mt-m additive-spacing">
+<p class="mb-m "> Дополнительные материалы:</p>
+<ul >
+<li class="list-li">
+  <a href="/blog/gifts2clients/" class="link">Подарки клиентам на&nbsp;Новый&nbsp;год</a>
+</li>
+<li class="list-li">
+  <a href="/blog/direktor-xochet-korporativ/" class="link">Статья для директора, который хочет организовать корпоратив</a>
+</li>
+
+</ul>
+</footer>

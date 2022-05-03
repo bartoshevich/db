@@ -79,7 +79,7 @@ image: /assets/images/tizers/tizer-2.jpg
 <p>К&nbsp;сожалению, мы&nbsp;— <span class="bold">Атлант Телеком&nbsp;</span>— не&nbsp;застали Вас дома.</p>
 <p>Сообщаем Вам о&nbsp;том, что Ваш дом подключен по&nbsp;новейшей технологии Ethernet (скорость до&nbsp;100&nbsp;Мбит/с). До&nbsp;<span class="bold">10&nbsp;августа</span> в&nbsp;Вашем доме будет работать наш специалист! Поэтому у&nbsp;вас есть возможность получить полную консультацию и&nbsp;заключить договор, не&nbsp;выходя из&nbsp;дома. При этом вы&nbsp;получаете <span class="bold">6&nbsp;месяцев интернета</span> за&nbsp;66&nbsp;тыс.&nbsp;<span class="bold">на&nbsp;любой тарифный план</span>.</p>
 <p>
-	<ins>Преимущества подключения к&nbsp;Атлант Телеком:</ins>
+	<span class="bold">Преимущества подключения к&nbsp;Атлант Телеком:</span>
  </p>
 <p> —&nbsp;Безлимитные тарифы от&nbsp;<span class="bold">66&nbsp;000&nbsp;руб/мес</span>.<br/>
  —&nbsp;Wi-Fi роутер<br/>
@@ -99,3 +99,18 @@ image: /assets/images/tizers/tizer-2.jpg
 </p>
 </td></tr></tbody></table>
 </section>
+
+<footer class="additive-spacing">
+<p class="mb-m mt-m"> Дополнительные материалы:</p>
+<ul class="addictive-spacing">
+<li class="list-li">
+  <a href="/blog/dlya-tex-kto-pishet/" class="link"> Как написать сильный текст: полезные ресурсы</a>
+</li>
+<li class="list-li">
+  <a href="/blog/put-marketologa/" class="link"> Дао маркетолога</a>
+</li>
+<li class="list-li">
+  <a href="/blog/editorial-policy/" class="link"> Зачем бренду редакционная политика</a>
+</li>
+</ul>
+</footer>

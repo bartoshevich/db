@@ -98,3 +98,24 @@ keywords: "новое рабочее место маркетолога"
 <p>Честность, ответственность и&nbsp;доверие&nbsp;— формула для закладки прочного фундамента плодотворных отношений с&nbsp;коллегами. А&nbsp;умение слышать и&nbsp;быть убедительным помогут не&nbsp;только в&nbsp;решении профессиональных задач, но&nbsp;и&nbsp;в&nbsp;жизни.</p>
 <p class="mt-m"><span class="bold">Алексей Шлома:</span> Отдел продаж для отдела маркетинга&nbsp;— это уши и&nbsp;нос. Обязательно интересуйтесь мнением продавцов, но&nbsp;держитесь собственной точки зрения. Если вы&nbsp;замечаете различное понимание и&nbsp;восприятие рыночной ситуации, продукта или конкурентов, не&nbsp;отмахивайтесь от&nbsp;продаж. Если они что-то не&nbsp;понимают, не&nbsp;делают или упускают, то&nbsp;ваша задача&nbsp;— открыто, аргументировано и&nbsp;методично донести свою позицию и&nbsp;начать согласованно работать.</p>
 </section>
+
+<footer class="mt-m additive-spacing">
+<p class="mb-m "> Дополнительные материалы:</p>
+<ul class="addictive-spacing">
+<li class="list-li">
+  <a href="/blog/perfomance-and-brand-marketing/" class="link"> Бренд или конверсия&nbsp;&mdash; на&nbsp;чем фокусироваться маркетологу</a>
+</li>
+<li class="list-li">
+  <a href="/blog/algoritm-provedeniya-reklamnoj-kampanii/" class="link">Рекламная кампания: алгоритм проведения</a>
+</li>
+<li class="list-li">
+  <a href="/blog/dlya-tex-kto-pishet/" class="link">Как написать сильный текст: полезные ресурсы</a>
+</li>
+<li class="list-li">
+  <a href="/blog/research-quality/" class="link">Как контролировать качество маркетингового исследования</a>
+</li>
+<li class="list-li">
+  <a href="/blog/primer-SWOT-analiza/" class="link">SWOT-анализ предприятия. Разбираю пример</a>
+</li>
+</ul>
+</footer>
