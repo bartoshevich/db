@@ -10,7 +10,7 @@ keywords: "faq"
   
   {% include menu__faq.html %}
 
-<main class="section__content row-gap--l">
+<main class="section__content row-gap--l" itemscope itemtype="https://schema.org/FAQPage">
        
 
 
@@ -110,7 +110,7 @@ keywords: "faq"
 
 
 
-<section class="block__space--top-h2 row-gap--l" itemscope itemtype="https://schema.org/FAQPage">
+<section class="block__space--top-h2 row-gap--l" >
 
 
     <h2 class="h1 bold mb-m" id="1"> Отличия </h2>
@@ -200,7 +200,7 @@ keywords: "faq"
 
 
 
-<section class="block__space--top-h2 row-gap--l max-width-text" itemscope itemtype="https://schema.org/FAQPage">
+<section class="block__space--top-h2 row-gap--l max-width-text" >
     <h2 class="h1 bold mb-m" id="2"> Сотрудничество </h2>
 
  <div class="additive-spacing" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
@@ -260,7 +260,7 @@ keywords: "faq"
 				</div>
 		</div>
 </section>
-<section class="block__space--top-h2 row-gap--l max-width-text" itemscope itemtype="https://schema.org/FAQPage">
+<section class="block__space--top-h2 row-gap--l max-width-text" >
     <h2 class="h1 bold mb-m"  id="3"> Другое </h2>
 
 
