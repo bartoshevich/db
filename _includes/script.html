@@ -1,4 +1,6 @@
-<script nonce="fb24hoEs7SAuKSJtnth">
+
+{% comment %}
+<!-- <script nonce="fb24hoEs7SAuKSJtnth">
     (() => {
         const menuButton = document.querySelector('.menu__button');
         const menuList = document.querySelector('.menu__header');
@@ -10,9 +12,52 @@
             menuList.classList.toggle('menu__header--open');
         });
     })();
+</script> -->
+
+{% endcomment %}
+
+<script nonce="fb24hoEs7SAuKSJtnth">
+ const menuList = document.querySelector('.menu__header');
+ const menuButton = document.querySelector('.menu__button');
+
+
+ function mobileMenu() {
+  let expanded = menuButton.getAttribute('aria-expanded') === 'true';
+        menuButton.setAttribute('aria-expanded', !expanded);
+        menuButton.classList.toggle('menu__button--open');
+        menuList.classList.toggle('menu__header--open');
+      }
+
+    menuButton.addEventListener('click', mobileMenu);
+
+    window.addEventListener('click', e => { 
+        const target = e.target ;
+        if (!target.closest('.menu__header') && !target.closest('.menu__button')) {
+          let expanded = menuButton.getAttribute('aria-expanded') === 'true';
+          menuButton.setAttribute('aria-expanded', !expanded);
+          menuList.classList.remove('menu__header--open');
+          menuButton.classList.remove('menu__button--open'); 
+        }
+      })  ;
+         
 </script>
 
+{% comment %}
+<!-- Закрытие по клику на пункт меню  -->
+const navLinks = document.querySelectorAll('.link');    
 
+function closeMenu(event) {
+  if (event.target.classList.contains('link')) {
+    let expanded = menuButton.getAttribute('aria-expanded') === 'true';
+          menuButton.setAttribute('aria-expanded', !expanded);
+          menuList.classList.remove('menu__header--open');
+          menuButton.classList.remove('menu__button--open'); 
+  }
+}
+
+navLinks.forEach((el) => el.addEventListener('click', closeMenu));   
+
+{% endcomment %}
 
 <script nonce="MN74tf5oWgJCtut2TWs">
 
