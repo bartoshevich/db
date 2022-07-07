@@ -82,9 +82,8 @@ image:
 
 
 
-
 <section class="block__space--top-h2 row-gap--m">
-<h2 class="h1 bold">Поддержка ЕБРР </h2>
+<h2 class="h1 bold">Аккредитация ЕБРР </h2>
 <div class="with-side row-gap--m">
 
 
