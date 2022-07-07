@@ -88,7 +88,7 @@ image:
 <div class="with-side row-gap--m">
 
 
-						<p>Я прошел преквалификацию в&nbsp;Европейском банке реконструкции и&nbsp;развития. Банк <del>может</del> мог* частично компенсировать предприятиям стоимость моих услуг в&nbsp;рамках поддержки малого и&nbsp;среднего бизнеса в&nbsp;Беларуси. </p>
+						<p>Я прошел преквалификацию в&nbsp;Европейском банке реконструкции и&nbsp;развития (<a class="link" href="/assets/images/contact/ebrd__bartoshevich.pdf" target="_blank" rel="noopener nofollow noreferrer">свидетельство</a>, pdf, 25.8 кБ). Банк <del>может</del> мог* частично компенсировать предприятиям стоимость моих услуг в&nbsp;рамках поддержки малого и&nbsp;среднего бизнеса в&nbsp;Беларуси. </p>
 						<div class="side">
 							<img  loading="lazy" decoding="async" src="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1608034473/site/ebrd.png" alt="логотип Европейского банка реконструкции и развития " width="254" height="58" >
 						<p>	Детальная информация о&nbsp;предоставлении финансовой поддержки&nbsp;— <a class="link" href="https://www.ebrd.com/work-with-us/advice-for-small-businesses/belarus-contact-us.html%20" >в&nbsp;белорусском офисе ЕБРР</a>. </p>
@@ -152,7 +152,7 @@ image:
 <figure class="block-230">
 	<img  loading="lazy" decoding="async" class="qr-code" src="/assets/images/contact/qr-code.svg" alt="QR-код с контактами Дмитрия Бартошевича" width="230" height="230"/>
 	<figcaption>
-		чтобы быстро добавить меня в&nbsp;книгу контактов, отсканируйте телефоном QR-код или <a class="link" href="/assets/images/contact/contact.csv" download>импортируйте csv-файл</a> (0.27 KB)
+		чтобы быстро добавить меня в&nbsp;книгу контактов, отсканируйте телефоном QR-код или <a class="link" href="/assets/images/contact/contact.csv" download>импортируйте csv-файл</a> (0.27 кБ)
 	</figcaption>
 </figure>
 
