@@ -21,7 +21,9 @@ keywords: "маркетинг в кризис, антикризисная стр
 
 
 <div itemprop="image" itemscope itemtype="http://schema.org/ImageObject">
-<link itemprop="url" href="/assets/images/blog/marketing-v-krizis/infosphere.jpg" />
+<link itemprop="url" href="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1658162653/site/mediabelarus.jpg" />
+
+{% comment %}
 <picture>
   <source
     sizes="(max-width: 702px) 100vw, 706px"
@@ -58,6 +60,8 @@ keywords: "маркетинг в кризис, антикризисная стр
     "
   alt="Бизнес-порталы, блоги консультантов наполняются рекомендациями, что делать бизнесу в кризис." width="1500" height="1500" itemprop="contentUrl"/>
 </picture>
+{% endcomment %}
+<img class="image" src="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1658162653/site/mediabelarus.jpg" alt="Бизнес-порталы, блоги консультантов наполняются рекомендациями, что делать бизнесу в кризис." width="1500" height="1500" itemprop="contentUrl"/>
 <div class="figcaption">Информационное поле белорусского бизнеса </div>
 </div>
 
