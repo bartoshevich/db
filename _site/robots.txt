@@ -1,6 +1,7 @@
 User-agent: *
 Disallow: /tag
 Disallow: /test/
+Disallow: /assets/images/contact/ebrd__bartoshevich.pdf
 sitemap: https://bartoshevich.by/sitemap.xml
 Host: https://bartoshevich.by
 
