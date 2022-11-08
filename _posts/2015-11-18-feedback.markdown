@@ -68,9 +68,9 @@ image: /assets/images/tizers/tizer-12.jpg
 <section class="row-gap--m" itemprop="step" itemscope itemtype="https://schema.org/HowToSection">     
       <h3 class="h2 bold mb-m" itemprop="name" >Шаг 1. Задайте клиентам два вопроса</h3>
        <div class="row-gap--m" itemprop="itemListElement" itemscope itemtype="https://schema.org/HowToStep">
-      <meta itemprop="position" content="1"/> 
+      <meta itemprop="position" content="1"> 
         <div itemprop="itemListElement" itemscope itemtype="https://schema.org/HowToDirection">
-          <meta itemprop="position" content="1"/>
+          <meta itemprop="position" content="1">
           <ol itemprop="text">
               <li class="list-li">Оцените по&nbsp;<span class="noperenos">10-балльной</span> шкале, насколько вы&nbsp;готовы рекомендовать компанию (товар, услугу) друзьям и&nbsp;знакомым. <br> 
               <span class="small">За&nbsp;ноль принят вариант «абсолютно точно не&nbsp;буду рекомендовать», а&nbsp;за&nbsp;десять&nbsp;— «обязательно буду рекомендовать».</span></li>
@@ -85,9 +85,9 @@ image: /assets/images/tizers/tizer-12.jpg
 <section class="row-gap--m" itemprop="step" itemscope itemtype="https://schema.org/HowToSection">
         <h3 class="h2 bold mb-m mt-m" itemprop="name" >Шаг 2. Распределите клиентов на&nbsp;группы </h3>   
         <div class="row-gap--m" itemprop="itemListElement" itemscope itemtype="https://schema.org/HowToStep">
-        <meta itemprop="position" content="2"/>     
+        <meta itemprop="position" content="2">     
             <div itemprop="itemListElement" itemscope itemtype="https://schema.org/HowToDirection">
-            <meta itemprop="position" content="1"/>
+            <meta itemprop="position" content="1">
               <div class="row-gap--m" itemprop="text">
                     <p class="mb-m">По&nbsp;ответам на&nbsp;первый вопрос респонденты разбиваются на&nbsp;три группы: </p>
                 <ul>
@@ -111,9 +111,9 @@ image: /assets/images/tizers/tizer-12.jpg
 <section class="row-gap--m" itemprop="step" itemscope itemtype="https://schema.org/HowToSection">  
     <h3 class="h2 bold mb-m mt-m" itemprop="name">Шаг 3. Рассчитайте показатель NPS по формуле </h3>
     <div class="row-gap--m" itemprop="itemListElement" itemscope itemtype="https://schema.org/HowToStep">
-    <meta itemprop="position" content="3"/> 
+    <meta itemprop="position" content="3"> 
       <div itemprop="itemListElement" itemscope itemtype="https://schema.org/HowToDirection">
-          <meta itemprop="position" content="1"/>
+          <meta itemprop="position" content="1">
                 <div itemprop="text">
                   <p class="h2" >Формула индекса лояльности: <br>NPS = (сторонники) %&nbsp;- (критики) %
                   </p>
@@ -127,9 +127,9 @@ image: /assets/images/tizers/tizer-12.jpg
 <section class="row-gap--m" itemprop="step" itemscope itemtype="https://schema.org/HowToSection">  
       <h3 class="h2 bold mb-m mt-m" itemprop="name">Шаг 4. Проанализируйте ответы критиков и&nbsp;промоутеров</h3>
       <div class="row-gap--m" itemprop="itemListElement" itemscope itemtype="https://schema.org/HowToStep">
-      <meta itemprop="position" content="4"/> 
+      <meta itemprop="position" content="4"> 
       <div itemprop="itemListElement" itemscope itemtype="https://schema.org/HowToDirection">
-        <meta itemprop="position" content="1"/>
+        <meta itemprop="position" content="1">
           <div itemprop="text">
            <p >Ответы на&nbsp;второй вопрос указывают направление должного развития рабочих процессов, что требуется изменить (ответы критиков), а&nbsp;что оставить и&nbsp;усилить (ответы сторонников).</p>
            </div>
@@ -150,7 +150,7 @@ image: /assets/images/tizers/tizer-12.jpg
 <p>Если клиенты приносят компании разный доход, разумно оценивать их&nbsp;ответы по&nbsp;отдельности. Соотносите ответы по&nbsp;методике NPS с&nbsp;выручкой, полученной от&nbsp;каждого респондента. На&nbsp;рисунке ниже я&nbsp;показал варианты отображения результатов опроса в&nbsp;привязке к&nbsp;выручке.</p>
 
 <div class="full-bleed " itemprop="image" itemscope itemtype="http://schema.org/ImageObject">
-<link itemprop="url" href="/assets/images/blog/feedback/nps.jpg" />
+<link itemprop="url" href="/assets/images/blog/feedback/nps.jpg">
    <picture>
                  <source srcset="/assets/images/blog/feedback/nps.avif" type="image/avif">
                 <source srcset="/assets/images/blog/feedback/nps.webp" type="image/webp">

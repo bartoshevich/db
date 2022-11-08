@@ -30,7 +30,7 @@ keywords: "маркетинг без вирусов"
 
 
 <div itemprop="image" itemscope itemtype="http://schema.org/ImageObject">	
-	<link itemprop="url" href="https://res.cloudinary.com/bartoshevich/image/upload/f_auto/v1615127540/site/slavby-720.jpg" />
+	<link itemprop="url" href="https://res.cloudinary.com/bartoshevich/image/upload/f_auto/v1615127540/site/slavby-720.jpg">
 	<img class="image" loading="lazy" decoding="async" src="https://res.cloudinary.com/bartoshevich/image/upload/f_auto/v1615127540/site/slavby-720.jpg" width="720" height="469" alt="девушка стоит на коленях, на ее лицо льют воду из бутылки" itemprop="contentUrl"/>
 	<div class="figcaption" itemprop="description">
 		Фото никак не&nbsp;соотносится с&nbsp;указанными на&nbsp;сайте характеристиками, размывает образ компании ненужными ассоциациями
@@ -60,7 +60,7 @@ keywords: "маркетинг без вирусов"
 
 <div class="row">
 	<div class="c-5" itemprop="image" itemscope itemtype="http://schema.org/ImageObject">
-			<link itemprop="url" href="/assets/images/blog/razvitie-brenda/pulsar1.jpg" />
+			<link itemprop="url" href="/assets/images/blog/razvitie-brenda/pulsar1.jpg">
 			<picture>
 				<source  srcset="/assets/images/blog/razvitie-brenda/pulsar1.avif" 		type="image/avif">	
 				<source  srcset="/assets/images/blog/razvitie-brenda/pulsar1.webp" 		type="image/webp">
@@ -68,7 +68,7 @@ keywords: "маркетинг без вирусов"
 			</picture>
 	</div>
 	<div class="c-5" itemprop="image" itemscope itemtype="http://schema.org/ImageObject">
-			<link itemprop="url" href="/assets/images/blog/razvitie-brenda/pulsar2.jpg" />
+			<link itemprop="url" href="/assets/images/blog/razvitie-brenda/pulsar2.jpg">
 			<picture>	
 					<source  srcset="/assets/images/blog/razvitie-brenda/pulsar2.avif" 		type="image/avif">	
 					<source	srcset="/assets/images/blog/razvitie-brenda/pulsar2.webp" 		type="image/webp">

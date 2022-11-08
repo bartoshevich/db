@@ -21,7 +21,7 @@ keywords: "маркетинг в кризис, антикризисная стр
 
 
 <div itemprop="image" itemscope itemtype="http://schema.org/ImageObject">
-<link itemprop="url" href="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1658162653/site/mediabelarus.jpg" />
+<link itemprop="url" href="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1658162653/site/mediabelarus.jpg">
 
 {% comment %}
 <picture>
@@ -90,7 +90,7 @@ keywords: "маркетинг в кризис, антикризисная стр
 
 
 <div itemprop="image" itemscope itemtype="http://schema.org/ImageObject">
-<link itemprop="url" href="/assets/images/blog/marketing-v-krizis/live_cnn.jpg" />
+<link itemprop="url" href="/assets/images/blog/marketing-v-krizis/live_cnn.jpg">
 <picture>
   <source
     sizes="(max-width: 702px) 100vw, 706px"
@@ -169,5 +169,8 @@ keywords: "маркетинг в кризис, антикризисная стр
 </li>
 <li class="list-li">
   <a href="/blog/konkurentnoe-preimushhestvo/" class="link"> Конкурентное преимущество в&nbsp;пользе и&nbsp;доверии</a>
+</li>
+<li class="list-li">
+  <a href="/blog/system-marketing/" class="link"> Что&nbsp;не&nbsp;так с&nbsp;системным маркетингом?</a>
 </li>
 </ul>

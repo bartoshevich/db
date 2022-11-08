@@ -27,7 +27,7 @@ image:  /assets/images/tizers/tizer-24.jpg
 <p>Егор Урбан и&nbsp;Феликс Ермоленко рассказывали о&nbsp;функциях интернет-магазина и&nbsp;CRM-решениях. Говорили, как интернет-магазин должен выглядеть и&nbsp;работать, и&nbsp;как в&nbsp;этом поможет «1С-Битрикс».</p>
 
 <div  itemprop="image" itemscope itemtype="http://schema.org/ImageObject">	
-		<link itemprop="url" href="/assets/images/blog/1s-bitriks/bitrix1.jpg" />
+		<link itemprop="url" href="/assets/images/blog/1s-bitriks/bitrix1.jpg">
 <picture>
                <source srcset="/assets/images/blog/1s-bitriks/bitrix1.avif" type="image/avif">
 			    <source srcset="/assets/images/blog/1s-bitriks/bitrix1.webp" type="image/webp">
@@ -47,7 +47,7 @@ image:  /assets/images/tizers/tizer-24.jpg
 <p><span class="bold">Если вы&nbsp;купили лицензию Битрикс</span> и&nbsp;не&nbsp;хотите походить на&nbsp;персонажа рассказа, узнайте, за&nbsp;какие возможности вы&nbsp;уже заплатили. Откройте панель администратора сайта, зайдите в&nbsp;настройки продукта и&nbsp;выберите раздел «модули». Вы&nbsp;увидите, чем уже пользуетесь и&nbsp;что можете использовать, но&nbsp;пока не&nbsp;установили. Обсудите с&nbsp;разработчиком сайта назначение и&nbsp;целесообразность подключения каждого модуля.</p>
 
 <div  itemprop="image" itemscope itemtype="http://schema.org/ImageObject">	
-		<link itemprop="url" href="/assets/images/blog/1s-bitriks/bitrix2.jpg" />
+		<link itemprop="url" href="/assets/images/blog/1s-bitriks/bitrix2.jpg">
 <picture>
                <source srcset="/assets/images/blog/1s-bitriks/bitrix2.avif" type="image/avif">
 			    <source srcset="/assets/images/blog/1s-bitriks/bitrix2.webp" type="image/webp">
@@ -77,7 +77,7 @@ image:  /assets/images/tizers/tizer-24.jpg
  
 
 <div  itemprop="image" itemscope itemtype="http://schema.org/ImageObject">	
-		<link itemprop="url" href="/assets/images/blog/1s-bitriks/bitrix3.jpg" />
+		<link itemprop="url" href="/assets/images/blog/1s-bitriks/bitrix3.jpg">
 <picture>
                <source srcset="/assets/images/blog/1s-bitriks/bitrix3.avif" type="image/avif">
 			    <source srcset="/assets/images/blog/1s-bitriks/bitrix3.webp" type="image/webp">

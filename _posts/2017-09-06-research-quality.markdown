@@ -137,7 +137,7 @@ keywords: "контроль исследовательских агентств"
 <p>Перед тем, как предоставить заказчику записи интервью, агентство обязано проверить качество проведения опроса. Если обнаружит ошибки или брак, анкеты из&nbsp;обработки удаляются и&nbsp;проводятся дополнительные интервью. Запросите файл с&nbsp;итогами проверки, где вы&nbsp;увидите номер интервью, интервьюера и&nbsp;результат проверки. Прослушайте не&nbsp;менее&nbsp;15% интервью каждого интервьюера. Если находите ошибки&nbsp;— слушайте все записи. </p>
 
 <div itemprop="image" itemscope itemtype="http://schema.org/ImageObject">	
-		<link itemprop="url" href="https://res.cloudinary.com/bartoshevich/image/upload/f_auto/v1534054599/field_control.jpg" />     
+		<link itemprop="url" href="https://res.cloudinary.com/bartoshevich/image/upload/f_auto/v1534054599/field_control.jpg">     
         <img class="image" loading="lazy" decoding="async" src="https://res.cloudinary.com/bartoshevich/image/upload/q_auto:best,f_auto/v1534054599/field_control.jpg" alt="бланк проверки качества проведения маркетингового исследования"  width="720" height="598" itemprop="contentUrl"/>
 		<div class="figcaption">
 			<span class="bold">Пример:</span> Недобросовестное агентство пыталось выдать одну и&nbsp;ту&nbsp;же запись за&nbsp;разные интервью. Проверка выявила обман. 

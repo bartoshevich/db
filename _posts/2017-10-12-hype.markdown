@@ -75,7 +75,7 @@ keywords: "ИИ, искуственный интеллект, ехнологии
 
 
 <div itemprop="image" itemscope itemtype="http://schema.org/ImageObject">	
-		<link itemprop="url" href="/assets/images/blog/hype/hype2.jpg" />
+		<link itemprop="url" href="/assets/images/blog/hype/hype2.jpg">
 <picture>
                <source srcset="/assets/images/blog/hype/hype2.avif" type="image/avif">
 			    <source srcset="/assets/images/blog/hype/hype2.webp" type="image/webp">
@@ -121,7 +121,7 @@ keywords: "ИИ, искуственный интеллект, ехнологии
 
 
 <div itemprop="image" itemscope itemtype="http://schema.org/ImageObject">	
-		<link itemprop="url" href="/assets/images/blog/hype/hype3.jpg" />
+		<link itemprop="url" href="/assets/images/blog/hype/hype3.jpg">
 	<picture>
                <source srcset="/assets/images/blog/hype/hype3.avif" type="image/avif">
 			    <source srcset="/assets/images/blog/hype/hype3.webp" type="image/webp">

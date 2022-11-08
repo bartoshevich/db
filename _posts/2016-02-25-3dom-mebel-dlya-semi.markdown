@@ -18,7 +18,7 @@ image: /assets/images/tizers/tizer-16.jpg
 <p>Производители корпусной мебели один за&nbsp;одним повторяют, что мебель их&nbsp;качественная, функциональная и&nbsp;современная. Говорят о&nbsp;стильности, практичности, модульности и&nbsp;широком модельном ряде. Предлагают бесплатную доставку и&nbsp;сборку. Через полчаса серфинга по&nbsp;сайтам все компании сливаются в&nbsp;один невыразительный образ. В&nbsp;статье поделюсь, что я&nbsp;предложил компании&nbsp;— белорусскому производителю домашней мебели&nbsp;— для исправления ситуации.</p>
 
 <div itemprop="image" itemscope itemtype="http://schema.org/ImageObject">
-	<link itemprop="url" href="/assets/images/blog3dom-mebel-dlya-semi/3Dom@2,8x.jpg" />	
+	<link itemprop="url" href="/assets/images/blog3dom-mebel-dlya-semi/3Dom@2,8x.jpg">	
 <picture> 
 <source srcset="/assets/images/blog/3dom-mebel-dlya-semi/3Dom@1x.avif 1x, /assets/images/blog/3dom-mebel-dlya-semi/3Dom@2x.avif 2x, /assets/images/blog/3dom-mebel-dlya-semi/3Dom@2,8x.avif 2.8x" type="image/avif"> 
 <source srcset="/assets/images/blog/3dom-mebel-dlya-semi/3Dom@1x.webp 1x, /assets/images/blog/3dom-mebel-dlya-semi/3Dom@2x.webp 2x, /assets/images/blog/3dom-mebel-dlya-semi/3Dom@2,8x.webp 2.8x" type="image/webp"> 
@@ -40,7 +40,7 @@ image: /assets/images/tizers/tizer-16.jpg
 <p>Производители мебели, которых исследовал, описывали себя шаблонно, через технические характеристики товара. Не&nbsp;было вербализованных конкурентных преимуществ и&nbsp;единой коммуникационной политики.</p>
 
 <div class="figure" itemprop="image" itemscope itemtype="http://schema.org/ImageObject">
-	<link itemprop="url" href="/assets/images/blog/3dom-mebel-dlya-semi/antiformula_brenda.jpg" />	
+	<link itemprop="url" href="/assets/images/blog/3dom-mebel-dlya-semi/antiformula_brenda.jpg">	
     <picture>
             <source srcset="/assets/images/blog/3dom-mebel-dlya-semi/antiformula_brenda.avif"  type="image/avif">
             <source srcset="/assets/images/blog/3dom-mebel-dlya-semi/antiformula_brenda.webp"  type="image/webp"> 
@@ -83,7 +83,7 @@ image: /assets/images/tizers/tizer-16.jpg
 
 
 <div class="full-bleed" itemprop="image" itemscope itemtype="http://schema.org/ImageObject">
-	<link itemprop="url" href="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1648365692/site/3Dom.jpg" />	
+	<link itemprop="url" href="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1648365692/site/3Dom.jpg">	
    <img class="image is-3by2"  loading="lazy" decoding="async" src="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1648365692/site/3Dom.jpg" alt="фотография семейного праздника 3Dom" width="3408" height="2272" itemprop="contentUrl">
 </div>
 
@@ -96,7 +96,7 @@ image: /assets/images/tizers/tizer-16.jpg
 
 
 <div class=" figure" itemprop="image" itemscope itemtype="http://schema.org/ImageObject">
-	<link itemprop="url" href="/assets/images/blog/3dom-mebel-dlya-semi/kovrova.jpg" />	
+	<link itemprop="url" href="/assets/images/blog/3dom-mebel-dlya-semi/kovrova.jpg">	
     <picture>
             <source srcset="/assets/images/blog/3dom-mebel-dlya-semi/kovrova.avif"  type="image/avif">
             <source srcset="/assets/images/blog/3dom-mebel-dlya-semi/kovrova.webp"  type="image/webp"> 
@@ -109,7 +109,7 @@ image: /assets/images/tizers/tizer-16.jpg
 
 
 <div class="" itemprop="image" itemscope itemtype="http://schema.org/ImageObject">
-	<link itemprop="url" href="/assets/images/blog/3dom-mebel-dlya-semi/kovrova__thanks.jpg" />	
+	<link itemprop="url" href="/assets/images/blog/3dom-mebel-dlya-semi/kovrova__thanks.jpg">	
 <picture>
               <source srcset="/assets/images/blog/3dom-mebel-dlya-semi/kovrova__thanks.avif"  type="image/avif">
              <source srcset="/assets/images/blog/3dom-mebel-dlya-semi/kovrova__thanks.webp"  type="image/webp"> 

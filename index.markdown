@@ -12,24 +12,24 @@ keywords: "стратегический маркетинг, концепция �
     {% include menu.html %}
    
 <div itemscope itemtype="https://schema.org/LocalBusiness">
-    <meta itemprop="email" content="dmitry@bartoshevich" />
-    <meta itemprop="telephone" content="+375297753340" />
+    <meta itemprop="email" content="dmitry@bartoshevich">
+    <meta itemprop="telephone" content="+375297753340">
     <div itemprop="address" itemscope itemtype="https://schema.org/PostalAddress">
-        <meta itemprop="streetAddress" content="ул. Ольшевского, 22" />
-        <meta itemprop="addressLocality" content="Минск, Беларусь" />
-        <meta itemprop="postalCode" content="220073" />
+        <meta itemprop="streetAddress" content="ул. Ольшевского, 22">
+        <meta itemprop="addressLocality" content="Минск, Беларусь">
+        <meta itemprop="postalCode" content="220073">
     </div>
-    <meta itemprop="priceRange" content="$$" /> 
-    <meta itemprop="openingHours" content="Пн-Сб 09:00-18:00" />
-    <link itemprop="image" href="/assets/images/main/bartoshevich@16x9.jpg" />
-    <link itemprop="image" href="/assets/images/main/bartoshevich@4x3.jpg" />
-    <link itemprop="image" href="/assets/images/main/bartoshevich@1x1.jpg" />
+    <meta itemprop="priceRange" content="$$"> 
+    <meta itemprop="openingHours" content="Пн-Сб 09:00-18:00">
+    <link itemprop="image" href="/assets/images/main/bartoshevich@16x9.jpg">
+    <link itemprop="image" href="/assets/images/main/bartoshevich@4x3.jpg">
+    <link itemprop="image" href="/assets/images/main/bartoshevich@1x1.jpg">
 
 
 <main class="section__content"  >     
     
 
-    <div class="intro">Меня зовут <span itemprop="name">Дмитрий Бартошевич</span>.<br/>Я&nbsp;<h1 class="inline"><span  itemprop="description">консультант по&nbsp;маркетингу и&nbsp;стратегии</span>.</h1></div> 
+    <div class="intro">Меня зовут <span itemprop="name">Дмитрий Бартошевич</span>.<br>Я&nbsp;<h1 class="inline"><span  itemprop="description">консультант по&nbsp;маркетингу и&nbsp;стратегии</span>.</h1></div> 
    
 
        
@@ -68,7 +68,7 @@ keywords: "стратегический маркетинг, концепция �
             <div class="citation__author" >
     		<cite>
     			<a href="https://www.facebook.com/dmitry.likhtarovich" class="link" target="_blank" rel="noopener nofollow noreferrer"
-                title="страница Дмитрия в фейсбуке" aria-label="страница Дмитрия в фейсбуке (откроется в новой вкладке)">Дмитрий Лихтарович</a> <br/> директор Giperlink
+                title="страница Дмитрия в фейсбуке" aria-label="страница Дмитрия в фейсбуке (откроется в новой вкладке)">Дмитрий Лихтарович</a> <br> директор Giperlink
     		</cite>
             </div>
     	</blockquote>
@@ -83,18 +83,13 @@ keywords: "стратегический маркетинг, концепция �
     		<div class="citation__author" >
     		<cite >
     			<a href="https://www.facebook.com/profile.php?id=100001292354023" class="link" target="_blank" rel="noopener nofollow noreferrer"
-                title="страница Елены в фейсбуке" aria-label="страница Елены в фейсбуке (откроется в новой вкладке)">Елена Горбачева</a> <br/>директор <span class="noperenos">Flex-n-Roll</span>
+                title="страница Елены в фейсбуке" aria-label="страница Елены в фейсбуке (откроется в новой вкладке)">Елена Горбачева</a> <br>директор <span class="noperenos">Flex-n-Roll</span>
     		</cite>
             </div>
     	</blockquote>              
                     
 </div>
 </section>
-
-
-
-
-
 
 
 

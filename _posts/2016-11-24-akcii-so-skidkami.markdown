@@ -41,7 +41,7 @@ image: /assets/images/tizers/tizer-33.jpg
 </section>
 
 <div itemprop="image" itemscope itemtype="http://schema.org/ImageObject">	
-		<link itemprop="url" href="/assets/images/blog/akcii-so-skidkami/dis1.jpg" />	
+		<link itemprop="url" href="/assets/images/blog/akcii-so-skidkami/dis1.jpg">	
 <picture>
 <source srcset="/assets/images/blog/akcii-so-skidkami/dis1.avif" type="image/avif"> 
 <source srcset="/assets/images/blog/akcii-so-skidkami/dis1.webp" type="image/webp"> 

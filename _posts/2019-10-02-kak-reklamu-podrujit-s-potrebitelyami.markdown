@@ -116,11 +116,11 @@ keywords: "маркетинг реклама интернет"
 <p>Возьмем запрос «Лукашенко». У&nbsp;одного на&nbsp;первых местах в&nbsp;поисковой выдаче будут новости государственных СМИ, у&nbsp;второго&nbsp;— оппозиционных. Человек даже не&nbsp;поймет, что что-то было вырезано, что он&nbsp;смотрит в&nbsp;кривое зеркало. Следствие&nbsp;— общество разделяется на&nbsp;малые группы, у&nbsp;каждой из&nbsp;которых своя, отличная от&nbsp;других картина мира. Не&nbsp;будет единой коммуникационной платформы. Атеист Белинский и&nbsp;христианин Гоголь находились в&nbsp;одном культурном поле, потому переписка между ними была возможна. Наблюдаю, как люди противоположных взглядов постепенно утрачивают способность к&nbsp;диалогу. Рекламисты же подливают масло в&nbsp;огонь. </p>
 
 <div itemprop="video" itemscope itemtype="https://schema.org/VideoObject">
- 	<link itemprop="url" href="https://embed.ted.com/talks/eli_pariser_beware_online_filter_bubbles" />
-	<link itemprop="contentUrl" href="https://embed.ted.com/talks/eli_pariser_beware_online_filter_bubbles" />
-	<link itemprop="thumbnailUrl" href="https://pi.tedcdn.com/r/talkstar-photos.s3.amazonaws.com/uploads/708a332d-b4df-4cb3-b8f8-35763ab4829c/EliPariser_2019T-embed.jpg" />
- 	<meta itemprop="name" content="Остерегайтесь пузырей в Интернете" />
-	<meta itemprop="uploadDate" content="2019-10-02" />
+ 	<link itemprop="url" href="https://embed.ted.com/talks/eli_pariser_beware_online_filter_bubbles" >
+	<link itemprop="contentUrl" href="https://embed.ted.com/talks/eli_pariser_beware_online_filter_bubbles" >
+	<link itemprop="thumbnailUrl" href="https://pi.tedcdn.com/r/talkstar-photos.s3.amazonaws.com/uploads/708a332d-b4df-4cb3-b8f8-35763ab4829c/EliPariser_2019T-embed.jpg" >
+ 	<meta itemprop="name" content="Остерегайтесь пузырей в Интернете" >
+	<meta itemprop="uploadDate" content="2019-10-02" >
   	<meta itemprop="duration" content="PT8M48S">
  	<meta itemprop="isFamilyFriendly" content="true">
 <div class="video">

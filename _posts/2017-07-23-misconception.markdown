@@ -62,7 +62,7 @@ keywords: "мифы о маркетинге"
 <p>В&nbsp;декабре 2016 года агентство Fan&amp;Fuel провело исследование и&nbsp;обнаружило, что&nbsp;97% респондентов при выборе товаров онлайн читают отзывы других покупателей, а&nbsp;92% респондентов, если не&nbsp;видят отзывов, сомневаются, стоит&nbsp;ли делать покупку. Это данные по&nbsp;американскому рынку, но&nbsp;— полагаю&nbsp;— это общемировой тренд. </p>
 
  <div itemprop="image" itemscope itemtype="http://schema.org/ImageObject">	
-		<link itemprop="url" href="/assets/images/blog/misconceptions/vainer.jpg" />
+		<link itemprop="url" href="/assets/images/blog/misconceptions/vainer.jpg">
     <picture>
                     <source srcset="/assets/images/blog/misconceptions/vainer.avif" type="image/avif">
                     <source srcset="/assets/images/blog/misconceptions/vainer.webp" type="image/webp">  
@@ -91,7 +91,7 @@ keywords: "мифы о маркетинге"
 
 
 <div class="max-width-text" itemprop="image" itemscope itemtype="http://schema.org/ImageObject">	
-		<link itemprop="url" href="/assets/images/blog/test-drajv-dlya-rosta-prodazh/test2.jpg" />	
+		<link itemprop="url" href="/assets/images/blog/test-drajv-dlya-rosta-prodazh/test2.jpg">	
    <picture>
     <source srcset="/assets/images/blog/test-drajv-dlya-rosta-prodazh/test2.avif" type="image/avif">
         <source srcset="/assets/images/blog/test-drajv-dlya-rosta-prodazh/test2.webp" type="image/webp">
@@ -135,6 +135,9 @@ keywords: "мифы о маркетинге"
 <ul>
 <li class="list-li"><a class="link" href="/blog/delovoy/">Как&nbsp;создать и&nbsp;развивать интернет-магазин</a></li>
 <li class="list-li"> <a class="link" href="/blog/sovety-po-razrabotke-i-razvitiyu-internet-proektov/">Студия Борового: как развивать интернет-проекты</a></li>
+<li class="list-li">
+  <a href="/blog/system-marketing/" class="link"> Что&nbsp;не&nbsp;так с&nbsp;системным маркетингом?</a>
+</li>
 </ul>
 
 </article>

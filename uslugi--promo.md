@@ -32,11 +32,11 @@ keywords: "реклама, рекламные кампании"
     
 
     <div class="figure" itemscope itemtype="https://schema.org/VideoObject">
- 	<link itemprop="url" href="https://youtu.be/LcRjumujYws" />
-	<link itemprop="contentUrl" href="https://youtu.be/LcRjumujYws" />
-	<link itemprop="thumbnailUrl" href="https://i.ytimg.com/vi_webp/LcRjumujYws/maxresdefault.webp" />
- 	<meta itemprop="name" content="Эскиз видеоролика для банка Тинькова" />
-   	<meta itemprop="uploadDate" content="2015-09-22" />
+ 	<link itemprop="url" href="https://youtu.be/LcRjumujYws" >
+	<link itemprop="contentUrl" href="https://youtu.be/LcRjumujYws" >
+	<link itemprop="thumbnailUrl" href="https://i.ytimg.com/vi_webp/LcRjumujYws/maxresdefault.webp" >
+ 	<meta itemprop="name" content="Эскиз видеоролика для банка Тинькова" >
+   	<meta itemprop="uploadDate" content="2015-09-22" >
   	<meta itemprop="duration" content="PT0M27S">
  	<meta itemprop="isFamilyFriendly" content="true">
 
@@ -58,7 +58,7 @@ keywords: "реклама, рекламные кампании"
 </div>
 <div class="grid-columns__last-one-half">
     <div class="figure" itemscope itemtype="http://schema.org/ImageObject">
-		<link itemprop="url" href="/assets/images/uslugi/promo/tin2.jpg" />
+		<link itemprop="url" href="/assets/images/uslugi/promo/tin2.jpg">
         <div class="figcaption">реакция Тинькова  </div>
         <picture> <source srcset="/assets/images/uslugi/promo/tin2-400.webp 1x, /assets/images/uslugi/promo/tin2-800.webp 2x" type="image/webp"> <img loading="lazy" class="image" src="/assets/images/uslugi/promo/tin2.jpg" alt="скриншот публикации Тинькова в твиттере" srcset="/assets/images/uslugi/promo/tin2-800.jpg 2x" width="400" height="483" itemprop="contentUrl">
         </picture>
@@ -71,11 +71,11 @@ keywords: "реклама, рекламные кампании"
 Белорусскому офису немецкого концерна Hörmann предложил идеи цикла видеороликов и&nbsp;участвовал в&nbsp;их&nbsp;реализации: работал над сценариями, решал организационные вопросы, начиная от&nbsp;поиска и&nbsp;выбора режиссера до&nbsp;постпродакшена роликов. </p>
 
 <div class="full-bleed figure" itemscope itemtype="https://schema.org/VideoObject">
- 	<link itemprop="url" href="https://youtu.be/Rl2jUmZWSfg" />
-	<link itemprop="contentUrl" href="https://youtu.be/Rl2jUmZWSfg" />
-	<link itemprop="thumbnailUrl" href="https://i.ytimg.com/vi_webp/Rl2jUmZWSfg/maxresdefault.webp" />
- 	<meta itemprop="name" content="Уверенно рекомендуют" />
-   	<meta itemprop="uploadDate" content="2020-07-16" />
+ 	<link itemprop="url" href="https://youtu.be/Rl2jUmZWSfg" >
+	<link itemprop="contentUrl" href="https://youtu.be/Rl2jUmZWSfg" >
+	<link itemprop="thumbnailUrl" href="https://i.ytimg.com/vi_webp/Rl2jUmZWSfg/maxresdefault.webp" >
+ 	<meta itemprop="name" content="Уверенно рекомендуют" >
+   	<meta itemprop="uploadDate" content="2020-07-16" >
   	<meta itemprop="duration" content="PT1M06S">
  	<meta itemprop="isFamilyFriendly" content="true">
 						

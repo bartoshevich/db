@@ -49,7 +49,7 @@ keywords: "брендинг коронавирус"
 
 
 <div itemprop="image" itemscope itemtype="http://schema.org/ImageObject">	
-		<link itemprop="url" href="https://res.cloudinary.com/bartoshevich/image/upload/q_auto,f_auto/v1585298184/site/sheina.jpg" />
+		<link itemprop="url" href="https://res.cloudinary.com/bartoshevich/image/upload/q_auto,f_auto/v1585298184/site/sheina.jpg">
 		<div class="figcaption" itemprop="description">
  			<p> <a class="link" href="https://centercomfort.by/" >«Центр комфортного общения» Натальи Шеиной</a> предложил оплатить такси для занимающихся в&nbsp;центре детей (70BYN = ~27$) </p>
  		</div>	

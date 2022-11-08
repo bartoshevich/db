@@ -21,7 +21,7 @@ image: /assets/images/tizers/tizer-9.jpg
 <div class="post__note h2 max-width-text">Если хотите меньше продаж в&nbsp;книжном магазине, заверните книги в&nbsp;целлофан. Хотите, чтобы книги покупали&nbsp;— целлофан уберите.</div>
 
 <div class="max-width-text" itemprop="image" itemscope itemtype="http://schema.org/ImageObject">	
-		<link itemprop="url" href="/assets/images/blog/test-drajv-dlya-rosta-prodazh/test2.jpg" />	
+		<link itemprop="url" href="/assets/images/blog/test-drajv-dlya-rosta-prodazh/test2.jpg">	
    <picture>
     <source srcset="/assets/images/blog/test-drajv-dlya-rosta-prodazh/test2.avif" type="image/avif">
         <source srcset="/assets/images/blog/test-drajv-dlya-rosta-prodazh/test2.webp" type="image/webp">
@@ -33,7 +33,7 @@ image: /assets/images/tizers/tizer-9.jpg
 </div>
 
 <div class="max-width-text" itemprop="image" itemscope itemtype="http://schema.org/ImageObject">	
-		<link itemprop="url" href="/assets/images/blog/test-drajv-dlya-rosta-prodazh/test3.jpg" />
+		<link itemprop="url" href="/assets/images/blog/test-drajv-dlya-rosta-prodazh/test3.jpg">
 <picture>
     <source srcset="/assets/images/blog/test-drajv-dlya-rosta-prodazh/test3.webp" type="image/webp">
     <img loading="lazy" decoding="async" class="image" src="/assets/images/blog/test-drajv-dlya-rosta-prodazh/test3.jpg" alt="стул с предупреждением не садиться" width="695" height="857"  itemprop="contentUrl"/>

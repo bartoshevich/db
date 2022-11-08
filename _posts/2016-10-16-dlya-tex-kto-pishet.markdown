@@ -93,7 +93,7 @@ image: /assets/images/tizers/tizer-31.jpg
 
 
 <div itemprop="image" itemscope itemtype="http://schema.org/ImageObject">	
-	<link itemprop="url" href="/assets/images/blog/dlya-tex-kto-pishet/typograf.jpg" />
+	<link itemprop="url" href="/assets/images/blog/dlya-tex-kto-pishet/typograf.jpg">
 	<picture >
                <source srcset="/assets/images/blog/dlya-tex-kto-pishet/typograf.avif" type="image/avif">
 			    <source srcset="/assets/images/blog/dlya-tex-kto-pishet/typograf.webp" type="image/webp">
@@ -138,7 +138,7 @@ image: /assets/images/tizers/tizer-31.jpg
 <div class="figcaption">
 <p>	выдержка из&nbsp;редполитики Тинькофф-журнала</p>
 </div>	
-	<link itemprop="url" href="/assets/images/blog/dlya-tex-kto-pishet/typograf.jpg" />
+	<link itemprop="url" href="/assets/images/blog/dlya-tex-kto-pishet/typograf.jpg">
 	<picture >
                <source srcset="/assets/images/blog/dlya-tex-kto-pishet/tin_redpolicy.avif" type="image/avif">
 			    <source srcset="/assets/images/blog/dlya-tex-kto-pishet/tin_redpolicy.webp" type="image/webp">

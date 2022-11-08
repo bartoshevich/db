@@ -37,7 +37,7 @@ image: /assets/images/tizers/tizer-23.jpg
 <p>31&nbsp;марта объявили о&nbsp;начале акции.</p>
 
 <div itemprop="image" itemscope itemtype="http://schema.org/ImageObject">
-		<link itemprop="url" href="/assets/images/blog/sobiraem-bazu-podpischikov/email2.jpg" />	
+		<link itemprop="url" href="/assets/images/blog/sobiraem-bazu-podpischikov/email2.jpg">	
 <picture>
 	<source srcset="/assets/images/blog/sobiraem-bazu-podpischikov/email2.avif" type="image/avif"> 
 	<source srcset="/assets/images/blog/sobiraem-bazu-podpischikov/email2.webp" type="image/webp"> 
@@ -52,7 +52,7 @@ image: /assets/images/tizers/tizer-23.jpg
 <p>Как акцию восприняла аудитория:</p>
 
 <div itemprop="image" itemscope itemtype="http://schema.org/ImageObject">
-<link itemprop="url" href="/assets/images/blog/sobiraem-bazu-podpischikov/email3.jpg" />
+<link itemprop="url" href="/assets/images/blog/sobiraem-bazu-podpischikov/email3.jpg">
 	<picture>
 	<source srcset="/assets/images/blog/sobiraem-bazu-podpischikov/email3.avif" type="image/avif"> 
 	<source srcset="/assets/images/blog/sobiraem-bazu-podpischikov/email3.webp" type="image/webp"> 
@@ -81,12 +81,12 @@ image: /assets/images/tizers/tizer-23.jpg
 <p>У&nbsp;компании появился инструмент получения быстрой обратной связи. Ниже примеры как с&nbsp;помощью участников сообществ выбрать изображения для каталога или главной страницы сайта.</p>
 
 <div itemprop="image" itemscope itemtype="http://schema.org/ImageObject">
-<link itemprop="url" href="https://res.cloudinary.com/bartoshevich/image/upload/f_auto/v1540025305/email5.png" />
+<link itemprop="url" href="https://res.cloudinary.com/bartoshevich/image/upload/f_auto/v1540025305/email5.png">
 <img class="image"  loading="lazy" decoding="async"  src="https://res.cloudinary.com/bartoshevich/image/upload/q_auto,f_auto/v1540025305/email5.png" width="612" height="658" alt="участники акции голосуют за лучший дизайн" itemprop="contentUrl" />
 </div>
 
 <div itemprop="image" itemscope itemtype="http://schema.org/ImageObject">
-<link itemprop="url" href="https://res.cloudinary.com/bartoshevich/image/upload/f_auto/v1540025305/email6.png" />
+<link itemprop="url" href="https://res.cloudinary.com/bartoshevich/image/upload/f_auto/v1540025305/email6.png">
 <img class="image"  loading="lazy" decoding="async"  src="https://res.cloudinary.com/bartoshevich/image/upload/w_612/q_auto,f_auto/v1540025256/email6.png" width="612" height="665" alt="пример голосования пользователей в социальных сетях" itemprop="contentUrl" />
 </div>
 </section>

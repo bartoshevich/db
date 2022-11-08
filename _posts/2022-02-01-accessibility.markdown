@@ -109,7 +109,7 @@ keywords: "доступность"
 <p>Когда-то за&nbsp;доступность я&nbsp;принимал некое программное дополнение к&nbsp;сайту, которое увеличивает шрифты, изменяет контрастность, помогая людям с&nbsp;нарушениями восприятия.</p>
 
 <div  itemprop="image" itemscope itemtype="http://schema.org/ImageObject">
-<link itemprop="url" href="/assets/images/blog/accessibility/accessibility_widget@2x.jpg" />
+<link itemprop="url" href="/assets/images/blog/accessibility/accessibility_widget@2x.jpg">
 <picture>
 			<source srcset="/assets/images/blog/accessibility/accessibility_widget@1x.avif 1x, /assets/images/blog/accessibility/accessibility_widget@2x.avif 2x" type="image/avif"> 
 			<source srcset="/assets/images/blog/accessibility/accessibility_widget@1x.webp 1x, /assets/images/blog/accessibility/accessibility_widget@2x.webp 2x" type="image/webp"> 
@@ -193,7 +193,7 @@ keywords: "доступность"
 </div>
 
 <div  itemprop="image" itemscope itemtype="http://schema.org/ImageObject">
-<link itemprop="url" href="/assets/images/blog/accessibility/accessibility_letter@1,4x.jpg" />
+<link itemprop="url" href="/assets/images/blog/accessibility/accessibility_letter@1,4x.jpg">
 <div class="figcaption">Скриншот письма с&nbsp;оценкой доступности сайта bartoshevich.by</div>
 <picture>
 			<source srcset="/assets/images/blog/accessibility/accessibility_letter@1x.avif 1x,/assets/images/blog/accessibility/accessibility_letter@1,4x.avif 1.4x" type="image/avif"> 

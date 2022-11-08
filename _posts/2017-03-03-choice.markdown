@@ -40,7 +40,7 @@ image: /assets/images/tizers/tizer-38.jpg
 <p>Выберите одну концепцию и&nbsp;готовьтесь к&nbsp;презентации. Если не&nbsp;можете остановиться на&nbsp;одном варианте&nbsp;— значит все варианты слабые либо вы&nbsp;плохо понимаете задачу клиента. </p>
 
 <div itemprop="image" itemscope itemtype="http://schema.org/ImageObject">	
-		<link itemprop="url" href="/assets/images/blog/choice/choice.jpg" />
+		<link itemprop="url" href="/assets/images/blog/choice/choice.jpg">
 <picture>
                <source srcset="/assets/images/blog/choice/choice.avif" type="image/avif">
 			    <source srcset="/assets/images/blog/choice/choice.webp" type="image/webp">

@@ -17,7 +17,7 @@ image: /assets/images/tizers/tizer-3.jpg
 <p>В&nbsp;учебниках пишут, что <b>маркетинговые исследования</b> устраняют неопределенность в&nbsp;бизнесе и&nbsp;способствуют глубокому пониманию рынка. Однако реальность не&nbsp;всегда совпадает с&nbsp;написанным в&nbsp;книгах. Я&nbsp;знаю примеры, когда компании потратили значительные средства на&nbsp;исследования, но&nbsp;никакой отдачи не&nbsp;получили: ни&nbsp;понимания рынка, ни&nbsp;ясности в&nbsp;дальнейших шагах.</p>
 
 <div class="max-width-text" itemprop="image" itemscope itemtype="http://schema.org/ImageObject">
-<link itemprop="url" href="/assets/images/blog/pravila-marketingovyx-issledovanij/research.jpg" />
+<link itemprop="url" href="/assets/images/blog/pravila-marketingovyx-issledovanij/research.jpg">
 <picture>
                 <source srcset="/assets/images/blog/pravila-marketingovyx-issledovanij/research.avif" type="image/avif">
                  <source srcset="/assets/images/blog/pravila-marketingovyx-issledovanij/research.webp" type="image/webp">               

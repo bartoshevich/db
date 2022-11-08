@@ -363,7 +363,7 @@ keywords: "инструменты маркетолога, доля в поиск
 <p>Нельзя сказать, что значения доли рынка и&nbsp;доли в&nbsp;поиске тождественны. Однако удалось выявить четкую корреляцию между показателями. Лес Бине несколько лет изучал вопрос и&nbsp;в&nbsp;разных категориях обнаружил одну закономерность: <strong>если доля в&nbsp;поиске растет, через некоторое время вырастет и&nbsp;доля рынка</strong>. И&nbsp;наоборот. Следовательно, с&nbsp;помощью доли в&nbsp;поиске можно предсказать, что произойдет на&nbsp;рынке в&nbsp;ближайшие время. Через пару месяцев обновите таблицу выше и&nbsp;вы&nbsp;уловите тенденции развития рынка авто в&nbsp;Беларуси ;-) </p>
 
 <div  itemprop="image" itemscope itemtype="http://schema.org/ImageObject">
-<link itemprop="url" href="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1627803772/site/shareofsearch.jpg" />
+<link itemprop="url" href="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1627803772/site/shareofsearch.jpg">
 <img class="image" loading="lazy" decoding="async" src="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1627803772/site/shareofsearch.jpg" width="1920" height="1080" alt="Слайд из&nbsp;презентации Леса Бине." itemprop="contentUrl"/>
 <div class="figcaption" itemprop="description">Лес Бине: За&nbsp;изменениями доли бренда в&nbsp;поиске следует изменение доли рынка </div>
 </div>
@@ -389,7 +389,7 @@ keywords: "инструменты маркетолога, доля в поиск
 <li class="list-li">Запрос не&nbsp;всегда означает покупательский интерес или приверженность бренду. Скандал, несчастный случай могут поднять количество поисковых запросов. Например, весной правительство Беларуси запретило продавать автомобили марки Skoda. Новость активно обсуждалась в&nbsp;интернете и&nbsp;количество поисковых запросов с&nbsp;упоминанием бренда выросло. Анализируя цифры, следует это учитывать. </li>
 </ul>
 <div  itemprop="image" itemscope itemtype="http://schema.org/ImageObject">
-<link itemprop="url" href="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/bo_1px_solid_grey/v1627804536/site/skoda.jpg" />
+<link itemprop="url" href="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/bo_1px_solid_grey/v1627804536/site/skoda.jpg">
 <img class="image" loading="lazy" decoding="async" src="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/bo_1px_solid_grey/v1627804536/site/skoda.jpg" width="980" height="490" alt="Рост брендовых поисковых запросов из-за запрета продаж автомобилей Skoda." itemprop="contentUrl"/>
 <div class="figcaption">Интерес к&nbsp;бренду не&nbsp;всегда означает приверженность. Весной 2021&nbsp;г. правительство РБ&nbsp;запретило продажи Skoda. Количество брендовых поисковых запросов выросло.</div>
 </div>

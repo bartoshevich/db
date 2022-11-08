@@ -49,7 +49,7 @@ keywords: "стратегия бренда Флекс-н-Ролл"
  <p>Проект заинтересовал Европейский банк реконструкции и&nbsp;развития, и&nbsp;он&nbsp;выделил нам грант на&nbsp;его реализацию в&nbsp;рамках поддержки женского предпринимательства «Женщины в&nbsp;бизнесе». Благодаря этому мы&nbsp;привлекли маркетолога Дмитрия Бартошевича и&nbsp;исследовательское агентство МАСМИ, которое провело исследование белорусского и&nbsp;российского рынка типографских услуг.</p>
 
 <div itemprop="image" itemscope itemtype="http://schema.org/ImageObject">	
-		<link itemprop="url" href="/assets/images/blog/brand-strategy-flex-n-roll/flex_label-720.jpg" />
+		<link itemprop="url" href="/assets/images/blog/brand-strategy-flex-n-roll/flex_label-720.jpg">
 <picture>
 	<source media="(min-width: 450px)" srcset="/assets/images/blog/brand-strategy-flex-n-roll/flex_label-720.webp" type="image/webp">
 	<source media="(min-width: 200px)" srcset="/assets/images/blog/brand-strategy-flex-n-roll/flex_label-420.webp" type="image/webp">
@@ -77,7 +77,7 @@ keywords: "стратегия бренда Флекс-н-Ролл"
 <p> Исследование провели в&nbsp;два этапа. Первый&nbsp;— глубинные интервью. МАСМИ опросило специалистов, которые на&nbsp;предприятиях отвечают за&nbsp;закупку самоклеящейся этикетки. Мы&nbsp;выявили критерии выбора подрядчиков, ценностные ориентиры, требования к&nbsp;качеству и&nbsp;уровню обслуживания, и&nbsp;— главное&nbsp;— составили гипотезы, которые проверили на&nbsp;втором этапе&nbsp;— количественном исследовании (провели опрос).</p>
 
 <div itemprop="image" itemscope itemtype="http://schema.org/ImageObject">	
-		<link itemprop="url" href="/assets/images/blog/brand-strategy-flex-n-roll/flex_stat.jpg" />
+		<link itemprop="url" href="/assets/images/blog/brand-strategy-flex-n-roll/flex_stat.jpg" >
 	<picture>
 	<source media="(min-width: 450px)" srcset="/assets/images/blog/brand-strategy-flex-n-roll/flex_stat.webp" type="image/webp">
 	<source media="(min-width: 200px)" srcset="/assets/images/blog/brand-strategy-flex-n-roll/flex_stat-420.webp" type="image/webp">
@@ -107,7 +107,7 @@ keywords: "стратегия бренда Флекс-н-Ролл"
 
 
 <div itemprop="image" itemscope itemtype="http://schema.org/ImageObject">	
-		<link itemprop="url" href="/assets/images/blog/brand-strategy-flex-n-roll/flex-n-roll@3x.jpg" />
+		<link itemprop="url" href="/assets/images/blog/brand-strategy-flex-n-roll/flex-n-roll@3x.jpg" >
 	<picture>
 	<source  srcset="/assets/images/blog/brand-strategy-flex-n-roll/flex-n-roll@1x.avif 1x, /assets/images/blog/brand-strategy-flex-n-roll/flex-n-roll@2x.avif 2x, /assets/images/blog/brand-strategy-flex-n-roll/flex-n-roll@3x.avif 3x" type="image/webp">
 	<source  srcset="/assets/images/blog/brand-strategy-flex-n-roll/flex-n-roll@1x.webp 1x, /assets/images/blog/brand-strategy-flex-n-roll/flex-n-roll@2x.webp 2x, /assets/images/blog/brand-strategy-flex-n-roll/flex-n-roll@3x.webp 3x" type="image/webp">

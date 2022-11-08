@@ -43,7 +43,7 @@ keywords: "семинар Новые технологии,  IT"
 
 
 <div itemprop="image" itemscope itemtype="http://schema.org/ImageObject">	
-		<link itemprop="url" href="/assets/images/blog/crowdconference/else-corp.jpg" />
+		<link itemprop="url" href="/assets/images/blog/crowdconference/else-corp.jpg">
 <picture>
                <source srcset="/assets/images/blog/crowdconference/else-corp.avif" type="image/avif">
 			    <source srcset="/assets/images/blog/crowdconference/else-corp.webp" type="image/webp">

@@ -23,7 +23,7 @@ image: /assets/images/tizers/tizer-29.jpg
 <p>Слово «маркетер» режет слух. Не&nbsp;нравится оно и&nbsp;моему текстовому редактору: каждый раз предлагает заменить на&nbsp;«мушкетер».</p>
 
 <div itemprop="image" itemscope itemtype="http://schema.org/ImageObject">
-<link itemprop="url" href="/assets/images/blog/marketers/marketer1.jpg" />
+<link itemprop="url" href="/assets/images/blog/marketers/marketer1.jpg">
 <picture>
 <source srcset="/assets/images/blog/marketers/marketer1.avif" type="image/avif"> 
 <source srcset="/assets/images/blog/marketers/marketer1.webp" type="image/webp"> 

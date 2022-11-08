@@ -16,7 +16,7 @@ image: /assets/images/tizers/tizer-11.jpg
 <p>Если вы&nbsp;собираетесь <strong>привлекать клиентов</strong> скидками, снижайте стоимость правильно. Не&nbsp;делайте скидки центральным пунктом продвижения товара, если не&nbsp;работаете в&nbsp;низком ценовом сегменте. В&nbsp;рамках маркетинговой кампании <strong>предлагайте скидки на&nbsp;условиях, которые подчеркивают ценность бренда и&nbsp;укрепляют отличия от&nbsp;конкурентов</strong>.</p>
 
 <div class="figure" itemprop="image" itemscope itemtype="http://schema.org/ImageObject">
-<link itemprop="url" href="/assets/images/blog/skidki-instrukciya-po-primeneniyu/discount1.jpg" />
+<link itemprop="url" href="/assets/images/blog/skidki-instrukciya-po-primeneniyu/discount1.jpg">
 <picture>
                 <source srcset="/assets/images/blog/skidki-instrukciya-po-primeneniyu/discount1.avif" type="image/avif">
                  <source srcset="/assets/images/blog/skidki-instrukciya-po-primeneniyu/discount1.webp" type="image/webp">               

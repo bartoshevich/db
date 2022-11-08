@@ -38,7 +38,7 @@ keywords: "редакционная политика бренда, развит�
 <p>Я&nbsp;не&nbsp;создавал редполитику на&nbsp;века. Она&nbsp;— живой инструмент и&nbsp;будет развиваться вместе с&nbsp;предприятием. В&nbsp;отдельном разделе объяснил, как и&nbsp;кто составляет политику и может на нее влиять.</p>
 
 <div itemprop="image" itemscope itemtype="http://schema.org/ImageObject">	
-		<link itemprop="url" href="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1649659024/site/redpolicy.jpg" />	
+		<link itemprop="url" href="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1649659024/site/redpolicy.jpg">	
 	<div class="figcaption" itemprop="description">
 		Редполитика. Начало. Скриншот
 	</div>

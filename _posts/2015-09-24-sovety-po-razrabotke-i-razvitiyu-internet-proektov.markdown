@@ -17,7 +17,7 @@ image: /assets/images/tizers/tizer-7.jpg
 <p>Участвовал в&nbsp;семинаре по&nbsp;интернет-маркетингу «Стань эффективнее», который организовала Студия Борового и&nbsp;агентство «Скрытый маркетинг». Расскажу о&nbsp;ключевых идеях, которые услышал на&nbsp;мероприятии, и&nbsp;советах спикеров по&nbsp;разработке и&nbsp;развитию интернет-проектов.</p> 
 
 <div class="max-width-text" itemprop="image" itemscope itemtype="http://schema.org/ImageObject">
-<link itemprop="url" href="/assets/images/blog/sovety-po-razrabotke/sb1.jpg" />
+<link itemprop="url" href="/assets/images/blog/sovety-po-razrabotke/sb1.jpg">
 <picture>
                 <source srcset="/assets/images/blog/sovety-po-razrabotke/sb1.avif" type="image/avif">
                  <source srcset="/assets/images/blog/sovety-po-razrabotke/sb1.webp" type="image/webp">               
@@ -48,7 +48,7 @@ image: /assets/images/tizers/tizer-7.jpg
 <p>Александр Огородников рассказал о&nbsp;коллтрекинге (call tracking). Эта технология связывает звонок покупателя с&nbsp;рекламным источником. С ней вы&nbsp;можете определить эффективность каждого канала и&nbsp;сообщения. Если ваша бизнес-модель предусматривает общение с&nbsp;клиентами по&nbsp;телефону, Александр призвал направлять маркетинговый бюджет в&nbsp;каналы с&nbsp;наибольшей отдачей.</p>
 
 <div class="figure" itemprop="image" itemscope itemtype="http://schema.org/ImageObject">
-<link itemprop="url" href="/assets/images/blog/sovety-po-razrabotke/sb2.jpg" />
+<link itemprop="url" href="/assets/images/blog/sovety-po-razrabotke/sb2.jpg">
 <div class="figcaption">
 Так Александр показал, как коллтрекинг определяет малоэффективные каналы рекламы:
 </div>

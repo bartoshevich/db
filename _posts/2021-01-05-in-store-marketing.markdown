@@ -95,7 +95,7 @@ keywords: "торговый маркетинг, маркетинг в ритей
 <p>Посетитель магазина не&nbsp;видит всего, на&nbsp;что смотрит. Принимает простые, автоматические, неосознаваемые решения. В&nbsp;этих условиях у&nbsp;маркетолога одна основная задача: «Как обратить внимание на&nbsp;товар?». Ведь если продукт не&nbsp;попадет в&nbsp;поле восприятия посетителя, все остальное (цена, характеристики и&nbsp;пр.) не&nbsp;имеет значение. </p>
 
 <div class="figure" itemprop="image" itemscope itemtype="http://schema.org/ImageObject">
-		<link itemprop="url" href="/assets/images/blog/in-store-marketing/in-store-marketing.jpg" />			
+		<link itemprop="url" href="/assets/images/blog/in-store-marketing/in-store-marketing.jpg">			
 
 <picture>
     <source sizes="100vw"  

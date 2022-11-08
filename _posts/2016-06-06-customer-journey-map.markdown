@@ -50,7 +50,7 @@ image: /assets/images/tizers/tizer-22.jpg
 <p>Потребительский опыт&nbsp;— все, что клиент думает и&nbsp;чувствует, когда контактирует с&nbsp;компанией, будь-то видит всплывающую рекламу в&nbsp;интернете или звонит в&nbsp;отдел продаж. Если отобразить все случаи взаимодействия клиента с&nbsp;фирмой и&nbsp;отметить его мысли и&nbsp;эмоции на&nbsp;каждом этапе, мы&nbsp;получим карту потребительского опыта или customer journey map.</p>
 
 <div itemprop="image" itemscope itemtype="http://schema.org/ImageObject">	
-		<link itemprop="url" href="/assets/images/blog/customer-journey-map/cjm4.jpg" />
+		<link itemprop="url" href="/assets/images/blog/customer-journey-map/cjm4.jpg">
 <picture>
 <source srcset="/assets/images/blog/customer-journey-map/cjm4.avif" type="image/avif"> 
 <source srcset="/assets/images/blog/customer-journey-map//cjm4.webp" type="image/webp"> 
@@ -111,7 +111,7 @@ image: /assets/images/tizers/tizer-22.jpg
 </p>
 
 <div  itemprop="image" itemscope itemtype="http://schema.org/ImageObject">	
-		<link itemprop="url" href="/assets/images/blog/customer-journey-map/cjm1.jpg" />	
+		<link itemprop="url" href="/assets/images/blog/customer-journey-map/cjm1.jpg">	
 <picture>
 <source srcset="/assets/images/blog/customer-journey-map/cjm1.avif" type="image/avif"> 
 <source srcset="/assets/images/blog/customer-journey-map/cjm1.webp" type="image/webp"> 
@@ -142,7 +142,7 @@ image: /assets/images/tizers/tizer-22.jpg
 
 
 <div itemprop="image" itemscope itemtype="http://schema.org/ImageObject">	
-		<link itemprop="url" href="/assets/images/blog/customer-journey-map/cjm2.jpg" />	
+		<link itemprop="url" href="/assets/images/blog/customer-journey-map/cjm2.jpg">	
 <picture>
 <source srcset="/assets/images/blog/customer-journey-map/cjm2.avif" type="image/avif"> 
 <source srcset="/assets/images/blog/customer-journey-map/cjm2.webp" type="image/webp"> 
@@ -166,7 +166,7 @@ image: /assets/images/tizers/tizer-22.jpg
 </p>
 
 <div itemprop="image" itemscope itemtype="http://schema.org/ImageObject">	
-		<link itemprop="url" href="/assets/images/blog/customer-journey-map/cjm3.jpg" />	
+		<link itemprop="url" href="/assets/images/blog/customer-journey-map/cjm3.jpg">	
 <picture> 
 <source srcset="/assets/images/blog/customer-journey-map/cjm3.avif" type="image/avif"> 
 <source srcset="/assets/images/blog/customer-journey-map/cjm3.webp" type="image/webp"> 
@@ -186,7 +186,7 @@ image: /assets/images/tizers/tizer-22.jpg
 <p>Опубликовал статью и&nbsp;получил отзыв от&nbsp;UXPressia&nbsp;&mdash; компании, которая развивает онлайн-сервис построения карт потребительского опыта.</p> 
 
 <div itemprop="image" itemscope itemtype="http://schema.org/ImageObject">	
-		<link itemprop="url" href="/assets/images/blog/customer-journey-map/UXPressia@1x.jpg" />	
+		<link itemprop="url" href="/assets/images/blog/customer-journey-map/UXPressia@1x.jpg">	
 <picture>
 <source srcset="/assets/images/blog/customer-journey-map/UXPressia@1x.avif" type="image/avif"> 
 <source srcset="/assets/images/blog/customer-journey-map/UXPressia@1x.webp" type="image/webp"> 
@@ -208,3 +208,22 @@ image: /assets/images/tizers/tizer-22.jpg
 </ul>
 
 </section>
+
+<p class="mb-m mt-m"> Интересно узнать:</p>
+<ul class="addictive-spacing">
+<li class="list-li">
+  <a href="/blog/marketers/" class="link"> Маркетеры или маркетологи&nbsp;&mdash; кто нужен компании</a>
+</li>
+<li class="list-li">
+  <a href="/blog/primer-swot-analiza/" class="link"> SWOT-анализ предприятия. Разбираю пример</a>
+</li>
+<li class="list-li">
+  <a href="/blog/share-of-searches/" class="link"> Доля в&nbsp;поиске&nbsp;&mdash; новый показатель в&nbsp;маркетинге</a>
+</li>
+<li class="list-li">
+  <a href="/blog/system-marketing/" class="link"> Что&nbsp;не&nbsp;так с&nbsp;системным маркетингом?</a>
+</li>
+<li class="list-li">
+  <a href="/blog/hype/" class="link"> Заменит ли ИИ маркетолога?</a>
+</li>
+</ul>

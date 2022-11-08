@@ -77,7 +77,7 @@ image: /assets/images/tizers/tizer-25.jpg
 <p>Усадьба «Кали ласка» применяет автоматический переводчик Гугл. Я&nbsp;бы не&nbsp;рекомендовал использовать такое решение. Машинный перевод чувствуется, а&nbsp;часть контента остается на&nbsp;русском.</p>
 
 <div itemprop="image" itemscope itemtype="http://schema.org/ImageObject">	
-		<link itemprop="url" href="/assets/images/blog/sajt-agrousadby/agro1.jpg" />
+		<link itemprop="url" href="/assets/images/blog/sajt-agrousadby/agro1.jpg">
 <picture>
         <source srcset="/assets/images/blog/sajt-agrousadby/agro1.avif" type="image/avif">
         <source srcset="/assets/images/blog/sajt-agrousadby/agro1.webp" type="image/webp">
@@ -92,7 +92,7 @@ image: /assets/images/tizers/tizer-25.jpg
 <p>Частая ошибка&nbsp;— на&nbsp;иностранных версиях сайтов переведен не&nbsp;весь материал. В&nbsp;этом случае теряется смысл иностранной версии. Подобную ошибку встречал на&nbsp;сайтах частных хозяйств и&nbsp;общественных организаций, которые пропагандируют агротуризм в&nbsp;Беларуси.</p>
 
 <div itemprop="image" itemscope itemtype="http://schema.org/ImageObject">	
-		<link itemprop="url" href="/assets/images/blog/sajt-agrousadby/agro2.jpg" />
+		<link itemprop="url" href="/assets/images/blog/sajt-agrousadby/agro2.jpg">
     <picture >
         <source srcset="/assets/images/blog/sajt-agrousadby/agro2.avif" type="image/avif">
         <source srcset="/assets/images/blog/sajt-agrousadby/agro2.webp" type="image/webp">
@@ -104,7 +104,7 @@ image: /assets/images/tizers/tizer-25.jpg
 </div>
 
 <div itemprop="image" itemscope itemtype="http://schema.org/ImageObject">	
-		<link itemprop="url" href="/assets/images/blog/sajt-agrousadby/agro3.jpg" />
+		<link itemprop="url" href="/assets/images/blog/sajt-agrousadby/agro3.jpg">
 
     <picture>
          <source srcset="/assets/images/blog/sajt-agrousadby/agro3.avif" type="image/avif">
@@ -148,7 +148,7 @@ image: /assets/images/tizers/tizer-25.jpg
 <p>Подобный функционал использует усадьба «Вераги». Однако, английская версия сайта содержит русский текст и&nbsp;возникают сомнения, пользуются&nbsp;ли онлайн-бронированием иностранцы.</p>
 
 <div itemprop="image" itemscope itemtype="http://schema.org/ImageObject">	
-		<link itemprop="url" href="/assets/images/blog/sajt-agrousadby/agro4.jpg" />
+		<link itemprop="url" href="/assets/images/blog/sajt-agrousadby/agro4.jpg">
     <picture>
      <source srcset="/assets/images/blog/sajt-agrousadby/agro4.avif" type="image/avif">
         <source srcset="/assets/images/blog/sajt-agrousadby/agro4.webp" type="image/webp">

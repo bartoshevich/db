@@ -36,7 +36,7 @@ keywords: "привлечь клиентов брендинг бренд"
 </div>
 
 <div itemprop="image" itemscope itemtype="http://schema.org/ImageObject">	
-		<link itemprop="url" href="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1549714027/belief-driven-buying.jpg" />
+		<link itemprop="url" href="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1549714027/belief-driven-buying.jpg">
 <img class="image" loading="lazy" decoding="async"  src="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1549714027/belief-driven-buying.jpg" alt="слайд с презентации Edelmen: большинство участников исследования выбирали бренды в зависимости от политических или социальных взглядов компаний."  width="729" height="362" itemprop="contentUrl"/>
 </div>
 

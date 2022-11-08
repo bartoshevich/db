@@ -45,7 +45,7 @@ keywords:  "развитие интернет-магазина"
 
 
 <div itemprop="image" itemscope itemtype="http://schema.org/ImageObject">	
-		<link itemprop="url" href="/assets/images/blog/delovoy/delovoy2.jpg" />
+		<link itemprop="url" href="/assets/images/blog/delovoy/delovoy2.jpg">
 <picture>
                 <source media="(min-width: 500px)" srcset="/assets/images/blog/delovoy/delovoy2.avif" type="image/avif">
 				<source media="(min-width: 500px)" srcset="/assets/images/blog/delovoy/delovoy2.webp" type="image/webp">
@@ -76,7 +76,7 @@ keywords:  "развитие интернет-магазина"
 <p>Яркий пример&nbsp;— сайты банков. Клиентам банк предлагает продукты. </p>
 
 <div itemprop="image" itemscope itemtype="http://schema.org/ImageObject">	
-		<link itemprop="url" href="/assets/images/blog/delovoy/delovoy3.jpg" />
+		<link itemprop="url" href="/assets/images/blog/delovoy/delovoy3.jpg">
 <picture>
                <source srcset="/assets/images/blog/delovoy/delovoy3.avif" type="image/avif">
 			    <source srcset="/assets/images/blog/delovoy/delovoy3.webp" type="image/webp">
@@ -97,7 +97,7 @@ keywords:  "развитие интернет-магазина"
 
 
 <div itemprop="image" itemscope itemtype="http://schema.org/ImageObject">	
-		<link itemprop="url" href="/assets/images/blog/delovoy/delovoy4.jpg" />
+		<link itemprop="url" href="/assets/images/blog/delovoy/delovoy4.jpg">
 <picture>
                <source srcset="/assets/images/blog/delovoy/delovoy4.avif" type="image/avif">
 			    <source srcset="/assets/images/blog/delovoy/delovoy4.webp" type="image/webp">

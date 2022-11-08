@@ -30,7 +30,7 @@ image: /assets/images/tizers/tizer-15.jpg
 
 <div class="row">
    <div class="c-5" itemprop="image" itemscope itemtype="http://schema.org/ImageObject">
-   <link itemprop="url" href="/assets/images/blog/konkurentnoe-preimushhestvo/cola.jpg" />
+   <link itemprop="url" href="/assets/images/blog/konkurentnoe-preimushhestvo/cola.jpg">
       <picture>
          <source srcset="/assets/images/blog/konkurentnoe-preimushhestvo/cola.avif"  type="image/avif">
          <source srcset="/assets/images/blog/konkurentnoe-preimushhestvo/cola.webp"  type="image/webp">        
@@ -38,7 +38,7 @@ image: /assets/images/tizers/tizer-15.jpg
       </picture>
    </div>
    <div class="c-5" itemprop="image" itemscope itemtype="http://schema.org/ImageObject">
-   <link itemprop="url" href="/assets/images/blog/konkurentnoe-preimushhestvo/cellophane.jpg" />
+   <link itemprop="url" href="/assets/images/blog/konkurentnoe-preimushhestvo/cellophane.jpg">
       <picture>
       <source srcset="/assets/images/blog/konkurentnoe-preimushhestvo/cellophane.avif"  type="image/avif">
          <source srcset="/assets/images/blog/konkurentnoe-preimushhestvo/cellophane.webp"  type="image/webp">
@@ -53,7 +53,7 @@ image: /assets/images/tizers/tizer-15.jpg
 <p>Акции дали плоды: продажи росли, а&nbsp;вместе с&nbsp;ними росло и&nbsp;количество детских смертей. Когда СМИ облетела новость, что <a class="link" href="https://edition.cnn.com/2013/05/01/us/kentucky-accidential-shooting/index.html">пятилетний ребенок застрелил двухлетнюю сестру во&nbsp;время игры с&nbsp;ружьем, которое ему подарили на&nbsp;день рождения</a>, производитель оружия вынуждено закрыл сайт на&nbsp;несколько недель.</p>
 
 <div itemprop="image" itemscope itemtype="http://schema.org/ImageObject">
- <link itemprop="url" href="/assets/images/blog/konkurentnoe-preimushhestvo/cricket.jpg" />
+ <link itemprop="url" href="/assets/images/blog/konkurentnoe-preimushhestvo/cricket.jpg">
    <picture>  
          <source srcset="/assets/images/blog/konkurentnoe-preimushhestvo/cricket.avif"  type="image/avif">
          <source srcset="/assets/images/blog/konkurentnoe-preimushhestvo/cricket.webp"  type="image/webp">
@@ -68,7 +68,7 @@ image: /assets/images/tizers/tizer-15.jpg
 
 
 <div itemprop="image" itemscope itemtype="http://schema.org/ImageObject">
- <link itemprop="url" href="/assets/images/blog/konkurentnoe-preimushhestvo/poison.jpg" />
+ <link itemprop="url" href="/assets/images/blog/konkurentnoe-preimushhestvo/poison.jpg">
    <picture>  
          <source srcset="/assets/images/blog/konkurentnoe-preimushhestvo/poison.avif"  type="image/avif">
          <source srcset="/assets/images/blog/konkurentnoe-preimushhestvo/poison.webp"  type="image/webp">
@@ -97,7 +97,7 @@ image: /assets/images/tizers/tizer-15.jpg
 
 
 <div itemprop="image" itemscope itemtype="http://schema.org/ImageObject">
- <link itemprop="url" href="/assets/images/blog/konkurentnoe-preimushhestvo/patagonia.jpg" />
+ <link itemprop="url" href="/assets/images/blog/konkurentnoe-preimushhestvo/patagonia.jpg">
    <picture>  
          <source srcset="/assets/images/blog/konkurentnoe-preimushhestvo/patagonia.avif"  type="image/avif">
          <source srcset="/assets/images/blog/konkurentnoe-preimushhestvo/patagonia.webp"  type="image/webp">
@@ -115,7 +115,7 @@ image: /assets/images/tizers/tizer-15.jpg
 
 
 <div itemprop="image" itemscope itemtype="http://schema.org/ImageObject">
- <link itemprop="url" href="/assets/images/blog/konkurentnoe-preimushhestvo/yandex.jpg" />
+ <link itemprop="url" href="/assets/images/blog/konkurentnoe-preimushhestvo/yandex.jpg">
    <picture>  
          <source srcset="/assets/images/blog/konkurentnoe-preimushhestvo/yandex.avif"  type="image/avif">
          <source srcset="/assets/images/blog/konkurentnoe-preimushhestvo/yandex.webp"  type="image/webp">

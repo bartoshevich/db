@@ -40,7 +40,7 @@ image: /assets/images/tizers/tizer-21.jpg
 <p>Идея заказчику понравилась. Вместе определили критерий ценности клиента&nbsp;— объем закупок за&nbsp;последний квартал. По&nbsp;этому показателю присудили разряды.</p>
 
 <div itemprop="image" itemscope itemtype="http://schema.org/ImageObject">
-<link itemprop="url" href="/assets/images//blog/kejs-delayu-sistemu-skidok/sav.jpg" />
+<link itemprop="url" href="/assets/images//blog/kejs-delayu-sistemu-skidok/sav.jpg">
 <picture>
   <source srcset="/assets/images//blog/kejs-delayu-sistemu-skidok/sav.avif" type="image/avif">
   <source srcset="/assets/images//blog/kejs-delayu-sistemu-skidok/sav.webp" type="image/webp">
@@ -52,3 +52,19 @@ image: /assets/images/tizers/tizer-21.jpg
 <p>Разряд определяет не&nbsp;только размер скидки, но&nbsp;и&nbsp;другие аспекты работы с&nbsp;предприятием: от&nbsp;количества личных встреч с&nbsp;менеджером до&nbsp;совместных рекламных кампаний. Это уже не&nbsp;просто система скидок, а&nbsp;правила, нормы и&nbsp;стандарты сотрудничества с&nbsp;партнерами.</p>
 </section>
 </section>
+
+<p class="mb-m mt-m"> Дополнительные материалы</p>
+<ul class="addictive-spacing">
+<li class="list-li">
+  <a href="/blog/marketers/" class="link"> Маркетеры или маркетологи&nbsp;&mdash; кто нужен компании</a>
+</li>
+<li class="list-li">
+  <a href="/blog/primer-swot-analiza/" class="link"> SWOT-анализ предприятия. Разбираю пример</a>
+</li>
+<li class="list-li">
+  <a href="/blog/share-of-searches/" class="link"> Доля в&nbsp;поиске&nbsp;&mdash; новый показатель в&nbsp;маркетинге</a>
+</li>
+<li class="list-li">
+  <a href="/blog/system-marketing/" class="link"> Что&nbsp;не&nbsp;так с&nbsp;системным маркетингом?</a>
+</li>
+</ul>

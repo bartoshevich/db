@@ -18,7 +18,7 @@ keywords: "Сет Годин книга"
 	<div class="side">
 		<div class="guests">
 			<div class="guest-person" itemprop="image" itemscope itemtype="http://schema.org/ImageObject">
-				<link itemprop="url" href="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1615129704/site/setgodin.jpg" />
+				<link itemprop="url" href="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1615129704/site/setgodin.jpg">
 				<img class="image is-150x150" src="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1615129704/site/setgodin.jpg" alt="Сет Годин" width="150" height="150" itemprop="contentUrl"/>	
 					<div class="guest-person__name" itemprop="name">Сет Годин</div>
 					<div class="guest-person__position" itemprop="description">автор книг «Все маркетологи&nbsp;— лжецы», «Доверительный маркетинг», «Фиолетовая корова», «Яма» и&nbsp;др. В&nbsp;2018 году был введен в&nbsp;Зал Славы американской маркетинговой ассоциации.</div>				

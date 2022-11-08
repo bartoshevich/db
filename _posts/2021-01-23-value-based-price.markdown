@@ -181,7 +181,7 @@ keywords: "методы ценообразования, ценообразова
 
 
 <div itemprop="image" itemscope itemtype="http://schema.org/ImageObject">
-<link itemprop="url" href="/assets/images/blog/value-based-price/value-based-price.jpg" />			
+<link itemprop="url" href="/assets/images/blog/value-based-price/value-based-price.jpg">			
 
 <img class="image is-1by1" loading="lazy" decoding="async" src="/assets/images/blog/value-based-price/value-based-price.jpg" width="4494" height="4494" 
 srcset="https://res.cloudinary.com/bartoshevich/image/upload/w_640/f_auto,q_auto/v1648760933/site/value-based-price.jpg 640w,

@@ -57,7 +57,7 @@ keywords: "маркетинг задачи маркетолога"
 <p>Когда я&nbsp;открываю новостные сайты, то&nbsp;ожидаю прочесть об&nbsp;очередном аресте, обыске, избиениях, санкциях и&nbsp;рисках расширения кризиса. Ожидания, к&nbsp;сожалению, сбываются. ГосСМИ&nbsp;же заявляют, что в&nbsp;стране идет ликвидация «раковой опухоли», клеймят «подстрекателей», «провокаторов» и&nbsp;информационные «мусорные полигоны». </p>
 
 <div  itemprop="image" itemscope itemtype="http://schema.org/ImageObject">
-<link itemprop="url" href="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1626334469/site/context_rb.jpg" />
+<link itemprop="url" href="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1626334469/site/context_rb.jpg">
 <img class="image" loading="lazy" decoding="async" src="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1626334469/site/context_rb.jpg" width="1956" height="1100" alt="контекст поведения покупателей в Беларуси в 2021 году" itemprop="contentUrl"/>
 </div>
 

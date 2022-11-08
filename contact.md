@@ -2,7 +2,7 @@
 layout: contact
 permalink: /contact/
 description: "Если вы разделяете мой подход к маркетингу, буду рад познакомиться и поработать над вашими задачами" 
-title: "Сотрудничество с&nbsp;консультантом по&nbsp;маркетингу и&nbsp;стратегии | Дмитрий Бартошевич"
+title: "Сотрудничество | Дмитрий Бартошевич"
 keywords: "консультант по маркетингу и стратегии"
 date:   2022-03-15
 last_modified_at: 2022-03-15
@@ -19,20 +19,20 @@ image:
 
  <div itemscope itemtype="https://schema.org/ContactPage">
     <div itemprop="author" itemscope itemtype="https://schema.org/LocalBusiness">
-    <meta itemprop="name" content="Дмитрий Бартошевич" />
-    <meta itemprop="description" content="консультант по маркетингу и стратегии" />
-    <meta itemprop="email" content="dmitry@bartoshevich" />
-    <meta itemprop="telephone" content="+375297753340" />
+    <meta itemprop="name" content="Дмитрий Бартошевич" >
+    <meta itemprop="description" content="консультант по маркетингу и стратегии" >
+    <meta itemprop="email" content="dmitry@bartoshevich">
+    <meta itemprop="telephone" content="+375297753340">
     <div itemprop="address" itemscope itemtype="https://schema.org/PostalAddress">
-        <meta itemprop="streetAddress" content="ул. Ольшевского, 22" />
-        <meta itemprop="addressLocality" content="Минск, Беларусь" />
-        <meta itemprop="postalCode" content="220073" />
+        <meta itemprop="streetAddress" content="ул. Ольшевского, 22">
+        <meta itemprop="addressLocality" content="Минск, Беларусь">
+        <meta itemprop="postalCode" content="220073">
     </div>
-    <meta itemprop="priceRange" content="$$" /> 
-    <meta itemprop="openingHours" content="Пн-Сб 09:00-18:00" />
-    <link itemprop="image" href="/assets/images/main/bartoshevich@16x9.jpg" />
-    <link itemprop="image" href="/assets/images/main/bartoshevich@4x3.jpg" />
-    <link itemprop="image" href="/assets/images/main/bartoshevich@1x1.jpg" />
+    <meta itemprop="priceRange" content="$$"> 
+    <meta itemprop="openingHours" content="Пн-Сб 09:00-18:00">
+    <link itemprop="image" href="/assets/images/main/bartoshevich@16x9.jpg">
+    <link itemprop="image" href="/assets/images/main/bartoshevich@4x3.jpg">
+    <link itemprop="image" href="/assets/images/main/bartoshevich@1x1.jpg">
   </div>
 
 <main class="section__content row-gap--l" >

@@ -17,7 +17,7 @@ image: /assets/images/tizers/tizer-36.jpg
 <p>Для психолога Натальи Масюкевич сверстал сайт&nbsp;— <a class="link" href="//www.vitaline.by">www.vitaline.by</a>. Расскажу о&nbsp;ходе работы.</p>
 
 <div itemprop="image" itemscope itemtype="http://schema.org/ImageObject">	
-		<link itemprop="url" href="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1642407624/site/vitaline_site.jpg" />	
+		<link itemprop="url" href="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1642407624/site/vitaline_site.jpg">	
 <img class="image" src="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1642407624/site/vitaline_site.jpg" alt="Демонстрирую сайт психолога Натальи Масюкевич на разных устройствах" width="2000" height="1500" itemprop="contentUrl"  />
 <div class="figcaption" itemprop="description">
 первый экран vitaline.by

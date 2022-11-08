@@ -27,7 +27,7 @@ image: /assets/images/tizers/tizer-39.jpg
 <p>«Икона» рекламной индустрии&nbsp;— созданный агентством Лео Бернетта образ ковбоя. В&nbsp;нем маркетологи видят причину популярности сигарет «Мальборо» и&nbsp;не&nbsp;перестают нахваливать рекламную кампанию, которая&nbsp;— по&nbsp;заверению «аналитиков»&nbsp;— десятикратно увеличила продажи «Филип Моррис». Но&nbsp;действительно&nbsp;ли только ковбой увеличил объем продаж «Мальборо»?</p>
 
 <div itemprop="image" itemscope itemtype="http://schema.org/ImageObject">	
-		<link itemprop="url" href="/assets/images/blog/stars/marlboro-min.jpg" />
+		<link itemprop="url" href="/assets/images/blog/stars/marlboro-min.jpg">
 <picture>
                 <source srcset="/assets/images/blog/stars/marlboro-min.avif" type="image/avif">
                 <source srcset="/assets/images/blog/stars/marlboro-min.webp" type="image/webp">                
@@ -45,7 +45,7 @@ image: /assets/images/tizers/tizer-39.jpg
 
 
 <div itemprop="image" itemscope itemtype="http://schema.org/ImageObject">	
-		<link itemprop="url" href="/assets/images/blog/stars/zappos-min.jpg" />
+		<link itemprop="url" href="/assets/images/blog/stars/zappos-min.jpg">
 <picture>
                 <source srcset="/assets/images/blog/stars/zappos-min.avif" type="image/avif">
                 <source srcset="/assets/images/blog/stars/zappos-min.webp" type="image/webp">                

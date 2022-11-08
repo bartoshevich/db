@@ -17,7 +17,7 @@ image: /assets/images/tizers/tizer-40.jpg
 <p>11&nbsp;мая компания «1С-Битрикс» и&nbsp;веб-студия «Новый сайт» провели семинар «Формула сайта: от&nbsp;идеи интернет-магазина до&nbsp;лидера отрасли». Я&nbsp;был в&nbsp;числе спикеров и&nbsp;рассказывал о&nbsp;<strong>маркетинговой стратегии интернет-магазина</strong>. Тезисно остановлюсь на&nbsp;главных идеях выступления.</p> 
 
 <div itemprop="image" itemscope itemtype="http://schema.org/ImageObject">	
-		<link itemprop="url" href="https://res.cloudinary.com/bartoshevich/image/upload/f_auto/v1615123529/site/seminar110517.jpg" />
+		<link itemprop="url" href="https://res.cloudinary.com/bartoshevich/image/upload/f_auto/v1615123529/site/seminar110517.jpg">
 <img src="https://res.cloudinary.com/bartoshevich/image/upload/f_auto/v1615123529/site/seminar110517.jpg"  alt="Дмитрий Бартошевич рассказывает о маркетинговой стратегии интернет-магазинов"  class="image" width="720" height="540" itemprop="contentUrl">
 <div class="figcaption">Фото: Арина Чернышева</div>
 </div>
@@ -67,7 +67,7 @@ image: /assets/images/tizers/tizer-40.jpg
 </ul>
 
 <div itemprop="image" itemscope itemtype="http://schema.org/ImageObject">	
-		<link itemprop="url" href="/assets/images/blog/ecommerce/polza-cjm.jpg" />
+		<link itemprop="url" href="/assets/images/blog/ecommerce/polza-cjm.jpg">
 <picture>
                <source srcset="/assets/images/blog/ecommerce/polza-cjm.avif" type="image/avif">
 			    <source srcset="/assets/images/blog/ecommerce/polza-cjm.webp" type="image/webp">
@@ -87,7 +87,7 @@ image: /assets/images/tizers/tizer-40.jpg
 
 
 <div itemprop="image" itemscope itemtype="http://schema.org/ImageObject">	
-		<link itemprop="url" href="/assets/images/blog/ecommerce/seminar110517.jpg" />
+		<link itemprop="url" href="/assets/images/blog/ecommerce/seminar110517.jpg">
 <picture>
                <source srcset="/assets/images/blog/ecommerce/seminar110517.avif" type="image/avif">
 			    <source srcset="/assets/images/blog/ecommerce/seminar110517.webp" type="image/webp">

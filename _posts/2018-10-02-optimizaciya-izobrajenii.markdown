@@ -114,7 +114,7 @@ keywords: "оптимизация изображений"
 <p>Если вы&nbsp;читаете статью со&nbsp;смартфона, ниже вы&nbsp;видите котенка, который спит, свернувшись калачиком. Если читаете с&nbsp;большого экрана&nbsp;— ваш кот зевает и&nbsp;потягивается. Еще есть кот, который сидит и&nbsp;смотрит на&nbsp;вас. Поэкспериментируете с&nbsp;гаджетами или размером окна браузера и&nbsp;убедитесь, что так и&nbsp;есть. </p>
 
 <div itemprop="image" itemscope itemtype="http://schema.org/ImageObject">	
-	<link itemprop="url" href="/assets/images/blog/optimizaciya-izobrajenii/kitten-large.png" />
+	<link itemprop="url" href="/assets/images/blog/optimizaciya-izobrajenii/kitten-large.png">
 <picture>
   <source media="(min-width: 650px)" srcset="/assets/images/blog/optimizaciya-izobrajenii/kitten-large.png">
   <source media="(min-width: 465px)" srcset="/assets/images/blog/optimizaciya-izobrajenii/kitten-medium.png">

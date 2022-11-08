@@ -18,12 +18,12 @@ keywords: "мышление маркетолога"
 
 
 <div class="full-bleed" itemprop="video" itemscope itemtype="https://schema.org/VideoObject">
- 	<link itemprop="url" href="https://youtu.be/fXspplVnrEM" />
-	<link itemprop="contentUrl" href="https://youtu.be/fXspplVnrEM" />
-	<link itemprop="thumbnailUrl" href="https://i.ytimg.com/vi/fXspplVnrEM/maxresdefault.jpg" />
- 	<meta itemprop="name" content="Акция не сработает, если не думать как маркетолог" />
+ 	<link itemprop="url" href="https://youtu.be/fXspplVnrEM" >
+	<link itemprop="contentUrl" href="https://youtu.be/fXspplVnrEM" >
+	<link itemprop="thumbnailUrl" href="https://i.ytimg.com/vi/fXspplVnrEM/maxresdefault.jpg" >
+ 	<meta itemprop="name" content="Акция не сработает, если не думать как маркетолог" >
 	<meta itemprop="description" content="Запись выступления консультанта по маркетингу Дмитрия Бартошевича.">
-	<meta itemprop="uploadDate" content="2020-02-29" />
+	<meta itemprop="uploadDate" content="2020-02-29" >
   	<meta itemprop="duration" content="PT30M54S">
  	<meta itemprop="isFamilyFriendly" content="true">
 	<div class="video ">
