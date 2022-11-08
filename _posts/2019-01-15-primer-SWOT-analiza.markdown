@@ -6,7 +6,7 @@ description: "Пример SWOT-анализа предприятия. Выяв�
 date:   2019-01-15
 last_modified_at: 2022-02-05
 categories: инструкции
-permalink: "/blog/primer-SWOT-analiza/"
+permalink: "/blog/primer-swot-analiza/"
 tags: "инструменты, управление"
 image: /assets/images/tizers/tizer-53.jpg
 keywords: "пример SWOT "

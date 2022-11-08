@@ -57,13 +57,13 @@ image: /assets/images/tizers/tizer-31.jpg
 
  		</tr>
 		<tr>
-	<td>статья <a class="link" href="/mnenie/effektivnost-vlozhenij-v-marketing/">«Как увеличить отдачу от&nbsp;вложений в&nbsp;маркетинг»</a></td>
+	<td>статья <a class="link" href="/blog/effektivnost-vlozhenij-v-marketing/">«Как увеличить отдачу от&nbsp;вложений в&nbsp;маркетинг»</a></td>
 	<td class="text-right">10.33</td>
 	<td><span class="noperenos">10-11</span> класс</td>
 
  		</tr>
 		<tr>
-<td>сказка папы-маркетолога <a class="link" href="/mnenie/skazki-papy-marketologa/">«Бульба»</a></td>
+<td>сказка папы-маркетолога <a class="link" href="/blog/skazki-papy-marketologa/">«Бульба»</a></td>
 	<td class="text-right">4.41</td>
 	<td><span class="noperenos">4-6</span> класс</td>
 

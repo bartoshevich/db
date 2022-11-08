@@ -162,7 +162,7 @@ keywords: "маркетинг в кризис, антикризисная стр
 <p class="mb-m mt-m"> Дополнительные материалы</p>
 <ul class="addictive-spacing">
 <li class="list-li">
-  <a href="/blog/marketing-in-Belarus/" class="link"> Задачи маркетолога в&nbsp;Беларуси</a>
+  <a href="/blog/marketing-in-belarus/" class="link"> Задачи маркетолога в&nbsp;Беларуси</a>
 </li>
 <li class="list-li">
   <a href="/blog/seth-godin/" class="link"> Сет Годин «Это маркетинг». Ключевые идеи книги</a>

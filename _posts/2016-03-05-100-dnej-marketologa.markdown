@@ -115,7 +115,7 @@ keywords: "новое рабочее место маркетолога"
   <a href="/blog/research-quality/" class="link">Как контролировать качество маркетингового исследования</a>
 </li>
 <li class="list-li">
-  <a href="/blog/primer-SWOT-analiza/" class="link">SWOT-анализ предприятия. Разбираю пример</a>
+  <a href="/blog/primer-swot-analiza/" class="link">SWOT-анализ предприятия. Разбираю пример</a>
 </li>
 </ul>
 </footer>

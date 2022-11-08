@@ -6,7 +6,7 @@ description: 'Быть&nbsp;вне политики не&nbsp;означает �
 date:   2021-07-15
 last_modified_at: 2022-02-05
 categories: мнение
-permalink: "/blog/marketing-in-Belarus/"
+permalink: "/blog/marketing-in-belarus/"
 tags: "управление маркетолог"
 image: /assets/images/tizers/tizer-71.png
 keywords: "маркетинг задачи маркетолога"
