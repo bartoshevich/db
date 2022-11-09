@@ -18,7 +18,7 @@ keywords: "айтрекинг"
 	<div class="side">
 		<div class="guests">
 			<div class="guest-person" itemprop="image" itemscope itemtype="http://schema.org/ImageObject">
-				<link itemprop="url" href="/assets/images/blog/eye-tracking/MariaRaiskaya.jpg" />
+				<link itemprop="url" href="/assets/images/blog/eye-tracking/MariaRaiskaya.jpg">
 				<picture>
 					<source srcset="/assets/images/blog/eye-tracking/MariaRaiskaya.avif" type="image/avif">
 			   		<source srcset="/assets/images/blog/eye-tracking/MariaRaiskaya.webp" type="image/webp">
