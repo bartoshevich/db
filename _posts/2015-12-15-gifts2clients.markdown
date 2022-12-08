@@ -48,7 +48,7 @@ image: /assets/images/tizers/tizer-13.jpg
 <p class="mb-m "> Дополнительные материалы:</p>
 <ul >
 <li class="list-li">
-  <a href="//blog/novogodnee-oformlenie-magazina/" class="link">Новогоднее оформление магазина</a>
+  <a href="/blog/novogodnee-oformlenie-magazina/" class="link">Новогоднее оформление магазина</a>
 </li>
 <li class="list-li">
   <a href="/blog/direktor-xochet-korporativ/" class="link">Статья для директора, который хочет организовать корпоратив</a>
