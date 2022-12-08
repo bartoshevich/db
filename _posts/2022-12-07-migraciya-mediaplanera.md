@@ -8,8 +8,8 @@ last_modified_at: 2022-12-08
 categories: опыт
 permalink: "/blog/migraciya-mediaplanera/"
 tags: "управление опыт"
-image: https://res.cloudinary.com/bartoshevich/image/upload/w_640/f_auto,q_auto/v1670435184/site/duss/Duss05.jpg
-keywords: "миграция, медиапланирование, Германия"
+image: /assets/images/tizers/tizer-76.jpg
+keywords: "миграция, медиапланирование, Германия, маркетолог в Германии"
 ---
 
 {% include post__header.html %}
