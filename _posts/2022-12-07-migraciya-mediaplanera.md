@@ -163,7 +163,7 @@ keywords: "миграция, медиапланирование, Германи�
 			https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1670435184/site/duss/Duss05.jpg 1200w"
 			src="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1670435184/site/duss/Duss05.jpg"
 			width="1200" height="627" alt="Дюссельдорф. Вид с&nbsp;высоты птичьего полёта" itemprop="contentUrl"
-		/>
+		>
 		<div class="figcaption">Дюссельдорф. Вид с&nbsp;высоты птичьего полёта. <br>Фото: Д.&nbsp;Захарин</div>
 </div>
 
@@ -178,7 +178,7 @@ keywords: "миграция, медиапланирование, Германи�
       https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1670435184/site/duss/duss03.jpg 1600w"
 			src="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1670435184/site/duss/duss03.jpg"
 			width="1600" height="992" alt="На центральных улицах Дюссельдорфа" itemprop="contentUrl"
-		/>
+		>
 		<div class="figcaption">На центральных улицах Дюссельдорфа. <br>Фото: Д.&nbsp;Захарин</div>
 </div>
 
@@ -203,7 +203,7 @@ keywords: "миграция, медиапланирование, Германи�
 			https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1670435184/site/duss/duss01.jpg 1040w"
 			src="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1670435184/site/duss/duss01.jpg"
 			width="1040" height="580" alt="Дюссельдорф. Вид на городскую набережную" itemprop="contentUrl"
-		/>
+		>
 		<figcaption class="figcaption">Дюссельдорф. Вид на городскую набережную <br>Фото: Д.&nbsp;Захарин</figcaption>
 </figure>
 </section>
@@ -225,7 +225,7 @@ keywords: "миграция, медиапланирование, Германи�
       https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1670435184/site/duss/duss04.jpg 1600w"
 			src="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1670435184/site/duss/duss04.jpg"
 			width="1600" height="1067" alt="" itemprop="contentUrl"
-		/>
+		>
 		<figcaption class="figcaption">Вид на Дюссельдорф с другой стороны Рейна <br>Фото: Д.&nbsp;Захарин</figcaption>
 </figure>
 </section>
@@ -259,7 +259,7 @@ keywords: "миграция, медиапланирование, Германи�
       https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1670435184/site/duss/duss02.png 1600w"
 			src="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1670435184/site/duss/duss02.png"
 			width="1600" height="900" alt="" itemprop="contentUrl"
-		/>
+		>
 		<figcaption class="figcaption">Рождественская ярмарка в старой части Дюссельдорфа <br>Фото: Д.&nbsp;Захарин</figcaption>
 </figure>
 </section>
