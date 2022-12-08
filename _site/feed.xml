@@ -8,6 +8,14 @@
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
+        <title>Миграция медиапланера | Дмитрий Бартошевич</title>
+        <description>Востребованы&amp;nbsp;ли белорусские маркетологи за&amp;nbsp;границей? Или мир ждет только айтишников? Что отличает западную сферу рекламы от&amp;nbsp;белорусской? Попросил Дмитрия Захарина поделиться размышлениями.</description>
+        <pubDate>Thu, 08 Dec 2022 00:00:00 +0300</pubDate>
+        <link>http://localhost:4000/blog/migraciya-mediaplanera/</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/migraciya-mediaplanera/</guid>
+      </item>
+    
+      <item>
         <title>Маркетинг в кризис: стратегия для брендов | Дмитрий Бартошевич</title>
         <description>Антикризисный маркетинг начинается не&amp;nbsp;с&amp;nbsp;рекламы, бюджета или каналов продвижения. Все начинается со&amp;nbsp;смыслов и&amp;nbsp;ценностей, которые вы&amp;nbsp;определили и&amp;nbsp;отстаиваете перед аудиторией. </description>
         <pubDate>Sun, 24 Apr 2022 00:00:00 +0300</pubDate>
@@ -144,7 +152,7 @@
       </item>
     
       <item>
-        <title>Персонализированная реклама vs приватность пользователей | Дмитрий Бартошевич</title>
+        <title>Реклама vs приватность пользователей | Дмитрий Бартошевич</title>
         <description>Рассказываю, почему блокировать рекламу&amp;nbsp;— хорошо, а&amp;nbsp;доверять яндексу&amp;nbsp;— плохо. И&amp;nbsp;что делать, чтобы вернуть доверие людей к&amp;nbsp;рекламе в&amp;nbsp;интернете. </description>
         <pubDate>Wed, 02 Oct 2019 00:00:00 +0300</pubDate>
         <link>http://localhost:4000/blog/kak-reklamu-podrujit-s-potrebitelyami/</link>
@@ -557,14 +565,6 @@
         <pubDate>Thu, 24 Sep 2015 00:00:00 +0300</pubDate>
         <link>http://localhost:4000/blog/sovety-po-razrabotke-i-razvitiyu-internet-proektov/</link>
         <guid isPermaLink="true">http://localhost:4000/blog/sovety-po-razrabotke-i-razvitiyu-internet-proektov/</guid>
-      </item>
-    
-      <item>
-        <title>Отличия маркетолога от брехуна | Дмитрий Бартошевич</title>
-        <description>Если маркетолог влияет на&amp;nbsp;политику предприятия, важно уметь отличать грамотный анализ рынка от&amp;nbsp;брехни. На&amp;nbsp;какие признаки профессионализма и&amp;nbsp;его отсутствия стоит обратить внимание.</description>
-        <pubDate>Thu, 17 Sep 2015 00:00:00 +0300</pubDate>
-        <link>http://localhost:4000/blog/otlichie-marketologa-ot-brexuna/</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/otlichie-marketologa-ot-brexuna/</guid>
       </item>
     
   </channel>
