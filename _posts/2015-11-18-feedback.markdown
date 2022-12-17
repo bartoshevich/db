@@ -4,7 +4,7 @@ title: "Net Promoter Score (NPS) — как рассчитать и анализ
 name: "Как измерить NPS и&nbsp;анализировать значение правильно"
 description: "Net&nbsp;Promoter Score&nbsp;&mdash; индекс лояльности клиентов. Как рассчитать по&nbsp;формуле и&nbsp;правильно проанализировать значения.  "
 date:   2015-11-18
-last_modified_at: 2022-02-04
+last_modified_at: 2022-12-04
 categories: инструкции
 permalink: "/blog/feedback/"
 tags: "инструменты"
@@ -25,7 +25,7 @@ image: /assets/images/tizers/tizer-12.jpg
       </li>
       <li>        
           <span class="tocnumber">2 </span>
-          <a class="link" href="#2"> Как рассчитать NPS        </a>
+          <a class="link" href="#2"> Как рассчитать NPS</a>
       </li>
       <li>            
             <span class="tocnumber">3 </span>
@@ -65,13 +65,13 @@ image: /assets/images/tizers/tizer-12.jpg
 <section class="row-gap--m max-width-text" id="2" itemscope itemtype="https://schema.org/HowTo">
 <h2 class="section__title h1 bold " itemprop="name">Как рассчитать Net Promoter Score</h2>
 
-<section class="row-gap--m" itemprop="step" itemscope itemtype="https://schema.org/HowToSection">     
+<section class="row-gap--m" itemprop="step" itemscope itemtype="https://schema.org/HowToStep" id="ask">  
+<link itemprop="url" href="#ask">
+<meta itemprop="position" content="1"> 
       <h3 class="h2 bold mb-m" itemprop="name" >Шаг 1. Задайте клиентам два вопроса</h3>
-       <div class="row-gap--m" itemprop="itemListElement" itemscope itemtype="https://schema.org/HowToStep">
-      <meta itemprop="position" content="1"> 
+       <div class="row-gap--m">      
         <div itemprop="itemListElement" itemscope itemtype="https://schema.org/HowToDirection">
-          <meta itemprop="position" content="1">
-          <ol itemprop="text">
+           <ol itemprop="text">
               <li class="list-li">Оцените по&nbsp;<span class="noperenos">10-балльной</span> шкале, насколько вы&nbsp;готовы рекомендовать компанию (товар, услугу) друзьям и&nbsp;знакомым. <br> 
               <span class="small">За&nbsp;ноль принят вариант «абсолютно точно не&nbsp;буду рекомендовать», а&nbsp;за&nbsp;десять&nbsp;— «обязательно буду рекомендовать».</span></li>
               <li class="list-li">Что повлияло на&nbsp;вашу оценку?</li>
@@ -82,12 +82,12 @@ image: /assets/images/tizers/tizer-12.jpg
 
 
 
-<section class="row-gap--m" itemprop="step" itemscope itemtype="https://schema.org/HowToSection">
-        <h3 class="h2 bold mb-m mt-m" itemprop="name" >Шаг 2. Распределите клиентов на&nbsp;группы </h3>   
-        <div class="row-gap--m" itemprop="itemListElement" itemscope itemtype="https://schema.org/HowToStep">
-        <meta itemprop="position" content="2">     
-            <div itemprop="itemListElement" itemscope itemtype="https://schema.org/HowToDirection">
-            <meta itemprop="position" content="1">
+<section class="row-gap--m" itemprop="step" itemscope itemtype="https://schema.org/HowToStep" id="categorize">
+<link itemprop="url" href="#categorize">
+ <meta itemprop="position" content="2">    
+        <h3 class="h2 bold mb-m mt-m" itemprop="name" >Шаг 2. На основе ответов, распределите клиентов на&nbsp;группы </h3>   
+        <div class="row-gap--m">        
+            <div itemprop="itemListElement" itemscope itemtype="https://schema.org/HowToDirection">      
               <div class="row-gap--m" itemprop="text">
                     <p class="mb-m">По&nbsp;ответам на&nbsp;первый вопрос респонденты разбиваются на&nbsp;три группы: </p>
                 <ul>
@@ -108,14 +108,14 @@ image: /assets/images/tizers/tizer-12.jpg
 
 
 
-<section class="row-gap--m" itemprop="step" itemscope itemtype="https://schema.org/HowToSection">  
+<section class="row-gap--m" itemprop="step" itemscope itemtype="https://schema.org/HowToStep" id="NPScount"> 
+<link itemprop="url" href="#NPScount"> 
+ <meta itemprop="position" content="3"> 
     <h3 class="h2 bold mb-m mt-m" itemprop="name">Шаг 3. Рассчитайте показатель NPS по формуле </h3>
-    <div class="row-gap--m" itemprop="itemListElement" itemscope itemtype="https://schema.org/HowToStep">
-    <meta itemprop="position" content="3"> 
-      <div itemprop="itemListElement" itemscope itemtype="https://schema.org/HowToDirection">
-          <meta itemprop="position" content="1">
+    <div class="row-gap--m">   
+      <div itemprop="itemListElement" itemscope itemtype="https://schema.org/HowToDirection">      
                 <div itemprop="text">
-                  <p class="h2" >Формула индекса лояльности: <br>NPS = (сторонники) %&nbsp;- (критики) %
+                  <p class="h2" id="NPS">Формула индекса лояльности: <br>NPS = (сторонники) %&nbsp;- (критики) %
                   </p>
                 </div>
       </div>
@@ -124,12 +124,12 @@ image: /assets/images/tizers/tizer-12.jpg
 
 
 
-<section class="row-gap--m" itemprop="step" itemscope itemtype="https://schema.org/HowToSection">  
+<section class="row-gap--m" itemprop="step" itemscope itemtype="https://schema.org/HowToStep" id="analyze"> 
+<link itemprop="url" href="#analyze">
+ <meta itemprop="position" content="4">    
       <h3 class="h2 bold mb-m mt-m" itemprop="name">Шаг 4. Проанализируйте ответы критиков и&nbsp;промоутеров</h3>
-      <div class="row-gap--m" itemprop="itemListElement" itemscope itemtype="https://schema.org/HowToStep">
-      <meta itemprop="position" content="4"> 
-      <div itemprop="itemListElement" itemscope itemtype="https://schema.org/HowToDirection">
-        <meta itemprop="position" content="1">
+      <div class="row-gap--m">    
+      <div itemprop="itemListElement" itemscope itemtype="https://schema.org/HowToDirection">     
           <div itemprop="text">
            <p >Ответы на&nbsp;второй вопрос указывают направление должного развития рабочих процессов, что требуется изменить (ответы критиков), а&nbsp;что оставить и&nbsp;усилить (ответы сторонников).</p>
            </div>
