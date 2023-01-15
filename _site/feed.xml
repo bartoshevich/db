@@ -8,6 +8,14 @@
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
+        <title>ChatGPT может преобразить бренд и&amp;nbsp;рекламные кампании | Дмитрий Бартошевич</title>
+        <description>Изучите возможности ChatGPT для трансформации вашего бренда и&amp;nbsp;рекламных кампаний. Прочитайте практические примеры использования искусственного интеллекта в&amp;nbsp;маркетинге и&amp;nbsp;узнайте как ChatGPT может повысить эффективность ваших коммуникаций.</description>
+        <pubDate>Sun, 15 Jan 2023 00:00:00 +0300</pubDate>
+        <link>http://localhost:4000/blog/chatgpt-mozhet-preobrazit-brend-i-reklamnye-kampanii/</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/chatgpt-mozhet-preobrazit-brend-i-reklamnye-kampanii/</guid>
+      </item>
+    
+      <item>
         <title>Миграция медиапланера | Дмитрий Бартошевич</title>
         <description>Востребованы&amp;nbsp;ли белорусские маркетологи за&amp;nbsp;границей? Или мир ждет только айтишников? Что отличает западную сферу рекламы от&amp;nbsp;белорусской? Попросил Дмитрия Захарина поделиться размышлениями.</description>
         <pubDate>Thu, 08 Dec 2022 00:00:00 +0300</pubDate>
@@ -557,14 +565,6 @@
         <pubDate>Thu, 01 Oct 2015 00:00:00 +0300</pubDate>
         <link>http://localhost:4000/blog/zachem-marketing-biznesu/</link>
         <guid isPermaLink="true">http://localhost:4000/blog/zachem-marketing-biznesu/</guid>
-      </item>
-    
-      <item>
-        <title>Интернет-проекты: советы по разработке и развитию | Дмитрий Бартошевич</title>
-        <description>Ключевые идеи, советы спикеров и&amp;nbsp;общее впечатление от&amp;nbsp;семинара по&amp;nbsp;интернет-маркетингу «Стань эффективнее» Студии Борового и&amp;nbsp;«Скрытого маркетинга».</description>
-        <pubDate>Thu, 24 Sep 2015 00:00:00 +0300</pubDate>
-        <link>http://localhost:4000/blog/sovety-po-razrabotke-i-razvitiyu-internet-proektov/</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/sovety-po-razrabotke-i-razvitiyu-internet-proektov/</guid>
       </item>
     
   </channel>
