@@ -132,6 +132,14 @@ image:
 <h2 id="info" class="h1 bold" >Контакты </h2>
 	
 <div class="with-side row-gap--m">
+
+<p>Хочу сообщить, что в настоящее время я не могу принимать новые задачи, так как полностью посвящаю себя работе над существующими проектами. Я очень ценю ваше понимание и готов ответить на вопросы по электронной почте <a class="link" href="mailto:dmitry@bartoshevich.by" title="написать" >dmitry@bartoshevich.by</a>.</p>
+
+<p> Для коротких сообщений можете использовать телеграм&nbsp;— <a class="link" href="https://t.me/bartoshevich">@bartoshevich</a> </p>
+<p>Адрес для писем: 220073, г.&nbsp;Минск, ул. Ольшевского, 22, офис&nbsp;6 (7&nbsp;этаж)</p>
+<p>Благодарю за интерес к моей работе и надеюсь на возможность сотрудничества в будущем. </p>
+
+{% comment %}
 <p>Если вы&nbsp;заинтересованы в&nbsp;работе со&nbsp;мной, буду рад обсудить задачи. </p>
 
 
@@ -144,9 +152,9 @@ image:
 
 	<p> Для коротких сообщений можете использовать телеграм&nbsp;— <a class="link" href="https://t.me/bartoshevich">@bartoshevich</a>
 	</p>
+{% endcomment %}
 
 
-<p>Адрес для писем: 220073, г.&nbsp;Минск, ул. Ольшевского, 22, офис&nbsp;6 (7&nbsp;этаж)</p>
 <div class="side">
 <figure class="block-230">
 	<img  loading="lazy" decoding="async" class="qr-code" src="/assets/images/contact/qr-code.svg" alt="QR-код с контактами Дмитрия Бартошевича" width="230" height="230"/>
