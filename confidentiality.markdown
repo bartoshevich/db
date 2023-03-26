@@ -54,9 +54,9 @@ image: /images/confidentiality.png
 </ul>
 <p> 9.&nbsp;В&nbsp;настоящее время я&nbsp;использую: </p>
 <ul>
-	<li class="list-li"> сервис email-рассылок MailChimp. <a class="link" href="https://mailchimp.com/legal/privacy/">Политика конфиденциальности</a></li>
-	<li class="list-li"> платформу веб-разработчиков Netlify. <a class="link" href="https://www.netlify.com/privacy">Политика конфиденциальности</a></li>
-	<li class="list-li"> почтовый сервис FastMail. <a class="link" href="https://www.fastmail.com/about/privacy/">Политика конфиденциальности</a></li>
+	<li class="list-li"> сервис email-рассылок MailChimp. <a class="link" href="https://www.intuit.com/privacy/statement/">Политика конфиденциальности</a></li>
+	<li class="list-li"> платформу веб-разработчиков Netlify. <a class="link" href="https://www.netlify.com/privacy/">Политика конфиденциальности</a></li>
+	<li class="list-li"> почтовый сервис FastMail. <a class="link" href="https://www.fastmail.com/privacy/">Политика конфиденциальности</a></li>
 	<li class="list-li"> мессенджер Telegram. <a class="link" href="https://telegram.org/privacy">Политика конфиденциальности</a></li>
 </ul>
 <p> 10.&nbsp;Я&nbsp;не&nbsp;несу ответственности за&nbsp;порядок использования данных пользователя третьими лицами. </p>

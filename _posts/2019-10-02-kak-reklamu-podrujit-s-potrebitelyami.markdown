@@ -21,7 +21,7 @@ keywords: "маркетинг реклама интернет"
 <ol>
 <li> <a class="link" href="/blog/sem-tendencij-marketinga/#1">данные Adobe и&nbsp;PageFair</a>, <a class="link" href="https://adindex.ru/news/researches/2019/09/19/275603.phtml" >данные Deloitte</a> </li>
 <li> <a class="link" href="https://www.ama.org/marketing-news/reassuring-consumers-on-the-use-of-their-data/" >исследование Ryerson University</a> </li>
-<li> <a class="link" href="https://marketingland.com/most-consumers-believe-online-privacy-is-impossible-survey-finds-263538">исследование FigLeaf</a></li>
+<li> <a class="link" href="https://martech.org/most-consumers-believe-online-privacy-is-impossible-survey-finds/">исследование FigLeaf</a></li>
 </ol>
 </div>
 </div>
@@ -89,14 +89,14 @@ keywords: "маркетинг реклама интернет"
 <div class="with-side row-gap--m">
 <p>Представьте, что вы&nbsp;написали письмо и&nbsp;несете его не&nbsp;на&nbsp;почту, а&nbsp;в&nbsp;местное рекламное агентство. Просите отправить по&nbsp;указанному на&nbsp;конверте адресу. Сотрудники агентства соглашаются с&nbsp;одним условием&nbsp;— они прочтут все, что вы&nbsp;написали. И&nbsp;вы&nbsp;«Ну&nbsp;раз здесь такие правила, тогда&nbsp;да, я&nbsp;согласен (согласна)». Глупо? Но&nbsp;так происходит, когда вы&nbsp;регистрируетесь в&nbsp;гмейл или яндекс.почте. </p>
 <div class="side">
-<p>Почта, которая не&nbsp;шпионит&nbsp;— <a class="link" href="https://posteo.de/en">Posteo</a>, <a class="link" href="https://ref.fm/u21890208">FastMail</a>, <a class="link" href="https://protonmail.com/">ProtonMail</a>, <a class="link" href="https://tutanota.com/ru/">Tutanota</a></p>
+<p>Почта, которая не&nbsp;шпионит&nbsp;— <a class="link" href="https://posteo.de/en">Posteo</a>, <a class="link" href="https://ref.fm/u21890208">FastMail</a>, <a class="link" href="https://proton.me/mail">ProtonMail</a>, <a class="link" href="https://tutanota.com/ru/">Tutanota</a></p>
 </div></div>
 
 <p class="bold mb-m">Что плохого в&nbsp;сборе информации о&nbsp;пользователях? </p>
 <p class="mb-m">Вы&nbsp;не&nbsp;контролируете, кто и&nbsp;что знает о&nbsp;вас. 65% опрошенных американцев понятия не&nbsp;имеют, какие бренды и&nbsp;как используют их&nbsp;личные данные (<a class="link" href="https://www.helpnetsecurity.com/2019/07/22/brands-using-consumer-data/">исследование Acquia</a>). Здесь можно рассказать о&nbsp;Cambridge Analytica, но&nbsp;я&nbsp;приведу свежие примеры:</p>
 <ul class="additive-spacing">
 	<li class="list-li">Специалисты Privacy International выяснили, что <a class="link" href="https://web.archive.org/web/20210418235312/https://www.good-id.org/en/articles/no-bodys-business-mine-how-menstruation-apps-are-sharing-your-data/">Facebook собирает данные приложений для отслеживания менструального цикла</a> и&nbsp;привязывает их&nbsp;к&nbsp;ID&nbsp;пользователей. Пол, настроение, нюансы сексуальной жизни, личные заметки и&nbsp;прочее&nbsp;— все в&nbsp;распоряжении социальной сети. При этом в&nbsp;политике конфиденциальности приложений нет адекватного и&nbsp;понятного объяснения, какая информация собирается и&nbsp;кому передается. </li>
-	<li class="list-li">Исследователи обнаружили, что <a class="link" href="https://privacyinternational.org/long-read/3194/privacy-international-study-shows-your-mental-health-sale">Гугл, Фейсбук и&nbsp;Амазон собирает информацию о&nbsp;прохождении психологических онлайн тестов</a> и&nbsp;— очевидно&nbsp;— привязывает их&nbsp;к&nbsp;рекламному ID&nbsp;пользователя. И&nbsp;это без ведома участников тестирования. </li>
+	<li class="list-li">Исследователи обнаружили, что <a class="link" href="https://privacyinternational.org/long-read/3194/privacy-international-investigation-your-mental-health-sale">Гугл, Фейсбук и&nbsp;Амазон собирает информацию о&nbsp;прохождении психологических онлайн тестов</a> и&nbsp;— очевидно&nbsp;— привязывает их&nbsp;к&nbsp;рекламному ID&nbsp;пользователя. И&nbsp;это без ведома участников тестирования. </li>
  </ul>
 <p>Роман Джорджа Оруэлла «1984» связывают с&nbsp;описанием тоталитарного общества. В&nbsp;книге люди знают, что в&nbsp;любой момент за&nbsp;ними могут наблюдать. Это пугает автора романа. И&nbsp;это&nbsp;то, что происходит сейчас. Капитализм создает систему, которую описал Оруэлл. Опросы в&nbsp;США и&nbsp;Великобритании уже выявили установку, что <a class="link" href="https://marketingland.com/most-consumers-believe-online-privacy-is-impossible-survey-finds-263538">сохранить приватность в&nbsp;сети невозможно</a>. Люди изначально предполагают, что за&nbsp;ними смотрят, чтобы они ни&nbsp;делали онлайн. </p>
 
@@ -180,7 +180,7 @@ keywords: "маркетинг реклама интернет"
 <div class="post__note additive-spacing">
 <p>В&nbsp;2020 году <strong>вышел документальный фильм &laquo;Социальная дилемма</strong>&raquo;. </p>
 <p>В&nbsp;фильме бывшие сотрудники IT-компаний (технические эксперты Google, Apple, Instagram и&nbsp;др.) рассказывают, как изменяли дизайн приложений и&nbsp;внедряли комплекс психологических манипуляций, чтобы увеличить вовлеченность пользователей. Сейчас они бъют тревогу по&nbsp;поводу своих собственных творений.</p> 
-<p><a class="link" href="https://www.thesocialdilemma.com/ru/">сайт фильма</a> | <a class="link" href="https://filmix.ac/filmi/drama/145287-socialnaya-dilemma-2020.html" target="_blank" rel="noopener noreferrer">смотреть на&nbsp;Filmix</a></p>
+<p><a class="link" href="https://www.thesocialdilemma.com/ru/">сайт фильма</a> | <a class="link" href="https://filmix.ac/films/drama/145287-socialnaya-dilemma-2020.html" target="_blank" rel="noopener noreferrer">смотреть на&nbsp;Filmix</a></p>
 </div>
 </section>
 

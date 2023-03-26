@@ -49,7 +49,7 @@ image:
 <p>Убежден, что <b>маркетинг</b> должен укреплять отличия, значимые для целевой аудитории. Все, абсолютно все, что делает <b>маркетолог</b>, должно работать на&nbsp;эту задачу. Только так клиенты быстро найдут свою компанию, а&nbsp;компания&nbsp;&mdash; своих клиентов.</p>
 
 	<div class="with-side row-gap--m">
-			<p><strong>Новые проекты начинаю с&nbsp;поиска конкурентных преимуществ компании (продукта, бренда). Нахожу идею, с&nbsp;помощью которой компания может выделиться из&nbsp;фона конкурентов и&nbsp;стать значимой для аудитории.</strong> Такую идею я&nbsp;называю <a class="link" href="/uslugi/brand-conception" >концепцией бренда</a>. Концепция подсказывает, какие акценты расставить в&nbsp;коммуникации. Избавляет от&nbsp;избыточного и&nbsp;пустого. Активность подчиняет строгой логике и&nbsp;смыслу.</p>
+			<p><strong>Новые проекты начинаю с&nbsp;поиска конкурентных преимуществ компании (продукта, бренда). Нахожу идею, с&nbsp;помощью которой компания может выделиться из&nbsp;фона конкурентов и&nbsp;стать значимой для аудитории.</strong> Такую идею я&nbsp;называю <a class="link" href="/uslugi/brand-conception/" >концепцией бренда</a>. Концепция подсказывает, какие акценты расставить в&nbsp;коммуникации. Избавляет от&nbsp;избыточного и&nbsp;пустого. Активность подчиняет строгой логике и&nbsp;смыслу.</p>
 			<div class="side additive-spacing">
 				<p> Примеры разработанных мной концепций бренда: </p>
 				<ul>
@@ -120,7 +120,7 @@ image:
 		<span class="bold">Вам нужно настроить рекламу в&nbsp;интернете или &laquo;завести соц. сеть&raquo;. </span> Я&nbsp;не&nbsp;занимаюсь интернет-рекламой и SMM. В&nbsp;рамках проекта могу привлекать нужных специалистов, но&nbsp;это другая история.
 	</li>
 	<li class="list-li">
-		<span class="bold">Вы&nbsp;не&nbsp;согласны с&nbsp;моим подходом. </span> Есть компании с&nbsp;другими принципами работы и/или иным пониманием задач маркетинга. <a class="link" href="https://www.aidapioneer.by/ru/">AIDA Pioneer</a>, <a class="link" href="https://fabula.by/">Fabula Branding</a>, <a class="link" href="http://pgr.by/">PG&nbsp;branding</a>, <a class="link" href="http://www.tdi.by/">TDI&nbsp;Group</a> и&nbsp;другие. Если вы&nbsp;не&nbsp;разделяете мой подход и&nbsp;взгляды, они ждут вашего звонка ;-)
+		<span class="bold">Вы&nbsp;не&nbsp;согласны с&nbsp;моим подходом. </span> Есть компании с&nbsp;другими принципами работы и/или иным пониманием задач маркетинга. <a class="link" href="https://www.aidapioneer.by/ru/">AIDA Pioneer</a>, <a class="link" href="https://fabula.by/">Fabula Branding</a>, <a class="link" href="https://pgr.by/">PG&nbsp;branding</a>, <a class="link" href="https://www.tdi.by/">TDI&nbsp;Group</a> и&nbsp;другие. Если вы&nbsp;не&nbsp;разделяете мой подход и&nbsp;взгляды, они ждут вашего звонка ;-)
 	</li>
 
 </ul>

@@ -22,7 +22,7 @@ keywords: "стратегия бренда Флекс-н-Ролл"
 					<div class="guest-person">
 						<img class="image is-150x150" src="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto,e_improve/v1588702100/site/gorbacheva-600.jpg" alt="" aria-hidden="true" width="150" height="150"/>						
 					<div class="guest-person__name">Елена Горбачева</div>
-					<div class="guest-person__position">генеральный директор <a class="link" href="https://flex-n-roll.by/"><span class="noperenos">ООО «Флекс-н-Ролл»</span></a></div>
+					<div class="guest-person__position">генеральный директор <span class="noperenos">ООО «Флекс-н-Ролл»</span></div>
 			</div>
 		</div>
 	</div>
