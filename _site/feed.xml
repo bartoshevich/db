@@ -8,6 +8,14 @@
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
+        <title>Создаю концепцию бренда для компании «PES Global» (Казахстан) | Дмитрий Бартошевич</title>
+        <description>Разработка концепции бренда PES Global: погружение в&amp;nbsp;горнодобывающую отрасль Казахстана, понимание потребностей клиентов и&amp;nbsp;выявление позиционирования в&amp;nbsp;сфере поставок.</description>
+        <pubDate>Sun, 13 Aug 2023 00:00:00 +0300</pubDate>
+        <link>http://localhost:4000/blog/pes-global-brand-concept/</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/pes-global-brand-concept/</guid>
+      </item>
+    
+      <item>
         <title>Почему маркетинг — это больше, чем просто продажи | Дмитрий Бартошевич</title>
         <description>Следование ценностям и&amp;nbsp;концепции бренда становится ключевым фактором для привлечения и&amp;nbsp;удержания потребителей, а&amp;nbsp;также достижения целей, превышающих простую монетизацию.</description>
         <pubDate>Sun, 02 Apr 2023 00:00:00 +0300</pubDate>
@@ -557,14 +565,6 @@
         <pubDate>Thu, 22 Oct 2015 00:00:00 +0300</pubDate>
         <link>http://localhost:4000/blog/effektivnost-marketinga/</link>
         <guid isPermaLink="true">http://localhost:4000/blog/effektivnost-marketinga/</guid>
-      </item>
-    
-      <item>
-        <title>Хотите продать — предложите бесплатно | Дмитрий Бартошевич</title>
-        <description>Рассказываю, почему важно бесплатно давать покупателю на&amp;nbsp;пробу свой продукт или услугу</description>
-        <pubDate>Mon, 12 Oct 2015 00:00:00 +0300</pubDate>
-        <link>http://localhost:4000/blog/test-drajv-dlya-rosta-prodazh/</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/test-drajv-dlya-rosta-prodazh/</guid>
       </item>
     
   </channel>
