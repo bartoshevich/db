@@ -115,18 +115,17 @@ keywords: "брендинг, разработка стратегии разви�
 <p>Чтобы лучше понять, как концепция бренда PES Global оживает и&nbsp;воплощается в&nbsp;реальности, предлагаю познакомиться с&nbsp;рекламным разворотом, который создали на&nbsp;основе концепции. </p>
 
 <div class="full-bleed figure" itemprop="image" itemscope itemtype="http://schema.org/ImageObject">	
-		<link itemprop="url" href="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1691912934/site/pes/pes-global-mag.jpg">			
+		<link itemprop="url" href="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1692002941/site/pes/pes-global_mag.png">			
 		<img class="image border" loading="lazy" decoding="async" 
 			sizes="100vw" 
-			srcset="https://res.cloudinary.com/bartoshevich/image/upload/w_640/f_auto,q_auto/v1691912934/site/pes/pes-global-mag.jpg 640w,
-			https://res.cloudinary.com/bartoshevich/image/upload/w_1040/f_auto,q_auto/v1691912934/site/pes/pes-global-mag.jpg 1040w,
-			https://res.cloudinary.com/bartoshevich/image/upload/w_1920/f_auto,q_auto/v1691912934/site/pes/pes-global-mag.jpg 1920w,
-      https://res.cloudinary.com/bartoshevich/image/upload/w_2500/f_auto,q_auto/v1691912934/site/pes/pes-global-mag.jpg 2500w,
-      https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1691912934/site/pes/pes-global-mag.jpg 3386w"
-			src="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1691912934/site/pes/pes-global-mag.jpg"
-			width="3386" height="2283" alt="разворот в отраслевом журнале построенный на концепции бренда" itemprop="contentUrl"
+			srcset="https://res.cloudinary.com/bartoshevich/image/upload/w_640/f_auto,q_auto/v1692002941/site/pes/pes-global_mag.png 640w,
+			https://res.cloudinary.com/bartoshevich/image/upload/w_1040/f_auto,q_auto/v1692002941/site/pes/pes-global_mag.png 1040w,
+			https://res.cloudinary.com/bartoshevich/image/upload/w_1920/f_auto,q_auto/v1692002941/site/pes/pes-global_mag.png 1920w,
+      https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1692002941/site/pes/pes-global_mag.png 2438w"
+			src="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1692002941/site/pes/pes-global_mag.png"
+			width="2438" height="1644" alt="разворот в отраслевом журнале построенный на концепции бренда" itemprop="contentUrl"
 		/>
-		<div class="figcaption"> рекламный разворот для отраслевого журнала «Добывающая промышленность. Центральная Азия». <a class="link" target="_blank" href="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1691912934/site/pes/pes-global-mag.jpg">Открыть в новой вкладке</a>
+		<div class="figcaption"> рекламный разворот для отраслевого журнала «Добывающая промышленность. Центральная Азия». <a class="link" target="_blank" href="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1692002941/site/pes/pes-global_mag.png">Открыть в новой вкладке</a>
     <p>дизайнер&nbsp;— <a class="link" href="https://bizikov.ru/">Саша Бизиков</a></p></div>
 		<meta itemprop="description" content="разворот в отраслевом журнале построенный на концепции бренда">
 		</div>
