@@ -2,7 +2,7 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>http://localhost:4000/blog/vremya-dlya-strategii/</loc>
-<lastmod>2021-07-20T00:00:00+06:00</lastmod>
+<lastmod>2023-08-17T00:00:00+06:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/blog/reklamnyj-tekst-atlant-telekom/</loc>
@@ -360,14 +360,14 @@
 </url>
 <url>
 <loc>http://localhost:4000/assets/images/contact/ebrd__bartoshevich.pdf</loc>
-<lastmod>2023-08-14T14:32:02+06:00</lastmod>
+<lastmod>2023-08-17T10:39:07+06:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/assets/media/blog/kak-privlech-klientov/2018_Edelman_Earned_Brand_Global_Report.pdf</loc>
-<lastmod>2023-08-14T14:32:02+06:00</lastmod>
+<lastmod>2023-08-17T10:39:07+06:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/credential/</loc>
-<lastmod>2023-08-14T14:32:02+06:00</lastmod>
+<lastmod>2023-08-17T10:39:07+06:00</lastmod>
 </url>
 </urlset>
