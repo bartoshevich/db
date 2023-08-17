@@ -153,3 +153,18 @@ image: /assets/images/tizers/tizer-31.jpg
 <p>Ресурс для «отличников». После каждой главы вас ждут задания. Пригодятся карандаши, толстые газеты, книги и&nbsp;черновики. Результат&nbsp;— научитесь более осознанно выбирать слова, строить фразы и&nbsp;предложения.</p>
 </article>
 </section>
+
+<footer class="additive-spacing">
+<p class="mb-m mt-m"> Дополнительные материалы:</p>
+<ul class="addictive-spacing">
+<li class="list-li">
+  <a href="/blog/spam-replacement/" class="link"> Чем заменить рекламную листовку</a>
+</li>
+<li class="list-li">
+  <a href="/blog/editorial-policy/" class="link"> Зачем бренду редакционная политика</a>
+</li>
+<li class="list-li">
+  <a href="/blog/reklamnyj-tekst-atlant-telekom/" class="link"> Анализ и&nbsp;улучшение рекламного текста: кейс Атлант Телеком</a>
+</li>
+</ul>
+</footer>
