@@ -49,8 +49,7 @@ image: /assets/images/tizers/tizer-1.jpg
 
 <p class="mb-m mt-m"> Если вы&nbsp;хотите узнать больше о&nbsp;том, как адаптировать ваш маркетинговый план к&nbsp;текущим экономическим условиям, изучите следующие материалы:</p>
 <ul class="addictive-spacing">
-<li class="list-li">
-  <a href="/blog/perfomance-and-brand-marketing/" class="link">Бренд и&nbsp;перфоманс маркетинг&nbsp;&mdash; что важно знать маркетологу</a>
+<li class="list-li"><a href="/blog/covid-2019/" class="link">Коронавирус и&nbsp;маркетинг: стратегии бренда в&nbsp;условиях пандемии</a>
 </li>
 <li class="list-li">
   <a href="/blog/marketing-v-krizis/" class="link"> Маркетинг в&nbsp;кризис: стратегия для брендов</a>
