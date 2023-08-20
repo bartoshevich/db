@@ -62,6 +62,9 @@ image:
 					<li class="list-li">
 						<a class="link" href="/blog/brand-strategy-flex-n-roll/"><span class="noperenos">Flex-n-Roll</span></a>
 					</li>
+					<li class="list-li">
+						<a class="link" href="/blog/pes-global-brand-concept/">PES Global (Казахстан)</a>
+					</li>
 				</ul>
 
 

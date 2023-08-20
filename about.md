@@ -1,11 +1,11 @@
 ---
 layout: about
 permalink: /about/
-description: "Узнайте о&nbsp;Бартошевиче от&nbsp;первого&nbsp;лица" 
-title: "Обо мне | Дмитрий Бартошевич"
+description: "Я&nbsp;Дмитрий Бартошевич&nbsp;&mdash; консультант по&nbsp;маркетингу и&nbsp;стратегии, который ставит доверие и&nbsp;пользу на&nbsp;первое место. Рассказываю об&nbsp;опыте, образовании и&nbsp;понимании, как маркетинг должен работать." 
+title: "Маркетинг без обмана: Моя история и методы | Дмитрий Бартошевич"
 keywords: ""
 date:   2022-04-02
-last_modified_at: 2022-04-02
+last_modified_at: 2023-08-20
 image:
 ---
 
@@ -51,39 +51,39 @@ image:
 <section class="full-bleed  row-gap--m">
     
 
-    <h2 class=" bold h1">Мои ценности</h2>
-
-  <p>В&nbsp;норме <strong>маркетологи приносят пользу целевой аудитории</strong> и&nbsp;формируют доверие. Не&nbsp;приемлят &laquo;втюхинг&raquo;, обман и&nbsp;манипулирование.</p>
+    <h2 class=" bold h1">Что&nbsp;важно для меня в&nbsp;маркетинге</h2>
+<p>Для меня настоящий <strong>маркетолог</strong> — это тот, кто приносит пользу своей аудитории и строит отношения на доверии, избегая манипуляций, &laquo;втюхинга&raquo; и обмана.</p>
+ 
     
     <div class="border-top"></div>   
     <div class="full-bleed full-bleed-row mt-m row-gap--m">
         <div class="grid-column__first-four">
-            <p>
-   Одно отраслевое интернет-издание разместило пример успешного продвижения медицинского центра. С&nbsp;гордостью автор кейса сообщил, как <b>маркетолог</b> создал и&nbsp;распространил более 300 положительных фейковых отзывов о&nbsp;центре. Люди поверили и&nbsp;пришли. В&nbsp;моем мире подобные практики к&nbsp;маркетингу не&nbsp;имеют никакого отношения.
-     </p> 
+
+        <p>Однажды я&nbsp;столкнулся с&nbsp;кейсом, где <b>маркетолог</b> гордо рассказывал о&nbsp;создании 300 фейковых отзывов для медицинского центра. Люди поверили и&nbsp;пришли. В&nbsp;моем мире подобные практики к&nbsp;маркетингу не&nbsp;имеют никакого отношения. </p>
+ 
         </div>
         <div class="grid-column__last-six  row-gap--m">
 
          <p class="mb-m">
-Узнать больше о&nbsp;ценностях в&nbsp;маркетинге:
+Давайте менять мир маркетинга вместе. Погрузитесь в&nbsp;мои размышления:
      </p>       
      <ul class="additive-spacing">
             <li class="list-li ">
                 <a class="link" href="/blog/konkurentnoe-preimushhestvo/" > Конкурентное преимущество в&nbsp;пользе и&nbsp;доверии</a>    
             </li>
             <li class="list-li">
-                <a class="link" href="/blog/kak-reklamu-podrujit-s-potrebitelyami/" >Время блокировать рекламу</a>      
+                <a class="link" href="/blog/perfomance-and-brand-marketing/" >Бренд и&nbsp;перфоманс маркетинг&nbsp;&mdash; что важно знать маркетологу</a>      
             </li>
             <li class="list-li">
-                <a class="link" href="/blog/put-marketologa/">Слово о&nbsp;Пути маркетолога</a>      
+                <a class="link" href="/blog/2-idei-po-razvitiyu-marketinga/">Как восприятие клиента определяет успех продукта</a>      
             </li>
             <li class="list-li">
-                <a class="link" href="/blog/kak-privlech-klientov/">Клиентов привлекают убеждения, а&nbsp;не&nbsp;товары</a>      
+                <a class="link" href="/blog/marketing-bolshe-chem-prodazhi/">От&nbsp;распродаж к&nbsp;стратегии: почему маркетинг&nbsp;&mdash; это больше, чем просто продажи</a>      
             </li>
      </ul>
 
          <p class="mb-m">
-А&nbsp;также о&nbsp;моей работе
+Узнайте больше о&nbsp;моем пути и&nbsp;принципах работы:
      </p>       
      <ul class="additive-spacing">
             <li class="list-li ">
