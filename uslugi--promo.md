@@ -96,10 +96,62 @@ keywords: "реклама, рекламные кампании"
 	</div>
 </div>
 
+<p><span class="bold">Пример 4</span><br>
+Рекламный аудио ролик для белорусского офиса Hörmann: разговор между отцом и&nbsp;сыном о&nbsp;том, сколько раз нужно что-то делать, чтобы достичь совершенства. Диалог подчеркивает опыт Hörmann в&nbsp;производстве гаражных ворот.
+</p>
 
-
-
+ <div class="figure">
+   <audio controls>
+       <source  src="/assets/media/project/hormann_100.mp3" type="audio/mpeg">		
+       Аудиопроигрователь не поддерживается вашим браузером :-( 
+   </audio>
+   <div class="figcaption">
+      Идея и&nbsp;сценарий&nbsp;&mdash; Дмитрий Бартошевич
+   </div>
+   <details>
+       <summary>
+        <span class="link">Транскрипт аудио ролика </span>
+       </summary>
+       <div class="mt-m">
+           <p>—&nbsp;Папа, а&nbsp;сколько раз нужно сделать, чтобы получилось хорошо? </p>
+           <p>—&nbsp;Сто раз так точно, сынок. </p>
+           <p>—&nbsp;Ого!.. А&nbsp;вот наши ворота... мм, как там...</p>
+           <p>—&nbsp;Хёрманн? </p>
+           <p>—&nbsp;Да, Хёрманн! Им&nbsp;уже 10&nbsp;лет, а&nbsp;они работают. Вот их&nbsp;сколько раз делали? </p>
+           <p>—&nbsp;Больше 10&nbsp;миллионов раз. </p>
+           <p>—&nbsp;Так много?! Теперь понятно, почему у&nbsp;них так хорошо получается. </p>
+           <p>Отбивка: «Хёрманн знает, как делать гаражные ворота». </p>
+       </div>
+   </details>
+</div>
       
+<p><span class="bold">Пример 5</span><br>
+Рекламный аудио ролик для белорусского офиса H&ouml;rmann. Диалог персонажей акцентирует внимание на&nbsp;глобальной узнаваемости и&nbsp;распространенности бренда. 
+</p>
+
+ <div class="figure">
+   <audio controls>
+       <source  src="/assets/media/project/garage_doors_translation.mp3" type="audio/mpeg">		
+       Аудиопроигрователь не поддерживается вашим браузером :-( 
+   </audio>
+   <div class="figcaption">
+       Идея и&nbsp;сценарий&nbsp;&mdash; Дмитрий Бартошевич
+   </div>
+   <details>
+       <summary>
+        <span class="link">Транскрипт аудио ролика </span>
+       </summary>
+       <div class="mt-m">
+           <p>—&nbsp;Как сказать на&nbsp;немецком «гаражные ворота»?</p>
+           <p> —&nbsp;Хёрманн.</p>
+            <p>—&nbsp;А&nbsp;на&nbsp;арабском?</p>
+            <p>—&nbsp;Хёрманн.</p>
+           <p> —&nbsp;А&nbsp;на&nbsp;португальском, скажешь, тоже «Хёрманн»?</p>
+           <p> —&nbsp;И&nbsp;на&nbsp;португальском.</p>
+            <p>Отбивка: «Гаражные ворота Хёрманн&nbsp;— от&nbsp;Аляски до&nbsp;Австралии» </p>
+       </div>
+   </details>
+</div>
     
 </main>
 
