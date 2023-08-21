@@ -49,7 +49,7 @@ keywords: "услуги консультанта по маркетингу и с
                 </li>
                 <li class="block__item" >
                         <h2  class="block__name--align-left h2 uslugi__mark"><a href="/uslugi/razrabotka-reklamnyh-kampanij/"  class="link"><span itemprop="serviceType">Разработка рекламных кампаний</span></a></h2>
-                        <p class="block__content">Предлагаю индивидуальный подход, учитывая особенности вашей отрасли и&nbsp;целевой аудитории, чтобы максимизировать инвестиции в&nbsp;рекламу и&nbsp;достичь наилучших результатов</p>                   
+                        <p class="block__content">Учитываю особенности вашей отрасли и&nbsp;целевой аудитории, чтобы максимизировать инвестиции в&nbsp;рекламу и&nbsp;достичь наилучших результатов.</p>                   
                 </li>
                 <li class="block__item">             
                     <h2 class="block__name--align-left h2 uslugi__mark"><a href="/uslugi/autsorsing-marketinga/" class="link"><span itemprop="serviceType">Абонентское обслуживание</span></a></h2>
