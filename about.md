@@ -65,7 +65,7 @@ image:
         <div class="grid-column__last-six  row-gap--m">
 
          <p class="mb-m">
-Давайте менять мир маркетинга вместе. Погрузитесь в&nbsp;мои размышления:
+Давайте менять маркетинг вместе! Мир моих размышлений:
      </p>       
      <ul class="additive-spacing">
             <li class="list-li ">
