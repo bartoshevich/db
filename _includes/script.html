@@ -1,21 +1,4 @@
 
-{% comment %}
-<!-- <script nonce="fb24hoEs7SAuKSJtnth">
-    (() => {
-        const menuButton = document.querySelector('.menu__button');
-        const menuList = document.querySelector('.menu__header');
-
-        menuButton.addEventListener('click', () => {
-            let expanded = menuButton.getAttribute('aria-expanded') === 'true';
-            menuButton.setAttribute('aria-expanded', !expanded);
-            menuButton.classList.toggle('menu__button--open');
-            menuList.classList.toggle('menu__header--open');
-        });
-    })();
-</script> -->
-
-{% endcomment %}
-
 <script nonce="fb24hoEs7SAuKSJtnth">
   /* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&dn=expat.txt Expat */
  const menuList = document.querySelector('.menu__header');
@@ -43,32 +26,22 @@
       /* @license-end  */
 </script>
 
-{% comment %}
-        <!-- Закрытие по клику на пункт меню  -->
-        const navLinks = document.querySelectorAll('.link');    
 
-        function closeMenu(event) {
-          if (event.target.classList.contains('link')) {
-            let expanded = menuButton.getAttribute('aria-expanded') === 'true';
-                  menuButton.setAttribute('aria-expanded', !expanded);
-                  menuList.classList.remove('menu__header--open');
-                  menuButton.classList.remove('menu__button--open'); 
-          }
-        }
 
-        navLinks.forEach((el) => el.addEventListener('click', closeMenu));   
 
-{% endcomment %}
+
 
 <script nonce="MN74tf5oWgJCtut2TWs">
 /* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&dn=expat.txt Expat */
-    if ('serviceWorker' in navigator) {
-      navigator.serviceWorker.register('/service-workers.js', { scope: '/' }).then(function(reg) {
-        console.log('Registration succeeded. Scope is ' + reg.scope);
-      }).catch(function(error) {
-        console.log('Registration failed with ' + error);
+if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('/service-workers.js', { scope: '/' })
+      .then(function(reg) {
+        console.log(`Registration succeeded. Scope is ${reg.scope}`);
+      })
+      .catch(function(error) {
+        console.log(`Registration failed with ${error}`);
       });
-    };
+  }
     
    /* @license-end  */
 </script>
