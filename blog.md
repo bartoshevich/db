@@ -18,7 +18,7 @@ image:
        
 
 
-<div class="intro max-width-text"><h1 class="inline bold">Блог</h1>. <strong>Возвращаю смысл в&nbsp;маркетинг</strong>. Делюсь идеями, наблюдениями, опытом. Подписаться на&nbsp;обновления: <a class="link" href="https://t.me/+OuzxNOZg-g44ZjYy">Telegram</a>, <a class="link" href="https://eepurl.com/cmkKcz">эл.почта</a> </div>
+<div class="intro max-width-text"><h1 class="inline bold">Блог</h1>. <strong>Возвращаю смысл в&nbsp;маркетинг</strong>. Делюсь идеями, наблюдениями, опытом. Подписаться на&nbsp;обновления: <a class="link" href="https://t.me/+OuzxNOZg-g44ZjYy">telegram</a>, <a class="link" href="https://eepurl.com/cmkKcz">эл.почта</a> </div>
 
 	
 
