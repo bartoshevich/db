@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "Хотите продать — предложите бесплатно | Дмитрий Бартошевич"
-name: "Хотите продать — предложите бесплатно"
-description: "Рассказываю, почему важно бесплатно давать покупателю на&nbsp;пробу свой продукт или услугу"
+title: "Как увеличить продажи с помощью тест-драйва продукта и бесплатных пробников | Дмитрий Бартошевич"
+name: "Хотите увеличить продажи? Предложите что-то бесплатно"
+description: "Рассказываю, как предложение бесплатных пробников и&nbsp;организация тест-драйвов могут стимулировать продажи и&nbsp;укрепить отношения с&nbsp;клиентами."
 date:   2015-10-12
-last_modified_at: 2022-02-04
+last_modified_at: 2023-09-17
 categories: мнение
 permalink: "/blog/test-drajv-dlya-rosta-prodazh/"
 tags: "инструменты"
@@ -15,7 +15,9 @@ image: /assets/images/tizers/tizer-9.jpg
 
 {% include post__header--update.html %}
 
-<p>Не&nbsp;понимаю мотивацию компаний, которые в&nbsp;торговых залах размещают плакаты «Руками не&nbsp;трогать», «Детям не&nbsp;играть». Для меня надпись в&nbsp;магазине стульев «не&nbsp;садиться» равносильна вывеске в&nbsp;магазине одежды «не&nbsp;примерять». Эффект тот&nbsp;же. </p>
+<p>Компании, которые в&nbsp;своих торговых залах вывешивают таблички типа «Не&nbsp;трогать!» или «Детям не&nbsp;играть», упускают нечто важное. Они фактически говорят: «Мы&nbsp;не&nbsp;доверяем вам». И&nbsp;что может быть хуже для бизнеса, чем отсутствие доверия? </p>
+
+<p>Эффективный маркетинг начинается с&nbsp;доверия и&nbsp;открытости. Дайте людям возможность взаимодействовать с&nbsp;вашим продуктом, пусть они почувствуют его, испытают на&nbsp;себе. Это не&nbsp;просто тактика. Это философия взаимоотношений с&nbsp;клиентами, которая в&nbsp;корне меняет их&nbsp;опыт и&nbsp;вашу прибыль.</p>
 <p>Автоцентры организовывают тест драйвы. В&nbsp;книжных онлайн-магазинах можно прочесть несколько глав вызвавшей интерес книги. Представители косметических и&nbsp;парфюмерных компаний добавляют к&nbsp;покупке набор пробников. Эти примеры&nbsp;— не&nbsp;благотворительность, а&nbsp;способ увеличения продаж. </p>
 
 <div class="post__note h2 max-width-text">Если хотите меньше продаж в&nbsp;книжном магазине, заверните книги в&nbsp;целлофан. Хотите, чтобы книги покупали&nbsp;— целлофан уберите.</div>
@@ -25,10 +27,10 @@ image: /assets/images/tizers/tizer-9.jpg
    <picture>
     <source srcset="/assets/images/blog/test-drajv-dlya-rosta-prodazh/test2.avif" type="image/avif">
         <source srcset="/assets/images/blog/test-drajv-dlya-rosta-prodazh/test2.webp" type="image/webp">
-        <img loading="lazy" decoding="async" class="image"  src="/assets/images/blog/test-drajv-dlya-rosta-prodazh/test2.jpg" alt="детский стол с предупреждением беречь от детей" width="695" height="521"  itemprop="contentUrl" />
+        <img loading="lazy" decoding="async" class="image"  src="/assets/images/blog/test-drajv-dlya-rosta-prodazh/test2.jpg" alt="Детский стол с ограничительной надписью как пример неэффективной маркетинговой стратегии" width="695" height="521"  itemprop="contentUrl" />
 	</picture>
 <div class="figcaption">
-Сел ребенок за&nbsp;стол&nbsp;&mdash; жесточайще наказать. А&nbsp;потом купить мебель. Видимо, такая у&nbsp;продавцов логика.
+Отношения с&nbsp;потенциальным покупателем не&nbsp;стоит начинать с&nbsp;запретов.
 </div>
 </div>
 
@@ -36,10 +38,10 @@ image: /assets/images/tizers/tizer-9.jpg
 		<link itemprop="url" href="/assets/images/blog/test-drajv-dlya-rosta-prodazh/test3.jpg">
 <picture>
     <source srcset="/assets/images/blog/test-drajv-dlya-rosta-prodazh/test3.webp" type="image/webp">
-    <img loading="lazy" decoding="async" class="image" src="/assets/images/blog/test-drajv-dlya-rosta-prodazh/test3.jpg" alt="стул с предупреждением не садиться" width="695" height="857"  itemprop="contentUrl"/>
+    <img loading="lazy" decoding="async" class="image" src="/assets/images/blog/test-drajv-dlya-rosta-prodazh/test3.jpg" alt="Стул в магазине мебели с листом 'Убедительная просьба не садиться на образцы' — пример противоречивой маркетинговой стратегии" width="695" height="857"  itemprop="contentUrl"/>
     </picture>
 <div class="figcaption">
-На&nbsp;образец не&nbsp;садиться! Уже пятый за&nbsp;час сломали! :-) 
+Иллюстрация распространеной ошибки: создание барьеров между продуктом и&nbsp;потенциальным покупателем.
 </div>	
 </div>
 
@@ -71,7 +73,7 @@ image: /assets/images/tizers/tizer-9.jpg
         </button>
 </div>
 <div class="figcaption">
-тест-драйв блендера: справится ли с iPhone 6&nbsp;Plus и&nbsp;Samsung Galaxy Note&nbsp;3?
+тест-драйв блендера: справится ли с iPhone 6&nbsp;Plus и&nbsp;Samsung Galaxy Note&nbsp;3? Нестандартный маркетинг Blendtec!
 </div>
 </div>
 </section>
