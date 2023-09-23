@@ -1,6 +1,51 @@
-
 .newsletter {
   margin:var(--space-3xl) 0 0 0;
+}
+
+:root {
+  --background-light: #f4f4f4;
+  --background-dark: #2c2c2c;
+  --link-background-light: #007bff;
+  --link-background-dark: #0056b3;
+  --link-hover-light: #0056b3;
+  --link-hover-dark: #004080;
+}
+
+
+
+
+
+[data-theme='light'] .subscription-block {
+  background-color: var(--background-light);
+  
+}
+
+[data-theme='dark'] .subscription-block {
+  background-color: var(--background-dark);
+}
+
+.subscription-block {
+  padding: 1em;
+  border-radius: .5em;
+  @media (max-width: 560px) {
+    padding: .5em; 
+  }
+  margin: 0 auto;
+  color: var(--text-colour);
+}
+
+
+
+.subscription-options {
+
+  display: grid;
+  grid-template-columns: 1fr;
+  row-gap: 1.2em;
+  column-gap: 1.1em;
+
+  @media (min-width: 700px) {
+    grid-template-columns: 1fr 1fr;
+  }
 }
 
 
