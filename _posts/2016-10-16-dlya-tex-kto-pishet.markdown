@@ -1,38 +1,40 @@
 ---
 layout: post
-title: "Как написать сильный текст: полезные ресурсы | Дмитрий Бартошевич"
-name: "Как написать сильный текст: полезные ресурсы"
-description: "Сервисы и&nbsp;материалы, которые помогут составить сильный рекламный текст, подготовить понятное коммерческое предложение и&nbsp;ясно описать товар на&nbsp;сайте."
+title: "Текст, который работает: мастер-класс редактуры | Дмитрий Бартошевич"
+name: "Делайте текст убедительным: лучшие инструменты и&nbsp;рекомендации"
+description: "Узнайте об&nbsp;инструментах и&nbsp;ресурсах, которые сделают ваш контент четким, ясным и&nbsp;убедительным. Вдохновляйтесь и&nbsp;создавайте текст, который заставит мир прислушиваться."
 date:   2016-10-16
-last_modified_at: 2023-08-17
+last_modified_at: 2023-09-23
 categories: мнение
 permalink: "/blog/dlya-tex-kto-pishet/"
 tags: "инструменты"
-keywords: "как написать текст рекламы"
+keywords: "редактирование текста, сильный текст, читабельность текста, уникальность текста, главред, SEO текст, сервисы для текста, инструменты редактирования текста, типография текста, книги по написанию текста"
 image: /assets/images/tizers/tizer-31.jpg
 ---
 
 {% include post__header--update.html %}
 
 <p><strong>Составить сильный рекламный текст, подготовить понятное коммерческое предложение и&nbsp;ясно описать товар на&nbsp;сайте</strong> помогут сервисы и&nbsp;материалы, о&nbsp;которых расскажу в&nbsp;статье.</p>
-<p>Читайте, изучайте и&nbsp;используйте. Устали от&nbsp;«словесного мусора»&nbsp;— поделитесь статьей в&nbsp;социальных сетях.</p>
 
 <section class="row-gap--m">
 <h2 class="section__title h1 bold ">Сервисы</h2>
 
 <article class="row-gap--m">
-<h3 class="h2 bold mb-m">1) Главред&nbsp;— <a class="link" href="https://glvrd.ru/">glvrd.ru</a></h3>
-<div class="with-side row-gap--m">
+<h3 class="h2 bold mb-m"><a class="link" href="https://glvrd.ru/">Главред</a></h3>
+<div class="row-gap--m">
 <p>Сервис беспощадно отмечает и&nbsp;просит убрать из&nbsp;текста стоп-слова, рекламные штампы, канцелярит и&nbsp;плохой синтаксис. Последуете советам&nbsp;— текст станет короче, понятнее и&nbsp;информативнее.</p>
 <p>Когда я&nbsp;узнал о&nbsp;Главреде, пробовал писать новые статьи в&nbsp;браузере на&nbsp;странице сервиса. Результат&nbsp;— «зависал» на&nbsp;первом абзаце, который полировал несколько часов. Не&nbsp;повторяйте ошибки&nbsp;— проверяйте и&nbsp;редактируйте уже написанный текст.</p>
 <p>Также советую ознакомиться <a class="link" href="http://maximilyahov.ru/blog/all/glvrd-7/">с&nbsp;рекомендациями Максима Ильяхова&nbsp;</a>— автора Главреда&nbsp;— по&nbsp;работе с&nbsp;сервисом.</p>
-
-<div class="side">
-<p><span class="bold">Дополнено:</span> в&nbsp;декабре 2017 компания «Ашманов и&nbsp;партнёры» открыла доступ к&nbsp;сервису по&nbsp;оценке качества текста&nbsp;— <a class="link" href="https://turgenev.ashmanov.com/">«Тургенев»</a>. Сделан сервис на&nbsp;основе мониторинга факторов ранжирования в&nbsp;Яндексе и&nbsp;Гугл. Еще один полезный инструмент для <b>маркетолога</b>. </p></div></div>
+</div>
 </article>
 
 <article class="row-gap--m">
-<h3 class="h2 bold mt-m mb-m">2) Оценка читабельности текста&nbsp;— <a class="link" href="http://readability.io/">readability.io</a></h3>
+<h3 class="h2 bold mt-m  mb-m"><a class="link" href="https://turgenev.ashmanov.com/">Тургенев</a></h3>
+<p>В&nbsp;декабре 2017 компания «Ашманов и&nbsp;партнёры» открыла доступ к&nbsp;сервису по&nbsp;оценке качества текста&nbsp;— «Тургенев». Сделан сервис на&nbsp;основе мониторинга факторов ранжирования в&nbsp;Яндексе и&nbsp;Гугл. Он&nbsp;выявляет неестественные повторы и&nbsp;оценивает &laquo;водность&raquo;, устраняет SEO-штампы и&nbsp;канцелярит, предоставляет рекомендации по&nbsp;улучшению читабельности. Это позволяет минимизировать риск санкций от&nbsp;поисковых систем и&nbsp;улучшить качество написания. </p>
+</article>
+
+<article class="row-gap--m">
+<h3 class="h2 bold mt-m mb-m">Оценка читабельности текста&nbsp;— <a class="link" href="http://readability.io/">readability.io</a></h3>
 <p>Сервис считает длину слов и&nbsp;предложений, долю сложных слов и&nbsp;терминов, уровень абстрактности лексики и&nbsp;прочее, чтобы определить легкость восприятия текста. После вычислений показывает индекс уровня читабельности и&nbsp;возраст человека, которому текст будет понятен.</p>
 <p><em>Пример:</em> взял заведомо сложный материал&nbsp;— несколько глав из&nbsp;«Критики чистого разума» Канта&nbsp;— и&nbsp;оцифровал легкость восприятия. Уровень читабельности&nbsp;— 17.2. Аудитория&nbsp;— <span class="noperenos">4-6</span> курсы ВУЗа. Эти показатели&nbsp;— точка отсчета. По&nbsp;отношению к&nbsp;ним рассмотрел другие, случайно выбранные статьи. Обнаружил, что Нацбанк РБ&nbsp;описывает работу с&nbsp;обращениями граждан сложнее, чем Кант рассуждал о&nbsp;категориях рассудка и&nbsp;антиномиях разума.</p>
 
@@ -81,14 +83,14 @@ image: /assets/images/tizers/tizer-31.jpg
 
 
 <article class="row-gap--m">
-<h3 class="h2 bold mt-m mb-m">3) Проверка текста на&nbsp;уникальность&nbsp;— <a class="link" href="//text.ru/">text.ru</a></h3>
+<h3 class="h2 bold mt-m mb-m">Проверка текста на&nbsp;уникальность&nbsp;— <a class="link" href="//text.ru/">text.ru</a></h3>
 <p>Сервис проверит орфографию, наличие дубликатов в&nbsp;сети и&nbsp;проведет SEO-анализ текста.</p>
 <p>Перед публикацией статьи убеждаюсь, что уникальность близка или равна 100%. Несколько раз проверял и&nbsp;после опубликования. Дважды находил воров&nbsp;— люди скопировали мои записи и&nbsp;выдали за&nbsp;свои.</p>
 </article>
 
 
 <article class="row-gap--m">
-<h3 class="h2 bold mt-m mb-m">4) <a class="link" href="https://www.artlebedev.ru/typograf/">Типограф</a> Студии Артемия Лебедева</h3>
+<h3 class="h2 bold mt-m mb-m"><a class="link" href="https://www.artlebedev.ru/typograf/">Типограф</a> Студии Артемия Лебедева</h3>
 <p>Типограф грамотно оформляет статью перед публикацией в&nbsp;интернете: расставляет правильные кавычки, правильное тире между словами и&nbsp;дефис для двойных слов, убирает лишние пробелы и&nbsp;т.д. С&nbsp;типографом статьи выглядят опрятно.</p>
 
 
@@ -108,7 +110,7 @@ image: /assets/images/tizers/tizer-31.jpg
 <h2 class="section__title h1 bold ">Знания</h2>
 
 <article class="row-gap--m">
-<h3 class="h2 bold mb-m">5) Основной <a class="link" href="http://maximilyahov.ru/blog/all/availability/" >курс по&nbsp;информационному стилю</a></h3>
+<h3 class="h2 bold mb-m"><a class="link" href="http://maximilyahov.ru/blog/all/availability/" >Курс по&nbsp;информационному стилю</a></h3>
 <p>Текст в&nbsp;информационном стиле&nbsp;— лаконичный, честный и&nbsp;интересный. Рассылку базового курса Максим Ильяхов выложил в&nbsp;сеть. Изучите и&nbsp;оставьте «Главред» без работы </p>
 <p>Как дополнение к&nbsp;рассылке рекомендую
  <a class="link" href="http://lib.ru/TRANSLATORS/NORA_GAL/slowo.txt">книгу Норы Галь «Слово живое и&nbsp;мертвое»</a>
@@ -116,13 +118,33 @@ image: /assets/images/tizers/tizer-31.jpg
 </article>
 
 <article class="row-gap--m">
-<h3 class="h2 bold mt-m mb-m">6) <a class="link" href="https://soviet.glvrd.ru/" >Советы и&nbsp;статьи о&nbsp;тексте, редактуре и&nbsp;рекламе</a></h3>
+<h3 class="h2 bold mt-m mb-m"><a class="link" href="https://t.me/propisi_kruzhok">Прописи: творческий кружок для развития навыков письма</a></h3>
+<p>Интерактивный кружок, где участники развивают навык написания текстов через решение творческих задач. Здесь текст рассматривается как инструмент решения различных проблем, а&nbsp;участие в&nbsp;кружке&nbsp;— как возможность на&nbsp;практике применить и&nbsp;улучшить свои навыки написания.</p>
+<p class="mb-m">Как это работает:</p>
+<ul> 
+	<li class="list-li"><span class="italic">Игровой формат:</span> Участники получают задания каждый день и&nbsp;отправляют свои решения, получая обратную связь.</li>
+	<li class="list-li"><span class="italic">Обучение и&nbsp;обсуждение:</span> Доступ к&nbsp;закрытому блогу с&nbsp;материалами о&nbsp;текстах, дизайне и&nbsp;рекламе, а&nbsp;также обсуждение различных тем в&nbsp;чате.</li>
+	<li class="list-li"><span class="italic">Практика:</span> Работа над реальными кейсами и&nbsp;обсуждение их&nbsp;с&nbsp;другими участниками для получения полезного опыта.</li>
+ </ul>
+
+<div itemprop="image" itemscope itemtype="http://schema.org/ImageObject">	
+	<link itemprop="url" href="https://res.cloudinary.com/bartoshevich/image/upload/v1695461329/site/propisi.jpg">	
+                <img class="image" loading="lazy" decoding="async" src="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1695461329/site/propisi.jpg"  alt="текст заданий кружка Прописи" width="1280" height="613" itemprop="contentUrl" >	 
+	<div class="figcaption">
+		<p>	примеры заданий второго сезона кружка </p>
+	</div>  
+</div>
+
+</article>
+
+<article class="row-gap--m">
+<h3 class="h2 bold mt-m mb-m"><a class="link" href="https://soviet.glvrd.ru/" >Советы и&nbsp;статьи о&nbsp;тексте, редактуре и&nbsp;рекламе</a></h3>
 <p>Вы&nbsp;узнаете, как объяснить сложные вещи, сделать занудное описание интересным, подтолкнуть человека к&nbsp;полезному действию и&nbsp;многое другое. Каждый совет с&nbsp;примерами.</p>
 </article>
 
 <article class="row-gap--m">
-<h3 class="h2 bold mt-m mb-m">7) Блоги</h3>
-<ul class="additive-spacing">
+<h3 class="h2 bold mt-m mb-m">Блоги</h3>
+<ul class="">
 	<li class="list-li"><a class="link" href="http://maximilyahov.ru/blog/" >Блог Максима Ильяхова</a> о&nbsp;сильном тексте</li>
 	<li class="list-li"><a class="link" href="https://sarycheva.plus/notes/" >Блог Люды Сарычевой</a> о&nbsp;редакторском мастерстве</li>
 	<li class="list-li"><a class="link" href="https://irinausichenko.ru/blog/" >Безжалостная Усиченко</a> о&nbsp;том, как быть сильным: в&nbsp;жизни, редактуре и&nbsp;просто так.</li>
@@ -130,7 +152,7 @@ image: /assets/images/tizers/tizer-31.jpg
 </article>
 
 <article class="row-gap--m">
-<h3 class="h2 bold mt-m mb-m">8) Редполитики <a class="link" href="https://docs.google.com/document/d/14XdGIjVJLM_FsjHzyh5ca8PkffngykzXd2bLPHzA2ME/edit#heading=h.1xvoj9mbqgeo" >Тинькофф-журнала</a>&nbsp;и <a class="link" href="https://docs.google.com/document/d/1c_2uP1PpiM12h1ee8egVXAoUCJ9mE9r68zMqrqmS8VA/edit#heading=h.qfb376lrh4iy" >Модульбанка</a></h3>
+<h3 class="h2 bold mt-m mb-m">Редполитики <a class="link" href="https://docs.google.com/document/d/14XdGIjVJLM_FsjHzyh5ca8PkffngykzXd2bLPHzA2ME/edit#heading=h.1xvoj9mbqgeo" >Тинькофф-журнала</a>&nbsp;и <a class="link" href="https://docs.google.com/document/d/1c_2uP1PpiM12h1ee8egVXAoUCJ9mE9r68zMqrqmS8VA/edit#heading=h.qfb376lrh4iy" >Модульбанка</a></h3>
 <p>Привожу как пример принципов работы с&nbsp;текстом, ориентированных на&nbsp;пользу и&nbsp;развитие доверия у&nbsp;читателей.</p>
 
 
@@ -149,7 +171,7 @@ image: /assets/images/tizers/tizer-31.jpg
 
 
 <article class="row-gap--m">
-<h3 class="h2 bold mt-m mb-m">9) <a class="link" href="//royallib.com/book/klark_roy_piter/50_priemov_pisma.html" >Книга «50&nbsp;приемов письма»</a> Роя Питера Кларка</h3>
+<h3 class="h2 bold mt-m mb-m"><a class="link" href="//royallib.com/book/klark_roy_piter/50_priemov_pisma.html" >Книга «50&nbsp;приемов письма»</a> Роя Питера Кларка</h3>
 <p>Ресурс для «отличников». После каждой главы вас ждут задания. Пригодятся карандаши, толстые газеты, книги и&nbsp;черновики. Результат&nbsp;— научитесь более осознанно выбирать слова, строить фразы и&nbsp;предложения.</p>
 </article>
 </section>
@@ -161,7 +183,7 @@ image: /assets/images/tizers/tizer-31.jpg
   <a href="/blog/spam-replacement/" class="link"> Чем заменить рекламную листовку</a>
 </li>
 <li class="list-li">
-  <a href="/blog/editorial-policy/" class="link"> Зачем бренду редакционная политика</a>
+  <a href="/blog/editorial-policy/" class="link"> Разработка и&nbsp;внедрение редполитики: создание целостного бренда</a>
 </li>
 <li class="list-li">
   <a href="/blog/reklamnyj-tekst-atlant-telekom/" class="link"> Анализ и&nbsp;улучшение рекламного текста: кейс Атлант Телеком</a>
