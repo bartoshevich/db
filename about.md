@@ -51,7 +51,7 @@ image:
 <section class="full-bleed  row-gap--m">
     
 
-    <h2 class=" bold h1">Что&nbsp;важно для меня в&nbsp;маркетинге</h2>
+    <h2 class=" bold h1">Мои ценности в&nbsp;маркетинге</h2>
 <p>Для меня настоящий <strong>маркетолог</strong> — это тот, кто приносит пользу своей аудитории и строит отношения на доверии, избегая манипуляций, &laquo;втюхинга&raquo; и обмана.</p>
  
     
@@ -83,7 +83,7 @@ image:
      </ul>
 
          <p class="mb-m">
-Узнайте больше о&nbsp;моем пути и&nbsp;принципах работы:
+Познакомьтесь с&nbsp;моими проектами и&nbsp;принципами работы:
      </p>       
      <ul class="additive-spacing">
             <li class="list-li ">
@@ -114,7 +114,19 @@ image:
    
 
 <div class="full-bleed mt-m"  itemprop="image" itemscope itemtype="http://schema.org/ImageObject">	
-		<link itemprop="url" href="/assets/images/main/bartoshevich@16x9.jpg" />
+		<link itemprop="url" href="https://res.cloudinary.com/bartoshevich/image/upload/v1695562479/site/bartoshevich_dmitry.jpg" />
+    
+ <img loading="lazy" decoding="async" class="full-bleed image is-16by9" sizes="100vw" 
+			srcset="https://res.cloudinary.com/bartoshevich/image/upload/w_640/f_auto,q_auto/v1695562479/site/bartoshevich_dmitry.jpg 640w,
+			https://res.cloudinary.com/bartoshevich/image/upload/w_1200/f_auto,q_auto/v1695562479/site/bartoshevich_dmitry.jpg 1200w,
+      https://res.cloudinary.com/bartoshevich/image/upload/w_1600/f_auto,q_auto/v1695562479/site/bartoshevich_dmitry.jpg 1600w,
+      https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1695562479/site/bartoshevich_dmitry.jpg 2560w" 
+      src="https://res.cloudinary.com/bartoshevich/image/upload/v1695562479/site/bartoshevich_dmitry.jpg" alt="Дмитрий Бартошевич, портрет" width="2560" height="1440" itemprop="contentUrl"> 
+
+
+
+{% comment %}
+
         <picture>
                 <source sizes="100vw" 
                         srcset="/assets/images/main/bartoshevich@16x9_640w.avif 640w,
@@ -132,6 +144,7 @@ image:
                         type="image/webp">
             <img loading="lazy" decoding="async"  class="full-bleed image is-16by9" src="/assets/images/main/bartoshevich@16x9.jpg" alt="Дмитрий Бартошевич, портрет" width="2400" height="1350" itemprop="contentUrl">  
             </picture>
+{% endcomment %}
 </div>
    
            
