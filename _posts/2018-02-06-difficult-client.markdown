@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Как работать с проблемными клиентами | Дмитрий Бартошевич"
+title:  "Как работать с проблемными клиентами"
 name: "Делюсь опытом работы с&nbsp;проблемными клиентами"
 description: "Делюсь опытом работы с&nbsp;проблемными клиентами: что важно знать сотруднику и&nbsp;что&nbsp;— управляющему компанией."
 date:   2018-02-06
@@ -277,3 +277,22 @@ keywords: "проблемный клиент"
 	</li>
 </ul>
 </section>
+
+
+<footer class="additive-spacing">
+<p class="mb-m mt-m"> Дополнительные материалы:</p>
+<ul class="addictive-spacing">
+
+<li class="list-li">
+  <a href="/blog/stars/" class="link"> Статья о&nbsp;роли маркетологов в&nbsp;итоговых результатах компании</a>
+</li>
+
+<li class="list-li">
+  <a href="/blog/igra/" class="link"> Как&nbsp;избежать психологических игр и&nbsp;построить успешные отношения с&nbsp;клиентами</a>
+</li>
+
+<li class="list-li">
+  <a href="/blog/otlichie-marketologa-ot-brexuna/" class="link">Как&nbsp;маркетолога отличить от&nbsp;брехуна</a>
+</li>
+</ul>
+</footer>

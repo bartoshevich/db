@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Share of&nbsp;searches&nbsp;— новый показатель в&nbsp;маркетинге | Дмитрий Бартошевич"
+title:  "Share of&nbsp;searches&nbsp;— новый показатель в&nbsp;маркетинге"
 name: "Доля в&nbsp;поиске&nbsp;— новый показатель в&nbsp;маркетинге"
 description: 'Показатель отражает интерес пользователей к&nbsp;бренду и&nbsp;служит индикатором предстоящих изменений на&nbsp;рынке.'
 date:   2021-08-01
