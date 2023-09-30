@@ -9,7 +9,7 @@ categories: мнение
 permalink: "/blog/perfomance-and-brand-marketing/"
 tags: "управление, маркетолог"
 image: /assets/images/tizers/tizer-73.jpg
-keywords: "интернет-маркетинг, конверсия, бренд-маркетинг"
+keywords: "перфоманс маркетинг, брендинг, эффективность маркетинга, развитие бренда, маркетинговые стратегии, рост бизнеса, конверсия в маркетинге, долгосрочная эффективность маркетинга"
 ---
 
 {% include post__header--update.html %}
