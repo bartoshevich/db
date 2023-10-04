@@ -2,7 +2,7 @@
 layout: about
 permalink: /about/
 description: "Дмитрий Бартошевич: маркетинг и стратегия, основанные на уникальных отличиях и доверии. Узнайте больше о моей профессиональной истории здесь." 
-title: "Маркетинг без обмана: Моя история и методы | Дмитрий Бартошевич"
+title: "Маркетинг без втюхинга: моя история и методы | Дмитрий Бартошевич"
 keywords: ""
 date:   2022-04-02
 last_modified_at: 2023-08-20
@@ -59,17 +59,17 @@ image:
     <div class="full-bleed full-bleed-row mt-m row-gap--m">
         <div class="grid-column__first-four">
 
-        <p>Однажды я&nbsp;столкнулся с&nbsp;кейсом, где <b>маркетолог</b> гордо рассказывал о&nbsp;создании 300 фейковых отзывов для медицинского центра. Люди поверили и&nbsp;пришли. В&nbsp;моем мире подобные практики к&nbsp;маркетингу не&nbsp;имеют никакого отношения. </p>
+        <p>Однажды я&nbsp;столкнулся с&nbsp;кейсом, где <b>маркетолог</b> гордо рассказывал о&nbsp;создании 300 фейковых отзывов для медицинского центра. Люди поверили и&nbsp;пришли. Подобные практики к&nbsp;маркетингу не&nbsp;имеют никакого отношения. Согласны? Давайте менять маркетинг вместе!</p>
  
         </div>
         <div class="grid-column__last-six  row-gap--m">
 
          <p class="mb-m">
-Давайте менять маркетинг вместе! Мир моих размышлений:
+ Мир моих размышлений:
      </p>       
      <ul class="additive-spacing">
             <li class="list-li ">
-                <a class="link" href="/blog/konkurentnoe-preimushhestvo/" > Конкурентное преимущество в&nbsp;пользе и&nbsp;доверии</a>    
+                <a class="link" href="/blog/konkurentnoe-preimushhestvo/"> Конкурентное преимущество в&nbsp;пользе и&nbsp;доверии</a>    
             </li>
             <li class="list-li">
                 <a class="link" href="/blog/perfomance-and-brand-marketing/" >Бренд и&nbsp;перфоманс маркетинг&nbsp;&mdash; что важно знать маркетологу</a>      
@@ -83,7 +83,7 @@ image:
      </ul>
 
          <p class="mb-m">
-Познакомьтесь с&nbsp;моими проектами и&nbsp;принципами работы:
+Мои реализованные проекты и&nbsp;принципы работы:
      </p>       
      <ul class="additive-spacing">
             <li class="list-li ">
