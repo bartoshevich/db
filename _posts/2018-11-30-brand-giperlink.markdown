@@ -99,7 +99,7 @@ keywords: "разработка бренда Giperlink"
 
 <section class="row-gap--m" id="2">
 <h2 class="section__title h1 bold ">Составил карты потребительского опыта</h2>
-<div class="with-side">
+<div class="with-side row-gap--m">
 <div class="side">
 <p>Интересующимся&nbsp;— <a class="link" href="/blog/customer-journey-map/">алгоритм создания карты потребительского опыта</a></p>
 </div>
