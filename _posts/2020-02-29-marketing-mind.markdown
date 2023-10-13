@@ -14,7 +14,7 @@ keywords: "мышление маркетолога"
 
 {% include post__header.html %} 
 
-<p>Рассуждаю вслух, почему важно и&nbsp;что значит <strong>думать, как маркетолог</strong>. </p>
+<p>Рассуждаю вслух, почему важно и&nbsp;что значит <strong>думать, как маркетолог</strong>. Обсуждаю важность стратегического мышления, подчеркиваю необходимость понимания клиента, создания смыслов и&nbsp;уникальных предложений. Развенчиваю мифы о&nbsp;маркетинге, рассматриваю проблемы выбора, значимость бренда и&nbsp;маркетинга, основанного на&nbsp;убеждениях и&nbsp;ценностях. Эффективный маркетинг требует отчетливой идеи и&nbsp;стратегии, не&nbsp;фокусируясь исключительно на&nbsp;продажах или навязчивой рекламе. </p>
 
 
 <div class="full-bleed" itemprop="video" itemscope itemtype="https://schema.org/VideoObject">
@@ -59,3 +59,6 @@ keywords: "мышление маркетолога"
 	<li class="list-li"><a class="link" href="https://www.youtube.com/watch?v=fXspplVnrEM&amp;t=1555s" target="_blank" rel="noopener">25:55</a> Нужно&nbsp;ли дожимать клиентов</li>
 	<li class="list-li"> <a class="link" href="https://www.youtube.com/watch?v=fXspplVnrEM&amp;t=1813s" target="_blank" rel="noopener">30:13</a> Путь маркетолога (резюме)</li>
  </ul>
+
+
+
