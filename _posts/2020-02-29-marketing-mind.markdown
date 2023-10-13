@@ -14,9 +14,6 @@ keywords: "мышление маркетолога"
 
 {% include post__header.html %} 
 
-<p>Рассуждаю вслух, почему важно и&nbsp;что значит <strong>думать, как маркетолог</strong>. Обсуждаю важность стратегического мышления, подчеркиваю необходимость понимания клиента, создания смыслов и&nbsp;уникальных предложений. Развенчиваю мифы о&nbsp;маркетинге, рассматриваю проблемы выбора, значимость бренда и&nbsp;маркетинга, основанного на&nbsp;убеждениях и&nbsp;ценностях. Эффективный маркетинг требует отчетливой идеи и&nbsp;стратегии, не&nbsp;фокусируясь исключительно на&nbsp;продажах или навязчивой рекламе. </p>
-
-
 <div class="full-bleed" itemprop="video" itemscope itemtype="https://schema.org/VideoObject">
  	<link itemprop="url" href="https://youtu.be/fXspplVnrEM" >
 	<link itemprop="contentUrl" href="https://youtu.be/fXspplVnrEM" >
@@ -30,7 +27,7 @@ keywords: "мышление маркетолога"
 		   <a class="video__link " href="https://youtu.be/fXspplVnrEM" target="_blank" rel="noopener nofollow noreferrer">
 			   <picture>
 				   <source srcset="https://i.ytimg.com/vi_webp/fXspplVnrEM/maxresdefault.webp" type="image/webp">
-				   <img loading="lazy" class="video__media " src="https://i.ytimg.com/vi/fXspplVnrEM/maxresdefault.jpg" alt="Акция не сработает, если не думать как маркетолог" width="1280" height="720"/>
+				   <img loading="lazy" class="video__media " src="https://i.ytimg.com/vi/fXspplVnrEM/maxresdefault.jpg" alt="Выступление Бартошевича Дмитрия - акция не сработает, если не думать как маркетолог" width="1280" height="720"/>
 			   </picture>
 		   </a>
 		   <button class="video__button" aria-label="Запустить видео">
@@ -42,8 +39,7 @@ keywords: "мышление маркетолога"
 </div>
 </div>
 
-
-
+<p>Рассуждаю вслух, почему важно и&nbsp;что значит <strong>думать, как маркетолог</strong>. Обсуждаю важность стратегического мышления, подчеркиваю необходимость понимания клиента, создания смыслов и&nbsp;уникальных предложений. Развенчиваю мифы о&nbsp;маркетинге, рассматриваю проблемы выбора, значимость бренда и&nbsp;маркетинга, основанного на&nbsp;убеждениях и&nbsp;ценностях. Эффективный маркетинг требует отчетливой идеи и&nbsp;стратегии, не&nbsp;фокусируясь исключительно на&nbsp;продажах или навязчивой рекламе. </p>
 
 <p> Говорил, что беспокоит, над чем думаю и&nbsp;<strong>какие подходы в развитии брендов считаю правильными</strong>. И&nbsp;видимо от&nbsp;желания рассказать больше, волнуюсь, глотаю окончания, оговариваюсь. В&nbsp;общем, веду себя как живой человек ;-)  </p>
 <p class="mb-m"><span class="bold">Быстрые ссылки</span> (откроются в&nbsp;новой вкладке) </p>
