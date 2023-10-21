@@ -1,25 +1,23 @@
-
-title: Консультант по маркетингу и стратегии | Дмитрий Бартошевич
-description: >- # this means to ignore newlines until "baseurl:"
-  Развиваю бренды, опираясь на&nbsp;исследования и&nbsp;анализ данных. Разрабатываю план необходимых действий, контролирую реализацию. Противник &laquo;втюхинга&raquo; и&nbsp;манипуляций.
+title: "Консультант по маркетингу и стратегии | Дмитрий Бартошевич"
+description: "Развиваю бренды, опираясь на исследования и анализ данных. Разрабатываю план необходимых действий, контролирую реализацию. Противник 'втюхинга' и манипуляций."
 baseurl: "" 
 url: "https://bartoshevich.by" 
-
 
 sass:
   style: compressed
   sass_dir: _sass
-   
+
+compress_html:
+  comments: ["<!-- ", " -->"]
+  endings: all
 
 include: 
-    - _redirects
-    - _headers     
+  - _redirects
+  - _headers     
 
 # Build settings
-
 plugins:
   - jekyll-feed
-# - jekyll-sitemap
 
 # Exclude from processing.
 # The following items will not be processed, by default.
