@@ -4,7 +4,7 @@
     X-Content-Type-Options: nosniff
     Referrer-Policy: strict-origin-when-cross-origin
     Permissions-Policy: geolocation=(self "https://bartoshevich.by"), microphone=()
-    Content-Security-Policy: default-src 'self' res.cloudinary.com; base-uri 'self'; font-src 'self' ; worker-src 'self'; object-src 'none'; manifest-src 'self'; form-action 'self'; img-src 'self' res.cloudinary.com i.ytimg.com static.probusiness.io data:; connect-src 'self' res.cloudinary.com unpkg.com i.ytimg.com; upgrade-insecure-requests ; style-src   'self' unpkg.com; script-src  'self' 'nonce-fb24hoEs7SAuKSJtnth' 'nonce-MN74tf5oWgJCtut2TWs' 'nonce-PW9FmMmJx4Nbre5vQPk' ; frame-ancestors 'self' ; frame-src 'self' www.youtube-nocookie.com www.youtube.com embed.ted.com youtu.be/; media-src 'self' www.youtube-nocookie.com www.youtube.com embed.ted.com youtu.be/;
+    Content-Security-Policy: default-src 'self' res.cloudinary.com; base-uri 'self'; font-src 'self' ; worker-src 'self'; object-src 'none'; manifest-src 'self'; form-action 'self'; img-src 'self' res.cloudinary.com i.ytimg.com static.probusiness.io data:; connect-src 'self' res.cloudinary.com unpkg.com i.ytimg.com; upgrade-insecure-requests ; style-src   'self' unpkg.com; script-src  'self' 'nonce-fb24hoEs7SAuKSJtnth=' 'nonce-MN74tf5oWgJCtut2TWs=' 'nonce-PW9FmMmJx4Nbre5vQPk=' ; frame-ancestors 'self' ; frame-src 'self' www.youtube-nocookie.com www.youtube.com embed.ted.com youtu.be/; media-src 'self' www.youtube-nocookie.com www.youtube.com embed.ted.com youtu.be/;
 
 /assets/images/*
     cache-control: max-age=31536000, public, immutable
