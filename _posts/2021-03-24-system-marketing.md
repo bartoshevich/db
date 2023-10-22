@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Почему то, что вы знаете о системном маркетинге, может быть неверным"
-name: "От мифов к мастерству: исследование системного маркетинга"
-description: "Разбираю ошибочное представление о&nbsp;системном маркетинге, предлагаю принципы системного подхода через призму системной инженерии. Привожу примеры применения в&nbsp;маркетинговых стратегиях. "
+title:  "Системный маркетинг: распространенные мифы и эффективные практики"
+name: "Системный маркетинг: от&nbsp;мифов к&nbsp;эффективной практике"
+description: "Системный маркетинг&nbsp;&mdash; это не&nbsp;схемы и&nbsp;таблицы, а&nbsp;системный подход. Раскрываю принципы системного подхода через призму системной инженерии. Делюсь примерами успешного применения системного маркетинга в&nbsp;различных ситуациях."
 date:   2021-03-24
 last_modified_at: 2023-10-22
 categories: мнение
@@ -51,16 +51,16 @@ keywords: "системный маркетинг"
 <div class="row">
 
 <div class="c-3">
-<img class="image " loading="lazy" decoding="async"  src="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto:best/v1616576878/site/ikea-1.png" alt="Ikea меняет принцип выбора в каталоге" width="320" height="480"/>
+<img class="image " loading="lazy" decoding="async"  src="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto:best/v1616576878/site/ikea-1.png" alt="Системный маркетинг: Скриншот интерфейса магазина Икея для выбора планировки квартиры" width="320" height="480"/>
 </div>
 
 <div class="c-3">
-<img class="image " loading="lazy" decoding="async"  src="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto:best/v1616576878/site/ikea-2.png" alt="Ikea предлагает выбрать планировку квартиры" width="320" height="480"/>
+<img class="image " loading="lazy" decoding="async"  src="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto:best/v1616576878/site/ikea-2.png" alt="Системный маркетинг: Икеа предлагает выбрать планировку квартиры" width="320" height="480"/>
 </div>
 
 
 <div class="c-3">
-<img class="image " loading="lazy" decoding="async"  src="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto:best/v1616576878/site/ikea-3.png" alt="Ikea предлагает выбрать планировку дизайн-проект" width="320" height="480"/>
+<img class="image " loading="lazy" decoding="async"  src="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto:best/v1616576878/site/ikea-3.png" alt="Системный маркетинг: Икеа предлагает выбрать дизайн-проект" width="320" height="480"/>
 </div>
 
 </div>
