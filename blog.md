@@ -18,12 +18,24 @@ image:
        
 
 
-<div class="intro max-width-text"><h1 class="inline bold">Блог</h1>. <strong>Возвращаю смысл в&nbsp;маркетинг</strong>. Делюсь идеями, наблюдениями, опытом. Подписаться на&nbsp;обновления: <a class="link" href="https://t.me/+OuzxNOZg-g44ZjYy">telegram</a>, <a class="link" href="https://eepurl.com/cmkKcz">эл.почта</a> </div>
+<div class="intro max-width-text"><h1 class="inline bold">Блог</h1>. <strong>Возвращаю смысл в&nbsp;маркетинг</strong>. Делюсь идеями, наблюдениями, опытом. Подписаться на&nbsp;обновления: <a class="link" href="https://t.me/+OuzxNOZg-g44ZjYy">telegram</a>, <a class="link" href="https://eepurl.com/cmkKcz">эл.почта</a> 
 
-	
+    <div>        
+    <button class="small" id="random-article-button">Открыть случайно выбранную статью</button>
+        <noscript>
+            <div style="color: red;">
+                Для полной функциональности сайта необходимо включить JavaScript. 
+                Вот <a class="link" href="https://www.enable-javascript.com/ru/" target="_blank" rel="noopener noreferrer">инструкции, как включить JavaScript в вашем веб-браузере</a>.
+            </div>
+        </noscript>
+    </div>
+</div>
+
+
 
 <div class="full-bleed row-gap--l" id="all-posts">
     <h2 class="h2 bold">Записи (80) </h2>
+
   
 	<ul class="row-gap--xl list-reset">
 		{% for post in site.posts %}
@@ -32,7 +44,7 @@ image:
 
             <div class="block__name--align-left">
                 <h3 class="h2">
-                    <a class="link" href="{{ site.baseurl }}{{ post.url }}">							
+                    <a class="link article-link" href="{{ site.baseurl }}{{ post.url }}">							
                             <span class="article_title">	{{ post.name }} </span> 
                     </a>
                 </h3>

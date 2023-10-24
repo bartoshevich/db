@@ -22,5 +22,25 @@ layout: compress
  {{ content }}
  {% include script.html %}
 
+
+
+<script nonce="w1c5HmRjT3gY5jU4n2lk7A==">
+  document.getElementById('random-article-button').addEventListener('click', () => {
+    const articleLinks = document.querySelectorAll('.article-link');
+    if (articleLinks.length > 0) {
+      const randomIndex = Math.floor(Math.random() * articleLinks.length);
+      const randomArticleLink = articleLinks[randomIndex]?.href;
+      if (randomArticleLink) {
+        window.location.href = randomArticleLink;
+      } else {
+        console.error('Error retrieving article link');
+      }
+    } else {
+      console.warn('No articles found.');
+    }
+  });
+</script>
+
+
 </body>
 </html>
