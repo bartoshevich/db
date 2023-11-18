@@ -1,0 +1,52 @@
+
+<meta name="supported-color-schemes" content="light dark">
+<meta name="color-scheme" content="light dark">
+
+<meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+<link rel="canonical" href="{{ page.url | prepend: site.url }}">
+
+<meta property="og:locale" content="ru_RU">
+<meta property="og:type" content="article">
+<meta property="og:title" content="{%if page.title %}{{ page.title }}{% else %}консультант по маркетингу и стратегии Дмитрий Бартошевич{% endif %}">
+<meta property="og:url" content="{{ site.url }}{{ page.url }}">
+<meta property="og:image" content="{% if page.image %}{{ site.url }}{{ page.image }}{% else %}/assets/images/main/bartoshevichby.png{% endif %}">
+<meta property="og:site_name" content="bartoshevich.by">
+<meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+<meta property="article:publisher" content="https://www.linkedin.com/in/bartoshevich/">
+<meta property="article:author" content="https://www.linkedin.com/in/bartoshevich/">
+<meta property="article:published_time" content="{{ page.date }}">
+
+<meta name="keywords" content="{{ page.keywords }}">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{%if page.title %}{{ page.title }}{% else %}Дмитрий Бартошевич{% endif %}">
+<meta name="twitter:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+<meta name="twitter:site" content="@dbartoshevich" >
+<meta name="twitter:creator" content="@dbartoshevich">
+<meta name="twitter:image" content="{% if page.image %}{{ site.url }}{{ page.image }}{% else %}/assets/images/main/bartoshevichby.png{% endif %}">
+
+<meta name="google-site-verification" content="k_w8istwR04PocDmdpSQHIcgwbPfx8cDYy5Z2Y5bvuA">
+<meta name="yandex-verification" content="29cd2d09fdd2bc5e">
+<meta name="facebook-domain-verification" content="j3ee6vavp7ijo6esof96hjshw1w9ul">
+<meta name="wot-verification" content="9e40d766e6d6b17ee528">
+<meta name="author" content="Дмитрий Бартошевич">
+<meta name="copyright" content="Все права принадлежат Дмитрию Бартошевичу - https://bartoshevich.by">
+<link rel="author" href="https://www.linkedin.com/in/bartoshevich/">
+
+<link href="/feed.xml" rel="alternate" type="application/atom+xml">
+
+
+<link rel="preconnect" href="https://res.cloudinary.com" >
+<link rel="preload" href="/assets/scripts/theme.js" as="script">
+<link rel="preload" href="/assets/fonts/pt-sans-v12-latin_cyrillic/pt-sans-v12-latin_cyrillic-regular.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/fonts/pt-sans-v12-latin_cyrillic/pt-sans-v12-latin_cyrillic-700.woff2" as="font" type="font/woff2" crossorigin>
+
+
+
+<script src="/assets/scripts/theme.js"></script> 
+
+{% comment %}
+<link rel="preload" as="image" href="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1645366318/site/bartoshevich_1x.jpg">
+
+<link rel="preconnect" href="https://unpkg.com">
+
+ {% endcomment %}

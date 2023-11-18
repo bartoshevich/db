@@ -12,6 +12,7 @@ keywords: "развитие брендов, анализ данных, разр�
     {% include menu.html %}
    
 <div itemscope itemtype="https://schema.org/LocalBusiness">
+    <meta itemprop="name" content="Дмитрий Бартошевич - консультант по маркетингу и стратегии">
     <meta itemprop="email" content="dmitry@bartoshevich">
     <meta itemprop="telephone" content="+375297753340">
     <div itemprop="address" itemscope itemtype="https://schema.org/PostalAddress">
@@ -25,11 +26,37 @@ keywords: "развитие брендов, анализ данных, разр�
     <link itemprop="image" href="/assets/images/main/bartoshevich@4x3.jpg">
     <link itemprop="image" href="/assets/images/main/bartoshevich@1x1.jpg">
 
+    <div itemprop="founder" itemscope itemtype="https://schema.org/Person">
+        <meta itemprop="name" content="Дмитрий Бартошевич">
+        <meta itemprop="jobTitle" content="Консультант по маркетингу и стратегии">
+        <meta itemprop="worksFor" content="Дмитрий Бартошевич - консультант по маркетингу и стратегии">
+        <link itemprop="url" href="https://bartoshevich.by">
+        <meta itemprop="email" content="dmitry@bartoshevich">
+        <meta itemprop="telephone" content="+375297753340">
+
+        <span itemprop="hasCredential" itemscope itemtype="https://schema.org/EducationalOccupationalCredential">
+            <meta itemprop="name" content="Преквалификация в Европейском банке реконструкции и развития">
+            <meta itemprop="credentialCategory" content="Профессиональная квалификация">
+            <meta itemprop="recognizedBy" content="Европейский банк реконструкции и развития">
+        </span>
+
+
+        <link itemprop="sameAs" href="https://www.linkedin.com/in/bartoshevich">
+        <link itemprop="sameAs" href="https://www.facebook.com/bartoshevichby/">
+        <link itemprop="sameAs" href="https://t.me/MeaningfulMarketing">
+
+              
+        <link itemprop="image" href="/assets/images/main/bartoshevich@16x9.jpg">
+        <link itemprop="image" href="/assets/images/main/bartoshevich@4x3.jpg">
+        <link itemprop="image" href="/assets/images/main/bartoshevich@1x1.jpg">
+    </div>
+
+
 
 <main class="section__content"  >     
     
 
-    <div class="intro">Меня зовут <span itemprop="name">Дмитрий Бартошевич</span>.<br>Я&nbsp;<h1 class="inline"><span  itemprop="description">консультант по&nbsp;маркетингу и&nbsp;стратегии</span>.</h1></div> 
+    <div class="intro">Меня зовут Дмитрий Бартошевич.<br>Я&nbsp;<h1 class="inline">консультант по&nbsp;маркетингу и&nbsp;стратегии.</h1></div> 
    
 
        
@@ -61,41 +88,46 @@ keywords: "развитие брендов, анализ данных, разр�
 </div>
 </section>
 
-<section class="full-bleed block__item ">
+<section class="full-bleed block__item " itemscope itemtype="http://schema.org/Review">
 <div class="block__sign"></div>
 <h2 class="block__name block__title bold"> Мне доверяют </h2>
 <div class=" block__content">
              
-              <blockquote class="blockquote--emphasis">
+              <blockquote class="blockquote--emphasis" itemprop="reviewBody">
     	<p class="citation">«Мы&nbsp;спрашивали себя: „Чем мы&nbsp;отличаемся? В&nbsp;чем сильнее? В&nbsp;чем отстаем и&nbsp;чего не&nbsp;хватает, чтобы быть лучшими?“ Ответы искали сами. Но&nbsp;того решения, которое устроило&nbsp;бы всех, не&nbsp;находили. Обратились за&nbsp;консультацией к&nbsp;Бартошевичу Дмитрию...»</p>
     		
             <div class="citation__author" >
-    		<cite>
-    			<a href="https://www.facebook.com/dmitry.likhtarovich" class="link" target="_blank" rel="noopener nofollow noreferrer"
-                title="страница Дмитрия в фейсбуке" aria-label="страница Дмитрия в фейсбуке (откроется в новой вкладке)">Дмитрий Лихтарович</a> <br > директор Giperlink
+    		<cite itemprop="author">
+    			Дмитрий Лихтарович, директор интернет-агентства Giperlink
     		</cite>
+            <meta itemprop="datePublished" content="30 ноября 2018"><br>
+            <a class="italic link" href="https://bartoshevich.by/blog/brand-giperlink/" itemprop="url">ссылка на&nbsp;описание проекта и&nbsp;отзыв</a>
             </div>
     	</blockquote>
+        
 
-
-
-
-       <blockquote class="blockquote--emphasis">
+       <blockquote class="blockquote--emphasis" itemprop="reviewBody">
     		<p class="citation">
             «Нам потребовалось четко позиционировать компанию на&nbsp;рынке и&nbsp;максимально отстроиться от&nbsp;конкурентов. И&nbsp;мы&nbsp;привлекли Дмитрия Бартошевича...»
 		</p>
     		<div class="citation__author" >
-    		<cite >
-    			<a href="https://www.facebook.com/profile.php?id=100001292354023" class="link" target="_blank" rel="noopener nofollow noreferrer"
-                title="страница Елены в фейсбуке" aria-label="страница Елены в фейсбуке (откроется в новой вкладке)">Елена Горбачева</a> <br >директор <span class="noperenos">Flex-n-Roll</span>
+    		<cite itemprop="author">
+    			Елена Горбачева, директор типографии <span class="noperenos">Flex-n-Roll</span>
     		</cite>
+            <meta itemprop="datePublished" content="18 апреля 2018"><br>
+            <a class="italic link" href="https://bartoshevich.by/blog/brand-strategy-flex-n-roll/" itemprop="url">ссылка на&nbsp;описание проекта и&nbsp;отзыв</a>
             </div>
-    	</blockquote>              
+    	</blockquote> 
+        <div class="element--hidden" itemprop="itemReviewed" itemscope itemtype="http://schema.org/Organization">
+            <meta itemprop="name" content="Дмитрий Бартошевич - консультант по маркетингу и стратегии">
+            <meta itemprop="address" content="г.Минск, ул. Ольшевского. 22">
+            <meta itemprop="telephone" content="+375297753340">
+        </div>             
                     
 </div>
 </section>
 
-<section class="full-bleed block__item clients__block ">
+<section class="full-bleed block__item  ">
 <div class="block__sign"></div>
 <h2 class="block__name block__title bold"> Вместе мы растем </h2>
 <div class=" block__content">
