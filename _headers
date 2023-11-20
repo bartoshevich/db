@@ -1,4 +1,4 @@
-/*
+/index.html
     
     X-XSS-Protection: 1; mode=block
     X-Content-Type-Options: nosniff
@@ -6,14 +6,9 @@
     Permissions-Policy: geolocation=(self "https://bartoshevich.by"), microphone=()
     Content-Security-Policy: default-src 'self' res.cloudinary.com; base-uri 'self'; font-src 'self' ; worker-src 'self'; object-src 'none'; manifest-src 'self'; form-action 'self'; img-src 'self' res.cloudinary.com i.ytimg.com static.probusiness.io data:; connect-src 'self' res.cloudinary.com unpkg.com i.ytimg.com; upgrade-insecure-requests ; style-src   'self' unpkg.com; script-src  'self' 'nonce-2Z4cF6UyT7Xa9aF16dcg6w==' 'nonce-w1c4HmRjT3gk6jU4n2lk7A==' 'nonce-Z1a2h3G4J6K7L8m9P0q1r2==' 'nonce-w1c5HmRjT3gY5jU4n2lk7A=='; frame-ancestors 'self' ; frame-src 'self' www.youtube-nocookie.com www.youtube.com embed.ted.com youtu.be/; media-src 'self' www.youtube-nocookie.com www.youtube.com embed.ted.com youtu.be/;
 
+
 /assets/images/*
-    cache-control: max-age=31536000, public, immutable
-
 /assets/fonts/*
-    cache-control: max-age=31536000, public, immutable
-
 /assets/scripts/*
-    cache-control: max-age=604800, public, immutable
-
 /assets/media/*
-    cache-control: max-age=31536000, public, immutable
+Cache-Control: max-age=41536000, public, immutable
