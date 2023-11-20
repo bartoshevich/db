@@ -70,7 +70,7 @@ keywords: "развитие брендов, анализ данных, разр�
 
 
 <div class="full-bleed intro__image" itemprop="image" itemscope itemtype="http://schema.org/ImageObject">
-<link itemprop="url" href="/assets/images/home/desktop_2x.jpg">
+<link itemprop="url" href="https://res.cloudinary.com/bartoshevich/image/upload/v1700500406/site/desktop.png">
   
   
   {% comment %}
@@ -82,17 +82,15 @@ keywords: "развитие брендов, анализ данных, разр�
  {% endcomment %}
 
 
-<picture>
-	<source
-		sizes="(min-width: 1500px) 80vw, 100vw"
-		srcset="/assets/images/home/desktop.webp 640w,
-				/assets/images/home/desktop_2x.webp 1700w"
-		type="image/webp">
+
 	<img class="image" 
-		src="/assets/images/home/desktop_2x.jpg" alt="Иллюстрация современного рабочего места маркетингового консультанта, подчеркивающая стратегическое планирование и инновации" 
+		src="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1700500406/site/desktop.png" alt="Иллюстрация современного рабочего места маркетингового консультанта, подчеркивающая стратегическое планирование и инновации" 
 		sizes="(min-width: 1500px) 80vw, 100vw"
-		srcset="/assets/images/home/desktop.jpg 640w, /assets/images/home/desktop_2x.jpg 1700w" width="1792" height="1024" itemprop="contentUrl" >
-</picture>
+		srcset="https://res.cloudinary.com/bartoshevich/image/upload/w_640/f_auto,q_auto/v1700500406/site/desktop.png 640w,
+        https://res.cloudinary.com/bartoshevich/image/upload/w_1200/f_auto,q_auto/v1700500406/site/desktop.png 1200w,
+        https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1700500406/site/desktop.png 1700w"
+        width="1792" height="1024" itemprop="contentUrl" >
+
 
 </div>
 
