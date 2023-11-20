@@ -67,6 +67,21 @@ keywords: "развитие брендов, анализ данных, разр�
 </section>
 
 
+
+
+<div class="full-bleed" itemprop="image" itemscope itemtype="http://schema.org/ImageObject">
+<link itemprop="url" href="/assets/images/home/desktop_2x.jpg">
+    <picture>
+    {% comment %}
+                <source srcset="/assets/images/home/desktop.avif 1x, /assets/images/home/desktop_2x.avif 2x" type="image/avif"> 
+    {% endcomment %}
+                <source srcset="/assets/images/home/desktop.webp 1x, /assets/images/home/desktop_2x.webp 2x" type="image/webp"> 
+                <img class="image" loading="lazy" decoding="async" src="/assets/images/home/desktop_2x.jpg" srcset="/assets/images/home/desktop.jpg 1x, /assets/images/home/desktop_2x.jpg 2x" width="1792" height="1024" alt="Иллюстрация современного рабочего места маркетингового консультанта, подчеркивающая стратегическое планирование и инновации" itemprop="contentUrl">
+    </picture> 
+
+</div>
+
+
 <section class="full-bleed block__item clients__block " itemscope itemtype="http://schema.org/Service">
 <div class="block__sign"></div>
 <h2 class="block__name block__title bold"> Когда полезен? </h2>
@@ -174,6 +189,8 @@ keywords: "развитие брендов, анализ данных, разр�
 <div class="block__sign"></div>
 <h2 class="block__name block__title bold"> Вместе мы растем </h2>
 <div class=" block__content row-gap--m">
+
+{% comment %}
              <div class="figure" itemprop="image" itemscope itemtype="http://schema.org/ImageObject">	
 		<link itemprop="url" href="https://res.cloudinary.com/bartoshevich/image/upload/v1700419281/site/blog_marketing.png">			
 		<img class="image" loading="lazy" decoding="async" 
@@ -182,9 +199,12 @@ keywords: "развитие брендов, анализ данных, разр�
 			https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1700419281/site/blog_marketing.png 1024w"
      		src="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1700419281/site/blog_marketing.png"
 			width="1024" height="1024" alt="Иллюстрация, которая символизирует полезность блога о маркетинге" itemprop="contentUrl"
-		>
-		
+		>		
 </div>
+
+{% endcomment %}
+
+
     <p> Благодаря клиентам, сложным проектам и&nbsp;задачам я&nbsp;накопил богатый профессиональный опыт, которым делюсь в&nbsp;своем блоге. Здесь вы&nbsp;найдете <a class="link" href="/blog/">аналитические статьи, детальные описания кейсов, эффективные инструменты и&nbsp;практические рекомендации</a>. Блог также отражает мое видение маркетинга, где уважение к&nbsp;клиентам стоит на&nbsp;первом месте, а&nbsp;втюхинг и&nbsp;обман&nbsp;— табу. Присоединяйтесь, чтобы вместе исследовать и&nbsp;развивать стратегии маркетинга, основанные на&nbsp;доверии и&nbsp;создании ценности для потребителей. </p>    
                     
 </div>
