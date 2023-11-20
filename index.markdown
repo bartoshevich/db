@@ -71,13 +71,28 @@ keywords: "развитие брендов, анализ данных, разр�
 
 <div class="full-bleed intro__image" itemprop="image" itemscope itemtype="http://schema.org/ImageObject">
 <link itemprop="url" href="/assets/images/home/desktop_2x.jpg">
-    <picture>
-    {% comment %}
+  
+  
+  {% comment %}
+    <picture>    
                 <source srcset="/assets/images/home/desktop.avif 1x, /assets/images/home/desktop_2x.avif 2x" type="image/avif"> 
-    {% endcomment %}
-                <source srcset="/assets/images/home/desktop.webp 1x, /assets/images/home/desktop_2x.webp 2x" type="image/webp"> 
+                   <source srcset="/assets/images/home/desktop.webp 1x, /assets/images/home/desktop_2x.webp 2x" type="image/webp"> 
                 <img class="image" src="/assets/images/home/desktop_2x.jpg" srcset="/assets/images/home/desktop.jpg 1x, /assets/images/home/desktop_2x.jpg 2x" width="1792" height="1024" alt="Иллюстрация современного рабочего места маркетингового консультанта, подчеркивающая стратегическое планирование и инновации" itemprop="contentUrl">
     </picture> 
+ {% endcomment %}
+
+
+<picture>
+	<source
+		sizes="(min-width: 1500px) 80vw, 100vw"
+		srcset="/assets/images/home/desktop.webp 640w,
+				/assets/images/home/desktop_2x.webp 1700w"
+		type="image/webp">
+	<img class="image" 
+		src="/assets/images/home/desktop_2x.jpg" alt="Иллюстрация современного рабочего места маркетингового консультанта, подчеркивающая стратегическое планирование и инновации" 
+		sizes="(min-width: 1500px) 80vw, 100vw"
+		srcset="/assets/images/home/desktop.jpg 640w, /assets/images/home/desktop_2x.jpg 1700w" width="1792" height="1024" itemprop="contentUrl" >
+</picture>
 
 </div>
 
