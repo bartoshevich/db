@@ -69,7 +69,7 @@ keywords: "развитие брендов, анализ данных, разр�
 
 
 
-<div class="full-bleed" itemprop="image intro__image" itemscope itemtype="http://schema.org/ImageObject">
+<div class="full-bleed intro__image" itemprop="image" itemscope itemtype="http://schema.org/ImageObject">
 <link itemprop="url" href="/assets/images/home/desktop_2x.jpg">
     <picture>
     {% comment %}
