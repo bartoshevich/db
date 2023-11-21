@@ -33,19 +33,37 @@ image:
 
 
 
-<div class="full-bleed row-gap--l" id="all-posts">
+<div class="full-bleed row-gap--l" id="all-posts" itemscope itemtype="http://schema.org/Blog">
+    <meta itemprop="name" content="Блог о маркетинге | Дмитрий Бартошевич">
+    <meta itemprop="description" content="Блог Дмитрия Бартошевича о маркетинге, делюсь идеями, наблюдениями, опытом">
+
     <h2 class="h2 bold">Записи (80) </h2>
 
   
-	<ul class="row-gap--xl list-reset">
+<ul class="row-gap--xl list-reset">
 		{% for post in site.posts %}
-		<li class="block__item">
-
+		<li class="block__item" itemscope itemtype="http://schema.org/BlogPosting">           
+            <meta itemprop="datePublished" content="{{ post.date }}">
+            <meta itemprop="dateModified" content="{{ post.last_modified_at }}">           
+            <div itemprop="author" itemscope itemtype="http://schema.org/Person">
+                <meta itemprop="name" content="Дмитрий Бартошевич">
+                <meta itemprop="jobTitle" content="консультант по маркетингу и стратегии">
+                <meta itemprop="description" content="Помогаю компаниям развивать свои бренды. Опираясь на исследования и анализ данных, разрабатываю план необходимых действий. Обеспечиваю контроль за реализацией и слежу за результатами каждого проекта, чтобы добиться согласованных с клиентом целей. ">
+                <meta itemprop="email" content="dmitry@bartoshevich">
+                <link itemprop="sameAs" href="https://bartoshevich.by/">
+                <link itemprop="sameAs" href="https://www.linkedin.com/in/bartoshevich">
+                <link itemprop="sameAs" href="https://www.facebook.com/bartoshevichby/">
+                <link itemprop="sameAs" href="https://twitter.com/dbartoshevich">
+                <link itemprop="sameAs" href="https://t.me/MeaningfulMarketing">                
+                <link itemprop="image" href="/assets/images/main/bartoshevich@16x9.jpg">
+                <link itemprop="image" href="/assets/images/main/bartoshevich@4x3.jpg">
+                <link itemprop="image" href="/assets/images/main/bartoshevich@1x1.jpg">
+            </div>
 
             <div class="block__name--align-left">
                 <h3 class="h2">
                     <a class="link article-link" href="{{ site.baseurl }}{{ post.url }}">							
-                            <span class="article_title">	{{ post.name }} </span> 
+                            <span class="article_title" itemprop="headline">	{{ post.name }} </span> 
                     </a>
                 </h3>
 
@@ -59,7 +77,7 @@ image:
             
             </div>
                        
-            <p class="block__content">
+            <p class="block__content"  itemprop="description">
                 {{ post.description }}
             </p>
 				
