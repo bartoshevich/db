@@ -57,7 +57,7 @@ image:
     
     <div class="border-top"></div>   
     
-    <div class="full-bleed full-bleed-row mt-m row-gap--m">
+    <div class="full-bleed full-bleed-row row-gap--m">
         <div class="grid-column__first-four">
 
         <p>Маркетолог — это тот, кто строит отношения на&nbsp;доверии, избегая манипуляций, &laquo;втюхинга&raquo; и&nbsp;обмана. </p>
