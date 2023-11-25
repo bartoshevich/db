@@ -52,21 +52,38 @@ image:
     
 
     <h2 class=" bold h1">Мои ценности в&nbsp;маркетинге</h2>
-<p>Для меня настоящий <strong>маркетолог</strong> — это тот, кто приносит пользу своей аудитории и строит отношения на доверии, избегая манипуляций, &laquo;втюхинга&raquo; и обмана.</p>
+<p>С&nbsp;опытом 20+&nbsp;лет в&nbsp;корпоративном мире и&nbsp;ведении частной практики, я&nbsp;специализируюсь на&nbsp;маркетинговых решениях, которые не&nbsp;только помогают компаниям достигать коммерческих целей, но&nbsp;и&nbsp;делают их&nbsp;более значимыми для целевой аудитории. </p>
  
     
     <div class="border-top"></div>   
+    
     <div class="full-bleed full-bleed-row mt-m row-gap--m">
         <div class="grid-column__first-four">
 
-        <p>Однажды я&nbsp;столкнулся с&nbsp;кейсом, где <b>маркетолог</b> гордо рассказывал о&nbsp;создании 300 фейковых отзывов для медицинского центра. Люди поверили и&nbsp;пришли. Подобные практики к&nbsp;маркетингу не&nbsp;имеют никакого отношения. Согласны? Давайте менять маркетинг вместе!</p>
+        <p>Маркетолог — это тот, кто строит отношения на&nbsp;доверии, избегая манипуляций, &laquo;втюхинга&raquo; и&nbsp;обмана. </p>
  
         </div>
         <div class="grid-column__last-six  row-gap--m">
+<p>Однажды я&nbsp;столкнулся с&nbsp;кейсом, где <b>маркетолог</b> гордо рассказывал о&nbsp;создании 300 фейковых отзывов для медицинского центра. Люди поверили и&nbsp;пришли. Подобные практики к&nbsp;маркетингу не&nbsp;имеют никакого отношения. Согласны? Давайте менять маркетинг вместе!</p>  
+        </div>
+    </div>
 
-         <p class="mb-m">
- Мир моих размышлений:
-     </p>       
+
+
+<div class="full-bleed"  itemprop="image" itemscope itemtype="http://schema.org/ImageObject">	
+		<link itemprop="url" href="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1700939446/site/ef.png" />
+    
+ <img class="full-bleed image" sizes="100vw" 
+			srcset="https://res.cloudinary.com/bartoshevich/image/upload/w_640/f_auto,q_auto/v1700939446/site/ef.png 640w,
+			https://res.cloudinary.com/bartoshevich/image/upload/w_1200/f_auto,q_auto/v1700939446/site/ef.png 1200w,
+      https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1700939446/site/ef.png 1700w" 
+      src="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1700939446/site/ef.png" alt="иллюстрация, символизирующая рост и развитие в бизнесе" width="1792" height="1024" itemprop="contentUrl"> 
+</div>
+
+<div class="full-bleed full-bleed-row row-gap--m">
+<div class="grid-column__first-four row-gap--m">
+
+        <p class="mb-m bold"> Мир моих размышлений:  </p>       
      <ul class="additive-spacing">
             <li class="list-li ">
                 <a class="link" href="/blog/konkurentnoe-preimushhestvo/"> Конкурентное преимущество в&nbsp;пользе и&nbsp;доверии</a>    
@@ -81,9 +98,10 @@ image:
                 <a class="link" href="/blog/marketing-bolshe-chem-prodazhi/">От&nbsp;распродаж к&nbsp;стратегии: почему маркетинг&nbsp;&mdash; это больше, чем просто продажи</a>      
             </li>
      </ul>
-
-         <p class="mb-m">
-Мои реализованные проекты и&nbsp;принципы работы:
+     </div>
+ <div class="grid-column__last-six  row-gap--m">
+         <p class="mb-m bold">
+ Реализованные проекты и&nbsp;принципы работы:
      </p>       
      <ul class="additive-spacing">
             <li class="list-li ">
@@ -93,10 +111,9 @@ image:
                 <a class="link" href="/contact/#principles-of-work" > Принципы работы</a>    
             </li>
      </ul> 
-         
-
-        </div>
-    </div>
+     </div>
+     </div>
+   
 
 
 
@@ -113,15 +130,6 @@ image:
 
    
 
-<div class="full-bleed mt-m"  itemprop="image" itemscope itemtype="http://schema.org/ImageObject">	
-		<link itemprop="url" href="https://res.cloudinary.com/bartoshevich/image/upload/v1695562479/site/bartoshevich_dmitry.jpg" />
-    
- <img loading="lazy" decoding="async" class="full-bleed image is-16by9" sizes="100vw" 
-			srcset="https://res.cloudinary.com/bartoshevich/image/upload/w_640/f_auto,q_auto/v1695562479/site/bartoshevich_dmitry.jpg 640w,
-			https://res.cloudinary.com/bartoshevich/image/upload/w_1200/f_auto,q_auto/v1695562479/site/bartoshevich_dmitry.jpg 1200w,
-      https://res.cloudinary.com/bartoshevich/image/upload/w_1600/f_auto,q_auto/v1695562479/site/bartoshevich_dmitry.jpg 1600w,
-      https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1695562479/site/bartoshevich_dmitry.jpg 2560w" 
-      src="https://res.cloudinary.com/bartoshevich/image/upload/v1695562479/site/bartoshevich_dmitry.jpg" alt="Дмитрий Бартошевич, портрет" width="2560" height="1440" itemprop="contentUrl"> 
 
 
 
@@ -145,7 +153,7 @@ image:
             <img loading="lazy" decoding="async"  class="full-bleed image is-16by9" src="/assets/images/main/bartoshevich@16x9.jpg" alt="Дмитрий Бартошевич, портрет" width="2400" height="1350" itemprop="contentUrl">  
             </picture>
 {% endcomment %}
-</div>
+
    
            
             
