@@ -53,16 +53,20 @@ keywords: "брендинг, разработка развитие создан�
 <p>У&nbsp;Hörmann широкий ассортимент продукции: промышленные, гаражные и&nbsp;скоростные ворота, электроприводы, перегрузочная техника, входные и&nbsp;межкомнатные двери, объектные двери, системы контроля въезда и&nbsp;др. Ключевым направлением для разработки концепции выбрали один из&nbsp;наиболее значимых продуктов концерна&nbsp;— гаражные ворота.</p>
 
 <div class="figure" itemprop="image" itemscope itemtype="http://schema.org/ImageObject">
-<link itemprop="url" href="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1648644468/site/hormann_doors.jpg">
-<img class="image is-16by9" loading="lazy" decoding="async" 
+<link itemprop="url" href="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1701244259/site/hormann_door.jpg">
+<img class="image" loading="lazy" decoding="async" 
 sizes="100vw"  
-srcset="https://res.cloudinary.com/bartoshevich/image/upload/w_640/f_auto,q_auto/v1648644468/site/hormann_doors.jpg 640w,
-https://res.cloudinary.com/bartoshevich/image/upload/w_1040/f_auto,q_auto/v1648644468/site/hormann_doors.jpg 1040w,
-https://res.cloudinary.com/bartoshevich/image/upload/w_2000/f_auto,q_auto/v1648644468/site/hormann_doors.jpg 2000w,
-https://res.cloudinary.com/bartoshevich/image/upload/w_3000/f_auto,q_auto/v1648644468/site/hormann_doors.jpg 3000w,
-https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1648644468/site/hormann_doors.jpg 3540w"
-src="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1648644468/site/hormann_doors.jpg"
-width="3540" height="1991" alt="Хёрманн ассоциируется прежде всего с гаражными воротами" itemprop="contentUrl"
+srcset="https://res.cloudinary.com/bartoshevich/image/upload/w_640/f_auto,q_auto/v1701244259/site/hormann_door.jpg 640w,
+https://res.cloudinary.com/bartoshevich/image/upload/w_1040/f_auto,q_auto/v1701244259/site/hormann_door.jpg 1040w,
+https://res.cloudinary.com/bartoshevich/image/upload/w_1500/f_auto,q_auto/v1701244259/site/hormann_door.jpg 1500w,
+https://res.cloudinary.com/bartoshevich/image/upload/w_2000/f_auto,q_auto/v1701244259/site/hormann_door.jpg 2000w,
+https://res.cloudinary.com/bartoshevich/image/upload/w_2500/f_auto,q_auto/v1701244259/site/hormann_door.jpg 2500w,
+https://res.cloudinary.com/bartoshevich/image/upload/w_3000/f_auto,q_auto/v1701244259/site/hormann_door.jpg 3000w,
+https://res.cloudinary.com/bartoshevich/image/upload/w_4000/f_auto,q_auto/v1701244259/site/hormann_door.jpg 4000w,
+https://res.cloudinary.com/bartoshevich/image/upload/w_5000/f_auto,q_auto/v1701244259/site/hormann_door.jpg 5000w,
+https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1701244259/site/hormann_door.jpg 7360w"
+src="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1701244259/site/hormann_door.jpg"
+width="7360" height="4912" alt="Гаражные ворота Hörmann как ключевой элемент концепции бренда, демонстрирующие качество и надежность, немецкое производство и инновации." itemprop="contentUrl"
 />
 <div class="figcaption" itemprop="description">Для разработки концепции выбрали один из&nbsp;значимых продуктов концерна&nbsp;— гаражные ворота.
 </div>
@@ -308,20 +312,22 @@ width="1500" height="750" alt="анализ конкурентов Хёрман�
 </section>
 
 <section class="mt-m row-gap--m max-width-text">
-<h3 class="h2 bold mb-m">Аудио</h3>
-                       <div class="figure">
+<h3 class="h2 bold mb-m">Рекламные ролики для радио</h3>
+<section>
+<h4 class="bold mb-m row-gap--m ">Секрет мастерства</h4>
+                       <div class="figure mt-m">
                            <audio controls>
                                <source  src="/assets/media/project/hormann_100.mp3" type="audio/mpeg">		
                                Аудиопроигрователь не поддерживается вашим браузером :-( 
                            </audio>
                            <div class="figcaption">
-                               Рекламный ролик для радио. Идея и&nbsp;сценарий&nbsp;&mdash; Дмитрий Бартошевич
+                               Идея и&nbsp;сценарий&nbsp;&mdash; Дмитрий Бартошевич
                            </div>
                     
    
                            <details>
                                <summary>
-                               <span class="link">Транскрипт аудио ролика <small>(нажмите, чтобы открыть)</small></span>
+                               <span class="link">Транскрипт аудио ролика</span>
                                </summary>
                                <div class="mt-m">
                                    <p>—&nbsp;Папа, а&nbsp;сколько раз нужно сделать, чтобы получилось хорошо? </p>
@@ -335,7 +341,35 @@ width="1500" height="750" alt="анализ конкурентов Хёрман�
                                </div>
                            </details>
                        </div>
-</section>					   
+</section>
+
+<section class="mt-m">
+<h4 class="bold mb-m row-gap--m ">Hörmann. И ни слова больше</h4>
+					   <div class="figure mt-m">
+   <audio controls>
+       <source  src="/assets/media/project/garage_doors_translation.mp3" type="audio/mpeg">		
+       Аудиопроигрователь не поддерживается вашим браузером :-( 
+   </audio>
+   <div class="figcaption">
+       Идея и&nbsp;сценарий&nbsp;&mdash; Дмитрий Бартошевич
+   </div>
+   <details>
+       <summary>
+        <span class="link">Транскрипт аудио ролика </span>
+       </summary>
+       <div class="mt-m">
+           <p>—&nbsp;Как сказать на&nbsp;немецком «гаражные ворота»?</p>
+           <p> —&nbsp;Хёрманн.</p>
+            <p>—&nbsp;А&nbsp;на&nbsp;арабском?</p>
+            <p>—&nbsp;Хёрманн.</p>
+           <p> —&nbsp;А&nbsp;на&nbsp;португальском, скажешь, тоже «Хёрманн»?</p>
+           <p> —&nbsp;И&nbsp;на&nbsp;португальском.</p>
+            <p>Отбивка: «Гаражные ворота Хёрманн&nbsp;— от&nbsp;Аляски до&nbsp;Австралии» </p>
+       </div>
+   </details>
+</div>
+</section>	
+</section>				   
 
 
 
