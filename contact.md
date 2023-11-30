@@ -136,7 +136,7 @@ image:
 	
 <div class="with-side row-gap--m">
 
-<p>Хочу сообщить, что в настоящее время я не могу принимать новые задачи, так как полностью посвящаю себя работе над существующими проектами. Я очень ценю ваше понимание и готов ответить на вопросы по электронной почте <a class="link" href="mailto:dmitry@bartoshevich.by" title="написать" >dmitry@bartoshevich.by</a>.</p>
+<p>Хочу&nbsp;сообщить, что в&nbsp;настоящее время я&nbsp;не&nbsp;могу принимать новые задачи, так как полностью посвящаю себя работе над существующими проектами. Я&nbsp;очень ценю ваше понимание и&nbsp;готов ответить на&nbsp;вопросы по&nbsp;электронной&nbsp;почте <a class="link" href="mailto:dmitry@bartoshevich.by" title="написать" >dmitry@bartoshevich.by</a>.</p>
 
 <p> Для коротких сообщений можете использовать телеграм&nbsp;— <a class="link" href="https://t.me/bartoshevich">@bartoshevich</a> </p>
 <p>Адрес для писем: 220073, г.&nbsp;Минск, ул. Ольшевского, 22, офис&nbsp;6 (7&nbsp;этаж)</p>
