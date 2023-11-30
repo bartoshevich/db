@@ -93,7 +93,7 @@ keywords: "частые вопросы, маркетинг, брендинг, с
             
                 <span class="tocnumber">3.1 </span>
                 <a class="link" href="#viber">
-                    Можно&nbsp;ли с&nbsp;вами связаться по&nbsp;Viber или WhatsApp?
+                    Можно&nbsp;ли с&nbsp;вами связаться по&nbsp;Viber?
             </a>
             </li>
             <li class="level2">
@@ -256,10 +256,10 @@ keywords: "частые вопросы, маркетинг, брендинг, с
 
 
     <div class="additive-spacing" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
-        <h3 class="h2 bold" id="viber" itemprop="name">Можно&nbsp;ли с&nbsp;вами связаться по&nbsp;Viber или WhatsApp?</h3>
+        <h3 class="h2 bold" id="viber" itemprop="name">Можно&nbsp;ли с&nbsp;вами связаться по&nbsp;Viber?</h3>
         <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
             <div itemprop="text">
-                <p>Я&nbsp;не&nbsp;использую эти приложения. Если вам принципиально общаться в&nbsp;Viber/WhatsApp, значит, мы&nbsp;друг другу не&nbsp;подходим.</p>
+                <p>Я&nbsp;не&nbsp;использую эти приложения. Если вам принципиально общаться в&nbsp;Viber, значит, мы&nbsp;друг другу не&nbsp;подходим.</p>
             </div>
         </div>
     </div>

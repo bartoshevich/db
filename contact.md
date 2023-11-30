@@ -135,17 +135,36 @@ image:
 <h2 id="info" class="h1 bold" >Контакты </h2>
 	
 <div class="with-side row-gap--m">
-
+{% comment %}
 <p>Хочу&nbsp;сообщить, что в&nbsp;настоящее время я&nbsp;не&nbsp;могу принимать новые задачи, так как полностью посвящаю себя работе над существующими проектами. Я&nbsp;очень ценю ваше понимание и&nbsp;готов ответить на&nbsp;вопросы по&nbsp;электронной&nbsp;почте <a class="link" href="mailto:dmitry@bartoshevich.by" title="написать" >dmitry@bartoshevich.by</a>.</p>
 
 <p> Для коротких сообщений можете использовать телеграм&nbsp;— <a class="link" href="https://t.me/bartoshevich">@bartoshevich</a> </p>
 <p>Адрес для писем: 220073, г.&nbsp;Минск, ул. Ольшевского, 22, офис&nbsp;6 (7&nbsp;этаж)</p>
 <p>Благодарю за интерес к моей работе и надеюсь на возможность сотрудничества в будущем. </p>
+{% endcomment %}
 
-{% comment %}
 <p>Если вы&nbsp;заинтересованы в&nbsp;работе со&nbsp;мной, буду рад обсудить задачи. </p>
 
+<p><span class="bold">Важное обновление:</span> в&nbsp;настоящее время я&nbsp;нахожусь не&nbsp;в&nbsp;Беларуси, а&nbsp;в&nbsp;Казахстане (Астана). Однако благодаря возможностям дистанционной работы, я&nbsp;продолжаю предоставлять услуги с&nbsp;тем&nbsp;же вниманием к&nbsp;деталям.</p>
 
+<p class="mb-m">Связаться со мной легко:</p>
+<ul>
+   <li class="list-li"> GSM (Беларусь):  <a class="link" href="tel:+375297753340" title="позвонить"><span class="noperenos">+375 (29) 775-33-40</span></a> </li>
+   <li class="list-li"> GSM (Казахстан):  <a class="link" href="tel:+&7027481102" title="позвонить"><span class="noperenos">+7 (702) 748-11-02</span></a> </li>
+   <li class="list-li"> WhatsApp:  <a class="link" href="https://wa.me/77027481102" title="позвонить"><span class="noperenos">+7 (702) 748-11-02</span></a> </li>
+   <li class="list-li"> Телеграм:  <a class="link" href="https://t.me/bartoshevich">@bartoshevich</a> </li>
+   <li class="list-li"> Электронная почта:  <a class="link" href="mailto:dmitry@bartoshevich.by" title="написать" >dmitry@bartoshevich.by</a> </li>
+   
+
+</ul>
+<p>Адрес для писем: 220073, г.&nbsp;Минск, ул. Ольшевского, 22, офис&nbsp;6 (7&nbsp;этаж)</p>
+
+<strong class="bold">Мир ждет наших проектов. Начнем? </strong>
+
+
+
+
+{% comment %}
 <p> Вы можете отправить письмо на электронную почту <a class="link" href="mailto:dmitry@bartoshevich.by" title="написать" >dmitry@bartoshevich.by</a>. Будет хорошо, если обозначите, какая задача стоит перед вами, что вы&nbsp;хотите добиться и&nbsp;в&nbsp;чем видите мою роль. Отвечу в&nbsp;течение двух рабочих дней. </p>
 
 
