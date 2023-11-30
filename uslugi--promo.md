@@ -47,7 +47,7 @@ keywords: "креативные рекламные кампании, рекла�
             <a class="video__link " href="https://youtu.be/LcRjumujYws" >
                 <picture>
                     <source srcset="https://i.ytimg.com/vi_webp/LcRjumujYws/maxresdefault.webp" type="image/webp">
-                    <img loading="lazy" class="video__media " src="https://i.ytimg.com/vi/LcRjumujYws/maxresdefault.jpg" alt="Смысл видео в ответе на вопрос, что объединяет клиентов банка и известных предпринимателей." width="1280" height="720" itemprop="thumbnail"/>
+                    <img loading="lazy" class="video__media " src="https://i.ytimg.com/vi/LcRjumujYws/maxresdefault.jpg" alt="Смысл видео в ответе на вопрос, что объединяет клиентов банка и известных предпринимателей." width="1280" height="720" itemprop="thumbnail">
                 </picture>
             </a>
             <button class="video__button" aria-label="Запустить видео">
@@ -83,7 +83,7 @@ keywords: "креативные рекламные кампании, рекла�
 	    <a class="video__link " href="https://youtu.be/Rl2jUmZWSfg" target="_blank" rel="noopener nofollow noreferrer">
 			<picture>
 				<source srcset="https://i.ytimg.com/vi_webp/Rl2jUmZWSfg/maxresdefault.webp" type="image/webp">
-				<img loading="lazy" class="video__media " src="https://i.ytimg.com/vi/Rl2jUmZWSfg/maxresdefault.jpg" alt="Один из элементов концепции бренда — Хёрманн уверенно рекомендуют. Ролик обыгрывает эту идею. Сын звонит отцу и спрашивает, как называются их ворота, которые никогда не ломаются. Отец отвечает и подтверждает, что это очень надежные ворота." width="1280" height="720" itemprop="thumbnail"/>
+				<img loading="lazy" class="video__media " src="https://i.ytimg.com/vi/Rl2jUmZWSfg/maxresdefault.jpg" alt="Один из элементов концепции бренда — Хёрманн уверенно рекомендуют. Ролик обыгрывает эту идею. Сын звонит отцу и спрашивает, как называются их ворота, которые никогда не ломаются. Отец отвечает и подтверждает, что это очень надежные ворота." width="1280" height="720" itemprop="thumbnail">
 			</picture>
 		</a>
 		<button class="video__button" aria-label="Запустить видео">
@@ -100,14 +100,16 @@ keywords: "креативные рекламные кампании, рекла�
 Рекламный аудио ролик для белорусского офиса Hörmann: разговор между отцом и&nbsp;сыном о&nbsp;том, сколько раз нужно что-то делать, чтобы достичь совершенства. Диалог подчеркивает опыт Hörmann в&nbsp;производстве гаражных ворот.
 </p>
 
- <div class="figure">
-   <audio controls>
-       <source  src="/assets/media/project/hormann_100.mp3" type="audio/mpeg">		
-       Аудиопроигрователь не поддерживается вашим браузером :-( 
-   </audio>
-   <div class="figcaption">
-      Идея и&nbsp;сценарий&nbsp;&mdash; Дмитрий Бартошевич
-   </div>
+ <div class="figure" itemscope itemtype="http://schema.org/AudioObject">
+   <audio  controls>
+     <source  src="https://bartoshevich.by/assets/media/project/hormann_100.mp3" type="audio/mpeg"  itemprop="contentUrl">		
+                                                       Аудиопроигрователь не поддерживается вашим браузером :-( 
+    </audio>
+    <meta itemprop="name" content="Рекламный аудиоролик Секрет мастерства">
+    <meta itemprop="duration" content="PT0M29S">
+    <div class="figcaption" itemprop="description">
+                                                       Идея и&nbsp;сценарий&nbsp;&mdash; Дмитрий Бартошевич
+    </div>
    <details>
        <summary>
         <span class="link">Транскрипт аудио ролика </span>
@@ -129,14 +131,16 @@ keywords: "креативные рекламные кампании, рекла�
 Рекламный аудио ролик для белорусского офиса H&ouml;rmann. Диалог персонажей акцентирует внимание на&nbsp;глобальной узнаваемости и&nbsp;распространенности бренда. 
 </p>
 
- <div class="figure">
+ <div class="figure" itemscope itemtype="http://schema.org/AudioObject">
    <audio controls>
-       <source  src="/assets/media/project/garage_doors_translation.mp3" type="audio/mpeg">		
-       Аудиопроигрователь не поддерживается вашим браузером :-( 
-   </audio>
-   <div class="figcaption">
-       Идея и&nbsp;сценарий&nbsp;&mdash; Дмитрий Бартошевич
-   </div>
+        <source  src="https://bartoshevich.by/assets/media/project/garage_doors_translation.mp3" type="audio/mpeg" itemprop="contentUrl">		
+                               Аудиопроигрователь не поддерживается вашим браузером :-( 
+    </audio>
+    <meta itemprop="name" content="Рекламный аудиоролик Hörmann">
+    <meta itemprop="duration" content="PT0M16S">
+    <div class="figcaption"  itemprop="description">
+                               Идея и&nbsp;сценарий&nbsp;&mdash; Дмитрий Бартошевич
+    </div>
    <details>
        <summary>
         <span class="link">Транскрипт аудио ролика </span>

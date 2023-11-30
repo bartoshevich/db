@@ -315,14 +315,16 @@ width="1500" height="750" alt="анализ конкурентов Хёрман�
 <h3 class="h2 bold mb-m">Рекламные ролики для радио</h3>
 <section>
 <h4 class="bold mb-m row-gap--m ">Секрет мастерства</h4>
-                       <div class="figure mt-m">
+                       <div class="figure mt-m" itemscope itemtype="http://schema.org/AudioObject">
                            <audio controls>
-                               <source  src="/assets/media/project/hormann_100.mp3" type="audio/mpeg">		
+                              <source  src="https://bartoshevich.by/assets/media/project/hormann_100.mp3" type="audio/mpeg"  itemprop="contentUrl">		
                                Аудиопроигрователь не поддерживается вашим браузером :-( 
                            </audio>
-                           <div class="figcaption">
-                               Идея и&nbsp;сценарий&nbsp;&mdash; Дмитрий Бартошевич
-                           </div>
+                            <meta itemprop="name" content="Рекламный аудиоролик Секрет мастерства">
+                            <meta itemprop="duration" content="PT0M29S">
+                            <div class="figcaption" itemprop="description">
+                                Идея и&nbsp;сценарий&nbsp;&mdash; Дмитрий Бартошевич
+                            </div>
                     
    
                            <details>
@@ -345,14 +347,16 @@ width="1500" height="750" alt="анализ конкурентов Хёрман�
 
 <section class="mt-m">
 <h4 class="bold mb-m row-gap--m ">Hörmann. И ни слова больше</h4>
-					   <div class="figure mt-m">
+   <div class="figure mt-m" itemscope itemtype="http://schema.org/AudioObject">
    <audio controls>
-       <source  src="/assets/media/project/garage_doors_translation.mp3" type="audio/mpeg">		
-       Аудиопроигрователь не поддерживается вашим браузером :-( 
-   </audio>
-   <div class="figcaption">
-       Идея и&nbsp;сценарий&nbsp;&mdash; Дмитрий Бартошевич
-   </div>
+      <source  src="https://bartoshevich.by/assets/media/project/garage_doors_translation.mp3" type="audio/mpeg" itemprop="contentUrl">		
+                               Аудиопроигрователь не поддерживается вашим браузером :-( 
+                           </audio>
+                           <meta itemprop="name" content="Рекламный аудиоролик Hörmann">
+                           <meta itemprop="duration" content="PT0M16S">
+                           <div class="figcaption"  itemprop="description">
+                               Идея и&nbsp;сценарий&nbsp;&mdash; Дмитрий Бартошевич
+                           </div>
    <details>
        <summary>
         <span class="link">Транскрипт аудио ролика </span>
@@ -424,8 +428,8 @@ width="1500" height="750" alt="анализ конкурентов Хёрман�
 </div>
 </section>
 
-<section class="full-bleed mt-m row-gap--m">
-		<h3 class="h2 bold mb-m">Наружная реклама </h3>
+<section class="full-bleed mt-m row-gap--m" itemscope itemtype="http://schema.org/Project">
+		<h3 class="h2 bold mb-m" itemprop="name">Наружная реклама </h3>
 		<p>Посылы привели в&nbsp;соответствие с&nbsp;концепцией бренда. </p>
 
 		<div class="full-bleed figure" itemprop="image" itemscope itemtype="http://schema.org/ImageObject">	
@@ -441,5 +445,5 @@ width="1500" height="750" alt="анализ конкурентов Хёрман�
 		<div class="figcaption">рекламный щит Hörmann</div>
 		<meta itemprop="description" content="на билборде отражен один из постулатов концепции бренда: ворота Хёрманн используют от Аляски до Австралии">
 		</div>
-	</section>
+</section>
 </section>

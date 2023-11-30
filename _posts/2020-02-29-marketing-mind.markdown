@@ -27,7 +27,7 @@ keywords: "мышление маркетолога"
 		   <a class="video__link " href="https://youtu.be/fXspplVnrEM" target="_blank" rel="noopener nofollow noreferrer">
 			   <picture>
 				   <source srcset="https://i.ytimg.com/vi_webp/fXspplVnrEM/maxresdefault.webp" type="image/webp">
-				   <img loading="lazy" class="video__media " src="https://i.ytimg.com/vi/fXspplVnrEM/maxresdefault.jpg" alt="Выступление Бартошевича Дмитрия - акция не сработает, если не думать как маркетолог" width="1280" height="720"/>
+				   <img loading="lazy" class="video__media " src="https://i.ytimg.com/vi/fXspplVnrEM/maxresdefault.jpg" alt="Выступление Бартошевича Дмитрия - акция не сработает, если не думать как маркетолог" width="1280" height="720" itemprop="thumbnail">
 			   </picture>
 		   </a>
 		   <button class="video__button" aria-label="Запустить видео">
