@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "Руководство по методике NPS: как повысить лояльность клиентов"
-name: "Всё, что нужно знать о&nbsp;методике NPS для повышения лояльности клиентов"
-description: "Net Promoter Score - подробное руководство: как шаг за&nbsp;шагом применить методику NPS для повышения лояльности клиентов. Узнайте об&nbsp;основных ошибках и&nbsp;примерах из&nbsp;практики. "
+title: "Руководство по методике NPS: как повысить индекс лояльности клиентов"
+name: "Эффективное использование методики NPS для увеличения индекса лояльности"
+description: "Подробное руководство по&nbsp;Net Promoter Score (NPS): как шаг за&nbsp;шагом применить методику NPS для повышения индекса лояльности клиентов и&nbsp;показателя потребительской удовлетворенности. Узнайте об&nbsp;основных ошибках и&nbsp;примерах из&nbsp;практики. "
 date:   2015-11-18
-last_modified_at: 2023-09-03
+last_modified_at: 2023-10-03
 categories: инструкции
 permalink: "/blog/feedback/"
 tags: "инструменты"
@@ -33,7 +33,7 @@ image: /assets/images/tizers/tizer-12.jpg
       </li>
       <li class="level2">		    
 		      <span class="tocnumber">3.1 </span>
-          <a class="link" href="#revenue"> Не&nbsp;соотносят ответы с&nbsp;выручкой 		    </a>
+          <a class="link" href="#revenue"> Не&nbsp;соотносят ответы в&nbsp;опросе с&nbsp;выручкой 		    </a>
 		  </li>
       <li class="level2">		    
 		      <span class="tocnumber">3.2 </span>
@@ -147,10 +147,10 @@ image: /assets/images/tizers/tizer-12.jpg
 
 
 <section class="full-bleed row-gap--m " id="3">
-<h2 class="section__title h1 bold ">Что упускают при анализе NPS</h2>
+<h2 class="section__title h1 bold ">Что упускают компании при анализе NPS</h2>
 
 <section class="full-bleed row-gap--m">
-<h3 class="h2 bold mb-m list-sign" id="revenue">Не&nbsp;соотносят ответы с&nbsp;выручкой</h3>
+<h3 class="h2 bold mb-m list-sign" id="revenue">Не&nbsp;соотносят ответы в&nbsp;опросе с&nbsp;выручкой</h3>
 <p>Если клиенты приносят компании разный доход, разумно оценивать их&nbsp;ответы по&nbsp;отдельности. Соотносите ответы по&nbsp;методике NPS с&nbsp;выручкой, полученной от&nbsp;каждого респондента. На&nbsp;рисунке ниже я&nbsp;показал варианты отображения результатов опроса в&nbsp;привязке к&nbsp;выручке.</p>
 
 <div class="full-bleed " itemprop="image" itemscope itemtype="http://schema.org/ImageObject">
@@ -158,7 +158,7 @@ image: /assets/images/tizers/tizer-12.jpg
    <picture>
                  <source srcset="/assets/images/blog/feedback/nps.avif" type="image/avif">
                 <source srcset="/assets/images/blog/feedback/nps.webp" type="image/webp">
-                <img  class="image is-16by9" loading="lazy" decoding="async" src="/assets/images/blog/feedback/nps.jpg" alt="Варианты отображения результатов по методике Net Promoter Score" width="1920" height="1080" itemprop="contentUrl"/>
+                <img  class="image is-16by9" loading="lazy" decoding="async" src="/assets/images/blog/feedback/nps.jpg" alt="Варианты отображения результатов опроса по методике Net Promoter Score" width="1920" height="1080" itemprop="contentUrl"/>
     </picture>
 <div class="figcaption" itemprop="description">Варианты отображения результатов опроса по&nbsp;методике Net Promoter Score: <br />
 - <span class="bold">Вариант А.</span> Диаграмма, где по&nbsp;оси Х&nbsp;— значения ответа на&nbsp;первый вопрос (вероятность рекомендации), а&nbsp;по&nbsp;оси Y&nbsp;— выручка.<br/>
@@ -166,13 +166,13 @@ image: /assets/images/tizers/tizer-12.jpg
 </div>
 </div>
 
-<p>Определите, насколько лояльны клиенты, которые приносят вам наибольший доход. Что&nbsp;— по&nbsp;их&nbsp;мнению&nbsp;— вы&nbsp;делаете хорошо, а&nbsp;что лучше исправить. Оперативно реагируйте на&nbsp;замечания клиентов группы А.</p>
+<p>Определите, насколько лояльны покупатели, которые приносят вам наибольший доход. Что&nbsp;— по&nbsp;их&nbsp;мнению&nbsp;— вы&nbsp;делаете хорошо, а&nbsp;что лучше исправить. Оперативно реагируйте на&nbsp;замечания клиентов группы А.</p>
 <p>К&nbsp;группе&nbsp;А прислушивайтесь не&nbsp;только потому, что они больше платят. Они столько платят, потому что в&nbsp;большей степени, чем остальные считают ваш продукт или услуги полезными. Усильте «фактор полезности» и&nbsp;вы&nbsp;привлечете больше клиентов.</p>
 </section>
 
 <section class="row-gap--m max-width-text">
 <h3 class="h2 bold mb-m mt-m list-sign"  id="critics">Не&nbsp;обрабатывают замечания критиков</h3>
-<p>Методика NPS выявляет критиков. А&nbsp;это клиенты с&nbsp;высоким риском ухода к&nbsp;конкурентам. Если не&nbsp;намереваетесь разбрасываться клиентами, разработайте четкую политику реагирования на&nbsp;замечания. Определите, кто должен связаться с&nbsp;клиентом, в&nbsp;какой срок, кого из&nbsp;руководства необходимо уведомить и&nbsp;в&nbsp;каких случаях. Если с&nbsp;отзывами клиентов оперативно не&nbsp;поработаете&nbsp;вы, это сделают конкуренты.</p>
+<p>Методика NPS выявляет критиков. А&nbsp;это клиенты с&nbsp;высоким риском ухода к&nbsp;конкурентам. Если не&nbsp;намереваетесь разбрасываться клиентами, разработайте четкую политику реагирования на&nbsp;замечания. Определите, кто должен связаться с&nbsp;покупателем, в&nbsp;какой срок, кого из&nbsp;руководства необходимо уведомить и&nbsp;в&nbsp;каких случаях. Если с&nbsp;отзывами клиентов оперативно не&nbsp;поработаете&nbsp;вы, это сделают конкуренты.</p>
 <p class="post__note">Главное в&nbsp;определении индекса лояльности&nbsp;— последующие действия. Если мы&nbsp;не&nbsp;действуем&nbsp;— нет необходимости и&nbsp;измерять.</p>
 
 	<p>Когда мы&nbsp;управляем автомобилем, то&nbsp;не&nbsp;записываем показания панели приборов для очередного отчета. Индикаторы на&nbsp;приборной панели&nbsp;— призыв к&nbsp;действиям. Если&nbsp;же хотим сбросить вес, то&nbsp;взвешивание само по&nbsp;себе массу тела не&nbsp;уменьшит. Показания весов&nbsp;— инструмент, а&nbsp;не&nbsp;решение проблемы. Для результата нужны действия.</p>
@@ -183,12 +183,12 @@ image: /assets/images/tizers/tizer-12.jpg
 
 <section class="row-gap--m max-width-text">
 <h3 class="h2 bold mb-m mt-m list-sign"  id="promoters">Не&nbsp;составляют план работы с&nbsp;промоутерами</h3>
-<p>Определить долю сторонников недостаточно. Стимулируйте их&nbsp;активность. Предлагайте скидки за&nbsp;привлечение клиентов. Уведомляйте о&nbsp;новых продуктах раньше остальных, предлагайте пробники и&nbsp;просите оценить.</p>
+<p>Определить долю сторонников недостаточно. Стимулируйте их&nbsp;активность. Предлагайте скидки за&nbsp;привлечение покупателей. Уведомляйте о&nbsp;новых продуктах раньше остальных, предлагайте пробники и&nbsp;просите оценить.</p>
 </section>
 
 
 <section class="row-gap--m max-width-text">
-<h3 class="h2 bold mb-m mt-m list-sign"  id="dynamics">Игнорируют динамику значений</h3>
+<h3 class="h2 bold mb-m mt-m list-sign"  id="dynamics">Игнорируют динамику значений NPS</h3>
 <p>При оценке индекса лояльности важна динамика значений. Получайте обратную связь от&nbsp;клиентов регулярно и&nbsp;вы&nbsp;поймете, в&nbsp;верном&nbsp;ли направлении развиваете компанию.</p>
 </section>
 </section>
