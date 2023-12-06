@@ -8,6 +8,14 @@
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
+        <title>Преобразование B2B Маркетинга: 12 Архетипов для Промышленных Гигантов</title>
+        <description>Cекреты B2B маркетинга для промышленных компаний, основанного на&amp;nbsp;12&amp;nbsp;архетипах. Рассказываю, как понимание и&amp;nbsp;использование теории архетипов может преобразить подход к&amp;nbsp;клиентам, создавая сильные связи и&amp;nbsp;выделяя бренд в&amp;nbsp;конкурентной среде.</description>
+        <pubDate>Mon, 04 Dec 2023 00:00:00 +0300</pubDate>
+        <link>http://localhost:4000/blog/marketing-for-industrial-giants-12-archetypes/</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/marketing-for-industrial-giants-12-archetypes/</guid>
+      </item>
+    
+      <item>
         <title>Как правильно выполнять задачи: проверенный метод управления проектами</title>
         <description>Делюсь опытом и&amp;nbsp;советами по&amp;nbsp;эффективному выполнению задач и&amp;nbsp;управлению проектами, чтобы вы&amp;nbsp;избежали распространенных ошибок и&amp;nbsp;улучшили процессы в&amp;nbsp;вашей организации.</description>
         <pubDate>Fri, 08 Sep 2023 00:00:00 +0300</pubDate>
@@ -557,14 +565,6 @@
         <pubDate>Wed, 18 Nov 2015 00:00:00 +0300</pubDate>
         <link>http://localhost:4000/blog/feedback/</link>
         <guid isPermaLink="true">http://localhost:4000/blog/feedback/</guid>
-      </item>
-    
-      <item>
-        <title>Использование скидок в маркетинговой стратегии</title>
-        <description>Узнайте, как эффективно использовать скидки в&amp;nbsp;маркетинге для укрепления бренда и&amp;nbsp;увеличения продаж. Инструкция по&amp;nbsp;успешному применению скидок.</description>
-        <pubDate>Thu, 12 Nov 2015 00:00:00 +0300</pubDate>
-        <link>http://localhost:4000/blog/skidki-instrukciya-po-primeneniyu/</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/skidki-instrukciya-po-primeneniyu/</guid>
       </item>
     
   </channel>

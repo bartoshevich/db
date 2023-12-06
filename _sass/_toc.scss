@@ -38,3 +38,42 @@ li.level2 {
 	padding-right: var(--space-2xs);
 	color: $text-colour;  
 }
+
+.tag-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+.tag-item {
+    margin-bottom: 1em;
+    margin-right: 1em; 
+ } 
+
+.tag-link {
+    text-decoration: none;
+    background-color: #f0f0f0;
+    padding: 5px 10px;
+    border-radius: 20px;
+    color: #333;
+    transition: background-color 0.3s ease;   
+  }
+  
+.tag-link:hover {
+    background-color:$link-bg;
+    color:$link-hover;
+  }
+  
+.tag-link:focus {
+    outline: 3px solid transparent;
+    text-decoration: none;
+    color: $link;
+    background-color: $link-bg;
+}
+ 
+  .tag-link::before {
+    content: "#"; 
+    margin-right: 5px; 
+  }
