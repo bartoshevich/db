@@ -33,7 +33,7 @@ keywords: "развитие брендов, анализ данных, разр�
         <meta itemprop="jobTitle" content="Консультант по маркетингу и стратегии">
         <meta itemprop="worksFor" content="Дмитрий Бартошевич - консультант по маркетингу и стратегии">
         <link itemprop="url" href="https://bartoshevich.by">
-        <meta itemprop="email" content="dmitry@bartoshevich">
+        <meta itemprop="email" content="dmitry@bartoshevich.by">
         <meta itemprop="telephone" content="+375297753340">
 
         <span itemprop="hasCredential" itemscope itemtype="https://schema.org/EducationalOccupationalCredential">
@@ -161,6 +161,8 @@ keywords: "развитие брендов, анализ данных, разр�
 
         <div class="element--hidden" itemprop="itemReviewed" itemscope itemtype="http://schema.org/Organization">
             <meta itemprop="name" content="Дмитрий Бартошевич - консультант по маркетингу и стратегии">
+               <meta itemprop="addressLocality" content="Фрунзенский район">
+           <meta itemprop="addressRegion" content="Минск">
             <meta itemprop="address" content="г.Минск, ул. Ольшевского. 22">
             <meta itemprop="telephone" content="+375297753340">
             <link itemprop="image" href="/assets/images/main/bartoshevich@4x3.jpg">

@@ -20,7 +20,7 @@ keywords: "мышление маркетолога"
 	<link itemprop="thumbnailUrl" href="https://i.ytimg.com/vi/fXspplVnrEM/maxresdefault.jpg" >
  	<meta itemprop="name" content="Акция не сработает, если не думать как маркетолог" >
 	<meta itemprop="description" content="Запись выступления консультанта по маркетингу Дмитрия Бартошевича.">
-	<meta itemprop="uploadDate" content="2020-02-29" >
+	<meta itemprop="uploadDate" content="2020-02-29T00:00:00+03:00">
   	<meta itemprop="duration" content="PT30M54S">
  	<meta itemprop="isFamilyFriendly" content="true">
 	<div class="video ">

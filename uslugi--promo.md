@@ -36,7 +36,7 @@ keywords: "креативные рекламные кампании, рекла�
 	<link itemprop="contentUrl" href="https://youtu.be/LcRjumujYws" >
 	<link itemprop="thumbnailUrl" href="https://i.ytimg.com/vi_webp/LcRjumujYws/maxresdefault.webp" >
  	<meta itemprop="name" content="Эскиз видеоролика для банка Тинькова" >
-   	<meta itemprop="uploadDate" content="2015-09-22" >
+    <meta itemprop="uploadDate" content="2015-09-22T00:00:00+03:00">
   	<meta itemprop="duration" content="PT0M27S">
  	<meta itemprop="isFamilyFriendly" content="true">
 
@@ -75,7 +75,7 @@ keywords: "креативные рекламные кампании, рекла�
 	<link itemprop="contentUrl" href="https://youtu.be/Rl2jUmZWSfg" >
 	<link itemprop="thumbnailUrl" href="https://i.ytimg.com/vi_webp/Rl2jUmZWSfg/maxresdefault.webp" >
  	<meta itemprop="name" content="Уверенно рекомендуют" >
-   	<meta itemprop="uploadDate" content="2020-07-16" >
+    <meta itemprop="uploadDate" content="2020-07-16T00:00:00+03:00">
   	<meta itemprop="duration" content="PT1M06S">
  	<meta itemprop="isFamilyFriendly" content="true">
 						
