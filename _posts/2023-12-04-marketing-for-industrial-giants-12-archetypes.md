@@ -540,12 +540,12 @@ keywords: "маркетинг, промышленные гиганты, архе
 </section>
 
 <div class="figure" itemprop="image" itemscope itemtype="http://schema.org/ImageObject">
-<link itemprop="url" href="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1701860487/site/archetypes/lover.png">
+<link itemprop="url" href="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1702142786/site/archetypes/lover_2.png">
 <img class="image" loading="lazy" decoding="async" 
      sizes="100vw" 
-			srcset="https://res.cloudinary.com/bartoshevich/image/upload/w_640/f_auto,q_auto/v1701860487/site/archetypes/lover.png 640w,
-			https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1701860487/site/archetypes/lover.png 1792w"
-      src="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1701860487/site/archetypes/lover.png" width="1792" height="1024" alt="Любовник в контексте маркетинга - изображение архетипа" itemprop="contentUrl"/>
+			srcset="https://res.cloudinary.com/bartoshevich/image/upload/w_640/f_auto,q_auto/v1702142786/site/archetypes/lover_2.png 640w,
+			https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1702142786/site/archetypes/lover_2.png 1792w"
+      src="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1702142786/site/archetypes/lover_2.png" width="1792" height="1024" alt="Любовник в контексте маркетинга - изображение архетипа" itemprop="contentUrl"/>
 <div class="figcaption">Директор FuturaTech Industries. Архетип «Любовник» </div>
 </div>
 </section>
