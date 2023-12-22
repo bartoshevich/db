@@ -155,3 +155,27 @@ keywords: "перфоманс маркетинг, брендинг, эффект
 </div>
 </div>
 </section>
+
+
+<footer class="additive-spacing">
+<p class="mb-m mt-m">Также читают:</p>
+<ul class="addictive-spacing">
+<li class="list-li">
+  <a href="/blog/choice/" class="link"> Выбор концепции рекламной кампании: почему одна идея лучше трех</a>
+</li>
+<li class="list-li">
+  <a href="/blog/put-marketologa/" class="link"> Дао маркетолога</a>
+</li>
+<li class="list-li">
+  <a href="/blog/marketing-v-krizis/ " class="link"> Маркетинг в кризис: стратегия для брендов</a>
+</li>
+<li class="list-li">
+  <a href="/blog/zachem-marketing-biznesu/" class="link"> Зачем нужен маркетинг (мнение консультантов по&nbsp;развитию продаж)</a>
+</li>
+<li class="list-li">
+  <a href="/blog/effektivnost-marketinga/ " class="link"> Оценка эффективности маркетинга через временные затраты</a>
+</li>
+
+
+</ul>
+</footer>

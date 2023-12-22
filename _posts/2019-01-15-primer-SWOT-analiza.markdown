@@ -171,3 +171,25 @@ keywords: "пример SWOT "
 	</table>
 
 	</section>
+
+
+<footer class="additive-spacing">
+<p class="mb-m mt-m"> Эти материалы могут заинтересовать:</p>
+<ul class="addictive-spacing">
+<li class="list-li">
+  <a href="/blog/choice/" class="link"> Выбор концепции рекламной кампании: почему одна идея лучше трех </a>
+</li>
+<li class="list-li">
+  <a href="/blog/misconceptions/" class="link"> Пять распространенных мифов о&nbsp;маркетинге</a>
+</li>
+<li class="list-li">
+  <a href="/blog/igra/" class="link">Как&nbsp;избежать психологических игр с&nbsp;клиентами</a>
+</li>
+<li class="list-li">
+  <a href="/blog/effektivnost-marketinga/" class="link">Оценка эффективности маркетинга через временные затраты</a>
+</li>
+<li class="list-li">
+  <a href="/blog/algoritm-provedeniya-reklamnoj-kampanii/" class="link">Рекламная кампания: алгоритм проведения</a>
+</li>
+</ul>
+</footer>
