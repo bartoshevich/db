@@ -21,6 +21,7 @@ keywords: "фильмы, маркетологи, подборка фильмов
   <p><span class="bold">Режиссер:</span> <span itemprop="director">Ян Кунен</span><br>
   <span class="bold">IMDB рейтинг:</span> <span itemprop="aggregateRating" itemscope itemtype="http://schema.org/AggregateRating">
   <meta itemprop="ratingCount" content="21000">
+  <meta itemprop="bestRating" content="10">
   <span itemprop="ratingValue">7.2</span>/10</span></p>
   <p itemprop="description">Провокационное кино об&nbsp;успешном копирайтере, который постепенно начинает разочаровываться в&nbsp;мире рекламы. </p>
 
@@ -61,6 +62,7 @@ keywords: "фильмы, маркетологи, подборка фильмов
   <p><span class="bold">Режиссер:</span> <span itemprop="director">Деррик Борте</span><br>
   <span class="bold">IMDB рейтинг:</span> <span itemprop="aggregateRating" itemscope itemtype="http://schema.org/AggregateRating">
    <meta itemprop="ratingCount" content="42000">
+   <meta itemprop="bestRating" content="10">
   <span itemprop="ratingValue">6.4</span>/10</span></p>
   <p itemprop="description">История «идеальной семьи», которая на&nbsp;самом деле является группой маркетологов, продвигающих разнообразные продукты среди соседей и&nbsp;знакомых.  </p>
   <p><span class="bold">Зачем смотреть:</span> Главная тема фильма&nbsp;— критика потребительской культуры и&nbsp;влияние скрытого маркетинга на&nbsp;общество. Герои фильма сталкиваются с&nbsp;моральными дилеммами, связанными с&nbsp;работой. Эти моменты делают фильм не&nbsp;только развлекательным, но&nbsp;и&nbsp;побуждают задуматься о&nbsp;том, где должны быть проведены границы в&nbsp;маркетинговых и&nbsp;рекламных кампаниях. </p>
@@ -102,6 +104,7 @@ keywords: "фильмы, маркетологи, подборка фильмов
   <p><span class="bold">Режиссер:</span> <span itemprop="director">Джон Ли Хэнкок</span><br>
   <span class="bold">IMDB рейтинг:</span> <span itemprop="aggregateRating" itemscope itemtype="http://schema.org/AggregateRating">
   <meta itemprop="ratingCount" content="172000">
+  <meta itemprop="bestRating" content="10">
   <span itemprop="ratingValue">7.2</span>/10</span></p>
   <p itemprop="description">История Рэя Крока и&nbsp;создания империи McDonald’s: как маленький семейный ресторан превратился в&nbsp;мировую франшизу. </p>
   <p><span class="bold">Зачем смотреть:</span> Фильм иллюстрирует, как стандартизация процессов для обеспечения узнаваемости, сильная визуальная идентичность и&nbsp;стремление к&nbsp;сохранению единства бренда играют значимую роль в&nbsp;успехе компании. Он&nbsp;также акцентирует внимание на&nbsp;важности инноваций и&nbsp;стратегического подхода в&nbsp;бизнесе, а&nbsp;также затрагивает этические дилеммы в&nbsp;мире бизнеса. </p>
@@ -143,6 +146,7 @@ keywords: "фильмы, маркетологи, подборка фильмов
   <p><span class="bold">Режиссер:</span> <span itemprop="director">Даг Прэй</span><br>
   <span class="bold">IMDB рейтинг:</span> <span itemprop="aggregateRating" itemscope itemtype="http://schema.org/AggregateRating">
   <meta itemprop="ratingCount" content="1800">
+  <meta itemprop="bestRating" content="10">
   <span itemprop="ratingValue">6.4</span>/10</span></p>
   <p itemprop="description">Документальный фильм, который рассматривает мир рекламы с&nbsp;точки зрения людей, ее&nbsp;делающих.</p>
   <p><span class="bold">Зачем смотреть:</span> Истории успеха и&nbsp;интервью с&nbsp;влиятельными фигурами из&nbsp;мира рекламы могут подтолкнуть маркетологов к&nbsp;новым идеям и&nbsp;стратегиям. </p>
@@ -185,6 +189,7 @@ keywords: "фильмы, маркетологи, подборка фильмов
   <p><span class="bold">Режиссер:</span> <span itemprop="director">Морган Сперлок</span><br>
   <span class="bold">IMDB рейтинг:</span> <span itemprop="aggregateRating" itemscope itemtype="http://schema.org/AggregateRating">
     <meta itemprop="ratingCount" content="15000">
+    <meta itemprop="bestRating" content="10">
   <span itemprop="ratingValue">6.6</span>/10</span></p>
   <p itemprop="description">Документальный фильм, исследующий мир брендов, рекламы и&nbsp;продакт-плейсмента в&nbsp;кино. Морган Сперлок показывает, как компании платят за&nbsp;то, чтобы их&nbsp;продукты появлялись в&nbsp;фильмах и&nbsp;телешоу. Более того, он&nbsp;пытается сделать свой фильм полностью финансируемым за&nbsp;счет продакт-плейсмента. Режиссер встречается с&nbsp;разными компаниями и&nbsp;пытается убедить их&nbsp;оплатить появление своих продуктов в&nbsp;его фильме. </p>
   <p><span class="bold">Зачем смотреть:</span> Фильм показывает «внутреннюю кухню» того, как бренды интегрируют свои продукты в&nbsp;развлекательный контент. </p>
@@ -230,6 +235,7 @@ keywords: "фильмы, маркетологи, подборка фильмов
   <p><span class="bold">Режиссер:</span> <span itemprop="director">Беннетт Миллер</span><br>
   <span class="bold">IMDB рейтинг:</span> <span itemprop="aggregateRating" itemscope itemtype="http://schema.org/AggregateRating">
   <meta itemprop="ratingCount" content="457000">
+  <meta itemprop="bestRating" content="10">
   <span itemprop="ratingValue">7.6</span>/10</span></p>
   <p itemprop="description">Фильм основан на&nbsp;реальной истории бейсбольной команды «Окленд Этлетикс» и&nbsp;её&nbsp;менеджера Билли Бина, применившего методы статистического анализа для формирования команды. </p>
   <p><span class="bold">Зачем смотреть:</span> Фильм подчеркивает важность аналитики и&nbsp;принятия взвешенных решений на&nbsp;основе данных. </p>
@@ -256,6 +262,7 @@ keywords: "фильмы, маркетологи, подборка фильмов
   <p><span class="bold">Режиссер:</span> <span itemprop="director"> Дэвид Гелб</span><br>
   <span class="bold">IMDB рейтинг:</span> <span itemprop="aggregateRating" itemscope itemtype="http://schema.org/AggregateRating">
     <meta itemprop="ratingCount" content="38000">
+    <meta itemprop="bestRating" content="10">
   <span itemprop="ratingValue">7.8</span>/10</span></p>
   <p itemprop="description">Фильм&nbsp;&mdash; документальный портрет Дзиро Оно, 85-летнего мастера суши и&nbsp;владельца ресторана в&nbsp;Токио, который является первым рестораном суши, получившим три звезды Michelin. </p>
   <p><span class="bold">Зачем смотреть:</span> Искусство приготовления суши в&nbsp;фильме&nbsp;&mdash; это метафора любой профессии. Дзиро рассказывает, что лежит в&nbsp;основе его умения: непрекращающееся стремление к&nbsp;совершенству, внимание к&nbsp;мелочам, неустанное обучение, чувство ответственности, а&nbsp;также глубокая страсть к&nbsp;своему ремеслу.
@@ -280,6 +287,7 @@ keywords: "фильмы, маркетологи, подборка фильмов
   <p><span class="bold">Режиссер:</span> <span itemprop="director"> Арам Раппопорт</span><br>
   <span class="bold">IMDB рейтинг:</span> <span itemprop="aggregateRating" itemscope itemtype="http://schema.org/AggregateRating">
   <meta itemprop="ratingCount" content="12000">
+  <meta itemprop="bestRating" content="10">
   <span itemprop="ratingValue">5.6</span>/10</span></p>
   <p itemprop="description">Сюжет фильма сосредоточен вокруг молодого амбициозного человека по&nbsp;имени Скат, который стремится пробиться в&nbsp;мире маркетинга.
  </p>
