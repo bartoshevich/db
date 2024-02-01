@@ -18,12 +18,14 @@ keywords: "фильмы, маркетологи, подборка фильмов
 
 <section class="row-gap--m" itemscope itemtype="http://schema.org/Movie">
   <h2 itemprop="name" class="section__title h1 bold">99 франков / 99 francs (2009)</h2>
+  <meta itemprop="dateCreated" content="2009">
   <p><span class="bold">Режиссер:</span> <span itemprop="director">Ян Кунен</span><br>
   <span class="bold">IMDB рейтинг:</span> <span itemprop="aggregateRating" itemscope itemtype="http://schema.org/AggregateRating">
   <meta itemprop="ratingCount" content="21000">
   <meta itemprop="bestRating" content="10">
   <span itemprop="ratingValue">7.2</span>/10</span></p>
   <p itemprop="description">Провокационное кино об&nbsp;успешном копирайтере, который постепенно начинает разочаровываться в&nbsp;мире рекламы. </p>
+<meta itemprop="image" content="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1705161155/site/films/99_francs.jpg">
 
 <p><span class="bold">Зачем смотреть:</span> Фильм предлагает сатирический взгляд на&nbsp;мир рекламы и&nbsp;потребительства, что может побудить к&nbsp;размышлениям о&nbsp;собственном месте в&nbsp;индустрии и&nbsp;задачах, которые ставите перед собой. </p>
 <p>Отмечу, что если&nbsp;бы акцент в&nbsp;рекламе делали на&nbsp;создании доверия и&nbsp;уважении к&nbsp;потребителям, сюжет фильма представлял&nbsp;бы собой совсем другую историю. </p>
@@ -59,6 +61,7 @@ keywords: "фильмы, маркетологи, подборка фильмов
 
 <section class="row-gap--m" itemscope itemtype="http://schema.org/Movie">
   <h2 itemprop="name" class="section__title h1 bold">Семейка Джонсов / The Joneses (2009)</h2>
+  <meta itemprop="dateCreated" content="2009">
   <p><span class="bold">Режиссер:</span> <span itemprop="director">Деррик Борте</span><br>
   <span class="bold">IMDB рейтинг:</span> <span itemprop="aggregateRating" itemscope itemtype="http://schema.org/AggregateRating">
    <meta itemprop="ratingCount" content="42000">
@@ -66,11 +69,13 @@ keywords: "фильмы, маркетологи, подборка фильмов
   <span itemprop="ratingValue">6.4</span>/10</span></p>
   <p itemprop="description">История «идеальной семьи», которая на&nbsp;самом деле является группой маркетологов, продвигающих разнообразные продукты среди соседей и&nbsp;знакомых.  </p>
   <p><span class="bold">Зачем смотреть:</span> Главная тема фильма&nbsp;— критика потребительской культуры и&nbsp;влияние скрытого маркетинга на&nbsp;общество. Герои фильма сталкиваются с&nbsp;моральными дилеммами, связанными с&nbsp;работой. Эти моменты делают фильм не&nbsp;только развлекательным, но&nbsp;и&nbsp;побуждают задуматься о&nbsp;том, где должны быть проведены границы в&nbsp;маркетинговых и&nbsp;рекламных кампаниях. </p>
+  <meta itemprop="image" content="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1705163624/site/films/joneses.jpg">
 
   <div class="full-bleed figure" itemprop="trailer" itemscope itemtype="https://schema.org/VideoObject">
     <link itemprop="url" href="https://youtu.be/3JhVvq1aKYY" >
     <link itemprop="contentUrl" href="https://youtu.be/3JhVvq1aKYY" >
     <link itemprop="thumbnailUrl" href="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1705163624/site/films/joneses.jpg" >
+     <meta itemprop="image" content="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1705163624/site/films/joneses.jpg">
     <meta itemprop="name" content="Семейка Джонсов. Трейлер." >
       <meta itemprop="uploadDate" content="2014-10-01T00:00:00+03:00">
       <meta itemprop="duration" content="PT2M18S">
@@ -101,6 +106,7 @@ keywords: "фильмы, маркетологи, подборка фильмов
 
 <section class="row-gap--m" itemscope itemtype="http://schema.org/Movie">
   <h2 itemprop="name" class="section__title h1 bold">Основатель / The Founder  (2016)</h2>
+  <meta itemprop="dateCreated" content="2016">
   <p><span class="bold">Режиссер:</span> <span itemprop="director">Джон Ли Хэнкок</span><br>
   <span class="bold">IMDB рейтинг:</span> <span itemprop="aggregateRating" itemscope itemtype="http://schema.org/AggregateRating">
   <meta itemprop="ratingCount" content="172000">
@@ -108,6 +114,7 @@ keywords: "фильмы, маркетологи, подборка фильмов
   <span itemprop="ratingValue">7.2</span>/10</span></p>
   <p itemprop="description">История Рэя Крока и&nbsp;создания империи McDonald’s: как маленький семейный ресторан превратился в&nbsp;мировую франшизу. </p>
   <p><span class="bold">Зачем смотреть:</span> Фильм иллюстрирует, как стандартизация процессов для обеспечения узнаваемости, сильная визуальная идентичность и&nbsp;стремление к&nbsp;сохранению единства бренда играют значимую роль в&nbsp;успехе компании. Он&nbsp;также акцентирует внимание на&nbsp;важности инноваций и&nbsp;стратегического подхода в&nbsp;бизнесе, а&nbsp;также затрагивает этические дилеммы в&nbsp;мире бизнеса. </p>
+   <meta itemprop="image" content="https://res.cloudinary.com/bartoshevich/image/upload/v1705164780/site/films/mac.jpg">
 
 <div class="full-bleed figure" itemprop="trailer" itemscope itemtype="https://schema.org/VideoObject">
     <link itemprop="url" href="https://youtu.be/wDDttPDi8d0" >
@@ -143,6 +150,7 @@ keywords: "фильмы, маркетологи, подборка фильмов
 
 <section class="row-gap--m" itemscope itemtype="http://schema.org/Movie">
   <h2 itemprop="name" class="section__title h1 bold">Изображение и текст / Art & Copy (2009)</h2>
+  <meta itemprop="dateCreated" content="2009">
   <p><span class="bold">Режиссер:</span> <span itemprop="director">Даг Прэй</span><br>
   <span class="bold">IMDB рейтинг:</span> <span itemprop="aggregateRating" itemscope itemtype="http://schema.org/AggregateRating">
   <meta itemprop="ratingCount" content="1800">
@@ -150,6 +158,7 @@ keywords: "фильмы, маркетологи, подборка фильмов
   <span itemprop="ratingValue">6.4</span>/10</span></p>
   <p itemprop="description">Документальный фильм, который рассматривает мир рекламы с&nbsp;точки зрения людей, ее&nbsp;делающих.</p>
   <p><span class="bold">Зачем смотреть:</span> Истории успеха и&nbsp;интервью с&nbsp;влиятельными фигурами из&nbsp;мира рекламы могут подтолкнуть маркетологов к&nbsp;новым идеям и&nbsp;стратегиям. </p>
+  <meta itemprop="image" content="https://res.cloudinary.com/bartoshevich/image/upload/v1705165805/site/films/artandcopy.jpg">
 
 
   <div class="full-bleed figure" itemprop="trailer" itemscope itemtype="https://schema.org/VideoObject">
@@ -186,6 +195,7 @@ keywords: "фильмы, маркетологи, подборка фильмов
 
 <section class="row-gap--m" itemscope itemtype="http://schema.org/Movie">
   <h2 itemprop="name" class="section__title h1 bold">Величайший фильм из&nbsp;всех когда-либо проданных /  The Greatest Movie Ever Sold (2011)</h2>
+  <meta itemprop="dateCreated" content="2011">
   <p><span class="bold">Режиссер:</span> <span itemprop="director">Морган Сперлок</span><br>
   <span class="bold">IMDB рейтинг:</span> <span itemprop="aggregateRating" itemscope itemtype="http://schema.org/AggregateRating">
     <meta itemprop="ratingCount" content="15000">
@@ -193,7 +203,7 @@ keywords: "фильмы, маркетологи, подборка фильмов
   <span itemprop="ratingValue">6.6</span>/10</span></p>
   <p itemprop="description">Документальный фильм, исследующий мир брендов, рекламы и&nbsp;продакт-плейсмента в&nbsp;кино. Морган Сперлок показывает, как компании платят за&nbsp;то, чтобы их&nbsp;продукты появлялись в&nbsp;фильмах и&nbsp;телешоу. Более того, он&nbsp;пытается сделать свой фильм полностью финансируемым за&nbsp;счет продакт-плейсмента. Режиссер встречается с&nbsp;разными компаниями и&nbsp;пытается убедить их&nbsp;оплатить появление своих продуктов в&nbsp;его фильме. </p>
   <p><span class="bold">Зачем смотреть:</span> Фильм показывает «внутреннюю кухню» того, как бренды интегрируют свои продукты в&nbsp;развлекательный контент. </p>
-
+<meta itemprop="image" content="https://i.ytimg.com/vi/fXRCPObrZYs/maxresdefault.jpg">
 
 <div class="full-bleed figure" itemprop="trailer" itemscope itemtype="https://schema.org/VideoObject">
     <link itemprop="url" href="https://youtu.be/fXRCPObrZYs" >
@@ -232,6 +242,7 @@ keywords: "фильмы, маркетологи, подборка фильмов
 
 <section class="row-gap--m" itemscope itemtype="http://schema.org/Movie">
   <h2 itemprop="name" class="section__title h1 bold">Человек, который изменил все / Moneyball (2011)</h2>
+  <meta itemprop="dateCreated" content="2011">
   <p><span class="bold">Режиссер:</span> <span itemprop="director">Беннетт Миллер</span><br>
   <span class="bold">IMDB рейтинг:</span> <span itemprop="aggregateRating" itemscope itemtype="http://schema.org/AggregateRating">
   <meta itemprop="ratingCount" content="457000">
@@ -259,6 +270,7 @@ keywords: "фильмы, маркетологи, подборка фильмов
 
 <section class="row-gap--m" itemscope itemtype="http://schema.org/Movie">
   <h2 itemprop="name" class="section__title h1 bold">Мечты Дзиро о суши / Jiro Dreams of Sushi (2011) </h2>
+  <meta itemprop="dateCreated" content="2011">
   <p><span class="bold">Режиссер:</span> <span itemprop="director"> Дэвид Гелб</span><br>
   <span class="bold">IMDB рейтинг:</span> <span itemprop="aggregateRating" itemscope itemtype="http://schema.org/AggregateRating">
     <meta itemprop="ratingCount" content="38000">
@@ -284,6 +296,7 @@ keywords: "фильмы, маркетологи, подборка фильмов
 
 <section class="row-gap--m" itemscope itemtype="http://schema.org/Movie">
   <h2 itemprop="name" class="section__title h1 bold">Сироп / Syrup (2013) </h2>
+  <meta itemprop="dateCreated" content="2013">
   <p><span class="bold">Режиссер:</span> <span itemprop="director"> Арам Раппопорт</span><br>
   <span class="bold">IMDB рейтинг:</span> <span itemprop="aggregateRating" itemscope itemtype="http://schema.org/AggregateRating">
   <meta itemprop="ratingCount" content="12000">
