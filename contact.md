@@ -141,15 +141,22 @@ image:
 <p> Для коротких сообщений можете использовать телеграм&nbsp;— <a class="link" href="https://t.me/bartoshevich">@bartoshevich</a> </p>
 <p>Адрес для писем: 220073, г.&nbsp;Минск, ул. Ольшевского, 22, офис&nbsp;6 (7&nbsp;этаж)</p>
 <p>Благодарю за интерес к моей работе и надеюсь на возможность сотрудничества в будущем. </p>
+
+<p><span class="bold">Важное обновление:</span> в&nbsp;настоящее время я&nbsp;нахожусь не&nbsp;в&nbsp;Беларуси, а&nbsp;в&nbsp;Казахстане (Астана). Однако благодаря возможностям дистанционной работы, я&nbsp;продолжаю предоставлять услуги с&nbsp;тем&nbsp;же вниманием к&nbsp;деталям.</p>
+
+ <li class="list-li"> GSM (Беларусь):  <a class="link" href="tel:+375297753340" title="позвонить"><span class="noperenos">+375 (29) 775-33-40</span></a> </li>
+
 {% endcomment %}
 
 <p>Если вы&nbsp;заинтересованы в&nbsp;работе со&nbsp;мной, буду рад обсудить задачи. </p>
 
-<p><span class="bold">Важное обновление:</span> в&nbsp;настоящее время я&nbsp;нахожусь не&nbsp;в&nbsp;Беларуси, а&nbsp;в&nbsp;Казахстане (Астана). Однако благодаря возможностям дистанционной работы, я&nbsp;продолжаю предоставлять услуги с&nbsp;тем&nbsp;же вниманием к&nbsp;деталям.</p>
+<p><span class="italic">Обновление:</span> В&nbsp;данный момент мое основное местоположение&nbsp;— Казахстан (Астана), где я&nbsp;создал и&nbsp;возглавляю «Агентство маркетинговых решений BARSAN». Благодаря современным технологиям, я&nbsp;продолжаю активно сотрудничать с&nbsp;клиентами из&nbsp;Беларуси с&nbsp;тем&nbsp;же вниманием к&nbsp;деталям. </p>
 
-<p class="mb-m">Связаться со мной легко:</p>
+
+
+<p class="mb-m">Как со мной связаться:</p>
 <ul>
-   <li class="list-li"> GSM (Беларусь):  <a class="link" href="tel:+375297753340" title="позвонить"><span class="noperenos">+375 (29) 775-33-40</span></a> </li>
+  
    <li class="list-li"> GSM (Казахстан):  <a class="link" href="tel:+&7027481102" title="позвонить"><span class="noperenos">+7 (702) 748-11-02</span></a> </li>
    <li class="list-li"> WhatsApp:  <a class="link" href="https://wa.me/77027481102" title="позвонить"><span class="noperenos">+7 (702) 748-11-02</span></a> </li>
    <li class="list-li"> Телеграм:  <a class="link" href="https://t.me/bartoshevich">@bartoshevich</a> </li>
@@ -159,7 +166,7 @@ image:
 </ul>
 <p>Адрес для писем: 220073, г.&nbsp;Минск, ул. Ольшевского, 22, офис&nbsp;6 (7&nbsp;этаж)</p>
 
-<strong class="bold">Мир ждет наших проектов. Начнем? </strong>
+<strong class="bold h2">Мир ждет наших проектов. Начнем? </strong>
 
 
 
