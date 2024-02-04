@@ -93,7 +93,7 @@ image:
 						<p>Я прошел преквалификацию в&nbsp;Европейском банке реконструкции и&nbsp;развития (<a class="link" href="/assets/images/contact/ebrd__bartoshevich.pdf" target="_blank" rel="noopener nofollow noreferrer">свидетельство</a>, pdf, 25.8 кБ). Банк <del>может</del> мог* частично компенсировать предприятиям стоимость моих услуг в&nbsp;рамках поддержки малого и&nbsp;среднего бизнеса в&nbsp;Беларуси. </p>
 						<div class="side">
 							<img  loading="lazy" decoding="async" src="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1608034473/site/ebrd.png" alt="логотип Европейского банка реконструкции и развития " width="254" height="58" >
-						<p>	Детальная информация о&nbsp;предоставлении финансовой поддержки&nbsp;— <a class="link" href="https://www.ebrd.com/work-with-us/advice-for-small-businesses/belarus-contact-us.html%20" >в&nbsp;белорусском офисе ЕБРР</a>. </p>
+						<p>	Детальная информация о&nbsp;предоставлении финансовой поддержки&nbsp;— в&nbsp;офисе ЕБРР. </p>
 						</div>
 						</div>
 
