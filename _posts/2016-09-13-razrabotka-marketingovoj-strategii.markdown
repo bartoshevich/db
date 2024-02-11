@@ -80,9 +80,9 @@ image: /assets/images/tizers/tizer-28.png
 <h3 class="h2 bold mt-m">Группа компаний <a class="link" href="https://www.axamit.com/ru">«Axamit»</a></h3>
 
 <picture>
-			<source srcset="/assets/images//blog/razrabotka-marketingovoj-strategii/axamit@1x.avif 1x,	/assets/images//blog/razrabotka-marketingovoj-strategii/axamit@2x.avif 2x" type="image/avif">
-			<source srcset="/assets/images//blog/razrabotka-marketingovoj-strategii/axamit@1x.webp 1x,	/assets/images//blog/razrabotka-marketingovoj-strategii/axamit@2x.webp 2x" type="image/webp">
-			<img loading="lazy" decoding="async"   class="image mb-m"  src="/assets/images//blog/razrabotka-marketingovoj-strategii/axamit@1x.jpg" alt="логотип axamit" width="144" height="38"	srcset="/assets/images//blog/razrabotka-marketingovoj-strategii/axamit@2x.jpg 2x">
+			<source srcset="/assets/images/blog/razrabotka-marketingovoj-strategii/axamit@1x.avif 1x,	/assets/images/blog/razrabotka-marketingovoj-strategii/axamit@2x.avif 2x" type="image/avif">
+			<source srcset="/assets/images/blog/razrabotka-marketingovoj-strategii/axamit@1x.webp 1x,	/assets/images/blog/razrabotka-marketingovoj-strategii/axamit@2x.webp 2x" type="image/webp">
+			<img loading="lazy" decoding="async"   class="image mb-m"  src="/assets/images/blog/razrabotka-marketingovoj-strategii/axamit@1x.jpg" alt="логотип axamit" width="144" height="38"	srcset="/assets/images/blog/razrabotka-marketingovoj-strategii/axamit@2x.jpg 2x">
 		</picture>
 
 <div class="with-side row-gap--m">

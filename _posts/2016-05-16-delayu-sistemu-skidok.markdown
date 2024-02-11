@@ -40,11 +40,11 @@ image: /assets/images/tizers/tizer-21.jpg
 <p>Идея заказчику понравилась. Вместе определили критерий ценности клиента&nbsp;— объем закупок за&nbsp;последний квартал. По&nbsp;этому показателю присудили разряды.</p>
 
 <div itemprop="image" itemscope itemtype="http://schema.org/ImageObject">
-<link itemprop="url" href="/assets/images//blog/kejs-delayu-sistemu-skidok/sav.jpg">
+<link itemprop="url" href="/assets/images/blog/kejs-delayu-sistemu-skidok/sav.jpg">
 <picture>
-  <source srcset="/assets/images//blog/kejs-delayu-sistemu-skidok/sav.avif" type="image/avif">
-  <source srcset="/assets/images//blog/kejs-delayu-sistemu-skidok/sav.webp" type="image/webp">
-  <img loading="lazy" decoding="async"  src="/assets/images//blog/kejs-delayu-sistemu-skidok/sav.jpg" alt="Система скидок." class="image" width="695" height="486" itemprop="contentUrl" />
+  <source srcset="/assets/images/blog/kejs-delayu-sistemu-skidok/sav.avif" type="image/avif">
+  <source srcset="/assets/images/blog/kejs-delayu-sistemu-skidok/sav.webp" type="image/webp">
+  <img loading="lazy" decoding="async"  src="/assets/images/blog/kejs-delayu-sistemu-skidok/sav.jpg" alt="Система скидок." class="image" width="695" height="486" itemprop="contentUrl" />
     </picture>
 <div class="figcaption">Предложенная система разрядов. Значения показателей изменены</div>
 </div>

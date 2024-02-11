@@ -51,7 +51,7 @@ image:  /assets/images/tizers/tizer-24.jpg
 <picture>
                <source srcset="/assets/images/blog/1s-bitriks/bitrix2.avif" type="image/avif">
 			    <source srcset="/assets/images/blog/1s-bitriks/bitrix2.webp" type="image/webp">
-                <img class="image" loading="lazy" decoding="async"  src="/assets/images/blog/1s-bitriks//bitrix2.jpg" alt="модули Битрикс" width="695" height="334"  itemprop="contentUrl" >
+                <img class="image" loading="lazy" decoding="async"  src="/assets/images/blog/1s-bitriks/bitrix2.jpg" alt="модули Битрикс" width="695" height="334"  itemprop="contentUrl" >
     </picture>
 </div>
 
