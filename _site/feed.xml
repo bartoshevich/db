@@ -8,6 +8,14 @@
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
+        <title>От темных паттернов к этичному взаимодействию с пользователями</title>
+        <description>Темные паттерны заставляют пользователей ошибаться и&amp;nbsp;приносить компаниям прибыль. Рассказываю о&amp;nbsp;рисках, которые они несут, и&amp;nbsp;как маркетологам работать этично.</description>
+        <pubDate>Mon, 04 Mar 2024 00:00:00 +0500</pubDate>
+        <link>http://localhost:4000/blog/ethical-marketing-dark-patterns/</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/ethical-marketing-dark-patterns/</guid>
+      </item>
+    
+      <item>
         <title>Подборка фильмов, которые вдохновят маркетологов</title>
         <description>Подборка фильмов о&amp;nbsp;маркетинге, рекламе и&amp;nbsp;потребительском поведении, которые расширят профессиональный взгляд и&amp;nbsp;вдохновят маркетологов на&amp;nbsp;новые идеи.</description>
         <pubDate>Sat, 13 Jan 2024 00:00:00 +0600</pubDate>
@@ -557,14 +565,6 @@
         <pubDate>Sat, 16 Jan 2016 00:00:00 +0600</pubDate>
         <link>http://localhost:4000/blog/sem-tendencij-marketinga/</link>
         <guid isPermaLink="true">http://localhost:4000/blog/sem-tendencij-marketinga/</guid>
-      </item>
-    
-      <item>
-        <title>Как выбрать корпоративные подарки: стратегии и психология для бизнеса</title>
-        <description>Разбираемся, почему корпоративные подарки важны для бизнеса, как выбрать идеальный подарок и&amp;nbsp;как правильно поздравить клиентов. Стратегии и&amp;nbsp;психология для маркетологов.</description>
-        <pubDate>Tue, 15 Dec 2015 00:00:00 +0600</pubDate>
-        <link>http://localhost:4000/blog/gifts2clients/</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/gifts2clients/</guid>
       </item>
     
   </channel>
