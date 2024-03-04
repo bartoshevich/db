@@ -80,7 +80,7 @@ keywords: "темные паттерны, этичный маркетинг, у�
 <img class="image" loading="lazy" decoding="async" 
      sizes="100vw" 
 			srcset="https://res.cloudinary.com/bartoshevich/image/upload/w_640/f_auto,q_auto/v1709574983/site/dark-patterns/darkfood.jpg 640w,
-			https://res.cloudinary.com/bartoshevich/image/upload/w_1040/f_auto,q_auto/v1709569569/site/dark-patterns/giftstoprogrammers.jpg 1040w,
+			https://res.cloudinary.com/bartoshevich/image/upload/w_1040/f_auto,q_auto/v1709574983/site/dark-patterns/darkfood.jpg 1040w,
       https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1709574983/site/dark-patterns/darkfood.jpg 2000w"
       src="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1709574983/site/dark-patterns/darkfood.jpg" width="2000" height="2000" alt="Скриншот опроса, на котором ресторан интересуется были ли пользователи у них. Варианты ответов: 'конечно' и 'нет, я скучный'" itemprop="contentUrl"/>
 <div class="figcaption">Возможен и&nbsp;такой вариант&nbsp;— у&nbsp;читателя стараются вызвать чувство стыда или неполноценности за&nbsp;отказ.</div>
