@@ -146,19 +146,22 @@ image:
 
  <li class="list-li"> GSM (Беларусь):  <a class="link" href="tel:+375297753340" title="позвонить"><span class="noperenos">+375 (29) 775-33-40</span></a> </li>
 
+
+   <li class="list-li"> GSM (Казахстан):  <a class="link" href="tel:+&7027481102" title="позвонить"><span class="noperenos">+7 (702) 748-11-02</span></a> </li>
+   <li class="list-li"> WhatsApp:  <a class="link" href="https://wa.me/77027481102" title="позвонить"><span class="noperenos">+7 (702) 748-11-02</span></a> </li>
+
 {% endcomment %}
 
 <p>Если вы&nbsp;заинтересованы в&nbsp;работе со&nbsp;мной, буду рад обсудить задачи. </p>
 
-<p><span class="italic">Обновление:</span> В&nbsp;данный момент мое основное местоположение&nbsp;— Казахстан (Астана), где я&nbsp;создал и&nbsp;возглавляю «Агентство маркетинговых решений BARSAN». Благодаря современным технологиям, я&nbsp;продолжаю активно сотрудничать с&nbsp;клиентами из&nbsp;Беларуси с&nbsp;тем&nbsp;же вниманием к&nbsp;деталям. </p>
+<p><span class="italic">Обновление:</span> В&nbsp;данный момент мое основное местоположение&nbsp;— Казахстан (Астана), где я&nbsp;создал и&nbsp;возглавляю <a class="link" href="https://barsan.kz/">«Агентство маркетинговых решений BARSAN»</a>. Благодаря современным технологиям, я&nbsp;продолжаю активно сотрудничать с&nbsp;клиентами из&nbsp;Беларуси с&nbsp;тем&nbsp;же вниманием к&nbsp;деталям. </p>
 
 
 
 <p class="mb-m">Как со мной связаться:</p>
 <ul>
   
-   <li class="list-li"> GSM (Казахстан):  <a class="link" href="tel:+&7027481102" title="позвонить"><span class="noperenos">+7 (702) 748-11-02</span></a> </li>
-   <li class="list-li"> WhatsApp:  <a class="link" href="https://wa.me/77027481102" title="позвонить"><span class="noperenos">+7 (702) 748-11-02</span></a> </li>
+ 
    <li class="list-li"> Телеграм:  <a class="link" href="https://t.me/bartoshevich">@bartoshevich</a> </li>
    <li class="list-li"> Электронная почта:  <a class="link" href="mailto:dmitry@bartoshevich.by" title="написать" >dmitry@bartoshevich.by</a> </li>
    
