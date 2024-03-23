@@ -120,7 +120,7 @@ keywords: "маркетинг реклама интернет"
 	<link itemprop="contentUrl" href="https://embed.ted.com/talks/eli_pariser_beware_online_filter_bubbles" >
 	<link itemprop="thumbnailUrl" href="https://pi.tedcdn.com/r/talkstar-photos.s3.amazonaws.com/uploads/708a332d-b4df-4cb3-b8f8-35763ab4829c/EliPariser_2019T-embed.jpg" >
  	<meta itemprop="name" content="Остерегайтесь пузырей в Интернете" >
-	<meta itemprop="uploadDate" content="2019-10-02" >
+	<meta itemprop="uploadDate" content="2019-10-02T00:00:00+03:00">
   	<meta itemprop="duration" content="PT8M48S">
  	<meta itemprop="isFamilyFriendly" content="true">
 <div class="video">
