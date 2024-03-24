@@ -162,7 +162,7 @@ keywords: "миграция, медиапланирование, Германи�
 			https://res.cloudinary.com/bartoshevich/image/upload/w_1040/f_auto,q_auto/v1670435184/site/duss/Duss05.jpg 1040w,
 			https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1670435184/site/duss/Duss05.jpg 1200w"
 			src="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1670435184/site/duss/Duss05.jpg"
-			width="1200" height="627" alt="Дюссельдорф. Вид с&nbsp;высоты птичьего полёта" itemprop="contentUrl"
+			width="1200" height="627" alt="Дюссельдорф - город для миграции маркетолога" itemprop="contentUrl"
 		>
 		<div class="figcaption">Дюссельдорф. Вид с&nbsp;высоты птичьего полёта. <br>Фото: www.duesseldorf.de</div>
 </div>
@@ -224,7 +224,7 @@ keywords: "миграция, медиапланирование, Германи�
 			https://res.cloudinary.com/bartoshevich/image/upload/w_1200/f_auto,q_auto/v1670435184/site/duss/duss04.jpg 1200w,
       https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1670435184/site/duss/duss04.jpg 1600w"
 			src="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1670435184/site/duss/duss04.jpg"
-			width="1600" height="1067" alt="" itemprop="contentUrl"
+			width="1600" height="1067" alt="овцы пасутся на пастбище на фоне Дюссельдорфа" itemprop="contentUrl"
 		>
 		<figcaption class="figcaption">Вид на Дюссельдорф с другой стороны Рейна <br>Фото: www.duesseldorf.de</figcaption>
 </figure>
@@ -258,7 +258,7 @@ keywords: "миграция, медиапланирование, Германи�
 			https://res.cloudinary.com/bartoshevich/image/upload/w_1200/f_auto,q_auto/v1670435184/site/duss/duss02.png 1200w,
       https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1670435184/site/duss/duss02.png 1600w"
 			src="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1670435184/site/duss/duss02.png"
-			width="1600" height="900" alt="" itemprop="contentUrl"
+			width="1600" height="900" alt="Фотография старой части Дюссельдорфа" itemprop="contentUrl"
 		>
 		<figcaption class="figcaption">Рождественская ярмарка в старой части Дюссельдорфа <br>Фото: www.duesseldorf.de</figcaption>
 </figure>

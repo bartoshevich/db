@@ -19,7 +19,7 @@ keywords: "фильмы, маркетологи, подборка фильмов
 <section class="row-gap--m" itemscope itemtype="http://schema.org/Movie">
   <h2 itemprop="name" class="section__title h1 bold">99 франков / 99 francs (2009)</h2>
   <meta itemprop="dateCreated" content="2009">
-  <p><span class="bold">Режиссер:</span> <span itemprop="director">Ян Кунен</span><br>
+  <p><span class="bold">Режиссер:</span> <span itemprop="director" itemscope itemtype="http://schema.org/Person"><span itemprop="name"> Ян Кунен</span></span><br>
   <span class="bold">IMDB рейтинг:</span> <span itemprop="aggregateRating" itemscope itemtype="http://schema.org/AggregateRating">
   <meta itemprop="ratingCount" content="21000">
   <meta itemprop="bestRating" content="10">
@@ -62,7 +62,7 @@ keywords: "фильмы, маркетологи, подборка фильмов
 <section class="row-gap--m" itemscope itemtype="http://schema.org/Movie">
   <h2 itemprop="name" class="section__title h1 bold">Семейка Джонсов / The Joneses (2009)</h2>
   <meta itemprop="dateCreated" content="2009">
-  <p><span class="bold">Режиссер:</span> <span itemprop="director">Деррик Борте</span><br>
+  <p><span class="bold">Режиссер:</span> <span itemprop="director" itemscope itemtype="http://schema.org/Person"><span itemprop="name">Деррик Борте</span></span><br>
   <span class="bold">IMDB рейтинг:</span> <span itemprop="aggregateRating" itemscope itemtype="http://schema.org/AggregateRating">
    <meta itemprop="ratingCount" content="42000">
    <meta itemprop="bestRating" content="10">
@@ -107,7 +107,7 @@ keywords: "фильмы, маркетологи, подборка фильмов
 <section class="row-gap--m" itemscope itemtype="http://schema.org/Movie">
   <h2 itemprop="name" class="section__title h1 bold">Основатель / The Founder  (2016)</h2>
   <meta itemprop="dateCreated" content="2016">
-  <p><span class="bold">Режиссер:</span> <span itemprop="director">Джон Ли Хэнкок</span><br>
+  <p><span class="bold">Режиссер:</span> <span itemprop="director" itemscope itemtype="http://schema.org/Person"><span itemprop="name">Джон Ли Хэнкок</span></span><br>
   <span class="bold">IMDB рейтинг:</span> <span itemprop="aggregateRating" itemscope itemtype="http://schema.org/AggregateRating">
   <meta itemprop="ratingCount" content="172000">
   <meta itemprop="bestRating" content="10">
@@ -151,7 +151,7 @@ keywords: "фильмы, маркетологи, подборка фильмов
 <section class="row-gap--m" itemscope itemtype="http://schema.org/Movie">
   <h2 itemprop="name" class="section__title h1 bold">Изображение и текст / Art & Copy (2009)</h2>
   <meta itemprop="dateCreated" content="2009">
-  <p><span class="bold">Режиссер:</span> <span itemprop="director">Даг Прэй</span><br>
+  <p><span class="bold">Режиссер:</span> <span itemprop="director" itemscope itemtype="http://schema.org/Person"><span itemprop="name">Даг Прэй</span></span><br>
   <span class="bold">IMDB рейтинг:</span> <span itemprop="aggregateRating" itemscope itemtype="http://schema.org/AggregateRating">
   <meta itemprop="ratingCount" content="1800">
   <meta itemprop="bestRating" content="10">
@@ -196,7 +196,7 @@ keywords: "фильмы, маркетологи, подборка фильмов
 <section class="row-gap--m" itemscope itemtype="http://schema.org/Movie">
   <h2 itemprop="name" class="section__title h1 bold">Величайший фильм из&nbsp;всех когда-либо проданных /  The Greatest Movie Ever Sold (2011)</h2>
   <meta itemprop="dateCreated" content="2011">
-  <p><span class="bold">Режиссер:</span> <span itemprop="director">Морган Сперлок</span><br>
+  <p><span class="bold">Режиссер:</span> <span itemprop="director" itemscope itemtype="http://schema.org/Person"><span itemprop="name">Морган Сперлок</span></span><br>
   <span class="bold">IMDB рейтинг:</span> <span itemprop="aggregateRating" itemscope itemtype="http://schema.org/AggregateRating">
     <meta itemprop="ratingCount" content="15000">
     <meta itemprop="bestRating" content="10">
@@ -243,7 +243,7 @@ keywords: "фильмы, маркетологи, подборка фильмов
 <section class="row-gap--m" itemscope itemtype="http://schema.org/Movie">
   <h2 itemprop="name" class="section__title h1 bold">Человек, который изменил все / Moneyball (2011)</h2>
   <meta itemprop="dateCreated" content="2011">
-  <p><span class="bold">Режиссер:</span> <span itemprop="director">Беннетт Миллер</span><br>
+  <p><span class="bold">Режиссер:</span> <span itemprop="director" itemscope itemtype="http://schema.org/Person"><span itemprop="name">Беннетт Миллер</span></span><br>
   <span class="bold">IMDB рейтинг:</span> <span itemprop="aggregateRating" itemscope itemtype="http://schema.org/AggregateRating">
   <meta itemprop="ratingCount" content="457000">
   <meta itemprop="bestRating" content="10">
@@ -271,7 +271,7 @@ keywords: "фильмы, маркетологи, подборка фильмов
 <section class="row-gap--m" itemscope itemtype="http://schema.org/Movie">
   <h2 itemprop="name" class="section__title h1 bold">Мечты Дзиро о суши / Jiro Dreams of Sushi (2011) </h2>
   <meta itemprop="dateCreated" content="2011">
-  <p><span class="bold">Режиссер:</span> <span itemprop="director"> Дэвид Гелб</span><br>
+  <p><span class="bold">Режиссер:</span> <span itemprop="director" itemscope itemtype="http://schema.org/Person"><span itemprop="name">Дэвид Гелб</span></span><br>
   <span class="bold">IMDB рейтинг:</span> <span itemprop="aggregateRating" itemscope itemtype="http://schema.org/AggregateRating">
     <meta itemprop="ratingCount" content="38000">
     <meta itemprop="bestRating" content="10">
@@ -297,7 +297,7 @@ keywords: "фильмы, маркетологи, подборка фильмов
 <section class="row-gap--m" itemscope itemtype="http://schema.org/Movie">
   <h2 itemprop="name" class="section__title h1 bold">Сироп / Syrup (2013) </h2>
   <meta itemprop="dateCreated" content="2013">
-  <p><span class="bold">Режиссер:</span> <span itemprop="director"> Арам Раппопорт</span><br>
+  <p><span class="bold">Режиссер:</span> <span itemprop="director" itemscope itemtype="http://schema.org/Person"> <span itemprop="name">Арам Раппопорт</span></span><br>
   <span class="bold">IMDB рейтинг:</span> <span itemprop="aggregateRating" itemscope itemtype="http://schema.org/AggregateRating">
   <meta itemprop="ratingCount" content="12000">
   <meta itemprop="bestRating" content="10">

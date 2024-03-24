@@ -8,15 +8,15 @@
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
-        <title>От темных паттернов к этичному взаимодействию с пользователями</title>
-        <description>Темные паттерны заставляют пользователей ошибаться и&amp;nbsp;приносить компаниям прибыль. Рассказываю о&amp;nbsp;рисках, которые они несут, и&amp;nbsp;как маркетологам работать этично.</description>
+        <title>Преодоление Темных Паттернов: Путь к Этичному Маркетингу и Доверию</title>
+        <description>Преодоление темных паттернов повышает доверие пользователей и&amp;nbsp;способствует устойчивому развитию бренда. Делюсь, как этичный подход в&amp;nbsp;маркетинге и&amp;nbsp;отказ от&amp;nbsp;манипулятивных техник может укрепить отношения с&amp;nbsp;клиентами и&amp;nbsp;обеспечить долгосрочный успех.</description>
         <pubDate>Mon, 04 Mar 2024 00:00:00 +0500</pubDate>
         <link>http://localhost:4000/blog/ethical-marketing-dark-patterns/</link>
         <guid isPermaLink="true">http://localhost:4000/blog/ethical-marketing-dark-patterns/</guid>
       </item>
     
       <item>
-        <title>Подборка фильмов, которые вдохновят маркетологов</title>
+        <title>Топ фильмы для маркетологов: Подборка для вдохновения</title>
         <description>Подборка фильмов о&amp;nbsp;маркетинге, рекламе и&amp;nbsp;потребительском поведении, которые расширят профессиональный взгляд и&amp;nbsp;вдохновят маркетологов на&amp;nbsp;новые идеи.</description>
         <pubDate>Sat, 13 Jan 2024 00:00:00 +0600</pubDate>
         <link>http://localhost:4000/blog/filmy-dlya-marketologov/</link>
@@ -24,7 +24,7 @@
       </item>
     
       <item>
-        <title>Преобразование B2B Маркетинга: 12 Архетипов для Промышленных Гигантов</title>
+        <title>12 Архетипов меняют B2B Маркетинг</title>
         <description>Теория архетипов трансформирует B2B маркетинг промышленных гигантов и&amp;nbsp;помогает выделить бренды в&amp;nbsp;конкурентной среде.</description>
         <pubDate>Mon, 04 Dec 2023 00:00:00 +0600</pubDate>
         <link>http://localhost:4000/blog/marketing-for-industrial-giants-12-archetypes/</link>
@@ -40,7 +40,7 @@
       </item>
     
       <item>
-        <title>Создаю концепцию бренда для компании «PES GLOBAL» (Казахстан)</title>
+        <title>Разработка Концепции Бренда для «PES GLOBAL» в Казахстане</title>
         <description>Разработка концепции бренда PES GLOBAL: погружение в&amp;nbsp;горнодобывающую отрасль Казахстана, понимание потребностей клиентов и&amp;nbsp;выявление позиционирования в&amp;nbsp;сфере поставок.</description>
         <pubDate>Sun, 13 Aug 2023 00:00:00 +0600</pubDate>
         <link>http://localhost:4000/blog/pes-global-brand-concept/</link>
@@ -72,8 +72,8 @@
       </item>
     
       <item>
-        <title>Антикризисный маркетинг: стратегии и ценности бренда</title>
-        <description>Исследую стратегии антикризисного маркетинга. Рассказываю, как смыслы и&amp;nbsp;ценности бренда могут определить ваш подход к&amp;nbsp;маркетингу в&amp;nbsp;условиях кризиса и&amp;nbsp;неопределенности. </description>
+        <title>Антикризисный Маркетинг: Стратегии для Сильных Брендов</title>
+        <description>Исследую стратегии антикризисного маркетинга. Узнайте, как поддержать и&amp;nbsp;развить ваш бренд даже в&amp;nbsp;самые сложные времена, превращая вызовы в&amp;nbsp;возможности для роста. </description>
         <pubDate>Sun, 24 Apr 2022 00:00:00 +0600</pubDate>
         <link>http://localhost:4000/blog/marketing-v-krizis/</link>
         <guid isPermaLink="true">http://localhost:4000/blog/marketing-v-krizis/</guid>
@@ -112,7 +112,7 @@
       </item>
     
       <item>
-        <title>Системный маркетинг: распространенные мифы и эффективные практики</title>
+        <title>Системный Маркетинг: Преодоление Мифов и Принципы Эффективности</title>
         <description>Суть и&amp;nbsp;ключевые принципы системного маркетинга с&amp;nbsp;примерами и&amp;nbsp;практическими советами для применения в&amp;nbsp;бизнесе.</description>
         <pubDate>Wed, 24 Mar 2021 00:00:00 +0600</pubDate>
         <link>http://localhost:4000/blog/system-marketing/</link>
@@ -152,7 +152,7 @@
       </item>
     
       <item>
-        <title>Использование эмоций в маркетинге для улучшения взаимодействия с клиентами</title>
+        <title>Примеры эмоционального маркетинга: Как создать связь с клиентами через эмоции</title>
         <description>Рассказываю, как правильное использование эмоций маркетологами может повысить лояльность и&amp;nbsp;узнаваемость бренда.</description>
         <pubDate>Mon, 01 Jun 2020 00:00:00 +0600</pubDate>
         <link>http://localhost:4000/blog/emotions-in-marketing/</link>
@@ -224,7 +224,7 @@
       </item>
     
       <item>
-        <title>Сет Годин «Это маркетинг». Ключевые идеи</title>
+        <title>Сет Годин и его взгляд на маркетинг: уроки книги «Это маркетинг»</title>
         <description>Маркетологи не&amp;nbsp;используют клиентов в&amp;nbsp;целях предприятия. Они используют маркетинг, чтобы помочь людям достичь собственных целей. Сет Годин «This Is&amp;nbsp;Marketing».</description>
         <pubDate>Wed, 20 Feb 2019 00:00:00 +0600</pubDate>
         <link>http://localhost:4000/blog/seth-godin/</link>
@@ -248,7 +248,7 @@
       </item>
     
       <item>
-        <title>SWOT-анализ в деталях: Ошибки и как их избежать</title>
+        <title>SWOT-Анализ: распространённые ошибки и способы их избежать </title>
         <description>Частые ошибки в&amp;nbsp;SWOT-анализе и&amp;nbsp;рекомендации для их&amp;nbsp;коррекции. Примеры и&amp;nbsp;советы от&amp;nbsp;консультанта по&amp;nbsp;маркетингу и&amp;nbsp;стратегии.</description>
         <pubDate>Tue, 15 Jan 2019 00:00:00 +0600</pubDate>
         <link>http://localhost:4000/blog/primer-swot-analiza/</link>
@@ -368,7 +368,7 @@
       </item>
     
       <item>
-        <title>Одна концепция против множества: Решающий фактор успеха в работе с рекламными агентствами</title>
+        <title>Одна идея vs три: работа с рекламными агентствами</title>
         <description>Погружаемся в&amp;nbsp;суть работы с&amp;nbsp;рекламными агентствами: объясняю, почему необходимо настаивать на&amp;nbsp;предоставлении одной сильной и&amp;nbsp;глубокой рекламной концепции и&amp;nbsp;отказываться от&amp;nbsp;3+&amp;nbsp;поверхностных вариантов. </description>
         <pubDate>Fri, 03 Mar 2017 00:00:00 +0600</pubDate>
         <link>http://localhost:4000/blog/choice/</link>
@@ -392,7 +392,7 @@
       </item>
     
       <item>
-        <title>Алгоритм проведения рекламной кампании</title>
+        <title>Этапы Рекламной Кампании: Пошаговый Гайд от Идеи до Реализации</title>
         <description>Алгоритм проведения рекламной кампании: когда реклама необходима, как проработать идею и&amp;nbsp;определить бюджет, оценить эффективность. </description>
         <pubDate>Tue, 20 Dec 2016 00:00:00 +0600</pubDate>
         <link>http://localhost:4000/blog/algoritm-provedeniya-reklamnoj-kampanii/</link>
@@ -432,7 +432,7 @@
       </item>
     
       <item>
-        <title>Идея рекламы для банка Тинькова</title>
+        <title>От эскиза до одобрения Тиньковым: Путь рекламной идеи для банка Тинькова</title>
         <description>Рассказываю историю, как придумал идею рекламы для банка Олега Тинькова, поделился с&amp;nbsp;Тиньковым и&amp;nbsp;что из&amp;nbsp;этого вышло.</description>
         <pubDate>Wed, 05 Oct 2016 00:00:00 +0600</pubDate>
         <link>http://localhost:4000/blog/reklama-dlya-banka-tinkova/</link>
@@ -440,7 +440,7 @@
       </item>
     
       <item>
-        <title>Эффективный найм маркетологов: как привлечь профессионалов в команду</title>
+        <title>Как найти и нанять лучших маркетологов: Пошаговое руководство</title>
         <description>Выбирайте маркетологов с&amp;nbsp;умом: статья для руководителей и&amp;nbsp;HR, стремящихся привлечь профессионалов. Узнайте, как правильно оценить кандидатов, включая их&amp;nbsp;знания, навыки и&amp;nbsp;аналитический подход.</description>
         <pubDate>Tue, 27 Sep 2016 00:00:00 +0600</pubDate>
         <link>http://localhost:4000/blog/marketers/</link>
