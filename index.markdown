@@ -31,9 +31,9 @@ keywords: "развитие брендов, анализ данных, разр�
     <div itemprop="founder" itemscope itemtype="https://schema.org/Person">
         <meta itemprop="name" content="Дмитрий Бартошевич">
         <meta itemprop="jobTitle" content="Консультант по маркетингу и стратегии">
-        <div itemprop="worksFor" itemscope itemtype="http://schema.org/Organization">
+        <span itemprop="worksFor" itemscope itemtype="http://schema.org/Organization">
             <meta itemprop="name" content="Дмитрий Бартошевич - консультант по маркетингу и стратегии">
-        </div>
+        </span>
         <link itemprop="url" href="https://bartoshevich.by">
         <meta itemprop="email" content="dmitry@bartoshevich.by">
         <meta itemprop="telephone" content="+375297753340">
@@ -41,9 +41,9 @@ keywords: "развитие брендов, анализ данных, разр�
         <span itemprop="hasCredential" itemscope itemtype="https://schema.org/EducationalOccupationalCredential">
             <meta itemprop="name" content="Преквалификация в Европейском банке реконструкции и развития">
             <meta itemprop="credentialCategory" content="Профессиональная квалификация">
-            <div itemprop="recognizedBy" itemscope itemtype="http://schema.org/Organization">
+            <span itemprop="recognizedBy" itemscope itemtype="http://schema.org/Organization">
                 <meta itemprop="name" content="Европейский банк реконструкции и развития">
-            </div>
+            </span>
         </span>
 
 
