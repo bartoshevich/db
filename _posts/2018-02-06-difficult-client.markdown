@@ -284,11 +284,11 @@ keywords: "проблемный клиент"
 <ul class="addictive-spacing">
 
 <li class="list-li">
-  <a href="/blog/stars/" class="link"> Статья о&nbsp;роли маркетологов в&nbsp;итоговых результатах компании</a>
+  <a href="/blog/stars/" class="link">Роль маркетологов в&nbsp;итоговых результатах компании</a>
 </li>
 
 <li class="list-li">
-  <a href="/blog/igra/" class="link"> Как&nbsp;избежать психологических игр и&nbsp;построить успешные отношения с&nbsp;клиентами</a>
+  <a href="/blog/igra/" class="link"> Психологические игры с&nbsp;клиентами</a>
 </li>
 
 <li class="list-li">

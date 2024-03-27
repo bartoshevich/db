@@ -187,3 +187,18 @@ keywords: "контроль исследовательских агентств"
 <p><span class="bold">Сергей Бургазлиев:</span> При проведении фокус-групп ведется аудио- и&nbsp;видеозапись. Несмотря на&nbsp;это рекомендую присутствовать на&nbsp;фокус-группе лично&nbsp;— будет возможность влиять на&nbsp;ход обсуждения, если что-то пойдет не&nbsp;в&nbsp;соответствии с&nbsp;ожиданиями или вы&nbsp;захотите более глубоко обсудить какой-либо момент.</p>
 </article>
 </section>
+
+<footer class="additive-spacing">
+<p class="mb-m mt-m italic"> Узнать больше</p>
+<ul class="addictive-spacing">
+<li class="list-li">
+  <a href="/blog/3-pravila-marketingovyx-issledovanij/" class="link"> Как&nbsp;выжать из&nbsp;маркетинговых исследований максимум: правила для руководителей</a>
+</li>
+<li class="list-li">
+  <a href="/blog/eye-tracking/" class="link"> Как&nbsp;оптимизируют маркетинговые кампании с&nbsp;помощью айтрекинга</a>
+</li>
+<li class="list-li">
+  <a href="/blog/autsorsing-marketinga/" class="link">Аутсорсинг маркетинговых услуг: как защитить деньги компании</a>
+</li>
+</ul>
+</footer>  

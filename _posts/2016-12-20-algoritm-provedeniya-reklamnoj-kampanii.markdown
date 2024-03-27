@@ -267,6 +267,13 @@ image: /assets/images/tizers/tizer-35.jpg
 <div class="post__note row-gap--m">
 <p>Вы&nbsp;провели кампанию и&nbsp;объем продаж не&nbsp;увеличился. Какой вывод сделаете? Должны&nbsp;ли вы&nbsp;поменять сценарий ролика? Или&nbsp;же составить другой медиасплит? А&nbsp;может нанять более вежливого консультанта? Или все&nbsp;же поменять дизайн продукта?</p>
 <p>Изучите динамику знания и&nbsp;восприятия продукта. Если она положительная, а&nbsp;прироста продаж нет, значит проблемы на&nbsp;других этапах покупки&nbsp;— делать далее кампании на&nbsp;увеличение знания нет смысла.</p></div>
+
+<p class="mt-m mb-m italic">Узнать больше:</p>
+<ul >
+<li class="list-li">Полезный материал <a class="link" href="/blog/perfomance-and-brand-marketing/">о&nbsp;перформанс и&nbsp;бренд-маркетинге</a></li>
+<li class="list-li"> <a class="link" href="/blog/marketing-bez-nuzhdy-prodat/">Маркетинг без нужды продать</a></li>
+</ul>
+
 </section>
 
 <section class="row-gap--m" id="5">

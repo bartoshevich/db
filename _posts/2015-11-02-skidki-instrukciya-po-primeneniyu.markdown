@@ -43,7 +43,7 @@ image: /assets/images/tizers/tizer-11.jpg
 <section class="full-bleed row-gap--m max-width-text" >
 <h2 class="section__title h1 bold ">Как предлагать скидки правильно </h2>
 
-<p>Сущность маркетинга — в&nbsp;создании и&nbsp;подкреплении отличий. В&nbsp;рамках маркетинговой кампании <strong>предлагайте скидки на&nbsp;условиях, которые подчеркивают ценность бренда и&nbsp;укрепляют отличия от&nbsp;конкурентов</strong>.</p>
+<p>Сущность маркетинга — в&nbsp;создании и&nbsp;подкреплении <a class="link" href="/blog/2-idei-po-razvitiyu-marketinga/#distinction">отличий</a>. В&nbsp;рамках маркетинговой кампании <strong>предлагайте скидки на&nbsp;условиях, которые подчеркивают ценность бренда и&nbsp;укрепляют отличия от&nbsp;конкурентов</strong>.</p>
 
 <p>Поясню на&nbsp;примере <a class="link" href="/blog/3dom-mebel-dlya-semi/">компании 3Dom</a>&nbsp;— производителя мебели для семьи. Многие «мебельщики» предлагают скидки. Отличие 3Dom в&nbsp;том, что скидки получают только&nbsp;те, кто состоит в&nbsp;официальном браке. Предлагая участие в&nbsp;дисконтной программе, компания невольно подчеркивает ценности бренда.</p>
 
@@ -62,9 +62,7 @@ image: /assets/images/tizers/tizer-11.jpg
 <footer class="additive-spacing">
 <p class="mb-m mt-m"> Дополнительные материалы:</p>
 <ul class="addictive-spacing">
-<li class="list-li">
-  <a class="link" href="/blog/2-idei-po-razvitiyu-marketinga/#distinction">Почему важны отличия</a>
-</li>
+
 <li class="list-li">
   <a class="link" href="/blog/akcii-so-skidkami/">Как отличаться среди акций со&nbsp;скидками</a>
 </li>

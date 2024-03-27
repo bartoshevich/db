@@ -16,7 +16,7 @@ image: /assets/images/tizers/tizer-4.jpg
 
 
 <p>Двадцатого августа мы&nbsp;с&nbsp;Дмитрием Григорьевым, Сергеем Дробышевским и&nbsp;Павлом Вилюхой провели Практикум «Взлом барьеров развития бизнеса».</p>
-<p>Обсуждали с&nbsp;позиций продаж, маркетинга и&nbsp;рекламы, <strong>что тормозит рост белорусских предприятий и&nbsp;как придать бизнесу ускорение</strong>.</p>
+<p>Обсуждали с&nbsp;позиций продаж, <a href="/blog/system-marketing/" class="link">системного маркетинга</a> и&nbsp;рекламы, <strong>что тормозит рост белорусских предприятий и&nbsp;как придать бизнесу ускорение</strong>.</p>
 
 <section class="row-gap--m">
 <h2 class="section__title h1 bold">Как проводили практикум</h2>
@@ -101,3 +101,19 @@ image: /assets/images/tizers/tizer-4.jpg
 <p>Спасибо участникам!<br/>
  И&nbsp;до&nbsp;встречи на&nbsp;следующих мероприятиях!
 </p>
+
+
+<footer class="additive-spacing">
+<p class="mb-m mt-m"> Интересно почитать</p>
+<ul class="addictive-spacing">
+<li class="list-li">
+  <a href="/blog/marketers/" class="link"> Мастер-класс по&nbsp;найму маркетологов</a>
+</li>
+<li class="list-li">
+  <a href="/blog/primer-swot-analiza/" class="link"> Делаем SWOT-анализ: как избежать типичных ошибок</a>
+</li>
+<li class="list-li">
+  <a href="/blog/share-of-searches/" class="link"> Доля в&nbsp;поиске&nbsp;&mdash; новый показатель в&nbsp;маркетинге</a>
+</li>
+</ul>
+</footer>  
