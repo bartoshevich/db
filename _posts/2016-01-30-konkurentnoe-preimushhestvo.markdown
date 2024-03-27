@@ -74,11 +74,12 @@ image: /assets/images/tizers/tizer-15.jpg
          <source srcset="/assets/images/blog/konkurentnoe-preimushhestvo/poison.webp"  type="image/webp">
          <img class="image is-16by9" loading="lazy" decoding="async" src="/assets/images/blog/konkurentnoe-preimushhestvo/poison.jpg" alt="Упаковка с интуитивно понятным знаком опасного вещества." width="1100" height="619" itemprop="contentUrl" />
    </picture>
+      <div class="figcaption">
+Представьте последствия, если&nbsp;бы тару с&nbsp;ядохимикатами оформляли в&nbsp;фирменном стиле магазинов детских товаров.
+</div>
 </div>  
 
-<p>Представьте последствия, если&nbsp;бы тару с&nbsp;ядохимикатами оформляли в&nbsp;фирменном стиле магазинов детских товаров.</p>
 </section>
-
 
 
 <section class="row-gap--m max-width-text">
