@@ -33,11 +33,11 @@ image:
 
 
 
-<div class="full-bleed row-gap--l" id="all-posts" itemscope itemtype="http://schema.org/Blog">
+<div class="full-bleed mt-m row-gap--l" id="all-posts" itemscope itemtype="http://schema.org/Blog">
     <meta itemprop="name" content="Блог о маркетинге | Дмитрий Бартошевич">
     <meta itemprop="description" content="Блог Дмитрия Бартошевича о маркетинге, делюсь идеями, наблюдениями, опытом">
 
-    <h2 class="h2 bold">Записи (83) </h2>
+<h2 class="h2 bold">Записи (83) </h2>
 
   
 <ul class="row-gap--xl list-reset">
@@ -61,11 +61,11 @@ image:
             </div>
 
             <div class="block__name--align-left">
-                <h3 class="h2">
+                <p class="h2">
                     <a class="link article-link" href="{{ site.baseurl }}{{ post.url }}">							
                             <span class="article_title" itemprop="headline">	{{ post.name }} </span> 
                     </a>
-                </h3>
+                </p>
 
                 <p>
                     <small>
