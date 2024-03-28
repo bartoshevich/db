@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Думайте как маркетолог"
+title:  "Мышление маркетолога: Ключ к привлечению клиентов без навязчивой рекламы"
 name: "Акция не&nbsp;сработает, если не&nbsp;думать как маркетолог"
 description: "Делюсь видео с&nbsp;презентации, где я&nbsp;обсуждаю эффективные стратегии маркетинга, основанные на&nbsp;создании и&nbsp;передаче смыслов. Подчеркиваю важность единой идеи для бренда, рассматриваю примеры успешных и&nbsp;неудачных рекламных кампаний."
 date:   2020-02-29
@@ -39,18 +39,18 @@ keywords: "мышление маркетолога"
 </div>
 </div>
 
-<p>Рассуждаю вслух, почему важно и&nbsp;что значит <strong>думать, как маркетолог</strong>. Обсуждаю важность стратегического мышления, подчеркиваю необходимость понимания клиента, создания смыслов и&nbsp;уникальных предложений. Развенчиваю мифы о&nbsp;маркетинге, рассматриваю проблемы выбора, значимость бренда и&nbsp;маркетинга, основанного на&nbsp;убеждениях и&nbsp;ценностях. Эффективный маркетинг требует отчетливой идеи и&nbsp;стратегии, не&nbsp;фокусируясь исключительно на&nbsp;продажах или навязчивой рекламе. </p>
+<p>Приглашаю вас посмотреть видео выступления, где я рассуждаю, почему важно и&nbsp;что значит <strong>думать, как маркетолог</strong>. Я&nbsp;раскрываю, почему фокусировка на&nbsp;продажах может быть рискованной, развенчиваю распространенные мифы о&nbsp;маркетинге, подчеркиваю значение бренда и&nbsp;стратегий, основанных на&nbsp;убеждениях и&nbsp;ценностях. Объясняю, как можно заменить навязчивую рекламу и&nbsp;эффективно привлекать клиентов, не&nbsp;раздражая их. </p>
 
 <p> Говорил, что беспокоит, над чем думаю и&nbsp;<strong>какие подходы в развитии брендов считаю правильными</strong>. И&nbsp;видимо от&nbsp;желания рассказать больше, волнуюсь, глотаю окончания, оговариваюсь. В&nbsp;общем, веду себя как живой человек ;-)  </p>
 <p class="mb-m"><span class="bold">Быстрые ссылки</span> (откроются в&nbsp;новой вкладке) </p>
 <ul>
 	<li class="list-li"><a class="link" href="https://www.youtube.com/watch?v=fXspplVnrEM&amp;t=18s" target="_blank" rel="noopener">
 	0:18</a> Не все маркетологи одинаково полезны</li>
-	<li class="list-li"> <a class="link" href="https://www.youtube.com/watch?v=fXspplVnrEM&amp;t=134s" target="_blank" rel="noopener">2:14</a> О практиках и&nbsp;теоретиках в&nbsp;маркетинге</li>
-	<li class="list-li"> <a class="link" href="https://www.youtube.com/watch?v=fXspplVnrEM&amp;t=228s" target="_blank" rel="noopener">3:48</a> Что спрашивать у&nbsp;маркетолога на&nbsp;собеседовании</li>
-	<li class="list-li"> <a class="link" href="https://www.youtube.com/watch?v=fXspplVnrEM&amp;t=470s" target="_blank" rel="noopener">7:50</a> Основная проблема потребителя и&nbsp;что делать маркетологу</li>
+	<li class="list-li"> <a class="link" href="https://www.youtube.com/watch?v=fXspplVnrEM&amp;t=134s" target="_blank" rel="noopener">2:14</a> О практиках и&nbsp;теоретиках</li>
+	<li class="list-li"> <a class="link" href="https://www.youtube.com/watch?v=fXspplVnrEM&amp;t=228s" target="_blank" rel="noopener">3:48</a> Что спрашивать у&nbsp;специалиста на&nbsp;собеседовании</li>
+	<li class="list-li"> <a class="link" href="https://www.youtube.com/watch?v=fXspplVnrEM&amp;t=470s" target="_blank" rel="noopener">7:50</a> Основная проблема потребителя и&nbsp;что делать компаниям</li>
 	<li class="list-li"> <a class="link" href="https://www.youtube.com/watch?v=fXspplVnrEM&amp;t=725s" target="_blank" rel="noopener">12:05</a> Почему маркетолог не&nbsp;должен продавать</li>
-	<li class="list-li"> <a class="link" href="https://www.youtube.com/watch?v=fXspplVnrEM&amp;t=1103s" target="_blank" rel="noopener">18:23</a> На чем должен фокусироваться маркетолог</li>
+	<li class="list-li"> <a class="link" href="https://www.youtube.com/watch?v=fXspplVnrEM&amp;t=1103s" target="_blank" rel="noopener">18:23</a> На чем стоит фокусироваться</li>
 	<li class="list-li"> <a class="link" href="https://www.youtube.com/watch?v=fXspplVnrEM&amp;t=1375s" target="_blank" rel="noopener">22:55</a> Система «свой&nbsp;— чужой» в&nbsp;маркетинге</li>
 	<li class="list-li"><a class="link" href="https://www.youtube.com/watch?v=fXspplVnrEM&amp;t=1555s" target="_blank" rel="noopener">25:55</a> Нужно&nbsp;ли дожимать клиентов</li>
 	<li class="list-li"> <a class="link" href="https://www.youtube.com/watch?v=fXspplVnrEM&amp;t=1813s" target="_blank" rel="noopener">30:13</a> Путь маркетолога (резюме)</li>
