@@ -11,4 +11,4 @@
 /assets/fonts/*
 /assets/scripts/*
 /assets/media/*
-Cache-Control: max-age=31536000, public, immutable
+    Cache-Control: max-age=31536000, public, immutable
