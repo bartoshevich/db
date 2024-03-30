@@ -4,7 +4,7 @@ title:  "Топ фильмы для маркетологов: Подборка �
 name: "Кино, меняющее взгляд на&nbsp;маркетинг"
 description: 'Подборка фильмов о&nbsp;маркетинге, рекламе и&nbsp;потребительском поведении, которые расширят профессиональный взгляд и&nbsp;вдохновят маркетологов на&nbsp;новые идеи.'
 date:   2024-01-13
-last_modified_at: 2024-01-13
+last_modified_at: 2024-03-30
 categories: мнение
 permalink: "/blog/filmy-dlya-marketologov/"
 tags: "маркетолог"
@@ -12,9 +12,52 @@ image: /assets/images/tizers/tizer-82.jpg
 keywords: "фильмы, маркетологи, подборка фильмов, полезные фильмы, мотивирующие фильмы, фильмы для маркетологов, фильмы о маркетинге, фильмы о рекламе, фильмы о брендинге"
 ---
 
-{% include post__header.html %}
+{% include post__header--update.html %}
 
 <p>Кино, в&nbsp;котором мелькают маркетологи, не&nbsp;только развлекает. Назову нескольких картин, которые исследуют маркетинг с&nbsp;разных сторон, позволяя глубже понять его влияние и&nbsp;значимость. От&nbsp;провокационной сатиры до&nbsp;вдумчивых документальных исследований&nbsp;— эти фильмы могут вдохновить маркетологов на&nbsp;новые идеи и&nbsp;стратегии.</p>
+
+<section class="row-gap--m" itemscope itemtype="http://schema.org/Movie">
+  <h2 itemprop="name" class="section__title h1 bold">Социальная дилемма (2020)</h2>
+  <meta itemprop="dateCreated" content="2020">
+  <p><span class="bold">Режиссер:</span> <span itemprop="director" itemscope itemtype="http://schema.org/Person"><span itemprop="name"> Джефф Орловски</span></span><br>
+  <span class="bold">IMDB рейтинг:</span> <span itemprop="aggregateRating" itemscope itemtype="http://schema.org/AggregateRating">
+  <meta itemprop="ratingCount" content="89000">
+  <meta itemprop="bestRating" content="10">
+  <span itemprop="ratingValue">7.6</span>/10</span></p>
+  <p itemprop="description">Документальная драма о&nbsp;том, как социальные сети программируют людей. За&nbsp;первые 4&nbsp;недели его посмотрели 38&nbsp;миллионов зрителей. Это один из&nbsp;самых обсуждаемых фильмов Netflix.  </p>
+<meta itemprop="image" content="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1711824420/site/films/social_dilemma.jpg">
+
+<p><span class="bold">Зачем смотреть:</span> Картина раскрывает бизнес-модель, которая лежит в&nbsp;основе социальных сетей и&nbsp;поисковых платформ. Это знание поможет маркетологам лучше осознать последствия своего подхода к&nbsp;дизайну продукта и&nbsp;взаимодействию с&nbsp;клиентами.  </p>
+
+<div class="full-bleed figure" itemprop="trailer" itemscope itemtype="https://schema.org/VideoObject">
+ 	<link itemprop="url" href="https://youtu.be/vMvBpbeZiZs" >
+	<link itemprop="contentUrl" href="https://youtu.be/vMvBpbeZiZs" >
+	<link itemprop="thumbnailUrl" href="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1711824420/site/films/social_dilemma.jpg" >
+ 	<meta itemprop="name" content="Социальная дилемма. Фильм." >
+    <meta itemprop="uploadDate" content="2021-01-27T00:00:00+03:00">
+  	<meta itemprop="duration" content="PT1H33M9S">
+ 	<meta itemprop="isFamilyFriendly" content="true">
+						
+	<div class="video">
+	    <a class="video__link " href="https://youtu.be/vMvBpbeZiZs" target="_blank" rel="noopener nofollow noreferrer">
+			
+				<img loading="lazy" class="video__media" src="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1711824420/site/films/social_dilemma.jpg" alt="фильм Социальная дилемма на русском языке" width="1920" height="1080" itemprop="thumbnail">
+			
+		</a>
+		<button class="video__button" aria-label="Запустить видео">
+			<svg width="68" height="48" viewBox="0 0 68 48"><path class="video__button-shape" d="M66.52,7.74c-0.78-2.93-2.49-5.41-5.42-6.19C55.79,.13,34,0,34,0S12.21,.13,6.9,1.55 C3.97,2.33,2.27,4.81,1.48,7.74C0.06,13.05,0,24,0,24s0.06,10.95,1.48,16.26c0.78,2.93,2.49,5.41,5.42,6.19 C12.21,47.87,34,48,34,48s21.79-0.13,27.1-1.55c2.93-0.78,4.64-3.26,5.42-6.19C67.94,34.95,68,24,68,24S67.94,13.05,66.52,7.74z"></path><path class="video__button-icon" d="M 45,24 27,14 27,34"></path>
+            </svg>
+		</button>
+	</div>
+    <div class="figcaption"  itemprop="description">
+   Посмотреть можно <a class="link" href="https://www.netflix.com/pt-en/title/81254224">на&nbsp;Netflix</a> или здесь.
+	</div>
+</div>
+  
+</section>
+
+
+
 
 <section class="row-gap--m" itemscope itemtype="http://schema.org/Movie">
   <h2 itemprop="name" class="section__title h1 bold">99 франков / 99 francs (2009)</h2>
