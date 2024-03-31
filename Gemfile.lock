@@ -127,5 +127,8 @@ DEPENDENCIES
   jekyll-feed (~> 0.12)
   webrick
 
+RUBY VERSION
+   ruby 3.2.2p53
+
 BUNDLED WITH
    2.5.7
