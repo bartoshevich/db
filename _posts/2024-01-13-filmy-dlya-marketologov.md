@@ -24,7 +24,7 @@ keywords: "фильмы, маркетологи, подборка фильмов
   <meta itemprop="ratingCount" content="89000">
   <meta itemprop="bestRating" content="10">
   <span itemprop="ratingValue">7.6</span>/10</span></p>
-  <p itemprop="description">Документальная драма о&nbsp;том, как социальные сети программируют людей. За&nbsp;первые 4&nbsp;недели его посмотрели 38&nbsp;миллионов зрителей. Это один из&nbsp;самых обсуждаемых фильмов Netflix.  </p>
+  <p itemprop="description">Документальная драма о&nbsp;том, как социальные сети программируют людей. За&nbsp;первые 4&nbsp;недели ее посмотрели 38&nbsp;миллионов зрителей. Это один из&nbsp;самых обсуждаемых фильмов Netflix.  </p>
 <meta itemprop="image" content="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1711824420/site/films/social_dilemma.jpg">
 
 <p><span class="bold">Зачем смотреть:</span> Картина раскрывает бизнес-модель, которая лежит в&nbsp;основе социальных сетей и&nbsp;поисковых платформ. Это знание поможет маркетологам лучше осознать последствия своего подхода к&nbsp;дизайну продукта и&nbsp;взаимодействию с&nbsp;клиентами.  </p>
