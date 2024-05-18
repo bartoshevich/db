@@ -16,7 +16,12 @@ keywords: "семинар Новые технологии,  IT"
 
 <p>Посетил конференцию «Новая реальность: вызовы для Беларуси». На&nbsp;два дня ушел в&nbsp;мир блокчейна, финансовых технологий, <a class="link" href="/blog/hype/">искусственного интеллекта</a> и&nbsp;краудфандинга. Делюсь идеями, которые пригодятся вне зависимости от&nbsp;степени близости к&nbsp;ИТ и&nbsp;финансовой сфере. </p>
 
+<div class="with-side row-gap--m">
 <p><span class="italic">Дисклеймер: это не&nbsp;конспект двухдневной конференции, а&nbsp;некоторые мысли спикеров и&nbsp;участников групповых обсуждений, которые я&nbsp;отметил для себя.</span></p>
+<div class="side">
+<p>Также интересно: <a href="/blog/chatgpt-mozhet-preobrazit-brend-i-reklamnye-kampanii/" class="link">использование ChatGPT в&nbsp;маркетинге</a></p>
+</div>
+</div>
 
 <section class="row-gap--m" >
 <h2 class="section__title h1 bold ">Занимайтесь тем бизнесом, где у&nbsp;вас экспертиза</h2>

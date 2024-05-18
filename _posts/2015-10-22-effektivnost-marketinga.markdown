@@ -102,5 +102,8 @@ image: /assets/images/tizers/tizer-10.jpg
 <li class="list-li">
   <a href="/blog/kak-reklamu-podrujit-s-potrebitelyami/" class="link"> Время блокировать рекламу</a>
 </li>
+<li class="list-li">
+  <a href="/blog/chatgpt-mozhet-preobrazit-brend-i-reklamnye-kampanii/" class="link"> Использование ChatGPT в маркетинге</a>
+</li>
 </ul>
 </footer>

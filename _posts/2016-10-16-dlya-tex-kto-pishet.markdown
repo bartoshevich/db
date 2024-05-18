@@ -188,5 +188,12 @@ image: /assets/images/tizers/tizer-31.jpg
 <li class="list-li">
   <a href="/blog/reklamnyj-tekst-atlant-telekom/" class="link"> Анализ и&nbsp;улучшение рекламного текста: кейс Атлант Телеком</a>
 </li>
+<li class="list-li">
+  <a href="/blog/faberge/" class="link"> Смелость брендинга: как выделиться и&nbsp;слушать себя</a>
+</li>
+
+<li class="list-li">
+  <a href="/blog/chatgpt-mozhet-preobrazit-brend-i-reklamnye-kampanii/" class="link"> Использование ChatGPT в&nbsp;маркетинге</a>
+</li>
 </ul>
 </footer>

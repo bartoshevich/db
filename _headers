@@ -8,7 +8,13 @@
 
 
 /assets/images/*
+    Cache-Control: max-age=31536000, public, immutable
+
 /assets/fonts/*
+    Cache-Control: max-age=31536000, public, immutable
+    
 /assets/scripts/*
+    Cache-Control: max-age=31536000, public, immutable
+
 /assets/media/*
     Cache-Control: max-age=31536000, public, immutable

@@ -68,7 +68,7 @@ image: /assets/images/tizers/tizer-28.png
   <picture>
                         <source srcset="/assets/images/about/work__logo/pro-trademe-1x.webp 1x,
                         /assets/images/about/work__logo/pro-trademe-2x.webp 2x" type="image/webp">
-                        <img  loading="lazy" decoding="async"   class="image mb-m" src="/assets/images/about/work__logo/pro-trademe-2x.jpg" alt="" width="144" height="52"  srcset="/assets/images/about/work__logo/pro-trademe-1x.jpg 1x, /assets/images/about/work__logo/pro-trademe-2x.jpg 2x">
+                        <img  loading="lazy" decoding="async"   class="image mb-m" src="/assets/images/about/work__logo/pro-trademe-2x.jpg" alt="логотип Pro-Trade" width="144" height="52"  srcset="/assets/images/about/work__logo/pro-trademe-1x.jpg 1x, /assets/images/about/work__logo/pro-trademe-2x.jpg 2x">
         </picture>
 
 
