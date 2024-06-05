@@ -48,8 +48,21 @@ if ('serviceWorker' in navigator) {
 
 
 <script nonce="d9f3c8a4e3b7f9d5a8c1e3f4b7d5a1c2">
+  document.addEventListener('DOMContentLoaded', function() {
+      const elements = document.querySelectorAll('.image-expand');
+      if (elements.length === 0) {
+          return;
+      }
+
+      elements.forEach(function(element) {
+          element.addEventListener('click', function() {
+              openImage(element.getAttribute('data-url'));
+          });
+      });
+  });
+
   function openImage(url) {
-    window.open(url, '_blank');
-}
+      window.open(url, '_blank');
+  }
 </script>
   
