@@ -87,7 +87,7 @@ image: /assets/images/tizers/tizer-29.jpg
 
 <div class="figure">	
 	<div class="video ">
-		   <a class="video__link " href="https://youtu.be/xWvWJ33lLnE" target="_blank" rel="noopener nofollow noreferrer"> 
+		   <a class="video__link " href="https://youtu.be/xWvWJ33lLnE" target="_blank" rel="noopener noreferrer"> 
             <picture>
                 <source srcset="https://i.ytimg.com/vi_webp/xWvWJ33lLnE/maxresdefault.webp" type="image/webp">
                 <img loading="lazy" decoding="async"  class="video__media" src="https://i.ytimg.com/vi/xWvWJ33lLnE/maxresdefault.jpg" alt='Дмитрий Бартошевич рассказывает, что спрашивать маркетолога на собеседовании'  width="1280" height="720">
@@ -120,7 +120,7 @@ image: /assets/images/tizers/tizer-29.jpg
 
 <div class="figure">	
 	<div class="video ">
-		   <a class="video__link " href="https://youtu.be/3F2jACWwKdU" target="_blank" rel="noopener nofollow noreferrer">
+		   <a class="video__link " href="https://youtu.be/3F2jACWwKdU" target="_blank" rel="noopener  noreferrer">
 			    <img loading="lazy" decoding="async"  class="video__media " src="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1622206215/video/pic/youtu.be-3F2jACWwKdU.jpg" alt="Джейсон МакКью рассказывает, как через управление восприятием победить терроризм" width="1280" height="720"/>
 		   </a>
 		   <button class="video__button" aria-label="Запустить видео">

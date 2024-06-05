@@ -110,7 +110,7 @@ image: /assets/images/tizers/tizer-14.jpg
 
 <div class="figure">
  <div class="video ">
-        <a class="video__link " href="https://youtu.be/zvgyWsSQOh8" target="_blank" rel="noopener nofollow noreferrer">
+        <a class="video__link " href="https://youtu.be/zvgyWsSQOh8" target="_blank" rel="noopener noreferrer">
             <picture>
                 <source srcset="https://i.ytimg.com/vi_webp/zvgyWsSQOh8/maxresdefault.webp" type="image/webp">
                 <img loading="lazy" class="video__media " src="https://i.ytimg.com/vi/zvgyWsSQOh8/maxresdefault.jpg" alt="Пример использования эмоций в рекламе Cineplex" width="1280" height="720"/>

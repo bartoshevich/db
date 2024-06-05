@@ -22,7 +22,7 @@ keywords: "миграция, медиапланирование, Германи�
 		<p class="guest__name">Дмитрий Захарин</p>
 		<p class="guest__text">С&nbsp;2021 работает в&nbsp;рекламном агентстве в&nbsp;Германии.</p>
 		<p class="guest__text">На&nbsp;рекламном рынке&nbsp;— более 18&nbsp;лет. Начинал работу в&nbsp;Минском офисе OMD, работал в&nbsp;Беларуси и&nbsp;Казахстане. Прошел путь от&nbsp;медиа-плэнера до&nbsp;Медиа/Эккаунт директора. </p>
-    <p class="guest__text italic"><a class="link" href="https://www.linkedin.com/in/dmitry-zakharin" target="_blank" rel="noopener nofollow noreferrer">профиль в linkedIn</a></p> 
+    <p class="guest__text italic"><a class="link" href="https://www.linkedin.com/in/dmitry-zakharin" target="_blank" rel="noopener noreferrer">профиль в linkedIn</a></p> 
   </div>
  </div>
 

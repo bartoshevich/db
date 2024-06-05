@@ -39,7 +39,7 @@ keywords: "фильмы, маркетологи, подборка фильмов
  	<meta itemprop="isFamilyFriendly" content="true">
 						
 	<div class="video">
-	    <a class="video__link " href="https://youtu.be/vMvBpbeZiZs" target="_blank" rel="noopener nofollow noreferrer">
+	    <a class="video__link " href="https://youtu.be/vMvBpbeZiZs" target="_blank" rel="noopener noreferrer">
 			
 				<img loading="lazy" class="video__media" src="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1711824420/site/films/social_dilemma.jpg" alt="фильм Социальная дилемма на русском языке" width="1920" height="1080" itemprop="thumbnail">
 			
@@ -83,7 +83,7 @@ keywords: "фильмы, маркетологи, подборка фильмов
  	<meta itemprop="isFamilyFriendly" content="true">
 						
 	<div class="video">
-	    <a class="video__link " href="https://youtu.be/GtE1FDdtyhA" target="_blank" rel="noopener nofollow noreferrer">
+	    <a class="video__link " href="https://youtu.be/GtE1FDdtyhA" target="_blank" rel="noopener   noreferrer">
 			
 				<img loading="lazy" class="video__media" src="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1705161155/site/films/99_francs.jpg" alt="трейлер фильма 99 франков." width="1920" height="1080" itemprop="thumbnail">
 			
@@ -125,7 +125,7 @@ keywords: "фильмы, маркетологи, подборка фильмов
     <meta itemprop="isFamilyFriendly" content="true">
               
     <div class="video">
-        <a class="video__link " href="https://youtu.be/3JhVvq1aKYY" target="_blank" rel="noopener nofollow noreferrer">
+        <a class="video__link " href="https://youtu.be/3JhVvq1aKYY" target="_blank" rel="noopener   noreferrer">
         
            
                   <img loading="lazy" class="video__media image" src="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1705163624/site/films/joneses.jpg" alt="трейлер фильма Семейка Джонсов" width="1500" height="844" itemprop="thumbnail"/>
@@ -169,7 +169,7 @@ keywords: "фильмы, маркетологи, подборка фильмов
     <meta itemprop="isFamilyFriendly" content="true">
               
     <div class="video">
-        <a class="video__link " href="https://youtu.be/wDDttPDi8d0" target="_blank" rel="noopener nofollow noreferrer">
+        <a class="video__link " href="https://youtu.be/wDDttPDi8d0" target="_blank" rel="noopener   noreferrer">
         
            
           
@@ -214,7 +214,7 @@ keywords: "фильмы, маркетологи, подборка фильмов
     <meta itemprop="isFamilyFriendly" content="true">
               
     <div class="video">
-        <a class="video__link " href="https://youtu.be/QzHlVR3Zqd8" target="_blank" rel="noopener nofollow noreferrer">     
+        <a class="video__link " href="https://youtu.be/QzHlVR3Zqd8" target="_blank" rel="noopener   noreferrer">     
    
                 <img loading="lazy" class="video__media" src="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1705165805/site/films/artandcopy.jpg" alt="трейлер фильма Изображение и текст" width="1200" height="675" itemprop="thumbnail"/>
         
@@ -258,7 +258,7 @@ keywords: "фильмы, маркетологи, подборка фильмов
     <meta itemprop="isFamilyFriendly" content="true">
               
     <div class="video">
-        <a class="video__link " href="https://youtu.be/fXRCPObrZYs" target="_blank" rel="noopener nofollow noreferrer">     
+        <a class="video__link " href="https://youtu.be/fXRCPObrZYs" target="_blank" rel="noopener   noreferrer">     
    
                <picture>
                 <source srcset="https://i.ytimg.com/vi_webp/fXRCPObrZYs/maxresdefault.webp" type="image/webp">

@@ -24,7 +24,7 @@ keywords: "мышление маркетолога"
   	<meta itemprop="duration" content="PT30M54S">
  	<meta itemprop="isFamilyFriendly" content="true">
 	<div class="video ">
-		   <a class="video__link " href="https://youtu.be/fXspplVnrEM" target="_blank" rel="noopener nofollow noreferrer">
+		   <a class="video__link " href="https://youtu.be/fXspplVnrEM" target="_blank" rel="noopener noreferrer">
 			   <picture>
 				   <source srcset="https://i.ytimg.com/vi_webp/fXspplVnrEM/maxresdefault.webp" type="image/webp">
 				   <img loading="lazy" class="video__media " src="https://i.ytimg.com/vi/fXspplVnrEM/maxresdefault.jpg" alt="Выступление Бартошевича Дмитрия - акция не сработает, если не думать как маркетолог" width="1280" height="720" itemprop="thumbnail">

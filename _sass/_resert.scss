@@ -136,6 +136,7 @@ textarea,
 button {
   font-size: inherit;
   font-family: inherit;
+  background-color: inherit;
 }
 
 strong, 
@@ -145,4 +146,8 @@ b {
 
 i {
   font-style: inherit;
+}
+
+.button {
+  cursor: pointer;
 }

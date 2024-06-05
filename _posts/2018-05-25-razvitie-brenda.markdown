@@ -85,7 +85,7 @@ keywords: "маркетинг без вирусов"
 
 <div class="figure">
  <div class="video ">
-        <a class="video__link " href="https://youtu.be/I33IM8MRHIo" target="_blank" rel="noopener nofollow noreferrer">
+        <a class="video__link " href="https://youtu.be/I33IM8MRHIo" target="_blank" rel="noopener noreferrer">
                 <img loading="lazy" class="video__media " src="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1626969281/video/pic/ashmanov.jpg" alt='видео, в котором Игорь Ашманов рассказывает о&nbsp;механике распространения вирусов'  width="1920" height="1080" />
 	</a>
       <button class="video__button" aria-label="Запустить видео">

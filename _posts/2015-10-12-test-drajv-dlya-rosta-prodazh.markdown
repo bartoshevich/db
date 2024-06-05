@@ -65,7 +65,7 @@ image: /assets/images/tizers/tizer-9.jpg
 
 <div class="figure">
  <div class="video ">
-        <a class="video__link " href="https://youtu.be/lBUJcD6Ws6s" target="_blank" rel="noopener nofollow noreferrer">
+        <a class="video__link " href="https://youtu.be/lBUJcD6Ws6s" target="_blank" rel="noopener noreferrer">
                 <img loading="lazy" class="video__media " src="https://i.ytimg.com/vi/lBUJcD6Ws6s/maxresdefault.jpg" alt="тест-драйв блендера: справится ли с iPhone 6&nbsp;Plus и&nbsp;Samsung Galaxy Note&nbsp;3?"  width="1280" height="720" />
         </a>
       <button class="video__button" aria-label="Запустить видео">

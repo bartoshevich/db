@@ -186,6 +186,10 @@ keywords: "развитие брендов, анализ данных, разр�
             <meta itemprop="datePublished" content="30 ноября 2018"><br>
             <a class="italic link" href="/blog/brand-giperlink/" itemprop="url">ссылка на&nbsp;описание проекта и&nbsp;отзыв</a>
             </div>
+             <div itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating">
+                <meta itemprop="ratingValue" content="5" >
+                <meta itemprop="bestRating" content="5" >
+            </div>
     	</blockquote>
         
 
@@ -199,6 +203,10 @@ keywords: "развитие брендов, анализ данных, разр�
     		</cite>
             <meta itemprop="datePublished" content="18 апреля 2018"><br>
             <a class="italic link" href="/blog/brand-strategy-flex-n-roll/" itemprop="url">ссылка на&nbsp;описание проекта и&nbsp;отзыв</a>
+            </div>
+             <div itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating">
+                <meta itemprop="ratingValue" content="5" >
+                <meta itemprop="bestRating" content="5" >
             </div>
     	</blockquote> 
                    

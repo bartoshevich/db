@@ -39,7 +39,7 @@ image: /assets/images/tizers/tizer-30.jpg
 		Эскиз видеоролика
 	   </div>
 	<div class="video ">
-		   <a class="video__link " href="https://youtu.be/LcRjumujYws" target="_blank" rel="noopener nofollow noreferrer">
+		   <a class="video__link " href="https://youtu.be/LcRjumujYws" target="_blank" rel="noopener noreferrer">
 			   <picture>
 				   <source srcset="https://i.ytimg.com/vi_webp/LcRjumujYws/maxresdefault.webp" type="image/webp">
 				   <img loading="lazy" class="video__media " src="https://i.ytimg.com/vi/LcRjumujYws/maxresdefault.jpg" alt="Эскиз видеоролика для банка Тинькова" width="1280" height="720"/>

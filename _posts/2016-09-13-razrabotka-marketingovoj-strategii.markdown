@@ -25,7 +25,7 @@ image: /assets/images/tizers/tizer-28.png
 
 <figure>	
 	<div class="video ">
-		   <a class="video__link " href="https://youtu.be/rUqPMMgfJ4Q" target="_blank" rel="noopener nofollow noreferrer">
+		   <a class="video__link " href="https://youtu.be/rUqPMMgfJ4Q" target="_blank" rel="noopener noreferrer">
 			    <img loading="lazy" class="video__media " src="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1621505346/site/Shuttle.jpg" alt="видео запуска и взрыва Челленджера" width="1280" height="720"/>
 		   </a>
 		   <button class="video__button" aria-label="Запустить видео">

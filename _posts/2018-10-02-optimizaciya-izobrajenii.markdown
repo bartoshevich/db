@@ -146,7 +146,7 @@ keywords: "оптимизация изображений"
 <span class="bold">updated</span>  Для желающих углубиться в&nbsp;тему Вадим Макеев рассказывает, как с&nbsp;помощью image-set можно подключать картинки разных типов и&nbsp;разрешения
 </div>
  <div class="video ">
-        <a class="video__link " href="https://youtu.be/VnjrIGvoO_Y" target="_blank" rel="noopener nofollow noreferrer">
+        <a class="video__link " href="https://youtu.be/VnjrIGvoO_Y" target="_blank" rel="noopener noreferrer">
             <picture>
                 <source srcset="https://i.ytimg.com/vi_webp/VnjrIGvoO_Y/maxresdefault.webp" type="image/webp">
                 <img loading="lazy" class="video__media " src="https://i.ytimg.com/vi/VnjrIGvoO_Y/maxresdefault.jpg" alt="Вадим Макеев рассказывает об image-set" width="1280" height="720"/>

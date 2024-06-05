@@ -83,7 +83,7 @@ keywords: "айтрекинг"
 
 <div class="figure">
  <div class="video ">
-        <a class="video__link " href="https://youtu.be/tChDqYk-akE" target="_blank" rel="noopener nofollow noreferrer">
+        <a class="video__link " href="https://youtu.be/tChDqYk-akE" target="_blank" rel="noopener noreferrer">
             <picture>
                 <source srcset="https://i.ytimg.com/vi_webp/tChDqYk-akE/maxresdefault.webp" type="image/webp">
                 <img loading="lazy" class="video__media " src="https://i.ytimg.com/vi/tChDqYk-akE/maxresdefault.jpg" alt="видео, как билборд «читает мысли» и показывает карты, которые выбрали прохожие" width="1280" height="720"/>

@@ -251,7 +251,7 @@ width="1500" height="750" alt="анализ конкурентов Хёрман�
 
 
  <div class="video">
-        <a class="video__link" href="https://youtu.be/Rl2jUmZWSfg" target="_blank" rel="noopener nofollow noreferrer">
+        <a class="video__link" href="https://youtu.be/Rl2jUmZWSfg" target="_blank" rel="noopener noreferrer"> 
 			<picture>
                 <source srcset="https://i.ytimg.com/vi_webp/Rl2jUmZWSfg/maxresdefault.webp" type="image/webp">
                 <img loading="lazy" class="video__media is-16by9" src="https://i.ytimg.com/vi/Rl2jUmZWSfg/maxresdefault.jpg" alt="Один из элементов концепции бренда — Хёрманн уверенно рекомендуют. Ролик обыгрывает эту идею. Сын звонит отцу и спрашивает, как называются их ворота, которые никогда не ломаются. Отец отвечает и подтверждает, что это очень надежные ворота." width="1280" height="720" itemprop="thumbnail"/>
@@ -272,7 +272,7 @@ width="1500" height="750" alt="анализ конкурентов Хёрман�
 
 <div class="figure">
  <div class="video ">
-        <a class="video__link " href="https://youtu.be/by2hD_Et_GA" target="_blank" rel="noopener nofollow noreferrer">
+        <a class="video__link " href="https://youtu.be/by2hD_Et_GA" target="_blank" rel="noopener noreferrer">
 		 <picture>
                 <source srcset="https://i.ytimg.com/vi_webp/by2hD_Et_GA/maxresdefault.webp" type="image/webp">
                 <img loading="lazy" class="video__media is-16by9" src="https://i.ytimg.com/vi/by2hD_Et_GA/maxresdefault.jpg" alt="Документальный ролик, в котором сотрудник Лексус Минск рекомендует Хёрманн."  width="1280" height="720" />
@@ -295,7 +295,7 @@ width="1500" height="750" alt="анализ конкурентов Хёрман�
 
 <div class="figure">
  <div class="video ">
-        <a class="video__link " href="https://youtu.be/suO-2vF2wSE" target="_blank" rel="noopener nofollow noreferrer">
+        <a class="video__link " href="https://youtu.be/suO-2vF2wSE" target="_blank" rel="noopener noreferrer">
 	 		<picture>
                 <source srcset="https://i.ytimg.com/vi_webp/suO-2vF2wSE/maxresdefault.webp" type="image/webp">
                 <img loading="lazy" class="video__media is-16by9" src="https://i.ytimg.com/vi/suO-2vF2wSE/maxresdefault.jpg" alt="Демонстрируем экспертизу Хёрманн на примере установки ворот."  width="1280" height="720" />

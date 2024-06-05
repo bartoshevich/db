@@ -125,7 +125,7 @@ keywords: "брендинг, разработка стратегии разви�
 			src="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1692002941/site/pes/pes-global_mag.png"
 			width="2438" height="1644" alt="разворот в отраслевом журнале построенный на концепции бренда" itemprop="contentUrl"
 		/>
-		<div class="figcaption"> рекламный разворот для отраслевого журнала «Добывающая промышленность. Центральная Азия». <a class="link" target="_blank" href="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1692002941/site/pes/pes-global_mag.png">Открыть изображение в&nbsp;новой вкладке</a>
+		<div class="figcaption"> рекламный разворот для отраслевого журнала «Добывающая промышленность. Центральная Азия».         <button class="link button" onclick="window.open('https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1692002941/site/pes/pes-global_mag.png', '_blank')" aria-label="Открыть изображение в новой вкладке">Открыть изображение в&nbsp;новой вкладке</button>
     <p>дизайнер&nbsp;— <a class="link" href="https://bizikov.ru/">Саша Бизиков</a></p></div>
 		<meta itemprop="description" content="разворот в отраслевом журнале построенный на концепции бренда">
 		</div>

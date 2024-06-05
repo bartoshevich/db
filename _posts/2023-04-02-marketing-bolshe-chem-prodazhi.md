@@ -49,7 +49,7 @@ keywords: "смысловой маркетинг, ценности, концеп
 
 <div class="figure">
 <div class="video">
-		   <a class="video__link " href="https://youtu.be/zWfX5jeF6k4" target="_blank" rel="noopener nofollow noreferrer">
+		   <a class="video__link " href="https://youtu.be/zWfX5jeF6k4" target="_blank" rel="noopener  noreferrer">
 			   
 				   
 				   <img loading="lazy" class="video__media " src="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1680459884/site/marketing-bolshe-chem-prodazhi/justdoit.png" alt="Рекламный ролик Nike" width="1280" height="720">
@@ -79,7 +79,7 @@ keywords: "смысловой маркетинг, ценности, концеп
 
 <div class="figure">
 <div class="video">
-		   <a class="video__link " href="https://youtu.be/XpaOjMXyJGk" target="_blank" rel="noopener nofollow noreferrer">
+		   <a class="video__link " href="https://youtu.be/XpaOjMXyJGk" target="_blank" rel="noopener  noreferrer">
 			   
 				   
 				   <img loading="lazy" class="video__media " src="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1680460346/site/marketing-bolshe-chem-prodazhi/Dove_Real_Beauty.png" alt="Рекламная кампания Dove&nbsp;— «Real Beauty»" width="1280" height="720">

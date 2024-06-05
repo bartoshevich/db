@@ -14,7 +14,7 @@ image: /assets/images/tizers/tizer-36.jpg
 
 {% include post__header--update.html %}
 
-<p>Для психолога Натальи Масюкевич сверстал сайт&nbsp;— <a class="link" href="//www.vitaline.by">www.vitaline.by</a>. Расскажу о&nbsp;ходе работы.</p>
+<p>Для психолога Натальи Масюкевич сверстал сайт&nbsp;— <a class="link" href="https://www.vitaline.by">www.vitaline.by</a>. Расскажу о&nbsp;ходе работы.</p>
 
 <div itemprop="image" itemscope itemtype="http://schema.org/ImageObject">	
 		<link itemprop="url" href="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1642407624/site/vitaline_site.jpg">	
@@ -43,7 +43,7 @@ image: /assets/images/tizers/tizer-36.jpg
  
  <div class="figure">						
 			<div class="video ">
-				   <a class="video__link " href="https://youtu.be/1y5jNAP28kE" target="_blank" rel="noopener nofollow noreferrer">
+				   <a class="video__link " href="https://youtu.be/1y5jNAP28kE" target="_blank" rel="noopener  noreferrer">
 					   <picture>
 						   <source srcset="https://i.ytimg.com/vi_webp/1y5jNAP28kE/maxresdefault.webp" type="image/webp">
 						   <img loading="lazy" class="video__media " src="https://i.ytimg.com/vi/1y5jNAP28kE/maxresdefault.jpg" alt="Видео выступления Дмитрия Бартошевича на конференции" width="1280" height="720"/>

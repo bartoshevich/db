@@ -161,7 +161,7 @@ keywords: "доступность"
 
 <div class="figure">
 	<div class="video">
-		   <a class="video__link " href="https://youtu.be/RQiN1Hhrxu0" target="_blank" rel="noopener nofollow noreferrer">
+		   <a class="video__link " href="https://youtu.be/RQiN1Hhrxu0" target="_blank" rel="noopener noreferrer">
 			   <picture>
 				   <source srcset="https://i.ytimg.com/vi_webp/RQiN1Hhrxu0/maxresdefault.webp" type="image/webp">
 				   <img loading="lazy" class="video__media " src="https://i.ytimg.com/vi/RQiN1Hhrxu0/maxresdefault.jpg" alt="Интервью с&nbsp;незрячим пользователем современных гаджетов" width="1280" height="720"/>
