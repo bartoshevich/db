@@ -80,7 +80,7 @@ keywords: "креативные рекламные кампании, рекла�
  	<meta itemprop="isFamilyFriendly" content="true">
 						
 	<div class="video">
-	    <a class="video__link " href="https://youtu.be/Rl2jUmZWSfg" target="_blank" rel="noopener nofollow noreferrer">
+	    <a class="video__link " href="https://youtu.be/Rl2jUmZWSfg" target="_blank" rel="noopener noreferrer">
 			<picture>
 				<source srcset="https://i.ytimg.com/vi_webp/Rl2jUmZWSfg/maxresdefault.webp" type="image/webp">
 				<img loading="lazy" class="video__media " src="https://i.ytimg.com/vi/Rl2jUmZWSfg/maxresdefault.jpg" alt="Один из элементов концепции бренда — Хёрманн уверенно рекомендуют. Ролик обыгрывает эту идею. Сын звонит отцу и спрашивает, как называются их ворота, которые никогда не ломаются. Отец отвечает и подтверждает, что это очень надежные ворота." width="1280" height="720" itemprop="thumbnail">
