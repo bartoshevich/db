@@ -102,7 +102,7 @@ keywords: "темные паттерны, этичный маркетинг, у�
      sizes="100vw" 
 			srcset="https://res.cloudinary.com/bartoshevich/image/upload/w_640/f_auto,q_auto/v1709569569/site/dark-patterns/giftstoprogrammers.jpg 640w,
 			https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1709569569/site/dark-patterns/giftstoprogrammers.jpg 1350w"
-      src="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1709569569/site/dark-patterns/giftstoprogrammers.jpg" width="1350" height="759" alt="Скриншот страницы интернет-магазина, который использует темный паттерн" title="Интернет-магазин с темным паттерном, показывающим фальшивый дефицит" itemprop="contentUrl"/>
+      src="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1709569569/site/dark-patterns/giftstoprogrammers.jpg" width="1350" height="759" alt="Скриншот страницы интернет-магазина, который использует темный паттерн" title="Интернет-магазин с темным паттерном, показывающим фальшивый дефицит" itemprop="contentUrl">
 <div class="figcaption">Пример фальшивого дефицита: показывается низкий уровень запасов и&nbsp;высокий спрос. Используется естественная склонность пользователей придавать большую ценность предметам, которые кажутся редкими или эксклюзивными.</div>
 </div>
 
@@ -131,7 +131,7 @@ keywords: "темные паттерны, этичный маркетинг, у�
 			srcset="https://res.cloudinary.com/bartoshevich/image/upload/w_640/f_auto,q_auto/v1709574983/site/dark-patterns/darkfood.jpg 640w,
 			https://res.cloudinary.com/bartoshevich/image/upload/w_1040/f_auto,q_auto/v1709574983/site/dark-patterns/darkfood.jpg 1040w,
       https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1709574983/site/dark-patterns/darkfood.jpg 2000w"
-      src="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1709574983/site/dark-patterns/darkfood.jpg" width="2000" height="2000" alt="Скриншот опроса о посещении ресторана с вариантами ответов 'конечно' и 'нет, я скучный'" title="Опрос о посещении ресторана с манипулятивными вариантами ответов" itemprop="contentUrl"/>
+      src="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1709574983/site/dark-patterns/darkfood.jpg" width="2000" height="2000" alt="Скриншот опроса о посещении ресторана с вариантами ответов 'конечно' и 'нет, я скучный'" title="Опрос о посещении ресторана с манипулятивными вариантами ответов" itemprop="contentUrl">
 <div class="figcaption">Возможен и&nbsp;такой вариант&nbsp;— у&nbsp;читателя стараются вызвать чувство стыда или неполноценности за&nbsp;отказ.</div>
 </div>
 
@@ -159,7 +159,7 @@ keywords: "темные паттерны, этичный маркетинг, у�
      sizes="100vw" 
 			srcset="https://res.cloudinary.com/bartoshevich/image/upload/w_640/f_auto,q_auto/v1709569569/site/dark-patterns/threads.jpg 640w,
 			https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1709569569/site/dark-patterns/threads.jpg 952w"
-      src="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1709569569/site/dark-patterns/threads.jpg" width="952" height="952" alt="Скриншот интерфейса Threads и его альтернативная версия без темных паттернов"  title="Пример интерфейса Threads до и после удаления темных паттернов" itemprop="contentUrl"/>
+      src="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1709569569/site/dark-patterns/threads.jpg" width="952" height="952" alt="Скриншот интерфейса Threads и его альтернативная версия без темных паттернов"  title="Пример интерфейса Threads до и после удаления темных паттернов" itemprop="contentUrl">
 <div class="figcaption">Пример повышенного внимания к&nbsp;теме: <a class="link" href="https://growth.design/case-studies/apple-privacy-policy">UX-исследователи</a> «очищают» пользовательский интерфейс Threads от&nbsp;темных паттернов.</div>
 </div>
 </section>

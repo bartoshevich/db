@@ -128,7 +128,7 @@ keywords: "фильмы, маркетологи, подборка фильмов
         <a class="video__link " href="https://youtu.be/3JhVvq1aKYY" target="_blank" rel="noopener   noreferrer">
         
            
-                  <img loading="lazy" class="video__media image" src="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1705163624/site/films/joneses.jpg" alt="трейлер фильма Семейка Джонсов" width="1500" height="844" itemprop="thumbnail"/>
+                  <img loading="lazy" class="video__media image" src="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1705163624/site/films/joneses.jpg" alt="трейлер фильма Семейка Джонсов" width="1500" height="844" itemprop="thumbnail">
       
         
       </a>
@@ -173,7 +173,7 @@ keywords: "фильмы, маркетологи, подборка фильмов
         
            
           
-                <img loading="lazy" class="video__media" src="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1705164780/site/films/mac.jpg" alt="трейлер фильма Основатель" width="2000" height="1125" itemprop="thumbnail"/>
+                <img loading="lazy" class="video__media" src="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1705164780/site/films/mac.jpg" alt="трейлер фильма Основатель" width="2000" height="1125" itemprop="thumbnail">
         
         
       </a>
@@ -216,7 +216,7 @@ keywords: "фильмы, маркетологи, подборка фильмов
     <div class="video">
         <a class="video__link " href="https://youtu.be/QzHlVR3Zqd8" target="_blank" rel="noopener   noreferrer">     
    
-                <img loading="lazy" class="video__media" src="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1705165805/site/films/artandcopy.jpg" alt="трейлер фильма Изображение и текст" width="1200" height="675" itemprop="thumbnail"/>
+                <img loading="lazy" class="video__media" src="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1705165805/site/films/artandcopy.jpg" alt="трейлер фильма Изображение и текст" width="1200" height="675" itemprop="thumbnail">
         
       </a>
       <button class="video__button" aria-label="Запустить видео">
@@ -262,7 +262,7 @@ keywords: "фильмы, маркетологи, подборка фильмов
    
                <picture>
                 <source srcset="https://i.ytimg.com/vi_webp/fXRCPObrZYs/maxresdefault.webp" type="image/webp">
-                <img loading="lazy" class="video__media is-16by9" src="https://i.ytimg.com/vi/fXRCPObrZYs/maxresdefault.jpg" alt="Величайший фильм из&nbsp;всех когда-либо проданных. Трейлер." width="1280" height="720" itemprop="thumbnail"/>
+                <img loading="lazy" class="video__media is-16by9" src="https://i.ytimg.com/vi/fXRCPObrZYs/maxresdefault.jpg" alt="Величайший фильм из&nbsp;всех когда-либо проданных. Трейлер." width="1280" height="720" itemprop="thumbnail">
         	</picture>  
         
       </a>
@@ -303,7 +303,7 @@ keywords: "фильмы, маркетологи, подборка фильмов
 			srcset="https://res.cloudinary.com/bartoshevich/image/upload/w_640/f_auto,q_auto/v1705161156/site/films/moneybalL.jpg 640w,
 			https://res.cloudinary.com/bartoshevich/image/upload/w_1200/f_auto,q_auto/v1705161156/site/films/moneybalL.jpg 1200w,
       https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1705161156/site/films/moneybalL.jpg 2048"
-      src="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1705161156/site/films/moneybalL.jpg" alt="кадр из фильма Человек, который изменил все" width="2048" height="1364" itemprop="contentUrl"/>
+      src="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1705161156/site/films/moneybalL.jpg" alt="кадр из фильма Человек, который изменил все" width="2048" height="1364" itemprop="contentUrl">
 <div class="figcaption">кадр из фильма</div>
 </div>
 
@@ -330,7 +330,7 @@ keywords: "фильмы, маркетологи, подборка фильмов
      sizes="100vw" 
 			srcset="https://res.cloudinary.com/bartoshevich/image/upload/w_640/f_auto,q_auto/v1705168345/site/films/sushi.jpg 640w,
 			https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1705168345/site/films/sushi.jpg 1920w"
-      src="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1705168345/site/films/sushi.jpg" alt="кадр из фильма Мечты Дзиро о суши" width="1920" height="1080" itemprop="contentUrl"/>
+      src="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1705168345/site/films/sushi.jpg" alt="кадр из фильма Мечты Дзиро о суши" width="1920" height="1080" itemprop="contentUrl">
     <div class="figcaption">кадр из фильма</div>
 </div>
 
@@ -356,7 +356,7 @@ keywords: "фильмы, маркетологи, подборка фильмов
 			srcset="https://res.cloudinary.com/bartoshevich/image/upload/w_640/f_auto,q_auto/v1705168713/site/films/syrop.jpg 640w,
 			https://res.cloudinary.com/bartoshevich/image/upload/w_1200/f_auto,q_auto/v1705168713/site/films/syrop.jpg 1200w,
       https://res.cloudinary.com/bartoshevich/image/upload/w_2048/f_auto,q_auto/v1705168713/site/films/syrop.jpg 2048w"
-      src="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1705168713/site/films/syrop.jpg" alt="кадр из фильма Сироп" width="2048" height="1359" itemprop="contentUrl"/>
+      src="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1705168713/site/films/syrop.jpg" alt="кадр из фильма Сироп" width="2048" height="1359" itemprop="contentUrl">
     <div class="figcaption">кадр из фильма</div>
 </div>
 

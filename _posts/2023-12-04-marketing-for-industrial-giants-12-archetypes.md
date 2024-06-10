@@ -1,21 +1,21 @@
 ---
 layout: post
-title:  "12 Архетипов меняют B2B Маркетинг"
-name: "Как&nbsp;12&nbsp;архетипов меняют игру в&nbsp;B2B маркетинге"
-description: 'Теория архетипов трансформирует B2B маркетинг промышленных гигантов и&nbsp;помогает выделить бренды в&nbsp;конкурентной среде.'
+title:  "Архетипы и Маркетинг: Как 12 Архетипов Меняют B2B Маркетинг"
+name: "Как&nbsp;12&nbsp;архетипов меняют B2B&nbsp;маркетинг"
+description: 'Узнайте, как теория архетипов меняет маркетинг и&nbsp;помогает выделить бренды в&nbsp;конкурентной среде: 12&nbsp;архетипов для успешного B2B маркетинга.'
 date:   2023-12-04
-last_modified_at: 2023-12-04
+last_modified_at: 2024-06-09
 categories: мнение
 permalink: "/blog/marketing-for-industrial-giants-12-archetypes/"
 tags: "управление"
 image: /assets/images/tizers/tizer-81.jpg
-keywords: "маркетинг, промышленные гиганты, архетипы, B2B маркетинг, клиенты, бренд, Карл Юнг, конкуренция"
+keywords: "архетипы, маркетинг, архетипы в маркетинге, B2B маркетинг, архетипы Карла Юнга, архетипы бренда, архетипы маркетинг стратегии"
 ---
 
-{% include post__header.html %}
+{% include post__header--update.html %}
 
-<p>Перед промышленными предприятиями стоит сложная задача: как привлечь B2B-клиентов в&nbsp;условиях острой конкуренции? Технически сложную продукцию трудно преподнести через традиционные медиа. В&nbsp;процессе выбора поставщика участвуют целые департаменты, что исключает импульсные реакции на&nbsp;рекламу. Часто требуется персонализированный подход, который сложно реализовать через массовые каналы коммуникации. Как&nbsp;же преодолеть ограничения традиционного маркетингового подхода?</p>
-<p>Одно из&nbsp;решений находится в&nbsp;архетипах&nbsp;— инструменте, которой поможет предприятию говорить на&nbsp;языке глубоких символов и&nbsp;ценностей, создавая сильные связи с&nbsp;аудиторией. Позвольте мне показать вам, как. </p>
+<p>Перед промышленными предприятиями стоит непростая задача: как привлечь B2B-клиентов в&nbsp;условиях острой конкуренции? Технически сложную продукцию трудно преподнести через традиционные медиа. В&nbsp;процессе выбора поставщика участвуют целые департаменты, что исключает импульсные реакции на&nbsp;рекламу. Часто необходим персонализированный подход, который сложно реализовать через массовые каналы коммуникации. Как&nbsp;же преодолеть ограничения традиционного маркетингового подхода?</p>
+<p>Одно из&nbsp;решений находится в&nbsp;теории архетипов. Она поможет предприятию говорить на&nbsp;языке глубоких символов и&nbsp;ценностей, создавая сильные связи с&nbsp;аудиторией. Позвольте мне показать вам, как. </p>
 
 
 <section class="row-gap--m">
@@ -37,13 +37,17 @@ keywords: "маркетинг, промышленные гиганты, архе
 
 <section class="row-gap--m">
 <h2 class="section__title h1 bold ">Применение архетипов: стратегии для усиления бизнеса</h2>
-<p>Проведем мысленный эксперимент. Создадим вымышленное предприятие «FuturaTech Industries». Пусть оно занимается разработкой и&nbsp;производством высокотехнологичного оборудования для таких отраслей, как энергетика, авиация и&nbsp;автомобилестроение. Предприятие нуждается в&nbsp;стратегии, способной эффективно донести до&nbsp;целевой аудитории полезность своей продукции. Давайте рассмотрим, как каждый из&nbsp;12&nbsp;архетипов может помочь в&nbsp;достижении этой цели.</p>
+<p>Когда мы&nbsp;говорим об&nbsp;архетипах, важно понять, что архетипы не&nbsp;описывают&nbsp;то, каким ваш продукт является сейчас. Речь не&nbsp;о&nbsp;соответствии товара какому-то архетипу, а&nbsp;о&nbsp;том, какой образ вы&nbsp;хотите создать и&nbsp;поддерживать, кем вы&nbsp;хотите быть в&nbsp;глазах клиентов, чтобы выделяться среди конкурентов.</p>
+
+<p>Чтобы лучше понять применение этой теории, проведем мысленный эксперимент. Создадим вымышленное предприятие «FuturaTech Industries». Пусть оно занимается разработкой и&nbsp;производством высокотехнологичного оборудования для таких отраслей, как энергетика, авиация и&nbsp;автомобилестроение. Допустим, предприятие нуждается в&nbsp;стратегии, способной эффективно донести до&nbsp;целевой аудитории полезность своей продукции. Давайте рассмотрим, как каждый из&nbsp;12&nbsp;архетипов может помочь в&nbsp;достижении этой цели.</p>
+
+<p>В&nbsp;зависимости от&nbsp;того, какому архетипу последует компания, мы&nbsp;получим свою «FuturaTech Industries».</p>
 
 <nav>
 <ul class="tag-list">
 <li class="tag-item"><a class="tag-link" href="#innocent" >простодушный</a></li>
 <li class="tag-item"><a class="tag-link" href="#orphan" >славный малый</a></li>
-<li class="tag-item"><a class="tag-link" href="#caregiver" >опекун</a></li>
+<li class="tag-item"><a class="tag-link" href="#caregiver">опекун</a></li>
 <li class="tag-item"><a class="tag-link" href="#magician" >маг</a></li>
 <li class="tag-item"><a class="tag-link" href="#sage" >мудрец</a></li>
 <li class="tag-item"><a class="tag-link" href="#destroyer" >бунтарь</a></li>
@@ -99,7 +103,7 @@ keywords: "маркетинг, промышленные гиганты, архе
      sizes="100vw" 
 			srcset="https://res.cloudinary.com/bartoshevich/image/upload/w_640/f_auto,q_auto/v1701860489/site/archetypes/innocent.png 640w,
 			https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1701860489/site/archetypes/innocent.png 1792w"
-      src="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1701860489/site/archetypes/innocent.png" width="1792" height="1024" alt="Простодушный в контексте маркетинга - изображение архетипа" itemprop="contentUrl"/>
+      src="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1701860489/site/archetypes/innocent.png" width="1792" height="1024" alt="Архетип Простодушный в маркетинге" itemprop="contentUrl">
 <div class="figcaption">Директор FuturaTech Industries. Архетип «Простодушный» <br> Здесь и&nbsp;далее рисовал DALL&middot;E под моим чутким руководством.</div>
 </div>
 
@@ -145,7 +149,7 @@ keywords: "маркетинг, промышленные гиганты, архе
      sizes="100vw" 
 			srcset="https://res.cloudinary.com/bartoshevich/image/upload/w_640/f_auto,q_auto/v1701860488/site/archetypes/orphan.png 640w,
 			https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1701860488/site/archetypes/orphan.png 1792w"
-      src="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1701860488/site/archetypes/orphan.png" width="1792" height="1024" alt="Славный малый в контексте маркетинга - изображение архетипа" itemprop="contentUrl"/>
+      src="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1701860488/site/archetypes/orphan.png" width="1792" height="1024" alt="Архетип Славный малый в маркетинге" itemprop="contentUrl">
 <div class="figcaption">Директор FuturaTech Industries. Архетип «Славный малый» </div>
 </div>
 
@@ -191,7 +195,7 @@ keywords: "маркетинг, промышленные гиганты, архе
      sizes="100vw" 
 			srcset="https://res.cloudinary.com/bartoshevich/image/upload/w_640/f_auto,q_auto/v1701860485/site/archetypes/caregiver.png 640w,
 			https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1701860485/site/archetypes/caregiver.png 1792w"
-      src="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1701860485/site/archetypes/caregiver.png" width="1792" height="1024" alt="Опекун в контексте маркетинга - изображение архетипа" itemprop="contentUrl"/>
+      src="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1701860485/site/archetypes/caregiver.png" width="1792" height="1024" alt="Архетип Опекун в маркетинге" itemprop="contentUrl">
 <div class="figcaption">Директор FuturaTech Industries. Архетип «Опекун» </div>
 </div>
 
@@ -241,7 +245,7 @@ keywords: "маркетинг, промышленные гиганты, архе
      sizes="100vw" 
 			srcset="https://res.cloudinary.com/bartoshevich/image/upload/w_640/f_auto,q_auto/v1701860482/site/archetypes/magician.png 640w,
 			https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1701860482/site/archetypes/magician.png 1792w"
-      src="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1701860482/site/archetypes/magician.png" width="1792" height="1024" alt="Маг в контексте маркетинга - изображение архетипа" itemprop="contentUrl"/>
+      src="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1701860482/site/archetypes/magician.png" width="1792" height="1024" alt="Архетип Маг в маркетинге" itemprop="contentUrl">
 <div class="figcaption">Директор FuturaTech Industries. Архетип «Маг» </div>
 </div>
 
@@ -292,7 +296,7 @@ keywords: "маркетинг, промышленные гиганты, архе
      sizes="100vw" 
 			srcset="https://res.cloudinary.com/bartoshevich/image/upload/w_640/f_auto,q_auto/v1701860482/site/archetypes/sage.png 640w,
 			https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1701860482/site/archetypes/sage.png 1792w"
-      src="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1701860482/site/archetypes/sage.png" width="1792" height="1024" alt="Мудрец в контексте маркетинга - изображение архетипа" itemprop="contentUrl"/>
+      src="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1701860482/site/archetypes/sage.png" width="1792" height="1024" alt="Архетип Мудрец в маркетинге" itemprop="contentUrl">
 <div class="figcaption">Директор FuturaTech Industries. Архетип «Мудрец» </div>
 </div>
 
@@ -336,7 +340,7 @@ keywords: "маркетинг, промышленные гиганты, архе
      sizes="100vw" 
 			srcset="https://res.cloudinary.com/bartoshevich/image/upload/w_640/f_auto,q_auto/v1701860490/site/archetypes/destroyer.png 640w,
 			https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1701860490/site/archetypes/destroyer.png 1792w"
-      src="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1701860490/site/archetypes/destroyer.png" width="1792" height="1024" alt="Бунтарь в контексте маркетинга - изображение архетипа" itemprop="contentUrl"/>
+      src="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1701860490/site/archetypes/destroyer.png" width="1792" height="1024" alt="Архетип Бунтарь в маркетинге" itemprop="contentUrl">
 <div class="figcaption">Директор FuturaTech Industries. Архетип «Бунтарь» </div>
 </div>
 
@@ -382,7 +386,7 @@ keywords: "маркетинг, промышленные гиганты, архе
      sizes="100vw" 
 			srcset="https://res.cloudinary.com/bartoshevich/image/upload/w_640/f_auto,q_auto/v1701860485/site/archetypes/warrior.png 640w,
 			https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1701860485/site/archetypes/warrior.png 1792w"
-      src="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1701860485/site/archetypes/warrior.png" width="1792" height="1024" alt="Герой в контексте маркетинга - изображение архетипа" itemprop="contentUrl"/>
+      src="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1701860485/site/archetypes/warrior.png" width="1792" height="1024" alt="Архетип Герой в маркетинге" itemprop="contentUrl">
 <div class="figcaption">Директор FuturaTech Industries. Архетип «Герой» </div>
 </div>
 
@@ -434,7 +438,7 @@ keywords: "маркетинг, промышленные гиганты, архе
      sizes="100vw" 
 			srcset="https://res.cloudinary.com/bartoshevich/image/upload/w_640/f_auto,q_auto/v1701860486/site/archetypes/seeker.png 640w,
 			https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1701860486/site/archetypes/seeker.png 1792w"
-      src="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1701860486/site/archetypes/seeker.png" width="1792" height="1024" alt="Искатель в контексте маркетинга - изображение архетипа" itemprop="contentUrl"/>
+      src="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1701860486/site/archetypes/seeker.png" width="1792" height="1024" alt="Архетип Искатель в маркетинге" itemprop="contentUrl">
 <div class="figcaption">Директор FuturaTech Industries. Архетип «Искатель» </div>
 </div>
 
@@ -493,7 +497,7 @@ keywords: "маркетинг, промышленные гиганты, архе
      sizes="100vw" 
 			srcset="https://res.cloudinary.com/bartoshevich/image/upload/w_640/f_auto,q_auto/v1701860484/site/archetypes/ruler.png 640w,
 			https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1701860484/site/archetypes/ruler.png 1792w"
-      src="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1701860484/site/archetypes/ruler.png" width="1792" height="1024" alt="Правитель в контексте маркетинга - изображение архетипа" itemprop="contentUrl"/>
+      src="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1701860484/site/archetypes/ruler.png" width="1792" height="1024" alt="Архетип Правитель в маркетинге" itemprop="contentUrl">
 <div class="figcaption">Директор FuturaTech Industries. Архетип «Правитель» </div>
 </div>
 
@@ -545,7 +549,7 @@ keywords: "маркетинг, промышленные гиганты, архе
      sizes="100vw" 
 			srcset="https://res.cloudinary.com/bartoshevich/image/upload/w_640/f_auto,q_auto/v1702142786/site/archetypes/lover_2.png 640w,
 			https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1702142786/site/archetypes/lover_2.png 1792w"
-      src="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1702142786/site/archetypes/lover_2.png" width="1792" height="1024" alt="Любовник в контексте маркетинга - изображение архетипа" itemprop="contentUrl"/>
+      src="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1702142786/site/archetypes/lover_2.png" width="1792" height="1024" alt="Архетип Любовник в маркетинге" itemprop="contentUrl">
 <div class="figcaption">Директор FuturaTech Industries. Архетип «Любовник» </div>
 </div>
 </section>
@@ -594,7 +598,7 @@ keywords: "маркетинг, промышленные гиганты, архе
      sizes="100vw" 
 			srcset="https://res.cloudinary.com/bartoshevich/image/upload/w_640/f_auto,q_auto/v1701860487/site/archetypes/jester.png 640w,
 			https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1701860487/site/archetypes/jester.png 1792w"
-      src="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1701860487/site/archetypes/jester.png" width="1792" height="1024" alt="Шут в контексте маркетинга - изображение архетипа" itemprop="contentUrl"/>
+      src="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1701860487/site/archetypes/jester.png" width="1792" height="1024" alt="Архетип Шут в маркетинге" itemprop="contentUrl">
 <div class="figcaption">Директор FuturaTech Industries. Архетип «Шут» </div>
 </div>
 </section>
@@ -640,7 +644,7 @@ keywords: "маркетинг, промышленные гиганты, архе
      sizes="100vw" 
 			srcset="https://res.cloudinary.com/bartoshevich/image/upload/w_640/f_auto,q_auto/v1701860486/site/archetypes/creator.png 640w,
 			https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1701860486/site/archetypes/creator.png 1792w"
-      src="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1701860486/site/archetypes/creator.png" width="1792" height="1024" alt="Творец в контексте маркетинга - изображение архетипа" itemprop="contentUrl"/>
+      src="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1701860486/site/archetypes/creator.png" width="1792" height="1024" alt="Архетип Творец в маркетинге" itemprop="contentUrl">
 <div class="figcaption">Директор FuturaTech Industries. Архетип «Творец» </div>
 </div>
 </section>
