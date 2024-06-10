@@ -1,14 +1,14 @@
 ---
 layout: post
-title: "Как руководителю выжать из маркетинговых исследований максимум"
-name:  "Как выжать из маркетинговых исследований максимум: правила для руководителей"
-description: "Три ключевые правила проведения маркетинговых исследований: путь превращения данных в&nbsp;действия для максимальной пользы руководителей."
+title: "Три правила маркетинговых исследований для руководителей"
+name:  "Три ключевых правила маркетинговых исследований"
+description: "Узнайте три ключевых правила, которые помогут руководителям максимально использовать маркетинговые исследования для принятия решений."
 date:   2015-08-18
-last_modified_at: 2023-10-17
+last_modified_at: 2024-06-07
 categories: инструкции
 permalink: "/blog/3-pravila-marketingovyx-issledovanij/"
 tags: "инструменты"
-keywords: "организация маркетинговых исследований"
+keywords: "маркетинговые исследования, правила маркетинговых исследований, руководство по маркетинговым исследованиям"
 image: /assets/images/tizers/tizer-3.jpg
 ---
 
@@ -21,7 +21,7 @@ image: /assets/images/tizers/tizer-3.jpg
 <picture>
                 <source srcset="/assets/images/blog/pravila-marketingovyx-issledovanij/research.avif" type="image/avif">
                  <source srcset="/assets/images/blog/pravila-marketingovyx-issledovanij/research.webp" type="image/webp">               
-               <img class="image is-16by9" src="/assets/images/blog/pravila-marketingovyx-issledovanij/research.jpg" alt="Объяснение различий в маркетинговых исследованиях. Провели два исследования, чтобы определить востребованную длину презерватива. Одно показало 21см., а второе — 15см. В первом случае опрашивали, а во втором — измеряли." width="1920" height="1080"  itemprop="contentUrl" >
+               <img class="image is-16by9" src="/assets/images/blog/pravila-marketingovyx-issledovanij/research.jpg" alt="Маркетинговые исследования: объяснение различий." width="1920" height="1080"  itemprop="contentUrl" >
     </picture>
 </div>
 
@@ -107,6 +107,12 @@ image: /assets/images/tizers/tizer-3.jpg
 </li>
 <li class="list-li">
   <a href="/blog/autsorsing-marketinga/" class="link"> Аутсорсинг маркетинговых услуг: как защитить деньги компании</a>
+</li>
+<li class="list-li">
+  <a href="/blog/how-to-effectively-complete-tasks-and-manage-projects/" class="link"> Почему задачи не&nbsp;выполняются и&nbsp;как это исправить</a>
+</li>
+<li class="list-li">
+  <a href="/blog/100-dnej-marketologa/" class="link"> Первые сто дней маркетолога на&nbsp;новом рабочем&nbsp;месте</a>
 </li>
 </ul>
 </footer>

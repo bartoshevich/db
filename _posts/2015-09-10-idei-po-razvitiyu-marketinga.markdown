@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "Восприятие клиента: ключ к успеху продукта"
-name: "Как&nbsp;восприятие клиента определяет успех продукта: советы для руководителей и&nbsp;маркетологов "
-description: "Разбираемся, как восприятие клиента определяет успех продукта в&nbsp;мире информационного шума. Почему история бренда и&nbsp;эхо вашего сообщения важнее, чем его громкость."
+name: "Восприятие клиента определяет успех продукта: советы для руководителей и&nbsp;маркетологов "
+description: "Разбираю, как успех продукта в&nbsp;мире информационного шума определяется восприятием клиента. Почему история бренда и&nbsp;эхо вашего сообщения важнее, чем громкость."
 date:   2015-09-10
 last_modified_at: 2023-08-18
 categories: мнение
@@ -42,7 +42,7 @@ image: /assets/images/tizers/tizer-5.jpg
 <picture >
                 <source srcset="/assets/images/blog/2-idei-po-razvitiyu-marketinga/otlichie.avif" type="image/avif">
                  <source srcset="/assets/images/blog/2-idei-po-razvitiyu-marketinga/otlichie.webp" type="image/webp">               
-               <img class="image is-16by9" loading="lazy" decoding="async" src='/assets/images/blog/2-idei-po-razvitiyu-marketinga/otlichie.jpg' alt="пустые полки в магазинах в 90-х годах и изобилие товаров сегодня" width="1800" height="1013"  itemprop="contentUrl"/>
+               <img class="image is-16by9" loading="lazy" decoding="async" src='/assets/images/blog/2-idei-po-razvitiyu-marketinga/otlichie.jpg' alt="пустые полки в магазинах в 90-х годах и изобилие товаров сегодня" width="1800" height="1013"  itemprop="contentUrl">
     </picture>
     <div class="figcaption"><p>Как купить? → Как выбрать?</p></div>
 </div>
@@ -62,11 +62,11 @@ image: /assets/images/tizers/tizer-5.jpg
 
 <div itemprop="image" itemscope itemtype="http://schema.org/ImageObject">
 <link itemprop="url" href="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1648470003/site/ways.jpg">
-<img class="image is-16by9" loading="lazy" decoding="async" src='https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1648470003/site/ways.jpg' alt="На картинке две дороги с ямами и одна с хорошим асфальтом. Выбрать качественную дорогу легко. " width="2000" height="1124"  itemprop="contentUrl"/></div>
+<img class="image is-16by9" loading="lazy" decoding="async" src='https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1648470003/site/ways.jpg' alt="На картинке две дороги с ямами и одна с хорошим асфальтом. Выбрать качественную дорогу легко. " width="2000" height="1124"  itemprop="contentUrl"></div>
 
 <div itemprop="image" itemscope itemtype="http://schema.org/ImageObject">
 <link itemprop="url" href="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1648470004/site/ways-2.jpg">
-<img class="image is-16by9" loading="lazy" decoding="async"  src='https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1648470004/site/ways-2.jpg' alt="На картинке три дороги с хорошим асфальтом. Определить самую качественную дорогу сложно." width="2000" height="1124"  itemprop="contentUrl"/></div>
+<img class="image is-16by9" loading="lazy" decoding="async"  src='https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1648470004/site/ways-2.jpg' alt="На картинке три дороги с хорошим асфальтом. Определить самую качественную дорогу сложно." width="2000" height="1124"  itemprop="contentUrl"></div>
 
 <p class="post__note h2">Качество&nbsp;&mdash; преимущество лишь в&nbsp;том случае, когда у&nbsp;конкурентов оно отсутствует в&nbsp;принципе, когда брак мгновенно и&nbsp;точно распознает даже 90-летняя бабушка. В&nbsp;других случаях качество не&nbsp;очевидно. Заявления о&nbsp;качестве воспринимаются как рекламный шум. </p>
 
@@ -98,6 +98,12 @@ image: /assets/images/tizers/tizer-5.jpg
 </li>
 <li class="list-li">
   <a href="/blog/marketing-mind/" class="link"> Акция не&nbsp;сработает, если не&nbsp;думать как маркетолог</a>
+</li>
+<li class="list-li">
+  <a href="/blog/covid-2019/" class="link"> Стратегии маркетинга в&nbsp;условиях пандемии: адаптация брендов</a>
+</li>
+<li class="list-li">
+  <a href="/blog/migraciya-mediaplanera/" class="link"> Медиапланирование западнее Буга: путевые заметки трудового мигранта</a>
 </li>
 </ul>
 </footer>

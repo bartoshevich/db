@@ -1,15 +1,15 @@
 ---
 layout: post
-title: "Зачем Нужен Маркетинг Вашему Бизнесу: Экспертные Мнения"
-name: "Важность маркетинга для развития компании: взгляды профессионалов"
-description: "Зачем маркетинг белорусскому бизнесу и&nbsp;почему он&nbsp;иногда не&nbsp;приносит пользу предприятиям&nbsp;— рассуждают эксперты по&nbsp;продажам."
+title: "Зачем Нужен Маркетинг Бизнесу: Мнения Экспертов По Продажам"
+name: "Бизнес-тренеры по&nbsp;продажам: Нужен&nbsp;ли маркетинг бизнесу"
+description: "Чем маркетинг важен для белорусского бизнеса и&nbsp;как он&nbsp;может увеличить продажи. Эксперты в&nbsp;продажах делятся мнениями о&nbsp;роли и&nbsp;эффективности маркетинга."
 date:   2015-10-01
-last_modified_at: 2019-12-04
+last_modified_at: 2024-06-04
 categories: мнение
 permalink: "/blog/zachem-marketing-biznesu/"
 image: /assets/images/tizers/tizer-8.jpg
 tags: "управление интервью"
-keywords: "продавцы о маркетинге"
+keywords: "маркетинг, маркетинг для бизнеса, экспертные мнения, эффективность маркетинга"
 ---
 
 {% include post__header--update.html %}
@@ -25,7 +25,7 @@ keywords: "продавцы о маркетинге"
                     <source srcset="/assets/images/blog/zachem-marketing-biznesu/sd.avif" type="image/avif">
                     <source srcset="/assets/images/blog/zachem-marketing-biznesu/sd.webp" type="image/webp">  
                     <source srcset="/assets/images/blog/zachem-marketing-biznesu/sd.png" type="image/png">               
-                <img loading="lazy"  class="image is-150x150" src="/assets/images/blog/zachem-marketing-biznesu/sd.jpg" alt="Сергей Дробышевский"  width="150" height="150" />
+                <img loading="lazy"  class="image is-150x150" src="/assets/images/blog/zachem-marketing-biznesu/sd.jpg" alt="Сергей Дробышевский, эксперт по продажам"  width="150" height="150">
         </picture>
         <div class="guest-person__name">Сергей Дробышевский</div>
         <div class="guest-person__position">В&nbsp;сервисе и&nbsp;продажах с&nbsp;2006г. Внедрял системы управления эффективностью розничных продаж в&nbsp;России: VW, SsangYong, Wallenstein, Skoda, СтройШефИнвест.</div>
@@ -35,7 +35,7 @@ keywords: "продавцы о маркетинге"
                     <source srcset="/assets/images/blog/zachem-marketing-biznesu/vh.avif" type="image/avif">
                     <source srcset="/assets/images/blog/zachem-marketing-biznesu/vh.webp" type="image/webp">  
                     <source srcset="/assets/images/blog/zachem-marketing-biznesu/vh.png" type="image/png">               
-                <img loading="lazy" class="image is-150x150"  src="/assets/images/blog/zachem-marketing-biznesu/vh.jpg" alt="Василий Хлобыстов"  width="150" height="150"> 
+                <img loading="lazy" class="image is-150x150"  src="/assets/images/blog/zachem-marketing-biznesu/vh.jpg" alt="Василий Хлобыстов, эксперт по продажам"  width="150" height="150"> 
         </picture>
         
         <div class="guest-person__name">Василий Хлобыстов </div>
@@ -63,7 +63,7 @@ keywords: "продавцы о маркетинге"
 
 
 <div class="post__note">
-<p>Некая Kimberly Whitler сравнила доход двух типов компаний: у&nbsp;одних в&nbsp;совете директоров есть хотя&nbsp;бы один маркетолог, у&nbsp;других&nbsp;— нет. Разница в&nbsp;динамике роста дохода&nbsp;— 5.78 процентных пункта в&nbsp;пользу маркетологов ;-) Любопытным&nbsp;— <a class="link" href="https://www.ama.org/marketing-news/marketer-representation-at-the-board-level-can-drive-growth-so-why%e2%80%89are-they-underrepresented/" >описание исследования</a> (англ.). <br> <span class="small">updated, 2019</span></p>
+<p>Некая Kimberly Whitler сравнила доход двух типов компаний: у&nbsp;одних в&nbsp;совете директоров есть хотя&nbsp;бы один маркетолог, у&nbsp;других&nbsp;— нет. Разница в&nbsp;динамике роста дохода&nbsp;— 5.78 процентных пункта в&nbsp;пользу маркетологов ;-) Любопытным&nbsp;— <a class="link" href="https://www.ama.org/marketing-news/marketer-representation-at-the-board-level-can-drive-growth-so-why%e2%80%89are-they-underrepresented/" >описание исследования</a> (англ.). <br> <span class="small">updated, 2024</span></p>
 
 </div>
 </section>
@@ -80,5 +80,29 @@ keywords: "продавцы о маркетинге"
 <li class="list-li">Директор изначально скептически настроен по&nbsp;отношению к&nbsp;маркетингу и&nbsp;пропускает мимо ушей сказанное маркетологом. Классический пример&nbsp;— один маркетолог на&nbsp;предприятии, часто вчерашний студент, которого всерьез не&nbsp;воспринимают.</li>
 </ul>
 </section>
-<br />
-<div class="mt-m post__note h2 additive-spacing max-width-text"><p>Маркетинг обязателен. </p> <p>Чтобы маркетинг приносил пользу, требуется согласованная работа отделов маркетинга и&nbsp;продаж, а&nbsp;также доверие руководителя компании к&nbsp;маркетологам.</p></div>
+
+<div class="mt-m post__note h2 additive-spacing max-width-text">
+<p>Маркетинг обязателен.</p> 
+<p>Чтобы маркетинг приносил пользу, требуется согласованная работа отделов маркетинга и&nbsp;продаж, а&nbsp;также доверие руководителя компании к&nbsp;маркетологам.</p>
+</div>
+<br>
+<footer class="additive-spacing mt-2">
+<p class="mb-m mt-m"> Дополнительные материалы:</p>
+<ul class="addictive-spacing">
+<li class="list-li">
+  <a href="/blog/pochemu-net-prodazh/" class="link">Почему нет продаж и&nbsp;что делать</a>
+</li>
+<li class="list-li">
+  <a href="/blog/ethical-marketing-dark-patterns/" class="link"> Этичный маркетинг: преодоление темных паттернов</a>
+</li>
+<li class="list-li">
+  <a href="/blog/marketing-for-industrial-giants-12-archetypes/" class="link"> Как 12 архетипов меняют B2B маркетинг</a>
+</li>
+<li class="list-li">
+  <a href="/blog/marketing-bolshe-chem-prodazhi/" class="link">От&nbsp;распродаж к&nbsp;стратегии: почему маркетинг&nbsp;&mdash; это больше, чем просто продажи</a>
+</li>
+<li class="list-li">
+  <a href="/blog/perfomance-and-brand-marketing/" class="link">Бренд и&nbsp;перфоманс маркетинг&nbsp;&mdash; что важно знать маркетологу</a>
+</li>
+</ul>
+</footer>

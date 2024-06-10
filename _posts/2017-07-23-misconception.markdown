@@ -80,7 +80,7 @@ keywords: "мифы о маркетинге"
 <ul >
 <li class="list-li"> <a class="link" href="/blog/konkurentnoe-preimushhestvo/">Конкурентное преимущество, о&nbsp;котором молчат маркетологи</a></li>
 <li class="list-li"> <a class="link" href="/blog/marketing-bez-nuzhdy-prodat/">Маркетинг без нужды продать</a></li>
-<li class="list-li"> <a class="link" href="/blog/feedback/">Net Promoter Score: как определить и&nbsp;использовать правильно</a></li>
+<li class="list-li"> <a class="link" href="/blog/metodika-nps-indeks-loyalnosti-klientov/">Net Promoter Score: как определить и&nbsp;использовать правильно</a></li>
 </ul>
 
 </article>
