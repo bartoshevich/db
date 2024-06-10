@@ -228,3 +228,32 @@ image: /assets/images/tizers/tizer-12.jpg
 <p>При оценке индекса лояльности важна динамика значений. Получайте обратную связь от&nbsp;клиентов регулярно и&nbsp;вы&nbsp;поймете, в&nbsp;верном&nbsp;ли направлении развиваете компанию.</p>
 </section>
 </section>
+
+
+<footer class="row-gap--m">
+<h2 class="section__title h2 mb-m"> Дополнительные материалы</h2>
+<p class="mb-m">Для более глубокого понимания различных аспектов маркетинга и анализа данных, вы можете ознакомиться со следующими статьями: </p>
+<ul class="addictive-spacing">
+<li class="list-li">
+  <a href="/blog/system-marketing/" class="link">От мифов к эффективной практике в системном маркетинге</a>
+</li>
+<li class="list-li">
+  <a href="/blog/primer-swot-analiza/" class="link"> Делаем SWOT-анализ: Как избежать типичных ошибок</a>
+</li>
+<li class="list-li">
+  <a href="/blog/analiz-prodaj/" class="link">Алгоритм анализа продаж</a>
+</li>
+<li class="list-li">
+  <a href="/blog/perfomance-and-brand-marketing/" class="link">Бренд и&nbsp;перфоманс маркетинг&nbsp;&mdash; что важно знать маркетологу</a>
+</li>
+<li class="list-li">
+  <a href="/blog/share-of-searches/" class="link">Доля в&nbsp;поиске&nbsp;&mdash; новый показатель в&nbsp;маркетинге</a>
+</li>
+<li class="list-li">
+  <a href="/blog/emotions-in-marketing/" class="link">Эмоциональный маркетинг: Как использовать эмоции для глубокой связи с&nbsp;клиентами</a>
+</li>
+<li class="list-li">
+  <a href="/blog/marketing-bolshe-chem-prodazhi/" class="link"> От&nbsp;распродаж к&nbsp;стратегии: почему маркетинг&nbsp;&mdash; это больше, чем просто продажи</a>
+</li>
+</ul>
+</footer>
