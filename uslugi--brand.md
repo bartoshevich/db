@@ -26,8 +26,8 @@ keywords: "разработка концепции бренда"
 		<p class="italic">Когда Apple представил первый iPod, другие компании уже выпускали mp3-плееры. Но&nbsp;Apple не&nbsp;предлагал еще один плеер. Он&nbsp;предложил идею&nbsp;&mdash; 1000 песен в&nbsp;вашем кармане. Эта идея была концепцией бренда iPod.</p>
 
 
-		<img  loading="lazy" decoding="async" class="image is4by3" width="1900" height="1200"
-	src="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1692465407/site/ipod.jpg" alt="Плакат Apple с фотографией iPod и лозунгом «1000 песен. В вашем кармане» " />
+		<img  loading="lazy" decoding="async" class="image" width="1999" height="958"
+	src="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1718049364/site/brand-conception/ipod.jpg" alt="Концепция бренда iPod: Плакат iPod с лозунгом «1000 песен в вашем кармане»" title="Концепция бренда iPod: «1000 песен в вашем кармане»"> 
 
 
 		</section>
@@ -221,7 +221,7 @@ keywords: "разработка концепции бренда"
             <p> <span class="bold">Пример.</span> Содержание презентации с&nbsp;концепцией бренда, которую я&nbsp;разработал для&nbsp;Hörmann. <a href="/blog/brand-conception-hormann/" class="link">Описание кейса </a></p>
     </div>
 	<img  loading="lazy" decoding="async" class="image is4by3" width="2000" height="1500"
-	src="https://res.cloudinary.com/bartoshevich/image/upload/f_auto/bo_1px_solid_grey/v1622023855/site/hormann-slide.jpg" alt="слайд с содержанием итоговой презентации для Хёрманн" />
+	src="https://res.cloudinary.com/bartoshevich/image/upload/f_auto/bo_1px_solid_grey/v1622023855/site/hormann-slide.jpg" alt="Пример презентации концепции бренда для Hörmann" title="Презентация концепции бренда Hörmann: структура и содержание">
 </div>
 </li>
 
