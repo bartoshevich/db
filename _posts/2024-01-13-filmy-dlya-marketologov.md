@@ -4,7 +4,7 @@ title:  "Топ фильмы для маркетологов: Подборка �
 name: "Кино, меняющее взгляд на&nbsp;маркетинг"
 description: 'Подборка фильмов о&nbsp;маркетинге, рекламе и&nbsp;потребительском поведении, которые расширят профессиональный взгляд и&nbsp;вдохновят маркетологов на&nbsp;новые идеи.'
 date:   2024-01-13
-last_modified_at: 2024-03-30
+last_modified_at: 2024-06-11
 categories: мнение
 permalink: "/blog/filmy-dlya-marketologov/"
 tags: "маркетолог"
@@ -16,8 +16,96 @@ keywords: "фильмы, маркетологи, подборка фильмов
 
 <p>Кино, в&nbsp;котором мелькают маркетологи, не&nbsp;только развлекает. Назову нескольких картин, которые исследуют маркетинг с&nbsp;разных сторон, позволяя глубже понять его влияние и&nbsp;значимость. От&nbsp;провокационной сатиры до&nbsp;вдумчивых документальных исследований&nbsp;— эти фильмы могут вдохновить маркетологов на&nbsp;новые идеи и&nbsp;стратегии.</p>
 
-<section class="row-gap--m" itemscope itemtype="http://schema.org/Movie">
-  <h2 itemprop="name" class="section__title h1 bold">Социальная дилемма (2020)</h2>
+
+<nav class="toc">
+<h2 class="toc__title">Содержание</h2>
+<ul class="additive-spacing">
+  <li>		   
+    <span class="tocnumber">1 </span>
+    <a class="link" href="#flaming-hot-2023">Обжигающе горячий / Flaming Hot (2023)
+    </a>
+  </li>
+  <li >
+    <span class="tocnumber">2 </span>			  
+    <a class="link" href="#social-dilemma-2020">Социальная дилемма / The Social Dilemma (2020) 
+    </a>
+  </li>
+  <li >
+    <span class="tocnumber">3 </span>
+    <a class="link" href="#99-francs-2009">99 франков / 99 francs (2009)
+    </a>
+  </li>
+  <li>			
+    <span class="tocnumber">4</span>
+    <a class="link" href="#the-joneses-2009">Семейка Джонсов / The Joneses (2009)
+    </a>
+  </li>
+  <li>
+    <span class="tocnumber">5</span>
+    <a class="link" href="#the-founder-2016">Основатель / The Founder (2016)
+    </a>
+  </li>
+  <li>			
+    <span class="tocnumber">6</span>
+    <a class="link" href="#art-and-copy-2009">Изображение и текст / Art & Copy (2009) 
+    </a>
+  </li>
+  <li>			
+    <span class="tocnumber">7</span>
+    <a class="link" href="#the-greatest-movie-ever-sold-2011">Величайший фильм из всех когда-либо проданных / The Greatest Movie Ever Sold (2011) 
+    </a>
+  </li>
+  <li>			
+    <span class="tocnumber">8</span>
+    <a class="link" href="#moneyball-2011">Человек, который изменил все / Moneyball (2011) 
+    </a>
+  </li>
+  <li>			
+    <span class="tocnumber">9</span>
+    <a class="link" href="#jiro-dreams-of-sushi-2011">Мечты Дзиро о суши / Jiro Dreams of Sushi (2011) 
+    </a>
+  </li>
+  <li>			
+    <span class="tocnumber">10</span>
+    <a class="link" href="#syrup-2013">Сироп / Syrup (2013) 
+    </a>
+  </li>
+  
+</ul>
+</nav>
+
+
+
+<section id="flaming-hot-2023" class="row-gap--m" itemscope itemtype="http://schema.org/Movie">
+  <h2 itemprop="name" class="section__title h1 bold">Обжигающе горячий / Flaming Hot (2023)</h2>
+  <meta itemprop="dateCreated" content="2023">
+  <p><span class="bold">Режиссер:</span> <span itemprop="director" itemscope itemtype="http://schema.org/Person"><span itemprop="name">Ева Лонгория</span></span><br>
+  <span class="bold">IMDb рейтинг:</span> <span itemprop="aggregateRating" itemscope itemtype="http://schema.org/AggregateRating">
+  <meta itemprop="ratingCount" content="17000">
+  <meta itemprop="bestRating" content="10">
+  <span itemprop="ratingValue">6.7</span>/10</span></p>
+  <p itemprop="description">Фильм основан на&nbsp;автобиографической книге Ричарда Монтаньесе, которого называют крестным отцом латиноамериканского маркетинга. Он рассказывает историю создания Flamin' Hot Cheetos. Неизвестно, все&nbsp;ли было так на&nbsp;самом деле, но&nbsp;сама книга уж&nbsp;точно добавила лояльности к&nbsp;Frito-Lay в&nbsp;среде мексиканцев.  </p>
+  <p><span class="bold">Зачем смотреть:</span> Хотя&nbsp;бы ради этих слов главного героя: «Я&nbsp;не&nbsp;знаю, что такое доля рынка, потому что я&nbsp;не&nbsp;сижу в&nbsp;офисе в&nbsp;костюме. Я&nbsp;здесь со&nbsp;своими друзьями и&nbsp;вот что я&nbsp;о&nbsp;них знаю. Они ищут себя на&nbsp;этих полках. Они хотят знать, что вы&nbsp;цените еду, которую они едят дома. Что мы&nbsp;что-то значим. Я&nbsp;хочу знать, что я&nbsp;важен, когда покупаю [ваши] продукты. [...] Если&nbsp;бы мы&nbsp;знали, что для нас существует продукт, мы&nbsp;бы сказали: „Забирайте все наши деньги“». </p>
+
+  
+  <div class="figure" itemprop="image" itemscope itemtype="http://schema.org/ImageObject">
+<link itemprop="url" href="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1718114716/site/films/hot.jpg">
+<img class="image" loading="lazy" decoding="async" 
+     sizes="100vw" 
+			srcset="https://res.cloudinary.com/bartoshevich/image/upload/w_640/f_auto,q_auto/v1718114716/site/films/hot.jpg 640w,
+			https://res.cloudinary.com/bartoshevich/image/upload/w_1200/f_auto,q_auto/v1718114716/site/films/hot.jpg 1200w,
+      https://res.cloudinary.com/bartoshevich/image/upload/w_1980/f_auto,q_auto/v1718114716/site/films/hot.jpg 1980w,
+      https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1705161156/site/films/moneybalL.jpg 2160"
+      src="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1718114716/site/films/hot.jpg" alt="Сын главного героя тестирует Flamin' Hot Cheetos, участвуя в разработке нового продукта" width="2160" height="1440" itemprop="contentUrl">
+<div class="figcaption">кадр из фильма: в поисках того самого вкуса</div>
+</div>
+
+</section>
+
+
+
+<section id="social-dilemma-2020" class="row-gap--m" itemscope itemtype="http://schema.org/Movie">
+  <h2 itemprop="name" class="section__title h1 bold">Социальная дилемма / The Social Dilemma (2020)</h2>
   <meta itemprop="dateCreated" content="2020">
   <p><span class="bold">Режиссер:</span> <span itemprop="director" itemscope itemtype="http://schema.org/Person"><span itemprop="name"> Джефф Орловски</span></span><br>
   <span class="bold">IMDB рейтинг:</span> <span itemprop="aggregateRating" itemscope itemtype="http://schema.org/AggregateRating">
@@ -59,7 +147,7 @@ keywords: "фильмы, маркетологи, подборка фильмов
 
 
 
-<section class="row-gap--m" itemscope itemtype="http://schema.org/Movie">
+<section id="99-francs-2009" class="row-gap--m" itemscope itemtype="http://schema.org/Movie">
   <h2 itemprop="name" class="section__title h1 bold">99 франков / 99 francs (2009)</h2>
   <meta itemprop="dateCreated" content="2009">
   <p><span class="bold">Режиссер:</span> <span itemprop="director" itemscope itemtype="http://schema.org/Person"><span itemprop="name"> Ян Кунен</span></span><br>
@@ -102,7 +190,7 @@ keywords: "фильмы, маркетологи, подборка фильмов
 
 
 
-<section class="row-gap--m" itemscope itemtype="http://schema.org/Movie">
+<section id="the-joneses-2009" class="row-gap--m" itemscope itemtype="http://schema.org/Movie">
   <h2 itemprop="name" class="section__title h1 bold">Семейка Джонсов / The Joneses (2009)</h2>
   <meta itemprop="dateCreated" content="2009">
   <p><span class="bold">Режиссер:</span> <span itemprop="director" itemscope itemtype="http://schema.org/Person"><span itemprop="name">Деррик Борте</span></span><br>
@@ -147,7 +235,7 @@ keywords: "фильмы, маркетологи, подборка фильмов
 
 
 
-<section class="row-gap--m" itemscope itemtype="http://schema.org/Movie">
+<section id="the-founder-2016" class="row-gap--m" itemscope itemtype="http://schema.org/Movie">
   <h2 itemprop="name" class="section__title h1 bold">Основатель / The Founder  (2016)</h2>
   <meta itemprop="dateCreated" content="2016">
   <p><span class="bold">Режиссер:</span> <span itemprop="director" itemscope itemtype="http://schema.org/Person"><span itemprop="name">Джон Ли Хэнкок</span></span><br>
@@ -191,7 +279,7 @@ keywords: "фильмы, маркетологи, подборка фильмов
 
 
 
-<section class="row-gap--m" itemscope itemtype="http://schema.org/Movie">
+<section id="art-and-copy-2009" class="row-gap--m" itemscope itemtype="http://schema.org/Movie">
   <h2 itemprop="name" class="section__title h1 bold">Изображение и текст / Art & Copy (2009)</h2>
   <meta itemprop="dateCreated" content="2009">
   <p><span class="bold">Режиссер:</span> <span itemprop="director" itemscope itemtype="http://schema.org/Person"><span itemprop="name">Даг Прэй</span></span><br>
@@ -236,7 +324,7 @@ keywords: "фильмы, маркетологи, подборка фильмов
 
 
 
-<section class="row-gap--m" itemscope itemtype="http://schema.org/Movie">
+<section id="the-greatest-movie-ever-sold-2011" class="row-gap--m" itemscope itemtype="http://schema.org/Movie">
   <h2 itemprop="name" class="section__title h1 bold">Величайший фильм из&nbsp;всех когда-либо проданных /  The Greatest Movie Ever Sold (2011)</h2>
   <meta itemprop="dateCreated" content="2011">
   <p><span class="bold">Режиссер:</span> <span itemprop="director" itemscope itemtype="http://schema.org/Person"><span itemprop="name">Морган Сперлок</span></span><br>
@@ -283,7 +371,7 @@ keywords: "фильмы, маркетологи, подборка фильмов
 
 
 
-<section class="row-gap--m" itemscope itemtype="http://schema.org/Movie">
+<section id="moneyball-2011" class="row-gap--m" itemscope itemtype="http://schema.org/Movie">
   <h2 itemprop="name" class="section__title h1 bold">Человек, который изменил все / Moneyball (2011)</h2>
   <meta itemprop="dateCreated" content="2011">
   <p><span class="bold">Режиссер:</span> <span itemprop="director" itemscope itemtype="http://schema.org/Person"><span itemprop="name">Беннетт Миллер</span></span><br>
@@ -311,7 +399,7 @@ keywords: "фильмы, маркетологи, подборка фильмов
 
 
 
-<section class="row-gap--m" itemscope itemtype="http://schema.org/Movie">
+<section id="jiro-dreams-of-sushi-2011" class="row-gap--m" itemscope itemtype="http://schema.org/Movie">
   <h2 itemprop="name" class="section__title h1 bold">Мечты Дзиро о суши / Jiro Dreams of Sushi (2011) </h2>
   <meta itemprop="dateCreated" content="2011">
   <p><span class="bold">Режиссер:</span> <span itemprop="director" itemscope itemtype="http://schema.org/Person"><span itemprop="name">Дэвид Гелб</span></span><br>
@@ -337,7 +425,7 @@ keywords: "фильмы, маркетологи, подборка фильмов
 </section>
 
 
-<section class="row-gap--m" itemscope itemtype="http://schema.org/Movie">
+<section id="syrup-2013" class="row-gap--m" itemscope itemtype="http://schema.org/Movie">
   <h2 itemprop="name" class="section__title h1 bold">Сироп / Syrup (2013) </h2>
   <meta itemprop="dateCreated" content="2013">
   <p><span class="bold">Режиссер:</span> <span itemprop="director" itemscope itemtype="http://schema.org/Person"> <span itemprop="name">Арам Раппопорт</span></span><br>
