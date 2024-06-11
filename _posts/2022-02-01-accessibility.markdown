@@ -122,15 +122,16 @@ keywords: "доступность"
 
  
     
-<blockquote class="blockquote--emphasis mt-m ml-2xl">
+<div class="blockquote--emphasis mt-m ml-2xl">
+<blockquote>
     		<p class="citation">
                 Доступность&nbsp;— это практика, позволяющая использовать ваши сайты как можно большему числу людей. 
     		</p>
-    		
+    		</blockquote>
     		<cite class="citation__author">
     			— <a class="link" href="https://developer.mozilla.org/ru/docs/Learn/Accessibility/What_is_accessibility">MDN Web Docs</a>
     		</cite>
-    	</blockquote>
+    	</div>
 
 
 
