@@ -95,7 +95,7 @@ keywords: "фильмы, маркетологи, подборка фильмов
 			srcset="https://res.cloudinary.com/bartoshevich/image/upload/w_640/f_auto,q_auto/v1718114716/site/films/hot.jpg 640w,
 			https://res.cloudinary.com/bartoshevich/image/upload/w_1200/f_auto,q_auto/v1718114716/site/films/hot.jpg 1200w,
       https://res.cloudinary.com/bartoshevich/image/upload/w_1980/f_auto,q_auto/v1718114716/site/films/hot.jpg 1980w,
-      https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1705161156/site/films/moneybalL.jpg 2160"
+      https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1718114716/site/films/hot.jpg 2160"
       src="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1718114716/site/films/hot.jpg" alt="Сын главного героя тестирует Flamin' Hot Cheetos, участвуя в разработке нового продукта" width="2160" height="1440" itemprop="contentUrl">
 <div class="figcaption">кадр из фильма: в поисках того самого вкуса</div>
 </div>
