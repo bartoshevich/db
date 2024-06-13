@@ -78,9 +78,11 @@ if ('serviceWorker' in navigator) {
           return; 
       }
 
-      var maxLength = Math.floor(Math.random() * (2000 - 1500 + 1)) + 1500;
+      const MIN_COPY_LENGTH = 1500;
+      const MAX_COPY_LENGTH = 2000;
+ 
+      var maxLength = Math.floor(Math.random() * (MAX_COPY_LENGTH - MIN_COPY_LENGTH + 1)) + MIN_COPY_LENGTH;
       var truncatedText = originalText.substring(0, maxLength);
-
       
       var words = truncatedText.split(' ');
       if (words.length > 1) {
