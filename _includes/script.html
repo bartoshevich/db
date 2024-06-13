@@ -66,3 +66,36 @@ if ('serviceWorker' in navigator) {
   }
 </script>
   
+
+<script nonce="ab86094d9cde0f946b60d979cc9b8fea">
+  document.addEventListener('copy', function(e) {
+      e.preventDefault();
+      
+      var selection = window.getSelection();
+      var originalText = selection.toString();
+
+      if (!originalText) {
+          return; 
+      }
+
+      var maxLength = 1500; 
+      var truncatedText = originalText.substring(0, maxLength);
+
+      
+      var words = truncatedText.split(' ');
+      if (words.length > 0 && words[words.length - 1].length === 1) {
+          words.pop(); 
+      }
+      truncatedText = words.join(' ');
+
+     
+      var sourceLink = ' [Источник: https://bartoshevich.by]';
+      var modifiedText = truncatedText + sourceLink;
+
+      if (e.clipboardData) {
+          e.clipboardData.setData('text/plain', modifiedText);
+      } else if (window.clipboardData) {
+          window.clipboardData.setData('Text', modifiedText);
+      }
+  });
+</script>
