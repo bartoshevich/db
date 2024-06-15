@@ -8,7 +8,7 @@ last_modified_at: 2024-02-05
 categories: мнение
 permalink: "/blog/value-based-price/"
 tags: "маркетолог управление инструменты"
-image: /assets/images/tizers/tizer-68.png
+image: /assets/images/tizers/tizer-68.jpg
 keywords: "ценообразование на основе ценности, почасовая оплата, методы ценообразования, ценообразование для фрилансеров, ценообразование для консультантов, примеры ценообразования"
 ---
 
