@@ -1,71 +1,54 @@
-
 <script nonce="Z1a2h3G4J6K7L8m9P0q1r2==">
   /* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&dn=expat.txt Expat */
 
-
-function findVideos() {
+document.addEventListener('DOMContentLoaded', () => {
   const videos = document.querySelectorAll('.video');
-  
-  for (const video of videos) {
-    setupVideo(video);
-  }
-}
 
-
-function parseMediaURL(link) {
-  const regexp = /https:\/\/youtu\.be\/([a-zA-Z0-9_-]+)/i;
-  const url = link.href;
-  const match = url.match(regexp);
-  
-  if (match) {
-    return match[1];
-  } else {
-    return null;  
-  }
-}
-
-
-function setupVideo(video) {
-  const link = video.querySelector('.video__link');
-  const id = parseMediaURL(link);
-  
-  if (id === null) {
-    return;  
-  }
-  
-  video.addEventListener('click', () => {
-    const iframe = createIframe(id);
-    link.remove();
-    video.querySelector('.video__button').remove();
-    video.appendChild(iframe);
+  videos.forEach(video => {
+      setupVideo(video);
   });
-  
-  link.removeAttribute('href');
-  video.classList.add('video--enabled');
-}
 
+  function parseMediaURL(link) {
+      const regexp = /https:\/\/youtu\.be\/([a-zA-Z0-9_-]+)/i;
+      const url = link.href;
+      const match = url.match(regexp);
 
-function createIframe(id) {
-  const iframe = document.createElement('iframe');
-  iframe.allowFullscreen = true;
-  iframe.allow = 'autoplay';
-  iframe.src = generateURL(id);
-  iframe.classList.add('video__media');
-  
-  return iframe;
-}
+      return match ? match[1] : null;
+  }
 
+  function setupVideo(video) {
+      const link = video.querySelector('.video__link');
+      const id = parseMediaURL(link);
 
-function generateURL(id) {
-  const query = '?rel=0&showinfo=0&autoplay=1';
-  return `https://www.youtube-nocookie.com/embed/${id}${query}`;
-}
+      if (!id) {
+         return;
+      }
 
-findVideos();
+      video.addEventListener('click', (event) => {
+          event.preventDefault();  
+          const iframe = createIframe(id);
+          link.remove();
+          video.querySelector('.video__button').remove();
+          video.appendChild(iframe);
+      });
 
-/* @license-end */
+      video.classList.add('video--enabled');
+  }
 
-   </script> 
+  function createIframe(id) {
+      const iframe = document.createElement('iframe');
+      iframe.allowFullscreen = true;
+      iframe.allow = 'autoplay';
+      iframe.src = generateURL(id);
+      iframe.classList.add('video__media');
+      
+      return iframe;
+  }
 
+  function generateURL(id) {
+      const query = '?rel=0&showinfo=0&autoplay=1';
+      return `https://www.youtube-nocookie.com/embed/${id}${query}`;
+  }
+});
 
-
+</script>

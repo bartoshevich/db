@@ -157,6 +157,7 @@ keywords: "фильмы, маркетологи, подборка фильмов
 	    <a class="video__link " href="https://youtu.be/vMvBpbeZiZs" target="_blank" rel="noopener noreferrer">
 			
 				<img loading="lazy" class="video__media" src="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1711824420/site/films/social_dilemma.jpg" alt="фильм Социальная дилемма на русском языке" width="1920" height="1080" itemprop="thumbnail">
+          <span class="element--hidden">Видео: Социальная дилемма на русском языке</span>
 			
 		</a>
 		<button class="video__button" aria-label="Запустить видео">
@@ -234,6 +235,7 @@ keywords: "фильмы, маркетологи, подборка фильмов
 	    <a class="video__link " href="https://youtu.be/GtE1FDdtyhA" target="_blank" rel="noopener   noreferrer">
 			
 				<img loading="lazy" class="video__media" src="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1705161155/site/films/99_francs.jpg" alt="трейлер фильма 99 франков." width="1920" height="1080" itemprop="thumbnail">
+        <span class="element--hidden">Видео: трейлер фильма 99 франков</span>
 			
 		</a>
 		<button class="video__button" aria-label="Запустить видео">
@@ -315,6 +317,7 @@ keywords: "фильмы, маркетологи, подборка фильмов
         
            
                   <img loading="lazy" class="video__media image" src="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1705163624/site/films/joneses.jpg" alt="трейлер фильма Семейка Джонсов" width="1500" height="844" itemprop="thumbnail">
+                  <span class="element--hidden">Видео: трейлер фильма Семейка Джонсов</span>
       
         
       </a>
@@ -395,7 +398,7 @@ keywords: "фильмы, маркетологи, подборка фильмов
            
           
                 <img loading="lazy" class="video__media" src="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1705164780/site/films/mac.jpg" alt="трейлер фильма Основатель" width="2000" height="1125" itemprop="thumbnail">
-        
+                <span class="element--hidden">Видео: трейлер фильма Основатель</span>       
         
       </a>
       <button class="video__button" aria-label="Запустить видео">
@@ -475,6 +478,7 @@ keywords: "фильмы, маркетологи, подборка фильмов
         <a class="video__link " href="https://youtu.be/QzHlVR3Zqd8" target="_blank" rel="noopener   noreferrer">     
    
                 <img loading="lazy" class="video__media" src="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1705165805/site/films/artandcopy.jpg" alt="трейлер фильма Изображение и текст" width="1200" height="675" itemprop="thumbnail">
+                <span class="element--hidden">Видео: трейлер фильма Изображение и текст</span> 
         
       </a>
       <button class="video__button" aria-label="Запустить видео">
@@ -555,6 +559,7 @@ keywords: "фильмы, маркетологи, подборка фильмов
                 <source srcset="https://i.ytimg.com/vi_webp/fXRCPObrZYs/maxresdefault.webp" type="image/webp">
                 <img loading="lazy" class="video__media is-16by9" src="https://i.ytimg.com/vi/fXRCPObrZYs/maxresdefault.jpg" alt="Величайший фильм из&nbsp;всех когда-либо проданных. Трейлер." width="1280" height="720" itemprop="thumbnail">
         	</picture>  
+          <span class="element--hidden">Видео: трейлер фильма Величайший фильм из всех когда-либо проданных</span> 
         
       </a>
       <button class="video__button" aria-label="Запустить видео">

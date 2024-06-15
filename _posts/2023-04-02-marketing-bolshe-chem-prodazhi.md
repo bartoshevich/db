@@ -53,6 +53,7 @@ keywords: "смысловой маркетинг, ценности, концеп
 			   
 				   
 				   <img loading="lazy" class="video__media " src="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1680459884/site/marketing-bolshe-chem-prodazhi/justdoit.png" alt="Рекламный ролик Nike" width="1280" height="720">
+				   <span class="element--hidden">Видео: Рекламный ролик Nike</span>
 			   
 		   </a>
 		   <button class="video__button" aria-label="Запустить видео">
@@ -83,6 +84,7 @@ keywords: "смысловой маркетинг, ценности, концеп
 			   
 				   
 				   <img loading="lazy" class="video__media " src="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1680460346/site/marketing-bolshe-chem-prodazhi/Dove_Real_Beauty.png" alt="Рекламная кампания Dove&nbsp;— «Real Beauty»" width="1280" height="720">
+				   <span class="element--hidden">Видео: Рекламный ролик Dove</span>
 			   
 		   </a>
 		   <button class="video__button" aria-label="Запустить видео">
