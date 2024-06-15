@@ -288,7 +288,7 @@ keywords: "проблемный клиент"
 </li>
 
 <li class="list-li">
-  <a href="/blog/igra/" class="link"> Психологические игры с&nbsp;клиентами</a>
+  <a href="/blog/igra/" class="link">Игра в&nbsp;«Спасителя» в&nbsp;маркетинге</a>
 </li>
 
 <li class="list-li">

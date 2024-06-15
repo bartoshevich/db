@@ -69,7 +69,7 @@ keywords: "Маркетинг, Продажи, Бизнес-стратегия, 
   <a href="/blog/misconceptions/" class="link"> Пять распространенных мифов о&nbsp;маркетинге</a>
 </li>
 <li class="list-li">
-  <a href="/blog/igra/" class="link">Как&nbsp;избежать психологических игр с&nbsp;клиентами</a>
+  <a href="/blog/igra/" class="link">Игра в&nbsp;«Спасителя» в&nbsp;маркетинге</a>
 </li>
 <li class="list-li">
   <a href="/blog/effektivnost-marketinga/" class="link">Оценка эффективности маркетинга через временные затраты</a>

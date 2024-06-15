@@ -191,3 +191,37 @@ https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1648760933/s
 <p>Не&nbsp;обязательно придерживаться одного варианта. Вы&nbsp;можете комбинировать их&nbsp;между собой, предлагать одному клиенту три пакета услуг, другому&nbsp;&mdash; поштучную оплату или нечно иное. Приведенные примеры&nbsp;&mdash; это лишь общие идеи, иллюстрирующие суть подхода. Вариантов много, важно выбрать тот, который лучше всего подходит вашей ситуации и&nbsp;отражает ценность работы. </p>
 
 </section>
+
+
+
+<footer class="row-gap--m">
+<h2 class="section__title h2 mb-m"> Дополнительные материалы</h2>
+<p class="mb-m">Для&nbsp;глубокого понимания различных аспектов маркетинга вы&nbsp;можете ознакомиться со&nbsp;следующими статьями: </p>
+<ul class="addictive-spacing">
+<li class="list-li">
+  <a href="/blog/marketing-bolshe-chem-prodazhi/" class="link"> От&nbsp;распродаж к&nbsp;стратегии: почему маркетинг&nbsp;&mdash; это больше, чем просто продажи</a>
+</li>
+<li class="list-li">
+  <a href="/blog/kak-reklamu-podrujit-s-potrebitelyami/" class="link">Время блокировать рекламу</a>
+</li>
+<li class="list-li">
+  <a href="/blog/perfomance-and-brand-marketing/" class="link">Бренд и&nbsp;перфоманс маркетинг&nbsp;&mdash; что важно знать маркетологу</a>
+</li>
+<li class="list-li">
+  <a href="/blog/put-marketologa/" class="link">Дао маркетолога</a>
+</li>
+
+<li class="list-li">
+  <a href="/blog/kak-privlech-klientov/" class="link">Клиентов привлекают убеждения, а&nbsp;не&nbsp;товары</a>
+</li>
+
+<li class="list-li">
+  <a href="/blog/system-marketing/" class="link">Системный маркетинг: от&nbsp;мифов к&nbsp;эффективной практике</a>
+</li>
+
+<li class="list-li">
+  <a href="/blog/emotions-in-marketing/" class="link">Как использовать эмоции в&nbsp;маркетинге</a>
+</li>
+
+</ul>
+</footer>
