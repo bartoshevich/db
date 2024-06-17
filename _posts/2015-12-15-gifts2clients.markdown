@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "Как выбрать корпоративные подарки: стратегии и психология для бизнеса"
+title: "Идеальные корпоративные подарки"
 name: "Как&nbsp;выбрать корпоративные подарки на&nbsp;Новый&nbsp;год"
-description: "Разбираемся, почему корпоративные подарки важны для бизнеса, как выбрать идеальный подарок и&nbsp;как правильно поздравить клиентов. Стратегии и&nbsp;психология для маркетологов."
+description: "Разбираемся, как выбрать идеальный подарок и&nbsp;как правильно поздравить клиентов, чтобы укрепить отношения и&nbsp;создать незабываемые впечатления."
 date:   2015-12-15
 last_modified_at: 2023-08-18
 categories: мнение
@@ -22,6 +22,15 @@ image: /assets/images/tizers/tizer-13.jpg
 <p>Родители поздравляют ребенка в&nbsp;день рождения не&nbsp;потому, что тот убрал в&nbsp;комнате или обещал себя вести хорошо, а&nbsp;потому, что он&nbsp;есть. Само существования ребенка&nbsp;— достаточное условие для поздравления. Наличие клиента&nbsp;— достаточное условие для подарка на&nbsp;Новый год.</p>
 <p>Люди разочаровываются в&nbsp;идее корпоративных подарков, потому что примешивают к&nbsp;поздравлению чуждые стремления. Либо пытаются купить расположение клиента, либо действуют в&nbsp;рамках смутных представлений «ты&nbsp;— мне, я&nbsp;— тебе».</p>
 <p>Подарок&nbsp;— то, что дают легко, то, что идет от&nbsp;избытка. Чувство разочарования&nbsp;— маркер, сигнализирующий о&nbsp;неверной психологической установке.</p>
+
+<figure>
+<img class="image" loading="lazy" decoding="async" src="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1718596685/site/gift/gift.jpg"  srcset="https://res.cloudinary.com/bartoshevich/image/upload/w_1780/f_auto,q_auto/v1718596685/site/gift/gift.jpg 1x, https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1718596685/site/gift/gift.jpg 2x"   alt="Корпоративные подарки на Новый год" width="3581" height="2686" >
+<figcaption class="figcaption">
+Корпоративные подарки на Новый год. Фото: Patrick Pahlke | Unsplash
+  
+</figcaption>
+</figure>
+
 </section>
 
 <section class="row-gap--m">

@@ -1,8 +1,8 @@
 ---
 layout: default
 permalink: /uslugi/
-description: "С&nbsp;2015 года компании развивают бренды вместе с&nbsp;консультантом по&nbsp;маркетингу и&nbsp;стратегии Дмитрием Бартошевичем. Подробнее на&nbsp;сайте."
-title: "Продвиньте свой бренд с Дмитрием Бартошевичем"
+description: "Экспертные маркетинговые услуги от Д.Бартошевича: аудит маркетинга, разработка концепций бренда, рекламные кампании и абонентское обслуживание. С 2015 года."
+title: "Маркетинговые услуги | Дмитрий Бартошевич"
 keywords: "услуги консультанта по маркетингу и стратегии"
 ---
 
@@ -45,7 +45,7 @@ keywords: "услуги консультанта по маркетингу и с
                 </li>
                 <li class="block__item" > 
                         <h2  class="block__name--align-left h2 uslugi__mark " ><a href="/uslugi/brand-conception/"  class="link"><span itemprop="serviceType">Концепция бренда</span></a></h2>
-                       <p class="block__content">Ваш&nbsp;бренд&nbsp;&mdash; это не&nbsp;просто логотип. Это история, которую вы&nbsp;рассказываете миру. Вместе мы&nbsp;создадим уникальную историю, превратив клиентов в&nbsp;единомышленников. Историю, которой захочется делиться.   </p> 
+                       <p class="block__content">Ваш&nbsp;бренд&nbsp;&mdash; это не&nbsp;просто логотип. Это история, которую вы&nbsp;рассказываете миру. Вместе мы&nbsp;создадим уникальную историю, превратив клиентов в&nbsp;единомышленников. Историю, которой клиентам захочется делиться.   </p> 
                 </li>
                 <li class="block__item" >
                         <h2  class="block__name--align-left h2 uslugi__mark"><a href="/uslugi/razrabotka-reklamnyh-kampanij/"  class="link"><span itemprop="serviceType">Разработка рекламных кампаний</span></a></h2>

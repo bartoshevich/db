@@ -1,12 +1,12 @@
 ---
 layout: about
 permalink: /about/
-description: "Дмитрий Бартошевич: маркетинг и стратегия, основанные на уникальных отличиях и доверии. Узнайте больше о моей профессиональной истории здесь." 
-title: "Маркетинг без втюхинга: Моя история и методы | Дмитрий Бартошевич"
+description: "Я, Дмитрий Бартошевич, эксперт в маркетинге и стратегии. Более 20 лет опыта. Рассказываю о профессиональном пути, ценностях в маркетинге и подходах к работе. " 
+title: "Обо мне | Дмитрий Бартошевич"
 keywords: ""
 date:   2022-04-02
 last_modified_at: 2023-08-20
-image:
+image: /assets/images/main/bartoshevich@16x9.jpg
 ---
 
 
@@ -43,7 +43,7 @@ image:
         
 
 
-        <div class="intro max-width-text"><h1 class="inline bold"> Дмитрий Бартошевич.</h1> Развиваю бренды, делюсь знаниями, веду блог. 
+        <div class="intro max-width-text"><h1 class="inline bold"> Обо мне.</h1> Развиваю бренды, делюсь знаниями, веду блог. 
         </div>
 
 
@@ -51,8 +51,8 @@ image:
 <section class="full-bleed  row-gap--m">
     
 
-    <h2 class=" bold h1">Мои ценности в&nbsp;маркетинге</h2>
-<p>Более 20&nbsp;лет я&nbsp;стремлюсь к&nbsp;созданию решений, которые превосходят обыденное представление о&nbsp;достижении коммерческого успеха. Маркетинг для меня помогает компаниям не&nbsp;только достигать финансовых целей, но&nbsp;и&nbsp;делает их&nbsp;более значимыми для целевой аудитории. </p>
+    <h2 class=" bold h1 mt-m">Мои ценности в&nbsp;маркетинге</h2>
+<p>Уже более 20&nbsp;лет я&nbsp;занимаюсь маркетингом, который не&nbsp;только приносит прибыль, но&nbsp;и&nbsp;делает компании значимыми для людей. </p>
  
     
     <div class="border-top"></div>   
@@ -60,7 +60,7 @@ image:
     <div class="full-bleed full-bleed-row row-gap--m">
         <div class="grid-column__first-four">
 
-        <p>Я&nbsp;верю в&nbsp;маркетинг, основанный на&nbsp;доверии и&nbsp;подлинных отношениях, а&nbsp;не&nbsp;на&nbsp;манипуляции и&nbsp;обмане.  </p>
+        <p>Я&nbsp;верю в&nbsp;маркетинг, основанный на&nbsp;доверии и&nbsp;честности, а&nbsp;не&nbsp;на&nbsp;обмане. </p>
  
         </div>
         <div class="grid-column__last-six  row-gap--m">
@@ -83,7 +83,21 @@ image:
 <div class="full-bleed full-bleed-row row-gap--m">
 <div class="grid-column__first-four row-gap--m">
 
-        <p class="mb-m bold"> Мир моих размышлений:  </p>       
+ <p class="mb-m bold">
+ Реализованные проекты и&nbsp;принципы работы:
+     </p>       
+     <ul class="additive-spacing">
+            <li class="list-li ">
+                <a class="link" href="/cases/" > Реализованные проекты</a>    
+            </li>
+            <li class="list-li ">
+                <a class="link" href="/contact/#principles-of-work" > Принципы работы</a>    
+            </li>
+     </ul> 
+     </div>
+ <div class="grid-column__last-six  row-gap--m">
+        
+   <p class="mb-m bold"> Мир моих размышлений:  </p>       
      <ul class="additive-spacing">
             <li class="list-li ">
                 <a class="link" href="/blog/konkurentnoe-preimushhestvo/"> Конкурентное преимущество в&nbsp;пользе и&nbsp;доверии</a>    
@@ -97,20 +111,12 @@ image:
             <li class="list-li">
                 <a class="link" href="/blog/marketing-bolshe-chem-prodazhi/">От&nbsp;распродаж к&nbsp;стратегии: почему маркетинг&nbsp;&mdash; это больше, чем просто продажи</a>      
             </li>
+             <li class="list-li">
+                <a class="link" href="/blog/otlichie-marketologa-ot-brexuna/">Как маркетолога отличить от&nbsp;брехуна</a>      
+            </li>
      </ul>
-     </div>
- <div class="grid-column__last-six  row-gap--m">
-         <p class="mb-m bold">
- Реализованные проекты и&nbsp;принципы работы:
-     </p>       
-     <ul class="additive-spacing">
-            <li class="list-li ">
-                <a class="link" href="/cases/" > Реализованные проекты</a>    
-            </li>
-            <li class="list-li ">
-                <a class="link" href="/contact/#principles-of-work" > Принципы работы</a>    
-            </li>
-     </ul> 
+
+
      </div>
      </div>
    
