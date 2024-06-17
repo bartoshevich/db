@@ -5,4 +5,5 @@ http://www.bartoshevich.by/*  https://bartoshevich.by/:splat 301!
 /instrukcii/*  /blog/:splat
 /mnemie/*  /blog/:splat
 /blog/feedback/  /blog/metodika-nps-indeks-loyalnosti-klientov/
+/blog/covid-2019/  /blog/marketing-strategies-pandemic/
 

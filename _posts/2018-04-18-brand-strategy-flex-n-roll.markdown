@@ -20,7 +20,7 @@ keywords: "стратегия бренда Флекс-н-Ролл"
    <div class="side">
 		<div class="guests">			
 					<div class="guest-person">
-						<img class="image is-150x150" src="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto,e_improve/v1588702100/site/gorbacheva-600.jpg" alt="" aria-hidden="true" width="150" height="150"/>						
+						<img class="image is-150x150" src="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto,e_improve/v1588702100/site/gorbacheva-600.jpg" alt="Елена Горбачева" aria-hidden="true" width="150" height="150">						
 					<div class="guest-person__name">Елена Горбачева</div>
 					<div class="guest-person__position">генеральный директор <span class="noperenos">ООО «Флекс-н-Ролл»</span></div>
 			</div>
@@ -102,7 +102,7 @@ keywords: "стратегия бренда Флекс-н-Ролл"
 	<picture>
 	<source  srcset="/assets/images/blog/brand-strategy-flex-n-roll/flex-n-roll@1x.avif 1x, /assets/images/blog/brand-strategy-flex-n-roll/flex-n-roll@2x.avif 2x, /assets/images/blog/brand-strategy-flex-n-roll/flex-n-roll@3x.avif 3x" type="image/webp">
 	<source  srcset="/assets/images/blog/brand-strategy-flex-n-roll/flex-n-roll@1x.webp 1x, /assets/images/blog/brand-strategy-flex-n-roll/flex-n-roll@2x.webp 2x, /assets/images/blog/brand-strategy-flex-n-roll/flex-n-roll@3x.webp 3x" type="image/webp">
-	<img class="image" loading="lazy" decoding="async" src="/assets/images/blog/brand-strategy-flex-n-roll/flex-n-roll@3x.jpg" srcset="/assets/images/blog/brand-strategy-flex-n-roll/flex-n-roll@1x.jpg 1x, /assets/images/blog/brand-strategy-flex-n-roll/flex-n-roll@2x.jpg 2x, /assets/images/blog/brand-strategy-flex-n-roll/flex-n-roll@3x.jpg 3x" width="360" height="120" alt="Флекс-н-Ролл" itemprop="contentUrl"> 
+	<img class="image" loading="lazy" decoding="async" src="/assets/images/blog/brand-strategy-flex-n-roll/flex-n-roll@3x.jpg" srcset="/assets/images/blog/brand-strategy-flex-n-roll/flex-n-roll@1x.jpg 1x, /assets/images/blog/brand-strategy-flex-n-roll/flex-n-roll@2x.jpg 2x, /assets/images/blog/brand-strategy-flex-n-roll/flex-n-roll@3x.jpg 3x" width="360" height="120" alt="Флекс-н-Ролл, логотип" itemprop="contentUrl"> 
 	</picture>
 </div>
 

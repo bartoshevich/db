@@ -1,8 +1,8 @@
 ---
 layout: blog
 permalink: /blog/
-description: "Авторский блог о маркетинге: анализ данных, разработка и развитие брендов, изучение актуальных трендов и управление проектами. Экспертные советы, статьи и инсайты." 
-title: "Блог Дмитрия Бартошевича: Инсайты и Актуальные Тренды в Маркетинге"
+description: "Авторский блог Дмитрия Бартошевича о&nbsp;маркетинге: анализ данных, развитие брендов, актуальные тренды. Экспертные советы и&nbsp;инсайты для профессионалов." 
+title: "Инсайты и тренды в маркетинге | Дмитрий Бартошевич"
 keywords: "блог о маркетинге, стратегия, анализ данных, разработка брендов, управление брендами, антикризисный маркетинг, консультант по маркетингу, Дмитрий Бартошевич, советы по маркетингу, статьи о маркетинге"
 date:   2022-03-15
 last_modified_at: 2023-09-23
@@ -16,9 +16,9 @@ image:
 
 <main class="section__content row-gap--l">
        
+<h1 class="element--hidden">Инсайты и актуальные тренды в маркетинге</h1>
 
-
-<div class="intro max-width-text"><h1 class="inline bold">Блог</h1>. <strong>Возвращаю смысл в&nbsp;маркетинг</strong>. Делюсь идеями, наблюдениями, опытом. Подписаться на&nbsp;обновления: <a class="link" href="https://t.me/+OuzxNOZg-g44ZjYy">telegram</a>, <a class="link" href="https://eepurl.com/cmkKcz">эл.почта</a> 
+<div class="intro max-width-text"><span class="inline bold">Блог</span>. <strong>Возвращаю смысл в&nbsp;маркетинг</strong>. Делюсь идеями, наблюдениями, опытом. Подписаться на&nbsp;обновления: <a class="link" href="https://t.me/+OuzxNOZg-g44ZjYy">telegram</a>, <a class="link" href="https://eepurl.com/cmkKcz">эл.почта</a> 
 
     <div>        
     <button class="small" id="random-article-button">Открыть случайно выбранную статью</button>
@@ -37,7 +37,7 @@ image:
     <meta itemprop="name" content="Блог о маркетинге | Дмитрий Бартошевич">
     <meta itemprop="description" content="Блог Дмитрия Бартошевича о маркетинге, делюсь идеями, наблюдениями, опытом">
 
-<h2 class="h2 bold">Записи (83) </h2>
+<h2 class="h2 bold">Все записи (83) </h2>
 
   
 <ul class="row-gap--xl list-reset">

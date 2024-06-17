@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "Практикум Взлом барьеров развития бизнеса"
-name: "Как мы ломали барьеры развития бизнеса"
-description: "Рассказываю, как провели семинар по&nbsp;маркетингу и&nbsp;продажам для руководителей компаний."
+title: "Как преодолеть барьеры развития бизнеса: практикум"
+name: "Практикум: Взлом барьеров развития бизнеса"
+description: "Провели практикум с&nbsp;экспертами по&nbsp;маркетингу и&nbsp;продажам. Участники узнали, что тормозит рост бизнеса и&nbsp;как преодолеть эти барьеры для ускорения развития."
 date:   2015-08-27
 last_modified_at: 2019-01-07
 categories: опыт
@@ -28,7 +28,7 @@ image: /assets/images/tizers/tizer-4.jpg
 <picture>
                 <source srcset="/assets/images/blog/vzlom-barerov-biznesa/bar1.avif" type="image/avif">
                  <source srcset="/assets/images/blog/vzlom-barerov-biznesa/bar1.webp" type="image/webp">               
-               <img  class="image" src='/assets/images/blog/vzlom-barerov-biznesa/bar1.jpg' alt="" width="695" height="462" itemprop="contentUrl"/>
+               <img  class="image" src='/assets/images/blog/vzlom-barerov-biznesa/bar1.jpg' alt="Дмитрий Бартошевич проводит семинар по взлому барьеров развития бизнеса" width="695" height="462" itemprop="contentUrl">
     </picture>
 <div class="figcaption" itemprop="name">
 Дмитрий Бартошевич. Фото: Павел Вилюха
@@ -40,7 +40,7 @@ image: /assets/images/tizers/tizer-4.jpg
 <picture>
                 <source srcset="/assets/images/blog/vzlom-barerov-biznesa/bar2.avif" type="image/avif">
                  <source srcset="/assets/images/blog/vzlom-barerov-biznesa/bar2.webp" type="image/webp">               
-               <img  class="image" loading="lazy" decoding="async" src='/assets/images/blog/vzlom-barerov-biznesa/bar2.jpg' alt="" width="695" height="509" />
+               <img  class="image" loading="lazy" decoding="async" src='/assets/images/blog/vzlom-barerov-biznesa/bar2.jpg' alt="Дмитрий Григорьев выступает на семинаре по взлому барьеров развития бизнеса" width="695" height="509">
     </picture>
 <div class="figcaption">
 Дмитрий Григорьев. Фото: Павел Вилюха
@@ -51,7 +51,7 @@ image: /assets/images/tizers/tizer-4.jpg
 <picture>
                 <source srcset="/assets/images/blog/vzlom-barerov-biznesa/bar3.avif" type="image/avif">
                  <source srcset="/assets/images/blog/vzlom-barerov-biznesa/bar3.webp" type="image/webp">               
-               <img  class="image" loading="lazy" decoding="async"  src='/assets/images/blog/vzlom-barerov-biznesa/bar3.jpg' alt="" width="695" height="550" />
+               <img  class="image" loading="lazy" decoding="async"  src='/assets/images/blog/vzlom-barerov-biznesa/bar3.jpg' alt="Сергей Дробышевский на семинаре по маркетингу и продажам" width="695" height="550">
     </picture>
 
 <div class="figcaption">
@@ -91,7 +91,7 @@ image: /assets/images/tizers/tizer-4.jpg
 <picture>
                 <source srcset="/assets/images/blog/vzlom-barerov-biznesa/bar4.avif" type="image/avif">
                  <source srcset="/assets/images/blog/vzlom-barerov-biznesa/bar4.webp" type="image/webp">               
-               <img  class="image" loading="lazy" decoding="async" src='/assets/images/blog/vzlom-barerov-biznesa/bar4.jpg' alt="благодарственное письмо Мебелинк" width="695" height="782" itemprop="contentUrl" />
+               <img  class="image" loading="lazy" decoding="async" src='/assets/images/blog/vzlom-barerov-biznesa/bar4.jpg' alt="Благодарственное письмо ООО Мебелинк за семинар по маркетингу и продажам" width="695" height="782" itemprop="contentUrl">
     </picture>
       <meta itemprop="name" content="благодарственное письмо Мебелинк">
 </div>

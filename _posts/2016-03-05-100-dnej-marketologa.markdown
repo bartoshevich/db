@@ -21,7 +21,7 @@ keywords: "новое рабочее место маркетолога"
 <picture>
             <source srcset="/assets/images/blog/100-dnej-marketologa/ekaterina.avif" type="image/avif">
             <source srcset="/assets/images/blog/100-dnej-marketologa/ekaterina.webp" type="image/webp">
-            <img class="image is-150x150" src="/assets/images/blog/100-dnej-marketologa/ekaterina.jpg" alt="" width="150" height="150"/>	
+            <img class="image is-150x150" src="/assets/images/blog/100-dnej-marketologa/ekaterina.jpg" alt="Екатерина Пажитных" width="150" height="150">	
     </picture>
 		<div class="guest-person__name">Екатерина Пажитных</div>
 		<div class="guest-person__position">маркетолог</div>
@@ -31,7 +31,7 @@ keywords: "новое рабочее место маркетолога"
 <picture>
             <source srcset="/assets/images/blog/100-dnej-marketologa/alexei.avif" type="image/avif">
             <source srcset="/assets/images/blog/100-dnej-marketologa/alexei.webp" type="image/webp">
-            <img class="image is-150x150" src="/assets/images/blog/100-dnej-marketologa/alexei.jpg" alt="" width="150" height="150" />	
+            <img class="image is-150x150" src="/assets/images/blog/100-dnej-marketologa/alexei.jpg" alt="Алексей Шлома" width="150" height="150">	
     </picture>
 			<div class="guest-person__name">Алексей Шлома</div>
 			<div class="guest-person__position">бренд-менеджер Condor (Беларусь)</div>

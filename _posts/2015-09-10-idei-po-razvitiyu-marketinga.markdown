@@ -100,7 +100,7 @@ image: /assets/images/tizers/tizer-5.jpg
   <a href="/blog/marketing-mind/" class="link"> Акция не&nbsp;сработает, если не&nbsp;думать как маркетолог</a>
 </li>
 <li class="list-li">
-  <a href="/blog/covid-2019/" class="link"> Стратегии маркетинга в&nbsp;условиях пандемии: адаптация брендов</a>
+  <a href="/blog/marketing-strategies-pandemic/" class="link"> Стратегии маркетинга в&nbsp;условиях пандемии: адаптация брендов</a>
 </li>
 <li class="list-li">
   <a href="/blog/migraciya-mediaplanera/" class="link"> Медиапланирование западнее Буга: путевые заметки трудового мигранта</a>

@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "Альтернатива рекламной листовке"
+title: "Чем заменить рекламную листовку: практическое руководство"
 name: "Чем заменить рекламную листовку"
-description: "Мне не&nbsp;нравится большинство рекламных листовок, которые попадают мне в&nbsp;руки. А&nbsp;вот эту я&nbsp;бы точно не&nbsp;выбросил ;-) "
+description: "Как избежать рекламного шума и&nbsp;предложить клиентам листовку, которую они не поспешат выбросить. Практическое руководство по&nbsp;созданию полезной замены флаерам."
 date: 2021-02-24
 last_modified_at: 2022-02-05
 categories: опыт
@@ -36,7 +36,7 @@ keywords: "рекламные листовки, реклама "
 
 <div itemprop="image" itemscope itemtype="http://schema.org/ImageObject">
 	<link itemprop="url" href="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1614116184/site/start-helper.jpg">
-  <img  class="image " loading="lazy" decoding="async"  src="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1614116184/site/start-helper.jpg" width="722" height="361" alt="шаблон таблицы с критериями выбора"  itemprop="contentUrl">
+  <img  class="image " loading="lazy" decoding="async"  src="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1614116184/site/start-helper.jpg" width="722" height="361" alt="Шаблон таблицы с критериями выбора для клиентов"  itemprop="contentUrl">
   <div class="figcaption">Составляю в&nbsp;редакторе &laquo;помощник в&nbsp;выборе гаражных ворот&raquo;</div>
 </div>
 
@@ -48,7 +48,7 @@ keywords: "рекламные листовки, реклама "
 
 <div class="full-bleed"  itemprop="image" itemscope itemtype="http://schema.org/ImageObject">
 	<link itemprop="url" href="https://res.cloudinary.com/bartoshevich/image/upload/v1614108947/site/draft-helper.jpg">
-  <img  class="image" loading="lazy" decoding="async" src="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto:best/v1614108947/site/draft-helper.jpg" srcset="https://res.cloudinary.com/bartoshevich/image/upload/w_1040/f_auto,q_auto:best/v1614108947/site/draft-helper.jpg 1x, https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto:best/v1614108947/site/draft-helper.jpg 1.5x"   width="1756" height="1170" alt=""  itemprop="contentUrl">
+  <img  class="image" loading="lazy" decoding="async" src="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto:best/v1614108947/site/draft-helper.jpg" srcset="https://res.cloudinary.com/bartoshevich/image/upload/w_1040/f_auto,q_auto:best/v1614108947/site/draft-helper.jpg 1x, https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto:best/v1614108947/site/draft-helper.jpg 1.5x"   width="1756" height="1170" alt="Черновик помощника в выборе ворот"  itemprop="contentUrl">
   <div class="figcaption">«Помощник в выборе ворот». <button class="link button image-expand" data-url="https://res.cloudinary.com/bartoshevich/image/upload/v1614108947/site/draft-helper.jpg" aria-label="Открыть изображение в новой вкладке">Открыть в новой вкладке</button>
   </div>
 </div>
@@ -62,7 +62,7 @@ keywords: "рекламные листовки, реклама "
 <div class="full-bleed"  itemprop="image" itemscope itemtype="http://schema.org/ImageObject">
 	<link itemprop="url" href="https://res.cloudinary.com/bartoshevich/image/upload/v1614110806/site/helper-1.jpg">
 
-  <img  class="image" loading="lazy" decoding="async"  src="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto:best/v1614110806/site/helper-1.jpg" srcset="https://res.cloudinary.com/bartoshevich/image/upload/w_1040/f_auto,q_auto:best/v1614110806/site/helper-1.jpg 1x, https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto:best/v1614110806/site/helper-1.jpg 2x" width="2300" height="1533" alt="финальный вариант таблицы с критериями выбора" itemprop="contentUrl" />
+  <img  class="image" loading="lazy" decoding="async"  src="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto:best/v1614110806/site/helper-1.jpg" srcset="https://res.cloudinary.com/bartoshevich/image/upload/w_1040/f_auto,q_auto:best/v1614110806/site/helper-1.jpg 1x, https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto:best/v1614110806/site/helper-1.jpg 2x" width="2300" height="1533" alt="финальный вариант таблицы с критериями выбора" itemprop="contentUrl" >
 
   <div class="figcaption" itemprop="description">Внутренний разворот «помощника». <button class="link button image-expand" data-url="https://res.cloudinary.com/bartoshevich/image/upload/v1614110806/site/helper-1.jpg" aria-label="Открыть изображение в новой вкладке">Открыть в новой вкладке</button>
 </div>
@@ -72,7 +72,7 @@ keywords: "рекламные листовки, реклама "
 
 <div class="full-bleed"  itemprop="image" itemscope itemtype="http://schema.org/ImageObject">
 	<link itemprop="url" href="https://res.cloudinary.com/bartoshevich/image/upload/v1614110807/site/helper-2.jpg">
-  <img  class="image" loading="lazy" decoding="async" src="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto:best/v1614110807/site/helper-2.jpg" srcset="https://res.cloudinary.com/bartoshevich/image/upload/w_1040/f_auto,q_auto:best/v1614110807/site/helper-2.jpg 1x, https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto:best/v1614110807/site/helper-2.jpg 2x" width="2400" height="1600" alt="помощник в выборе" itemprop="contentUrl" />
+  <img  class="image" loading="lazy" decoding="async" src="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto:best/v1614110807/site/helper-2.jpg" srcset="https://res.cloudinary.com/bartoshevich/image/upload/w_1040/f_auto,q_auto:best/v1614110807/site/helper-2.jpg 1x, https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto:best/v1614110807/site/helper-2.jpg 2x" width="2400" height="1600" alt="Варианты исполнения помощника в выборе для клиентов" itemprop="contentUrl" >
   <div class="figcaption">Варианты исполнения.  
    <button class="link button image-expand" data-url="https://res.cloudinary.com/bartoshevich/image/upload/v1614110807/site/helper-2.jpg" aria-label="Открыть изображение в новой вкладке">Открыть в новой вкладке</button>
    </div>
@@ -82,7 +82,7 @@ keywords: "рекламные листовки, реклама "
 
 <div class="full-bleed"  itemprop="image" itemscope itemtype="http://schema.org/ImageObject">
 	<link itemprop="url" href="https://res.cloudinary.com/bartoshevich/image/upload/v1614110807/site/helper-3.jpg">
-  <img  class="image" loading="lazy" decoding="async"  src="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto:best/v1614110807/site/helper-3.jpg" srcset="https://res.cloudinary.com/bartoshevich/image/upload/w_1040/f_auto,q_auto:best/v1614110807/site/helper-3.jpg 1x, https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto:best/v1614110807/site/helper-3.jpg 2x"  title="Визуализация: Елизавета Мамчиц" width="2400" height="1600" alt="альтернатива рекламной листовке"   itemprop="contentUrl"/>
+  <img  class="image" loading="lazy" decoding="async"  src="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto:best/v1614110807/site/helper-3.jpg" srcset="https://res.cloudinary.com/bartoshevich/image/upload/w_1040/f_auto,q_auto:best/v1614110807/site/helper-3.jpg 1x, https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto:best/v1614110807/site/helper-3.jpg 2x"  title="Визуализация: Елизавета Мамчиц" width="2400" height="1600" alt="Визуализация помощника в выборе от Елизаветы Мамчиц"   itemprop="contentUrl">
   <div class="figcaption">  <button class="link button image-expand" data-url="https://res.cloudinary.com/bartoshevich/image/upload/v1614110807/site/helper-3.jpg" aria-label="Открыть изображение в новой вкладке">Открыть в новой вкладке</button>
   
   </div>

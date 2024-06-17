@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "Встреча Про бизнес"
+title: "Встреча «Про бизнес»: идеи и советы предпринимателей"
 name: "Встреча Про бизнес. Личный взгляд"
-description: "Отчет с&nbsp;встречи &laquo;Про бизнес&raquo; с&nbsp;Иосифом Фридманом и&nbsp;Андреем Торсуновым. Разговор о&nbsp;бизнесе и&nbsp;предпринимательстве, высказанные идеи и&nbsp;рекомендации предпринимателей."
+description: "Отчет о&nbsp;встрече &laquo;Про бизнес&raquo; с&nbsp;Иосифом Фридманом и&nbsp;Андреем Торсуновым. Узнайте ключевые идеи и&nbsp;рекомендации успешных предпринимателей."
 date:   2016-05-07
 last_modified_at: 2022-01-20
 categories: опыт
@@ -21,13 +21,13 @@ image: /assets/images/tizers/tizer-20.jpg
 <picture>
 <source srcset="/assets/images/blog/vstrecha-pro-biznes/pro1.avif" type="image/avif">
                 <source srcset="/assets/images/blog/vstrecha-pro-biznes/pro1.webp" type="image/webp">
-             <img class="image" src="/assets/images/blog/vstrecha-pro-biznes/pro1.jpg"  alt="" width="695" height="539"  />
+             <img class="image" src="/assets/images/blog/vstrecha-pro-biznes/pro1.jpg"  alt="Встреча Про бизнес с участием Иосифа Фридмана и Андрея Торсунова" width="695" height="539">
 </picture>
 
 
 
 <div class="notetip mb-1"><span class="bold">Справка.</span> Встреча Про Бизнес — разговор о бизнесе с двумя успешными бизнесменами в формате вопрос-ответ. Вопросы задает модератор встречи, спикеры друг другу и зрители. Организатор — портал «Про бизнес».</div>
-<p><a class="link" href="//probusiness.io/">На портале «Про бизнес»</a> вы найдете детальное описание ключевых идей, высказанных спикерами. Здесь же — личная история посещения мероприятия и то важное, что я отметил для себя.</p>
+<p><a class="link" href="https://probusiness.io/">На портале «Про бизнес»</a> вы найдете детальное описание ключевых идей, высказанных спикерами. Здесь же — личная история посещения мероприятия и то важное, что я отметил для себя.</p>
 
 <section class="row-gap--m">
 <h2 class="section__title h1 bold">С чем шел на встречу</h2>
@@ -49,7 +49,7 @@ image: /assets/images/tizers/tizer-20.jpg
 <picture>
 <source srcset="/assets/images/blog/vstrecha-pro-biznes/pro2.avif" type="image/avif">
                 <source srcset="/assets/images/blog/vstrecha-pro-biznes/pro2.webp" type="image/webp">
-           <img loading="lazy" class="image" src="/assets/images/blog/vstrecha-pro-biznes/pro2.jpg" alt="" width="695" height="463" title="Иосиф Фридман" itemprop="contentUrl"/>
+           <img loading="lazy" class="image" src="/assets/images/blog/vstrecha-pro-biznes/pro2.jpg" alt="Иосиф Фридман на встрече Про бизнес" width="695" height="463" title="Иосиф Фридман" itemprop="contentUrl">
 </picture>
 <div class="figcaption" itemprop="description">
 Иосиф Фридман. Фото: Андрей Пискун, портал «Про бизнес»
@@ -73,7 +73,7 @@ image: /assets/images/tizers/tizer-20.jpg
 <picture>
 <source srcset="/assets/images/blog/vstrecha-pro-biznes/pro3.avif" type="image/avif">
                 <source srcset="/assets/images/blog/vstrecha-pro-biznes/pro3.webp" type="image/webp">
-         <img loading="lazy" class="image" src="/assets/images/blog/vstrecha-pro-biznes/pro3.jpg" alt="" width="695" height="463" title="Андрей Торсунов" itemprop="contentUrl"/>
+         <img loading="lazy" class="image" src="/assets/images/blog/vstrecha-pro-biznes/pro3.jpg" alt="Андрей Торсунов на встрече Про бизнес" width="695" height="463" title="Андрей Торсунов" itemprop="contentUrl">
 </picture>
 <div class="figcaption" itemprop="description">
 Андрей Торсунов. Фото: Андрей Пискун, портал «Про бизнес»

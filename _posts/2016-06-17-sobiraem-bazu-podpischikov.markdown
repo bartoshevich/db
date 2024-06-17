@@ -23,7 +23,7 @@ image: /assets/images/tizers/tizer-23.jpg
 <p>Кто-то настойчиво продвигал собственный сервис и&nbsp;хотел, чтобы 3Dom его финансировал, а&nbsp;кто-то не&nbsp;верил в&nbsp;идею розыгрыша и&nbsp;отклонял ее&nbsp;на&nbsp;пороге. </p>
 
 <div>
-<img class="image" loading="lazy" decoding="async" src="https://res.cloudinary.com/bartoshevich/image/upload/bo_1px_solid_grey/w_550/f_auto,q_auto/v1614142662/site/3dom-letter.jpg" width="550" height="276" alt="Rebenok.by отклонил идею розыгрыша и назвал идею провальной." />
+<img class="image" loading="lazy" decoding="async" src="https://res.cloudinary.com/bartoshevich/image/upload/bo_1px_solid_grey/w_550/f_auto,q_auto/v1614142662/site/3dom-letter.jpg" width="550" height="276" alt="Отказ rebenok.by на предложение сотрудничества для розыгрыша мебели">
 
 <p class="figcaption"> С&nbsp;rebenok.by мы&nbsp;так и&nbsp;не&nbsp;договорились. </p>
 </div>
@@ -42,7 +42,7 @@ image: /assets/images/tizers/tizer-23.jpg
 	<source srcset="/assets/images/blog/sobiraem-bazu-podpischikov/email2.avif" type="image/avif"> 
 	<source srcset="/assets/images/blog/sobiraem-bazu-podpischikov/email2.webp" type="image/webp"> 
 	<source srcset="/assets/images/blog/sobiraem-bazu-podpischikov/email2.png" type="image/png"> 
-	<img class="image"  loading="lazy" decoding="async"  src="/assets/images/blog/sobiraem-bazu-podpischikov/email2.jpg" width="550" height="629" alt="объявление акции 3Dom" itemprop="contentUrl" />
+	<img class="image"  loading="lazy" decoding="async"  src="/assets/images/blog/sobiraem-bazu-podpischikov/email2.jpg" width="550" height="629" alt="Объявление о начале акции 3Dom" itemprop="contentUrl">
 </picture>
 
 
@@ -56,7 +56,7 @@ image: /assets/images/tizers/tizer-23.jpg
 	<picture>
 	<source srcset="/assets/images/blog/sobiraem-bazu-podpischikov/email3.avif" type="image/avif"> 
 	<source srcset="/assets/images/blog/sobiraem-bazu-podpischikov/email3.webp" type="image/webp"> 
-	<img class="image"  loading="lazy" decoding="async"  src="/assets/images/blog/sobiraem-bazu-podpischikov/email3.jpg" width="533" height="411" alt="реакция людей на акцию 3Dom" itemprop="contentUrl"/>
+	<img class="image"  loading="lazy" decoding="async"  src="/assets/images/blog/sobiraem-bazu-podpischikov/email3.jpg" width="533" height="411" alt="Реакция аудитории на акцию 3Dom в социальных сетях" itemprop="contentUrl">
 	</picture>
 </div>
 </section>
@@ -70,7 +70,7 @@ image: /assets/images/tizers/tizer-23.jpg
 	<picture>
 		<source srcset="/assets/images/blog/sobiraem-bazu-podpischikov/email4.avif" type="image/avif"> 
 		<source srcset="/assets/images/blog/sobiraem-bazu-podpischikov/email4.webp" type="image/webp"> 
-		<img class="image"  loading="lazy" decoding="async"  src="/assets/images/blog/sobiraem-bazu-podpischikov/email4.jpg" width="695" height="177" alt=""/>
+		<img class="image"  loading="lazy" decoding="async"  src="/assets/images/blog/sobiraem-bazu-podpischikov/email4.jpg" width="695" height="177" alt="Данные ЯндексМетрики по трафику на сайт 3Dom за апрель 2016 года" >
 	</picture>	
 	<div class="figcaption">
 		Данные ЯндексМетрики. Источники трафика, 3dom.by. Апрель, 2016г. 
@@ -82,12 +82,12 @@ image: /assets/images/tizers/tizer-23.jpg
 
 <div itemprop="image" itemscope itemtype="http://schema.org/ImageObject">
 <link itemprop="url" href="https://res.cloudinary.com/bartoshevich/image/upload/f_auto/v1540025305/email5.png">
-<img class="image"  loading="lazy" decoding="async"  src="https://res.cloudinary.com/bartoshevich/image/upload/q_auto,f_auto/v1540025305/email5.png" width="612" height="658" alt="участники акции голосуют за лучший дизайн" itemprop="contentUrl" />
+<img class="image"  loading="lazy" decoding="async"  src="https://res.cloudinary.com/bartoshevich/image/upload/q_auto,f_auto/v1540025305/email5.png" width="612" height="658" alt="Пользователи голосуют за лучший дизайн для каталога 3Dom" itemprop="contentUrl">
 </div>
 
 <div itemprop="image" itemscope itemtype="http://schema.org/ImageObject">
 <link itemprop="url" href="https://res.cloudinary.com/bartoshevich/image/upload/f_auto/v1540025305/email6.png">
-<img class="image"  loading="lazy" decoding="async"  src="https://res.cloudinary.com/bartoshevich/image/upload/w_612/q_auto,f_auto/v1540025256/email6.png" width="612" height="665" alt="пример голосования пользователей в социальных сетях" itemprop="contentUrl" />
+<img class="image"  loading="lazy" decoding="async"  src="https://res.cloudinary.com/bartoshevich/image/upload/w_612/q_auto,f_auto/v1540025256/email6.png" width="612" height="665" alt="Пример голосования пользователей за изображения в социальных сетях" itemprop="contentUrl">
 </div>
 </section>
 
