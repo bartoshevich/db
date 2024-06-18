@@ -1,0 +1,28 @@
+<script type="application/ld+json" nonce="2D9bL6yR1V3kT7oM4P8qF0nW5G5xJ2d">
+  {
+    "@context": "http://schema.org",
+    "@type": "BlogPosting",
+    "headline": "{{ page.title }}",
+    "description": "{{ page.description | strip_html | truncate: 180 }}",
+    "datePublished": "{{ page.date | date_to_xmlschema }}",
+    "dateModified": "{{ page.last_modified_at | date_to_xmlschema }}",
+    "author": {
+      "@type": "Person",
+      "name": "Дмитрий Бартошевич",
+      "url": "https://bartoshevich.by/about/"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Бартошевич Д.А. ИП",
+      "url": "https://bartoshevich.by/",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://res.cloudinary.com/bartoshevich/image/upload/v1645366318/site/bartoshevich_1x.jpg"
+      }
+    },
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "{{ page.url }}"
+    }
+  }
+</script>

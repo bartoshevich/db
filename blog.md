@@ -4,8 +4,8 @@ permalink: /blog/
 description: "Авторский блог Дмитрия Бартошевича о&nbsp;маркетинге: анализ данных, развитие брендов, актуальные тренды. Экспертные советы и&nbsp;инсайты для профессионалов." 
 title: "Инсайты и тренды в маркетинге | Дмитрий Бартошевич"
 keywords: "блог о маркетинге, стратегия, анализ данных, разработка брендов, управление брендами, антикризисный маркетинг, консультант по маркетингу, Дмитрий Бартошевич, советы по маркетингу, статьи о маркетинге"
-date:   2022-03-15
-last_modified_at: 2023-09-23
+date:   2015-07-31
+last_modified_at: 2024-06-18
 image:
 ---
 
@@ -34,8 +34,8 @@ image:
 
 
 <div class="full-bleed mt-m row-gap--l" id="all-posts" itemscope itemtype="http://schema.org/Blog">
-    <meta itemprop="name" content="Блог о маркетинге | Дмитрий Бартошевич">
-    <meta itemprop="description" content="Блог Дмитрия Бартошевича о маркетинге, делюсь идеями, наблюдениями, опытом">
+    <meta itemprop="name" content="{{ page.title }}">
+    <meta itemprop="description" content=" {{ page.description }}">
 
 <h2 class="h2 bold">Все записи (83) </h2>
 
@@ -43,21 +43,21 @@ image:
 <ul class="row-gap--xl list-reset">
 		{% for post in site.posts %}
 		<li class="block__item" itemscope itemtype="http://schema.org/BlogPosting">           
-            <meta itemprop="datePublished" content="{{ post.date }}">
-            <meta itemprop="dateModified" content="{{ post.last_modified_at }}">           
+            <meta itemprop="datePublished" content="{{ post.date | date: "%Y-%m-%dT%H:%M:%S%z" }}">
+            <meta itemprop="dateModified" content="{{ post.last_modified_at | date: "%Y-%m-%dT%H:%M:%S%z" }}">           
             <div itemprop="author" itemscope itemtype="http://schema.org/Person">
                 <meta itemprop="name" content="Дмитрий Бартошевич">
                 <meta itemprop="jobTitle" content="консультант по маркетингу и стратегии">
                 <meta itemprop="description" content="Помогаю компаниям развивать свои бренды. Опираясь на исследования и анализ данных, разрабатываю план необходимых действий. Обеспечиваю контроль за реализацией и слежу за результатами каждого проекта, чтобы добиться согласованных с клиентом целей. ">
                 <meta itemprop="email" content="dmitry@bartoshevich">
-                <link itemprop="sameAs" href="https://bartoshevich.by/">
+                <link itemprop="url" href="https://bartoshevich.by/about/">
                 <link itemprop="sameAs" href="https://www.linkedin.com/in/bartoshevich">
                 <link itemprop="sameAs" href="https://www.facebook.com/bartoshevichby/">
-                <link itemprop="sameAs" href="https://twitter.com/dbartoshevich">
+                <link itemprop="sameAs" href="https://mastodon.social/@bartoshevich">
                 <link itemprop="sameAs" href="https://t.me/MeaningfulMarketing">                
-                <link itemprop="image" href="/assets/images/main/bartoshevich@16x9.jpg">
-                <link itemprop="image" href="/assets/images/main/bartoshevich@4x3.jpg">
-                <link itemprop="image" href="/assets/images/main/bartoshevich@1x1.jpg">
+                <link itemprop="image" href="https://bartoshevich.by/assets/images/main/bartoshevich@16x9.jpg">
+                <link itemprop="image" href="https://bartoshevich.by/assets/images/main/bartoshevich@4x3.jpg">
+                <link itemprop="image" href="https://bartoshevich.by/assets/images/main/bartoshevich@1x1.jpg">
             </div>
 
             <div class="block__name--align-left">

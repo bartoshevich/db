@@ -9,7 +9,8 @@ layout: compress
     <meta name="viewport" content="width=device-width, initial-scale=1">  
 
     {% include meta--article.html %} 
-  
+    {% include schema__organization.html %}
+   
   
     <link rel="stylesheet" type="text/css" href="/assets/css/style.css"> 
 
@@ -27,30 +28,33 @@ layout: compress
     {% include menu__post.html %}
 
 
-<div itemscope itemtype="https://schema.org/Article">
+<div itemscope itemtype="https://schema.org/BlogPosting">
 
     <meta itemprop="name" content="{{ page.name }}" >
     <meta itemprop="headline" content="{{ page.title }}" >
     <meta itemprop="description" content="{{ page.description }}" >
     <div itemprop="image" itemscope itemtype="http://schema.org/ImageObject">
-    <link itemprop="url" href="{{ page.image }}" >
-    <link itemprop="contentUrl" href="{{ page.image }}" >
+    <link itemprop="url" href="https://bartoshevich.by{{ page.image }}" >
+    <link itemprop="contentUrl" href="https://bartoshevich.by{{ page.image }}" >
     </div>
     <div itemprop="author" itemscope itemtype="https://schema.org/Person">
       <meta itemprop="name" content="Дмитрий Бартошевич" >
       <meta itemprop="jobTitle" content="консультант по маркетингу и стратегии">
       <meta itemprop="description" content="Помогаю компаниям развивать свои бренды. Опираясь на исследования и анализ данных, разрабатываю план необходимых действий. Обеспечиваю контроль за реализацией и слежу за результатами каждого проекта, чтобы добиться согласованных с клиентом целей. ">
       <meta itemprop="email" content="dmitry@bartoshevich">
-      <link itemprop="sameAs" href="https://bartoshevich.by/">
+      <link itemprop="url" href="https://bartoshevich.by/about/">
       <link itemprop="sameAs" href="https://www.linkedin.com/in/bartoshevich">
       <link itemprop="sameAs" href="https://www.facebook.com/bartoshevichby/">
-      <link itemprop="sameAs" href="https://twitter.com/dbartoshevich">
+      <link itemprop="sameAs" href="https://mastodon.social/@bartoshevich">
       <link itemprop="sameAs" href="https://t.me/MeaningfulMarketing">
       
-      <link itemprop="image" href="/assets/images/main/bartoshevich@16x9.jpg">
-      <link itemprop="image" href="/assets/images/main/bartoshevich@4x3.jpg">
-      <link itemprop="image" href="/assets/images/main/bartoshevich@1x1.jpg">
+      <link itemprop="image" href="https://bartoshevich.by/assets/images/main/bartoshevich@16x9.jpg">
+      <link itemprop="image" href="https://bartoshevich.by/assets/images/main/bartoshevich@4x3.jpg">
+      <link itemprop="image" href="https://bartoshevich.by/assets/images/main/bartoshevich@1x1.jpg">
     </div>
+    <div itemprop="mainEntityOfPage" itemscope itemtype="https://schema.org/WebPage">
+      <link itemprop="url" href="https://bartoshevich.by{{ page.url }}">
+  </div>
 
   <main class="section__content row-gap--m" >
     <span class="element--hidden">Автор: Дмитрий Бартошевич, Copyright {{ page.date }}</span>

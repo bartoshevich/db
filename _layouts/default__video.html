@@ -9,7 +9,20 @@ layout: compress
   <meta name="viewport" content="width=device-width, initial-scale=1">  
 
   {% include meta.html %} 
- 
+  {% include schema__website.html %}
+  {% include schema__organization.html %}
+
+  {% if page.url == '/uslugi/' %}
+  {% include schema__uslugi.html %}
+  {% elsif page.url contains '/marketing-audit/' %}
+  {% include schema__uslugi--audit.html %}
+  {% elsif page.url contains '/brand-conception/' %}
+  {% include schema__uslugi--brand.html %}
+  {% elsif page.url contains '/razrabotka-reklamnyh-kampanij/' %}
+  {% include schema__uslugi--promo.html %}
+  {% elsif page.url contains '/autsorsing-marketinga/' %}
+  {% include schema__uslugi--subscription.html %}
+  {% endif %}
 
   <link rel="stylesheet" type="text/css" href="/assets/css/style.css"> 
  
