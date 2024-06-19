@@ -4,7 +4,7 @@ permalink: /about/
 description: "Я, Дмитрий Бартошевич, эксперт в маркетинге и стратегии. Более 20 лет опыта. Рассказываю о профессиональном пути, ценностях в маркетинге и подходах к работе. "
 title: "Обо мне | Дмитрий Бартошевич"
 keywords: ""
-date:   2015-07-31
+date: 2015-07-31
 last_modified_at: 2024-06-18
 image: /assets/images/main/bartoshevich@16x9.jpg
 ---
@@ -41,15 +41,16 @@ image: /assets/images/main/bartoshevich@16x9.jpg
         </div>
     </div>
 
-<div class="full-bleed"  itemscope itemtype="http://schema.org/ImageObject">	
-		<link itemprop="url" href="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1700939446/site/ef.png" />
-    
- <img class="full-bleed image" sizes="100vw" 
-			srcset="https://res.cloudinary.com/bartoshevich/image/upload/w_640/f_auto,q_auto/v1700939446/site/ef.png 640w,
-			https://res.cloudinary.com/bartoshevich/image/upload/w_1200/f_auto,q_auto/v1700939446/site/ef.png 1200w,
-      https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1700939446/site/ef.png 1700w" 
-      src="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1700939446/site/ef.png" alt="иллюстрация, символизирующая рост и развитие в бизнесе" width="1792" height="1024" itemprop="contentUrl"> 
-</div>
+         <div class="full-bleed" itemscope itemtype="http://schema.org/ImageObject">	
+            <link itemprop="url" href="https://res.cloudinary.com/bartoshevich/image/upload/v1695562479/site/bartoshevich_dmitry.jpg">
+        
+     <img class="full-bleed image is-16by9" sizes="100vw"  loading="lazy" decoding="async" 
+                srcset="https://res.cloudinary.com/bartoshevich/image/upload/w_640/f_auto,q_auto/v1695562479/site/bartoshevich_dmitry.jpg 640w,
+                https://res.cloudinary.com/bartoshevich/image/upload/w_1200/f_auto,q_auto/v1695562479/site/bartoshevich_dmitry.jpg 1200w,
+          https://res.cloudinary.com/bartoshevich/image/upload/w_1600/f_auto,q_auto/v1695562479/site/bartoshevich_dmitry.jpg 1600w,
+          https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1695562479/site/bartoshevich_dmitry.jpg 2560w" 
+          src="https://res.cloudinary.com/bartoshevich/image/upload/v1695562479/site/bartoshevich_dmitry.jpg" alt="Дмитрий Бартошевич, консультант по маркетинговой стратегии, портрет" width="2560" height="1440" title="Дмитрий Бартошевич" itemprop="contentUrl"> 
+    </div>
 
 <div class="full-bleed full-bleed-row row-gap--m">
 <div class="grid-column__first-four row-gap--m">
@@ -96,6 +97,13 @@ image: /assets/images/main/bartoshevich@16x9.jpg
 
     {% include about__education.html %}
 
+    </main>
+
+{% include footer.html %}
+
+</div>
+
+
 {% comment %}
 
         <picture>
@@ -116,10 +124,17 @@ image: /assets/images/main/bartoshevich@16x9.jpg
             <img loading="lazy" decoding="async"  class="full-bleed image is-16by9" src="/assets/images/main/bartoshevich@16x9.jpg" alt="Дмитрий Бартошевич, портрет" width="2400" height="1350" itemprop="contentUrl">
             </picture>
 
-{% endcomment %}
 
-    </main>
 
-{% include footer.html %}
+      <div class="full-bleed"  itemscope itemtype="http://schema.org/ImageObject">
+    	<link itemprop="url" href="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1700939446/site/ef.png" />
+
+<img class="full-bleed image" sizes="100vw" 
+			srcset="https://res.cloudinary.com/bartoshevich/image/upload/w_640/f_auto,q_auto/v1700939446/site/ef.png 640w,
+			https://res.cloudinary.com/bartoshevich/image/upload/w_1200/f_auto,q_auto/v1700939446/site/ef.png 1200w,
+      https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1700939446/site/ef.png 1700w" 
+      src="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1700939446/site/ef.png" alt="иллюстрация, символизирующая рост и развитие в бизнесе" width="1792" height="1024" itemprop="contentUrl">
 
 </div>
+
+{% endcomment %}
