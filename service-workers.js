@@ -13,7 +13,7 @@ layout: null
   // A cache for images to store for offline
   var imagesCacheName = 'images';
   // Update 'version' if you need to refresh the caches
-  var version = 'v119::';
+  var version = 'v120::';
 
   // Store core files in a cache (including a page to display when offline)
   var updateStaticCache = function() {
@@ -41,8 +41,11 @@ layout: null
                 '/assets/css/style-home.css',
                 '/assets/fonts/pt-sans-v12-latin_cyrillic/pt-sans-v12-latin_cyrillic-regular.woff2',
                 '/assets/fonts/pt-sans-v12-latin_cyrillic/pt-sans-v12-latin_cyrillic-700.woff2',
-                '/assets/fonts/pt-sans-v12-latin_cyrillic/pt-sans-v12-latin_cyrillic-italic.woff2'
-
+                '/assets/fonts/pt-sans-v12-latin_cyrillic/pt-sans-v12-latin_cyrillic-italic.woff2',
+                '/assets/images/logo/bartoshevich@1x.avif',
+                '/assets/images/logo/bartoshevich@2x.avif',
+                '/assets/images/logo/bartoshevich@1x.webp',
+                '/assets/images/logo/bartoshevich@2x.webp'
               ]);
           });
   };

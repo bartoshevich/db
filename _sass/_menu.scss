@@ -17,7 +17,15 @@
  
 
 .navbar-logo {
-  background-image: url('https://res.cloudinary.com/bartoshevich/image/upload/w_90/f_auto,q_auto:best/v1645366318/site/bartoshevich_1x.jpg');
+    background-image: url(/assets/images/logo/bartoshevich@2x.webp);
+    background-image: image-set(
+      url(/assets/images/logo/bartoshevich@1x.avif) type("image/avif") 1x,
+      url(/assets/images/logo/bartoshevich@2x.avif) type("image/avif") 2x,
+      url(/assets/images/logo/bartoshevich@1x.webp) type("image/webp") 1x,
+      url(/assets/images/logo/bartoshevich@2x.webp) type("image/webp") 2x,
+      url(/assets/images/logo/bartoshevich@1x.jpg) type("image/jpeg") 1x,
+      url(/assets/images/logo/bartoshevich@2x.jpg) type("image/jpeg") 2x
+    );
   border-radius: 50%;
   width: var(--space-xl-2xl);
   height: var(--space-xl-2xl);
@@ -26,23 +34,7 @@
   background-size: cover; 
 }
 
-@media (min-resolution: 1.5dppx) {
-    .navbar-logo {
-        background-image: url('https://res.cloudinary.com/bartoshevich/image/upload/w_135/f_auto,q_auto:best/v1645366318/site/bartoshevich_1x.jpg');
-}
-}
 
-@media (min-resolution: 2dppx) {
-    .navbar-logo {
-        background-image: url('https://res.cloudinary.com/bartoshevich/image/upload/w_180/f_auto,q_auto:best/v1645366318/site/bartoshevich_1x.jpg');
-}
-}
-
-@media (min-resolution: 3dppx) {
-    .navbar-logo {
-        background-image: url('https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto:best/v1645366318/site/bartoshevich_1x.jpg');
-}
-}
 
 .logo__title {
     margin: 0 0 .2em 0;
