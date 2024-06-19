@@ -78,8 +78,18 @@
           return; 
       }
 
-      const MIN_COPY_LENGTH = 1500;
+      const MIN_COPY_LENGTH = 1000;
       const MAX_COPY_LENGTH = 2000;
+      const MAX_UNMODIFIED_LENGTH = 150;
+
+      if (originalText.length <= MAX_UNMODIFIED_LENGTH) {
+          if (e.clipboardData) {
+              e.clipboardData.setData('text/plain', originalText);
+          } else if (window.clipboardData) {
+              window.clipboardData.setData('Text', originalText);
+          }
+          return;
+      }
  
       var maxLength = Math.floor(Math.random() * (MAX_COPY_LENGTH - MIN_COPY_LENGTH + 1)) + MIN_COPY_LENGTH;
       var truncatedText = originalText.substring(0, maxLength);
