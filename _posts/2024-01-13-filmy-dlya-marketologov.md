@@ -73,7 +73,7 @@ keywords: "фильмы, маркетологи, подборка фильмов
 </ul>
 </nav>
 
-<section id="flaming-hot-2023" class="row-gap--m" itemscope itemtype="http://schema.org/Movie">
+<article id="flaming-hot-2023" class="row-gap--m" itemscope itemtype="http://schema.org/Movie">
   <h2 itemprop="name" class="section__title h1 bold">Обжигающе горячий / Flaming Hot (2023)</h2>
   <meta itemprop="dateCreated" content="2023">
   <p><span class="bold">Режиссер:</span> <span itemprop="director" itemscope itemtype="http://schema.org/Person"><span itemprop="name">Ева Лонгория</span></span><br>
@@ -126,13 +126,13 @@ keywords: "фильмы, маркетологи, подборка фильмов
 
 </section>
 
-</section>
+</article>
 
 
 
 
 
-<section id="social-dilemma-2020" class="row-gap--m mt-m" itemscope itemtype="http://schema.org/Movie">
+<article id="social-dilemma-2020" class="row-gap--m mt-m" itemscope itemtype="http://schema.org/Movie">
   <h2 itemprop="name" class="section__title h1 bold">Социальная дилемма / The Social Dilemma (2020)</h2>
   <meta itemprop="dateCreated" content="2020">
   <p><span class="bold">Режиссер:</span> <span itemprop="director" itemscope itemtype="http://schema.org/Person"><span itemprop="name"> Джефф Орловски</span></span><br>
@@ -202,7 +202,7 @@ keywords: "фильмы, маркетологи, подборка фильмов
 
 </section>
   
-</section>
+</article>
 
 
 
@@ -210,7 +210,7 @@ keywords: "фильмы, маркетологи, подборка фильмов
 
 
 
-<section id="99-francs-2009" class="row-gap--m mt-m" itemscope itemtype="http://schema.org/Movie">
+<article id="99-francs-2009" class="row-gap--m mt-m" itemscope itemtype="http://schema.org/Movie">
   <h2 itemprop="name" class="section__title h1 bold">99 франков / 99 francs (2009)</h2>
   <meta itemprop="dateCreated" content="2009">
   <p><span class="bold">Режиссер:</span> <span itemprop="director" itemscope itemtype="http://schema.org/Person"><span itemprop="name"> Ян Кунен</span></span><br>
@@ -283,7 +283,7 @@ keywords: "фильмы, маркетологи, подборка фильмов
 
 </section>
     
-</section>
+</article>
 
 
 
@@ -291,7 +291,7 @@ keywords: "фильмы, маркетологи, подборка фильмов
 
 
 
-<section id="the-joneses-2009" class="row-gap--m mt-m" itemscope itemtype="http://schema.org/Movie">
+<article id="the-joneses-2009" class="row-gap--m mt-m" itemscope itemtype="http://schema.org/Movie">
   <h2 itemprop="name" class="section__title h1 bold">Семейка Джонсов / The Joneses (2009)</h2>
   <meta itemprop="dateCreated" content="2009">
   <p><span class="bold">Режиссер:</span> <span itemprop="director" itemscope itemtype="http://schema.org/Person"><span itemprop="name">Деррик Борте</span></span><br>
@@ -365,14 +365,14 @@ keywords: "фильмы, маркетологи, подборка фильмов
 
 </section>
 
-</section>
+</article>
 
 
 
 
 
 
-<section id="the-founder-2016" class="row-gap--m mt-m" itemscope itemtype="http://schema.org/Movie">
+<article id="the-founder-2016" class="row-gap--m mt-m" itemscope itemtype="http://schema.org/Movie">
   <h2 itemprop="name" class="section__title h1 bold">Основатель / The Founder  (2016)</h2>
   <meta itemprop="dateCreated" content="2016">
   <p><span class="bold">Режиссер:</span> <span itemprop="director" itemscope itemtype="http://schema.org/Person"><span itemprop="name">Джон Ли Хэнкок</span></span><br>
@@ -446,7 +446,7 @@ keywords: "фильмы, маркетологи, подборка фильмов
 
 </section>
 
- </section>
+ </article>
 
 
 
@@ -454,7 +454,7 @@ keywords: "фильмы, маркетологи, подборка фильмов
 
 
 
-<section id="art-and-copy-2009" class="row-gap--m mt-m" itemscope itemtype="http://schema.org/Movie">
+<article id="art-and-copy-2009" class="row-gap--m mt-m" itemscope itemtype="http://schema.org/Movie">
   <h2 itemprop="name" class="section__title h1 bold">Изображение и текст / Art & Copy (2009)</h2>
   <meta itemprop="dateCreated" content="2009">
   <p><span class="bold">Режиссер:</span> <span itemprop="director" itemscope itemtype="http://schema.org/Person"><span itemprop="name">Даг Прэй</span></span><br>
@@ -525,13 +525,13 @@ keywords: "фильмы, маркетологи, подборка фильмов
 
 </section>
 
-</section>
+</article>
 
 
 
 
 
-<section id="the-greatest-movie-ever-sold-2011" class="row-gap--m mt-m" itemscope itemtype="http://schema.org/Movie">
+<article id="the-greatest-movie-ever-sold-2011" class="row-gap--m mt-m" itemscope itemtype="http://schema.org/Movie">
   <h2 itemprop="name" class="section__title h1 bold">Величайший фильм из&nbsp;всех когда-либо проданных /  The Greatest Movie Ever Sold (2011)</h2>
   <meta itemprop="dateCreated" content="2011">
   <p><span class="bold">Режиссер:</span> <span itemprop="director" itemscope itemtype="http://schema.org/Person"><span itemprop="name">Морган Сперлок</span></span><br>
@@ -603,14 +603,14 @@ keywords: "фильмы, маркетологи, подборка фильмов
 
 </section>
 
-</section>
+</article>
 
 
 
 
 
 
-<section id="moneyball-2011" class="row-gap--m mt-m" itemscope itemtype="http://schema.org/Movie">
+<article id="moneyball-2011" class="row-gap--m mt-m" itemscope itemtype="http://schema.org/Movie">
   <h2 itemprop="name" class="section__title h1 bold">Человек, который изменил все / Moneyball (2011)</h2>
   <meta itemprop="dateCreated" content="2011">
   <p><span class="bold">Режиссер:</span> <span itemprop="director" itemscope itemtype="http://schema.org/Person"><span itemprop="name">Беннетт Миллер</span></span><br>
@@ -663,12 +663,12 @@ keywords: "фильмы, маркетологи, подборка фильмов
 
 </section>
 
-</section>
+</article>
 
 
 
 
-<section id="jiro-dreams-of-sushi-2011" class="row-gap--m mt-m" itemscope itemtype="http://schema.org/Movie">
+<article id="jiro-dreams-of-sushi-2011" class="row-gap--m mt-m" itemscope itemtype="http://schema.org/Movie">
   <h2 itemprop="name" class="section__title h1 bold">Мечты Дзиро о суши / Jiro Dreams of Sushi (2011) </h2>
   <meta itemprop="dateCreated" content="2011">
   <p><span class="bold">Режиссер:</span> <span itemprop="director" itemscope itemtype="http://schema.org/Person"><span itemprop="name">Дэвид Гелб</span></span><br>
@@ -723,7 +723,7 @@ keywords: "фильмы, маркетологи, подборка фильмов
 </section>
  
 
-</section>
+</article>
 
 
 
@@ -731,7 +731,7 @@ keywords: "фильмы, маркетологи, подборка фильмов
 
 
 
-<section id="syrup-2013" class="row-gap--m mt-m" itemscope itemtype="http://schema.org/Movie">
+<article id="syrup-2013" class="row-gap--m mt-m" itemscope itemtype="http://schema.org/Movie">
   <h2 itemprop="name" class="section__title h1 bold">Сироп / Syrup (2013) </h2>
   <meta itemprop="dateCreated" content="2013">
   <p><span class="bold">Режиссер:</span> <span itemprop="director" itemscope itemtype="http://schema.org/Person"> <span itemprop="name">Арам Раппопорт</span></span><br>
@@ -786,7 +786,7 @@ keywords: "фильмы, маркетологи, подборка фильмов
 
 </section>
 
-</section>
+</article>
 
 <p class="mt-m">Посмотрев эти картины, вы, возможно, найдете новые источники вдохновения для своих собственных проектов. Надеюсь, подборка поможет вам взглянуть на&nbsp;работу под новым углом и&nbsp;подтолкнет к&nbsp;созданию ярких маркетинговых кампаний.
 </p>
