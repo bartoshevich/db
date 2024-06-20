@@ -1,4 +1,6 @@
+http://bartoshevich.by/*  https://bartoshevich.by/:splat 301!
 http://www.bartoshevich.by/*  https://bartoshevich.by/:splat 301!
+https://www.bartoshevich.by/*  https://bartoshevich.by/:splat 301!
 /me/  /cases/
 /mnenie/*  /blog/:splat
 /opyt/*  /blog/:splat
