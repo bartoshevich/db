@@ -3,9 +3,9 @@ layout: about
 permalink: /about/
 description: "Я, Дмитрий Бартошевич, эксперт в маркетинге и стратегии. Более 20 лет опыта. Рассказываю о профессиональном пути, ценностях в маркетинге и подходах к работе. "
 title: "Обо мне | Дмитрий Бартошевич"
-keywords: ""
+keywords: "Дмитрий Бартошевич, Дмитрий Барташевич"
 date: 2015-07-31
-last_modified_at: 2024-06-18
+last_modified_at: 2024-06-20
 image: /assets/images/main/bartoshevich@16x9.jpg
 ---
 
@@ -49,7 +49,7 @@ image: /assets/images/main/bartoshevich@16x9.jpg
                 https://res.cloudinary.com/bartoshevich/image/upload/w_1200/f_auto,q_auto/v1695562479/site/bartoshevich_dmitry.jpg 1200w,
           https://res.cloudinary.com/bartoshevich/image/upload/w_1600/f_auto,q_auto/v1695562479/site/bartoshevich_dmitry.jpg 1600w,
           https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1695562479/site/bartoshevich_dmitry.jpg 2560w" 
-          src="https://res.cloudinary.com/bartoshevich/image/upload/v1695562479/site/bartoshevich_dmitry.jpg" alt="Дмитрий Бартошевич, консультант по маркетинговой стратегии, портрет" width="2560" height="1440" title="Дмитрий Бартошевич" itemprop="contentUrl"> 
+          src="https://res.cloudinary.com/bartoshevich/image/upload/v1695562479/site/bartoshevich_dmitry.jpg" alt="Дмитрий Бартошевич (или Барташевич), консультант по маркетинговой стратегии, портрет" width="2560" height="1440" title="Дмитрий Бартошевич" itemprop="contentUrl"> 
     </div>
 
 <div class="full-bleed full-bleed-row row-gap--m">
