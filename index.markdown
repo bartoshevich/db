@@ -114,15 +114,15 @@ keywords: "развитие брендов, анализ данных, разр�
             <link itemprop="image" href="{{ site.url }}/assets/images/main/bartoshevich@4x3.jpg">
         </div>
 
-              <blockquote class="blockquote--emphasis" itemprop="reviewBody">
-    	<p class="citation">«Мы&nbsp;спрашивали себя: „Чем мы&nbsp;отличаемся? В&nbsp;чем сильнее? В&nbsp;чем отстаем и&nbsp;чего не&nbsp;хватает, чтобы быть лучшими?“ Ответы искали сами. Но&nbsp;того решения, которое устроило&nbsp;бы всех, не&nbsp;находили. Обратились за&nbsp;консультацией к&nbsp;Бартошевичу Дмитрию...»</p>
+              <blockquote class="blockquote--emphasis" itemprop="review" itemscope itemtype="https://schema.org/Review">
+    	<p class="citation" itemprop="reviewBody">«Мы&nbsp;спрашивали себя: „Чем мы&nbsp;отличаемся? В&nbsp;чем сильнее? В&nbsp;чем отстаем и&nbsp;чего не&nbsp;хватает, чтобы быть лучшими?“ Ответы искали сами. Но&nbsp;того решения, которое устроило&nbsp;бы всех, не&nbsp;находили. Обратились за&nbsp;консультацией к&nbsp;Бартошевичу Дмитрию...»</p>
 
             <div class="citation__author" >
     		<cite itemprop="author" itemscope itemtype="https://schema.org/Person">
     			<span itemprop="name">Дмитрий Лихтарович</span>, <span itemprop="jobTitle">директор интернет-агентства Giperlink</span>
     		</cite>
-            <meta itemprop="datePublished" content="30 ноября 2018"><br>
-            <a class="italic link" href="{{ site.url }}/blog/brand-giperlink/" itemprop="url">ссылка на&nbsp;описание проекта и&nbsp;отзыв</a>
+            <meta itemprop="datePublished" content="2018-11-30"><br>
+            <a class="italic link" href="{{ site.url }}/blog/brand-giperlink/" itemprop="url">описание проекта и&nbsp;отзыв</a>
             </div>
              <div itemprop="reviewRating" itemscope itemtype="https://schema.org/Rating">
                 <meta itemprop="ratingValue" content="5" >
@@ -131,16 +131,16 @@ keywords: "развитие брендов, анализ данных, разр�
     	</blockquote>
 
 
-       <blockquote class="blockquote--emphasis" itemprop="reviewBody">
-    	<p class="citation">
+       <blockquote class="blockquote--emphasis" itemprop="review" itemscope itemtype="https://schema.org/Review">
+    	<p class="citation" itemprop="reviewBody">
             «Нам потребовалось четко позиционировать компанию на&nbsp;рынке и&nbsp;максимально отстроиться от&nbsp;конкурентов. И&nbsp;мы&nbsp;привлекли Дмитрия Бартошевича...»
     	</p>
     		<div class="citation__author" >
     		<cite itemprop="author" itemscope itemtype="https://schema.org/Person">
     			<span itemprop="name">Елена Горбачева</span>, <span itemprop="jobTitle">директор типографии <span class="noperenos">Flex-n-Roll</span></span>
     		</cite>
-            <meta itemprop="datePublished" content="18 апреля 2018"><br>
-            <a class="italic link" href="{{ site.url }}/blog/brand-strategy-flex-n-roll/" itemprop="url">ссылка на&nbsp;описание проекта и&nbsp;отзыв</a>
+            <meta itemprop="datePublished" content="2018-04-18"><br>
+            <a class="italic link" href="{{ site.url }}/blog/brand-strategy-flex-n-roll/" itemprop="url">описание проекта и&nbsp;отзыв</a>
             </div>
              <div itemprop="reviewRating" itemscope itemtype="https://schema.org/Rating">
                 <meta itemprop="ratingValue" content="5" >
