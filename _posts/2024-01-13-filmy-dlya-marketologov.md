@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "Топ фильмы для маркетологов: вдохновение и идеи"
+title: "Топ фильмы для маркетологов о рекламе и маркетинге"
 name: "Кино, меняющее взгляд на&nbsp;маркетинг"
-description: "Подборка фильмов о&nbsp;маркетинге, рекламе и&nbsp;потребительском поведении, которые расширят профессиональный взгляд и&nbsp;вдохновят маркетологов на&nbsp;новые идеи."
+description: "Что посмотреть маркетологу: подборка фильмов о&nbsp;маркетинге, рекламе и&nbsp;потребительском поведении, которые вдохновят и&nbsp;расширят профессиональный взгляд."
 date: 2024-01-13
-last_modified_at: 2024-06-11
+last_modified_at: 2024-06-21
 categories: мнение
 permalink: "/blog/filmy-dlya-marketologov/"
 tags: "маркетолог"
@@ -14,7 +14,7 @@ keywords: "фильмы, маркетологи, подборка фильмов
 
 {% include post__header--update.html %}
 
-<p>Кино, в&nbsp;котором мелькают маркетологи, не&nbsp;только развлекает. Назову нескольких картин, которые исследуют маркетинг с&nbsp;разных сторон, позволяя глубже понять его влияние и&nbsp;значимость. От&nbsp;провокационной сатиры до&nbsp;вдумчивых документальных исследований&nbsp;— эти фильмы могут вдохновить маркетологов на&nbsp;новые идеи и&nbsp;стратегии.</p>
+<p>Кино, в&nbsp;котором мелькают маркетологи, не&nbsp;только развлекает. Назову несколько картин, которые исследуют маркетинг с&nbsp;разных сторон, позволяя глубже понять его влияние и&nbsp;значимость. От&nbsp;провокационной сатиры до&nbsp;вдумчивых документальных исследований&nbsp;— эти фильмы могут вдохновить маркетологов на&nbsp;новые идеи и&nbsp;стратегии.</p>
 
 <nav class="toc">
 <h2 class="toc__title">Содержание</h2>
@@ -39,33 +39,38 @@ keywords: "фильмы, маркетологи, подборка фильмов
     <a class="link" href="#the-joneses-2009">Семейка Джонсов / The Joneses (2009)
     </a>
   </li>
-  <li>
+   <li>
     <span class="tocnumber">5</span>
+    <a class="link" href="#vogel">Bиктop Фoгeль — Kopoль peклaмы / Viktor Vogel — Commercial Man (2001)
+    </a>
+  </li>
+  <li>
+    <span class="tocnumber">6</span>
     <a class="link" href="#the-founder-2016">Основатель / The Founder (2016)
     </a>
   </li>
   <li>			
-    <span class="tocnumber">6</span>
+    <span class="tocnumber">7</span>
     <a class="link" href="#art-and-copy-2009">Изображение и текст / Art & Copy (2009) 
     </a>
   </li>
   <li>			
-    <span class="tocnumber">7</span>
+    <span class="tocnumber">8</span>
     <a class="link" href="#the-greatest-movie-ever-sold-2011">Величайший фильм из всех когда-либо проданных / The Greatest Movie Ever Sold (2011) 
     </a>
   </li>
   <li>			
-    <span class="tocnumber">8</span>
+    <span class="tocnumber">9</span>
     <a class="link" href="#moneyball-2011">Человек, который изменил все / Moneyball (2011) 
     </a>
   </li>
   <li>			
-    <span class="tocnumber">9</span>
+    <span class="tocnumber">10</span>
     <a class="link" href="#jiro-dreams-of-sushi-2011">Мечты Дзиро о суши / Jiro Dreams of Sushi (2011) 
     </a>
   </li>
   <li>			
-    <span class="tocnumber">10</span>
+    <span class="tocnumber">11</span>
     <a class="link" href="#syrup-2013">Сироп / Syrup (2013) 
     </a>
   </li>
@@ -81,7 +86,7 @@ keywords: "фильмы, маркетологи, подборка фильмов
   <meta itemprop="ratingCount" content="17000">
   <meta itemprop="bestRating" content="10">
   <span itemprop="ratingValue">6.7</span>/10</span></p>
-  <p itemprop="description">Фильм основан на&nbsp;автобиографической книге Ричарда Монтаньесе, которого называют крестным отцом латиноамериканского маркетинга. Он рассказывает историю создания Flamin' Hot Cheetos. Неизвестно, все&nbsp;ли было так на&nbsp;самом деле, но&nbsp;сама книга уж&nbsp;точно добавила лояльности к&nbsp;Frito-Lay в&nbsp;среде мексиканцев.  </p>
+  <p itemprop="description">Картина основана на&nbsp;автобиографической книге Ричарда Монтаньесе, которого называют крестным отцом латиноамериканского маркетинга. Он рассказывает историю создания Flamin' Hot Cheetos. Неизвестно, все&nbsp;ли было так на&nbsp;самом деле, но&nbsp;сама книга уж&nbsp;точно добавила лояльности к&nbsp;Frito-Lay в&nbsp;среде мексиканцев.  </p>
 
  <div class="figure" itemprop="image" itemscope itemtype="http://schema.org/ImageObject">
 <link itemprop="url" href="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1718114716/site/films/hot.jpg">
@@ -92,7 +97,7 @@ keywords: "фильмы, маркетологи, подборка фильмов
       https://res.cloudinary.com/bartoshevich/image/upload/w_1980/f_auto,q_auto/v1718114716/site/films/hot.jpg 1980w,
       https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1718114716/site/films/hot.jpg 2160w"
       src="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1718114716/site/films/hot.jpg" alt="Сын главного героя тестирует Flamin' Hot Cheetos, участвуя в разработке нового продукта" width="2160" height="1440" itemprop="contentUrl">
-<div class="figcaption">кадр из фильма: в поисках того самого вкуса</div>
+<div class="figcaption">сцена из картины: в поисках того самого вкуса</div>
 </div>
 
   <p><span class="bold">Зачем смотреть</span> <br>Нажать &laquo;play&raquo; стоит хотя&nbsp;бы ради этих слов главного героя: «Я&nbsp;не&nbsp;знаю, что такое доля рынка, потому что я&nbsp;не&nbsp;сижу в&nbsp;офисе в&nbsp;костюме. Я&nbsp;здесь со&nbsp;своими друзьями и&nbsp;вот что я&nbsp;о&nbsp;них знаю. Они ищут себя на&nbsp;этих полках. Они хотят знать, что вы&nbsp;цените еду, которую они едят дома. Что мы&nbsp;что-то значим. Я&nbsp;хочу знать, что я&nbsp;важен, когда покупаю [ваши] продукты. [...] Если&nbsp;бы мы&nbsp;знали, что для нас существует продукт, мы&nbsp;бы сказали: „Забирайте все наши деньги“». </p>
@@ -101,6 +106,7 @@ keywords: "фильмы, маркетологи, подборка фильмов
   <h3 class="bold">Отзывы</h3>
 
   <article class="blockquote--emphasis mt-m ml-2xl" itemprop="review" itemscope itemtype="http://schema.org/Review">
+  <h4 class="element--hidden">Отзыв 1</h4>
     <blockquote class="citation" cite="https://www.imdb.com/review/rw9115068/?ref_=rw_urv">
         <p itemprop="reviewBody">10/10. Мне совершенно безразлично, правда это или нет. Это была очень эмоциональная история и&nbsp;очень хорошо сыгранная. Она захватила меня с&nbsp;самого начала и&nbsp;держала до&nbsp;конца.</p>
     </blockquote>
@@ -113,6 +119,7 @@ keywords: "фильмы, маркетологи, подборка фильмов
   </article>
 
  <article class="blockquote--emphasis mt-m ml-2xl" itemprop="review" itemscope itemtype="http://schema.org/Review">
+ <h4 class="element--hidden">Отзыв 2</h4>
     <blockquote class="citation" cite="https://www.imdb.com/review/rw9130209/?ref_=rw_urv">
         <p itemprop="reviewBody">5/10. Проведя исследование на&nbsp;эту тему, я&nbsp;так и&nbsp;не&nbsp;понял, сколько правды в&nbsp;этой &laquo;правдивой истории&raquo;. Большинство событий&nbsp;&mdash; это версия Ричарда, и&nbsp;нет никаких доказательств, подтверждающих его утверждения об&nbsp;изобретении Flamin&rsquo; Hot Cheetos.</p>
     </blockquote>
@@ -177,8 +184,9 @@ keywords: "фильмы, маркетологи, подборка фильмов
   <h3 class="bold">Отзывы</h3>
 
   <article class="blockquote--emphasis mt-m ml-2xl" itemprop="review" itemscope itemtype="http://schema.org/Review">
+  <h4 class="element--hidden">Отзыв 1</h4>
     <blockquote class="citation" cite="https://www.imdb.com/review/rw6080690/?ref_=rw_urv">
-        <p itemprop="reviewBody">10/10. Это&nbsp;не&nbsp;документальный фильм о&nbsp;пагубном влиянии социальных сетей. Скорее, это подробный анализ бизнес-моделей этих компаний. Один из&nbsp;лучших проницательных документальных фильмов о&nbsp;социальных сетях.</p>
+        <p itemprop="reviewBody">10/10. Это&nbsp;не&nbsp;документальная лента о&nbsp;пагубном влиянии социальных сетей. Скорее, это подробный анализ бизнес-моделей этих компаний. Один из&nbsp;лучших проницательных документальных фильмов о&nbsp;социальных сетях.</p>
     </blockquote>
     <footer class="citation__author">
         — <span itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -189,6 +197,7 @@ keywords: "фильмы, маркетологи, подборка фильмов
   </article>
 
  <article class="blockquote--emphasis mt-m ml-2xl" itemprop="review" itemscope itemtype="http://schema.org/Review">
+ <h4 class="element--hidden">Отзыв 2</h4>
     <blockquote class="citation" cite="https://www.imdb.com/review/rw6113427/?ref_=tt_urv">
         <p itemprop="reviewBody">5/10. Все, о&nbsp;чем они говорили, для меня не&nbsp;ново. Преувеличенные кинематографические визуальные эффекты сделали его больше похожим на&nbsp;постановочное представление. Самая смешная часть в&nbsp;том, что они высмеивали все другие социальные сети, кроме своей. Они должны были&nbsp;бы включить рассказ о&nbsp;Netflix. Ведь это тоже социальная платформа! </p>
     </blockquote>
@@ -203,6 +212,8 @@ keywords: "фильмы, маркетологи, подборка фильмов
 </section>
   
 </article>
+
+
 
 
 
@@ -258,8 +269,9 @@ keywords: "фильмы, маркетологи, подборка фильмов
   <h3 class="bold">Отзывы</h3>
 
   <article class="blockquote--emphasis mt-m ml-2xl" itemprop="review" itemscope itemtype="http://schema.org/Review">
+  <h4 class="element--hidden">Отзыв 1</h4>
     <blockquote class="citation" cite="https://www.imdb.com/review/rw1946382/?ref_=tt_urv">
-        <p itemprop="reviewBody">10/10. Это определенно не&nbsp;мейнстримовый фильм. Если вы&nbsp;постоянно стремитесь заглянуть глубже в&nbsp;умы и&nbsp;мысли людей, этот фильм для вас. Если вы&nbsp;творческая личность, будь&nbsp;то программист, дизайнер или просто хотите узнать, что происходит в&nbsp;мире творческих сообществ, вам тоже понравится этот фильм.</p>
+        <p itemprop="reviewBody">10/10. Это&nbsp;определенно не&nbsp;мейнстримовая лента. Если вы&nbsp;постоянно стремитесь заглянуть глубже в&nbsp;умы и&nbsp;мысли людей, эта картина для вас. Если вы&nbsp;творческая личность, будь&nbsp;то программист, дизайнер или просто хотите узнать, что происходит в&nbsp;мире творческих сообществ, вам тоже понравится этот фильм.</p>
     </blockquote>
     <footer class="citation__author">
         — <span itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -270,8 +282,9 @@ keywords: "фильмы, маркетологи, подборка фильмов
   </article>
 
  <article class="blockquote--emphasis mt-m ml-2xl" itemprop="review" itemscope itemtype="http://schema.org/Review">
+ <h4 class="element--hidden">Отзыв 2</h4>
     <blockquote class="citation" cite="https://www.imdb.com/review/rw7833724/?ref_=tt_urv">
-        <p itemprop="reviewBody">5/10. Отличный фильм испорчен отчаянной попыткой сделать хэппи-энд.</p>
+        <p itemprop="reviewBody">5/10. Отличная картина испорчена отчаянной попыткой сделать хэппи-энд.</p>
     </blockquote>
     <footer class="citation__author">
         — <span itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -299,7 +312,7 @@ keywords: "фильмы, маркетологи, подборка фильмов
    <meta itemprop="ratingCount" content="42000">
    <meta itemprop="bestRating" content="10">
   <span itemprop="ratingValue">6.4</span>/10</span></p>
-  <p itemprop="description">История «идеальной семьи», которая на&nbsp;самом деле является группой маркетологов, продвигающих разнообразные продукты среди соседей и&nbsp;знакомых.  </p>
+  <p itemprop="description">История «идеальной семьи», которая на&nbsp;самом деле является группой маркетологов, продвигающих разнообразные товары среди соседей и&nbsp;знакомых.  </p>
 
 
   <div class="full-bleed figure" itemprop="trailer" itemscope itemtype="https://schema.org/VideoObject">
@@ -332,7 +345,7 @@ keywords: "фильмы, маркетологи, подборка фильмов
   </div>
 
 
-  <p><span class="bold">Зачем смотреть</span> <br>Главная тема киноленты&nbsp;— критика потребительской культуры и&nbsp;влияние скрытого маркетинга на&nbsp;общество. Герои фильма сталкиваются с&nbsp;моральными дилеммами, связанными с&nbsp;работой. Эти моменты делают картину не&nbsp;только развлекательной, но&nbsp;и&nbsp;побуждают задуматься о&nbsp;том, где должны быть проведены границы в&nbsp;маркетинговых и&nbsp;рекламных кампаниях. </p>
+  <p><span class="bold">Зачем смотреть</span> <br>Главная тема киноленты&nbsp;— критика потребительской культуры и&nbsp;влияние скрытого маркетинга на&nbsp;общество. Герои картины сталкиваются с&nbsp;моральными дилеммами, связанными с&nbsp;работой. Эти моменты делают кино не&nbsp;только развлекательным, но&nbsp;и&nbsp;побуждают задуматься, где следует проводить границы в&nbsp;маркетинговых и&nbsp;рекламных кампаниях. </p>
   <meta itemprop="image" content="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1705163624/site/films/joneses.jpg">
 
   
@@ -340,6 +353,7 @@ keywords: "фильмы, маркетологи, подборка фильмов
   <h3 class="bold">Отзывы</h3>
 
   <article class="blockquote--emphasis mt-m ml-2xl" itemprop="review" itemscope itemtype="http://schema.org/Review">
+  <h4 class="element--hidden">Отзыв 1</h4>
     <blockquote class="citation" cite="https://www.imdb.com/review/rw2250458/?ref_=tt_urv">
         <p itemprop="reviewBody">10/10. Все, что я&nbsp;могу сказать, это&nbsp;то, что мне&nbsp;бы очень хотелось видеть больше фильмов, в которых так тщательно подобраны циничные, комедийные и&nbsp;драматические элементы.</p>
     </blockquote>
@@ -352,6 +366,7 @@ keywords: "фильмы, маркетологи, подборка фильмов
   </article>
 
  <article class="blockquote--emphasis mt-m ml-2xl" itemprop="review" itemscope itemtype="http://schema.org/Review">
+ <h4 class="element--hidden">Отзыв 2</h4>
     <blockquote class="citation" cite="https://www.imdb.com/review/rw2131532/?ref_=tt_urv">
         <p itemprop="reviewBody">5/10. Замысел замечательный&nbsp;&mdash; все не&nbsp;так, как кажется. Но&nbsp;комедийной отдачи просто нет. Фильм довольно медленный и&nbsp;предсказуемый на&nbsp;протяжении первых двух с&nbsp;половиной актов. Однако вторая половина последнего акта была отличной и&nbsp;полна сюрпризов, что несколько реабилитировало картину. </p>
     </blockquote>
@@ -366,6 +381,94 @@ keywords: "фильмы, маркетологи, подборка фильмов
 </section>
 
 </article>
+
+
+
+
+
+
+<article id="vogel" class="row-gap--m mt-m" itemscope itemtype="http://schema.org/Movie">
+  <h2 itemprop="name" class="section__title h1 bold">Bиктop Фoгeль&nbsp;&mdash; Kopoль peклaмы&nbsp;/ Viktor Vogel&nbsp;&mdash; Commercial Man (2001)</h2>
+  <meta itemprop="dateCreated" content="2001">
+  <p><span class="bold">Режиссер:</span> <span itemprop="director" itemscope itemtype="http://schema.org/Person"><span itemprop="name">Лapc Kpaумe</span></span><br>
+  <span class="bold">IMDb рейтинг:</span> <span itemprop="aggregateRating" itemscope itemtype="http://schema.org/AggregateRating">
+   <meta itemprop="ratingCount" content="762">
+   <meta itemprop="bestRating" content="10">
+  <span itemprop="ratingValue">5.7</span>/10</span></p>
+  <p itemprop="description">Закулисная жизнь рекламного бизнеса глазами амбициозного Виктора Фогеля, которому предложили работу в&nbsp;крупном рекламном агентстве. </p>
+
+
+  <div class="full-bleed figure" itemprop="trailer" itemscope itemtype="https://schema.org/VideoObject">
+    <link itemprop="url" href="https://youtu.be/YR5yjbScyAI" >
+    <link itemprop="contentUrl" href="https://youtu.be/YR5yjbScyAI" >
+    <link itemprop="thumbnailUrl" href="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1718970750/site/films/vogel.jpg" >
+     <meta itemprop="image" content="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1718970750/site/films/vogel.jpg">
+    <meta itemprop="name" content="Пример креативной рекламы (фильм Виктор Фогель - Король рекламы)" >
+      <meta itemprop="uploadDate" content="2014-09-30T00:00:00+03:00">
+      <meta itemprop="duration" content="PT1M47S">
+    <meta itemprop="isFamilyFriendly" content="true">
+              
+    <div class="video">
+        <a class="video__link " href="https://youtu.be/YR5yjbScyAI" target="_blank" rel="noopener   noreferrer">
+        
+           
+                  <img loading="lazy" class="video__media image" src="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1718970750/site/films/vogel.jpg" alt="фрагмент картины: защита креативной концепции рекламной кампании" width="1500" height="844" itemprop="thumbnail">
+                  <span class="element--hidden">фрагмент картины: защита креативной концепции рекламной кампании</span>
+      
+        
+      </a>
+      <button class="video__button" aria-label="Запустить видео">
+        <svg width="68" height="48" viewBox="0 0 68 48"><path class="video__button-shape" d="M66.52,7.74c-0.78-2.93-2.49-5.41-5.42-6.19C55.79,.13,34,0,34,0S12.21,.13,6.9,1.55 C3.97,2.33,2.27,4.81,1.48,7.74C0.06,13.05,0,24,0,24s0.06,10.95,1.48,16.26c0.78,2.93,2.49,5.41,5.42,6.19 C12.21,47.87,34,48,34,48s21.79-0.13,27.1-1.55c2.93-0.78,4.64-3.26,5.42-6.19C67.94,34.95,68,24,68,24S67.94,13.05,66.52,7.74z"></path><path class="video__button-icon" d="M 45,24 27,14 27,34"></path>
+        </svg>
+      </button>
+    </div>
+    <div class="figcaption"  itemprop="description">
+   фрагмент картины: защита креативной концепции рекламной кампании
+    </div>
+  </div>
+
+
+  <p><span class="bold">Зачем смотреть</span> <br>История подчеркивает, что нестандартные подходы и&nbsp;креативные идеи живут там, где человек не&nbsp;сдерживает себя в&nbsp;рамках неких установленных корпоративных правил и&nbsp;ожиданий клиентов, а&nbsp;разрешает себе быть собой. Помните, кто вы&nbsp;есть и&nbsp;не&nbsp;давайте себе закостенеть.</p>
+
+
+  
+<section>
+  <h3 class="bold">Отзывы</h3>
+
+  <article class="blockquote--emphasis mt-m ml-2xl" itemprop="review" itemscope itemtype="http://schema.org/Review">
+  <h4 class="element--hidden">Отзыв 1</h4>
+    <blockquote class="citation" cite="https://www.imdb.com/review/rw0731398/?ref_=tt_urv">
+        <p itemprop="reviewBody">9/10. Сюжет хороший, актеры убедительны, конец странный, но&nbsp;счастливый. В&nbsp;общем, приятное кино!</p>
+    </blockquote>
+    <footer class="citation__author">
+        — <span itemprop="author" itemscope itemtype="http://schema.org/Person">
+            <span itemprop="name"><cite>пользователь IMDb: tinskies03 </cite></span>
+        </span>
+    </footer>
+    <meta itemprop="itemReviewed" itemscope itemtype="http://schema.org/Movie" content="Bиктop Фoгeль&nbsp;&mdash; Kopoль peклaмы&nbsp;/ Viktor Vogel&nbsp;&mdash; Commercial Man (2001)">
+  </article>
+
+ <article class="blockquote--emphasis mt-m ml-2xl" itemprop="review" itemscope itemtype="http://schema.org/Review">
+ <h4 class="element--hidden">Отзыв 2</h4>
+    <blockquote class="citation" cite="https://www.imdb.com/review/rw1493891/?ref_=tt_urv">
+        <p itemprop="reviewBody">5/10. Это было похоже на&nbsp;пилот комедийного сериала, только последние десять минут писал Дэвид Линч в&nbsp;два часа ночи, который не&nbsp;читал начало сценария. </p>
+    </blockquote>
+    <footer class="citation__author">
+        — <span itemprop="author" itemscope itemtype="http://schema.org/Person">
+            <span itemprop="name"><cite>пользователь IMDb: porbeagle_zen </cite></span>
+        </span>
+    </footer>
+      <meta itemprop="itemReviewed" itemscope itemtype="http://schema.org/Movie" content="Bиктop Фoгeль&nbsp;&mdash; Kopoль peклaмы&nbsp;/ Viktor Vogel&nbsp;&mdash; Commercial Man (2001)">
+  </article>
+
+</section>
+
+</article>
+
+
+
+
+
 
 
 
@@ -413,7 +516,7 @@ keywords: "фильмы, маркетологи, подборка фильмов
 
 
 
-  <p><span class="bold">Зачем смотреть</span> <br>Фильм показывает, как стандартизация процессов, сильная визуальная идентичность и&nbsp;стремление к&nbsp;единству бренда способствуют успеху компании. Он&nbsp;подчеркивает важность инноваций и&nbsp;стратегического подхода в&nbsp;бизнесе, а&nbsp;также рассматривает этические дилеммы, с&nbsp;которыми сталкиваются предприниматели. </p>
+  <p><span class="bold">Зачем смотреть</span> <br>Картина показывает, как стандартизация процессов, сильная визуальная идентичность и&nbsp;стремление к&nbsp;единству бренда способствуют успеху компании. Она&nbsp;подчеркивает важность инноваций и&nbsp;стратегического подхода в&nbsp;бизнесе, а&nbsp;также касается этических дилемм, с&nbsp;которыми сталкиваются предприниматели. </p>
    <meta itemprop="image" content="https://res.cloudinary.com/bartoshevich/image/upload/v1705164780/site/films/mac.jpg">
 
 
@@ -421,6 +524,7 @@ keywords: "фильмы, маркетологи, подборка фильмов
   <h3 class="bold">Отзывы</h3>
 
   <article class="blockquote--emphasis mt-m ml-2xl" itemprop="review" itemscope itemtype="http://schema.org/Review">
+  <h4 class="element--hidden">Отзыв 1</h4>
     <blockquote class="citation" cite="https://www.imdb.com/review/rw5760153/?ref_=tt_urv">
         <p itemprop="reviewBody">10/10. История прекрасна от&nbsp;начала до&nbsp;конца, сценарий прекрасно написан, а&nbsp;операторская работа просто великолепна&nbsp;&mdash; действительно создается ощущение, что вы&nbsp;вернулись в&nbsp;1950-е годы.</p>
     </blockquote>
@@ -433,6 +537,7 @@ keywords: "фильмы, маркетологи, подборка фильмов
   </article>
 
  <article class="blockquote--emphasis mt-m ml-2xl" itemprop="review" itemscope itemtype="http://schema.org/Review">
+ <h4 class="element--hidden">Отзыв 2</h4>
     <blockquote class="citation" cite="https://www.imdb.com/review/rw3630062/?ref_=tt_urv">
         <p itemprop="reviewBody">5/10. История в&nbsp;этом фильме интересная, но&nbsp;подана она так скучно и&nbsp;шаблонно. Временами казалось, что я&nbsp;смотрю документалку. </p>
     </blockquote>
@@ -500,6 +605,7 @@ keywords: "фильмы, маркетологи, подборка фильмов
   <h3 class="bold">Отзывы</h3>
 
   <article class="blockquote--emphasis mt-m ml-2xl" itemprop="review" itemscope itemtype="http://schema.org/Review">
+  <h4 class="element--hidden">Отзыв 1</h4>
     <blockquote class="citation" cite="https://www.imdb.com/review/rw2400577/?ref_=tt_urv">
         <p itemprop="reviewBody">9/10. Это&nbsp;увлекательное и&nbsp;иногда трогательное путешествие сквозь эволюцию рекламы, которое заставляет задуматься.</p>
     </blockquote>
@@ -512,6 +618,7 @@ keywords: "фильмы, маркетологи, подборка фильмов
   </article>
 
  <article class="blockquote--emphasis mt-m ml-2xl" itemprop="review" itemscope itemtype="http://schema.org/Review">
+ <h4 class="element--hidden">Отзыв 2</h4>
     <blockquote class="citation" cite="https://www.imdb.com/review/rw2606746/?ref_=tt_urv">
         <p itemprop="reviewBody">4/10. Близорукий документальный фильм о&nbsp;рекламной индустрии. Авторы показывают рекламу как форму искусства, в&nbsp;которой рекламщики черпают вдохновение из&nbsp;воздуха. Вместо того чтобы рассматривать ее&nbsp;как просчитанный процесс, направленный на&nbsp;получение выгод для клиентов.</p>
     </blockquote>
@@ -578,6 +685,7 @@ keywords: "фильмы, маркетологи, подборка фильмов
   <h3 class="bold">Отзывы</h3>
 
   <article class="blockquote--emphasis mt-m ml-2xl" itemprop="review" itemscope itemtype="http://schema.org/Review">
+  <h4 class="element--hidden">Отзыв 1</h4>
     <blockquote class="citation" cite="https://www.imdb.com/review/rw2474492/?ref_=tt_urv">
         <p itemprop="reviewBody">9/10. Эта работа дает реальное представление о&nbsp;том, как большие голливудские блокбастеры получают такие высокие бюджеты, продаваясь рекламодателям.</p>
     </blockquote>
@@ -590,6 +698,7 @@ keywords: "фильмы, маркетологи, подборка фильмов
   </article>
 
  <article class="blockquote--emphasis mt-m ml-2xl" itemprop="review" itemscope itemtype="http://schema.org/Review">
+ <h4 class="element--hidden">Отзыв 2</h4>
     <blockquote class="citation" cite="https://www.imdb.com/review/rw4254688/?ref_=tt_urv">
         <p itemprop="reviewBody">5/10. Величайший фильм, который когда-либо продавался, осмеливается разоблачать тот факт, что в&nbsp;кино используется продакт-плейсмент! Однако, если вы&nbsp;разумное существо, то&nbsp;уже знаете об&nbsp;этом. Эта работа не&nbsp;несет никакой новой информации.  </p>
     </blockquote>
@@ -628,16 +737,17 @@ keywords: "фильмы, маркетологи, подборка фильмов
 			https://res.cloudinary.com/bartoshevich/image/upload/w_1200/f_auto,q_auto/v1705161156/site/films/moneybalL.jpg 1200w,
       https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1705161156/site/films/moneybalL.jpg 2048w"
       src="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1705161156/site/films/moneybalL.jpg" alt="кадр из фильма Человек, который изменил все" width="2048" height="1364" itemprop="contentUrl">
-<div class="figcaption">кадр из фильма</div>
+<div class="figcaption">фрагмент картины</div>
 </div>
 
-  <p><span class="bold">Зачем смотреть:</span> Фильм подчеркивает важность аналитики и&nbsp;принятия взвешенных решений на&nbsp;основе данных. </p>
+  <p><span class="bold">Зачем смотреть:</span> Картина подчеркивает важность аналитики и&nbsp;принятия взвешенных решений на&nbsp;основе данных. </p>
 
   
 <section>
   <h3 class="bold">Отзывы</h3>
 
   <article class="blockquote--emphasis mt-m ml-2xl" itemprop="review" itemscope itemtype="http://schema.org/Review">
+  <h4 class="element--hidden">Отзыв 1</h4>
     <blockquote class="citation" cite="https://www.imdb.com/review/rw7152993/?ref_=tt_urv">
         <p itemprop="reviewBody">10/10. Правда зачастую интереснее вымысла, и&nbsp;это действительно увлекательная история, основанная на&nbsp;реальных событиях.</p>
     </blockquote>
@@ -650,6 +760,7 @@ keywords: "фильмы, маркетологи, подборка фильмов
   </article>
 
  <article class="blockquote--emphasis mt-m ml-2xl" itemprop="review" itemscope itemtype="http://schema.org/Review">
+ <h4 class="element--hidden">Отзыв 2</h4>
     <blockquote class="citation" cite="https://www.imdb.com/review/rw2616281/?ref_=tt_urv">
         <p itemprop="reviewBody">5/10.  История интересная, но&nbsp;она движется так медленно, что я&nbsp;думаю, что лучше&nbsp;бы я&nbsp;прочитал книгу.  </p>
     </blockquote>
@@ -697,6 +808,7 @@ keywords: "фильмы, маркетологи, подборка фильмов
   <h3 class="bold">Отзывы</h3>
 
   <article class="blockquote--emphasis mt-m ml-2xl" itemprop="review" itemscope itemtype="http://schema.org/Review">
+  <h4 class="element--hidden">Отзыв 1</h4>
     <blockquote class="citation" cite="https://www.imdb.com/review/rw2580372/?ref_=tt_urv">
         <p itemprop="reviewBody">10/10. Думал, буду скучать до&nbsp;слёз. Но&nbsp;это прекрасный, трогательный, вызывающий документальный фильм о&nbsp;совершенстве, дисциплине, призвании и&nbsp;упорстве. </p>
     </blockquote>
@@ -709,6 +821,7 @@ keywords: "фильмы, маркетологи, подборка фильмов
   </article>
 
  <article class="blockquote--emphasis mt-m ml-2xl" itemprop="review" itemscope itemtype="http://schema.org/Review">
+ <h4 class="element--hidden">Отзыв 2</h4>
     <blockquote class="citation" cite="https://www.imdb.com/review/rw6372421/?ref_=tt_urv">
         <p itemprop="reviewBody">5/10. Фильм, безусловно, всесторонне рассматривает работу этого ресторана, но&nbsp;через некоторое время он&nbsp;стал для меня немного скучным.</p>
     </blockquote>
@@ -761,6 +874,7 @@ keywords: "фильмы, маркетологи, подборка фильмов
   <h3 class="bold">Отзывы</h3>
 
   <article class="blockquote--emphasis mt-m ml-2xl" itemprop="review" itemscope itemtype="http://schema.org/Review">
+  <h4 class="element--hidden">Отзыв 1</h4>
     <blockquote class="citation" cite="https://www.imdb.com/review/rw2804536/?ref_=tt_urv">
         <p itemprop="reviewBody">9/10. Сценарий потрясающий, сюжетная линия на&nbsp;протяжении всего фильма развивается быстро и&nbsp;заставляет постоянно&nbsp;думать. </p>
     </blockquote>
@@ -773,6 +887,7 @@ keywords: "фильмы, маркетологи, подборка фильмов
   </article>
 
  <article class="blockquote--emphasis mt-m ml-2xl" itemprop="review" itemscope itemtype="http://schema.org/Review">
+ <h4 class="element--hidden">Отзыв 2</h4>
     <blockquote class="citation" cite="https://www.imdb.com/review/rw2828787/?ref_=tt_urv">
         <p itemprop="reviewBody">5/10. В&nbsp;фильме есть несколько отличных моментов, где объясняются и&nbsp;показываются концепции маркетинга. К&nbsp;сожалению, драматическая и&nbsp;романтическая составляющие выполнены плохо. </p>
     </blockquote>

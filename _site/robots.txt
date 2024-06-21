@@ -5,6 +5,10 @@ Disallow: /assets/images/contact/ebrd__bartoshevich.pdf
 sitemap: https://bartoshevich.by/sitemap.xml
 Host: https://bartoshevich.by
 
+
+User-aget: AhrefsBot
+Allow: /
+
 User-agent: Amazonbot
 Disallow: /
 
