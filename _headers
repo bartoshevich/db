@@ -1,4 +1,7 @@
 /*
+
+    X-Forwarded-Proto: https
+    X-Forwarded-Host: bartoshevich.by
     
     X-XSS-Protection: 1; mode=block
     X-Content-Type-Options: nosniff

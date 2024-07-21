@@ -86,3 +86,36 @@ image: /assets/images/tizers/tizer-7.jpg
 <p>Немного дегтя. Спикеры семинара иногда показывали цифры, но&nbsp;не&nbsp;говорили, откуда они. А&nbsp;порой указывали «по&nbsp;данным исследований» без сноски, кто исследовал. Выглядело <a class="link" href="/blog/otlichie-marketologa-ot-brexuna/"><span class="noperenos">как брехня</span></a>. К&nbsp;тому&nbsp;же не&nbsp;указывать используемые источники информации&nbsp;— плохой тон.</p>
 <p>В&nbsp;качестве заключения отмечу, что в&nbsp;сфере продвижения интернет-проектов истины нет, есть сплит-тестирование. Каждую идею воспринимайте как гипотезу, проверяйте и&nbsp;используете&nbsp;то, что дает наибольшую отдачу.</p>
 </section>
+
+
+<footer class="row-gap--m mt-m">
+<h2 class="section__title h2 mb-m"> Дополнительные материалы</h2>
+<p class="mb-m">Для&nbsp;глубокого понимания различных аспектов маркетинга вы&nbsp;можете ознакомиться со&nbsp;следующими статьями: </p>
+<ul class="addictive-spacing">
+<li class="list-li">
+  <a href="/blog/marketing-bolshe-chem-prodazhi/" class="link"> От&nbsp;распродаж к&nbsp;стратегии: почему маркетинг&nbsp;&mdash; это больше, чем просто продажи</a>
+</li>
+<li class="list-li">
+  <a href="/uslugi/brand-conception/" class="link">Концепция бренда: значение, алгоритм создания</a>
+</li>
+<li class="list-li">
+  <a href="/blog/perfomance-and-brand-marketing/" class="link">Бренд и&nbsp;перфоманс маркетинг&nbsp;&mdash; что важно знать маркетологу</a>
+</li>
+<li class="list-li">
+  <a href="/blog/marketing-for-industrial-giants-12-archetypes/" class="link">Как 12 архетипов меняют B2B маркетинг</a>
+</li>
+
+<li class="list-li">
+  <a href="/blog/kak-privlech-klientov/" class="link">Клиентов привлекают убеждения, а&nbsp;не&nbsp;товары</a>
+</li>
+
+<li class="list-li">
+  <a href="/blog/system-marketing/" class="link">Системный маркетинг: от&nbsp;мифов к&nbsp;эффективной практике</a>
+</li>
+
+<li class="list-li">
+  <a href="https://bartoshevich.by/blog/value-based-price/" class="link">Переход от&nbsp;почасовой оплаты к&nbsp;ценностному ценообразованию</a>
+</li>
+
+</ul>
+</footer>
