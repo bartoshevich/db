@@ -44,7 +44,7 @@ image: /assets/images/main/bartoshevich@16x9.jpg
          <div class="full-bleed" itemscope itemtype="http://schema.org/ImageObject">	
             <link itemprop="url" href="https://res.cloudinary.com/bartoshevich/image/upload/v1695562479/site/bartoshevich_dmitry.jpg">
         
-     <img class="full-bleed image is-16by9" sizes="100vw"  loading="lazy" decoding="async" 
+     <img class="full-bleed image is-16by9" sizes="(max-width: 1100px) 100vw, (max-width: 1900px) 80vw, 50vw"  loading="lazy" decoding="async" 
                 srcset="https://res.cloudinary.com/bartoshevich/image/upload/w_640/f_auto,q_auto/v1695562479/site/bartoshevich_dmitry.jpg 640w,
                 https://res.cloudinary.com/bartoshevich/image/upload/w_1200/f_auto,q_auto/v1695562479/site/bartoshevich_dmitry.jpg 1200w,
           https://res.cloudinary.com/bartoshevich/image/upload/w_1600/f_auto,q_auto/v1695562479/site/bartoshevich_dmitry.jpg 1600w,
@@ -129,7 +129,7 @@ image: /assets/images/main/bartoshevich@16x9.jpg
       <div class="full-bleed"  itemscope itemtype="http://schema.org/ImageObject">
     	<link itemprop="url" href="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1700939446/site/ef.png" />
 
-<img class="full-bleed image" sizes="100vw" 
+<img class="full-bleed image" sizes="(max-width: 1100px) 100vw, (max-width: 1900px) 80vw, 50vw" 
 			srcset="https://res.cloudinary.com/bartoshevich/image/upload/w_640/f_auto,q_auto/v1700939446/site/ef.png 640w,
 			https://res.cloudinary.com/bartoshevich/image/upload/w_1200/f_auto,q_auto/v1700939446/site/ef.png 1200w,
       https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1700939446/site/ef.png 1700w" 
