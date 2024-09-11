@@ -8,6 +8,14 @@
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
+        <title>Трудовая миграция и маркетинг: вызовы работы в Африке</title>
+        <description>Екатерина Пажитных делится личным опытом работы директором по&amp;nbsp;маркетингу в&amp;nbsp;Сенегале, рассказывает об&amp;nbsp;адаптации, продвижении бизнеса, вызовах африканского рынка.</description>
+        <pubDate>Tue, 10 Sep 2024 00:00:00 +0500</pubDate>
+        <link>http://localhost:4000/blog/marketing-v-afrike-i-migraciya/</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/marketing-v-afrike-i-migraciya/</guid>
+      </item>
+    
+      <item>
         <title>Преодоление темных паттернов развивает бизнес</title>
         <description>Узнайте, как отказ от&amp;nbsp;темных паттернов повышает доверие клиентов и&amp;nbsp;устойчивость бизнеса. Применяйте этичные стратегии для долгосрочных отношений с&amp;nbsp;клиентами.</description>
         <pubDate>Mon, 04 Mar 2024 00:00:00 +0500</pubDate>
@@ -557,14 +565,6 @@
         <pubDate>Sat, 30 Jan 2016 00:00:00 +0600</pubDate>
         <link>http://localhost:4000/blog/konkurentnoe-preimushhestvo/</link>
         <guid isPermaLink="true">http://localhost:4000/blog/konkurentnoe-preimushhestvo/</guid>
-      </item>
-    
-      <item>
-        <title>Тенденции, которые нельзя игнорировать маркетологам</title>
-        <description>Пересмотреть привычные модели организации работы помогут эти семь трендов развития маркетинга и&amp;nbsp;изменения покупательского поведении.</description>
-        <pubDate>Sat, 16 Jan 2016 00:00:00 +0600</pubDate>
-        <link>http://localhost:4000/blog/sem-tendencij-marketinga/</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/sem-tendencij-marketinga/</guid>
       </item>
     
   </channel>

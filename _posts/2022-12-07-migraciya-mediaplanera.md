@@ -7,7 +7,7 @@ date:   2022-12-08
 last_modified_at: 2022-12-08
 categories: опыт
 permalink: "/blog/migraciya-mediaplanera/"
-tags: "управление опыт"
+tags: ["управление", "опыт"]
 image: /assets/images/tizers/tizer-76.jpg
 keywords: "миграция, медиапланирование, Германия, маркетолог в Германии"
 ---

@@ -37,7 +37,7 @@ image:
     <meta itemprop="name" content="{{ page.title }}">
     <meta itemprop="description" content=" {{ page.description }}">
 
-<h2 class="h2 bold">Все записи (83) </h2>
+<h2 class="h2 bold">Все записи (84) </h2>
 
   
 <ul class="row-gap--xl list-reset">
