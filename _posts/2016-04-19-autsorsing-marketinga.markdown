@@ -148,7 +148,7 @@ image: /assets/images/tizers/tizer-19.jpg
 
 
 <footer class="mt-m additive-spacing">
-<p class="mb-m "> Дополнительные материалы:</p>
+<p class="mb-m "> Идеи для развития:</p>
 <ul class="addictive-spacing">
 <li class="list-li">
   <a href="/blog/stars/" class="link"> О&nbsp;звездах и&nbsp;богах маркетинга</a>

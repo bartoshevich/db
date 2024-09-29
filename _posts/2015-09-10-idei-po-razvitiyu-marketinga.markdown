@@ -88,7 +88,7 @@ image: /assets/images/tizers/tizer-5.jpg
 </section>
 
 <footer class="additive-spacing">
-<p class="mb-m mt-m"> Дополнительные материалы</p>
+<p class="mb-m mt-m"> Идеи для развития:</p>
 <ul class="addictive-spacing">
 <li class="list-li">
   <a href="/blog/kak-privlech-klientov/" class="link"> Клиентов привлекают убеждения, а&nbsp;не&nbsp;товары </a>

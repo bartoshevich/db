@@ -189,7 +189,7 @@ keywords: "контроль исследовательских агентств"
 </section>
 
 <footer class="additive-spacing">
-<p class="mb-m mt-m italic"> Узнать больше</p>
+<p class="mb-m mt-m italic"> Идеи для развития:</p>
 <ul class="addictive-spacing">
 <li class="list-li">
   <a href="/blog/3-pravila-marketingovyx-issledovanij/" class="link"> Как&nbsp;выжать из&nbsp;маркетинговых исследований максимум: правила для руководителей</a>
@@ -199,6 +199,9 @@ keywords: "контроль исследовательских агентств"
 </li>
 <li class="list-li">
   <a href="/blog/autsorsing-marketinga/" class="link">Аутсорсинг маркетинговых услуг: как защитить деньги компании</a>
+</li>
+<li class="list-li">
+  <a href="/blog/marketing-bolshe-chem-prodazhi/" class="link">От&nbsp;распродаж к&nbsp;стратегии: почему маркетинг&nbsp;&mdash; это больше, чем просто продажи</a>
 </li>
 </ul>
 </footer>  

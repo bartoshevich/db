@@ -231,7 +231,7 @@ image: /assets/images/tizers/tizer-12.jpg
 
 
 <footer class="row-gap--m">
-<h2 class="section__title h2 mb-m"> Дополнительные материалы</h2>
+<h2 class="section__title h2 mb-m">Идеи для развития</h2>
 <p class="mb-m">Для более глубокого понимания различных аспектов маркетинга и анализа данных, вы можете ознакомиться со следующими статьями: </p>
 <ul class="addictive-spacing">
 <li class="list-li">

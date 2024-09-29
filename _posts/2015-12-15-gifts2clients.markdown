@@ -54,7 +54,7 @@ image: /assets/images/tizers/tizer-13.jpg
 </section>
 
 <footer class="mt-m additive-spacing">
-<p class="mb-m "> Дополнительные материалы:</p>
+<p class="mb-m "> Идеи для развития:</p>
 <ul >
 <li class="list-li">
   <a href="/blog/novogodnee-oformlenie-magazina/" class="link">Новогоднее оформление магазина</a>
@@ -62,6 +62,14 @@ image: /assets/images/tizers/tizer-13.jpg
 <li class="list-li">
   <a href="/blog/direktor-xochet-korporativ/" class="link">Статья для директора, который хочет организовать корпоратив</a>
 </li>
-
+<li class="list-li">
+  <a href="/blog/marketing-v-afrike-i-migraciya/" class="link"> Трудовая миграция и&nbsp;маркетинг: как работать там, где все иначе </a>
+</li>
+<li class="list-li">
+  <a href="/blog/filmy-dlya-marketologov/" class="link"> Кино, меняющее взгляд на&nbsp;маркетинг</a>
+</li>
+<li class="list-li">
+  <a href="/blog/vstrecha-pro-biznes/" class="link"> Встреча Про бизнес. Личный взгляд</a>
+</li>
 </ul>
 </footer>

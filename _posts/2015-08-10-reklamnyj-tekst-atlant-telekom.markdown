@@ -103,7 +103,7 @@ image: /assets/images/tizers/tizer-2.jpg
 </section>
 
 <footer class="additive-spacing">
-<p class="mb-m mt-m"> Дополнительные материалы:</p>
+<p class="mb-m mt-m"> Идеи для развития:</p>
 <ul class="addictive-spacing">
 <li class="list-li">
   <a href="/blog/dlya-tex-kto-pishet/" class="link"> Как написать сильный текст: полезные ресурсы</a>
@@ -113,6 +113,15 @@ image: /assets/images/tizers/tizer-2.jpg
 </li>
 <li class="list-li">
   <a href="/blog/editorial-policy/" class="link"> Зачем бренду редакционная политика</a>
+</li>
+<li class="list-li">
+  <a href="/blog/marketing-for-industrial-giants-12-archetypes/" class="link"> Как 12 архетипов меняют B2B маркетинг</a>
+</li>
+<li class="list-li">
+  <a href="/blog/filmy-dlya-marketologov/" class="link"> Кино, меняющее взгляд на&nbsp;маркетинг</a>
+</li>
+<li class="list-li">
+  <a href="/blog/chatgpt-mozhet-preobrazit-brend-i-reklamnye-kampanii/" class="link"> Использование ChatGPT в&nbsp;маркетинге: умные технологии для бизнеса</a>
 </li>
 </ul>
 </footer>

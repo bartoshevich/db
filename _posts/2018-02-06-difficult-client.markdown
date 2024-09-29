@@ -280,7 +280,7 @@ keywords: "проблемный клиент"
 
 
 <footer class="additive-spacing">
-<p class="mb-m mt-m"> Дополнительные материалы:</p>
+<p class="mb-m mt-m">Идеи для развития:</p>
 <ul class="addictive-spacing">
 
 <li class="list-li">
@@ -294,5 +294,10 @@ keywords: "проблемный клиент"
 <li class="list-li">
   <a href="/blog/otlichie-marketologa-ot-brexuna/" class="link">Как&nbsp;маркетолога отличить от&nbsp;брехуна</a>
 </li>
+
+<li class="list-li">
+  <a href="/blog/perfomance-and-brand-marketing/" class="link">Бренд и&nbsp;перфоманс маркетинг&nbsp;&mdash; что важно знать маркетологу</a>
+</li>
+
 </ul>
 </footer>

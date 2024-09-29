@@ -99,7 +99,7 @@ image: /assets/images/tizers/tizer-40.jpg
 
 
 <footer class="additive-spacing">
-<p class="mb-m mt-m"> Дополнительные материалы:</p>
+<p class="mb-m mt-m">Идеи для развития:</p>
 <ul class="addictive-spacing">
 <li class="list-li">
   <a href="/blog/accessibility/" class="link"> Доступность (accessibility) сайтов&nbsp;&mdash; новая норма</a>

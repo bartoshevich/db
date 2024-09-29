@@ -89,7 +89,7 @@ image: /assets/images/tizers/tizer-7.jpg
 
 
 <footer class="row-gap--m mt-m">
-<h2 class="section__title h2 mb-m"> Дополнительные материалы</h2>
+<h2 class="section__title h2 mb-m">Идеи для развития</h2>
 <p class="mb-m">Для&nbsp;глубокого понимания различных аспектов маркетинга вы&nbsp;можете ознакомиться со&nbsp;следующими статьями: </p>
 <ul class="addictive-spacing">
 <li class="list-li">

@@ -63,7 +63,7 @@ keywords: "психология в маркетинге, стратегии ма
 </section>
 
 <footer class="additive-spacing">
-<p class="mb-m mt-m"> Дополнительные материалы:</p>
+<p class="mb-m mt-m">Идеи для развития:</p>
 <ul class="addictive-spacing">
 <li class="list-li">
   <a href="/blog/difficult-clients/" class="link"> Делюсь опытом работы с&nbsp;проблемными клиентами</a>
@@ -73,6 +73,13 @@ keywords: "психология в маркетинге, стратегии ма
 </li>
 <li class="list-li">
   <a href="/blog/put-marketologa/" class="link"> Дао маркетолога</a>
+</li>
+
+<li class="list-li">
+  <a href="/blog/filmy-dlya-marketologov/" class="link">Кино, меняющее взгляд на&nbsp;маркетинг</a>
+</li>
+<li class="list-li">
+  <a href="/blog/marketing-bolshe-chem-prodazhi/" class="link"> От&nbsp;распродаж к&nbsp;стратегии: почему маркетинг&nbsp;&mdash; это больше, чем просто продажи</a>
 </li>
 </ul>
 </footer>

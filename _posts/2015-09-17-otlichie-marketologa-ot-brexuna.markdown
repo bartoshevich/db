@@ -55,7 +55,7 @@ keywords: "характеристика маркетолога"
 </section>
 
 <footer class="additive-spacing">
-<p class="mb-m mt-m"> Дополнительные материалы:</p>
+<p class="mb-m mt-m"> Идеи для развития:</p>
 <ul class="addictive-spacing">
 <li class="list-li">
   <a href="/blog/stars/" class="link"> О&nbsp;звездах и&nbsp;богах маркетинга</a>
@@ -65,6 +65,12 @@ keywords: "характеристика маркетолога"
 </li>
 <li class="list-li">
   <a href="/blog/igra/" class="link"> Маркетинг и&nbsp;игра в&nbsp;«Cпасителя»</a>
+</li>
+<li class="list-li">
+  <a href="/blog/filmy-dlya-marketologov/" class="link"> Кино, меняющее взгляд на&nbsp;маркетинг</a>
+</li>
+<li class="list-li">
+  <a href="/blog/chatgpt-mozhet-preobrazit-brend-i-reklamnye-kampanii/" class="link"> Использование ChatGPT в&nbsp;маркетинге: умные технологии для бизнеса</a>
 </li>
 </ul>
 </footer>

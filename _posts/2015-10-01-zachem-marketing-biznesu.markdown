@@ -89,7 +89,7 @@ keywords: "маркетинг, маркетинг для бизнеса, экс�
 </div>
 
 <footer class="additive-spacing mt-2">
-<p class="mb-m mt-m"> Дополнительные материалы:</p>
+<p class="mb-m mt-m">Идеи для развития:</p>
 <ul class="addictive-spacing">
 <li class="list-li">
   <a href="/blog/pochemu-net-prodazh/" class="link">Почему нет продаж и&nbsp;что делать</a>

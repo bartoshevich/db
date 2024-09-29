@@ -90,13 +90,19 @@ image: /assets/images/tizers/tizer-32.jpg
 
 
 <footer class="mt-m additive-spacing">
-<p class="mb-m "> Дополнительные материалы:</p>
+<p class="mb-m ">Идеи для развития:</p>
 <ul >
 <li class="list-li">
   <a href="/blog/gifts2clients/" class="link">Подарки клиентам на&nbsp;Новый&nbsp;год</a>
 </li>
 <li class="list-li">
   <a href="/blog/direktor-xochet-korporativ/" class="link">Статья для директора, который хочет организовать корпоратив</a>
+</li>
+<li class="list-li">
+  <a href="/blog/ethical-marketing-dark-patterns/" class="link">Преодоление темных паттернов&nbsp;&mdash; путь к&nbsp;устойчивому бизнесу</a>
+</li>
+<li class="list-li">
+  <a href="/blog/pes-global-brand-concept/" class="link">Создаю концепцию бренда для компании «PES GLOBAL»</a>
 </li>
 
 </ul>

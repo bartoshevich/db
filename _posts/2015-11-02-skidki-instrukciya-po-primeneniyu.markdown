@@ -60,7 +60,7 @@ image: /assets/images/tizers/tizer-11.jpg
 <p>Скидки&nbsp;— это не&nbsp;просто инструмент для стимулирования продаж. Они являются частью большой картины вашей маркетинговой стратегии и&nbsp;могут играть ключевую роль в&nbsp;формировании восприятия вашего бренда. Правильно организованная система скидок не&nbsp;только привлечет новых клиентов, но&nbsp;и&nbsp;укрепит отношения с&nbsp;текущей аудиторией, подчеркнет уникальные качества вашего продукта и&nbsp;даже усилит социальную и&nbsp;культурную составляющую вашего бренда. </p>
 
 <footer class="additive-spacing">
-<p class="mb-m mt-m"> Дополнительные материалы:</p>
+<p class="mb-m mt-m">Идеи для развития:</p>
 <ul class="addictive-spacing">
 
 <li class="list-li">
@@ -71,6 +71,12 @@ image: /assets/images/tizers/tizer-11.jpg
 </li>
 <li class="list-li">
   <a class="link" href="/blog/marketing-v-krizis/">Маркетинг в&nbsp;кризис: стратегия для брендов</a>
+</li>
+<li class="list-li">
+  <a href="/blog/primer-swot-analiza/" class="link"> SWOT-анализ предприятия. Разбираю пример </a>
+</li>
+<li class="list-li">
+  <a href="/blog/marketing-v-afrike-i-migraciya/" class="link"> Трудовая миграция и&nbsp;маркетинг: как работать там, где все иначе </a>
 </li>
 </ul>
 </footer>

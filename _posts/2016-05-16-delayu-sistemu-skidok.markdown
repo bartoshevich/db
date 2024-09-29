@@ -53,7 +53,7 @@ image: /assets/images/tizers/tizer-21.jpg
 </section>
 </section>
 
-<p class="mb-m mt-m"> Дополнительные материалы</p>
+<p class="mb-m mt-m"> Идеи для развития:</p>
 <ul class="addictive-spacing">
 <li class="list-li">
   <a href="/blog/marketers/" class="link"> Маркетеры или маркетологи&nbsp;&mdash; кто нужен компании</a>

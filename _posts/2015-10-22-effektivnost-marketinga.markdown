@@ -88,7 +88,7 @@ image: /assets/images/tizers/tizer-10.jpg
 
 
 <footer class="additive-spacing">
-<p class="mb-m mt-m"> Эти статьи могут вас заинтересовать:</p>
+<p class="mb-m mt-m"> Идеи для развития:</p>
 <ul class="addictive-spacing">
 <li class="list-li">
   <a href="/blog/seth-godin/" class="link"> Сет Годин «Это маркетинг». Ключевые идеи книги</a>

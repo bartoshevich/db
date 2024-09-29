@@ -100,7 +100,7 @@ keywords: "новое рабочее место маркетолога"
 </section>
 
 <footer class="mt-m additive-spacing">
-<p class="mb-m "> Дополнительные материалы:</p>
+<p class="mb-m "> Идеи для развития:</p>
 <ul class="addictive-spacing">
 <li class="list-li">
   <a href="/blog/perfomance-and-brand-marketing/" class="link"> Бренд или конверсия&nbsp;&mdash; на&nbsp;чем фокусироваться маркетологу</a>

@@ -135,7 +135,7 @@ keywords: "ChatGPT, маркетинг, бренд, рекламная камп�
 
 
 <footer class="mt-m additive-spacing">
-<p class="mb-m "> Дополнительные материалы:</p>
+<p class="mb-m ">Идеи для развития:</p>
 <ul class="addictive-spacing">
 <li class="list-li">
   <a href="/blog/crowdconference/" class="link"> Новые технологии: что нужно использовать бизнесу</a>

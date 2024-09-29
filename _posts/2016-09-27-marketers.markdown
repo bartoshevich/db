@@ -138,7 +138,7 @@ image: /assets/images/tizers/tizer-29.jpg
 
 
 <footer class="additive-spacing">
-<p class="mb-m mt-m"> Также читают:</p>
+<p class="mb-m mt-m"> Идеи для развития:</p>
 <ul class="addictive-spacing">
 <li class="list-li">
   <a href="/blog/otlichie-marketologa-ot-brexuna/" class="link"> Как маркетолога отличить от&nbsp;брехуна</a>

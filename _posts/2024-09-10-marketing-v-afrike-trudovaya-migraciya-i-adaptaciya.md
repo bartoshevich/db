@@ -663,7 +663,7 @@ keywords: "маркетинг в Африке, работа в Сенегале,
 
 
 <footer class="additive-spacing">
-<p class="mb-m mt-m bold"> Статьи для любознательных:</p>
+<p class="mb-m mt-m bold"> Идеи для развития:</p>
 <ul class="addictive-spacing">
 <li class="list-li">
   <a href="/blog/migraciya-mediaplanera/" class="link"> Медиапланирование западнее Буга: путевые заметки трудового мигранта</a>

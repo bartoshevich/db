@@ -104,7 +104,7 @@ image: /assets/images/tizers/tizer-4.jpg
 
 
 <footer class="additive-spacing">
-<p class="mb-m mt-m"> Интересно почитать</p>
+<p class="mb-m mt-m"> Идеи для развития:</p>
 <ul class="addictive-spacing">
 <li class="list-li">
   <a href="/blog/marketers/" class="link"> Мастер-класс по&nbsp;найму маркетологов</a>
@@ -114,6 +114,12 @@ image: /assets/images/tizers/tizer-4.jpg
 </li>
 <li class="list-li">
   <a href="/blog/share-of-searches/" class="link"> Доля в&nbsp;поиске&nbsp;&mdash; новый показатель в&nbsp;маркетинге</a>
+</li>
+<li class="list-li">
+  <a href="/blog/how-to-effectively-complete-tasks-and-manage-projects/" class="link"> Почему задачи не&nbsp;выполняются и&nbsp;как это исправить</a>
+</li>
+<li class="list-li">
+  <a href="/blog/100-dnej-marketologa/" class="link"> Первые сто дней маркетолога на&nbsp;новом рабочем&nbsp;месте</a>
 </li>
 </ul>
 </footer>  

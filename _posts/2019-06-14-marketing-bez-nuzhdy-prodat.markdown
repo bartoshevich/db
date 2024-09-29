@@ -60,7 +60,7 @@ keywords: "Маркетинг, Продажи, Бизнес-стратегия, 
 
 
 <footer class="additive-spacing">
-<p class="mb-m mt-m"> Эти материалы могут заинтересовать:</p>
+<p class="mb-m mt-m">Идеи для развития:</p>
 <ul class="addictive-spacing">
 <li class="list-li">
   <a href="/blog/choice/" class="link"> Выбор концепции рекламной кампании: почему одна идея лучше трех </a>
