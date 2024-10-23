@@ -80,7 +80,7 @@
 
       const MIN_COPY_LENGTH = 1000;
       const MAX_COPY_LENGTH = 2000;
-      const MAX_UNMODIFIED_LENGTH = 150;
+      const MAX_UNMODIFIED_LENGTH = 250;
 
       if (originalText.length <= MAX_UNMODIFIED_LENGTH) {
           if (e.clipboardData) {
@@ -95,9 +95,6 @@
       var truncatedText = originalText.substring(0, maxLength);
       
       var words = truncatedText.split(' ');
-      if (words.length > 1) {
-                words.pop();
-            }
       truncatedText = words.join(' ');
 
      
