@@ -78,17 +78,28 @@ keywords: "фильмы, маркетологи, подборка фильмов
 </ul>
 </nav>
 
+
+
 <article id="flaming-hot-2023" class="row-gap--m" itemscope itemtype="http://schema.org/Movie">
-  <h2 itemprop="name" class="section__title h1 bold">Обжигающе горячий / Flaming Hot (2023)</h2>
+ <meta itemprop="image" content="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1718114716/site/films/hot.jpg">
+  <h2 itemprop="name" class="section__title h1 bold">Обжигающе горячий / <span lang="en">Flaming Hot</span> (2023)</h2>
   <meta itemprop="dateCreated" content="2023">
-  <p><span class="bold">Режиссер:</span> <span itemprop="director" itemscope itemtype="http://schema.org/Person"><span itemprop="name">Ева Лонгория</span></span><br>
-  <span class="bold">IMDb рейтинг:</span> <span itemprop="aggregateRating" itemscope itemtype="http://schema.org/AggregateRating">
-  <meta itemprop="ratingCount" content="17000">
-  <meta itemprop="bestRating" content="10">
-  <span itemprop="ratingValue">6.7</span>/10</span></p>
+  <p>
+    <span class="bold">Режиссер:</span> 
+    <span itemprop="director" itemscope itemtype="http://schema.org/Person">
+      <span itemprop="name">Ева Лонгория</span>
+    </span>
+    <br>
+    <span class="bold">IMDb рейтинг:</span>
+    <span itemprop="aggregateRating" itemscope itemtype="http://schema.org/AggregateRating">
+    <meta itemprop="ratingCount" content="17000">
+    <meta itemprop="bestRating" content="10">
+    <meta itemprop="worstRating" content="1">
+    <span itemprop="ratingValue">6.7</span>/10</span>
+  </p>
   <p itemprop="description">Картина основана на&nbsp;автобиографической книге Ричарда Монтаньесе, которого называют крестным отцом латиноамериканского маркетинга. Он рассказывает историю создания Flamin' Hot Cheetos. Неизвестно, все&nbsp;ли было так на&nbsp;самом деле, но&nbsp;сама книга уж&nbsp;точно добавила лояльности к&nbsp;Frito-Lay в&nbsp;среде мексиканцев.  </p>
 
- <div class="figure" itemprop="image" itemscope itemtype="http://schema.org/ImageObject">
+ <div class="figure">
 <link itemprop="url" href="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1718114716/site/films/hot.jpg">
 <img class="image" loading="lazy" decoding="async" 
      sizes="100vw" 
@@ -96,7 +107,7 @@ keywords: "фильмы, маркетологи, подборка фильмов
 			https://res.cloudinary.com/bartoshevich/image/upload/w_1200/f_auto,q_auto/v1718114716/site/films/hot.jpg 1200w,
       https://res.cloudinary.com/bartoshevich/image/upload/w_1980/f_auto,q_auto/v1718114716/site/films/hot.jpg 1980w,
       https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1718114716/site/films/hot.jpg 2160w"
-      src="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1718114716/site/films/hot.jpg" alt="Сын главного героя тестирует Flamin' Hot Cheetos, участвуя в разработке нового продукта" width="2160" height="1440" itemprop="contentUrl">
+      src="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1718114716/site/films/hot.jpg" alt="Сын главного героя тестирует Flamin' Hot Cheetos, участвуя в разработке нового продукта" width="2160" height="1440" >
 <div class="figcaption">сцена из картины: в поисках того самого вкуса</div>
 </div>
 
@@ -107,28 +118,39 @@ keywords: "фильмы, маркетологи, подборка фильмов
 
   <article class="blockquote--emphasis mt-m ml-2xl" itemprop="review" itemscope itemtype="http://schema.org/Review">
   <h4 class="element--hidden">Отзыв 1</h4>
-    <blockquote class="citation" cite="https://www.imdb.com/review/rw9115068/?ref_=rw_urv">
-        <p itemprop="reviewBody">10/10. Мне совершенно безразлично, правда это или нет. Это была очень эмоциональная история и&nbsp;очень хорошо сыгранная. Она захватила меня с&nbsp;самого начала и&nbsp;держала до&nbsp;конца.</p>
+   <meta itemprop="datePublished" content="2023-07-11">
+    <div itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating">
+      <meta itemprop="ratingValue" content="10">
+      <meta itemprop="bestRating" content="10">
+    </div>
+    <blockquote class="citation" cite="https://www.imdb.com/review/rw9115068/?ref_=rw_urv" itemprop="reviewBody"> 
+        <p>10/10. Мне совершенно безразлично, правда это или нет. Это была очень эмоциональная история и&nbsp;очень хорошо сыгранная. Она захватила меня с&nbsp;самого начала и&nbsp;держала до&nbsp;конца.</p>
     </blockquote>
     <footer class="citation__author">
         — <span itemprop="author" itemscope itemtype="http://schema.org/Person">
             <span itemprop="name"><cite>пользователь IMDb: rjb-51149 </cite></span>
         </span>
     </footer>
-      <meta itemprop="itemReviewed" itemscope itemtype="http://schema.org/Movie" content="Обжигающе горячий / Flaming Hot (2023)">
+     
   </article>
 
  <article class="blockquote--emphasis mt-m ml-2xl" itemprop="review" itemscope itemtype="http://schema.org/Review">
  <h4 class="element--hidden">Отзыв 2</h4>
-    <blockquote class="citation" cite="https://www.imdb.com/review/rw9130209/?ref_=rw_urv">
-        <p itemprop="reviewBody">5/10. Проведя исследование на&nbsp;эту тему, я&nbsp;так и&nbsp;не&nbsp;понял, сколько правды в&nbsp;этой &laquo;правдивой истории&raquo;. Большинство событий&nbsp;&mdash; это версия Ричарда, и&nbsp;нет никаких доказательств, подтверждающих его утверждения об&nbsp;изобретении Flamin&rsquo; Hot Cheetos.</p>
+    <meta itemprop="datePublished" content="2023-07-18">
+    <div itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating">
+      <meta itemprop="ratingValue" content="5">
+      <meta itemprop="bestRating" content="10">
+    </div>
+
+    <blockquote class="citation" cite="https://www.imdb.com/review/rw9130209/?ref_=rw_urv" itemprop="reviewBody">
+        <p>5/10. Проведя исследование на&nbsp;эту тему, я&nbsp;так и&nbsp;не&nbsp;понял, сколько правды в&nbsp;этой &laquo;правдивой истории&raquo;. Большинство событий&nbsp;&mdash; это версия Ричарда, и&nbsp;нет никаких доказательств, подтверждающих его утверждения об&nbsp;изобретении Flamin&rsquo; Hot Cheetos.</p>
     </blockquote>
     <footer class="citation__author">
         — <span itemprop="author" itemscope itemtype="http://schema.org/Person">
             <span itemprop="name"><cite>пользователь IMDb: paulclaassen </cite></span>
         </span>
     </footer>
-      <meta itemprop="itemReviewed" itemscope itemtype="http://schema.org/Movie" content="Обжигающе горячий / Flaming Hot (2023)">
+      
   </article>
 
 </section>
@@ -139,23 +161,33 @@ keywords: "фильмы, маркетологи, подборка фильмов
 
 
 
+
+
+
 <article id="social-dilemma-2020" class="row-gap--m mt-m" itemscope itemtype="http://schema.org/Movie">
-  <h2 itemprop="name" class="section__title h1 bold">Социальная дилемма / The Social Dilemma (2020)</h2>
+ <meta itemprop="image" content="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1711824420/site/films/social_dilemma.jpg">
+  <h2 itemprop="name" class="section__title h1 bold">Социальная дилемма / <span lang="en">The Social Dilemma</span> (2020)</h2>
   <meta itemprop="dateCreated" content="2020">
-  <p><span class="bold">Режиссер:</span> <span itemprop="director" itemscope itemtype="http://schema.org/Person"><span itemprop="name"> Джефф Орловски</span></span><br>
+  <p>
+  <span class="bold">Режиссер:</span> 
+  <span itemprop="director" itemscope itemtype="http://schema.org/Person">
+    <span itemprop="name"> Джефф Орловски</span>
+  </span>
+  <br>
   <span class="bold">IMDb рейтинг:</span> <span itemprop="aggregateRating" itemscope itemtype="http://schema.org/AggregateRating">
   <meta itemprop="ratingCount" content="90000">
   <meta itemprop="bestRating" content="10">
-  <span itemprop="ratingValue">7.6</span>/10</span></p>
+  <meta itemprop="worstRating" content="1">
+  <span itemprop="ratingValue">7.6</span>/10</span>
+  </p>
   <p itemprop="description">Документальная драма о&nbsp;том, как социальные сети программируют людей. За&nbsp;первые 4&nbsp;недели ее посмотрели 38&nbsp;миллионов зрителей. Это один из&nbsp;самых обсуждаемых фильмов Netflix.  </p>
-<meta itemprop="image" content="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1711824420/site/films/social_dilemma.jpg">
-
 
 <div class="full-bleed figure" itemprop="trailer" itemscope itemtype="https://schema.org/VideoObject">
+ <meta itemprop="name" content="Социальная дилемма. Фильм.">
+ <meta itemprop="description" content="Документальная драма о том, как социальные сети программируют людей">
  	<link itemprop="url" href="https://youtu.be/vMvBpbeZiZs" >
 	<link itemprop="contentUrl" href="https://youtu.be/vMvBpbeZiZs" >
 	<link itemprop="thumbnailUrl" href="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1711824420/site/films/social_dilemma.jpg" >
- 	<meta itemprop="name" content="Социальная дилемма. Фильм." >
     <meta itemprop="uploadDate" content="2021-01-27T00:00:00+03:00">
   	<meta itemprop="duration" content="PT1H33M9S">
  	<meta itemprop="isFamilyFriendly" content="true">
@@ -185,28 +217,41 @@ keywords: "фильмы, маркетологи, подборка фильмов
 
   <article class="blockquote--emphasis mt-m ml-2xl" itemprop="review" itemscope itemtype="http://schema.org/Review">
   <h4 class="element--hidden">Отзыв 1</h4>
-    <blockquote class="citation" cite="https://www.imdb.com/review/rw6080690/?ref_=rw_urv">
-        <p itemprop="reviewBody">10/10. Это&nbsp;не&nbsp;документальная лента о&nbsp;пагубном влиянии социальных сетей. Скорее, это подробный анализ бизнес-моделей этих компаний. Один из&nbsp;лучших проницательных документальных фильмов о&nbsp;социальных сетях.</p>
+   <meta itemprop="datePublished" content="2020-09-10">
+      <div itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating">
+        <meta itemprop="ratingValue" content="10">
+        <meta itemprop="bestRating" content="10">
+        <meta itemprop="worstRating" content="1">
+      </div>
+
+    <blockquote class="citation" cite="https://www.imdb.com/review/rw6080690/?ref_=rw_urv" itemprop="reviewBody">
+        <p>10/10. Это&nbsp;не&nbsp;документальная лента о&nbsp;пагубном влиянии социальных сетей. Скорее, это подробный анализ бизнес-моделей этих компаний. Один из&nbsp;лучших проницательных документальных фильмов о&nbsp;социальных сетях.</p>
     </blockquote>
     <footer class="citation__author">
         — <span itemprop="author" itemscope itemtype="http://schema.org/Person">
             <span itemprop="name"><cite>пользователь IMDb: sriramthestranger </cite></span>
         </span>
     </footer>
-    <meta itemprop="itemReviewed" itemscope itemtype="http://schema.org/Movie" content="Социальная дилемма / The Social Dilemma (2020)">
+    
   </article>
 
  <article class="blockquote--emphasis mt-m ml-2xl" itemprop="review" itemscope itemtype="http://schema.org/Review">
  <h4 class="element--hidden">Отзыв 2</h4>
-    <blockquote class="citation" cite="https://www.imdb.com/review/rw6113427/?ref_=tt_urv">
-        <p itemprop="reviewBody">5/10. Все, о&nbsp;чем они говорили, для меня не&nbsp;ново. Преувеличенные кинематографические визуальные эффекты сделали его больше похожим на&nbsp;постановочное представление. Самая смешная часть в&nbsp;том, что они высмеивали все другие социальные сети, кроме своей. Они должны были&nbsp;бы включить рассказ о&nbsp;Netflix. Ведь это тоже социальная платформа! </p>
+ <meta itemprop="datePublished" content="2024-01-13">
+      <div itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating">
+        <meta itemprop="ratingValue" content="5">
+        <meta itemprop="bestRating" content="10">
+        <meta itemprop="worstRating" content="1">
+      </div>
+    <blockquote class="citation" cite="https://www.imdb.com/review/rw6113427/?ref_=tt_urv" itemprop="reviewBody">
+        <p>5/10. Все, о&nbsp;чем они говорили, для меня не&nbsp;ново. Преувеличенные кинематографические визуальные эффекты сделали его больше похожим на&nbsp;постановочное представление. Самая смешная часть в&nbsp;том, что они высмеивали все другие социальные сети, кроме своей. Они должны были&nbsp;бы включить рассказ о&nbsp;Netflix. Ведь это тоже социальная платформа! </p>
     </blockquote>
     <footer class="citation__author">
         — <span itemprop="author" itemscope itemtype="http://schema.org/Person">
             <span itemprop="name"><cite>пользователь IMDb: gppanicker </cite></span>
         </span>
     </footer>
-      <meta itemprop="itemReviewed" itemscope itemtype="http://schema.org/Movie" content="Социальная дилемма / The Social Dilemma (2020)">
+     
   </article>
 
 </section>
@@ -222,15 +267,16 @@ keywords: "фильмы, маркетологи, подборка фильмов
 
 
 <article id="99-francs-2009" class="row-gap--m mt-m" itemscope itemtype="http://schema.org/Movie">
-  <h2 itemprop="name" class="section__title h1 bold">99 франков / 99 francs (2009)</h2>
-  <meta itemprop="dateCreated" content="2009">
+<meta itemprop="image" content="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1705161155/site/films/99_francs.jpg">
+
+  <h2 itemprop="name" class="section__title h1 bold">99 франков / 99 francs (2007)</h2>
+  <meta itemprop="dateCreated" content="2007">
   <p><span class="bold">Режиссер:</span> <span itemprop="director" itemscope itemtype="http://schema.org/Person"><span itemprop="name"> Ян Кунен</span></span><br>
   <span class="bold">IMDb рейтинг:</span> <span itemprop="aggregateRating" itemscope itemtype="http://schema.org/AggregateRating">
   <meta itemprop="ratingCount" content="21000">
   <meta itemprop="bestRating" content="10">
   <span itemprop="ratingValue">7.2</span>/10</span></p>
   <p itemprop="description">Провокационное кино об&nbsp;успешном копирайтере, который постепенно начинает разочаровываться в&nbsp;мире рекламы. </p>
-<meta itemprop="image" content="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1705161155/site/films/99_francs.jpg">
 
 
 <div class="full-bleed figure" itemprop="trailer" itemscope itemtype="https://schema.org/VideoObject">
@@ -270,28 +316,40 @@ keywords: "фильмы, маркетологи, подборка фильмов
 
   <article class="blockquote--emphasis mt-m ml-2xl" itemprop="review" itemscope itemtype="http://schema.org/Review">
   <h4 class="element--hidden">Отзыв 1</h4>
-    <blockquote class="citation" cite="https://www.imdb.com/review/rw1946382/?ref_=tt_urv">
-        <p itemprop="reviewBody">10/10. Это&nbsp;определенно не&nbsp;мейнстримовая лента. Если вы&nbsp;постоянно стремитесь заглянуть глубже в&nbsp;умы и&nbsp;мысли людей, эта картина для вас. Если вы&nbsp;творческая личность, будь&nbsp;то программист, дизайнер или просто хотите узнать, что происходит в&nbsp;мире творческих сообществ, вам тоже понравится этот фильм.</p>
+  <meta itemprop="datePublished" content="2008-09-15">
+      <div itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating">
+        <meta itemprop="ratingValue" content="10">
+        <meta itemprop="bestRating" content="10">
+        <meta itemprop="worstRating" content="1">
+      </div>
+    <blockquote class="citation" cite="https://www.imdb.com/review/rw1946382/?ref_=tt_urv" itemprop="reviewBody">
+        <p >10/10. Это&nbsp;определенно не&nbsp;мейнстримовая лента. Если вы&nbsp;постоянно стремитесь заглянуть глубже в&nbsp;умы и&nbsp;мысли людей, эта картина для вас. Если вы&nbsp;творческая личность, будь&nbsp;то программист, дизайнер или просто хотите узнать, что происходит в&nbsp;мире творческих сообществ, вам тоже понравится этот фильм.</p>
     </blockquote>
     <footer class="citation__author">
         — <span itemprop="author" itemscope itemtype="http://schema.org/Person">
             <span itemprop="name"><cite>пользователь IMDb: jackfuchs </cite></span>
         </span>
     </footer>
-    <meta itemprop="itemReviewed" itemscope itemtype="http://schema.org/Movie" content="99 франков / 99 francs (2009)">
+    
   </article>
 
  <article class="blockquote--emphasis mt-m ml-2xl" itemprop="review" itemscope itemtype="http://schema.org/Review">
  <h4 class="element--hidden">Отзыв 2</h4>
-    <blockquote class="citation" cite="https://www.imdb.com/review/rw7833724/?ref_=tt_urv">
-        <p itemprop="reviewBody">5/10. Отличная картина испорчена отчаянной попыткой сделать хэппи-энд.</p>
+ <meta itemprop="datePublished" content="2022-02-04">
+      <div itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating">
+        <meta itemprop="ratingValue" content="5">
+        <meta itemprop="bestRating" content="10">
+        <meta itemprop="worstRating" content="1">
+      </div>
+    <blockquote class="citation" cite="https://www.imdb.com/review/rw7833724/?ref_=tt_urv" itemprop="reviewBody">
+        <p >5/10. Отличная картина испорчена отчаянной попыткой сделать хэппи-энд.</p>
     </blockquote>
     <footer class="citation__author">
         — <span itemprop="author" itemscope itemtype="http://schema.org/Person">
             <span itemprop="name"><cite>пользователь IMDb: reaperr1337 </cite></span>
         </span>
     </footer>
-      <meta itemprop="itemReviewed" itemscope itemtype="http://schema.org/Movie" content="99 франков / 99 francs (2009)">
+      
   </article>
 
 </section>
@@ -305,22 +363,26 @@ keywords: "фильмы, маркетологи, подборка фильмов
 
 
 <article id="the-joneses-2009" class="row-gap--m mt-m" itemscope itemtype="http://schema.org/Movie">
-  <h2 itemprop="name" class="section__title h1 bold">Семейка Джонсов / The Joneses (2009)</h2>
+<meta itemprop="image" content="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1705163624/site/films/joneses.jpg">
+  <h2 itemprop="name" class="section__title h1 bold">Семейка Джонсов / <span lang="en">The Joneses</span> (2009)</h2>
   <meta itemprop="dateCreated" content="2009">
   <p><span class="bold">Режиссер:</span> <span itemprop="director" itemscope itemtype="http://schema.org/Person"><span itemprop="name">Деррик Борте</span></span><br>
   <span class="bold">IMDb рейтинг:</span> <span itemprop="aggregateRating" itemscope itemtype="http://schema.org/AggregateRating">
    <meta itemprop="ratingCount" content="42000">
    <meta itemprop="bestRating" content="10">
+    <meta itemprop="worstRating" content="1">
   <span itemprop="ratingValue">6.4</span>/10</span></p>
   <p itemprop="description">История «идеальной семьи», которая на&nbsp;самом деле является группой маркетологов, продвигающих разнообразные товары среди соседей и&nbsp;знакомых.  </p>
 
 
   <div class="full-bleed figure" itemprop="trailer" itemscope itemtype="https://schema.org/VideoObject">
+    <meta itemprop="name" content="Семейка Джонсов. Трейлер." >
+    <meta itemprop="description" content="История идеальной семьи, которая на&nbsp;самом деле является группой маркетологов">
     <link itemprop="url" href="https://youtu.be/3JhVvq1aKYY" >
     <link itemprop="contentUrl" href="https://youtu.be/3JhVvq1aKYY" >
     <link itemprop="thumbnailUrl" href="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1705163624/site/films/joneses.jpg" >
-     <meta itemprop="image" content="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1705163624/site/films/joneses.jpg">
-    <meta itemprop="name" content="Семейка Джонсов. Трейлер." >
+     
+    
       <meta itemprop="uploadDate" content="2014-10-01T00:00:00+03:00">
       <meta itemprop="duration" content="PT2M18S">
     <meta itemprop="isFamilyFriendly" content="true">
@@ -346,7 +408,7 @@ keywords: "фильмы, маркетологи, подборка фильмов
 
 
   <p><span class="bold">Зачем смотреть</span> <br>Главная тема киноленты&nbsp;— критика потребительской культуры и&nbsp;влияние скрытого маркетинга на&nbsp;общество. Герои картины сталкиваются с&nbsp;моральными дилеммами, связанными с&nbsp;работой. Эти моменты делают кино не&nbsp;только развлекательным, но&nbsp;и&nbsp;побуждают задуматься, где следует проводить границы в&nbsp;маркетинговых и&nbsp;рекламных кампаниях. </p>
-  <meta itemprop="image" content="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1705163624/site/films/joneses.jpg">
+ 
 
   
 <section>
@@ -354,28 +416,39 @@ keywords: "фильмы, маркетологи, подборка фильмов
 
   <article class="blockquote--emphasis mt-m ml-2xl" itemprop="review" itemscope itemtype="http://schema.org/Review">
   <h4 class="element--hidden">Отзыв 1</h4>
-    <blockquote class="citation" cite="https://www.imdb.com/review/rw2250458/?ref_=tt_urv">
-        <p itemprop="reviewBody">10/10. Все, что я&nbsp;могу сказать, это&nbsp;то, что мне&nbsp;бы очень хотелось видеть больше фильмов, в которых так тщательно подобраны циничные, комедийные и&nbsp;драматические элементы.</p>
+   <meta itemprop="datePublished" content="2010-05-15">
+      <div itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating">
+        <meta itemprop="ratingValue" content="10">
+        <meta itemprop="bestRating" content="10">
+        <meta itemprop="worstRating" content="1">
+      </div>
+    <blockquote class="citation" cite="https://www.imdb.com/review/rw2250458/?ref_=tt_urv" itemprop="reviewBody">
+        <p>10/10. Все, что я&nbsp;могу сказать, это&nbsp;то, что мне&nbsp;бы очень хотелось видеть больше фильмов, в которых так тщательно подобраны циничные, комедийные и&nbsp;драматические элементы.</p>
     </blockquote>
     <footer class="citation__author">
         — <span itemprop="author" itemscope itemtype="http://schema.org/Person">
             <span itemprop="name"><cite>пользователь IMDb: elm_trees </cite></span>
         </span>
     </footer>
-    <meta itemprop="itemReviewed" itemscope itemtype="http://schema.org/Movie" content="Семейка Джонсов / The Joneses (2009)">
   </article>
 
  <article class="blockquote--emphasis mt-m ml-2xl" itemprop="review" itemscope itemtype="http://schema.org/Review">
  <h4 class="element--hidden">Отзыв 2</h4>
-    <blockquote class="citation" cite="https://www.imdb.com/review/rw2131532/?ref_=tt_urv">
-        <p itemprop="reviewBody">5/10. Замысел замечательный&nbsp;&mdash; все не&nbsp;так, как кажется. Но&nbsp;комедийной отдачи просто нет. Фильм довольно медленный и&nbsp;предсказуемый на&nbsp;протяжении первых двух с&nbsp;половиной актов. Однако вторая половина последнего акта была отличной и&nbsp;полна сюрпризов, что несколько реабилитировало картину. </p>
+ <meta itemprop="datePublished" content="2009-09-24">
+      <div itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating">
+        <meta itemprop="ratingValue" content="5">
+        <meta itemprop="bestRating" content="10">
+        <meta itemprop="worstRating" content="1">
+      </div>
+    <blockquote class="citation" cite="https://www.imdb.com/review/rw2131532/?ref_=tt_urv" itemprop="reviewBody">
+        <p>5/10. Замысел замечательный&nbsp;&mdash; все не&nbsp;так, как кажется. Но&nbsp;комедийной отдачи просто нет. Фильм довольно медленный и&nbsp;предсказуемый на&nbsp;протяжении первых двух с&nbsp;половиной актов. Однако вторая половина последнего акта была отличной и&nbsp;полна сюрпризов, что несколько реабилитировало картину. </p>
     </blockquote>
     <footer class="citation__author">
         — <span itemprop="author" itemscope itemtype="http://schema.org/Person">
             <span itemprop="name"><cite>пользователь IMDb: larry-411 </cite></span>
         </span>
     </footer>
-      <meta itemprop="itemReviewed" itemscope itemtype="http://schema.org/Movie" content="Семейка Джонсов / The Joneses (2009)">
+     
   </article>
 
 </section>
@@ -388,22 +461,25 @@ keywords: "фильмы, маркетологи, подборка фильмов
 
 
 <article id="vogel" class="row-gap--m mt-m" itemscope itemtype="http://schema.org/Movie">
-  <h2 itemprop="name" class="section__title h1 bold">Bиктop Фoгeль&nbsp;&mdash; Kopoль peклaмы&nbsp;/ Viktor Vogel&nbsp;&mdash; Commercial Man (2001)</h2>
+ <meta itemprop="image" content="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1718970750/site/films/vogel.jpg">
+  <h2 itemprop="name" class="section__title h1 bold">Bиктop Фoгeль&nbsp;&mdash; Kopoль peклaмы&nbsp;/ <span lang="en">Viktor Vogel&nbsp;&mdash; Commercial Man</span> (2001)</h2>
   <meta itemprop="dateCreated" content="2001">
   <p><span class="bold">Режиссер:</span> <span itemprop="director" itemscope itemtype="http://schema.org/Person"><span itemprop="name">Лapc Kpaумe</span></span><br>
   <span class="bold">IMDb рейтинг:</span> <span itemprop="aggregateRating" itemscope itemtype="http://schema.org/AggregateRating">
    <meta itemprop="ratingCount" content="762">
    <meta itemprop="bestRating" content="10">
+   <meta itemprop="worstRating" content="1">
   <span itemprop="ratingValue">5.7</span>/10</span></p>
   <p itemprop="description">Закулисная жизнь рекламного бизнеса глазами амбициозного Виктора Фогеля, которому предложили работу в&nbsp;крупном рекламном агентстве. </p>
 
 
   <div class="full-bleed figure" itemprop="trailer" itemscope itemtype="https://schema.org/VideoObject">
+    <meta itemprop="name" content="Пример креативной рекламы (фильм Виктор Фогель - Король рекламы)" >
     <link itemprop="url" href="https://youtu.be/YR5yjbScyAI" >
     <link itemprop="contentUrl" href="https://youtu.be/YR5yjbScyAI" >
     <link itemprop="thumbnailUrl" href="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1718970750/site/films/vogel.jpg" >
-     <meta itemprop="image" content="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1718970750/site/films/vogel.jpg">
-    <meta itemprop="name" content="Пример креативной рекламы (фильм Виктор Фогель - Король рекламы)" >
+    
+    
       <meta itemprop="uploadDate" content="2014-09-30T00:00:00+03:00">
       <meta itemprop="duration" content="PT1M47S">
     <meta itemprop="isFamilyFriendly" content="true">
@@ -437,28 +513,39 @@ keywords: "фильмы, маркетологи, подборка фильмов
 
   <article class="blockquote--emphasis mt-m ml-2xl" itemprop="review" itemscope itemtype="http://schema.org/Review">
   <h4 class="element--hidden">Отзыв 1</h4>
-    <blockquote class="citation" cite="https://www.imdb.com/review/rw0731398/?ref_=tt_urv">
-        <p itemprop="reviewBody">9/10. Сюжет хороший, актеры убедительны, конец странный, но&nbsp;счастливый. В&nbsp;общем, приятное кино!</p>
+   <meta itemprop="datePublished" content="2004-01-28">
+      <div itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating">
+        <meta itemprop="ratingValue" content="9">
+        <meta itemprop="bestRating" content="10">
+        <meta itemprop="worstRating" content="1">
+      </div>
+    <blockquote class="citation" cite="https://www.imdb.com/review/rw0731398/?ref_=tt_urv" itemprop="reviewBody">
+        <p>9/10. Сюжет хороший, актеры убедительны, конец странный, но&nbsp;счастливый. В&nbsp;общем, приятное кино!</p>
     </blockquote>
     <footer class="citation__author">
         — <span itemprop="author" itemscope itemtype="http://schema.org/Person">
             <span itemprop="name"><cite>пользователь IMDb: tinskies03 </cite></span>
         </span>
     </footer>
-    <meta itemprop="itemReviewed" itemscope itemtype="http://schema.org/Movie" content="Bиктop Фoгeль&nbsp;&mdash; Kopoль peклaмы&nbsp;/ Viktor Vogel&nbsp;&mdash; Commercial Man (2001)">
-  </article>
+   </article>
 
  <article class="blockquote--emphasis mt-m ml-2xl" itemprop="review" itemscope itemtype="http://schema.org/Review">
  <h4 class="element--hidden">Отзыв 2</h4>
-    <blockquote class="citation" cite="https://www.imdb.com/review/rw1493891/?ref_=tt_urv">
-        <p itemprop="reviewBody">5/10. Это было похоже на&nbsp;пилот комедийного сериала, только последние десять минут писал Дэвид Линч в&nbsp;два часа ночи, который не&nbsp;читал начало сценария. </p>
+ <meta itemprop="datePublished" content="2006-10-09">
+      <div itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating">
+        <meta itemprop="ratingValue" content="5">
+        <meta itemprop="bestRating" content="10">
+        <meta itemprop="worstRating" content="1">
+      </div>
+    <blockquote class="citation" cite="https://www.imdb.com/review/rw1493891/?ref_=tt_urv" itemprop="reviewBody">
+        <p >5/10. Это было похоже на&nbsp;пилот комедийного сериала, только последние десять минут писал Дэвид Линч в&nbsp;два часа ночи, который не&nbsp;читал начало сценария. </p>
     </blockquote>
     <footer class="citation__author">
         — <span itemprop="author" itemscope itemtype="http://schema.org/Person">
             <span itemprop="name"><cite>пользователь IMDb: porbeagle_zen </cite></span>
         </span>
     </footer>
-      <meta itemprop="itemReviewed" itemscope itemtype="http://schema.org/Movie" content="Bиктop Фoгeль&nbsp;&mdash; Kopoль peклaмы&nbsp;/ Viktor Vogel&nbsp;&mdash; Commercial Man (2001)">
+  
   </article>
 
 </section>
@@ -476,12 +563,14 @@ keywords: "фильмы, маркетологи, подборка фильмов
 
 
 <article id="the-founder-2016" class="row-gap--m mt-m" itemscope itemtype="http://schema.org/Movie">
-  <h2 itemprop="name" class="section__title h1 bold">Основатель / The Founder  (2016)</h2>
+<meta itemprop="image" content="https://res.cloudinary.com/bartoshevich/image/upload/v1705164780/site/films/mac.jpg">
+  <h2 itemprop="name" class="section__title h1 bold">Основатель / <span lang="en">The Founder</span>  (2016)</h2>
   <meta itemprop="dateCreated" content="2016">
   <p><span class="bold">Режиссер:</span> <span itemprop="director" itemscope itemtype="http://schema.org/Person"><span itemprop="name">Джон Ли Хэнкок</span></span><br>
   <span class="bold">IMDb рейтинг:</span> <span itemprop="aggregateRating" itemscope itemtype="http://schema.org/AggregateRating">
   <meta itemprop="ratingCount" content="172000">
   <meta itemprop="bestRating" content="10">
+  <meta itemprop="worstRating" content="1">
   <span itemprop="ratingValue">7.2</span>/10</span></p>
   <p itemprop="description">История Рэя Крока и&nbsp;создания империи McDonald’s: как маленький семейный ресторан превратился в&nbsp;мировую франшизу. </p>
 
@@ -517,7 +606,7 @@ keywords: "фильмы, маркетологи, подборка фильмов
 
 
   <p><span class="bold">Зачем смотреть</span> <br>Картина показывает, как стандартизация процессов, сильная визуальная идентичность и&nbsp;стремление к&nbsp;единству бренда способствуют успеху компании. Она&nbsp;подчеркивает важность инноваций и&nbsp;стратегического подхода в&nbsp;бизнесе, а&nbsp;также касается этических дилемм, с&nbsp;которыми сталкиваются предприниматели. </p>
-   <meta itemprop="image" content="https://res.cloudinary.com/bartoshevich/image/upload/v1705164780/site/films/mac.jpg">
+   
 
 
 <section>
@@ -525,28 +614,40 @@ keywords: "фильмы, маркетологи, подборка фильмов
 
   <article class="blockquote--emphasis mt-m ml-2xl" itemprop="review" itemscope itemtype="http://schema.org/Review">
   <h4 class="element--hidden">Отзыв 1</h4>
-    <blockquote class="citation" cite="https://www.imdb.com/review/rw5760153/?ref_=tt_urv">
-        <p itemprop="reviewBody">10/10. История прекрасна от&nbsp;начала до&nbsp;конца, сценарий прекрасно написан, а&nbsp;операторская работа просто великолепна&nbsp;&mdash; действительно создается ощущение, что вы&nbsp;вернулись в&nbsp;1950-е годы.</p>
+   <meta itemprop="datePublished" content="2020-05-22">
+  <div itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating">
+        <meta itemprop="ratingValue" content="10">
+        <meta itemprop="bestRating" content="10">
+        <meta itemprop="worstRating" content="1">
+      </div>
+    <blockquote class="citation" cite="https://www.imdb.com/review/rw5760153/?ref_=tt_urv" itemprop="reviewBody">
+        <p>10/10. История прекрасна от&nbsp;начала до&nbsp;конца, сценарий прекрасно написан, а&nbsp;операторская работа просто великолепна&nbsp;&mdash; действительно создается ощущение, что вы&nbsp;вернулись в&nbsp;1950-е годы.</p>
     </blockquote>
     <footer class="citation__author">
         — <span itemprop="author" itemscope itemtype="http://schema.org/Person">
             <span itemprop="name"><cite>пользователь IMDb: blazesuncaster </cite></span>
         </span>
     </footer>
-    <meta itemprop="itemReviewed" itemscope itemtype="http://schema.org/Movie" content="Основатель / The Founder  (2016)">
+   
   </article>
 
  <article class="blockquote--emphasis mt-m ml-2xl" itemprop="review" itemscope itemtype="http://schema.org/Review">
  <h4 class="element--hidden">Отзыв 2</h4>
-    <blockquote class="citation" cite="https://www.imdb.com/review/rw3630062/?ref_=tt_urv">
-        <p itemprop="reviewBody">5/10. История в&nbsp;этом фильме интересная, но&nbsp;подана она так скучно и&nbsp;шаблонно. Временами казалось, что я&nbsp;смотрю документалку. </p>
+ <meta itemprop="datePublished" content="2017-01-30">
+      <div itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating">
+        <meta itemprop="ratingValue" content="5">
+        <meta itemprop="bestRating" content="10">
+        <meta itemprop="worstRating" content="1">
+      </div>
+    <blockquote class="citation" cite="https://www.imdb.com/review/rw3630062/?ref_=tt_urv" itemprop="reviewBody">
+        <p>5/10. История в&nbsp;этом фильме интересная, но&nbsp;подана она так скучно и&nbsp;шаблонно. Временами казалось, что я&nbsp;смотрю документалку. </p>
     </blockquote>
     <footer class="citation__author">
         — <span itemprop="author" itemscope itemtype="http://schema.org/Person">
             <span itemprop="name"><cite>пользователь IMDb: Fedoics </cite></span>
         </span>
     </footer>
-      <meta itemprop="itemReviewed" itemscope itemtype="http://schema.org/Movie" content="Основатель / The Founder  (2016)">
+     
   </article>
 
 </section>
@@ -560,12 +661,14 @@ keywords: "фильмы, маркетологи, подборка фильмов
 
 
 <article id="art-and-copy-2009" class="row-gap--m mt-m" itemscope itemtype="http://schema.org/Movie">
-  <h2 itemprop="name" class="section__title h1 bold">Изображение и текст / Art & Copy (2009)</h2>
+ <meta itemprop="image" content="https://res.cloudinary.com/bartoshevich/image/upload/v1705165805/site/films/artandcopy.jpg">
+  <h2 itemprop="name" class="section__title h1 bold">Изображение и текст /  <span lang="en">Art & Copy</span> (2009)</h2>
   <meta itemprop="dateCreated" content="2009">
   <p><span class="bold">Режиссер:</span> <span itemprop="director" itemscope itemtype="http://schema.org/Person"><span itemprop="name">Даг Прэй</span></span><br>
   <span class="bold">IMDb рейтинг:</span> <span itemprop="aggregateRating" itemscope itemtype="http://schema.org/AggregateRating">
   <meta itemprop="ratingCount" content="1800">
   <meta itemprop="bestRating" content="10">
+  <meta itemprop="worstRating" content="1">
   <span itemprop="ratingValue">6.4</span>/10</span></p>
   <p itemprop="description">Документальное кино, которое рассматривает мир рекламы с&nbsp;точки зрения людей, ее&nbsp;делающих.</p>
 
@@ -598,7 +701,7 @@ keywords: "фильмы, маркетологи, подборка фильмов
 
 
   <p><span class="bold">Зачем смотреть </span><br> Истории успеха и&nbsp;интервью с&nbsp;влиятельными фигурами из&nbsp;мира рекламы могут подтолкнуть маркетологов к&nbsp;новым идеям и&nbsp;стратегиям. </p>
-  <meta itemprop="image" content="https://res.cloudinary.com/bartoshevich/image/upload/v1705165805/site/films/artandcopy.jpg">
+ 
 
   
 <section>
@@ -606,28 +709,41 @@ keywords: "фильмы, маркетологи, подборка фильмов
 
   <article class="blockquote--emphasis mt-m ml-2xl" itemprop="review" itemscope itemtype="http://schema.org/Review">
   <h4 class="element--hidden">Отзыв 1</h4>
-    <blockquote class="citation" cite="https://www.imdb.com/review/rw2400577/?ref_=tt_urv">
-        <p itemprop="reviewBody">9/10. Это&nbsp;увлекательное и&nbsp;иногда трогательное путешествие сквозь эволюцию рекламы, которое заставляет задуматься.</p>
+  <meta itemprop="datePublished" content="2011-03-18">
+      <div itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating">
+        <meta itemprop="ratingValue" content="9">
+        <meta itemprop="bestRating" content="10">
+        <meta itemprop="worstRating" content="1">
+      </div>
+    <blockquote class="citation" cite="https://www.imdb.com/review/rw2400577/?ref_=tt_urv"  itemprop="reviewBody">
+        <p>9/10. Это&nbsp;увлекательное и&nbsp;иногда трогательное путешествие сквозь эволюцию рекламы, которое заставляет задуматься.</p>
     </blockquote>
     <footer class="citation__author">
         — <span itemprop="author" itemscope itemtype="http://schema.org/Person">
             <span itemprop="name"><cite>пользователь IMDb: dr-van </cite></span>
         </span>
     </footer>
-    <meta itemprop="itemReviewed" itemscope itemtype="http://schema.org/Movie" content="Изображение и текст / Art & Copy (2009)">
+   
   </article>
 
  <article class="blockquote--emphasis mt-m ml-2xl" itemprop="review" itemscope itemtype="http://schema.org/Review">
  <h4 class="element--hidden">Отзыв 2</h4>
-    <blockquote class="citation" cite="https://www.imdb.com/review/rw2606746/?ref_=tt_urv">
-        <p itemprop="reviewBody">4/10. Близорукий документальный фильм о&nbsp;рекламной индустрии. Авторы показывают рекламу как форму искусства, в&nbsp;которой рекламщики черпают вдохновение из&nbsp;воздуха. Вместо того чтобы рассматривать ее&nbsp;как просчитанный процесс, направленный на&nbsp;получение выгод для клиентов.</p>
+  <meta itemprop="datePublished" content="2012-05-04">
+      <div itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating">
+        <meta itemprop="ratingValue" content="4">
+        <meta itemprop="bestRating" content="10">
+        <meta itemprop="worstRating" content="1">
+      </div>
+
+    <blockquote class="citation" cite="https://www.imdb.com/review/rw2606746/?ref_=tt_urv"  itemprop="reviewBody">
+        <p>4/10. Близорукий документальный фильм о&nbsp;рекламной индустрии. Авторы показывают рекламу как форму искусства, в&nbsp;которой рекламщики черпают вдохновение из&nbsp;воздуха. Вместо того чтобы рассматривать ее&nbsp;как просчитанный процесс, направленный на&nbsp;получение выгод для клиентов.</p>
     </blockquote>
     <footer class="citation__author">
         — <span itemprop="author" itemscope itemtype="http://schema.org/Person">
             <span itemprop="name"><cite>пользователь IMDb: Tanuccoon </cite></span>
         </span>
     </footer>
-      <meta itemprop="itemReviewed" itemscope itemtype="http://schema.org/Movie" content="Изображение и текст / Art & Copy (2009)">
+     
   </article>
 
 </section>
@@ -639,14 +755,16 @@ keywords: "фильмы, маркетологи, подборка фильмов
 
 
 <article id="the-greatest-movie-ever-sold-2011" class="row-gap--m mt-m" itemscope itemtype="http://schema.org/Movie">
-  <h2 itemprop="name" class="section__title h1 bold">Величайший фильм из&nbsp;всех когда-либо проданных /  The Greatest Movie Ever Sold (2011)</h2>
+ <meta itemprop="image" content="https://i.ytimg.com/vi/fXRCPObrZYs/maxresdefault.jpg">
+  <h2 itemprop="name" class="section__title h1 bold">Величайший фильм из&nbsp;всех когда-либо проданных /  <span lang="en">The Greatest Movie Ever Sold </span>(2011)</h2>
   <meta itemprop="dateCreated" content="2011">
   <p><span class="bold">Режиссер:</span> <span itemprop="director" itemscope itemtype="http://schema.org/Person"><span itemprop="name">Морган Сперлок</span></span><br>
   <span class="bold">IMDb рейтинг:</span> <span itemprop="aggregateRating" itemscope itemtype="http://schema.org/AggregateRating">
     <meta itemprop="ratingCount" content="15000">
     <meta itemprop="bestRating" content="10">
+    <meta itemprop="worstRating" content="1">
   <span itemprop="ratingValue">6.6</span>/10</span></p>
-  <meta itemprop="image" content="https://i.ytimg.com/vi/fXRCPObrZYs/maxresdefault.jpg">
+ 
   <p itemprop="description">Документальный фильм, исследующий мир брендов, рекламы и&nbsp;продакт-плейсмента в&nbsp;кино. Морган Сперлок показывает, как компании платят за&nbsp;то, чтобы их&nbsp;продукты появлялись в&nbsp;кино и&nbsp;телешоу. Более того, он&nbsp;пытается сделать свой фильм полностью финансируемым за&nbsp;счет продакт-плейсмента. Режиссер встречается с&nbsp;разными компаниями и&nbsp;пытается убедить их&nbsp;оплатить появление своих продуктов в&nbsp;его картине. </p>
 
 
@@ -686,28 +804,40 @@ keywords: "фильмы, маркетологи, подборка фильмов
 
   <article class="blockquote--emphasis mt-m ml-2xl" itemprop="review" itemscope itemtype="http://schema.org/Review">
   <h4 class="element--hidden">Отзыв 1</h4>
-    <blockquote class="citation" cite="https://www.imdb.com/review/rw2474492/?ref_=tt_urv">
-        <p itemprop="reviewBody">9/10. Эта работа дает реальное представление о&nbsp;том, как большие голливудские блокбастеры получают такие высокие бюджеты, продаваясь рекламодателям.</p>
+   <meta itemprop="datePublished" content="2011-08-15">
+      <div itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating">
+        <meta itemprop="ratingValue" content="9">
+        <meta itemprop="bestRating" content="10">
+        <meta itemprop="worstRating" content="1">
+      </div>
+    <blockquote class="citation" cite="https://www.imdb.com/review/rw2474492/?ref_=tt_urv"  itemprop="reviewBody">
+        <p>9/10. Эта работа дает реальное представление о&nbsp;том, как большие голливудские блокбастеры получают такие высокие бюджеты, продаваясь рекламодателям.</p>
     </blockquote>
     <footer class="citation__author">
         — <span itemprop="author" itemscope itemtype="http://schema.org/Person">
             <span itemprop="name"><cite>пользователь IMDb: thomaswolfe12 </cite></span>
         </span>
     </footer>
-    <meta itemprop="itemReviewed" itemscope itemtype="http://schema.org/Movie" content="Величайший фильм из&nbsp;всех когда-либо проданных /  The Greatest Movie Ever Sold (2011)">
+  
   </article>
 
  <article class="blockquote--emphasis mt-m ml-2xl" itemprop="review" itemscope itemtype="http://schema.org/Review">
  <h4 class="element--hidden">Отзыв 2</h4>
-    <blockquote class="citation" cite="https://www.imdb.com/review/rw4254688/?ref_=tt_urv">
-        <p itemprop="reviewBody">5/10. Величайший фильм, который когда-либо продавался, осмеливается разоблачать тот факт, что в&nbsp;кино используется продакт-плейсмент! Однако, если вы&nbsp;разумное существо, то&nbsp;уже знаете об&nbsp;этом. Эта работа не&nbsp;несет никакой новой информации.  </p>
+ <meta itemprop="datePublished" content="2018-06-18">
+      <div itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating">
+        <meta itemprop="ratingValue" content="5">
+        <meta itemprop="bestRating" content="10">
+        <meta itemprop="worstRating" content="1">
+      </div>
+    <blockquote class="citation" cite="https://www.imdb.com/review/rw4254688/?ref_=tt_urv"  itemprop="reviewBody">
+        <p>5/10. Величайший фильм, который когда-либо продавался, осмеливается разоблачать тот факт, что в&nbsp;кино используется продакт-плейсмент! Однако, если вы&nbsp;разумное существо, то&nbsp;уже знаете об&nbsp;этом. Эта работа не&nbsp;несет никакой новой информации.  </p>
     </blockquote>
     <footer class="citation__author">
         — <span itemprop="author" itemscope itemtype="http://schema.org/Person">
             <span itemprop="name"><cite>пользователь IMDb: cricketbat </cite></span>
         </span>
     </footer>
-      <meta itemprop="itemReviewed" itemscope itemtype="http://schema.org/Movie" content="Величайший фильм из&nbsp;всех когда-либо проданных /  The Greatest Movie Ever Sold (2011)">
+  
   </article>
 
 </section>
@@ -720,12 +850,13 @@ keywords: "фильмы, маркетологи, подборка фильмов
 
 
 <article id="moneyball-2011" class="row-gap--m mt-m" itemscope itemtype="http://schema.org/Movie">
-  <h2 itemprop="name" class="section__title h1 bold">Человек, который изменил все / Moneyball (2011)</h2>
+  <h2 itemprop="name" class="section__title h1 bold">Человек, который изменил все / <span lang="en">Moneyball</span> (2011)</h2>
   <meta itemprop="dateCreated" content="2011">
   <p><span class="bold">Режиссер:</span> <span itemprop="director" itemscope itemtype="http://schema.org/Person"><span itemprop="name">Беннетт Миллер</span></span><br>
   <span class="bold">IMDb рейтинг:</span> <span itemprop="aggregateRating" itemscope itemtype="http://schema.org/AggregateRating">
   <meta itemprop="ratingCount" content="457000">
   <meta itemprop="bestRating" content="10">
+  <meta itemprop="worstRating" content="1">
   <span itemprop="ratingValue">7.6</span>/10</span></p>
   <p itemprop="description">Кино основано на&nbsp;реальной истории бейсбольной команды «Окленд Этлетикс» и&nbsp;её&nbsp;менеджера Билли Бина, применившего методы статистического анализа для формирования команды. </p>
 
@@ -748,28 +879,39 @@ keywords: "фильмы, маркетологи, подборка фильмов
 
   <article class="blockquote--emphasis mt-m ml-2xl" itemprop="review" itemscope itemtype="http://schema.org/Review">
   <h4 class="element--hidden">Отзыв 1</h4>
-    <blockquote class="citation" cite="https://www.imdb.com/review/rw7152993/?ref_=tt_urv">
-        <p itemprop="reviewBody">10/10. Правда зачастую интереснее вымысла, и&nbsp;это действительно увлекательная история, основанная на&nbsp;реальных событиях.</p>
+   <meta itemprop="datePublished" content="2021-07-23">
+    <div itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating">
+      <meta itemprop="ratingValue" content="10">
+      <meta itemprop="bestRating" content="10">
+    </div>
+
+    <blockquote class="citation" cite="https://www.imdb.com/review/rw7152993/?ref_=tt_urv"  itemprop="reviewBody">
+        <p>10/10. Правда зачастую интереснее вымысла, и&nbsp;это действительно увлекательная история, основанная на&nbsp;реальных событиях.</p>
     </blockquote>
     <footer class="citation__author">
         — <span itemprop="author" itemscope itemtype="http://schema.org/Person">
             <span itemprop="name"><cite>пользователь IMDb: Instant_Palmer </cite></span>
         </span>
     </footer>
-    <meta itemprop="itemReviewed" itemscope itemtype="http://schema.org/Movie" content="Человек, который изменил все / Moneyball (2011)">
+    
   </article>
 
  <article class="blockquote--emphasis mt-m ml-2xl" itemprop="review" itemscope itemtype="http://schema.org/Review">
  <h4 class="element--hidden">Отзыв 2</h4>
-    <blockquote class="citation" cite="https://www.imdb.com/review/rw2616281/?ref_=tt_urv">
-        <p itemprop="reviewBody">5/10.  История интересная, но&nbsp;она движется так медленно, что я&nbsp;думаю, что лучше&nbsp;бы я&nbsp;прочитал книгу.  </p>
+ <meta itemprop="datePublished" content="2012-05-24">
+    <div itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating">
+      <meta itemprop="ratingValue" content="5">
+      <meta itemprop="bestRating" content="10">
+    </div>
+    <blockquote class="citation" cite="https://www.imdb.com/review/rw2616281/?ref_=tt_urv"  itemprop="reviewBody">
+        <p>5/10.  История интересная, но&nbsp;она движется так медленно, что я&nbsp;думаю, что лучше&nbsp;бы я&nbsp;прочитал книгу.  </p>
     </blockquote>
     <footer class="citation__author">
         — <span itemprop="author" itemscope itemtype="http://schema.org/Person">
             <span itemprop="name"><cite>пользователь IMDb: cherold </cite></span>
         </span>
     </footer>
-      <meta itemprop="itemReviewed" itemscope itemtype="http://schema.org/Movie" content="Человек, который изменил все / Moneyball (2011)">
+    
   </article>
 
 </section>
@@ -780,12 +922,13 @@ keywords: "фильмы, маркетологи, подборка фильмов
 
 
 <article id="jiro-dreams-of-sushi-2011" class="row-gap--m mt-m" itemscope itemtype="http://schema.org/Movie">
-  <h2 itemprop="name" class="section__title h1 bold">Мечты Дзиро о суши / Jiro Dreams of Sushi (2011) </h2>
+  <h2 itemprop="name" class="section__title h1 bold">Мечты Дзиро о суши / <span lang="en">Jiro Dreams of Sushi</span> (2011) </h2>
   <meta itemprop="dateCreated" content="2011">
   <p><span class="bold">Режиссер:</span> <span itemprop="director" itemscope itemtype="http://schema.org/Person"><span itemprop="name">Дэвид Гелб</span></span><br>
   <span class="bold">IMDb рейтинг:</span> <span itemprop="aggregateRating" itemscope itemtype="http://schema.org/AggregateRating">
     <meta itemprop="ratingCount" content="38000">
     <meta itemprop="bestRating" content="10">
+    <meta itemprop="worstRating" content="1">
   <span itemprop="ratingValue">7.8</span>/10</span></p>
   <p itemprop="description">Фильм&nbsp;&mdash; документальный портрет Дзиро Оно, 85-летнего мастера суши и&nbsp;владельца ресторана в&nbsp;Токио, который является первым рестораном суши, получившим три звезды Michelin. </p>
 
@@ -809,28 +952,38 @@ keywords: "фильмы, маркетологи, подборка фильмов
 
   <article class="blockquote--emphasis mt-m ml-2xl" itemprop="review" itemscope itemtype="http://schema.org/Review">
   <h4 class="element--hidden">Отзыв 1</h4>
-    <blockquote class="citation" cite="https://www.imdb.com/review/rw2580372/?ref_=tt_urv">
-        <p itemprop="reviewBody">10/10. Думал, буду скучать до&nbsp;слёз. Но&nbsp;это прекрасный, трогательный, вызывающий документальный фильм о&nbsp;совершенстве, дисциплине, призвании и&nbsp;упорстве. </p>
+   <meta itemprop="datePublished" content="2012-03-12">
+    <div itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating">
+      <meta itemprop="ratingValue" content="10">
+      <meta itemprop="bestRating" content="10">
+    </div>
+    <blockquote class="citation" cite="https://www.imdb.com/review/rw2580372/?ref_=tt_urv"  itemprop="reviewBody">
+        <p>10/10. Думал, буду скучать до&nbsp;слёз. Но&nbsp;это прекрасный, трогательный, вызывающий документальный фильм о&nbsp;совершенстве, дисциплине, призвании и&nbsp;упорстве. </p>
     </blockquote>
     <footer class="citation__author">
         — <span itemprop="author" itemscope itemtype="http://schema.org/Person">
             <span itemprop="name"><cite>пользователь IMDb: Mamgoforit </cite></span>
         </span>
     </footer>
-    <meta itemprop="itemReviewed" itemscope itemtype="http://schema.org/Movie" content="Мечты Дзиро о суши / Jiro Dreams of Sushi (2011)">
+   
   </article>
 
  <article class="blockquote--emphasis mt-m ml-2xl" itemprop="review" itemscope itemtype="http://schema.org/Review">
  <h4 class="element--hidden">Отзыв 2</h4>
-    <blockquote class="citation" cite="https://www.imdb.com/review/rw6372421/?ref_=tt_urv">
-        <p itemprop="reviewBody">5/10. Фильм, безусловно, всесторонне рассматривает работу этого ресторана, но&nbsp;через некоторое время он&nbsp;стал для меня немного скучным.</p>
+ <meta itemprop="datePublished" content="2017-12-17">
+    <div itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating">
+      <meta itemprop="ratingValue" content="5">
+      <meta itemprop="bestRating" content="10">
+    </div>
+    <blockquote class="citation" cite="https://www.imdb.com/review/rw6372421/?ref_=tt_urv"  itemprop="reviewBody">
+        <p>5/10. Фильм, безусловно, всесторонне рассматривает работу этого ресторана, но&nbsp;через некоторое время он&nbsp;стал для меня немного скучным.</p>
     </blockquote>
     <footer class="citation__author">
         — <span itemprop="author" itemscope itemtype="http://schema.org/Person">
             <span itemprop="name"><cite>пользователь IMDb: blott2319-1 </cite></span>
         </span>
     </footer>
-      <meta itemprop="itemReviewed" itemscope itemtype="http://schema.org/Movie" content="Мечты Дзиро о суши / Jiro Dreams of Sushi (2011)">
+     
   </article>
 
 </section>
@@ -845,12 +998,13 @@ keywords: "фильмы, маркетологи, подборка фильмов
 
 
 <article id="syrup-2013" class="row-gap--m mt-m" itemscope itemtype="http://schema.org/Movie">
-  <h2 itemprop="name" class="section__title h1 bold">Сироп / Syrup (2013) </h2>
+  <h2 itemprop="name" class="section__title h1 bold">Сироп / <span lang="en">Syrup</span> (2013) </h2>
   <meta itemprop="dateCreated" content="2013">
   <p><span class="bold">Режиссер:</span> <span itemprop="director" itemscope itemtype="http://schema.org/Person"> <span itemprop="name">Арам Раппопорт</span></span><br>
   <span class="bold">IMDb рейтинг:</span> <span itemprop="aggregateRating" itemscope itemtype="http://schema.org/AggregateRating">
   <meta itemprop="ratingCount" content="12000">
   <meta itemprop="bestRating" content="10">
+   <meta itemprop="worstRating" content="1">
   <span itemprop="ratingValue">5.6</span>/10</span></p>
   <p itemprop="description">Сюжет картины сосредоточен вокруг молодого амбициозного человека по&nbsp;имени Скат, который стремится пробиться в&nbsp;мире маркетинга.
  </p>
@@ -875,28 +1029,37 @@ keywords: "фильмы, маркетологи, подборка фильмов
 
   <article class="blockquote--emphasis mt-m ml-2xl" itemprop="review" itemscope itemtype="http://schema.org/Review">
   <h4 class="element--hidden">Отзыв 1</h4>
-    <blockquote class="citation" cite="https://www.imdb.com/review/rw2804536/?ref_=tt_urv">
-        <p itemprop="reviewBody">9/10. Сценарий потрясающий, сюжетная линия на&nbsp;протяжении всего фильма развивается быстро и&nbsp;заставляет постоянно&nbsp;думать. </p>
+  <meta itemprop="datePublished" content="2013-05-29">
+    <div itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating">
+      <meta itemprop="ratingValue" content="9">
+      <meta itemprop="bestRating" content="10">
+    </div>
+    <blockquote class="citation" cite="https://www.imdb.com/review/rw2804536/?ref_=tt_urv" itemprop="reviewBody">
+        <p>9/10. Сценарий потрясающий, сюжетная линия на&nbsp;протяжении всего фильма развивается быстро и&nbsp;заставляет постоянно&nbsp;думать. </p>
     </blockquote>
     <footer class="citation__author">
         — <span itemprop="author" itemscope itemtype="http://schema.org/Person">
             <span itemprop="name"><cite>пользователь IMDb: Christopher_elia </cite></span>
         </span>
     </footer>
-    <meta itemprop="itemReviewed" itemscope itemtype="http://schema.org/Movie" content="Сироп / Syrup (2013)">
   </article>
 
  <article class="blockquote--emphasis mt-m ml-2xl" itemprop="review" itemscope itemtype="http://schema.org/Review">
  <h4 class="element--hidden">Отзыв 2</h4>
-    <blockquote class="citation" cite="https://www.imdb.com/review/rw2828787/?ref_=tt_urv">
-        <p itemprop="reviewBody">5/10. В&nbsp;фильме есть несколько отличных моментов, где объясняются и&nbsp;показываются концепции маркетинга. К&nbsp;сожалению, драматическая и&nbsp;романтическая составляющие выполнены плохо. </p>
+  <meta itemprop="datePublished" content="2013-06-10">
+    <div itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating">
+      <meta itemprop="ratingValue" content="5">
+      <meta itemprop="bestRating" content="10">
+    </div>
+    <blockquote class="citation" cite="https://www.imdb.com/review/rw2828787/?ref_=tt_urv" itemprop="reviewBody">
+        <p>5/10. В&nbsp;фильме есть несколько отличных моментов, где объясняются и&nbsp;показываются концепции маркетинга. К&nbsp;сожалению, драматическая и&nbsp;романтическая составляющие выполнены плохо. </p>
     </blockquote>
     <footer class="citation__author">
         — <span itemprop="author" itemscope itemtype="http://schema.org/Person">
             <span itemprop="name"><cite>пользователь IMDb: lvtbusinesses </cite></span>
         </span>
     </footer>
-      <meta itemprop="itemReviewed" itemscope itemtype="http://schema.org/Movie" content="Сироп / Syrup (2013)">
+     
   </article>
 
 </section>
