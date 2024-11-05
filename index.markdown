@@ -98,27 +98,62 @@ keywords: "развитие брендов, анализ данных, разр�
 </div>
 </section>
 
-<section class="full-bleed block__item clients__block " itemscope itemtype="http://schema.org/Review">
+
+
+
+
+
+<section class="full-bleed block__item clients__block">
 <div class="block__sign"></div>
 <h2 class="block__name block__title bold"> Мне доверяют </h2>
 <div class=" block__content">
 
-        <div class="element--hidden" itemprop="itemReviewed" itemscope itemtype="https://schema.org/Organization">
-            <meta itemprop="name" content="Бартошевич Д.А. ИП">
-               <div itemprop="address" itemscope itemtype="https://schema.org/PostalAddress">
-                        <meta itemprop="addressLocality" content="Фрунзенский район">
-                        <meta itemprop="addressRegion" content="Минск">
-                        <meta itemprop="streetAddress" content="г. Минск, ул. Ольшевского, 22">
-             </div>
-            <meta itemprop="telephone" content="+375297753340">
-            <link itemprop="image" href="{{ site.url }}/assets/images/main/bartoshevich@4x3.jpg">
+        <div class="element--hidden" itemscope itemtype="https://schema.org/Organization">
+            <meta itemprop="name" content="Консультации по маркетингу">
+            <div itemprop="aggregateRating" itemscope itemtype="https://schema.org/AggregateRating">
+                <meta itemprop="ratingValue" content="5">
+                <meta itemprop="bestRating" content="5">
+                <meta itemprop="ratingCount" content="25">
+        </div>
         </div>
 
               <blockquote class="blockquote--emphasis" itemprop="review" itemscope itemtype="https://schema.org/Review">
+               <meta itemprop="name" content="Отзыв о разработке концепции бренда для Giperlink">
+
+   <div class="element--hidden" itemprop="itemReviewed" itemscope itemtype="https://schema.org/LocalBusiness">
+        <meta itemprop="name" content="Бартошевич Д.А. ИП">
+        <meta itemprop="description" content="Консультации по маркетингу и разработка позиционирования">
+
+        <link itemprop="image" href="https://bartoshevich.by/assets/images/main/bartoshevich@16x9.jpg">
+        <link itemprop="image" href="https://bartoshevich.by/assets/images/main/bartoshevich@4x3.jpg">
+        <link itemprop="image" href="https://bartoshevich.by/assets/images/main/bartoshevich@1x1.jpg">
+   
+        <meta itemprop="priceRange" content="$$">
+        
+        <div class="element--hidden" itemprop="founder" itemscope itemtype="https://schema.org/Person">
+            <meta itemprop="name" content="Дмитрий Бартошевич">
+            <meta itemprop="jobTitle" content="Консультант по маркетингу">
+            <link itemprop="url" href="https://bartoshevich.by/about/">
+        </div>
+
+        
+        <meta itemprop="telephone" content="+375297753340">
+        <link itemprop="url" href="https://bartoshevich.by/">
+        <div class="element--hidden" itemprop="address" itemscope itemtype="https://schema.org/PostalAddress">
+            <meta itemprop="streetAddress" content="ул. Ольшевского, 22">
+            <meta itemprop="postalCode"  content="220073">
+            <meta itemprop="addressLocality" content="Минск">
+            <meta itemprop="addressCountry" content="BY">
+        </div>
+    </div>
+
+
+
+
     	<p class="citation" itemprop="reviewBody">«Мы&nbsp;спрашивали себя: „Чем мы&nbsp;отличаемся? В&nbsp;чем сильнее? В&nbsp;чем отстаем и&nbsp;чего не&nbsp;хватает, чтобы быть лучшими?“ Ответы искали сами. Но&nbsp;того решения, которое устроило&nbsp;бы всех, не&nbsp;находили. Обратились за&nbsp;консультацией к&nbsp;Бартошевичу Дмитрию...»</p>
 
-            <div class="citation__author" >
-    		<cite itemprop="author" itemscope itemtype="https://schema.org/Person">
+            <div class="citation__author" itemprop="author" itemscope itemtype="https://schema.org/Person">
+    		<cite >
     			<span itemprop="name">Дмитрий Лихтарович</span>, <span itemprop="jobTitle">директор интернет-агентства Giperlink</span>
     		</cite>
             <meta itemprop="datePublished" content="2018-11-30"><br>
@@ -132,11 +167,42 @@ keywords: "развитие брендов, анализ данных, разр�
 
 
        <blockquote class="blockquote--emphasis" itemprop="review" itemscope itemtype="https://schema.org/Review">
+       <meta itemprop="name" content="Отзыв о позиционировании компании Flex-n-Roll">
+
+
+     <div class="element--hidden" itemprop="itemReviewed" itemscope itemtype="https://schema.org/LocalBusiness">
+        <meta itemprop="name" content="Бартошевич Д.А. ИП">
+        <meta itemprop="description" content="Консультации по маркетингу и разработка позиционирования">
+
+        <link itemprop="image" href="https://bartoshevich.by/assets/images/main/bartoshevich@16x9.jpg">
+        <link itemprop="image" href="https://bartoshevich.by/assets/images/main/bartoshevich@4x3.jpg">
+        <link itemprop="image" href="https://bartoshevich.by/assets/images/main/bartoshevich@1x1.jpg">
+   
+        <meta itemprop="priceRange" content="$$">
+        
+        <div class="element--hidden" itemprop="founder" itemscope itemtype="https://schema.org/Person">
+            <meta itemprop="name" content="Дмитрий Бартошевич">
+            <meta itemprop="jobTitle" content="Консультант по маркетингу">
+            <link itemprop="url" href="https://bartoshevich.by/about/">
+        </div>
+
+        
+        <meta itemprop="telephone" content="+375297753340">
+        <link itemprop="url" href="https://bartoshevich.by/">
+        <div class="element--hidden" itemprop="address" itemscope itemtype="https://schema.org/PostalAddress">
+            <meta itemprop="streetAddress" content="ул. Ольшевского, 22">
+            <meta itemprop="postalCode"  content="220073">
+            <meta itemprop="addressLocality" content="Минск">
+            <meta itemprop="addressCountry" content="BY">
+        </div>
+    </div>
+
+
     	<p class="citation" itemprop="reviewBody">
             «Нам потребовалось четко позиционировать компанию на&nbsp;рынке и&nbsp;максимально отстроиться от&nbsp;конкурентов. И&nbsp;мы&nbsp;привлекли Дмитрия Бартошевича...»
     	</p>
-    		<div class="citation__author" >
-    		<cite itemprop="author" itemscope itemtype="https://schema.org/Person">
+    		<div class="citation__author" itemprop="author" itemscope itemtype="https://schema.org/Person">
+    		<cite >
     			<span itemprop="name">Елена Горбачева</span>, <span itemprop="jobTitle">директор типографии <span class="noperenos">Flex-n-Roll</span></span>
     		</cite>
             <meta itemprop="datePublished" content="2018-04-18"><br>

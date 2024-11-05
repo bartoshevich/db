@@ -14,7 +14,6 @@ keywords: "разработка концепции бренда"
 
 <main class="section__content row-gap--l">
 
-
  <div class="intro max-width-text"><h1 class="inline bold">Концепция бренда.</h1> Рассказываю о&nbsp;ее&nbsp;значении, раскрываю алгоритм создания, делюсь отзывами клиентов. </div>
 
 <p>
@@ -76,27 +75,50 @@ keywords: "разработка концепции бренда"
 <strong class="post__note h2 max-width-text">Если вы&nbsp;чувствуете, что ваш бренд заслуживает большего, чем просто быть одним из многих&nbsp;— давайте дадим ему шанс.</strong>
 </section>
 
-<section class="block__space--top-h2 full-bleed" itemscope itemtype="http://schema.org/Review">
+<section class="block__space--top-h2 full-bleed">
 
     <h2 class="h1 bold">Отзывы клиентов</h2>
 
-	<div class="element--hidden" itemprop="itemReviewed" itemscope itemtype="https://schema.org/Organization">
-            <meta itemprop="name" content="Бартошевич Д.А. ИП">
-            <div itemprop="address" itemscope itemtype="https://schema.org/PostalAddress">
-                <meta itemprop="addressLocality" content="Фрунзенский район">
-                <meta itemprop="addressRegion" content="Минск">
-                <meta itemprop="streetAddress" content="г. Минск, ул. Ольшевского, 22">
+     <div class="element--hidden" itemscope itemtype="https://schema.org/Organization">
+            <meta itemprop="name" content="Консультации по маркетингу">
+            <div itemprop="aggregateRating" itemscope itemtype="https://schema.org/AggregateRating">
+                <meta itemprop="ratingValue" content="5">
+                <meta itemprop="bestRating" content="5">
+                <meta itemprop="ratingCount" content="25">
             </div>
-            <meta itemprop="telephone" content="+375297753340">
-            <link itemprop="image" href="{{ site.url }}/assets/images/main/bartoshevich@4x3.jpg">
-    </div>
+        </div>
 
 <div class="row mt-m">	
 <div class="c-5">
  		<blockquote class="blockquote--emphasis ml-2xl" itemprop="review" itemscope itemtype="https://schema.org/Review">
-			<p class="citation" itemprop="reviewBody">«Впереди много планов и&nbsp;есть главное&nbsp;— четкий выверенный вектор развития компании, который обозначил для нас Дмитрий Бартошевич. Поэтому <strong>хотелось&nbsp;бы поблагодарить его за&nbsp;предложенную концепцию и&nbsp;проведенную большую работу по&nbsp;брендингу нашего предприятия</strong>».</p>
-				<div class="citation__author">
-                <cite class="italic" itemprop="author" itemscope itemtype="https://schema.org/Person">
+		 <meta itemprop="name" content="Отзыв о позиционировании компании Flex-n-Roll">
+		   <div class="element--hidden" itemprop="itemReviewed" itemscope itemtype="https://schema.org/LocalBusiness">
+                <meta itemprop="name" content="Бартошевич Дмитрий">
+                <meta itemprop="description" content="Консультации по маркетингу и разработка позиционирования">
+                <link itemprop="image" href="https://bartoshevich.by/assets/images/main/bartoshevich@16x9.jpg">
+                <link itemprop="image" href="https://bartoshevich.by/assets/images/main/bartoshevich@4x3.jpg">
+                <link itemprop="image" href="https://bartoshevich.by/assets/images/main/bartoshevich@1x1.jpg">
+                <meta itemprop="priceRange" content="$$">
+                
+                <div class="element--hidden" itemprop="founder" itemscope itemtype="https://schema.org/Person">
+                    <meta itemprop="name" content="Дмитрий Бартошевич">
+                    <meta itemprop="jobTitle" content="Консультант по маркетингу">
+                    <link itemprop="url" href="https://bartoshevich.by/about/">
+                </div>
+                
+                <meta itemprop="telephone" content="+375297753340">
+                <link itemprop="url" href="https://bartoshevich.by/">
+                <div class="element--hidden" itemprop="address" itemscope itemtype="https://schema.org/PostalAddress">
+                    <meta itemprop="streetAddress" content="ул. Ольшевского, 22">
+                    <meta itemprop="postalCode" content="220073">
+                    <meta itemprop="addressLocality" content="Минск">
+                    <meta itemprop="addressCountry" content="BY">
+                </div>
+            </div>
+
+    		<p class="citation" itemprop="reviewBody">«Впереди много планов и&nbsp;есть главное&nbsp;— четкий выверенный вектор развития компании, который обозначил для нас Дмитрий Бартошевич. Поэтому <strong>хотелось&nbsp;бы поблагодарить его за&nbsp;предложенную концепцию и&nbsp;проведенную большую работу по&nbsp;брендингу нашего предприятия</strong>».</p>
+    			<div class="citation__author" itemprop="author" itemscope itemtype="https://schema.org/Person">
+                <cite class="italic" >
                     <span itemprop="name">Елена Горбачева</span>, <span itemprop="jobTitle">директор типографии <span class="noperenos">Flex-n-Roll</span></span>
                 </cite>
                 <meta itemprop="datePublished" content="2018-04-18"><br>
@@ -107,13 +129,39 @@ keywords: "разработка концепции бренда"
                 <meta itemprop="bestRating" content="5">
             </div>
     	</blockquote>
+
 </div>
 
 <div class="c-5">
         <blockquote class="blockquote--emphasis ml-2xl" itemprop="review" itemscope itemtype="https://schema.org/Review">
-			<p class="citation" itemprop="reviewBody">«На&nbsp;опыте прочувствовали, насколько <strong>наличие концепции бренда помогает развитию компании</strong>».</p>
-				<div class="citation__author">
-                <cite class="italic" itemprop="author" itemscope itemtype="https://schema.org/Person">
+         <meta itemprop="name" content="Отзыв о разработке концепции бренда для Giperlink">
+		 <div class="element--hidden" itemprop="itemReviewed" itemscope itemtype="https://schema.org/LocalBusiness">
+                <meta itemprop="name" content="Бартошевич Дмитрий">
+                <meta itemprop="description" content="Консультации по маркетингу и разработка позиционирования">
+                <link itemprop="image" href="https://bartoshevich.by/assets/images/main/bartoshevich@16x9.jpg">
+                <link itemprop="image" href="https://bartoshevich.by/assets/images/main/bartoshevich@4x3.jpg">
+                <link itemprop="image" href="https://bartoshevich.by/assets/images/main/bartoshevich@1x1.jpg">
+                <meta itemprop="priceRange" content="$$">
+                
+                <div class="element--hidden" itemprop="founder" itemscope itemtype="https://schema.org/Person">
+                    <meta itemprop="name" content="Дмитрий Бартошевич">
+                    <meta itemprop="jobTitle" content="Консультант по маркетингу">
+                    <link itemprop="url" href="https://bartoshevich.by/about/">
+                </div>
+                
+                <meta itemprop="telephone" content="+375297753340">
+                <link itemprop="url" href="https://bartoshevich.by/">
+                <div class="element--hidden" itemprop="address" itemscope itemtype="https://schema.org/PostalAddress">
+                    <meta itemprop="streetAddress" content="ул. Ольшевского, 22">
+                    <meta itemprop="postalCode" content="220073">
+                    <meta itemprop="addressLocality" content="Минск">
+                    <meta itemprop="addressCountry" content="BY">
+                </div>
+            </div>
+
+    		<p class="citation" itemprop="reviewBody">«На&nbsp;опыте прочувствовали, насколько <strong>наличие концепции бренда помогает развитию компании</strong>».</p>
+    			<div class="citation__author" itemprop="author" itemscope itemtype="https://schema.org/Person">
+                <cite class="italic" >
                     <span itemprop="name">Дмитрий Лихтарович</span>, <span itemprop="jobTitle">директор интернет-агентства Giperlink</span>
                 </cite>
                 <meta itemprop="datePublished" content="2018-11-30"><br>
@@ -124,6 +172,7 @@ keywords: "разработка концепции бренда"
                 <meta itemprop="bestRating" content="5">
             </div>
     	</blockquote>
+
 </div>
 </div>
 	
@@ -175,7 +224,6 @@ keywords: "разработка концепции бренда"
     		<p>Я&nbsp;анализирую имеющиеся у&nbsp;заказчика материалы по&nbsp;клиентам и&nbsp;конкурентам. Изучаю доступную информацию по&nbsp;предприятиям, представляющим наибольшую угрозу. Составляю образ компании, который конкуренты доносят до&nbsp;своих клиентов. </p>
 
     		<p>Подобный алгоритм декларируют и&nbsp;некоторые брендинговые агентства, но&nbsp;в&nbsp;реальности наши подходы различны. </p>
-
 
 <div class="section__content ">
 			<div class="grid-columns__first-one-half additive-spacing">

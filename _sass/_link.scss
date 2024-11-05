@@ -85,3 +85,14 @@
 .link-is-more:active {
   color: $link-active;
 }
+
+
+.link-as-text,
+.link-as-text:visited,
+.link-as-text:focus,
+.link-as-text:hover,
+.link-as-text:active {
+  color: inherit;      
+  text-decoration: none; 
+  cursor: default;      
+}
