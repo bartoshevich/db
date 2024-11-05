@@ -45,7 +45,7 @@ image:
 		<li class="block__item" itemscope itemtype="http://schema.org/BlogPosting">           
             <meta itemprop="datePublished" content="{{ post.date | date: "%Y-%m-%dT%H:%M:%S%z" }}">
             <meta itemprop="dateModified" content="{{ post.last_modified_at | date: "%Y-%m-%dT%H:%M:%S%z" }}">  
-            <link itemprop="image" href="{{ site.baseurl }}{{ post.image }}">         
+            <link itemprop="image" href="{{ site.url }}{{ post.image }}">         
             <div itemprop="author" itemscope itemtype="http://schema.org/Person">
                 <meta itemprop="name" content="Дмитрий Бартошевич">
                 <meta itemprop="jobTitle" content="консультант по маркетингу и стратегии">
