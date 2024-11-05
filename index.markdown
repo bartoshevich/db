@@ -119,9 +119,10 @@ keywords: "развитие брендов, анализ данных, разр�
 
               <blockquote class="blockquote--emphasis" itemprop="review" itemscope itemtype="https://schema.org/Review">
                <meta itemprop="name" content="Отзыв о разработке концепции бренда для Giperlink">
+               <meta itemprop="datePublished" content="2018-11-30">
 
    <div class="element--hidden" itemprop="itemReviewed" itemscope itemtype="https://schema.org/LocalBusiness">
-        <meta itemprop="name" content="Бартошевич Д.А. ИП">
+        <meta itemprop="name" content="Бартошевич Дмитрий">
         <meta itemprop="description" content="Консультации по маркетингу и разработка позиционирования">
 
         <link itemprop="image" href="https://bartoshevich.by/assets/images/main/bartoshevich@16x9.jpg">
@@ -156,7 +157,7 @@ keywords: "развитие брендов, анализ данных, разр�
     		<cite >
     			<span itemprop="name">Дмитрий Лихтарович</span>, <span itemprop="jobTitle">директор интернет-агентства Giperlink</span>
     		</cite>
-            <meta itemprop="datePublished" content="2018-11-30"><br>
+            <br>
             <a class="italic link" href="{{ site.url }}/blog/brand-giperlink/" itemprop="url">описание проекта и&nbsp;отзыв</a>
             </div>
              <div itemprop="reviewRating" itemscope itemtype="https://schema.org/Rating">
@@ -168,7 +169,7 @@ keywords: "развитие брендов, анализ данных, разр�
 
        <blockquote class="blockquote--emphasis" itemprop="review" itemscope itemtype="https://schema.org/Review">
        <meta itemprop="name" content="Отзыв о позиционировании компании Flex-n-Roll">
-
+<meta itemprop="datePublished" content="2018-04-18">
 
      <div class="element--hidden" itemprop="itemReviewed" itemscope itemtype="https://schema.org/LocalBusiness">
         <meta itemprop="name" content="Бартошевич Д.А. ИП">
@@ -205,7 +206,7 @@ keywords: "развитие брендов, анализ данных, разр�
     		<cite >
     			<span itemprop="name">Елена Горбачева</span>, <span itemprop="jobTitle">директор типографии <span class="noperenos">Flex-n-Roll</span></span>
     		</cite>
-            <meta itemprop="datePublished" content="2018-04-18"><br>
+            <br>
             <a class="italic link" href="{{ site.url }}/blog/brand-strategy-flex-n-roll/" itemprop="url">описание проекта и&nbsp;отзыв</a>
             </div>
              <div itemprop="reviewRating" itemscope itemtype="https://schema.org/Rating">
