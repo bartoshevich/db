@@ -1,10 +1,10 @@
 ---
 layout: post
-title:  "Архетипы и Маркетинг: Как 12 Архетипов Меняют B2B Маркетинг"
+title:  "12 архетипов в B2B маркетинге: практическое руководство"
 name: "Как&nbsp;12&nbsp;архетипов меняют B2B&nbsp;маркетинг"
 description: 'Узнайте, как теория архетипов меняет маркетинг и&nbsp;помогает выделить бренды в&nbsp;конкурентной среде: 12&nbsp;архетипов для успешного B2B маркетинга.'
 date:   2023-12-04
-last_modified_at: 2024-06-09
+last_modified_at: 2024-07-09
 categories: мнение
 permalink: "/blog/marketing-for-industrial-giants-12-archetypes/"
 tags: "управление"
