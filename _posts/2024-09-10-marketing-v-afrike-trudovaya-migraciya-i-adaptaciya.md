@@ -672,7 +672,7 @@ keywords: "маркетинг в Африке, работа в Сенегале,
   <a href="/blog/research-quality/" class="link"> Как контролировать качество маркетингового исследования</a>
 </li>
 <li class="list-li">
-  <a href="/blog/kak-reklamu-podrujit-s-potrebitelyami/" class="link"> Время блокировать рекламу</a>
+  <a href="/blog/kak-reklamu-podrujit-s-potrebitelyami/" class="link"> Реклама и&nbsp;приватность: стратегия восстановления доверия</a>
 </li>
 
 <li class="list-li">
