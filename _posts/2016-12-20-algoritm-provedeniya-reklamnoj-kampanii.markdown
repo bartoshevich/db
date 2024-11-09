@@ -44,10 +44,11 @@ image: /assets/images/tizers/tizer-35.jpg
 <li>
 	<span class="tocnumber">1</span><a class="link" href="#1">Убедитесь в&nbsp;необходимости рекламной кампании</a>
 </li>
-<li>
+<li class="additive-spacing">
 	<span class="tocnumber">2</span><a class="link" href="#2">Проработайте идею рекламной кампании </a>
-</li>
 
+
+<ul class="additive-spacing">
 <li class="level2">
 	<span class="tocnumber">а)</span><a class="link" href="#2.1">определите аудиторию</a>
 </li>
@@ -59,6 +60,8 @@ image: /assets/images/tizers/tizer-35.jpg
 </li>
 <li class="level2">
 	<span class="tocnumber">г)</span><a class="link" href="#2.4">составьте рекламное сообщение</a>
+</li>
+</ul>
 </li>
 <li>
 	<span class="tocnumber">3</span>

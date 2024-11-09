@@ -32,11 +32,14 @@ keywords: "ценообразование на основе ценности, п
 <nav class="toc">
   <h2 class="toc__title">Содержание</h2>
   <ol class="additive-spacing list-reset">
-    <li><span class="tocnumber">1 </span><a class="link" href="#chto-ne-tak-s-oplatoy-za-chas">Что не так с оплатой за час?</a></li>
+    <li class="additive-spacing"><span class="tocnumber">1 </span><a class="link" href="#chto-ne-tak-s-oplatoy-za-chas">Что не так с оплатой за час?</a>
+    <ul class="additive-spacing">
     <li class="level2"><span class="tocnumber">1.1 </span><a class="link" href="#perezhitok-industrialnoy-epokhi">Пережиток индустриальной эпохи</a></li>
     <li class="level2"><span class="tocnumber">1.2 </span><a class="link" href="#pooshchryayet-neeffektivnost">Поощряет неэффективность</a></li>
     <li class="level2"><span class="tocnumber">1.3 </span><a class="link" href="#ogranichivayet-dokhod">Ограничивает доход</a></li>
     <li class="level2"><span class="tocnumber">1.4 </span><a class="link" href="#provotsiruyet-konflikty">Провоцирует конфликты</a></li>
+    </ul>
+</li>
     <li><span class="tocnumber">2 </span><a class="link" href="#alternativa-pochasovoy-oplate">Альтернатива почасовой оплате</a></li>
     <li><span class="tocnumber">3 </span><a class="link" href="#kak-opredelit-emutsennost">Как определить &laquo;емуценность&raquo;</a></li>
     <li><span class="tocnumber">4 </span><a class="link" href="#varianty-ispolzovaniya-tsenoobrazovaniya-na-osnove-tsennosti">Варианты использования ценообразования на&nbsp;основе ценности</a></li>

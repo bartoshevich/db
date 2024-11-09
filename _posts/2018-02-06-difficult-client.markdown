@@ -23,12 +23,14 @@ keywords: "проблемный клиент"
 <nav class="toc">
  <h2 class="toc__title">Содержание</h2>
  <ul class="additive-spacing">
-		  <li>
+		  <li class="additive-spacing">
 		   
 		      <span class="tocnumber">1 </span>
 			   <a class="link" href="#1">Проблемный клиент и&nbsp;сотрудник компании
 		    </a>
-		  </li>
+		
+
+		  <ul class="additive-spacing">
 		  <li class="level2">
 		   
 		      <span class="tocnumber">1.1 </span>
@@ -41,6 +43,9 @@ keywords: "проблемный клиент"
 			   <a class="link" href="#1.2">Проблемная ситуация
 		    </a>
 		  </li>
+</ul>
+  </li>
+
 			<li>
 			
 				 <span class="tocnumber">2 </span>

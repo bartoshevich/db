@@ -37,10 +37,10 @@ keywords: "маркетинг в Африке, работа в Сенегале,
             <span class="tocnumber">1 </span> 
             <a class="link" href="#decision_to_work_in_senegal">Как я&nbsp;решилась на&nbsp;работу в&nbsp;Сенегале</a>
         </li>
-        <li>
+        <li class="additive-spacing">
             <span class="tocnumber">2 </span> 
             <a class="link" href="#cultural_adaptation">Открываю Африку: как адаптировалась к&nbsp;новой культурной среде</a>
-        </li>
+        <ul class="additive-spacing">
         <li class="level2">
             <span class="tocnumber">2.1 </span> 
             <a class="link" href="#cultural_shock">Культурный шок: первые шаги в&nbsp;Сенегале</a>
@@ -53,10 +53,13 @@ keywords: "маркетинг в Африке, работа в Сенегале,
             <span class="tocnumber">2.3 </span> 
             <a class="link" href="#adaptation_factors">Факторы, которые помогли адаптироваться</a>
         </li>
-        <li>
+</ul>
+        </li>
+        <li class="additive-spacing">
             <span class="tocnumber">3 </span> 
             <a class="link" href="#marketing_challenges_solutions">Построение маркетинга в&nbsp;Сенегале: вызовы и&nbsp;решения</a>
-        </li>
+        
+        <ul class="additive-spacing">
         <li class="level2">
             <span class="tocnumber">3.1 </span> 
             <a class="link" href="#marketing_tasks">Задачи: управление маркетингом, командой и&nbsp;продажами</a>
@@ -73,10 +76,13 @@ keywords: "маркетинг в Африке, работа в Сенегале,
             <span class="tocnumber">3.4 </span> 
             <a class="link" href="#management_challenges">Управленческие вызовы и&nbsp;их&nbsp;преодоление</a>
         </li>
-        <li>
+        </ul>
+</li>
+        <li class="additive-spacing">
             <span class="tocnumber">4 </span> 
             <a class="link" href="#main_lessons">Главные уроки Сенегала</a>
-        </li>
+       
+        <ul class="additive-spacing">
         <li class="level2">
             <span class="tocnumber">4.1 </span> 
             <a class="link" href="#marketing_lessons">Маркетинг&nbsp;&mdash; это про исследование реальности</a>
@@ -85,6 +91,8 @@ keywords: "маркетинг в Африке, работа в Сенегале,
             <span class="tocnumber">4.2 </span> 
             <a class="link" href="#personal_lessons">Личный урок: жить здесь и&nbsp;сейчас и&nbsp;заботиться о&nbsp;себе</a>
         </li>
+        </ul>
+ </li>
         <li>
             <span class="tocnumber">5 </span> 
             <a class="link" href="#migration_advice">Совет по&nbsp;успешной трудовой миграции</a>

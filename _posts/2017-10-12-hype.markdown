@@ -27,12 +27,13 @@ keywords: "Искусственный Интеллект, Маркетинг, Т
 			  <a  class="link" href="#1">Трезвый расчет вместо хайпа
 		    </a>
 		  </li>
-		  <li>
+		  <li class="additive-spacing">
 		    
 		      <span class="tocnumber">2 </span>
 			  <a  class="link" href="#2">Зоны ближайшего развития маркетинга
 		    </a>
-		  </li>
+		  
+		  <ul class="additive-spacing">
 			<li class="level2">
 		   
 		      <span class="tocnumber">a) </span>
@@ -61,6 +62,8 @@ keywords: "Искусственный Интеллект, Маркетинг, Т
 			 <span class="tocnumber">д)</span>
 			 <a  class="link" href="#2.5">реклама
 		 </a>
+	 </li>
+	 </ul>
 	 </li>
 		 
 </ul>

@@ -39,13 +39,15 @@ keywords: "доступность"
 			   Преимущества доступности для условно здоровых
 		    </a>
 		  </li>
-			<li>
+			<li class="additive-spacing">
 		   
 		      <span class="tocnumber">4 </span>
 			   <a class="link" href="#4">
 			   Базовые принципы доступности
 		    </a>
-		  </li>
+		  
+
+		  <ul class="additive-spacing">
           	<li class="level2">
 		    
 		      <span class="tocnumber">4.1 </span>
@@ -94,7 +96,10 @@ keywords: "доступность"
 		      <span class="tocnumber">4.8 </span>
 			   <a class="link" href="#notonlycolor">Не полагайтесь только на цвет
 		    </a>
-		  </li>		 
+		  </li>	
+		  </ul>
+</li>
+
 		 <li>
 			
 				<span class="tocnumber">5</span>

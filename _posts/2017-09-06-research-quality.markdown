@@ -53,12 +53,14 @@ keywords: "контроль исследовательских агентств"
 	  <a class="link" href="#1">Принципы контроля работы исследовательских агентств
     </a>
   </li>
-  <li>
+  <li class="additive-spacing">
   
       <span class="tocnumber">2 </span>
 	    <a class="link" href="#2">Особенности контроля качества проведения
     </a>
-  </li>
+ 
+
+  <ul class="additive-spacing">
       <li class="level2">
        
         <span class="tocnumber">2.1 </span>
@@ -77,6 +79,9 @@ keywords: "контроль исследовательских агентств"
 		 <a class="link" href="#2.3">...фокус-групп
         </a>
       </li>
+	  </ul>
+
+ </li>
 </ul>
 </nav>
 
