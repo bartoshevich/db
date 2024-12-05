@@ -4,7 +4,7 @@ title:  "Customer journey map: примеры и алгоритм создани
 name: "Как&nbsp;создать карту потребительского опыта и&nbsp;улучшить маркетинг"
 description: "Узнайте, как создать карту потребительского опыта (CJM) для эффективного маркетинга! Шаги, инструменты и&nbsp;советы для глубокого понимания клиентов."
 date:   2016-06-06
-last_modified_at: 2023-12-14
+last_modified_at: 2024-12-05
 categories: инструкции
 permalink: "/blog/customer-journey-map/"
 tags: "инструменты бизнес"
@@ -204,7 +204,7 @@ image: /assets/images/tizers/tizer-22.jpg
 <ul class="additive-spacing">
 <li class="list-li"> <a  class="link" href="https://uxpressia.com/">UXPressia</a>. Компания предлагает готовые шаблоны для разных сфер бизнеса. Есть бесплатный тариф: можно составить одну карту без ограничения возможностей ее&nbsp;форматирования. Для работы потребуется минимальное знание английского языка. Локализации сайта и&nbsp;интерфейса сервиса нет, но&nbsp;саму карту можно составлять на&nbsp;любом языке.  </li>
 <li class="list-li"> <a  class="link" href="https://www.smaply.com/">Smaply</a>. Еще один сервис для создания CJM.  </li>
-<li class="list-li"> <a  class="link" href="https://www.touchpointdashboard.com/">Touchpoint Dashboard</a>. Судя по&nbsp;обзорам на&nbsp;youtube, это комбайн в&nbsp;мире CJM . Из&nbsp;понравившихся возможностей&nbsp;&mdash; можно работать над картой всей командой онлайн, а&nbsp;также подключать пользователей и&nbsp;просить их&nbsp;оценить, например, важность точки контакта. </li>
+<li class="list-li"> Touchpoint Dashboard. Судя по&nbsp;обзорам на&nbsp;youtube, это комбайн в&nbsp;мире CJM . Однако сайт приложения уже долго не&nbsp;открывается. Судьба сервиса под вопросом. </li>
 <li class="list-li"> <a  class="link" href="https://miro.com/templates/customer-journey-map/"> Miro</a> (до&nbsp;2019&nbsp;г. &mdash;&nbsp;RealtimeBoard). Онлайн аналог маркерной доски для совместной работы. Для создания карт потребительского опыта есть специальный шаблон.  </li>
 
 </ul>
