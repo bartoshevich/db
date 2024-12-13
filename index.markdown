@@ -23,24 +23,29 @@ keywords: "развитие брендов, анализ данных, разр�
 </section>
 
 <div class="full-bleed intro__image" itemscope itemtype="http://schema.org/ImageObject">
-<link itemprop="url" href="https://res.cloudinary.com/bartoshevich/image/upload/v1700500406/site/desktop.png">
+<link itemprop="url" href="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1734078851/site/desktop_new.jpg">
   
-  
-  {% comment %}
+    <img class="image"
+    	src="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1734078851/site/desktop_new.jpg" alt="Рабочее место консультанта по маркетингу: современный монитор с аналитической панелью, демонстрирующей графики эффективности маркетинга, KPI и стратегическое планирование в минималистичном стиле"
+    	sizes="(min-width: 1500px) 80vw, 100vw"
+    	srcset="https://res.cloudinary.com/bartoshevich/image/upload/w_640/f_auto,q_auto/v1734078851/site/desktop_new.jpg 640w,
+        https://res.cloudinary.com/bartoshevich/image/upload/w_1200/f_auto,q_auto/v1734078851/site/desktop_new.jpg 1200w,
+        https://res.cloudinary.com/bartoshevich/image/upload/w_1700/f_auto,q_auto/v1734078851/site/desktop_new.jpg 1700w,
+        https://res.cloudinary.com/bartoshevich/image/upload/w_1980/f_auto,q_auto/v1734078851/site/desktop_new.jpg 1980w,
+        https://res.cloudinary.com/bartoshevich/image/upload/w_2500/f_auto,q_auto/v1734078851/site/desktop_new.jpg 2500w,
+        https://res.cloudinary.com/bartoshevich/image/upload/w_3500/f_auto,q_auto/v1734078851/site/desktop_new.jpg 3500w,
+        https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1734078851/site/desktop_new.jpg 4928w"
+        width="4928" height="2816" itemprop="contentUrl" >
+
+
+
+         {% comment %}
     <picture>    
                 <source srcset="/assets/images/home/desktop.avif 1x, /assets/images/home/desktop_2x.avif 2x" type="image/avif"> 
                    <source srcset="/assets/images/home/desktop.webp 1x, /assets/images/home/desktop_2x.webp 2x" type="image/webp"> 
                 <img class="image" src="/assets/images/home/desktop_2x.jpg" srcset="/assets/images/home/desktop.jpg 1x, /assets/images/home/desktop_2x.jpg 2x" width="1792" height="1024" alt="Иллюстрация современного рабочего места маркетингового консультанта, подчеркивающая стратегическое планирование и инновации" itemprop="contentUrl">
     </picture> 
  {% endcomment %}
-
-    <img class="image"
-    	src="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1700500406/site/desktop.png" alt="Иллюстрация современного рабочего места маркетингового консультанта, подчеркивающая стратегическое планирование и инновации"
-    	sizes="(min-width: 1500px) 80vw, 100vw"
-    	srcset="https://res.cloudinary.com/bartoshevich/image/upload/w_640/f_auto,q_auto/v1700500406/site/desktop.png 640w,
-        https://res.cloudinary.com/bartoshevich/image/upload/w_1200/f_auto,q_auto/v1700500406/site/desktop.png 1200w,
-        https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1700500406/site/desktop.png 1700w"
-        width="1792" height="1024" itemprop="contentUrl" >
 
 </div>
 
