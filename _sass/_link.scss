@@ -1,10 +1,12 @@
+@use "variables" as v;
+
 .link {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-decoration: underline;
   text-decoration-thickness: max(0.055rem, 0.0625rem);
   text-underline-offset: 0.1em;
-  color: $link;
+  color: v.$link;
   cursor: pointer;
   position: relative;
 
@@ -19,7 +21,7 @@
 }
 
 .link:visited {
-  color: $link;
+  color: v.$link;
 }
 
 .link:hover {
@@ -33,19 +35,19 @@
 .focus:focus,
 .link:focus {
   outline: 3px solid transparent;
-  color: $link;
-  background-color: $link-bg;
-  -webkit-box-shadow: 0 -2px $link-bg, 0 4px $link-active;
-  box-shadow: 0 -2px $link-bg, 0 4px $link-active;
+  color: v.$link;
+  background-color: v.$link-bg;
+  -webkit-box-shadow: 0 -2px v.$link-bg, 0 4px v.$link-active;
+  box-shadow: 0 -2px v.$link-bg, 0 4px v.$link-active;
   text-decoration: none;
 }
 
 .link:hover {
-  color: $link-hover;
+  color: v.$link-hover;
 }
 
 .link:active {
-  color: $link-active;
+  color: v.$link-active;
 }
 
 .link-is-more {
@@ -54,11 +56,11 @@
   text-decoration: underline;
   text-decoration-thickness: max(0.055rem, 0.0625rem);
   text-underline-offset: 0.1em;
-  color: $secondary-text-colour;
+  color: v.$secondary-text-colour;
 }
 
 .link-is-more:visited {
-  color: $secondary-text-colour;
+  color: v.$secondary-text-colour;
 }
 
 .link-is-more:hover {
@@ -71,28 +73,27 @@
 
 .link-is-more:focus {
   outline: 3px solid transparent;
-  color: $link-hover;
-  background-color: $link-bg;
-  -webkit-box-shadow: 0 -2px $link-bg, 0 4px $link-hover;
-  box-shadow: 0 -2px $link-bg, 0 4px $link-active;
+  color: v.$link-hover;
+  background-color: v.$link-bg;
+  -webkit-box-shadow: 0 -2px v.$link-bg, 0 4px v.$link-hover;
+  box-shadow: 0 -2px v.$link-bg, 0 4px v.$link-active;
   text-decoration: none;
 }
 
 .link-is-more:hover {
-  color: $link-hover;
+  color: v.$link-hover;
 }
 
 .link-is-more:active {
-  color: $link-active;
+  color: v.$link-active;
 }
-
 
 .link-as-text,
 .link-as-text:visited,
 .link-as-text:focus,
 .link-as-text:hover,
 .link-as-text:active {
-  color: inherit;      
-  text-decoration: none; 
-  cursor: default;      
+  color: inherit;
+  text-decoration: none;
+  cursor: default;
 }

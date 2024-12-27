@@ -1,5 +1,5 @@
 .newsletter {
-  margin:var(--space-3xl) 0 0 0;
+  margin: var(--space-3xl) 0 0 0;
 }
 
 :root {
@@ -11,33 +11,25 @@
   --link-hover-dark: #004080;
 }
 
-
-
-
-
-[data-theme='light'] .subscription-block {
+[data-theme="light"] .subscription-block {
   background-color: var(--background-light);
-  
 }
 
-[data-theme='dark'] .subscription-block {
+[data-theme="dark"] .subscription-block {
   background-color: var(--background-dark);
 }
 
 .subscription-block {
   padding: 1em;
-  border-radius: .5em;
-  @media (max-width: 560px) {
-    padding: .5em; 
-  }
+  border-radius: 0.5em;
   margin: 0 auto;
   color: var(--text-colour);
+  @media (max-width: 560px) {
+    padding: 0.5em;
+  }
 }
 
-
-
 .subscription-options {
-
   display: grid;
   grid-template-columns: 1fr;
   row-gap: 1.2em;
@@ -47,5 +39,3 @@
     grid-template-columns: 1fr 1fr;
   }
 }
-
-

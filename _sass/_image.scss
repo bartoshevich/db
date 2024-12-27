@@ -1,3 +1,5 @@
+@use "variables" as v;
+
 .figcaption {
   max-width: 65ch;
   font-size: var(--step--1);
@@ -16,14 +18,12 @@
   font-size: 0;
 }
 
-
-
 .is-rounded {
   border-radius: 290486px;
 }
 
-
-.is-square, .is-1by1 {
+.is-square,
+.is-1by1 {
   aspect-ratio: 1/1;
 }
 
@@ -64,7 +64,7 @@
 }
 
 .is-2by3 {
- aspect-ratio: 2/3;
+  aspect-ratio: 2/3;
 }
 
 .is-3by5 {
@@ -120,11 +120,9 @@
   width: 150px;
 }
 
-
-.icon { 
-  width: 40px; 
+.icon {
+  width: 40px;
   height: 40px;
-  margin: .5em;
-  stroke: $text-colour;
+  margin: 0.5em;
+  stroke: v.$text-colour;
 }
-

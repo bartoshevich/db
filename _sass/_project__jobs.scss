@@ -1,24 +1,21 @@
+@media (max-width: 799px) {
+  .work__list {
+    display: -ms-flexbox;
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-xl);
+    overflow: hidden;
+  }
+}
 
-@media (max-width:799px) {  
-    .work__list {
-        display: -ms-flexbox;
-        display: flex;
-        flex-direction: column;
-        gap: var(--space-xl);
-        overflow: hidden;
-    }
-    }
-
-
-
-@media (min-width:800px) {  
-.work__list {
+@media (min-width: 800px) {
+  .work__list {
     display: -ms-grid;
     display: grid;
     grid-template-columns: 2fr 2fr;
     grid-gap: var(--space-xl);
     overflow: hidden;
-}
+  }
 }
 
 /*

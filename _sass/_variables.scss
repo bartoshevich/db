@@ -1,7 +1,6 @@
-
 /* Text  */
 
-$text-colour:var(--text-colour);	
+$text-colour: var(--text-colour);
 $secondary-text-colour: var(--secondary-text-colour);
 
 /* Color */
@@ -16,12 +15,9 @@ $link-active: var(--link-active);
 $link-bg: var(--link-bg);
 $link-focus: var(--link-focus);
 
-
-
 /* Border */
 
-$gray: var(--gray); 
-
+$gray: var(--gray);
 
 // Typography
 
@@ -29,3 +25,9 @@ $family-sans-serif: "PT Sans", "PT Sans-fallback", Arial, Helvetica, sans-serif 
 $family-monospace: monospace !default;
 $render-mode: optimizeLegibility !default;
 
+// Terminal
+@use "sass:color";
+$base-color: #393e46;
+$terminal-border-color: color.mix(#fff, $base-color, 80%);
+$terminal-window-height: 10px;
+$terminal-border-radius: 0.125em;

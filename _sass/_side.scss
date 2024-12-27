@@ -1,57 +1,50 @@
+@use "variables" as v;
 
 .with-side {
-    position : relative;
-    }
-    
+  position: relative;
+}
 
 .side li {
-      margin-left: var(--space-s);
-      padding: var(--space-3xs) 0 var(--space-2xs) 0;
-  }
-  
+  margin-left: var(--space-s);
+  padding: var(--space-3xs) 0 var(--space-2xs) 0;
+}
+
 .side > p + ul {
-    margin: 0;
-  }
+  margin: 0;
+}
 
 .side img {
-    max-width : 100%;
-    }
-    
+  max-width: 100%;
+}
 
-    
 .side {
-      color: $text-colour;
-      position : relative;
-      left : 9%;
-      width : 91%;
-      padding: 0; 
-     }
-    
-   
-    .side > * {
-        font-size:var(--step--1);
-    line-height: 1.5;
-    }
-    
-    .span__side {
-      font-size: .8em;
-    line-height: 1.36em;
-    margin-bottom: 0;
-    }
- 
-   
+  color: v.$text-colour;
+  position: relative;
+  left: 9%;
+  width: 91%;
+  padding: 0;
+}
 
+.side > * {
+  font-size: var(--step--1);
+  line-height: 1.5;
+}
 
-    @media screen and (min-width:1430px) {
-      .side {
-        margin-top : .4em;
-        line-height: 1.4em;
-        color : inherit;
-        position : absolute;
-        top : 0;
-       left : 112%;
-       width : calc(300px - var(--space-2xl));
-        color: $text-colour;
-      }
-    }
-     
+.span__side {
+  font-size: 0.8em;
+  line-height: 1.36em;
+  margin-bottom: 0;
+}
+
+@media screen and (min-width: 1430px) {
+  .side {
+    margin-top: 0.4em;
+    line-height: 1.4em;
+    color: inherit;
+    position: absolute;
+    top: 0;
+    left: 112%;
+    width: calc(300px - var(--space-2xl));
+    color: v.$text-colour;
+  }
+}

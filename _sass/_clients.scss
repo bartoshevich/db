@@ -1,18 +1,15 @@
+.clients {
+  margin: 4vw 0;
+  text-align: center;
+}
 
+.clients__list {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: var(--space-3xs) var(--space-2xs);
+  width: 100%;
+}
 
-  .clients {
-	margin: 4vw 0;
-	text-align: center;
-  }
-
-
-  .clients__list {
-	display: grid;
-	grid-template-columns: 1fr 1fr;
-	grid-gap: var(--space-3xs) var(--space-2xs);
-	width: 100%;
-  }
-
-  .clients__block {
-    margin: var(--space-xl-2xl) 0 var(--space-2xl) 0;
+.clients__block {
+  margin: var(--space-xl-2xl) 0 var(--space-2xl) 0;
 }

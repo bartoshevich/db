@@ -1,10 +1,10 @@
 .video {
-    position: relative;
-    width: 100%;
-    height: 0;
-    padding-bottom: 56.25%;
-    background-color: #000000;
-    border:1px solid var(--video-border);
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-bottom: 56.25%;
+  background-color: #000000;
+  border: 1px solid var(--video-border);
 }
 
 .video-margin {
@@ -12,79 +12,78 @@
   margin-bottom: 2em;
 }
 
-.video iframe, .video object, .video embed{
-  	position: absolute;
-  	top: 0;
-  	left: 0;
-  	width: 100%;
-  	height: 100%;
+.video iframe,
+.video object,
+.video embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 
 iframe {
-	border:0;
-	overflow:hidden;
+  border: 0;
+  overflow: hidden;
 }
 
-
-
-
 .video__link {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 
 .video__media {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    border: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
 }
 
 .video__button {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    z-index: 1;
-    display: none;
-    padding: 0;
-    width: 68px;
-    height: 48px;
-    border: none;
-    background-color: transparent;
-    transform: translate(-50%, -50%);
-    cursor: pointer;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 1;
+  display: none;
+  padding: 0;
+  width: 68px;
+  height: 48px;
+  border: none;
+  background-color: transparent;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
 }
 
 .video__button-shape {
-    fill: #212121;
-    fill-opacity: 0.8;
+  fill: #212121;
+  fill-opacity: 0.8;
 }
 
 .video__button-icon {
-    fill: #ffffff;
+  fill: #ffffff;
 }
 
 .video__button:focus {
-    outline: none;
+  outline: none;
 }
 
 .video:hover .video__button-shape,
 .video__button:focus .video__button-shape {
-    fill: #ff0000;
-    fill-opacity: 1;
+  fill: #ff0000;
+  fill-opacity: 1;
 }
 
 /* Enabled */
 
 .video--enabled {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 .video--enabled .video__button {
-    display: block;
+  display: block;
 }

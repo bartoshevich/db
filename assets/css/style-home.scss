@@ -1,25 +1,24 @@
 ---
 ---
-@import "variables";
-@import "fonts";
-@import "resert";
-@import "type";
-@import "fluid_space";
-@import "layout";
-@import "basic";
 
-@import "menu";
-@import "breadcrumbs";
+@use  "variables";
+@use  "fonts";
+@use  "resert";
+@use  "type";
+@use  "fluid_space";
+@use  "layout";
+@use  "basic";
 
-@import "image";
+@use  "menu";
+@use  "breadcrumbs";
 
-@import "clients";
-@import "blockquote";
+@use  "image";
 
+@use  "clients";
+@use  "blockquote";
 
-@import "link";
+@use  "link";
 
-@import "toggle";
+@use  "toggle";
 
-
-@import "footer";
+@use  "footer";

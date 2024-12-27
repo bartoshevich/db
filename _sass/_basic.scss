@@ -1,3 +1,5 @@
+@use "variables" as v;
+
 p {
   max-width: 66ch;
 }
@@ -35,11 +37,11 @@ p {
 }
 
 .text-color {
-  color: $text-colour !important;
+  color: v.$text-colour !important;
 }
 
 .secondary-color {
-  color: $secondary-text-colour;
+  color: v.$secondary-text-colour;
 }
 .regular {
   font-weight: 400;
@@ -116,7 +118,7 @@ p {
   position: sticky;
   top: -4px;
   z-index: 1;
-  background-color: $background-color;
+  background-color: v.$background-color;
 }
 
 /*  title   */
@@ -169,14 +171,14 @@ p {
   flex-direction: column;
   justify-content: center;
   padding: 5%;
-  //  background-color: $gray;
-  border: 4px solid $gray;
+  //  background-color: v.$gray;
+  border: 4px solid v.$gray;
   border-radius: 10px;
 }
 
 .extract {
   font-style: italic;
-  border-left: 1px solid $secondary-text-colour;
+  border-left: 1px solid v.$secondary-text-colour;
   padding-left: var(--space-m);
   margin: var(--space-s) 0 var(--space-s) var(--space-l);
   line-height: 1.6em;
@@ -217,7 +219,7 @@ p {
 }
 
 .qr-code {
-  border: 1px dotted $text-colour;
+  border: 1px dotted v.$text-colour;
   border-radius: 8px;
 }
 
