@@ -2,7 +2,6 @@ title: "Консультант по маркетингу и стратегии |
 description: "Развиваю бренды, опираясь на исследования и анализ данных. Разрабатываю план необходимых действий, контролирую реализацию. Противник 'втюхинга' и манипуляций."
 baseurl: "" 
 url: "https://bartoshevich.by" 
-trailing_slash: false
 
 sass:
   style: compressed
@@ -19,6 +18,7 @@ include:
 # Build settings
 plugins:
   - jekyll-feed
+
 
 
 # Exclude from processing.
