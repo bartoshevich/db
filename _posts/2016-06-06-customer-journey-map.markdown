@@ -51,7 +51,7 @@ image: /assets/images/tizers/tizer-22.jpg
 
 <p>Зачем нам все это? Потому что в&nbsp;каждом контакте, будь&nbsp;то всплывающая реклама или звонок в&nbsp;отдел продаж, скрыта история. История о&nbsp;том, как ваш клиент видит мир, что он&nbsp;чувствует и&nbsp;какие решения принимает. Если вы&nbsp;готовы прислушаться к&nbsp;этой истории, вы&nbsp;можете создать не&nbsp;просто продукт, а&nbsp;историю, которую ваш клиент захочет рассказать дальше.</p>
 
-<div itemprop="image" itemscope itemtype="http://schema.org/ImageObject">	
+<div itemprop="image" itemscope itemtype="https://schema.org/ImageObject">	
 		<link itemprop="url" href="/assets/images/blog/customer-journey-map/cjm4.jpg">
 <picture>
 <source srcset="/assets/images/blog/customer-journey-map/cjm4.avif" type="image/avif"> 
@@ -112,7 +112,7 @@ image: /assets/images/tizers/tizer-22.jpg
 <p> Опишите действия персонажа от&nbsp;момента осознания потребности до&nbsp;покупки и&nbsp;использования вашего товара или услуги. Если затрудняетесь с&nbsp;определением этапов, воспользуетесь схемой: осознание потребности → сбор информации → выбор → покупка → использование → рекомендации. Укажите, что делает персонаж на&nbsp;каждом этапе.
 </p>
 
-<div  itemprop="image" itemscope itemtype="http://schema.org/ImageObject">	
+<div  itemprop="image" itemscope itemtype="https://schema.org/ImageObject">	
 		<link itemprop="url" href="/assets/images/blog/customer-journey-map/cjm1.jpg">	
 <picture>
 <source srcset="/assets/images/blog/customer-journey-map/cjm1.avif" type="image/avif"> 
@@ -143,7 +143,7 @@ image: /assets/images/tizers/tizer-22.jpg
 </p>
 
 
-<div itemprop="image" itemscope itemtype="http://schema.org/ImageObject">	
+<div itemprop="image" itemscope itemtype="https://schema.org/ImageObject">	
 		<link itemprop="url" href="/assets/images/blog/customer-journey-map/cjm2.jpg">	
 <picture>
 <source srcset="/assets/images/blog/customer-journey-map/cjm2.avif" type="image/avif"> 
@@ -167,7 +167,7 @@ image: /assets/images/tizers/tizer-22.jpg
  <p>Определили действие&nbsp;— определите кто сделает.
 </p>
 
-<div itemprop="image" itemscope itemtype="http://schema.org/ImageObject">	
+<div itemprop="image" itemscope itemtype="https://schema.org/ImageObject">	
 		<link itemprop="url" href="/assets/images/blog/customer-journey-map/cjm3.jpg">	
 <picture> 
 <source srcset="/assets/images/blog/customer-journey-map/cjm3.avif" type="image/avif"> 
@@ -187,7 +187,7 @@ image: /assets/images/tizers/tizer-22.jpg
 
 <p>Опубликовал статью и&nbsp;получил отзыв от&nbsp;UXPressia&nbsp;&mdash; компании, которая развивает онлайн-сервис построения карт потребительского опыта.</p> 
 
-<div itemprop="image" itemscope itemtype="http://schema.org/ImageObject">	
+<div itemprop="image" itemscope itemtype="https://schema.org/ImageObject">	
 		<link itemprop="url" href="/assets/images/blog/customer-journey-map/UXPressia@1x.jpg">	
 <picture>
 <source srcset="/assets/images/blog/customer-journey-map/UXPressia@1x.avif" type="image/avif"> 

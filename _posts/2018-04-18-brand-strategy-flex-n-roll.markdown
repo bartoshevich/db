@@ -39,7 +39,7 @@ keywords: "стратегия бренда Флекс-н-Ролл"
 
  <p>Проект заинтересовал Европейский банк реконструкции и&nbsp;развития, и&nbsp;он&nbsp;выделил нам грант на&nbsp;его реализацию в&nbsp;рамках поддержки женского предпринимательства «Женщины в&nbsp;бизнесе». Благодаря этому мы&nbsp;привлекли маркетолога Дмитрия Бартошевича и&nbsp;исследовательское агентство МАСМИ, которое провело исследование белорусского и&nbsp;российского рынка типографских услуг.</p>
 
-<div itemprop="image" itemscope itemtype="http://schema.org/ImageObject">	
+<div itemprop="image" itemscope itemtype="https://schema.org/ImageObject">	
 		<link itemprop="url" href="/assets/images/blog/brand-strategy-flex-n-roll/flex_label-720.jpg">
 <picture>
 	<source media="(min-width: 450px)" srcset="/assets/images/blog/brand-strategy-flex-n-roll/flex_label-720.webp" type="image/webp">
@@ -67,7 +67,7 @@ keywords: "стратегия бренда Флекс-н-Ролл"
 
 <p> Исследование провели в&nbsp;два этапа. Первый&nbsp;— глубинные интервью. МАСМИ опросило специалистов, которые на&nbsp;предприятиях отвечают за&nbsp;закупку самоклеящейся этикетки. Мы&nbsp;выявили критерии выбора подрядчиков, ценностные ориентиры, требования к&nbsp;качеству и&nbsp;уровню обслуживания, и&nbsp;— главное&nbsp;— составили гипотезы, которые проверили на&nbsp;втором этапе&nbsp;— количественном исследовании (провели опрос).</p>
 
-<div itemprop="image" itemscope itemtype="http://schema.org/ImageObject">	
+<div itemprop="image" itemscope itemtype="https://schema.org/ImageObject">	
 		<link itemprop="url" href="/assets/images/blog/brand-strategy-flex-n-roll/flex_stat.jpg" >
 	<picture>
 	<source media="(min-width: 450px)" srcset="/assets/images/blog/brand-strategy-flex-n-roll/flex_stat.webp" type="image/webp">
@@ -97,7 +97,7 @@ keywords: "стратегия бренда Флекс-н-Ролл"
 <p><em>Суть концепции бренда:</em> <span class="noperenos">«Флекс-н-Ролл»</span> работает в&nbsp;ритме клиента. Типография подстраивается под задачи заказчика, предлагает варианты оптимизации заказа, печатает в&nbsp;соответствии с&nbsp;утвержденным макетом и&nbsp;согласованные сроки. Клиенты ощущают помощь и&nbsp;поддержку со&nbsp;стороны <span class="noperenos">«Флекс-н-Ролл»</span>, слаженную командную работу. С&nbsp;<span class="noperenos">«Флекс-н-Ролл»</span> сотрудничать легко. </p>
 
 
-<div itemprop="image" itemscope itemtype="http://schema.org/ImageObject">	
+<div itemprop="image" itemscope itemtype="https://schema.org/ImageObject">	
 		<link itemprop="url" href="/assets/images/blog/brand-strategy-flex-n-roll/flex-n-roll@3x.jpg" >
 	<picture>
 	<source  srcset="/assets/images/blog/brand-strategy-flex-n-roll/flex-n-roll@1x.avif 1x, /assets/images/blog/brand-strategy-flex-n-roll/flex-n-roll@2x.avif 2x, /assets/images/blog/brand-strategy-flex-n-roll/flex-n-roll@3x.avif 3x" type="image/webp">

@@ -26,7 +26,7 @@ image:  /assets/images/tizers/tizer-24.jpg
 <h2 class="section__title h1 bold ">Презентация продуктов «1С-Битрикс»</h2>
 <p>Егор Урбан и&nbsp;Феликс Ермоленко рассказывали о&nbsp;функциях интернет-магазина и&nbsp;CRM-решениях. Говорили, как интернет-магазин должен выглядеть и&nbsp;работать, и&nbsp;как в&nbsp;этом поможет «1С-Битрикс».</p>
 
-<div  itemprop="image" itemscope itemtype="http://schema.org/ImageObject">	
+<div  itemprop="image" itemscope itemtype="https://schema.org/ImageObject">	
 		<link itemprop="url" href="/assets/images/blog/1s-bitriks/bitrix1.jpg">
 <picture>
                <source srcset="/assets/images/blog/1s-bitriks/bitrix1.avif" type="image/avif">
@@ -46,7 +46,7 @@ image:  /assets/images/tizers/tizer-24.jpg
 <p>Невольно вспоминаю рассказ о&nbsp;человеке, который на&nbsp;последние деньги купил билет на&nbsp;круиз и&nbsp;во&nbsp;время долгого плавания отказывался от&nbsp;еды, опасаясь счетов на&nbsp;оплату. И&nbsp;только в&nbsp;конце путешествия он&nbsp;узнал, что еда и&nbsp;напитки входили в&nbsp;стоимость билета.</p>
 <p><span class="bold">Если вы&nbsp;купили лицензию Битрикс</span> и&nbsp;не&nbsp;хотите походить на&nbsp;персонажа рассказа, узнайте, за&nbsp;какие возможности вы&nbsp;уже заплатили. Откройте панель администратора сайта, зайдите в&nbsp;настройки продукта и&nbsp;выберите раздел «модули». Вы&nbsp;увидите, чем уже пользуетесь и&nbsp;что можете использовать, но&nbsp;пока не&nbsp;установили. Обсудите с&nbsp;разработчиком сайта назначение и&nbsp;целесообразность подключения каждого модуля.</p>
 
-<div  itemprop="image" itemscope itemtype="http://schema.org/ImageObject">	
+<div  itemprop="image" itemscope itemtype="https://schema.org/ImageObject">	
 		<link itemprop="url" href="/assets/images/blog/1s-bitriks/bitrix2.jpg">
 <picture>
                <source srcset="/assets/images/blog/1s-bitriks/bitrix2.avif" type="image/avif">
@@ -76,7 +76,7 @@ image:  /assets/images/tizers/tizer-24.jpg
  </ul>
  
 
-<div  itemprop="image" itemscope itemtype="http://schema.org/ImageObject">	
+<div  itemprop="image" itemscope itemtype="https://schema.org/ImageObject">	
 		<link itemprop="url" href="/assets/images/blog/1s-bitriks/bitrix3.jpg">
 <picture>
                <source srcset="/assets/images/blog/1s-bitriks/bitrix3.avif" type="image/avif">

@@ -29,7 +29,7 @@ keywords: "психология в маркетинге, стратегии ма
 
 <p>Игрой в&nbsp;«Спасителя» подменяют работу. Я&nbsp;не&nbsp;стану рассматривать психологическое основание игры. Скажу только, что выиграть невозможно. «Спасителя» приглашают для того, чтобы распять.</p>
 
-<div itemprop="image" itemscope itemtype="http://schema.org/ImageObject">	
+<div itemprop="image" itemscope itemtype="https://schema.org/ImageObject">	
 		<link itemprop="url" href="/assets/images/blog/igra/game_marketing.jpg">
 <picture>
                 <source srcset="/assets/images/blog/igra/game_marketing.avif" type="image/avif">

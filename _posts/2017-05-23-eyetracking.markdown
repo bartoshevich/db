@@ -17,7 +17,7 @@ keywords: "айтрекинг"
 <p><b>Айтрекинг</b> (eye tracking)&nbsp;— регистрация движений глаз&nbsp;— точный и&nbsp;технологичный метод изучения реакции потребителей на&nbsp;маркетинговые стимулы. Чтобы узнать больше о&nbsp;его практическом применении и&nbsp;доступности для беларуских предприятий, я&nbsp;пообщался с&nbsp;Марией Райской, ведущим руководителем проектов в&nbsp;Международном агентстве социальных и&nbsp;маркетинговых исследований (МАСМИ)&nbsp;&mdash; первом агентстве в&nbsp;Беларуси, которое начало использовать айтрекинг в&nbsp;своих исследованиях.</p>
 	<div class="side">
 		<div class="guests">
-			<div class="guest-person" itemprop="image" itemscope itemtype="http://schema.org/ImageObject">
+			<div class="guest-person" itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
 				<link itemprop="url" href="/assets/images/blog/eye-tracking/MariaRaiskaya.jpg">
 				<picture>
 					<source srcset="/assets/images/blog/eye-tracking/MariaRaiskaya.avif" type="image/avif">

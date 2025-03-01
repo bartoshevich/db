@@ -82,7 +82,7 @@ image: /assets/images/tizers/tizer-25.jpg
 <p>Для&nbsp;привлечения иностранцев важно предложить мультиязычную поддержку. Русский язык сработает с&nbsp;белорусами и&nbsp;россиянами, но&nbsp;если задача привлечь немца или шведа, подход следует менять.</p>
 <p>Усадьба «Кали ласка» использует автоматический переводчик Гугл. Я&nbsp;бы не&nbsp;рекомендовал такое решение. Машинный перевод чувствуется, а&nbsp;часть контента остается на&nbsp;русском.</p>
 
-<div itemprop="image" itemscope itemtype="http://schema.org/ImageObject">	
+<div itemprop="image" itemscope itemtype="https://schema.org/ImageObject">	
 		<link itemprop="url" href="/assets/images/blog/sajt-agrousadby/agro1.jpg">
 <picture>
         <source srcset="/assets/images/blog/sajt-agrousadby/agro1.avif" type="image/avif">
@@ -96,7 +96,7 @@ image: /assets/images/tizers/tizer-25.jpg
 
 <p>Частая ошибка&nbsp;— на&nbsp;иностранных версиях сайтов переведен не&nbsp;весь материал. В&nbsp;этом случае теряется ее смысл. Подобную ошибку встречал на&nbsp;ресурсах частных хозяйств и&nbsp;общественных организаций, которые пропагандируют агротуризм в&nbsp;Беларуси.</p>
 
-<div itemprop="image" itemscope itemtype="http://schema.org/ImageObject">	
+<div itemprop="image" itemscope itemtype="https://schema.org/ImageObject">	
 		<link itemprop="url" href="/assets/images/blog/sajt-agrousadby/agro2.jpg">
     <picture >
         <source srcset="/assets/images/blog/sajt-agrousadby/agro2.avif" type="image/avif">
@@ -108,7 +108,7 @@ image: /assets/images/tizers/tizer-25.jpg
   </div>
 </div>
 
-<div itemprop="image" itemscope itemtype="http://schema.org/ImageObject">	
+<div itemprop="image" itemscope itemtype="https://schema.org/ImageObject">	
 		<link itemprop="url" href="/assets/images/blog/sajt-agrousadby/agro3.jpg">
 
     <picture>
@@ -152,7 +152,7 @@ image: /assets/images/tizers/tizer-25.jpg
 <p>Минимизируйте количество необходимых действий со стороны клиента для связи или бронирования. Западный пользователь ожидает в&nbsp;несколько кликов выбрать подходящие даты посещения и&nbsp;подтвердить своё бронирование, получив автоматическое уведомление по&nbsp;электронной почте.</p>
 <p>Подобную функциональность реализовала усадьба «Вераги». Однако, английская версия сайта содержит русский текст и&nbsp;возникают сомнения, пользуются&nbsp;ли онлайн-бронированием иностранцы.</p>
 
-<div itemprop="image" itemscope itemtype="http://schema.org/ImageObject">	
+<div itemprop="image" itemscope itemtype="https://schema.org/ImageObject">	
 		<link itemprop="url" href="/assets/images/blog/sajt-agrousadby/agro4.jpg">
     <picture>
      <source srcset="/assets/images/blog/sajt-agrousadby/agro4.avif" type="image/avif">

@@ -96,7 +96,7 @@ keywords: "темные паттерны, этичный маркетинг, у�
  	</li>
  </ul>
 
-<div class="figure" itemprop="image" itemscope itemtype="http://schema.org/ImageObject">
+<div class="figure" itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
 <link itemprop="url" href="https://res.cloudinary.com/bartoshevich/image/upload/v1709569569/site/dark-patterns/giftstoprogrammers.jpg">
 <img class="image" loading="lazy" decoding="async" 
      sizes="100vw" 
@@ -124,7 +124,7 @@ keywords: "темные паттерны, этичный маркетинг, у�
 
 <p>В&nbsp;«темной версии» текст в&nbsp;соц. сетях мог быть таким: «Только сегодня и&nbsp;только в&nbsp;нашем ресторане&nbsp;— мировые музыкальные хиты в&nbsp;уникальном звучании с&nbsp;крутыми омниполярными колонками. Осталось лишь два свободных столика, так что поторопитесь!». У&nbsp;пользователя пытаются создать чувство срочности, подталкивая к&nbsp;импульсивному решению. </p>
 
-<div class="figure" itemprop="image" itemscope itemtype="http://schema.org/ImageObject">
+<div class="figure" itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
 <link itemprop="url" href="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1709574983/site/dark-patterns/darkfood.jpg">
 <img class="image" loading="lazy" decoding="async" 
      sizes="100vw" 
@@ -153,7 +153,7 @@ keywords: "темные паттерны, этичный маркетинг, у�
 
 <p>По&nbsp;всему миру растет количество исследований и&nbsp;публикаций на&nbsp;тему темных паттернов, появляются законодательные инициативы для борьбы с&nbsp;ними, увеличивается число жалоб в&nbsp;органы защиты прав потребителей. Посмотрите <a class="link" href="https://www.deceptive.design/cases">перечень судебных решений в&nbsp;ЕС и&nbsp;США</a>, касающихся манипулятивных паттернов. Суммы штрафов иногда достигают десятизначных цифр. Это свидетельство растущего осознания проблемы и&nbsp;стремления к&nbsp;ее&nbsp;решению. </p>
 
-<div class="figure" itemprop="image" itemscope itemtype="http://schema.org/ImageObject">
+<div class="figure" itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
 <link itemprop="url" href="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1709569569/site/dark-patterns/threads.jpg">
 <img class="image" loading="lazy" decoding="async" 
      sizes="100vw" 

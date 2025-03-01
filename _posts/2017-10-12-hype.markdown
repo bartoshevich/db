@@ -77,7 +77,7 @@ keywords: "Искусственный Интеллект, Маркетинг, Т
 <p>В&nbsp;Беларуси&nbsp;— такое впечатление&nbsp;— последние несколько месяцев об&nbsp;искусственном интеллекте, блокчейне и&nbsp;криптовалютах заговорили все. Люди отрабатывают на&nbsp;заводе смену, приходят домой, заводят кошельки и&nbsp;думают, чтобы такого замайнить. Директору фабрики, который не&nbsp;знает, что такое блокчейн, стало стыдно в&nbsp;этом признаться.</p>
 
 
-<div itemprop="image" itemscope itemtype="http://schema.org/ImageObject">	
+<div itemprop="image" itemscope itemtype="https://schema.org/ImageObject">	
 		<link itemprop="url" href="/assets/images/blog/hype/hype2.jpg">
 <picture>
                <source srcset="/assets/images/blog/hype/hype2.avif" type="image/avif">
@@ -123,7 +123,7 @@ keywords: "Искусственный Интеллект, Маркетинг, Т
 <p>С&nbsp;развитием искусственного интеллекта появится возможность собирать и&nbsp;обрабатывать больше данных о&nbsp;клиентах. Например, развилась технология распознавания изображений и&nbsp;появился <a  class="link"  href="https://www.netra.io/" >сервис Netra</a>. Netra сканирует фотографии, выложенные в&nbsp;социальных сетях и&nbsp;анализирует&nbsp;те, где присутствуют логотипы и&nbsp;названия брендов. Сервис помогает понять, в&nbsp;каком контексте бренд (ваш или конкурента) присутствует, кто бренд использует, как часто и&nbsp;в&nbsp;каких ситуациях, какие фотографии с&nbsp;брендом собирают больше откликов.</p>
 
 
-<div itemprop="image" itemscope itemtype="http://schema.org/ImageObject">	
+<div itemprop="image" itemscope itemtype="https://schema.org/ImageObject">	
 		<link itemprop="url" href="/assets/images/blog/hype/hype3.jpg">
 	<picture>
                <source srcset="/assets/images/blog/hype/hype3.avif" type="image/avif">

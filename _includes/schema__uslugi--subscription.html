@@ -5,26 +5,20 @@
     "name": "Аутсорсинг маркетинга",
     "serviceType": "Marketing Outsourcing",
     "provider": {
-      "@type": "LocalBusiness",
-      "name": "Частный консультант по маркетингу и стратегии Бартошевич Дмитрий",
-      "address": {
-        "@type": "PostalAddress",
-        "streetAddress": "ул. Ольшевского, 22",
-        "addressLocality": "Минск",
-        "postalCode": "220073",
-        "addressCountry": "BY"
-      },
-      "telephone": "+375297753340",
-      "email": "dmitry@bartoshevich.by",
-      "url": "https://bartoshevich.by/",
-      "priceRange": "$$",
-      "image": [
-        "https://bartoshevich.by/assets/images/main/bartoshevich@16x9.jpg",
-        "https://bartoshevich.by/assets/images/main/bartoshevich@4x3.jpg",
-        "https://bartoshevich.by/assets/images/main/bartoshevich@1x1.jpg"
-      ]
+      "@id": "#service"
     },
-    "description": "Руководство и поддержка в продвижении бренда, управление рекламными кампаниями, работа с подрядчиками. Повышение эффективности маркетинга.",
+    "offers": {
+      "@type": "Offer",
+      "priceCurrency": "EUR",
+      "price": "1300",
+      "priceSpecification": {
+        "@type": "PriceSpecification",
+        "valueAddedTaxIncluded": true,
+        "minPrice": "1300",
+        "maxPrice": "2000"
+      }
+    },
+    "description": "{{ page.description | escape  }}",
     "url": "https://bartoshevich.by/uslugi/autsorsing-marketinga/"
   }
 </script>

@@ -26,7 +26,7 @@ image: /assets/images/tizers/tizer-39.jpg
 <h2 class="section__title h1 bold ">Секрет успеха Мальборо</h2>
 <p>«Икона» рекламной индустрии&nbsp;— созданный агентством Лео Бернетта образ ковбоя. В&nbsp;нем маркетологи видят причину популярности сигарет «Мальборо» и&nbsp;не&nbsp;перестают нахваливать рекламную кампанию, которая&nbsp;— по&nbsp;заверению «аналитиков»&nbsp;— десятикратно увеличила продажи «Филип Моррис». Но&nbsp;действительно&nbsp;ли только ковбой увеличил объем продаж «Мальборо»?</p>
 
-<div itemprop="image" itemscope itemtype="http://schema.org/ImageObject">	
+<div itemprop="image" itemscope itemtype="https://schema.org/ImageObject">	
 		<link itemprop="url" href="/assets/images/blog/stars/marlboro-min.jpg">
 <picture>
                 <source srcset="/assets/images/blog/stars/marlboro-min.avif" type="image/avif">
@@ -44,7 +44,7 @@ image: /assets/images/tizers/tizer-39.jpg
 <p>В&nbsp;книге «Доставляя счастье» глава Zappos&nbsp;— Тони Шей&nbsp;— пишет о&nbsp;ценностях компании и&nbsp;обслуживании клиентов. Пишет много. Подчеркивает важность того, чтобы ценности разделял и&nbsp;воплощал каждый сотрудник. Но&nbsp;вместе с&nbsp;тем он&nbsp;рассказывает, как периодически компания оказывалась в&nbsp;ситуации, когда денег оставалось на&nbsp;несколько недель и&nbsp;никто не&nbsp;был уверен в&nbsp;выживании магазина. </p>
 
 
-<div itemprop="image" itemscope itemtype="http://schema.org/ImageObject">	
+<div itemprop="image" itemscope itemtype="https://schema.org/ImageObject">	
 		<link itemprop="url" href="/assets/images/blog/stars/zappos-min.jpg">
 <picture>
                 <source srcset="/assets/images/blog/stars/zappos-min.avif" type="image/avif">

@@ -29,7 +29,7 @@ image: /assets/images/tizers/tizer-15.jpg
 
 
 <div class="row">
-   <div class="c-5" itemprop="image" itemscope itemtype="http://schema.org/ImageObject">
+   <div class="c-5" itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
    <link itemprop="url" href="/assets/images/blog/konkurentnoe-preimushhestvo/cola.jpg">
       <picture>
          <source srcset="/assets/images/blog/konkurentnoe-preimushhestvo/cola.avif"  type="image/avif">
@@ -37,7 +37,7 @@ image: /assets/images/tizers/tizer-15.jpg
          <img class="image is-4by5" loading="lazy" decoding="async"  src="/assets/images/blog/konkurentnoe-preimushhestvo/cola.jpg" alt="Архивный рекламный плакат CocaCola с грудным ребенком."  width="1600" height="2000" itemprop="contentUrl"/>
       </picture>
    </div>
-   <div class="c-5" itemprop="image" itemscope itemtype="http://schema.org/ImageObject">
+   <div class="c-5" itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
    <link itemprop="url" href="/assets/images/blog/konkurentnoe-preimushhestvo/cellophane.jpg">
       <picture>
       <source srcset="/assets/images/blog/konkurentnoe-preimushhestvo/cellophane.avif"  type="image/avif">
@@ -52,7 +52,7 @@ image: /assets/images/tizers/tizer-15.jpg
 <p>В&nbsp;<span class="noperenos">90-хх</span> годах прошлого века американцы начали осваивать новый сегмент рынка стрелкового оружия&nbsp;— дети. Создали винтовку с&nbsp;малой отдачей при стрельбе, раскрасили в&nbsp;цвета от&nbsp;розового до&nbsp;оранжевого с&nbsp;синим. Запустили рекламные кампании.</p>
 <p>Акции дали плоды: продажи росли, а&nbsp;вместе с&nbsp;ними росло и&nbsp;количество детских смертей. Когда СМИ облетела новость, что <a class="link" href="https://edition.cnn.com/2013/05/01/us/kentucky-accidential-shooting/index.html">пятилетний ребенок застрелил двухлетнюю сестру во&nbsp;время игры с&nbsp;ружьем, которое ему подарили на&nbsp;день рождения</a>, производитель оружия вынуждено закрыл сайт на&nbsp;несколько недель.</p>
 
-<div itemprop="image" itemscope itemtype="http://schema.org/ImageObject">
+<div itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
  <link itemprop="url" href="/assets/images/blog/konkurentnoe-preimushhestvo/cricket.jpg">
    <picture>  
          <source srcset="/assets/images/blog/konkurentnoe-preimushhestvo/cricket.avif"  type="image/avif">
@@ -67,7 +67,7 @@ image: /assets/images/tizers/tizer-15.jpg
 <p>Для сравнения приведу пример упаковки, которая призывает осторожно обращаться с&nbsp;содержимым.</p>
 
 
-<div itemprop="image" itemscope itemtype="http://schema.org/ImageObject">
+<div itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
  <link itemprop="url" href="/assets/images/blog/konkurentnoe-preimushhestvo/poison.jpg">
    <picture>  
          <source srcset="/assets/images/blog/konkurentnoe-preimushhestvo/poison.avif"  type="image/avif">
@@ -97,7 +97,7 @@ image: /assets/images/tizers/tizer-15.jpg
 
 
 
-<div itemprop="image" itemscope itemtype="http://schema.org/ImageObject">
+<div itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
  <link itemprop="url" href="/assets/images/blog/konkurentnoe-preimushhestvo/patagonia.jpg">
    <picture>  
          <source srcset="/assets/images/blog/konkurentnoe-preimushhestvo/patagonia.avif"  type="image/avif">
@@ -115,7 +115,7 @@ image: /assets/images/tizers/tizer-15.jpg
 <p>На&nbsp;сайте операционной системы Debian отдельную страницу посвятили <a class="link" href="https://www.debian.org/Bugs/" >списку обнаруженных ошибок</a>. Ошибки есть и&nbsp;у&nbsp;OS&nbsp;X, но&nbsp;Apple предпочитает, чтобы клиенты узнавали о&nbsp;них после покупки гаджетов, и&nbsp;расхваливает каждый миллиметр продуктовой линейки.</p>
 
 
-<div itemprop="image" itemscope itemtype="http://schema.org/ImageObject">
+<div itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
  <link itemprop="url" href="/assets/images/blog/konkurentnoe-preimushhestvo/yandex.jpg">
    <picture>  
          <source srcset="/assets/images/blog/konkurentnoe-preimushhestvo/yandex.avif"  type="image/avif">

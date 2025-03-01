@@ -18,7 +18,7 @@ image: /assets/images/tizers/tizer-27.jpg
 
 <article class="row-gap--m" >
 <h2 class="section__title h1 bold ">Бульба</h2>
-<figure itemprop="image" itemscope itemtype="http://schema.org/ImageObject">	
+<figure itemprop="image" itemscope itemtype="https://schema.org/ImageObject">	
 		<link itemprop="url" href="https://res.cloudinary.com/bartoshevich/image/upload/q_auto,f_auto/v1540025113/skazka1.jpg">
 <img class="image" src="https://res.cloudinary.com/bartoshevich/image/upload/q_auto,f_auto/v1540025113/skazka1.jpg" alt="бульба" width="695" height="521" itemprop="contentUrl" />
 </figure>
@@ -39,7 +39,7 @@ image: /assets/images/tizers/tizer-27.jpg
 <article class="row-gap--m" >
 <h2 class="section__title h1 bold ">Справедливая зарплата маркетолога</h2>
 
-<figure itemprop="image" itemscope itemtype="http://schema.org/ImageObject">	
+<figure itemprop="image" itemscope itemtype="https://schema.org/ImageObject">	
 		<link itemprop="url" href="https://res.cloudinary.com/bartoshevich/image/upload/q_auto,f_auto/v1540025114/skazka2.jpg" >
 <img class="image" loading="lazy" decoding="async" src="https://res.cloudinary.com/bartoshevich/image/upload/q_auto,f_auto/v1540025114/skazka2.jpg" alt="зарплата маркетолога" width="695" height="521"  itemprop="contentUrl" />
 </figure>

@@ -94,7 +94,7 @@ image: /assets/images/tizers/tizer-31.jpg
 <p>Типограф грамотно оформляет статью перед публикацией в&nbsp;интернете: расставляет правильные кавычки, правильное тире между словами и&nbsp;дефис для двойных слов, убирает лишние пробелы и&nbsp;т.д. С&nbsp;типографом статьи выглядят опрятно.</p>
 
 
-<div itemprop="image" itemscope itemtype="http://schema.org/ImageObject">	
+<div itemprop="image" itemscope itemtype="https://schema.org/ImageObject">	
 	<link itemprop="url" href="/assets/images/blog/dlya-tex-kto-pishet/typograf.jpg">
 	<picture >
                <source srcset="/assets/images/blog/dlya-tex-kto-pishet/typograf.avif" type="image/avif">
@@ -127,7 +127,7 @@ image: /assets/images/tizers/tizer-31.jpg
 	<li class="list-li"><span class="italic">Практика:</span> Работа над реальными кейсами и&nbsp;обсуждение их&nbsp;с&nbsp;другими участниками для получения полезного опыта.</li>
  </ul>
 
-<div itemprop="image" itemscope itemtype="http://schema.org/ImageObject">	
+<div itemprop="image" itemscope itemtype="https://schema.org/ImageObject">	
 	<link itemprop="url" href="https://res.cloudinary.com/bartoshevich/image/upload/v1695461329/site/propisi.jpg">	
                 <img class="image" loading="lazy" decoding="async" src="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1695461329/site/propisi.jpg"  alt="текст заданий кружка Прописи" width="1280" height="613" itemprop="contentUrl" >	 
 	<div class="figcaption">
@@ -156,7 +156,7 @@ image: /assets/images/tizers/tizer-31.jpg
 <p>Привожу как пример принципов работы с&nbsp;текстом, ориентированных на&nbsp;пользу и&nbsp;развитие доверия у&nbsp;читателей.</p>
 
 
-<div itemprop="image" itemscope itemtype="http://schema.org/ImageObject">
+<div itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
 <div class="figcaption">
 <p>	выдержка из&nbsp;редполитики Тинькофф-журнала</p>
 </div>	

@@ -23,7 +23,7 @@ image: /assets/images/tizers/tizer-19.jpg
 
 <p>Чтобы наглядно представить сотрудничество с&nbsp;«руками», вспомните детскую игру, где человеку с&nbsp;завязанными глазами требуется пройти через комнату с&nbsp;препятствиями, слушая напарника. «три шага вперед, шаг влево...» Если напарник замолчит, игрок задание провалит.</p>
 
-<div itemprop="image" itemscope itemtype="http://schema.org/ImageObject">
+<div itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
 <link itemprop="url" href="https://res.cloudinary.com/bartoshevich/image/upload/q_auto,f_auto/v1540025416/out1.jpg">	
 <img class="image" loading="lazy"  decoding="async" src="https://res.cloudinary.com/bartoshevich/image/upload/q_auto,f_auto/v1540025416/out1.jpg" alt="По мнению художника, у собаки-поводыря и слепого человека общая кровеносная система." width="695" height="458" itemprop="contentUrl"/> 
 <div class="figcaption">
@@ -38,7 +38,7 @@ image: /assets/images/tizers/tizer-19.jpg
 
 <p>«Голова» стоит дороже «рук». Вы&nbsp;переплатите, если даете задание по&nbsp;принципу «эта машина может быть любого цвета, только если будет черная». Если вы&nbsp;не&nbsp;готовы слышать партнера, прислушиваться и&nbsp;доверять рекомендациям по маркетингу, не&nbsp;берите в&nbsp;аутсорсинг «голову», ищите «руки».</p>
 
-<div itemprop="image" itemscope itemtype="http://schema.org/ImageObject">
+<div itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
 <link itemprop="url" href="/assets/images/blog/autsorsing-marketinga/ford.jpg">	
 <picture>
                 <source srcset="/assets/images/blog/autsorsing-marketinga/ford.avif" type="image/avif">
@@ -61,7 +61,7 @@ image: /assets/images/tizers/tizer-19.jpg
 
 <p>Когда слышу профессиональную лексику клиента, общие фразы, обязательно задаю уточняющие вопросы. Кого-то такое занудство злит, но&nbsp;если я&nbsp;домыслю и&nbsp;сделаю задание не&nbsp;так, как требуется, это разозлит куда больше. Подрядчиков на&nbsp;аутсорсинге призываю смело задавать вопросы и&nbsp;с&nbsp;готовностью отвечаю.</p>
 
-<div itemprop="image" itemscope itemtype="http://schema.org/ImageObject">
+<div itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
 <link itemprop="url" href="/assets/images/blog/autsorsing-marketinga/color_illusion.jpg">	
 <picture>
             <source srcset="/assets/images/blog/autsorsing-marketinga/color_illusion.avif" type="image/avif">

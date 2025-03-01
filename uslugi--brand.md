@@ -75,47 +75,17 @@ keywords: "разработка концепции бренда"
 <strong class="post__note h2 max-width-text">Если вы&nbsp;чувствуете, что ваш бренд заслуживает большего, чем просто быть одним из многих&nbsp;— давайте дадим ему шанс.</strong>
 </section>
 
-<section class="block__space--top-h2 full-bleed">
+<section class="block__space--top-h2 full-bleed" itemscope itemtype="https://schema.org/ProfessionalService" itemid="#service">
 
     <h2 class="h1 bold">Отзывы клиентов</h2>
-
-     <div class="element--hidden" itemscope itemtype="https://schema.org/Organization">
-            <meta itemprop="name" content="Консультации по маркетингу">
-            <div itemprop="aggregateRating" itemscope itemtype="https://schema.org/AggregateRating">
-                <meta itemprop="ratingValue" content="5">
-                <meta itemprop="bestRating" content="5">
-                <meta itemprop="ratingCount" content="25">
-            </div>
-        </div>
 
 <div class="row mt-m">	
 <div class="c-5">
  		<blockquote class="blockquote--emphasis ml-2xl" itemprop="review" itemscope itemtype="https://schema.org/Review">
 		 <meta itemprop="name" content="Отзыв о позиционировании компании Flex-n-Roll">
 		  <meta itemprop="datePublished" content="2018-04-18">
-		   <div class="element--hidden" itemprop="itemReviewed" itemscope itemtype="https://schema.org/LocalBusiness">
-                <meta itemprop="name" content="Бартошевич Дмитрий">
-                <meta itemprop="description" content="Консультации по маркетингу и разработка позиционирования">
-                <link itemprop="image" href="https://bartoshevich.by/assets/images/main/bartoshevich@16x9.jpg">
-                <link itemprop="image" href="https://bartoshevich.by/assets/images/main/bartoshevich@4x3.jpg">
-                <link itemprop="image" href="https://bartoshevich.by/assets/images/main/bartoshevich@1x1.jpg">
-                <meta itemprop="priceRange" content="$$">
+		 
                 
-                <div class="element--hidden" itemprop="founder" itemscope itemtype="https://schema.org/Person">
-                    <meta itemprop="name" content="Дмитрий Бартошевич">
-                    <meta itemprop="jobTitle" content="Консультант по маркетингу">
-                    <link itemprop="url" href="https://bartoshevich.by/about/">
-                </div>
-                
-                <meta itemprop="telephone" content="+375297753340">
-                <link itemprop="url" href="https://bartoshevich.by/">
-                <div class="element--hidden" itemprop="address" itemscope itemtype="https://schema.org/PostalAddress">
-                    <meta itemprop="streetAddress" content="ул. Ольшевского, 22">
-                    <meta itemprop="postalCode" content="220073">
-                    <meta itemprop="addressLocality" content="Минск">
-                    <meta itemprop="addressCountry" content="BY">
-                </div>
-            </div>
 
     		<p class="citation" itemprop="reviewBody">«Впереди много планов и&nbsp;есть главное&nbsp;— четкий выверенный вектор развития компании, который обозначил для нас Дмитрий Бартошевич. Поэтому <strong>хотелось&nbsp;бы поблагодарить его за&nbsp;предложенную концепцию и&nbsp;проведенную большую работу по&nbsp;брендингу нашего предприятия</strong>».</p>
     			<div class="citation__author" itemprop="author" itemscope itemtype="https://schema.org/Person">
@@ -137,30 +107,7 @@ keywords: "разработка концепции бренда"
         <blockquote class="blockquote--emphasis ml-2xl" itemprop="review" itemscope itemtype="https://schema.org/Review">
          <meta itemprop="name" content="Отзыв о разработке концепции бренда для Giperlink">
 		 <meta itemprop="datePublished" content="2018-11-30">
-		 <div class="element--hidden" itemprop="itemReviewed" itemscope itemtype="https://schema.org/LocalBusiness">
-                <meta itemprop="name" content="Бартошевич Дмитрий">
-                <meta itemprop="description" content="Консультации по маркетингу и разработка позиционирования">
-                <link itemprop="image" href="https://bartoshevich.by/assets/images/main/bartoshevich@16x9.jpg">
-                <link itemprop="image" href="https://bartoshevich.by/assets/images/main/bartoshevich@4x3.jpg">
-                <link itemprop="image" href="https://bartoshevich.by/assets/images/main/bartoshevich@1x1.jpg">
-                <meta itemprop="priceRange" content="$$">
-                
-                <div class="element--hidden" itemprop="founder" itemscope itemtype="https://schema.org/Person">
-                    <meta itemprop="name" content="Дмитрий Бартошевич">
-                    <meta itemprop="jobTitle" content="Консультант по маркетингу">
-                    <link itemprop="url" href="https://bartoshevich.by/about/">
-                </div>
-                
-                <meta itemprop="telephone" content="+375297753340">
-                <link itemprop="url" href="https://bartoshevich.by/">
-                <div class="element--hidden" itemprop="address" itemscope itemtype="https://schema.org/PostalAddress">
-                    <meta itemprop="streetAddress" content="ул. Ольшевского, 22">
-                    <meta itemprop="postalCode" content="220073">
-                    <meta itemprop="addressLocality" content="Минск">
-                    <meta itemprop="addressCountry" content="BY">
-                </div>
-            </div>
-
+		
     		<p class="citation" itemprop="reviewBody">«На&nbsp;опыте прочувствовали, насколько <strong>наличие концепции бренда помогает развитию компании</strong>».</p>
     			<div class="citation__author" itemprop="author" itemscope itemtype="https://schema.org/Person">
                 <cite class="italic" >

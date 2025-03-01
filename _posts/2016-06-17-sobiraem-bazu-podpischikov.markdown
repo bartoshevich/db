@@ -36,7 +36,7 @@ image: /assets/images/tizers/tizer-23.jpg
 <p>Зарегистрировали сообщества 3Dom в&nbsp;социальных сетях&nbsp;— фейсбуке, одноклассниках и&nbsp;в&nbsp;вконтаке. Создали промо-страницу акции с&nbsp;формой обратной связи для заявок на&nbsp;участие в&nbsp;розыгрыше.</p>
 <p>31&nbsp;марта объявили о&nbsp;начале акции.</p>
 
-<div itemprop="image" itemscope itemtype="http://schema.org/ImageObject">
+<div itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
 		<link itemprop="url" href="/assets/images/blog/sobiraem-bazu-podpischikov/email2.jpg">	
 <picture>
 	<source srcset="/assets/images/blog/sobiraem-bazu-podpischikov/email2.avif" type="image/avif"> 
@@ -51,7 +51,7 @@ image: /assets/images/tizers/tizer-23.jpg
 <p>Розыгрыш продвигали с&nbsp;помощью рекламы в&nbsp;социальных сетях и&nbsp;постов в&nbsp;сообществах.</p>
 <p>Как акцию восприняла аудитория:</p>
 
-<div itemprop="image" itemscope itemtype="http://schema.org/ImageObject">
+<div itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
 <link itemprop="url" href="/assets/images/blog/sobiraem-bazu-podpischikov/email3.jpg">
 	<picture>
 	<source srcset="/assets/images/blog/sobiraem-bazu-podpischikov/email3.avif" type="image/avif"> 
@@ -80,12 +80,12 @@ image: /assets/images/tizers/tizer-23.jpg
 
 <p>У&nbsp;компании появился инструмент получения быстрой обратной связи. Ниже примеры как с&nbsp;помощью участников сообществ выбрать изображения для каталога или главной страницы сайта.</p>
 
-<div itemprop="image" itemscope itemtype="http://schema.org/ImageObject">
+<div itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
 <link itemprop="url" href="https://res.cloudinary.com/bartoshevich/image/upload/f_auto/v1540025305/email5.png">
 <img class="image"  loading="lazy" decoding="async"  src="https://res.cloudinary.com/bartoshevich/image/upload/q_auto,f_auto/v1540025305/email5.png" width="612" height="658" alt="Пользователи голосуют за лучший дизайн для каталога 3Dom" itemprop="contentUrl">
 </div>
 
-<div itemprop="image" itemscope itemtype="http://schema.org/ImageObject">
+<div itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
 <link itemprop="url" href="https://res.cloudinary.com/bartoshevich/image/upload/f_auto/v1540025305/email6.png">
 <img class="image"  loading="lazy" decoding="async"  src="https://res.cloudinary.com/bartoshevich/image/upload/w_612/q_auto,f_auto/v1540025256/email6.png" width="612" height="665" alt="Пример голосования пользователей за изображения в социальных сетях" itemprop="contentUrl">
 </div>

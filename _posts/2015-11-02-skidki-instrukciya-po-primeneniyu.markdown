@@ -16,7 +16,7 @@ image: /assets/images/tizers/tizer-11.jpg
 
 <p>Скидки заслуживают особого внимания в&nbsp;маркетинговой стратегии. При правильном применении они не&nbsp;только стимулируют продажи, но&nbsp;и&nbsp;усиливают ценность бренда. В&nbsp;этой статье мы&nbsp;рассмотрим, <strong>как предлагать скидки наиболее эффективно</strong>, чтобы не&nbsp;стать «как все» на&nbsp;фоне распродаж конкурентов.</p>
 
-<div class="figure" itemprop="image" itemscope itemtype="http://schema.org/ImageObject">
+<div class="figure" itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
 <link itemprop="url" href="/assets/images/blog/skidki-instrukciya-po-primeneniyu/discount1.jpg">
 <picture>
                 <source srcset="/assets/images/blog/skidki-instrukciya-po-primeneniyu/discount1.avif" type="image/avif">

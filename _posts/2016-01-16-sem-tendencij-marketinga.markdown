@@ -58,7 +58,7 @@ image: /assets/images/tizers/tizer-14.jpg
 <h2 class="section__title h1 bold ">1) Навязчивая реклама умирает</h2>
 <p>Расширения браузеров, блокирующие рекламу, набирают популярность. В&nbsp;июне 2015 года Adobe и&nbsp;PageFair насчитали 191 миллион пользователей блокировщиков рекламы, отметив, что их&nbsp;количество увеличилось на&nbsp;41% в&nbsp;течение года.</p>
 
-<div class="figure" itemprop="image" itemscope itemtype="http://schema.org/ImageObject">
+<div class="figure" itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
 <link itemprop="url" href="/assets/images/blog/sem-tendencij-marketinga/global-adblocking-trends.jpg">
    <picture>
               <source srcset="/assets/images/blog/sem-tendencij-marketinga/global-adblocking-trends.avif" type="image/avif">

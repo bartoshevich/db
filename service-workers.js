@@ -13,7 +13,7 @@ layout: null
   // A cache for images to store for offline
   var imagesCacheName = 'images';
   // Update 'version' if you need to refresh the caches
-  var version = 'v127::';
+  var version = 'v129::';
 
   // Store core files in a cache (including a page to display when offline)
   var updateStaticCache = function() {

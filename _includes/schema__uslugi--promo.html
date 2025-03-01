@@ -1,30 +1,115 @@
-<script type="application/ld+json" nonce="y4VZC0VrqMma_4wARYnlJpifIomnbHG-ibt6RepxdkA">
+<script
+  type="application/ld+json"
+  nonce="y4VZC0VrqMma_4wARYnlJpifIomnbHG-ibt6RepxdkA"
+>
   {
     "@context": "https://schema.org",
     "@type": "Service",
     "name": "Разработка рекламных кампаний",
     "serviceType": "Advertising Campaign Development",
     "provider": {
-      "@type": "LocalBusiness",
-      "name": "Частный консультант по маркетингу и стратегии Бартошевич Дмитрий",
-      "address": {
-        "@type": "PostalAddress",
-        "streetAddress": "ул. Ольшевского, 22",
-        "addressLocality": "Минск",
-        "postalCode": "220073",
-        "addressCountry": "BY"
-      },
-      "telephone": "+375297753340",
-      "email": "dmitry@bartoshevich.by",
-      "url": "https://bartoshevich.by/",
-      "priceRange": "$$",
-      "image": [
-        "https://bartoshevich.by/assets/images/main/bartoshevich@16x9.jpg",
-        "https://bartoshevich.by/assets/images/main/bartoshevich@4x3.jpg",
-        "https://bartoshevich.by/assets/images/main/bartoshevich@1x1.jpg"
-      ]
+      "@id": "#service"
     },
-    "description": "Креативные рекламные кампании и стратегии. Профессиональная разработка и реализация для достижения ваших маркетинговых целей.",
+    "serviceOutput": [
+      "Креативные концепции рекламы",
+      "Видеоролики",
+      "Аудиоролики",
+      "Комплексные рекламные кампании"
+    ],
+    "offers": {
+      "@type": "Offer",
+      "priceCurrency": "EUR",
+      "price": "2000",
+      "priceSpecification": {
+        "@type": "PriceSpecification",
+        "valueAddedTaxIncluded": true,
+        "minPrice": "1000",
+        "maxPrice": "3000"
+      }
+    },
+    "description": "{{ page.description | escape  }}",
     "url": "https://bartoshevich.by/uslugi/razrabotka-reklamnyh-kampanij/"
+  }
+</script>
+
+<script
+  type="application/ld+json"
+  nonce="y4VZC0VrqMma_4wARYnlJpifIomnbHG-ibt6RepxdkA"
+>
+  {
+    "@context": "https://schema.org",
+    "@type": "CreativeWork",
+    "name": "Портфолио рекламных проектов",
+    "provider": { "@id": "#service" },
+    "exampleOfWork": [
+      {
+        "@type": "CreativeWork",
+        "name": "Скидки 3Dom для семей",
+        "description": "Концепция скидок в зависимости от стажа семейной жизни для производителя домашней мебели. Размер скидки определялся в зависимости от стажа семейной жизни, что позволило сохранить фокус на ценностях торговой марки.",
+        "genre": "Рекламная концепция",
+        "creator": { "@id": "#service" }
+      },
+      {
+        "@type": "CreativeWork",
+        "name": "Идея рекламы для банка Тинькова",
+        "description": "Рекламная концепция для банка Тинькова, предложенная в 2012 году через Twitter и получившая положительный отклик от Олега Тинькова.",
+        "genre": "Рекламная концепция",
+        "creator": { "@id": "#service" },
+        "sameAs": "https://bartoshevich.by/blog/reklama-dlya-banka-tinkova/",
+        "subjectOf": {
+          "@type": "VideoObject",
+          "name": "Эскиз видеоролика для банка Тинькова",
+          "contentUrl": "https://youtu.be/LcRjumujYws",
+          "description": "Эскиз видеоролика, демонстрирующий смысл рекламной концепции для банка Тинькова",
+          "uploadDate": "2015-09-22T00:00:00+03:00",
+          "thumbnailUrl": "https://i.ytimg.com/vi/LcRjumujYws/maxresdefault.jpg",
+          "duration": "PT0M27S"
+        }
+      },
+      {
+        "@type": "CreativeWork",
+        "name": "Цикл промо роликов для Hörmann",
+        "description": "Предложил идеи цикла видеороликов и участвовал в их реализации: работал над сценариями, решал организационные вопросы, начиная от поиска и выбора режиссера до постпродакшена роликов.",
+        "genre": "Рекламная креативная концепция",
+        "creator": { "@id": "#service" },
+        "sameAs": "https://bartoshevich.by/blog/brand-conception-hormann/",
+        "subjectOf": {
+          "@type": "VideoObject",
+          "name": "Уверенно рекомендуют - ролик для Hörmann",
+          "description": "Проморолик белорусского офиса Hörmann.",
+          "director": "Александр Бондарев",
+          "url": "https://youtu.be/Rl2jUmZWSfg",
+          "contentUrl": "https://youtu.be/Rl2jUmZWSfg",
+          "thumbnailUrl": "https://i.ytimg.com/vi/Rl2jUmZWSfg/maxresdefault.jpg",
+          "uploadDate": "2020-07-16T00:00:00+03:00",
+          "duration": "PT1M06S",
+          "contentLocation": "Беларусь"
+        }
+      },
+      {
+        "@type": "AudioObject",
+        "name": "Сколько раз нужно сделать, чтобы получилось хорошо?",
+        "description": "Рекламный аудиоролик для белорусского офиса Hörmann. Диалог между отцом и сыном подчеркивает опыт Hörmann в производстве гаражных ворот.",
+        "creator": { "@id": "#service" },
+        "duration": "PT0M29S",
+        "encodingFormat": "audio/mpeg",
+        "contentUrl": "https://bartoshevich.by/assets/media/project/hormann_100.mp3",
+        "transcript": "—Папа, а сколько раз нужно сделать, чтобы получилось хорошо? —Сто раз так точно, сынок. —Ого!.. А вот наши ворота... мм, как там... —Хёрманн? —Да, Хёрманн! Им уже 10 лет, а они работают. Вот их сколько раз делали? —Больше 10 миллионов раз. —Так много?! Теперь понятно, почему у них так хорошо получается. Отбивка: «Хёрманн знает, как делать гаражные ворота»."
+      },
+      {
+        "@type": "AudioObject",
+        "name": "Как сказать на немецком «гаражные ворота»?",
+        "description": "Рекламный аудиоролик для белорусского офиса Hörmann. Диалог персонажей акцентирует внимание на глобальной узнаваемости и распространенности бренда.",
+        "creator": { "@id": "#service" },
+        "duration": "PT0M16S",
+        "encodingFormat": "audio/mpeg",
+        "contentUrl": "https://bartoshevich.by/assets/media/project/garage_doors_translation.mp3",
+        "transcript": "—Как сказать на немецком «гаражные ворота»? —Хёрманн. —А на арабском? —Хёрманн. —А на португальском, скажешь, тоже «Хёрманн»? —И на португальском. Отбивка: «Гаражные ворота Хёрманн — от Аляски до Австралии»"
+      }
+    ],
+    "isPartOf": {
+      "@type": "WebPage",
+      "url": "https://bartoshevich.by/uslugi/razrabotka-reklamnyh-kampanij/"
+    }
   }
 </script>

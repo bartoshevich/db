@@ -26,7 +26,7 @@ image: /assets/images/tizers/tizer-26.jpg
 <p>Коротко сформулируйте сообщение, которое хотите донести до&nbsp;целевой аудитории. Представьте, что человек услышал рекламу. Что должно остаться в&nbsp;его голове? Это сообщение должно отличаться от&nbsp;того, что говорят о&nbsp;себе и&nbsp;демонстрируют в&nbsp;работе конкуренты. Также важно, чтобы оно перекликалось с&nbsp;ценностями целевой аудитории и&nbsp;мотивами, влияющими на&nbsp;выбор товара.</p>
 <p>Я&nbsp;говорю об&nbsp;отличиях не&nbsp;просто так. Мы&nbsp;живем в&nbsp;перенасыщенном предложениями рынке. В&nbsp;этом легко убедиться, зайдя в&nbsp;крупный торговый центр или посмотрев поисковую выдачу по&nbsp;интересующему вас товару. <strong>Если клиент вас не&nbsp;заметит, не&nbsp;поймет ваших преимуществ, вы&nbsp;не&nbsp;увидите и&nbsp;его денег. В&nbsp;этих условиях предприятиям важно отличаться, быть заметными и&nbsp;закрепиться в&nbsp;сознании целевой аудитории</strong>.</p>
 
-<div itemprop="image" itemscope itemtype="http://schema.org/ImageObject">	
+<div itemprop="image" itemscope itemtype="https://schema.org/ImageObject">	
 		<link itemprop="url" href="/assets/images/blog/effektivnost-vlozhenij-v-marketing/efma1.jpg">
         <picture>
 <source srcset="/assets/images/blog/effektivnost-vlozhenij-v-marketing/efma1.avif" type="image/avif"> 
@@ -48,7 +48,7 @@ image: /assets/images/tizers/tizer-26.jpg
 <p class="post__note">Без тестирования идея рекламной акции&nbsp;— всего лишь гипотеза. С&nbsp;результатами теста она может стать концепцией.</p>
 <p>Не&nbsp;проверили идею кампании&nbsp;— кампания не&nbsp;начнется. Предложили идею акции&nbsp;— предложите и&nbsp;способы тестирования идеи. Настаиваете на&nbsp;масштабной кампании&nbsp;— сошлитесь на&nbsp;результаты предварительного тестирования.</p>
 
-<div itemprop="image" itemscope itemtype="http://schema.org/ImageObject">	
+<div itemprop="image" itemscope itemtype="https://schema.org/ImageObject">	
 		<link itemprop="url" href="/assets/images/blog/effektivnost-vlozhenij-v-marketing/efma2.jpg">
 <picture>
 <source srcset="/assets/images/blog/effektivnost-vlozhenij-v-marketing/efma2.avif" type="image/avif"> 
@@ -70,7 +70,7 @@ image: /assets/images/tizers/tizer-26.jpg
 <p>Описывать маркетинг через расходы на&nbsp;рекламу, сайт, зарплату сотрудников отдела, услуги подрядчиков и&nbsp;пр. —&nbsp;все равно что описывать работу строителя через количество ударов молотка, поднятий лопат с&nbsp;раствором и&nbsp;затраты на&nbsp;закупку метизов. Видимость работы есть, а&nbsp;понимания ее&nbsp;смысла&nbsp;— нет.</p>
 <p>Вы&nbsp;удивитесь, но&nbsp;не&nbsp;каждый маркетолог об&nbsp;этом задумывается. Когда я&nbsp;спросил директора по&nbsp;маркетингу известной белорусской компании, зачем он&nbsp;заказывает печать листовок с&nbsp;описанием выпускаемых товаров, то&nbsp;в&nbsp;ответ услышал&nbsp;— «здесь так всегда делали и&nbsp;продавцы требуют». Он&nbsp;не&nbsp;понимал задачу, которую нужно решать с&nbsp;помощью листовки. И&nbsp;соответственно не&nbsp;думал над тем, можно&nbsp;ли ее&nbsp;решить более оптимальным способом. Вопрос не&nbsp;в&nbsp;том, как и&nbsp;где напечатать листовки дешевле, а&nbsp;вопрос, стоит&nbsp;ли заказывать печать в&nbsp;принципе.</p>
 
-<div itemprop="image" itemscope itemtype="http://schema.org/ImageObject">	
+<div itemprop="image" itemscope itemtype="https://schema.org/ImageObject">	
 		<link itemprop="url" href="/assets/images/blog/effektivnost-vlozhenij-v-marketing/efma3.jpg">
 <picture>
 <source srcset="/assets/images/blog/effektivnost-vlozhenij-v-marketing/efma3.avif" type="image/avif"> 

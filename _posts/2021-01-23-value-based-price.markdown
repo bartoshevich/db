@@ -178,7 +178,7 @@ keywords: "ценообразование на основе ценности, п
 <p>Вы&nbsp;договариваетесь о&nbsp;процентах с&nbsp;той суммы, которую приносит клиенту ваша деятельность. </p>
 </section>
 
-<div itemprop="image" itemscope itemtype="http://schema.org/ImageObject">
+<div itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
 <link itemprop="url" href="/assets/images/blog/value-based-price/value-based-price.jpg">
 
 <img class="image is-1by1" loading="lazy" decoding="async" src="/assets/images/blog/value-based-price/value-based-price.jpg" width="4494" height="4494" 

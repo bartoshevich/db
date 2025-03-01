@@ -44,7 +44,7 @@ image: /assets/images/tizers/tizer-20.jpg
 <article class="row-gap--m">
 <h3 class="h2 bold list-sign"> с Иосифом Фридманом</h3>
 
-<div itemprop="image" itemscope itemtype="http://schema.org/ImageObject">
+<div itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
 		<link itemprop="url" href="/assets/images/blog/vstrecha-pro-biznes/pro2.jpg">			
 <picture>
 <source srcset="/assets/images/blog/vstrecha-pro-biznes/pro2.avif" type="image/avif">
@@ -68,7 +68,7 @@ image: /assets/images/tizers/tizer-20.jpg
 <article class="row-gap--m">
 <h3 class="h2 bold mt-m list-sign"> с Андреем Торсуновым</h3>
 
-<div  itemprop="image" itemscope itemtype="http://schema.org/ImageObject">
+<div  itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
 		<link itemprop="url" href="/assets/images/blog/vstrecha-pro-biznes/pro3.jpg">	
 <picture>
 <source srcset="/assets/images/blog/vstrecha-pro-biznes/pro3.avif" type="image/avif">

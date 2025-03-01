@@ -35,7 +35,7 @@ keywords: "привлечь клиентов брендинг бренд"
 <div class="side"><p>Скачайте <a class="link" href="https://www.edelman.com/sites/g/files/aatuss191/files/2018-10/2018_Edelman_Earned_Brand_Global_Report.pdf" download>презентацию с&nbsp;результатами исследования</a> (pdf, 7.9 Мб)</p> </div>
 </div>
 
-<div itemprop="image" itemscope itemtype="http://schema.org/ImageObject">	
+<div itemprop="image" itemscope itemtype="https://schema.org/ImageObject">	
 		<link itemprop="url" href="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1549714027/belief-driven-buying.jpg">
 <img class="image" loading="lazy" decoding="async"  src="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1549714027/belief-driven-buying.jpg" alt="слайд с презентации Edelmen: большинство участников исследования выбирали бренды в зависимости от политических или социальных взглядов компаний."  width="729" height="362" itemprop="contentUrl"/>
 </div>

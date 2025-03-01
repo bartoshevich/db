@@ -1,30 +1,27 @@
-<script type="application/ld+json" nonce="y4VZC0VrqMma_4wARYnlJpifIomnbHG-ibt6RepxdkA">
+<script
+  type="application/ld+json"
+  nonce="y4VZC0VrqMma_4wARYnlJpifIomnbHG-ibt6RepxdkA"
+>
   {
     "@context": "https://schema.org",
     "@type": "Service",
     "name": "Аудит маркетинга",
     "serviceType": "Marketing Audit",
     "provider": {
-      "@type": "LocalBusiness",
-      "name": "Частный консультант по маркетингу и стратегии Бартошевич Дмитрий",
-      "address": {
-        "@type": "PostalAddress",
-        "streetAddress": "ул. Ольшевского, 22",
-        "addressLocality": "Минск",
-        "postalCode": "220073",
-        "addressCountry": "BY"
-      },
-      "telephone": "+375297753340",
-      "email": "dmitry@bartoshevich.by",
-      "url": "https://bartoshevich.by/",
-      "priceRange": "$$",
-      "image": [
-        "https://bartoshevich.by/assets/images/main/bartoshevich@16x9.jpg",
-        "https://bartoshevich.by/assets/images/main/bartoshevich@4x3.jpg",
-        "https://bartoshevich.by/assets/images/main/bartoshevich@1x1.jpg"
-      ]
+      "@id": "#service"
     },
-    "description": "Независимый аудит маркетинга: оценка и анализ вашего маркетинга с фокусом на потребительский опыт (CJM). Экспертные рекомендации и улучшения.",
+    "offers": {
+      "@type": "Offer",
+      "priceCurrency": "EUR",
+      "price": "300",
+      "priceSpecification": {
+        "@type": "PriceSpecification",
+        "valueAddedTaxIncluded": true,
+        "minPrice": "300",
+        "maxPrice": "1000"
+      }
+    },
+    "description": "{{ page.description | escape  }}",
     "url": "https://bartoshevich.by/uslugi/marketing-audit/"
   }
 </script>

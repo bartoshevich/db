@@ -27,7 +27,7 @@ keywords: "брендинг, разработка стратегии разви�
 
 <p>PES GLOBAL&nbsp;— компания, специализирующаяся на&nbsp;поставках материалов и&nbsp;оборудования предприятиям горнодобывающей отрасли в&nbsp;Республике Казахстан. В&nbsp;портфолио компании более 60&nbsp;продуктов: «мелющие шары», «электроды графитированные», «флокулянты», «ферросплавы» и&nbsp;т.д. Особенностью ряда товаров является строгое соблюдение ГОСТов, а&nbsp;это подразумевает, что конкуренты могут предлагать идентичный продукт.</p>
 
-<div class="figure" itemprop="image" itemscope itemtype="http://schema.org/ImageObject">
+<div class="figure" itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
 <link itemprop="url" href="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1691943733/site/pes/bartoshevich_lab.jpg">
 <img class="image is-4by3" loading="lazy" decoding="async" 
      sizes="100vw" 
@@ -114,7 +114,7 @@ keywords: "брендинг, разработка стратегии разви�
 
 <p>Чтобы лучше понять, как концепция бренда PES GLOBAL оживает и&nbsp;воплощается в&nbsp;реальности, предлагаю познакомиться с&nbsp;рекламным разворотом, который создали на&nbsp;основе концепции. </p>
 
-<div class="full-bleed figure" itemprop="image" itemscope itemtype="http://schema.org/ImageObject">	
+<div class="full-bleed figure" itemprop="image" itemscope itemtype="https://schema.org/ImageObject">	
 		<link itemprop="url" href="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1692002941/site/pes/pes-global_mag.png">			
 		<img class="image border" loading="lazy" decoding="async" 
 			sizes="100vw" 

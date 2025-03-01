@@ -40,7 +40,7 @@ image: /assets/images/tizers/tizer-33.jpg
 <p>Жизнь после «черной пятницы» не&nbsp;останавливается. Не&nbsp;теряйте клиентов, вместе с&nbsp;чеком вручайте купон на&nbsp;скидку при следующей покупке. Разрешите передавать его знакомым и&nbsp;близким. Установите срок действия купона, чтобы подтолкнуть человека к&nbsp;действиям.</p>
 </section>
 
-<div itemprop="image" itemscope itemtype="http://schema.org/ImageObject">	
+<div itemprop="image" itemscope itemtype="https://schema.org/ImageObject">	
 		<link itemprop="url" href="/assets/images/blog/akcii-so-skidkami/dis1.jpg">	
 <picture>
 <source srcset="/assets/images/blog/akcii-so-skidkami/dis1.avif" type="image/avif"> 

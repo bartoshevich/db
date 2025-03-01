@@ -61,7 +61,7 @@ keywords: "мифы о маркетинге"
 <p>Сейчас люди защищаются от&nbsp;агрессивной рекламы, прорабатывают вопрос и&nbsp;идут в&nbsp;магазины, зная о&nbsp;товаре иногда больше, чем продавец-консультант. Фразам «один из&nbsp;самых действенных», «мировые эксперты», «уникальные возможности», «самое популярное направление», «восхитительный вкус» верят все меньше людей. Большее значение в&nbsp;принятии решения о&nbsp;покупке играют отзывы других покупателей. </p>
 <p>В&nbsp;декабре 2016 года агентство Fan&amp;Fuel провело исследование и&nbsp;обнаружило, что&nbsp;97% респондентов при выборе товаров онлайн читают отзывы других покупателей, а&nbsp;92% респондентов, если не&nbsp;видят отзывов, сомневаются, стоит&nbsp;ли делать покупку. Это данные по&nbsp;американскому рынку, но&nbsp;— полагаю&nbsp;— это общемировой тренд. </p>
 
- <div itemprop="image" itemscope itemtype="http://schema.org/ImageObject">	
+ <div itemprop="image" itemscope itemtype="https://schema.org/ImageObject">	
 		<link itemprop="url" href="/assets/images/blog/misconceptions/vainer.jpg">
     <picture>
                     <source srcset="/assets/images/blog/misconceptions/vainer.avif" type="image/avif">
@@ -90,7 +90,7 @@ keywords: "мифы о маркетинге"
 <p>В&nbsp;минских торговых центрах можно встретить надписи: «Не&nbsp;трогайте товар руками!», «Не&nbsp;садитесь!». За&nbsp;подобными предупреждениями скрывается посыл: «нечего тут смотреть, покупай или уходи!». </p>
 
 
-<div class="max-width-text" itemprop="image" itemscope itemtype="http://schema.org/ImageObject">	
+<div class="max-width-text" itemprop="image" itemscope itemtype="https://schema.org/ImageObject">	
 		<link itemprop="url" href="/assets/images/blog/test-drajv-dlya-rosta-prodazh/test2.jpg">	
    <picture>
     <source srcset="/assets/images/blog/test-drajv-dlya-rosta-prodazh/test2.avif" type="image/avif">

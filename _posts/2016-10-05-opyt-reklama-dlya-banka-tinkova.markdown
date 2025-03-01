@@ -54,7 +54,7 @@ image: /assets/images/tizers/tizer-30.jpg
 
 <p>А&nbsp;затем подумал, что буду вечно гадать, как отреагировал&nbsp;бы Олег Тиньков на&nbsp;мою идею. Выложил видео в&nbsp;ютуб, поставил ссылку на&nbsp;видео в&nbsp;твитере, где упомянул аккаунт Тинькова и&nbsp;его банка. И&nbsp;через минут 15&nbsp;получил обратную связь.</p>
 
- <div class="figure" itemprop="image" itemscope itemtype="http://schema.org/ImageObject">
+ <div class="figure" itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
 		<link itemprop="url" href="/assets/images/uslugi/promo/tin2-800.jpg">
         <div class="figcaption">реакция Тинькова  </div>
         <picture> 

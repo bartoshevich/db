@@ -37,7 +37,7 @@ keywords: "редполитика, разработка редакционной
 <p>Примеры: На&nbsp;сайте и&nbsp;соц.сетях название бренда писали по-разному → в&nbsp;редполитику включил правило о&nbsp;названии бренда. В&nbsp;одних постах в&nbsp;фейсбуке к&nbsp;читателю обращались на&nbsp;«ты», в&nbsp;других&nbsp;— на&nbsp;«вы» → ввел правило общения на&nbsp;«вы». На&nbsp;сайте на&nbsp;вопросы читателя ответили плохо → в&nbsp;редполитике подсказал, что не&nbsp;так и&nbsp;как следует отвечать в&nbsp;подобных случаях. </p>
 <p>Я&nbsp;не&nbsp;создавал редполитику на&nbsp;века. Она&nbsp;— живой инструмент и&nbsp;будет развиваться вместе с&nbsp;предприятием. В&nbsp;отдельном разделе объяснил, как и&nbsp;кто составляет политику и может на нее влиять.</p>
 
-<div itemprop="image" itemscope itemtype="http://schema.org/ImageObject">	
+<div itemprop="image" itemscope itemtype="https://schema.org/ImageObject">	
 		<link itemprop="url" href="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1649659024/site/redpolicy.jpg">	
 	<div class="figcaption" itemprop="description">
 		Редполитика. Начало. Скриншот

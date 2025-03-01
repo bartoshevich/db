@@ -15,7 +15,7 @@ keywords: "корпоративы"
 
 <p>За&nbsp;свою карьеру я&nbsp;прошел через десятки корпоративов. Большинство из&nbsp;них&nbsp;— напрасная трата денег компании и&nbsp;упущенные возможности. Вместо того, чтобы сосредотачиваться на&nbsp;задачах <b>бизнеса</b>, сотрудники и&nbsp;директор метались в&nbsp;поисках ресторана, баз отдыха, спорили по&nbsp;пунктам программы мероприятий и&nbsp;обсуждали меню.</p>
 
-<div itemprop="image" itemscope itemtype="http://schema.org/ImageObject">	
+<div itemprop="image" itemscope itemtype="https://schema.org/ImageObject">	
 		<link itemprop="url" href="/assets/images/blog/direktor-xochet-korporativ/corp1.jpg">	
 <picture>
 <source srcset="/assets/images/blog/direktor-xochet-korporativ/corp1.avif" type="image/avif"> 
@@ -45,7 +45,7 @@ keywords: "корпоративы"
 <p>Добровольно-принудительные развлечения компании ориентируются на&nbsp;усредненный образ работника. Чем больше коллектив&nbsp;— тем больше людей, чьи особенности, увлечения и&nbsp;предпочтения игнорируются. Корпоратив пробуждает чувство инаковости.</p>
 <p>Не&nbsp;каждому нравится пейнтбол, картинг или встреча Нового года в&nbsp;усадьбе на&nbsp;озере. Кто-то не&nbsp;ест мясо, равнодушен к&nbsp;шашлыкам и&nbsp;не&nbsp;употребляет алкоголь. А&nbsp;если и&nbsp;употребляет, не&nbsp;факт, что сольется с&nbsp;коллегами в&nbsp;душевном единении.</p>
 
-<div itemprop="image" itemscope itemtype="http://schema.org/ImageObject">	
+<div itemprop="image" itemscope itemtype="https://schema.org/ImageObject">	
 		<link itemprop="url" href="/assets/images/blog/direktor-xochet-korporativ/corp2.jpg">	
 <picture>
 <source srcset="/assets/images/blog/direktor-xochet-korporativ/corp2.avif" type="image/avif"> 

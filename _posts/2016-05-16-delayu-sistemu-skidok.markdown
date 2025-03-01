@@ -39,7 +39,7 @@ image: /assets/images/tizers/tizer-21.jpg
 <p>Скидки, к&nbsp;которым привыкли «старожилы», превратились в&nbsp;характеристики сотрудничества: у&nbsp;каждого разряда свои значения.</p>
 <p>Идея заказчику понравилась. Вместе определили критерий ценности клиента&nbsp;— объем закупок за&nbsp;последний квартал. По&nbsp;этому показателю присудили разряды.</p>
 
-<div itemprop="image" itemscope itemtype="http://schema.org/ImageObject">
+<div itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
 <link itemprop="url" href="/assets/images/blog/kejs-delayu-sistemu-skidok/sav.jpg">
 <picture>
   <source srcset="/assets/images/blog/kejs-delayu-sistemu-skidok/sav.avif" type="image/avif">

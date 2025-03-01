@@ -2,7 +2,7 @@
 layout: home
 title: "Эксперт по стратегии и маркетингу | РБ, КЗ | Бартошевич"
 permalink: /
-date:   2015-07-31
+date: 2015-07-31
 last_modified_at: 2024-10-05
 description: "Помогаю компаниям расти через создание и развитие брендов. Аудит маркетинга, разработка концепций бренда и рекламные активности для малого и среднего бизнеса."
 keywords: "развитие брендов, анализ данных, разработка стратегий, достижение бизнес-целей, консультант по маркетингу"
@@ -22,7 +22,7 @@ keywords: "развитие брендов, анализ данных, разр�
     <p class="max-width-text">Прошел оценку <a class="link" href="https://www.ebrd.com/home">Европейского банка реконструкции и&nbsp;развития</a> на&nbsp;соответствие оказываемых маркетинговых услуг определенным критериям качества и&nbsp;надежности. </p>
 </section>
 
-<div class="full-bleed intro__image" itemscope itemtype="http://schema.org/ImageObject">
+<div class="full-bleed intro__image" itemscope itemtype="https://schema.org/ImageObject">
 <link itemprop="url" href="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1734078851/site/desktop_new.jpg">
   
     <img class="image"
@@ -37,15 +37,14 @@ keywords: "развитие брендов, анализ данных, разр�
         https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1734078851/site/desktop_new.jpg 4928w"
         width="4928" height="2816" itemprop="contentUrl" >
 
-
-
          {% comment %}
-    <picture>    
-                <source srcset="/assets/images/home/desktop.avif 1x, /assets/images/home/desktop_2x.avif 2x" type="image/avif"> 
-                   <source srcset="/assets/images/home/desktop.webp 1x, /assets/images/home/desktop_2x.webp 2x" type="image/webp"> 
+    <picture>
+                <source srcset="/assets/images/home/desktop.avif 1x, /assets/images/home/desktop_2x.avif 2x" type="image/avif">
+                   <source srcset="/assets/images/home/desktop.webp 1x, /assets/images/home/desktop_2x.webp 2x" type="image/webp">
                 <img class="image" src="/assets/images/home/desktop_2x.jpg" srcset="/assets/images/home/desktop.jpg 1x, /assets/images/home/desktop_2x.jpg 2x" width="1792" height="1024" alt="Иллюстрация современного рабочего места маркетингового консультанта, подчеркивающая стратегическое планирование и инновации" itemprop="contentUrl">
-    </picture> 
- {% endcomment %}
+    </picture>
+
+{% endcomment %}
 
 </div>
 
@@ -103,59 +102,16 @@ keywords: "развитие брендов, анализ данных, разр�
 </div>
 </section>
 
-
-
-
-
-
 <section class="full-bleed block__item clients__block">
 <div class="block__sign"></div>
 <h2 class="block__name block__title bold"> Мне доверяют </h2>
-<div class=" block__content">
-
-        <div class="element--hidden" itemscope itemtype="https://schema.org/Organization">
-            <meta itemprop="name" content="Консультации по маркетингу">
-            <div itemprop="aggregateRating" itemscope itemtype="https://schema.org/AggregateRating">
-                <meta itemprop="ratingValue" content="5">
-                <meta itemprop="bestRating" content="5">
-                <meta itemprop="ratingCount" content="25">
-        </div>
-        </div>
+<div class=" block__content" itemscope itemtype="https://schema.org/ProfessionalService" itemid="#service">
 
               <blockquote class="blockquote--emphasis" itemprop="review" itemscope itemtype="https://schema.org/Review">
                <meta itemprop="name" content="Отзыв о разработке концепции бренда для Giperlink">
                <meta itemprop="datePublished" content="2018-11-30">
 
-   <div class="element--hidden" itemprop="itemReviewed" itemscope itemtype="https://schema.org/LocalBusiness">
-        <meta itemprop="name" content="Бартошевич Дмитрий">
-        <meta itemprop="description" content="Консультации по маркетингу и разработка позиционирования">
-
-        <link itemprop="image" href="https://bartoshevich.by/assets/images/main/bartoshevich@16x9.jpg">
-        <link itemprop="image" href="https://bartoshevich.by/assets/images/main/bartoshevich@4x3.jpg">
-        <link itemprop="image" href="https://bartoshevich.by/assets/images/main/bartoshevich@1x1.jpg">
-   
-        <meta itemprop="priceRange" content="$$">
-        
-        <div class="element--hidden" itemprop="founder" itemscope itemtype="https://schema.org/Person">
-            <meta itemprop="name" content="Дмитрий Бартошевич">
-            <meta itemprop="jobTitle" content="Консультант по маркетингу">
-            <link itemprop="url" href="https://bartoshevich.by/about/">
-        </div>
-
-        
-        <meta itemprop="telephone" content="+375297753340">
-        <link itemprop="url" href="https://bartoshevich.by/">
-        <div class="element--hidden" itemprop="address" itemscope itemtype="https://schema.org/PostalAddress">
-            <meta itemprop="streetAddress" content="ул. Ольшевского, 22">
-            <meta itemprop="postalCode"  content="220073">
-            <meta itemprop="addressLocality" content="Минск">
-            <meta itemprop="addressCountry" content="BY">
-        </div>
-    </div>
-
-
-
-
+         
     	<p class="citation" itemprop="reviewBody">«Мы&nbsp;спрашивали себя: „Чем мы&nbsp;отличаемся? В&nbsp;чем сильнее? В&nbsp;чем отстаем и&nbsp;чего не&nbsp;хватает, чтобы быть лучшими?“ Ответы искали сами. Но&nbsp;того решения, которое устроило&nbsp;бы всех, не&nbsp;находили. Обратились за&nbsp;консультацией к&nbsp;Бартошевичу Дмитрию...»</p>
 
             <div class="citation__author" itemprop="author" itemscope itemtype="https://schema.org/Person">
@@ -168,43 +124,15 @@ keywords: "развитие брендов, анализ данных, разр�
              <div itemprop="reviewRating" itemscope itemtype="https://schema.org/Rating">
                 <meta itemprop="ratingValue" content="5" >
                 <meta itemprop="bestRating" content="5" >
-            </div>
+             </div>
     	</blockquote>
 
 
        <blockquote class="blockquote--emphasis" itemprop="review" itemscope itemtype="https://schema.org/Review">
        <meta itemprop="name" content="Отзыв о позиционировании компании Flex-n-Roll">
-<meta itemprop="datePublished" content="2018-04-18">
+       <meta itemprop="datePublished" content="2018-04-18">
 
-     <div class="element--hidden" itemprop="itemReviewed" itemscope itemtype="https://schema.org/LocalBusiness">
-        <meta itemprop="name" content="Бартошевич Д.А. ИП">
-        <meta itemprop="description" content="Консультации по маркетингу и разработка позиционирования">
-
-        <link itemprop="image" href="https://bartoshevich.by/assets/images/main/bartoshevich@16x9.jpg">
-        <link itemprop="image" href="https://bartoshevich.by/assets/images/main/bartoshevich@4x3.jpg">
-        <link itemprop="image" href="https://bartoshevich.by/assets/images/main/bartoshevich@1x1.jpg">
-   
-        <meta itemprop="priceRange" content="$$">
-        
-        <div class="element--hidden" itemprop="founder" itemscope itemtype="https://schema.org/Person">
-            <meta itemprop="name" content="Дмитрий Бартошевич">
-            <meta itemprop="jobTitle" content="Консультант по маркетингу">
-            <link itemprop="url" href="https://bartoshevich.by/about/">
-        </div>
-
-        
-        <meta itemprop="telephone" content="+375297753340">
-        <link itemprop="url" href="https://bartoshevich.by/">
-        <div class="element--hidden" itemprop="address" itemscope itemtype="https://schema.org/PostalAddress">
-            <meta itemprop="streetAddress" content="ул. Ольшевского, 22">
-            <meta itemprop="postalCode"  content="220073">
-            <meta itemprop="addressLocality" content="Минск">
-            <meta itemprop="addressCountry" content="BY">
-        </div>
-    </div>
-
-
-    	<p class="citation" itemprop="reviewBody">
+      	<p class="citation" itemprop="reviewBody">
             «Нам потребовалось четко позиционировать компанию на&nbsp;рынке и&nbsp;максимально отстроиться от&nbsp;конкурентов. И&nbsp;мы&nbsp;привлекли Дмитрия Бартошевича...»
     	</p>
     		<div class="citation__author" itemprop="author" itemscope itemtype="https://schema.org/Person">
@@ -221,6 +149,7 @@ keywords: "развитие брендов, анализ данных, разр�
     	</blockquote>
 
 </div>
+
 </section>
 
 <section class="full-bleed block__item  ">
@@ -230,7 +159,7 @@ keywords: "развитие брендов, анализ данных, разр�
 
 {% comment %}
 
-<div class="figure" itemscope itemtype="http://schema.org/ImageObject">
+<div class="figure" itemscope itemtype="https://schema.org/ImageObject">
 <link itemprop="url" href="https://res.cloudinary.com/bartoshevich/image/upload/v1700419281/site/blog_marketing.png">
 <img class="image" loading="lazy" decoding="async" 
 			sizes="100vw" 
@@ -251,8 +180,6 @@ keywords: "развитие брендов, анализ данных, разр�
 
 </main>
 
-
        {% include footer.html %}
-
 
 </div>

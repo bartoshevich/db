@@ -47,7 +47,7 @@ keywords: "семинар Новые технологии,  IT"
 <p class="italic">В&nbsp;этой схеме товар остался прежним, но&nbsp;модель бизнеса иная. Склад не&nbsp;нужен. Большой торговый зал не&nbsp;нужен. Производится&nbsp;то, что клиент уже купил. </p>
 
 
-<div itemprop="image" itemscope itemtype="http://schema.org/ImageObject">	
+<div itemprop="image" itemscope itemtype="https://schema.org/ImageObject">	
 		<link itemprop="url" href="/assets/images/blog/crowdconference/else-corp.jpg">
 <picture>
                <source srcset="/assets/images/blog/crowdconference/else-corp.avif" type="image/avif">

@@ -34,7 +34,7 @@ keywords: "рекламные листовки, реклама "
 
 <p>Начал с&nbsp;того, что в&nbsp;текстовом редакторе сделал таблицу из&nbsp;четырех колонок. Первая колонка&nbsp;— для критериев выбора. Выделил информационные блоки и&nbsp;в&nbsp;каждом обозначил, какие характеристики смотреть. Остальные колонки&nbsp;— для продукции. Покупатель может взять три модели ворот, для каждой заполнить значения параметров и&nbsp;сделать взвешенный выбор. </p>
 
-<div itemprop="image" itemscope itemtype="http://schema.org/ImageObject">
+<div itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
 	<link itemprop="url" href="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1614116184/site/start-helper.jpg">
   <img  class="image " loading="lazy" decoding="async"  src="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1614116184/site/start-helper.jpg" width="722" height="361" alt="Шаблон таблицы с критериями выбора для клиентов"  itemprop="contentUrl">
   <div class="figcaption">Составляю в&nbsp;редакторе &laquo;помощник в&nbsp;выборе гаражных ворот&raquo;</div>
@@ -46,7 +46,7 @@ keywords: "рекламные листовки, реклама "
 
 <p>Сфера секционных ворот у&nbsp;меня ассоциируется с&nbsp;компанией Hörmann, для которой я&nbsp;<a class="link" href="/blog/brand-conception-hormann/"><strong>разработал концепцию бренда</strong></a>. Мне кажется, подобный «помощник» соответствует идее <b>бренда</b>&nbsp;— компания делится экспертизой, которую накопила с&nbsp;1935 года. Поэтому две колонки я&nbsp;отвел для продукции Hörmann. </p>
 
-<div class="full-bleed"  itemprop="image" itemscope itemtype="http://schema.org/ImageObject">
+<div class="full-bleed"  itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
 	<link itemprop="url" href="https://res.cloudinary.com/bartoshevich/image/upload/v1614108947/site/draft-helper.jpg">
   <img  class="image" loading="lazy" decoding="async" src="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto:best/v1614108947/site/draft-helper.jpg" srcset="https://res.cloudinary.com/bartoshevich/image/upload/w_1040/f_auto,q_auto:best/v1614108947/site/draft-helper.jpg 1x, https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto:best/v1614108947/site/draft-helper.jpg 1.5x"   width="1756" height="1170" alt="Черновик помощника в выборе ворот"  itemprop="contentUrl">
   <div class="figcaption">«Помощник в выборе ворот». <button class="link button image-expand" data-url="https://res.cloudinary.com/bartoshevich/image/upload/v1614108947/site/draft-helper.jpg" aria-label="Открыть изображение в новой вкладке">Открыть в новой вкладке</button>
@@ -59,7 +59,7 @@ keywords: "рекламные листовки, реклама "
 
 <p>Елизавета предложила лаконичный дизайн и&nbsp;аккуратную верстку таблицы. </p>
 
-<div class="full-bleed"  itemprop="image" itemscope itemtype="http://schema.org/ImageObject">
+<div class="full-bleed"  itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
 	<link itemprop="url" href="https://res.cloudinary.com/bartoshevich/image/upload/v1614110806/site/helper-1.jpg">
 
   <img  class="image" loading="lazy" decoding="async"  src="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto:best/v1614110806/site/helper-1.jpg" srcset="https://res.cloudinary.com/bartoshevich/image/upload/w_1040/f_auto,q_auto:best/v1614110806/site/helper-1.jpg 1x, https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto:best/v1614110806/site/helper-1.jpg 2x" width="2300" height="1533" alt="финальный вариант таблицы с критериями выбора" itemprop="contentUrl" >
@@ -70,7 +70,7 @@ keywords: "рекламные листовки, реклама "
 
 <p>Особенность решения&nbsp;— «помощник» состоит из&nbsp;двух частей разных размеров: обложки из&nbsp;плотного картона и&nbsp;листа с&nbsp;таблицей. Мне понравилось, что второстепенные детали (напр., контакты офиса или QR-код) не&nbsp;бросаются в&nbsp;глаза и&nbsp;в&nbsp;тоже время под рукой. </p>
 
-<div class="full-bleed"  itemprop="image" itemscope itemtype="http://schema.org/ImageObject">
+<div class="full-bleed"  itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
 	<link itemprop="url" href="https://res.cloudinary.com/bartoshevich/image/upload/v1614110807/site/helper-2.jpg">
   <img  class="image" loading="lazy" decoding="async" src="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto:best/v1614110807/site/helper-2.jpg" srcset="https://res.cloudinary.com/bartoshevich/image/upload/w_1040/f_auto,q_auto:best/v1614110807/site/helper-2.jpg 1x, https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto:best/v1614110807/site/helper-2.jpg 2x" width="2400" height="1600" alt="Варианты исполнения помощника в выборе для клиентов" itemprop="contentUrl" >
   <div class="figcaption">Варианты исполнения.  
@@ -80,7 +80,7 @@ keywords: "рекламные листовки, реклама "
 
 <p>«Наличие обложки позволило расположить необходимые рекламные и&nbsp;контактные элементы, которые прямо заявляют об&nbsp;отношении к&nbsp;бренду,&nbsp;— пояснила свое решение Елизавета. —&nbsp;Таким образом, довольно технический с&nbsp;точки зрения идеи <strong>носитель работает на&nbsp;имидж бренда</strong>».</p>
 
-<div class="full-bleed"  itemprop="image" itemscope itemtype="http://schema.org/ImageObject">
+<div class="full-bleed"  itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
 	<link itemprop="url" href="https://res.cloudinary.com/bartoshevich/image/upload/v1614110807/site/helper-3.jpg">
   <img  class="image" loading="lazy" decoding="async"  src="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto:best/v1614110807/site/helper-3.jpg" srcset="https://res.cloudinary.com/bartoshevich/image/upload/w_1040/f_auto,q_auto:best/v1614110807/site/helper-3.jpg 1x, https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto:best/v1614110807/site/helper-3.jpg 2x"  title="Визуализация: Елизавета Мамчиц" width="2400" height="1600" alt="Визуализация помощника в выборе от Елизаветы Мамчиц"   itemprop="contentUrl">
   <div class="figcaption">  <button class="link button image-expand" data-url="https://res.cloudinary.com/bartoshevich/image/upload/v1614110807/site/helper-3.jpg" aria-label="Открыть изображение в новой вкладке">Открыть в новой вкладке</button>

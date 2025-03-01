@@ -44,7 +44,7 @@ keywords:  "развитие интернет-магазина"
 <p>В&nbsp;исследовании белорусских интернет-магазинов, торгующими канцелярскими товарами, мы&nbsp;заняли первое место, победив даже oz.by. Не&nbsp;потому, что мы&nbsp;лучше oz.by. У&nbsp;нас нет адаптивности. Возможно, у&nbsp;нас не&nbsp;так все красиво, не&nbsp;самый передовой дизайн, сложнее оформление заказа. Но&nbsp;мы&nbsp;выиграли. Выиграли, потому что были лучше по&nbsp;показателям, значимым для закупки канцтоваров для офиса.</p>
 
 
-<div itemprop="image" itemscope itemtype="http://schema.org/ImageObject">	
+<div itemprop="image" itemscope itemtype="https://schema.org/ImageObject">	
 		<link itemprop="url" href="/assets/images/blog/delovoy/delovoy2.jpg">
 <picture>
                 <source media="(min-width: 500px)" srcset="/assets/images/blog/delovoy/delovoy2.avif" type="image/avif">
@@ -75,7 +75,7 @@ keywords:  "развитие интернет-магазина"
 <p>—&nbsp;Важно переводить язык бизнеса, термины и&nbsp;названия на&nbsp;язык клиента. Товар и&nbsp;его свойства могут быть очевидны и&nbsp;понятны для продавца, но&nbsp;не&nbsp;для покупателя. </p>
 <p>Яркий пример&nbsp;— сайты банков. Клиентам банк предлагает продукты. </p>
 
-<div itemprop="image" itemscope itemtype="http://schema.org/ImageObject">	
+<div itemprop="image" itemscope itemtype="https://schema.org/ImageObject">	
 		<link itemprop="url" href="/assets/images/blog/delovoy/delovoy3.jpg">
 <picture>
                <source srcset="/assets/images/blog/delovoy/delovoy3.avif" type="image/avif">
@@ -96,7 +96,7 @@ keywords:  "развитие интернет-магазина"
 <p>Другой пример. Я&nbsp;ищу легковые шины. Захожу на&nbsp;интернет-магазин через поиск. Сайт хороший, но&nbsp;меня озадачивают цифры под названием шин.</p>
 
 
-<div itemprop="image" itemscope itemtype="http://schema.org/ImageObject">	
+<div itemprop="image" itemscope itemtype="https://schema.org/ImageObject">	
 		<link itemprop="url" href="/assets/images/blog/delovoy/delovoy4.jpg">
 <picture>
                <source srcset="/assets/images/blog/delovoy/delovoy4.avif" type="image/avif">

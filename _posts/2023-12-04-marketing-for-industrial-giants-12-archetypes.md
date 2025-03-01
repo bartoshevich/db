@@ -97,7 +97,7 @@ keywords: "архетипы, маркетинг, архетипы в марке�
 <p>Такой подход привлечет тех, кто ищет продукты, которые легко понимаются. Кто хочет видеть конкретные выгоды сотрудничества, ценит искренность, доверие, а&nbsp;также персонализированный подход. </p>
 </section>
 
-<div class="figure" itemprop="image" itemscope itemtype="http://schema.org/ImageObject">
+<div class="figure" itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
 <link itemprop="url" href="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1701860489/site/archetypes/innocent.png">
 <img class="image" loading="lazy" decoding="async" 
      sizes="100vw" 
@@ -143,7 +143,7 @@ keywords: "архетипы, маркетинг, архетипы в марке�
 <p>Компании, заинтересованные в&nbsp;создании сильных деловых связей и&nbsp;сотрудничестве на&nbsp;равных, которые стремятся к&nbsp;социальной ответственности и&nbsp;участию в&nbsp;сообществе, будут откликаться на&nbsp;такой подход. </p>
 </section>
 
-<div class="figure" itemprop="image" itemscope itemtype="http://schema.org/ImageObject">
+<div class="figure" itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
 <link itemprop="url" href="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1701860488/site/archetypes/orphan.png">
 <img class="image" loading="lazy" decoding="async" 
      sizes="100vw" 
@@ -189,7 +189,7 @@ keywords: "архетипы, маркетинг, архетипы в марке�
 <p>Подход привлечет компании, заинтересованные в&nbsp;стабильных, долгосрочных отношениях с&nbsp;поставщиками. Также будет интересен предприятиям, нуждающимся в&nbsp;комплексных решениях, включая техническую поддержку, обучение и&nbsp;обслуживание. </p>
 </section>
 
-<div class="figure" itemprop="image" itemscope itemtype="http://schema.org/ImageObject">
+<div class="figure" itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
 <link itemprop="url" href="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1701860485/site/archetypes/caregiver.png">
 <img class="image" loading="lazy" decoding="async" 
      sizes="100vw" 
@@ -239,7 +239,7 @@ keywords: "архетипы, маркетинг, архетипы в марке�
 <p>Подход, акцентирующий на&nbsp;«волшебстве» и&nbsp;инновациях, привлечет внимание тех, кто готов экспериментировать и&nbsp;стремится к&nbsp;лидерству за&nbsp;счет революционных решений в&nbsp;улучшении своих продуктов. Также могут откликнуться исследовательские центры, заинтересованные в&nbsp;передовых технологиях. </p>
 </section>
 
-<div class="figure" itemprop="image" itemscope itemtype="http://schema.org/ImageObject">
+<div class="figure" itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
 <link itemprop="url" href="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1701860482/site/archetypes/magician.png">
 <img class="image" loading="lazy" decoding="async" 
      sizes="100vw" 
@@ -290,7 +290,7 @@ keywords: "архетипы, маркетинг, архетипы в марке�
 <p>Такая активность особенно заинтересует организации, которые ценят глубокие знания, научный подход и&nbsp;передовые технологии. Также может привлечь правительственные органы и&nbsp;крупные корпорации, ищущие надежные и&nbsp;инновационные решения для сложных задач.</p>
 </section>
 
-<div class="figure" itemprop="image" itemscope itemtype="http://schema.org/ImageObject">
+<div class="figure" itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
 <link itemprop="url" href="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1701860482/site/archetypes/sage.png">
 <img class="image" loading="lazy" decoding="async" 
      sizes="100vw" 
@@ -334,7 +334,7 @@ keywords: "архетипы, маркетинг, архетипы в марке�
 <p>Бунтарский маркетинг отпугнет консервативные компании, которые предпочитают более умеренные и&nbsp;проверенные подходы. Однако для тех, кто ориентирован на&nbsp;использование новых технологий, кто нуждается в&nbsp;переосмыслении бизнеса и&nbsp;кардинальных преобразованиях, такой подход может оказаться исключительно привлекательным.</p>
 </section>
 
-<div class="figure" itemprop="image" itemscope itemtype="http://schema.org/ImageObject">
+<div class="figure" itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
 <link itemprop="url" href="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1701860490/site/archetypes/destroyer.png">
 <img class="image" loading="lazy" decoding="async" 
      sizes="100vw" 
@@ -380,7 +380,7 @@ keywords: "архетипы, маркетинг, архетипы в марке�
 <p>«Геройский» маркетинг привлечет организации, которые ищут решение сложных или нестандартных технических задач. Заинтересуются также предприятия, нуждающиеся в&nbsp;продукции, способной выдерживать экстремальные условия эксплуатации.</p>
 </section>
 
-<div class="figure" itemprop="image" itemscope itemtype="http://schema.org/ImageObject">
+<div class="figure" itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
 <link itemprop="url" href="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1701860485/site/archetypes/warrior.png">
 <img class="image" loading="lazy" decoding="async" 
      sizes="100vw" 
@@ -432,7 +432,7 @@ keywords: "архетипы, маркетинг, архетипы в марке�
 <p>Подход заинтересует предприятия, заинтересованные в&nbsp;улучшении производственных процессов, увеличении производительности и&nbsp;сокращении затрат. </p>
 </section>
 
-<div class="figure" itemprop="image" itemscope itemtype="http://schema.org/ImageObject">
+<div class="figure" itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
 <link itemprop="url" href="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1701860486/site/archetypes/seeker.png">
 <img class="image" loading="lazy" decoding="async" 
      sizes="100vw" 
@@ -491,7 +491,7 @@ keywords: "архетипы, маркетинг, архетипы в марке�
  </ul>
 </section>
 
-<div class="figure" itemprop="image" itemscope itemtype="http://schema.org/ImageObject">
+<div class="figure" itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
 <link itemprop="url" href="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1701860484/site/archetypes/ruler.png">
 <img class="image" loading="lazy" decoding="async" 
      sizes="100vw" 
@@ -543,7 +543,7 @@ keywords: "архетипы, маркетинг, архетипы в марке�
 <p>На&nbsp;такой маркетинг в&nbsp;первую очередь откликнутся компании, которые ценят персонализацию и&nbsp;высокий уровень комфорта. Также FuturaTech Industries заинтересует предприятия, производящие продукцию высшего класса, где важны стиль, инновации и&nbsp;эксклюзивность.</p>
 </section>
 
-<div class="figure" itemprop="image" itemscope itemtype="http://schema.org/ImageObject">
+<div class="figure" itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
 <link itemprop="url" href="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1702142786/site/archetypes/lover_2.png">
 <img class="image" loading="lazy" decoding="async" 
      sizes="100vw" 
@@ -592,7 +592,7 @@ keywords: "архетипы, маркетинг, архетипы в марке�
 <p>«Шут» поможет привлечь клиентов, которые ищут не&nbsp;только технологически продвинутые, но&nbsp;и&nbsp;оригинально представленные решения&nbsp;— компании, занимающиеся разработкой новых технологий и&nbsp;заинтересованные в&nbsp;инновациях и&nbsp;креативных идеях. </p>
 </section>
 
-<div class="figure" itemprop="image" itemscope itemtype="http://schema.org/ImageObject">
+<div class="figure" itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
 <link itemprop="url" href="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1701860487/site/archetypes/jester.png">
 <img class="image" loading="lazy" decoding="async" 
      sizes="100vw" 
@@ -638,7 +638,7 @@ keywords: "архетипы, маркетинг, архетипы в марке�
 <p>На&nbsp;такой маркетинг прежде всего откликнутся компании, которые стремятся быть на&nbsp;переднем крае технологических инноваций в&nbsp;своих отраслях. Также заинтересует предприятия, находящиеся в&nbsp;поисках конкурентного преимущества через инновационное оборудование и&nbsp;технологии.</p>
 </section>
 
-<div class="figure" itemprop="image" itemscope itemtype="http://schema.org/ImageObject">
+<div class="figure" itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
 <link itemprop="url" href="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1701860486/site/archetypes/creator.png">
 <img class="image" loading="lazy" decoding="async" 
      sizes="100vw" 

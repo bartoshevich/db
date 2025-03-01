@@ -41,7 +41,7 @@ image: /assets/images/tizers/tizer-32.jpg
 
 <p>Праздник или сезон&nbsp;— часть инструментария, который на&nbsp;практике можно применить самым неожиданным образом в&nbsp;контексте конкретного <b>бренда</b>, культуры, места и&nbsp;конкретной узкой задачи.</p>
 
-<div itemprop="image" itemscope itemtype="http://schema.org/ImageObject">	
+<div itemprop="image" itemscope itemtype="https://schema.org/ImageObject">	
 		<link itemprop="url" href="https://res.cloudinary.com/bartoshevich/image/upload/q_auto,f_auto/v1540025279/newyear2.jpg">	
 <img class="image" loading="lazy" decoding="async"  src="https://res.cloudinary.com/bartoshevich/image/upload/q_auto,f_auto/v1540025279/newyear2.jpg" alt="фотографии витрин" width="695" height="576" itemprop="contentUrl" />
 <div class="figcaption" itemprop="description">
@@ -67,7 +67,7 @@ image: /assets/images/tizers/tizer-32.jpg
 <p>—&nbsp;Целостный качественный образ магазина должны создавать специалисты по&nbsp;визуальному мерчендайзингу и&nbsp;витринистике, которые знают и&nbsp;понимают розницу. Не&nbsp;дизайнеры квартир, не&nbsp;архитекторы и&nbsp;даже не&nbsp;флористы.</p>
 <p>Идеальная ситуация&nbsp;— слаженная работа над проектом нескольких специалистов&nbsp;— торгового маркетолога, дизайнера и&nbsp;архитектора. Такая синергия принесет магазину больше пользы чем талантливый дизайнер, который раньше работал оформителем на&nbsp;праздниках.</p>
 
-<div itemprop="image" itemscope itemtype="http://schema.org/ImageObject">	
+<div itemprop="image" itemscope itemtype="https://schema.org/ImageObject">	
 		<link itemprop="url" href="/assets/images/blog/novogodnee-oformlenie-magazina/newyear3.jpg">
 <picture>
 <source srcset="/assets/images/blog/novogodnee-oformlenie-magazina/newyear3.avif" type="image/avif"> 

@@ -1,30 +1,52 @@
-<script type="application/ld+json" nonce="y4VZC0VrqMma_4wARYnlJpifIomnbHG-ibt6RepxdkA">
+<script
+  type="application/ld+json"
+  nonce="y4VZC0VrqMma_4wARYnlJpifIomnbHG-ibt6RepxdkA"
+>
   {
     "@context": "https://schema.org",
     "@type": "Service",
     "name": "Разработка концепции бренда",
     "serviceType": "Brand Strategy Development",
     "provider": {
-      "@type": "LocalBusiness",
-      "name": "Частный консультант по маркетингу и стратегии Бартошевич Дмитрий",
-      "address": {
-        "@type": "PostalAddress",
-        "streetAddress": "ул. Ольшевского, 22",
-        "addressLocality": "Минск",
-        "postalCode": "220073",
-        "addressCountry": "BY"
-      },
-      "telephone": "+375297753340",
-      "email": "dmitry@bartoshevich.by",
-      "url": "https://bartoshevich.by/",
-      "priceRange": "$$",
-      "image": [
-        "https://bartoshevich.by/assets/images/main/bartoshevich@16x9.jpg",
-        "https://bartoshevich.by/assets/images/main/bartoshevich@4x3.jpg",
-        "https://bartoshevich.by/assets/images/main/bartoshevich@1x1.jpg"
-      ]
+      "@id": "#service"
     },
-    "description": "Создам концепцию бренда, которая выведет вашу торговую марку на новый уровень. Выделяйтесь среди конкурентов и привлекайте клиентов с помощью сильного бренда!",
-    "url": "https://bartoshevich.by/uslugi/brand-conception/"
+    "offers": {
+      "@type": "Offer",
+      "priceCurrency": "EUR",
+      "price": "3000",
+      "priceSpecification": {
+        "@type": "PriceSpecification",
+        "valueAddedTaxIncluded": true,
+        "minPrice": "3000",
+        "maxPrice": "10000"
+      }
+    },
+    "description": "{{ page.description | escape  }}",
+    "url": "https://bartoshevich.by/uslugi/brand-conception/",
+    "serviceOutput": {
+      "@type": "Thing",
+      "name": "Детально проработанная концепция бренда с позиционированием и стратегией развития"
+    },
+    "subjectOf": {
+      "@type": "HowTo",
+      "name": "Процесс разработки концепции бренда",
+      "step": [
+        {
+          "@type": "HowToStep",
+          "name": "Анализ бизнеса",
+          "text": "Погружение в бизнес клиента, анализ миссии, ценностей и существующего позиционирования."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Анализ конкурентов и клиентов",
+          "text": "Исследование рынка, анализ конкурентов и изучение потребностей целевой аудитории."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Создание структуры бренда",
+          "text": "Разработка атрибутов, выгод, позиционирования, обещания и личности бренда."
+        }
+      ]
+    }   
   }
 </script>

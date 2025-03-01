@@ -1,25 +1,17 @@
 <script type="application/ld+json" nonce="y4VZC0VrqMma_4wARYnlJpifIomnbHG-ibt6RepxdkA">
   {
-    "@context": "http://schema.org",
+    "@context": "https://schema.org",
     "@type": "BlogPosting",
     "headline": "{{ page.title }}",
     "description": "{{ page.description | strip_html | truncate: 180 }}",
     "datePublished": "{{ page.date | date_to_xmlschema }}",
     "dateModified": "{{ page.last_modified_at | date_to_xmlschema }}",
+    "image": "{{ page.image | default: '/assets/images/main/bartoshevichby.png' | prepend: site.url | escape }}",
     "author": {
-      "@type": "Person",
-      "name": "Дмитрий Бартошевич",
-      "alternateName": "Дмитрий Барташевич",
-      "url": "https://bartoshevich.by/about/"
+      "@id": "#person"
     },
     "publisher": {
-      "@type": "Organization",
-      "name": "Частный консультант по маркетингу и стратегии Бартошевич Дмитрий",
-      "url": "https://bartoshevich.by/",
-      "logo": {
-        "@type": "ImageObject",
-        "url": "https://res.cloudinary.com/bartoshevich/image/upload/v1645366318/site/bartoshevich_1x.jpg"
-      }
+      "@id": "#service"
     },
     "mainEntityOfPage": {
       "@type": "WebPage",

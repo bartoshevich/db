@@ -68,7 +68,7 @@ keywords: "перфоманс маркетинг, брендинг, эффект
 <h3 class="h2 bold mb-m list-sign"> блокировка источника клиентов в&nbsp;будущем </h3>
 <p>Если использовать аналогию с&nbsp;воронкой продаж, то&nbsp;для развития бизнеса нужно, чтобы в&nbsp;воронку попадали новые люди. Маркетинг, нацеленный на&nbsp;быстрые результаты и&nbsp;конверсию, сконцентрирован на&nbsp;нижней части воронки. Новых людей маркетинг не&nbsp;вовлекает. Он близорук. Основы для будущего развития нет. Долгосрочного роста бизнеса не&nbsp;достигнуть лишь за&nbsp;счет усилий, направленных на&nbsp;конверсию.</p>
 
-<div  itemprop="image" itemscope itemtype="http://schema.org/ImageObject">
+<div  itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
 <link itemprop="url" href="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1635712886/site/marketing-funnel.jpg">
 <img class="image is-16by9" loading="lazy" decoding="async" src="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1635712886/site/marketing-funnel.jpg" alt="Мероприятия по развитию бренда соотносятся с верхней частью воронки продаж. Это источник клиентов в будущем. Конверсия сконцентрирована на нижней части воронки и краткосрочных целях." width="900" height="506" itemprop="contentUrl"/>
 </div>
@@ -77,7 +77,7 @@ keywords: "перфоманс маркетинг, брендинг, эффект
 
 <p>Исследования Нильсен подтверждают важность верхней части воронки продаж: <a class="link" href="https://www.nielsen.com/insights/2021/take-command-of-your-brand/">увеличение на&nbsp;1&nbsp;п.п. уровня осведомленности приводит к&nbsp;увеличению продаж в&nbsp;среднем на&nbsp;1%</a>. Ментальная доступность&nbsp;— вот к&nbsp;чему должны стремиться бренды, нацеленные на&nbsp;развитие. </p>
 
-<div  itemprop="image" itemscope itemtype="http://schema.org/ImageObject">
+<div  itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
 <link itemprop="url" href="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1641722014/site/whenstopads.jpg">
 <img class="image is-16by9" loading="lazy" decoding="async" src="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1641722014/site/whenstopads.jpg" alt="график снижения объема продаж после отмены рекламы" width="900" height="506" itemprop="contentUrl"/>
 <div class="figcaption" itemprop="description">University of South Australia, Ehrenberg-Bass Institute: <a class="link" href="https://www.marketingscience.info/when-brands-stop-advertising/">остановка рекламы в&nbsp;масс-медиа негативно сказывается на&nbsp;динамике объема продаж</a></div>
@@ -143,7 +143,7 @@ keywords: "перфоманс маркетинг, брендинг, эффект
 
 <p>На&nbsp;этот вопрос ответили Питер Филд (Peter Field) и&nbsp;Лес Бине (Les Binet). В&nbsp;своих исследованиях они пришли к&nbsp;выводу, что <a class="link" href="https://youtu.be/2LkK-UdbMuM">наилучших результатов компания достигает, если на&nbsp;<strong>развитие бренда</strong> отдает в&nbsp;среднем&nbsp;62% маркетингового бюджета</a>. </p>
 
-<div  itemprop="image" itemscope itemtype="http://schema.org/ImageObject">
+<div  itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
 <link itemprop="url" href="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1635712030/site/brand-activation-balance-matters.png">
 <img class="image is-16by9" loading="lazy" decoding="async" src="https://res.cloudinary.com/bartoshevich/image/upload/e_improve/f_auto,q_auto/v1635712030/site/brand-activation-balance-matters.png" width="1280" height="720" alt="слайд презентации Питера Филда и Леса Бине" itemprop="contentUrl"/>
 

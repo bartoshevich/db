@@ -56,9 +56,9 @@ keywords: "маркетинг задачи маркетолога"
 
 <p>Когда я&nbsp;открываю новостные сайты, то&nbsp;ожидаю прочесть об&nbsp;очередном аресте, обыске, санкциях и&nbsp;рисках расширения кризиса. Ожидания, к&nbsp;сожалению, сбываются. ГосСМИ&nbsp;же заявляют, что в&nbsp;стране идет ликвидация «раковой опухоли», клеймят «подстрекателей», «провокаторов» и&nbsp;информационные «мусорные полигоны». </p>
 
-<div  itemprop="image" itemscope itemtype="http://schema.org/ImageObject">
+<div  itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
 <link itemprop="url" href="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1626334469/site/context_rb.jpg">
-<img class="image" loading="lazy" decoding="async" src="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1626334469/site/context_rb.jpg" width="1956" height="1100" alt="контекст поведения покупателей в Беларуси в 2021 году" itemprop="contentUrl"/>
+<img class="image" loading="lazy" decoding="async" src="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1626334469/site/context_rb.jpg" width="1956" height="1100" alt="контекст поведения покупателей в Беларуси в 2021 году" itemprop="contentUrl">
 </div>
 
 <p>Будущее&nbsp;— с&nbsp;пессимистичным окрасом. Цена ошибки в&nbsp;случае крупных покупок становится выше. «Правильное&nbsp;ли сейчас время тратить деньги на&nbsp;отдых, затевать ремонт и&nbsp;т.д.?». Больше уровень страха купить не&nbsp;то&nbsp;или не&nbsp;у&nbsp;того. «А&nbsp;вы&nbsp;не&nbsp;пропадете?» «Можно предоплату меньше сделать?» Сложность выбора выросла. </p>

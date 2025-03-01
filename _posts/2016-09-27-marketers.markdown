@@ -23,7 +23,7 @@ image: /assets/images/tizers/tizer-29.jpg
 <p>Я&nbsp;же не&nbsp;вижу острой необходимости плодить термины и&nbsp;делить специалистов на&nbsp;теоретиков и&nbsp;практиков. Поэтому использую слово «маркетолог» как более привычное, устоявшееся и&nbsp;распространенное.</p>
 <p>Слово «маркетер» режет слух. Не&nbsp;нравится оно и&nbsp;моему текстовому редактору: каждый раз предлагает заменить на&nbsp;«мушкетер».</p>
 
-<div itemprop="image" itemscope itemtype="http://schema.org/ImageObject">
+<div itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
 <link itemprop="url" href="/assets/images/blog/marketers/marketer1.jpg">
 <picture>
 <source srcset="/assets/images/blog/marketers/marketer1.avif" type="image/avif"> 

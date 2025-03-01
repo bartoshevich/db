@@ -16,7 +16,7 @@ image: /assets/images/tizers/tizer-40.jpg
 
 <p>Cоздание интернет-магазина&nbsp;&mdash; это не&nbsp;просто техническая задача. Это искусство понимания потребностей клиента и&nbsp;создания уникального пользовательского опыта. Эту мысль я&nbsp;старался донести до&nbsp;участников семинара «Формула сайта: от&nbsp;идеи интернет-магазина до&nbsp;лидера отрасли», на котором выступал по приглашению компании «1С-Битрикс» и&nbsp;веб-студии «Новый сайт».</p> 
 
-<div itemprop="image" itemscope itemtype="http://schema.org/ImageObject">	
+<div itemprop="image" itemscope itemtype="https://schema.org/ImageObject">	
 		<link itemprop="url" href="https://res.cloudinary.com/bartoshevich/image/upload/f_auto/v1615123529/site/seminar110517.jpg">
 <img src="https://res.cloudinary.com/bartoshevich/image/upload/f_auto/v1615123529/site/seminar110517.jpg"  alt="Дмитрий Бартошевич рассказывает о маркетинговой стратегии интернет-магазинов"  class="image" width="720" height="540" itemprop="contentUrl">
 <div class="figcaption">Фото: Арина Чернышева</div>
@@ -66,7 +66,7 @@ image: /assets/images/tizers/tizer-40.jpg
 	</li>
 </ul>
 
-<div itemprop="image" itemscope itemtype="http://schema.org/ImageObject">	
+<div itemprop="image" itemscope itemtype="https://schema.org/ImageObject">	
 		<link itemprop="url" href="/assets/images/blog/ecommerce/polza-cjm.jpg">
 <picture>
                <source srcset="/assets/images/blog/ecommerce/polza-cjm.avif" type="image/avif">
@@ -86,7 +86,7 @@ image: /assets/images/tizers/tizer-40.jpg
 <p><span class="bold">Пример&nbsp;3.</span> Интернет-магазин оборудования и&nbsp;ингредиентов для варки домашнего пива Z. Целевая аудитория&nbsp;— эксперты. Они регулярно читают профессиональную литературу и&nbsp;общаются на&nbsp;тематических форумах, знают все точки продаж, удивляют друзей новыми вкусами и&nbsp;стилями пива. На&nbsp;сайте магазина их&nbsp;интересует только каталог: технологическое описание продукции (напр., хмель&nbsp;— альфа-кислотность, год урожая, аромат, таблица взаимозаменяемости, тип использования и&nbsp;пр.), стоимость, наличие или ожидаемое время доставки. Тратить ресурсы на&nbsp;рерайтинг статей о&nbsp;пиве и&nbsp;публикацию популярных рецептов&nbsp;— нецелесообразно. </p>
 
 
-<div itemprop="image" itemscope itemtype="http://schema.org/ImageObject">	
+<div itemprop="image" itemscope itemtype="https://schema.org/ImageObject">	
 		<link itemprop="url" href="/assets/images/blog/ecommerce/seminar110517.jpg">
 <picture>
                <source srcset="/assets/images/blog/ecommerce/seminar110517.avif" type="image/avif">

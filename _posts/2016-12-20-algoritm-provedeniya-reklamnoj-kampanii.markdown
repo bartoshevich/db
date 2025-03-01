@@ -253,7 +253,7 @@ image: /assets/images/tizers/tizer-35.jpg
 
 <p>Вы&nbsp;можете возразить: «конечная цель рекламы&nbsp;— рост продаж, поэтому оценивать следует по&nbsp;динамике объема продаж». Давайте разберем это утверждение на&nbsp;«воронке продаж».</p>
 
-<div itemprop="image" itemscope itemtype="http://schema.org/ImageObject">	
+<div itemprop="image" itemscope itemtype="https://schema.org/ImageObject">	
 		<link itemprop="url" href="/assets/images/blog/algoritm-provedeniya-reklamnoj-kampanii/voronka_prodaz.jpg">	
 <picture>
 <source srcset="/assets/images/blog/algoritm-provedeniya-reklamnoj-kampanii/voronka_prodaz.avif" type="image/avif"> 

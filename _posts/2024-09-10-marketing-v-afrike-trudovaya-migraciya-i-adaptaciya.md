@@ -18,7 +18,7 @@ keywords: "маркетинг в Африке, работа в Сенегале,
 <p>Мир открыт не&nbsp;только для беларуских айтишников. Екатерина Пажитных, героиня этой статьи, оставила успешную карьеру в&nbsp;Беларуси и&nbsp;решилась на&nbsp;смелый шаг&nbsp;— переехать <a class="link" href="https://ru.wikipedia.org/wiki/%D0%A1%D0%B5%D0%BD%D0%B5%D0%B3%D0%B0%D0%BB">в&nbsp;Сенегал</a>, чтобы создать систему маркетинга в&nbsp;местной компании. Когда я&nbsp;работал в&nbsp;Nielsen, я&nbsp;замечал, что многие руководящие должности занимали люди с&nbsp;опытом работы в&nbsp;Африке. Невольно начинал рассматривать африканский континент как катализатор карьеры. Попросил Екатерину поделиться, как Сенегал повлиял на&nbsp;нее, почему она выбрала этот путь и&nbsp;что изменилось в&nbsp;её&nbsp;подходе к&nbsp;маркетингу.</p>
 	<div class="side">
 		<div class="guests">
-			<div class="guest-person" itemprop="image" itemscope itemtype="http://schema.org/ImageObject">
+			<div class="guest-person" itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
 				<link itemprop="url" href="https://res.cloudinary.com/bartoshevich/image/upload/v1725988971/site/africa/pazhytnykh_catherine.jpg">
 				<img class="image is-150x150" src="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1725988971/site/africa/pazhytnykh_catherine.jpg" srcset="https://res.cloudinary.com/bartoshevich/image/upload/w_300,h_300/f_auto,q_auto/v1725988971/site/africa/pazhytnykh_catherine.jpg 300w, https://res.cloudinary.com/bartoshevich/image/upload/w_600,h_600/f_auto,q_auto/v1725988971/site/africa/pazhytnykh_catherine.jpg 600w, https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1725988971/site/africa/pazhytnykh_catherine.jpg 1000w"  sizes="(max-width: 600px) 300px, (max-width: 900px) 600px, 1000px"  alt="Екатерина Пажитных" width="1000" height="1000" itemprop="contentUrl">	
 					<div class="guest-person__name" itemprop="name">Екатерина Пажитных</div>
@@ -110,7 +110,7 @@ keywords: "маркетинг в Африке, работа в Сенегале,
 <p>Я&nbsp;осознавала, что работа на&nbsp;развивающемся африканском рынке позволит экспериментировать с&nbsp;маркетинговыми инструментами, выйти из&nbsp;зоны привычного и&nbsp;понятного, вырасти профессионально. Однако в&nbsp;тот момент решающим фактором для меня была возможность практиковать французский и&nbsp;находиться во&nbsp;франкоязычной среде.</p>
 
 <div class="with-side row-gap--m">
-<figure class="figure" itemprop="image" itemscope itemtype="http://schema.org/ImageObject">
+<figure class="figure" itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
   <link itemprop="url" href="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1726024795/site/africa/baobab.jpg">
   <img class="image" loading="lazy" decoding="async" 
        sizes="(max-width: 1400px) 100vw, 50vw"
@@ -140,7 +140,7 @@ keywords: "маркетинг в Африке, работа в Сенегале,
 <p>Скудность информации только подогревала интерес. Возможность познакомиться с&nbsp;необычной культурой&nbsp;— одновременно африканской, мусульманской и&nbsp;франкофонной&nbsp;— привлекала. Я&nbsp;отозвалась на&nbsp;вакансию, прошла все этапы собеседований и&nbsp;приняла предложение компании. </p>
 
 
-<figure class="figure" itemprop="image" itemscope itemtype="http://schema.org/ImageObject">
+<figure class="figure" itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
   <link itemprop="url" href="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1726024794/site/africa/fruit_seller.jpg">
   <img class="image" loading="lazy" decoding="async" 
        sizes="(max-width: 1400px) 100vw, 50vw"
@@ -179,7 +179,7 @@ keywords: "маркетинг в Африке, работа в Сенегале,
 
 <p>Недалеко от&nbsp;дома была рыночная площадь. И&nbsp;я&nbsp;туда пошла. Вечером, когда там много людей. Мне было жутко страшно и&nbsp;неприятно. Я&nbsp;обхватила руками сумку и&nbsp;пошла. Меня воспринимали как туристку, что-то предлагали, что-то от&nbsp;меня хотели. И&nbsp;я&nbsp;всем отвечала: «Спасибо, мне не&nbsp;нужно», «Я&nbsp;здесь живу», «Я&nbsp;здесь работаю». Постепенно я&nbsp;начала привыкать к&nbsp;вниманию и&nbsp;учиться его игнорировать. Видимо, это как-то отражалось на&nbsp;языке тела и&nbsp;выражении лица, и&nbsp;мне стало гораздо легче проходить сквозь попрошаек и&nbsp;общаться с&nbsp;местными. </p>
 
-<figure class="figure" itemprop="image" itemscope itemtype="http://schema.org/ImageObject">
+<figure class="figure" itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
   <link itemprop="url" href="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1726024793/site/africa/fisherman_pies.jpg">
   <img class="image" loading="lazy" decoding="async" 
        sizes="(max-width: 1400px) 100vw, 50vw"
@@ -206,7 +206,7 @@ keywords: "маркетинг в Африке, работа в Сенегале,
 <p>Вот так осторожно и&nbsp;медленно я&nbsp;находила свой способ жить в&nbsp;новой среде, принимая и&nbsp;адаптируясь к&nbsp;ее&nbsp;особенностям. Постепенно страх ушел. И&nbsp;его место заняло любопытство. Я&nbsp;ощущала себя антропологом: «Я&nbsp;наблюдаю. Я&nbsp;исследую. И&nbsp;подмечаю интересные вещи». </p>
 
 
-<figure class="figure" itemprop="image" itemscope itemtype="http://schema.org/ImageObject">
+<figure class="figure" itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
   <link itemprop="url" href="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1726024795/site/africa/wood_mask_outlet.jpg">
   <img class="image" loading="lazy" decoding="async" 
        sizes="(max-width: 1400px) 100vw, 50vw"
@@ -238,7 +238,7 @@ keywords: "маркетинг в Африке, работа в Сенегале,
 <p>—&nbsp;Коллективная жизнь и&nbsp;общинные ценности в&nbsp;Сенегале на&nbsp;первом месте, поэтому представления о&nbsp;личном пространстве сильно отличаются от&nbsp;европейских. Например, перед молитвой люди могут совершать омовение, не&nbsp;стесняясь окружающих, а&nbsp;двери в&nbsp;туалет могут оставить открытыми. На&nbsp;работе сотрудник может подойти для разговора так близко, что приходится просить его отойти. За&nbsp;обедом коллега может попробовать еду прямо из&nbsp;вашей тарелки и&nbsp;удивиться, если вы&nbsp;резко на&nbsp;это отреагируете.</p>
 
 
-<figure class="figure" itemprop="image" itemscope itemtype="http://schema.org/ImageObject">
+<figure class="figure" itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
   <link itemprop="url" href="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1726050858/site/africa/ceremonial_dress.jpg">
   <img class="image" loading="lazy" decoding="async" 
        sizes="(max-width: 1400px) 100vw, 50vw"
@@ -259,7 +259,7 @@ keywords: "маркетинг в Африке, работа в Сенегале,
 </figure>
 
 
-<figure class="figure" itemprop="image" itemscope itemtype="http://schema.org/ImageObject">
+<figure class="figure" itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
   <link itemprop="url" href="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1726047145/site/africa/senegalese_woman.jpg">
   <img class="image" loading="lazy" decoding="async" 
        sizes="(max-width: 1400px) 100vw, 50vw"
@@ -300,7 +300,7 @@ keywords: "маркетинг в Африке, работа в Сенегале,
 <p>Кроме того, я&nbsp;чувствовала социальную значимость работы. В&nbsp;Сенегале огромная проблема с&nbsp;чистой питьевой водой. Вода, которая течет из&nbsp;кранов, очень плохого качества. Её&nbsp;нельзя использовать для питья или готовки&nbsp;— максимум, она подходит для стирки и&nbsp;купания. Моя компания делала чистую питьевую воду доступной для многих людей, и&nbsp;мы&nbsp;получали много слов благодарности и&nbsp;поддержки.</p>
 <p>Компания создавала рабочие места для местных, что очень важно в&nbsp;регионе, где найти работу сложно. Это тоже придавало моей работе особый смысл и&nbsp;удовлетворение.</p>
 
-<figure class="figure" itemprop="image" itemscope itemtype="http://schema.org/ImageObject">
+<figure class="figure" itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
   <link itemprop="url" href="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1726046588/site/africa/embroidery.jpg">
   <img class="image" loading="lazy" decoding="async" 
        sizes="(max-width: 1400px) 100vw, 50vw"
@@ -364,7 +364,7 @@ keywords: "маркетинг в Африке, работа в Сенегале,
 <p>—&nbsp;В&nbsp;Беларуси тоже есть водоматы. В&nbsp;99,9% случаев, если аппарат предназначен для того, чтобы набрать воды, беларусы придут с&nbsp;бутылкой, наберут воду и&nbsp;уйдут. В&nbsp;Сенегале&nbsp;же водоматы используют для чистки зубов, умывания, мытья ног, поения животных и&nbsp;иногда для забора воды, чтобы отнести домой.</p>
 
 
-<figure class="figure" itemprop="image" itemscope itemtype="http://schema.org/ImageObject">
+<figure class="figure" itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
   <link itemprop="url" href="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1726024793/site/africa/vodomat.jpg">
   <img class="image" loading="lazy" decoding="async" 
        sizes="(max-width: 1400px) 100vw, 50vw"
@@ -386,7 +386,7 @@ keywords: "маркетинг в Африке, работа в Сенегале,
 </figure>
 
 
-<figure class="figure" itemprop="image" itemscope itemtype="http://schema.org/ImageObject">
+<figure class="figure" itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
   <link itemprop="url" href="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1726049807/site/africa/horse-drawn_carriage.jpg">
   <img class="image" loading="lazy" decoding="async" 
        sizes="(max-width: 1400px) 100vw, 70vw"
@@ -439,7 +439,7 @@ keywords: "маркетинг в Африке, работа в Сенегале,
 
 <p>Аппараты требуют регулярного обслуживания из-за быстрого износа внутренних деталей, в&nbsp;частности фильтров. Суровые условия эксплуатации&nbsp;— ветер приносит песок с&nbsp;пустыни и&nbsp;соленую влагу с&nbsp;океана&nbsp;— оказывают дополнительное негативное влияние на&nbsp;работу техники. Временами аппараты могли давать сбои: например, «заглатывать» монеты, не&nbsp;выдавая воду. Реакция сенегальцев была мгновенной. Человек мог начать кричать на&nbsp;всю улицу, что его ограбили. Или начать бить водомат. Хотя во&nbsp;многих случаях достаточно было нажать кнопку возврата монеты.</p>
 
-<figure class="figure" itemprop="image" itemscope itemtype="http://schema.org/ImageObject">
+<figure class="figure" itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
   <link itemprop="url" href="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1726045962/site/africa/damage.jpg">
   <img class="image" loading="lazy" decoding="async" 
        sizes="(max-width: 1400px) 100vw, 50vw"
@@ -470,7 +470,7 @@ keywords: "маркетинг в Африке, работа в Сенегале,
 <p>Сенегальцы верят рекомендациям знакомых и&nbsp;доверяют личным встречам, поэтому основной канал для привлечения клиентов&nbsp;— это личные встречи и&nbsp;сарафанное радио, когда информация распространяется через личные связи и&nbsp;разговоры. </p>
 
 
-<figure class="figure" itemprop="image" itemscope itemtype="http://schema.org/ImageObject">
+<figure class="figure" itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
   <link itemprop="url" href="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1726050143/site/africa/rades.jpg">
   <img class="image" loading="lazy" decoding="async" 
        sizes="(max-width: 1400px) 100vw, 50vw"
@@ -514,7 +514,7 @@ keywords: "маркетинг в Африке, работа в Сенегале,
 <p>—&nbsp;В&nbsp;первый рабочий день я&nbsp;пришла в&nbsp;офис, как было условлено, не&nbsp;к&nbsp;началу рабочего дня, а&nbsp;на&nbsp;пару часов позже, чтобы отдохнуть после перелета. Каково&nbsp;же было мое удивление, когда в&nbsp;полдень в&nbsp;офисе были только я&nbsp;и&nbsp;директор. Позже я&nbsp;поняла, что у&nbsp;сенегальцев особое понимание дисциплины и&nbsp;пунктуальности, с&nbsp;чем мне предстояло научиться работать.</p>
 
 
-<figure class="figure" itemprop="image" itemscope itemtype="http://schema.org/ImageObject">
+<figure class="figure" itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
   <link itemprop="url" href="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1726050432/site/africa/field_team_meeting.jpg">
   <img class="image" loading="lazy" decoding="async" 
        sizes="(max-width: 1400px) 100vw, 50vw"
@@ -537,7 +537,7 @@ keywords: "маркетинг в Африке, работа в Сенегале,
 </figure>
 
 
-<figure class="figure" itemprop="image" itemscope itemtype="http://schema.org/ImageObject">
+<figure class="figure" itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
   <link itemprop="url" href="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1726048587/site/africa/promotional_team.jpg">
   <img class="image" loading="lazy" decoding="async" 
        sizes="(max-width: 1400px) 100vw, 50vw"
@@ -569,7 +569,7 @@ keywords: "маркетинг в Африке, работа в Сенегале,
 <p>Фраза «Ин&nbsp;ша&nbsp;Алла» звучала каждый раз, когда я&nbsp;пыталась уточнить сроки&nbsp;— будь то&nbsp;готовность заказа в&nbsp;типографии, получение банковской карты, присутствие сотрудников на&nbsp;собрании или предоставление информации от&nbsp;смежного отдела.</p>
 <p>Сначала я&nbsp;пыталась управлять директивно, требуя от&nbsp;сотрудников выполнения задач, что привело к&nbsp;саботажу и&nbsp;открытым конфликтам. Я&nbsp;быстро поняла, что нужен другой подход. Сенегальцы любят вести переговоры (négocier), поэтому я&nbsp;изменила стиль управления. При постановке задач мы&nbsp;начали обсуждать их&nbsp;вместе: я&nbsp;объясняла цели, а&nbsp;сотрудники выбирали способ выполнения. Я&nbsp;также выслушивала возможные причины задержек (хотя они часто были надуманными) и&nbsp;применяла техники работы с&nbsp;возражениями из&nbsp;сферы продаж. Это занимало много времени, но&nbsp;оказалось эффективным.</p>
 
-<figure class="figure" itemprop="image" itemscope itemtype="http://schema.org/ImageObject">
+<figure class="figure" itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
   <link itemprop="url" href="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1726049061/site/africa/coworkers.jpg">
   <img class="image" loading="lazy" decoding="async" 
        sizes="(max-width: 1400px) 100vw, 50vw"
@@ -615,7 +615,7 @@ keywords: "маркетинг в Африке, работа в Сенегале,
 <p>Быть в&nbsp;текущем моменте, осознавать свое состояние и&nbsp;потребности, жить в&nbsp;своем темпе помогает лучше адаптироваться к&nbsp;новому окружению и&nbsp;быть продуктивной на&nbsp;работе.</p>
 
 
-<figure class="figure" itemprop="image" itemscope itemtype="http://schema.org/ImageObject">
+<figure class="figure" itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
   <link itemprop="url" href="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1726049528/site/africa/sunset.jpg">
   <img class="image" loading="lazy" decoding="async" 
        sizes="(max-width: 1400px) 100vw, 50vw"
@@ -648,7 +648,7 @@ keywords: "маркетинг в Африке, работа в Сенегале,
 <p>—&nbsp;Если у&nbsp;вас есть желание поехать в&nbsp;другую страну для работы, я&nbsp;полностью его поддерживаю. Я&nbsp;за&nbsp;то, чтобы следовать своим желаниям. Однако важно помнить, что вы&nbsp;у&nbsp;себя единственный(-ая). Отправляйтесь с&nbsp;осторожностью, любопытством и&nbsp;вниманием к&nbsp;собственным чувствам.</p>
 
 
-<figure class="figure" itemprop="image" itemscope itemtype="http://schema.org/ImageObject">
+<figure class="figure" itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
   <link itemprop="url" href="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1726024792/site/africa/night_dakar.jpg">
   <img class="image" loading="lazy" decoding="async" 
        sizes="(max-width: 1400px) 100vw, 50vw"

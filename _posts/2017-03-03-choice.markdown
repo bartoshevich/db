@@ -41,7 +41,7 @@ image: /assets/images/tizers/tizer-38.jpg
 <p>Не&nbsp;меньшая странность&nbsp;— презентовать клиенту каждую идею, которая только появилась в&nbsp;голове по&nbsp;поводу его проекта. Клиенту не&nbsp;нужны все ваши идеи, ему нужно решение проблемы. </p>
 <p>Выберите одну концепцию и&nbsp;готовьтесь к&nbsp;презентации. Если не&nbsp;можете остановиться на&nbsp;одном варианте&nbsp;— значит все варианты слабые либо вы&nbsp;плохо понимаете задачу клиента. </p>
 
-<div itemprop="image" itemscope itemtype="http://schema.org/ImageObject">	
+<div itemprop="image" itemscope itemtype="https://schema.org/ImageObject">	
 		<link itemprop="url" href="/assets/images/blog/choice/choice.jpg">
 <picture>
                <source srcset="/assets/images/blog/choice/choice.avif" type="image/avif">

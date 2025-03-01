@@ -24,7 +24,7 @@ keywords: "ChatGPT, маркетинг, бренд, рекламная камп�
 
 <p>Вы&nbsp;догадались, что текст выше написал робот? А&nbsp;это действительно так. Я&nbsp;попросил нейросеть написать статью для маркетологов о&nbsp;нем&nbsp;же. В&nbsp;ответ получил название, структуру статьи, введение. Задавал уточняющие вопросы и&nbsp;в&nbsp;диалоге родился дальнейший текст. Будет интересно. </p>
 
-<div class="figure" itemprop="image" itemscope itemtype="http://schema.org/ImageObject">	
+<div class="figure" itemprop="image" itemscope itemtype="https://schema.org/ImageObject">	
 		<link itemprop="url" href="https://res.cloudinary.com/bartoshevich/image/upload/v1699451453/site/openAI/Marketing_revolution_with_ChatGPT.jpg">			
 		<img class="image" loading="lazy" decoding="async" 
 			sizes="100vw" 

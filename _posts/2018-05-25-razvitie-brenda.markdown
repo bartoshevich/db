@@ -29,7 +29,7 @@ keywords: "маркетинг без вирусов"
 Компания «Славная»&nbsp;— производитель питьевой воды. Сайт компании подчеркивает натуральность и&nbsp;безопасность ее&nbsp;состава, доступность для всех слоев населения, поддержку компанией спорта. На&nbsp;странице компании в&nbsp;соц. сети маркетологи размещают вот такие фото. </p>
 
 
-<div itemprop="image" itemscope itemtype="http://schema.org/ImageObject">	
+<div itemprop="image" itemscope itemtype="https://schema.org/ImageObject">	
 	<link itemprop="url" href="https://res.cloudinary.com/bartoshevich/image/upload/f_auto/v1615127540/site/slavby-720.jpg">
 	<img class="image" loading="lazy" decoding="async" src="https://res.cloudinary.com/bartoshevich/image/upload/f_auto/v1615127540/site/slavby-720.jpg" width="720" height="469" alt="девушка стоит на коленях, на ее лицо льют воду из бутылки" itemprop="contentUrl"/>
 	<div class="figcaption" itemprop="description">
@@ -59,7 +59,7 @@ keywords: "маркетинг без вирусов"
 <p>На&nbsp;рисунках ниже визуализации результатов исследования компании <a class="link" href="https://www.pulsarplatform.com/">Pulsar</a>, которая изучала характер распространения вирусов в&nbsp;социальных медиа. Каждая голубая точка&nbsp;— это твит с&nbsp;вирусным сообщением. Желтая&nbsp;— ретвит. Размер точки&nbsp;— примерный охват твита. «Агентов влияния» можно увидеть воочию. </p>
 
 <div class="row">
-	<div class="c-5" itemprop="image" itemscope itemtype="http://schema.org/ImageObject">
+	<div class="c-5" itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
 			<link itemprop="url" href="/assets/images/blog/razvitie-brenda/pulsar1.jpg">
 			<picture>
 				<source  srcset="/assets/images/blog/razvitie-brenda/pulsar1.avif" 		type="image/avif">	
@@ -67,7 +67,7 @@ keywords: "маркетинг без вирусов"
 				<img class="image" loading="lazy" decoding="async" src="/assets/images/blog/razvitie-brenda/pulsar1.jpg" width="356" height="393" alt="распространение вирусов в социальных сетях" itemprop="contentUrl"/>
 			</picture>
 	</div>
-	<div class="c-5" itemprop="image" itemscope itemtype="http://schema.org/ImageObject">
+	<div class="c-5" itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
 			<link itemprop="url" href="/assets/images/blog/razvitie-brenda/pulsar2.jpg">
 			<picture>	
 					<source  srcset="/assets/images/blog/razvitie-brenda/pulsar2.avif" 		type="image/avif">	

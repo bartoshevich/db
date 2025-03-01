@@ -66,7 +66,7 @@ keywords: "креативные рекламные кампании, рекла�
 
 </div>
 <div class="grid-columns__last-one-half">
-    <div class="figure" itemscope itemtype="http://schema.org/ImageObject">
+    <div class="figure" itemscope itemtype="https://schema.org/ImageObject">
 		<link itemprop="url" href="/assets/images/uslugi/promo/tin2.jpg">
         <div class="figcaption">реакция Тинькова  </div>
         <picture> <source srcset="/assets/images/uslugi/promo/tin2-400.webp 1x, /assets/images/uslugi/promo/tin2-800.webp 2x" type="image/webp"> <img loading="lazy" class="image" src="/assets/images/uslugi/promo/tin2.jpg" alt="скриншот публикации Тинькова в твиттере" srcset="/assets/images/uslugi/promo/tin2-800.jpg 2x" width="400" height="483" itemprop="contentUrl">
@@ -117,7 +117,7 @@ keywords: "креативные рекламные кампании, рекла�
 <p>Рекламный аудио ролик для белорусского офиса Hörmann: диалог между отцом и&nbsp;сыном подчеркивает опыт Hörmann в&nbsp;производстве гаражных ворот.
 </p>
 
- <div class="figure" itemscope itemtype="http://schema.org/AudioObject">
+ <div class="figure" itemscope itemtype="https://schema.org/AudioObject">
    <audio  controls>
      <source  src="https://bartoshevich.by/assets/media/project/hormann_100.mp3" type="audio/mpeg"  itemprop="contentUrl">		
                                                        Аудиопроигрователь не поддерживается вашим браузером :-( 
@@ -150,7 +150,7 @@ keywords: "креативные рекламные кампании, рекла�
 <p>Рекламный аудио ролик для белорусского офиса H&ouml;rmann. Диалог персонажей акцентирует внимание на&nbsp;глобальной узнаваемости и&nbsp;распространенности бренда. 
 </p>
 
- <div class="figure" itemscope itemtype="http://schema.org/AudioObject">
+ <div class="figure" itemscope itemtype="https://schema.org/AudioObject">
    <audio controls>
         <source  src="https://bartoshevich.by/assets/media/project/garage_doors_translation.mp3" type="audio/mpeg" itemprop="contentUrl">		
                                Аудиопроигрователь не поддерживается вашим браузером :-( 

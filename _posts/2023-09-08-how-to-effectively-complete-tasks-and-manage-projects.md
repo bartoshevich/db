@@ -73,7 +73,7 @@ keywords: "управление проектами, выполнение зад�
 <h2 class="section__title h1 bold ">Контрольные точки: путь к&nbsp;эффективному управлению проектами</h2>
 <p>Если вы&nbsp;хотите эффективно управлять проектом, разбейте его на&nbsp;этапы и&nbsp;представляйте промежуточные результаты заказчику. Контрольные точки не&nbsp;только помогут выявить проблемы раньше, но&nbsp;и&nbsp;сэкономят ваше время и&nbsp;деньги.</p>
 
-<figure class="figure" itemprop="image" itemscope itemtype="http://schema.org/ImageObject">	
+<figure class="figure" itemprop="image" itemscope itemtype="https://schema.org/ImageObject">	
 		<link itemprop="url" href="https://res.cloudinary.com/bartoshevich/image/upload/v1694156359/site/tasks.jpg">			
 		<img class="image" loading="lazy" decoding="async" 
 			sizes="100vw" 
