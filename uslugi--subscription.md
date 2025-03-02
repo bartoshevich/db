@@ -35,17 +35,17 @@ keywords: "аутсорсинг маркетинга, индивидуально
     <h2 class="bold h1">Что включает обслуживание</h2>
 
 <section>	
- <h3 class="bold"><img class="icon--check" src="/assets/images/check.svg" alt="" >Личное сопровождение рекламных кампаний</h3>
+ <h3 class="bold"><img class="icon--check" src="/assets/images/check.svg" alt="" role="presentation" aria-hidden="true">Личное сопровождение рекламных кампаний</h3>
  <p>Я контролирую и управляю каждым этапом рекламной кампании, чтобы достичь максимального эффекта. Я&nbsp;забочусь о том, чтобы интересы бренда были защищены, а деньги компании использовались эффективно.</p>
  </section>
 
  <section>	
- <h3 class="bold"><img class="icon--check" src="/assets/images/check.svg" alt="" >Работа с&nbsp;подрядчиками</h3>
+ <h3 class="bold"><img class="icon--check" src="/assets/images/check.svg" alt="" role="presentation" aria-hidden="true">Работа с&nbsp;подрядчиками</h3>
  <p> Задача подрядчиков&nbsp;— сделать работу и&nbsp;быстрее перейти к&nbsp;следующему клиенту/проекту. Моя задача&nbsp;— реализовать идею так, как было задумано. Я&nbsp;помогу оценить коммерческие предложения, подготовлю технические задания и&nbsp;добьюсь правильного исполнения. </p>
  </section>
 
   <section>	
- <h3 class="bold"><img class="icon--check" src="/assets/images/check.svg" alt="" >Консультации</h3>
+ <h3 class="bold"><img class="icon--check" src="/assets/images/check.svg" alt="" role="presentation" aria-hidden="true">Консультации</h3>
  <p> Устные и&nbsp;письменные консультации по&nbsp;вопросам продвижения бренда и&nbsp;развития маркетинга в&nbsp;компании. Я&nbsp;буду на&nbsp;связи и&nbsp;вы&nbsp;всегда сможете рассчитывать на&nbsp;мою поддержку.</p>
  </section>
 
