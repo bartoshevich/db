@@ -6,182 +6,169 @@ layout: null
 
 (function() {
 
-  // A cache for core files like CSS and JavaScript
-  var staticCacheName = 'static';
-  // A cache for pages to store for offline
-  var pagesCacheName = 'pages';
-  // A cache for images to store for offline
-  var imagesCacheName = 'images';
-  // Update 'version' if you need to refresh the caches
-  var version = 'v129::';
+    const version = 'v131::';
+    const staticCacheName = 'static';
+    const pagesCacheName = 'pages';
+    const imagesCacheName = 'images';
+
+
 
   // Store core files in a cache (including a page to display when offline)
-  var updateStaticCache = function() {
-      return caches.open(version + staticCacheName)
-          .then(function (cache) {
-              return cache.addAll([
-                '/',
-                '/cases/',
-                '/blog/',
-                '/faq/',
-                '/contact/',
-                '/uslugi/',
-                '/uslugi/marketing-audit/',
-                '/uslugi/brand-conception/',
-                '/uslugi/razrabotka-reklamnyh-kampanij/',
-                '/uslugi/autsorsing-marketinga/',
-                '/about/',
-                '/offline/',
-                '/blog/brand-giperlink/',
-                '/blog/seth-godin/',
-                '/blog/stars/',
-                '/blog/brand-conception-hormann/',
-                '/blog/brand-strategy-flex-n-roll/',
-                '/assets/css/style.css',
-                '/assets/css/style-home.css',
-                '/assets/fonts/pt-sans-v12-latin_cyrillic/pt-sans-v12-latin_cyrillic-regular.woff2',
-                '/assets/fonts/pt-sans-v12-latin_cyrillic/pt-sans-v12-latin_cyrillic-700.woff2',
-                '/assets/fonts/pt-sans-v12-latin_cyrillic/pt-sans-v12-latin_cyrillic-italic.woff2',
-                '/assets/images/logo/bartoshevich@1x.avif',
-                '/assets/images/logo/bartoshevich@2x.avif',
-                '/assets/images/logo/bartoshevich@1x.webp',
-                '/assets/images/logo/bartoshevich@2x.webp'
-              ]);
-          });
-  };
+  async function updateStaticCache() {
+    const cache = await caches.open(version + staticCacheName);
+    await cache.addAll([
+      '/',
+      '/cases/',
+      '/blog/',
+      '/faq/',
+      '/contact/',
+      '/uslugi/',
+      '/uslugi/marketing-audit/',
+      '/uslugi/brand-conception/',
+      '/uslugi/razrabotka-reklamnyh-kampanij/',
+      '/uslugi/autsorsing-marketinga/',
+      '/about/',
+      '/offline/',
+      '/blog/brand-giperlink/',
+      '/blog/seth-godin/',
+      '/blog/stars/',
+      '/blog/brand-conception-hormann/',
+      '/blog/brand-strategy-flex-n-roll/',
+      '/assets/css/style.css',
+      '/assets/css/style-home.css',
+      '/assets/fonts/pt-sans-v12-latin_cyrillic/pt-sans-v12-latin_cyrillic-regular.woff2',
+      '/assets/fonts/pt-sans-v12-latin_cyrillic/pt-sans-v12-latin_cyrillic-700.woff2',
+      '/assets/fonts/pt-sans-v12-latin_cyrillic/pt-sans-v12-latin_cyrillic-italic.woff2',
+      '/assets/images/logo/bartoshevich@1x.avif',
+      '/assets/images/logo/bartoshevich@2x.avif',
+      '/assets/images/logo/bartoshevich@1x.webp',
+      '/assets/images/logo/bartoshevich@2x.webp'
+    ]);
+  }
+
 
   // Put an item in a specified cache
-  var stashInCache = function (cacheName, request, response) {
-      caches.open(cacheName)
-          .then(function (cache) {
-              cache.put(request, response);
-          });
-  };
+  async function stashInCache(cacheName, request, response) {
+    const cache = await caches.open(cacheName);
+    await cache.put(request, response);
+  }
 
   // Limit the number of items in a specified cache.
-  var trimCache = function (cacheName, maxItems) {
-      caches.open(cacheName)
-          .then(function (cache) {
-              cache.keys()
-                  .then(function (keys) {
-                      if (keys.length > maxItems) {
-                          cache.delete(keys[0])
-                              .then(trimCache(cacheName, maxItems));
-                      }
-                  });
-          });
-  };
+  async function trimCache(cacheName, maxItems) {
+    const cache = await caches.open(cacheName);
+    const keys = await cache.keys();
+    if (keys.length > maxItems) {
+      await cache.delete(keys[0]);
+      return trimCache(cacheName, maxItems); 
+    }
+  }
 
   // Remove caches whose name is no longer valid
-  var clearOldCaches = function() {
-      return caches.keys()
-          .then(function (keys) {
-              return Promise.all(keys
-                  .filter(function (key) {
-                    return key.indexOf(version) !== 0;
-                  })
-                  .map(function (key) {
-                    return caches.delete(key);
-                  })
-              );
-          })
-  };
+  async function clearOldCaches() {
+    const keys = await caches.keys();
+    const oldKeys = keys.filter(key => !key.startsWith(version));
+    return Promise.all(oldKeys.map(key => caches.delete(key)));
+  }
 
-  self.addEventListener('install', function (event) {
-      event.waitUntil(updateStaticCache()
-          .then(function () {
-              return self.skipWaiting();
-          })
-      );
+ 
+  self.addEventListener('install', event => {
+    event.waitUntil(
+      (async () => {
+        try {
+          await updateStaticCache();
+          await self.skipWaiting();
+        } catch (err) {
+          console.error('[ServiceWorker] Install failed:', err);
+        }
+      })()
+    );
   });
 
-  self.addEventListener('activate', function (event) {
-      event.waitUntil(clearOldCaches()
-          .then(function () {
-              return self.clients.claim();
-          })
-      );
+  self.addEventListener('activate', event => {
+    event.waitUntil(
+      (async () => {
+        try {
+          await clearOldCaches();
+          await self.clients.claim();
+        } catch (err) {
+          console.error('[ServiceWorker] Activate failed:', err);
+        }
+      })()
+    );
   });
 
   // See: https://brandonrozek.com/2015/11/limiting-cache-service-workers-revisited/
-  self.addEventListener('message', function(event) {
-    if (event.data.command == 'trimCaches') {
+  self.addEventListener('message', event => {
+    if (event.data.command === 'trimCaches') {
       trimCache(version + pagesCacheName, 35);
       trimCache(version + imagesCacheName, 20);
     }
   });
 
-  self.addEventListener('fetch', function (event) {
-      var request = event.request;
-      // For non-GET requests, try the network first, fall back to the offline page
-      if (request.method !== 'GET') {
-          event.respondWith(
-              fetch(request)
-                  .catch(function () {
-                      return caches.match('/offline/');
-                  })
-          );
-          return;
-      }
-
-      // For HTML requests, try the network first, fall back to the cache, finally the offline page
-      if (request.headers.get('Accept').indexOf('text/html') !== -1) {
-          // Fix for Chrome bug: https://code.google.com/p/chromium/issues/detail?id=573937
-          if (request.mode != 'navigate') {
-              request = new Request(request.url, {
-                  method: 'GET',
-                  headers: request.headers,
-                  mode: request.mode,
-                  credentials: request.credentials,
-                  redirect: request.redirect
-              });
-          }
-          event.respondWith(
-              fetch(request)
-                  .then(function (response) {
-                      // NETWORK
-                      // Stash a copy of this page in the pages cache
-                      var copy = response.clone();
-                      var cacheName = version + pagesCacheName;
-                      stashInCache(cacheName, request, copy);
-                      return response;
-                  })
-                  .catch(function () {
-                      // CACHE or FALLBACK
-                      return caches.match(request)
-                          .then(function (response) {
-                              return response || caches.match('/offline/');
-                          })
-                  })
-          );
-          return;
-      }
-
-      // For non-HTML requests, look in the cache first, fall back to the network
+   // Обработка всех fetch-запросов
+   self.addEventListener('fetch', event => {
+    const request = event.request;
+    // Не-GET запросы: пробуем сеть, при ошибке — offline
+    if (request.method !== 'GET') {
       event.respondWith(
-          caches.match(request)
-              .then(function (response) {
-                  // CACHE
-                  return response || fetch(request)
-                      .then(function (response) {
-                          // NETWORK
-                          // If the request is for an image, stash a copy of this image in the images cache
-                          if (request.headers.get('Accept').indexOf('image') !== -1) {
-                              var copy = response.clone();
-                              var cacheName = version + imagesCacheName;
-                              stashInCache(cacheName, request, copy);
-                          }
-                          return response;
-                      })
-                      .catch(function () {
-                          // OFFLINE
-                          // If the request is for an image, show an offline placeholder
-                          if (request.headers.get('Accept').indexOf('image') !== -1) {
-                              return new Response('<svg role="img" aria-labelledby="offline-title" viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg"><title id="offline-title">Offline</title><g fill="none" fill-rule="evenodd"><path fill="#D8D8D8" d="M0 0h400v300H0z"/><text fill="#9B9B9B" font-family="Helvetica Neue,Arial,Helvetica,sans-serif" font-size="72" font-weight="bold"><tspan x="93" y="172">offline</tspan></text></g></svg>', { headers: { 'Content-Type': 'image/svg+xml' }});
-                          }
-                      });
-              })
+        fetch(request).catch(() => caches.match('/offline/'))
       );
-  });
+      return;
+    }
 
+ 
+    if (request.headers.get('Accept')?.includes('text/html')) {
+    
+      let fixedRequest = request;
+      if (request.mode !== 'navigate') {
+        fixedRequest = new Request(request.url, {
+          method: 'GET',
+          headers: request.headers,
+          mode: request.mode,
+          credentials: request.credentials,
+          redirect: request.redirect
+        });
+      }
+
+      event.respondWith(
+        (async () => {
+          try {
+            const response = await fetch(fixedRequest);
+            const copy = response.clone();
+            await stashInCache(version + pagesCacheName, fixedRequest, copy);
+            return response;
+          } catch (err) {
+            const cachedResponse = await caches.match(fixedRequest);
+            return cachedResponse || caches.match('/offline/');
+          }
+        })()
+      );
+      return;
+    }
+
+ 
+    event.respondWith(
+      (async () => {
+        const cachedResponse = await caches.match(request);
+           if (cachedResponse) return cachedResponse;
+        try {     
+          const networkResponse = await fetch(request);  
+          if (request.headers.get('Accept')?.includes('image')) {
+            const copy = networkResponse.clone();
+            await stashInCache(version + imagesCacheName, request, copy);
+          }
+          return networkResponse;
+        } catch (err) {
+   
+          if (request.headers.get('Accept')?.includes('image')) {
+            return new Response(
+              '<svg role="img" aria-labelledby="offline-title" viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg"><title id="offline-title">Offline</title><g fill="none" fill-rule="evenodd"><path fill="#D8D8D8" d="M0 0h400v300H0z"/><text fill="#9B9B9B" font-family="Helvetica Neue,Arial,Helvetica,sans-serif" font-size="72" font-weight="bold"><tspan x="93" y="172">offline</tspan></text></g></svg>',
+              { headers: { 'Content-Type': 'image/svg+xml' }}
+            );
+          }
+          return undefined; 
+        }
+      })()
+    );
+  });
 })();
