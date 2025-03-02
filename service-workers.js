@@ -6,7 +6,7 @@ layout: null
 
 (function() {
 
-    const version = 'v131::';
+    const version = 'v132::';
     const staticCacheName = 'static';
     const pagesCacheName = 'pages';
     const imagesCacheName = 'images';
