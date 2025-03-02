@@ -29,21 +29,27 @@ layout: compress
 
 
  <script nonce="p7sQJZbrgAKwZ0Ne1Sej7fnN5RbjO15U0MhOhPE0iQ0">
-  let articleLinks;
+ document.addEventListener('DOMContentLoaded', () => {
+  const randomArticleButton = document.getElementById('random-article-button');
+  
+  if (randomArticleButton) {
+    randomArticleButton.addEventListener('click', () => {
+      const articleLinks = document.querySelectorAll('.article-link');
+      
+      if (articleLinks.length === 0) {
+        console.warn('Статьи не найдены.');
+        return;
+      }
 
-  document.addEventListener('DOMContentLoaded', () => {
-    articleLinks = document.querySelectorAll('.article-link');
-  });
-
-  document.getElementById('random-article-button').addEventListener('click', () => {
-    if (articleLinks && articleLinks.length > 0) {
       const randomIndex = Math.floor(Math.random() * articleLinks.length);
       const randomArticleLink = articleLinks[randomIndex].href;
-      window.location.href = randomArticleLink;
-    } else {
-      console.warn('No articles found.');
-    }
-  });
+      
+      window.location.assign(randomArticleLink);
+    });
+  } else {
+    console.warn('Кнопка случайной статьи не найдена.');
+  }
+});
 </script>
 
 
