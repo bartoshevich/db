@@ -1,12 +1,12 @@
 ---
 layout: post
 title: "Польза корпоративов — миф"
-name: "Статья для директора, который хочет организовать корпоратив"
-description: "Корпоратив не&nbsp;создаст команду, не&nbsp;решит проблемы и&nbsp;может разрушить отношения коллег. Занимайтесь бизнесом, а&nbsp;как отдохнуть сотрудники решат самостоятельно. "
+name: "Корпоративы не&nbsp;работают: компании тратят деньги впустую"
+description: "Думаете, корпоратив улучшает атмосферу в&nbsp;команде? На&nbsp;самом деле он&nbsp;может принести больше вреда, чем пользы. Разбираемся, почему так происходит."
 date:   2016-11-26
-last_modified_at: 2022-02-04
+last_modified_at: 2024-02-04
 categories: мнение
-permalink: "/blog/direktor-xochet-korporativ/"
+permalink: "/blog/pochemu-korporativy-ne-rabotayut/"
 image: /assets/images/tizers/tizer-34.jpg
 tags: "маркетолог"
 keywords: "корпоративы"

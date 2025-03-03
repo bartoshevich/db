@@ -1,12 +1,12 @@
 ---
 layout: post
-title:  "Концепция бренда Giperlink: этапы разработки"
+title:  "Кейс: разработка бренда Giperlink"
 name: "Разработка концепции бренда интернет-агентства Giperlink"
-description: "Рассказываю, как создавал концепцию бренда интернет-агентства Giperlink. Анализ конкурентов, карты потребительского опыта и&nbsp;уникальное позиционирование. "
+description: "Кейс Giperlink: анализ конкурентов, CJM, стратегия позиционирования и&nbsp;внедрение. Что изменилось? Отзыв директора о&nbsp;результатах работы. "
 date:   2018-11-30
-last_modified_at: 2022-02-05
+last_modified_at: 2024-02-05
 categories: опыт
-permalink: "/blog/brand-giperlink/"
+permalink: "/blog/kejs-brend-giperlink/"
 tags: "кейсы"
 image: /assets/images/tizers/tizer-51a.jpg
 keywords: "разработка бренда Giperlink"

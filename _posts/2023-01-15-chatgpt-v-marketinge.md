@@ -1,12 +1,12 @@
 ---
 layout: post
-title:  "ChatGPT в маркетинге: Преобразуйте бизнес с AI"
-name: "Использование ChatGPT в&nbsp;маркетинге: умные технологии для бизнеса"
+title:  "ChatGPT в маркетинге: искусственный интеллект меняет бизнес"
+name: "ChatGPT в&nbsp;маркетинге: автоматизация, контент, реклама и&nbsp;стратегия"
 description: 'Разведка возможностей ChatGPT в&nbsp;маркетинге: создание контента, SEO и&nbsp;креативные кампании. ChatGPT заменит маркетологов?'
 date:   2023-01-15
-last_modified_at: 2023-11-05
+last_modified_at: 2024-11-05
 categories: мнение
-permalink: "/blog/chatgpt-mozhet-preobrazit-brend-i-reklamnye-kampanii/"
+permalink: "/blog/chatgpt-v-marketinge/"
 tags: "маркетолог управление инструменты"
 image: /assets/images/tizers/tizer-77.jpg
 keywords: "ChatGPT, маркетинг, бренд, рекламная кампания, искусственный интеллект, анализ данных, персонализация сообщений, автоматизация, практические примеры"

@@ -16,8 +16,8 @@
       </item>
     
       <item>
-        <title>Преодоление темных паттернов развивает бизнес</title>
-        <description>Узнайте, как отказ от&amp;nbsp;темных паттернов повышает доверие клиентов и&amp;nbsp;устойчивость бизнеса. Применяйте этичные стратегии для долгосрочных отношений с&amp;nbsp;клиентами.</description>
+        <title>Темные паттерны: как манипуляции разрушают доверие к брендам</title>
+        <description>Темные паттерны&amp;nbsp;&amp;mdash; скрытые подписки, ложная срочность, сложности с&amp;nbsp;отказом и&amp;nbsp;прочие манипуляции&amp;nbsp;&amp;mdash; разрушают доверие и&amp;nbsp;отталкивают клиентов. Как брендам работать честно и&amp;nbsp;зарабатывать больше?</description>
         <pubDate>Mon, 04 Mar 2024 00:00:00 +0500</pubDate>
         <link>http://localhost:4000/blog/ethical-marketing-dark-patterns/</link>
         <guid isPermaLink="true">http://localhost:4000/blog/ethical-marketing-dark-patterns/</guid>
@@ -40,8 +40,8 @@
       </item>
     
       <item>
-        <title>Избегайте ошибок: управление проектами и задачами</title>
-        <description>Делюсь опытом и&amp;nbsp;советами по&amp;nbsp;выполнению задач и&amp;nbsp;управлению проектами, чтобы вы&amp;nbsp;избежали распространенных ошибок и&amp;nbsp;улучшили процессы в&amp;nbsp;вашей организации.</description>
+        <title>Почему задачи не выполняются: разбор ошибок</title>
+        <description>Задачи формально закрыты, но&amp;nbsp;результата нет? Разбираю, почему так происходит, какие ошибки в&amp;nbsp;работе мешают эффективности и&amp;nbsp;как наладить процессы. </description>
         <pubDate>Fri, 08 Sep 2023 00:00:00 +0600</pubDate>
         <link>http://localhost:4000/blog/how-to-effectively-complete-tasks-and-manage-projects/</link>
         <guid isPermaLink="true">http://localhost:4000/blog/how-to-effectively-complete-tasks-and-manage-projects/</guid>
@@ -64,11 +64,11 @@
       </item>
     
       <item>
-        <title>ChatGPT в маркетинге: Преобразуйте бизнес с AI</title>
+        <title>ChatGPT в маркетинге: искусственный интеллект меняет бизнес</title>
         <description>Разведка возможностей ChatGPT в&amp;nbsp;маркетинге: создание контента, SEO и&amp;nbsp;креативные кампании. ChatGPT заменит маркетологов?</description>
         <pubDate>Sun, 15 Jan 2023 00:00:00 +0600</pubDate>
-        <link>http://localhost:4000/blog/chatgpt-mozhet-preobrazit-brend-i-reklamnye-kampanii/</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/chatgpt-mozhet-preobrazit-brend-i-reklamnye-kampanii/</guid>
+        <link>http://localhost:4000/blog/chatgpt-v-marketinge/</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/chatgpt-v-marketinge/</guid>
       </item>
     
       <item>
@@ -89,7 +89,7 @@
     
       <item>
         <title>Accessibility сайтов и приложений — новые стандарты и практики</title>
-        <description>Рассказываю о&amp;nbsp;важности доступности сайтов для маркетологов. Узнайте о&amp;nbsp;преимуществах и&amp;nbsp;базовых принципах создания доступных сайтов и&amp;nbsp;приложений. </description>
+        <description>Доступность сайтов&amp;nbsp;&amp;mdash; новый стандарт в&amp;nbsp;маркетинге. Узнайте, как создать удобный сайт, улучшить&amp;nbsp;UX и&amp;nbsp;расширить аудиторию. Практические рекомендации!</description>
         <pubDate>Tue, 01 Feb 2022 00:00:00 +0600</pubDate>
         <link>http://localhost:4000/blog/accessibility/</link>
         <guid isPermaLink="true">http://localhost:4000/blog/accessibility/</guid>
@@ -152,19 +152,19 @@
       </item>
     
       <item>
-        <title>Разрабатываю концепцию бренда для Hörmann</title>
-        <description>Разработал концепцию бренда для белорусского офиса Hörmann: рассказываю об&amp;nbsp;этапах работы и&amp;nbsp;результатах.</description>
+        <title>Разработка концепции бренда Hörmann: подход и результаты</title>
+        <description>Кейс H&amp;ouml;rmann: мой подход к&amp;nbsp;созданию бренда. Глубокий анализ, четкая стратегия и&amp;nbsp;внедрение, которое повысило ценность компании в&amp;nbsp;глазах клиентов.</description>
         <pubDate>Thu, 16 Jul 2020 00:00:00 +0600</pubDate>
-        <link>http://localhost:4000/blog/brand-conception-hormann/</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/brand-conception-hormann/</guid>
+        <link>http://localhost:4000/blog/razrabotka-koncepcii-brenda-hormann/</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/razrabotka-koncepcii-brenda-hormann/</guid>
       </item>
     
       <item>
         <title>Эмоциональный маркетинг: создаем связь с клиентами</title>
-        <description>Рассказываю, как правильное использование эмоций маркетологами может повысить лояльность и&amp;nbsp;узнаваемость бренда.</description>
+        <description>Эмоции влияют на&amp;nbsp;выбор сильнее логики. Узнайте, как бренды создают эмоциональную связь, вызывают доверие и&amp;nbsp;делают маркетинг более эффективным.</description>
         <pubDate>Mon, 01 Jun 2020 00:00:00 +0600</pubDate>
-        <link>http://localhost:4000/blog/emotions-in-marketing/</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/emotions-in-marketing/</guid>
+        <link>http://localhost:4000/blog/kak-brendy-sozdajut-emotsionalnuyu-svyaz/</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/kak-brendy-sozdajut-emotsionalnuyu-svyaz/</guid>
       </item>
     
       <item>
@@ -185,18 +185,18 @@
     
       <item>
         <title>Почему я отказался от брифов в пользу личных встреч</title>
-        <description>Высланный бриф&amp;nbsp;— способ сказать клиенту «не&amp;nbsp;до&amp;nbsp;тебя сейчас». Когда сотрудники ленятся, когда агентство не&amp;nbsp;справляется с&amp;nbsp;текущими задачами&amp;nbsp;— вам пришлют бриф.</description>
+        <description>Брифы&amp;nbsp;&amp;mdash; формальность, которая мешает работе. Почему я&amp;nbsp;отказался от&amp;nbsp;шаблонных опросников и&amp;nbsp;выбрал личные встречи для понимания задач клиента?</description>
         <pubDate>Mon, 20 Jan 2020 00:00:00 +0600</pubDate>
-        <link>http://localhost:4000/blog/brief/</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/brief/</guid>
+        <link>http://localhost:4000/blog/otkaz-ot-brifov/</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/otkaz-ot-brifov/</guid>
       </item>
     
       <item>
         <title>Анализ продаж по методике Nielsen: опыт FMCG-рынка</title>
         <description>Делюсь алгоритмом анализа продаж, разработанный на&amp;nbsp;основе опыта работы в&amp;nbsp;Nielsen. Идеально подходит для FMCG, можно использовать и&amp;nbsp;в&amp;nbsp;других отраслях.</description>
         <pubDate>Thu, 05 Dec 2019 00:00:00 +0600</pubDate>
-        <link>http://localhost:4000/blog/analiz-prodaj/</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/analiz-prodaj/</guid>
+        <link>http://localhost:4000/blog/analiz-prodazh-nielsen/</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/analiz-prodazh-nielsen/</guid>
       </item>
     
       <item>
@@ -208,11 +208,11 @@
       </item>
     
       <item>
-        <title>Смелость брендинга: как выделиться и слушать себя</title>
-        <description>Создание сильного бренда требует смелости выделяться, слушать себя и&amp;nbsp;удерживать фокус, несмотря на&amp;nbsp;внешние мнения и&amp;nbsp;тренды.</description>
+        <title>Смелость в брендинге: как компании выделяются и становятся сильнее</title>
+        <description>Настоящий бренд&amp;nbsp;&amp;mdash; это не&amp;nbsp;про тренды, а&amp;nbsp;про смелость идти своим путём. Разбираем, почему компании, которые не&amp;nbsp;боятся выделяться, привлекают клиентов и&amp;nbsp;меняют рынок.</description>
         <pubDate>Fri, 25 Oct 2019 00:00:00 +0600</pubDate>
-        <link>http://localhost:4000/blog/faberge/</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/faberge/</guid>
+        <link>http://localhost:4000/blog/smelyj-brend/</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/smelyj-brend/</guid>
       </item>
     
       <item>
@@ -248,11 +248,11 @@
       </item>
     
       <item>
-        <title>Хороший бренд отпугивает</title>
-        <description>Обсуждаю стратегии бренда, которые ясно определяют, кому он&amp;nbsp;не&amp;nbsp;подходит, и&amp;nbsp;как это может помочь вам привлекать правильную аудиторию.</description>
+        <title>Сильный бренд отпугивает: почему это работает?</title>
+        <description>Как бренду привлекать нужных клиентов? Разбираем стратегию: зачем бизнесу четкие границы, как они работают и&amp;nbsp;почему это усиливает бренд.</description>
         <pubDate>Sun, 20 Jan 2019 00:00:00 +0600</pubDate>
-        <link>http://localhost:4000/blog/brand-is-good/</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/brand-is-good/</guid>
+        <link>http://localhost:4000/blog/strategiya-silnogo-brenda/</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/strategiya-silnogo-brenda/</guid>
       </item>
     
       <item>
@@ -264,19 +264,19 @@
       </item>
     
       <item>
-        <title>Разработка редакционной политики для целостности бренда</title>
-        <description>Разрабатываю редакционную политику для обеспечения целостности и&amp;nbsp;единства бренда во&amp;nbsp;всех каналах коммуникации. Советы, примеры, рекомендации по&amp;nbsp;внедрению.</description>
+        <title>Редакционная политика: как я выстраивал правила для бренда</title>
+        <description>Редакционная политика&amp;nbsp;&amp;mdash; четкие правила, которые помогают бренду говорить единым голосом. Делюсь своим опытом: что важно учесть, как избежать хаоса и&amp;nbsp;выстроить систему.</description>
         <pubDate>Mon, 17 Dec 2018 00:00:00 +0600</pubDate>
         <link>http://localhost:4000/blog/editorial-policy/</link>
         <guid isPermaLink="true">http://localhost:4000/blog/editorial-policy/</guid>
       </item>
     
       <item>
-        <title>Концепция бренда Giperlink: этапы разработки</title>
-        <description>Рассказываю, как создавал концепцию бренда интернет-агентства Giperlink. Анализ конкурентов, карты потребительского опыта и&amp;nbsp;уникальное позиционирование. </description>
+        <title>Кейс: разработка бренда Giperlink</title>
+        <description>Кейс Giperlink: анализ конкурентов, CJM, стратегия позиционирования и&amp;nbsp;внедрение. Что изменилось? Отзыв директора о&amp;nbsp;результатах работы. </description>
         <pubDate>Fri, 30 Nov 2018 00:00:00 +0600</pubDate>
-        <link>http://localhost:4000/blog/brand-giperlink/</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/brand-giperlink/</guid>
+        <link>http://localhost:4000/blog/kejs-brend-giperlink/</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/kejs-brend-giperlink/</guid>
       </item>
     
       <item>
@@ -305,18 +305,18 @@
     
       <item>
         <title>Как работать с проблемными клиентами</title>
-        <description>Делюсь опытом работы с&amp;nbsp;проблемными клиентами: что важно знать сотруднику и&amp;nbsp;что&amp;nbsp;— управляющему компанией.</description>
+        <description>Делюсь опытом работы с&amp;nbsp;проблемными клиентами: что важно знать сотруднику, а&amp;nbsp;что&amp;nbsp;&amp;mdash; владельцу бизнеса. Готовые решения для сложных ситуаций.</description>
         <pubDate>Tue, 06 Feb 2018 00:00:00 +0600</pubDate>
-        <link>http://localhost:4000/blog/difficult-clients/</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/difficult-clients/</guid>
+        <link>http://localhost:4000/blog/kak-rabotat-s-problemnymi-klientami/</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/kak-rabotat-s-problemnymi-klientami/</guid>
       </item>
     
       <item>
         <title>Как бизнесу использовать новые технологии</title>
-        <description>Идеи, озвученные спикерами и&amp;nbsp;участниками конференции &amp;laquo;Новая реальность: вызовы для Беларуси 2017&amp;raquo;. Актуально и&amp;nbsp;сегодня.</description>
+        <description>Как&amp;nbsp;новые технологии помогают бизнесу? Обсуждаем тренды, IT-инструменты и&amp;nbsp;идеи, представленные на&amp;nbsp;конференции &amp;laquo;Новая реальность&amp;raquo;.</description>
         <pubDate>Sun, 22 Oct 2017 00:00:00 +0600</pubDate>
-        <link>http://localhost:4000/blog/crowdconference/</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/crowdconference/</guid>
+        <link>http://localhost:4000/blog/novye-tehnologii-dlya-biznesa/</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/novye-tehnologii-dlya-biznesa/</guid>
       </item>
     
       <item>
@@ -344,27 +344,27 @@
       </item>
     
       <item>
-        <title>Кейс: создание и развитие интернет-магазина</title>
-        <description>Павел Супрунюк поделился опытом и&amp;nbsp;принципами создания интернет-магазина delovoy.by: ориентация на&amp;nbsp;клиента, эффективное использование SEO и&amp;nbsp;веб-аналитики.</description>
+        <title>Как создать и развить интернет-магазин: кейс delovoy.by</title>
+        <description>Создание интернет-магазина: как delovoy.by развивал клиентский сервис, использовал SEO и&amp;nbsp;веб-аналитику, чтобы стать лидером в&amp;nbsp;нише.</description>
         <pubDate>Fri, 16 Jun 2017 00:00:00 +0600</pubDate>
-        <link>http://localhost:4000/blog/delovoy/</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/delovoy/</guid>
+        <link>http://localhost:4000/blog/kejs-internet-magazina-delovoy/</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/kejs-internet-magazina-delovoy/</guid>
       </item>
     
       <item>
-        <title>Айтрекинг: оптимизация маркетинга в Беларуси</title>
-        <description>Как использовать айтрекинг для повышения эффективности маркетинговых кампаний в&amp;nbsp;Беларуси. Советы и&amp;nbsp;рекомендации от&amp;nbsp;эксперта&amp;nbsp;&amp;mdash; Марии Райской. </description>
+        <title>Айтрекинг в маркетинге: как анализ взглядов клиентов усиливает рекламу</title>
+        <description>Айтрекинг делает рекламу точнее и&amp;nbsp;усиливает влияние дизайна. Узнайте, как анализ взглядов клиентов помогает улучшить&amp;nbsp;UX и&amp;nbsp;повысить вовлечённость.</description>
         <pubDate>Tue, 23 May 2017 00:00:00 +0600</pubDate>
         <link>http://localhost:4000/blog/eye-tracking/</link>
         <guid isPermaLink="true">http://localhost:4000/blog/eye-tracking/</guid>
       </item>
     
       <item>
-        <title>Успех интернет-магазина и понимание клиента</title>
-        <description>Создание интернет-магазина&amp;nbsp;&amp;mdash; это понимание клиента и&amp;nbsp;его опыта. Узнайте, как карты потребительского опыта и&amp;nbsp;адаптация могут улучшить ваш бизнес и&amp;nbsp;маркетинг.</description>
+        <title>Почему клиентский опыт решает всё в интернет-магазине</title>
+        <description>Успех интернет-магазина&amp;nbsp;&amp;mdash; это не&amp;nbsp;только технологии, но&amp;nbsp;и&amp;nbsp;понимание клиента: карты потребительского опыта и&amp;nbsp;адаптация помогают увеличить продажи. </description>
         <pubDate>Tue, 16 May 2017 00:00:00 +0600</pubDate>
-        <link>http://localhost:4000/blog/ecommerce/</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/ecommerce/</guid>
+        <link>http://localhost:4000/blog/klientskij-opyt-v-ecommerce/</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/klientskij-opyt-v-ecommerce/</guid>
       </item>
     
       <item>
@@ -376,11 +376,11 @@
       </item>
     
       <item>
-        <title>Одна идея vs три: работа с рекламными агентствами</title>
-        <description>Узнайте, почему важно настаивать на&amp;nbsp;одном варианте рекламной концепции при работе с&amp;nbsp;агентствами. Отказывайтесь от&amp;nbsp;3+&amp;nbsp;вариантов рекламы для эффективности.</description>
+        <title>как рекламные агентства скрывают слабые решения</title>
+        <description>Агентства предлагают три идеи вместо одной? Разбираем, почему это признак слабого решения и&amp;nbsp;как выбрать концепцию, которая действительно работает. </description>
         <pubDate>Fri, 03 Mar 2017 00:00:00 +0600</pubDate>
-        <link>http://localhost:4000/blog/choice/</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/choice/</guid>
+        <link>http://localhost:4000/blog/kak-agentstva-skryvayut-slabye-resheniya/</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/kak-agentstva-skryvayut-slabye-resheniya/</guid>
       </item>
     
       <item>
@@ -392,27 +392,27 @@
       </item>
     
       <item>
-        <title>Создание сайта для психолога: опыт и рекомендации</title>
-        <description>Рассказываю о&amp;nbsp;создании сайта для психолога: выбор дизайна, движка и&amp;nbsp;ключевые принципы разработки, ориентированные на&amp;nbsp;пользователя.</description>
+        <title>Как я создал сайт для психолога: ошибки, решения, результаты</title>
+        <description>Как создать сайт для психолога? Разбираю ключевые принципы: дизайн, выбор движка, структура контента и&amp;nbsp;ошибки, которых стоит избегать.</description>
         <pubDate>Sun, 05 Feb 2017 00:00:00 +0600</pubDate>
-        <link>http://localhost:4000/blog/delayu-sajt-detskogo-psixologa/</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/delayu-sajt-detskogo-psixologa/</guid>
+        <link>http://localhost:4000/blog/sajt-dlya-psihologa-kejs/</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/sajt-dlya-psihologa-kejs/</guid>
       </item>
     
       <item>
-        <title>Пошаговый план разработки рекламной кампании</title>
-        <description>Алгоритм проведения рекламной кампании: когда реклама необходима, как проработать идею и&amp;nbsp;определить бюджет, оценить эффективность. </description>
+        <title>Алгоритм рекламной кампании: пошаговое руководство</title>
+        <description>Как создать эффективную рекламную кампанию? Пошаговый алгоритм: от проработки идеи и бюджета до оценки результатов. Инструкция для маркетологов и бизнеса.</description>
         <pubDate>Tue, 20 Dec 2016 00:00:00 +0600</pubDate>
-        <link>http://localhost:4000/blog/algoritm-provedeniya-reklamnoj-kampanii/</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/algoritm-provedeniya-reklamnoj-kampanii/</guid>
+        <link>http://localhost:4000/blog/algoritm-reklamnoj-kampanii/</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/algoritm-reklamnoj-kampanii/</guid>
       </item>
     
       <item>
         <title>Польза корпоративов — миф</title>
-        <description>Корпоратив не&amp;nbsp;создаст команду, не&amp;nbsp;решит проблемы и&amp;nbsp;может разрушить отношения коллег. Занимайтесь бизнесом, а&amp;nbsp;как отдохнуть сотрудники решат самостоятельно. </description>
+        <description>Думаете, корпоратив улучшает атмосферу в&amp;nbsp;команде? На&amp;nbsp;самом деле он&amp;nbsp;может принести больше вреда, чем пользы. Разбираемся, почему так происходит.</description>
         <pubDate>Sat, 26 Nov 2016 00:00:00 +0600</pubDate>
-        <link>http://localhost:4000/blog/direktor-xochet-korporativ/</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/direktor-xochet-korporativ/</guid>
+        <link>http://localhost:4000/blog/pochemu-korporativy-ne-rabotayut/</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/pochemu-korporativy-ne-rabotayut/</guid>
       </item>
     
       <item>
@@ -432,11 +432,11 @@
       </item>
     
       <item>
-        <title>Редактирование текста: лучшие инструменты и советы</title>
-        <description>Узнайте об&amp;nbsp;инструментах и&amp;nbsp;ресурсах для создания четкого, убедительного контента. Советы для маркетологов по&amp;nbsp;улучшению текстов и&amp;nbsp;повышению их&amp;nbsp;эффективности.</description>
+        <title>Редактирование текста: лучшие инструменты для маркетологов</title>
+        <description>Как сделать текст сильнее? Разбираем сервисы и&amp;nbsp;техники редактирования, которые помогают маркетологам писать четко, увлекательно и&amp;nbsp;убедительно. </description>
         <pubDate>Sun, 16 Oct 2016 00:00:00 +0600</pubDate>
-        <link>http://localhost:4000/blog/dlya-tex-kto-pishet/</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/dlya-tex-kto-pishet/</guid>
+        <link>http://localhost:4000/blog/redaktirovanie-teksta-instrumenty/</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/redaktirovanie-teksta-instrumenty/</guid>
       </item>
     
       <item>
@@ -472,8 +472,8 @@
       </item>
     
       <item>
-        <title>Как повысить эффективность маркетинга</title>
-        <description>Маркетинг эффективен, когда вы подкрепляете отличия бренда, тестируете идеи, анализируете бюджет по&amp;nbsp;целям использования.</description>
+        <title>Как увеличить отдачу от вложений в маркетинг: стратегии и кейсы</title>
+        <description>Как&amp;nbsp;маркетинг влияет на&amp;nbsp;прибыль? Разбираем ключевые принципы: чем важны отличия бренда, как тестировать идеи и&amp;nbsp;оценивать бюджет по&amp;nbsp;целям.</description>
         <pubDate>Thu, 25 Aug 2016 00:00:00 +0600</pubDate>
         <link>http://localhost:4000/blog/effektivnost-vlozhenij-v-marketing/</link>
         <guid isPermaLink="true">http://localhost:4000/blog/effektivnost-vlozhenij-v-marketing/</guid>
@@ -488,8 +488,8 @@
       </item>
     
       <item>
-        <title>Возможности Битрикс</title>
-        <description>Интернет-магазин: какие возможности Битрикс и&amp;nbsp;CRM-решения использовать обязательно. Главные тезисы регионального семинара 1С-Битрикс</description>
+        <title>Возможности 1С-Битрикс для интернет-магазинов</title>
+        <description>Как 1С-Битрикс помогает интернет-магазинам? Разбор CRM, SEO-инструментов и автоматизации. Главные инсайты семинара.</description>
         <pubDate>Mon, 27 Jun 2016 00:00:00 +0600</pubDate>
         <link>http://localhost:4000/blog/1s-bitriks/</link>
         <guid isPermaLink="true">http://localhost:4000/blog/1s-bitriks/</guid>
@@ -504,8 +504,8 @@
       </item>
     
       <item>
-        <title>Customer journey map: примеры и алгоритм создания</title>
-        <description>Узнайте, как создать карту потребительского опыта (CJM) для эффективного маркетинга! Шаги, инструменты и&amp;nbsp;советы для глубокого понимания клиентов.</description>
+        <title>Customer Journey Map: как понять клиента и улучшить маркетинг</title>
+        <description>Почему клиенты уходят? Карта потребительского опыта (CJM) покажет слабые места бизнеса. Готовый алгоритм и&amp;nbsp;лучшие инструменты для маркетологов.</description>
         <pubDate>Mon, 06 Jun 2016 00:00:00 +0600</pubDate>
         <link>http://localhost:4000/blog/customer-journey-map/</link>
         <guid isPermaLink="true">http://localhost:4000/blog/customer-journey-map/</guid>
@@ -528,8 +528,8 @@
       </item>
     
       <item>
-        <title>Маркетинг на аутсорсинг: руководство по организации</title>
-        <description>Маркетинг на&amp;nbsp;аутсорсинге&amp;nbsp;&amp;mdash; не&amp;nbsp;панацея в&amp;nbsp;кризис. Выполнением задач по&amp;nbsp;маркетингу фрилансерами и&amp;nbsp;маркетинговыми агентствами важно грамотно управлять.</description>
+        <title>Аутсорсинг маркетинга: как защитить бюджет компании</title>
+        <description>Маркетинг на&amp;nbsp;аутсорсинге&amp;nbsp;&amp;mdash; не&amp;nbsp;панацея. Узнайте, как управлять подрядчиками, избегать рисков и&amp;nbsp;эффективно контролировать бюджет.</description>
         <pubDate>Tue, 19 Apr 2016 00:00:00 +0600</pubDate>
         <link>http://localhost:4000/blog/autsorsing-marketinga/</link>
         <guid isPermaLink="true">http://localhost:4000/blog/autsorsing-marketinga/</guid>
@@ -544,8 +544,8 @@
       </item>
     
       <item>
-        <title>Что делать маркетологу на новом рабочем месте</title>
-        <description>Что должен знать маркетолог, как следует себя вести и&amp;nbsp;выстраивать отношения с&amp;nbsp;коллегами, чтобы адаптация к&amp;nbsp;новому рабочему месту прошла легко.</description>
+        <title>Что делать маркетологу в первые 100 дней на новом месте</title>
+        <description>Как&amp;nbsp;маркетологу быстро адаптироваться на&amp;nbsp;новом месте? Советы по&amp;nbsp;взаимодействию с&amp;nbsp;коллегами, выстраиванию процессов и&amp;nbsp;достижению первых результатов. </description>
         <pubDate>Sat, 05 Mar 2016 00:00:00 +0600</pubDate>
         <link>http://localhost:4000/blog/100-dnej-marketologa/</link>
         <guid isPermaLink="true">http://localhost:4000/blog/100-dnej-marketologa/</guid>

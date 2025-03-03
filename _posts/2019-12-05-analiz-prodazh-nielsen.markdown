@@ -4,15 +4,15 @@ title:  "Анализ продаж по методике Nielsen: опыт FMCG-
 name: "Как анализировать продажи: проверенный алгоритм Nielsen"
 description: "Делюсь алгоритмом анализа продаж, разработанный на&nbsp;основе опыта работы в&nbsp;Nielsen. Идеально подходит для FMCG, можно использовать и&nbsp;в&nbsp;других отраслях."
 date:   2019-12-05
-last_modified_at: 2022-02-05
+last_modified_at: 2024-02-05
 categories: мнение
-permalink: "/blog/analiz-prodaj/"
+permalink: "/blog/analiz-prodazh-nielsen/"
 tags: "инструменты"
 image: /assets/images/tizers/tizer-61.jpg
 keywords: "продажи, анализ продаж"
 ---
 
-{% include post__header.html %}
+{% include post__header--update.html %}
 
 <div class="with-side row-gap--m">
 <p>Около пяти лет работы в&nbsp;<b>Nielsen</b> я&nbsp;анализировал розничные продажи для крупных <span class="noperenos">FMCG-компаний*</span>. За&nbsp;это время выработался и&nbsp;закрепился алгоритм работы. Позже, когда анализировал данные для предприятий из&nbsp;других сфер, шел по&nbsp;«натоптанному» сценарию. Результатами доволен.</p>

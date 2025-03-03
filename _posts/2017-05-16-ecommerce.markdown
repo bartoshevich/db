@@ -1,12 +1,12 @@
 ---
 layout: post
-title: "Успех интернет-магазина и понимание клиента"
-name: "Успех интернет-магазина через понимание клиента"
-description: "Создание интернет-магазина&nbsp;&mdash; это понимание клиента и&nbsp;его опыта. Узнайте, как карты потребительского опыта и&nbsp;адаптация могут улучшить ваш бизнес и&nbsp;маркетинг."
+title: "Почему клиентский опыт решает всё в интернет-магазине"
+name: "Клиентский опыт в&nbsp;интернет-магазине: главный фактор успеха"
+description: "Успех интернет-магазина&nbsp;&mdash; это не&nbsp;только технологии, но&nbsp;и&nbsp;понимание клиента: карты потребительского опыта и&nbsp;адаптация помогают увеличить продажи. "
 date:   2017-05-16
-last_modified_at: 2023-08-17
+last_modified_at: 2024-08-17
 categories: опыт
-permalink: "/blog/ecommerce/"
+permalink: "/blog/klientskij-opyt-v-ecommerce/"
 tags: "интернет-маркетинг семинары"
 keywords: "маркетинг интернет-магазинов"
 image: /assets/images/tizers/tizer-40.jpg
@@ -18,7 +18,7 @@ image: /assets/images/tizers/tizer-40.jpg
 
 <div itemprop="image" itemscope itemtype="https://schema.org/ImageObject">	
 		<link itemprop="url" href="https://res.cloudinary.com/bartoshevich/image/upload/f_auto/v1615123529/site/seminar110517.jpg">
-<img src="https://res.cloudinary.com/bartoshevich/image/upload/f_auto/v1615123529/site/seminar110517.jpg"  alt="Дмитрий Бартошевич рассказывает о маркетинговой стратегии интернет-магазинов"  class="image" width="720" height="540" itemprop="contentUrl">
+<img src="https://res.cloudinary.com/bartoshevich/image/upload/f_auto/v1615123529/site/seminar110517.jpg"  alt="Дмитрий Бартошевич на бизнес-конференции рассказывает о CJM и маркетинговых стратегиях"  class="image" width="720" height="540" itemprop="contentUrl">
 <div class="figcaption">Фото: Арина Чернышева</div>
 </div>
 
@@ -71,7 +71,7 @@ image: /assets/images/tizers/tizer-40.jpg
 <picture>
                <source srcset="/assets/images/blog/ecommerce/polza-cjm.avif" type="image/avif">
 			    <source srcset="/assets/images/blog/ecommerce/polza-cjm.webp" type="image/webp">
-              <img class="image" loading="lazy" decoding="async" src="/assets/images/blog/ecommerce/polza-cjm.jpg" alt="Польза карты потребительского опыта: ясный план действий, приоритеты в маркетинговой активности, увеличение конверсии, повышение воспринимаемого качества работы." width="720" height="540" itemprop="contentUrl" />
+              <img class="image" loading="lazy" decoding="async" src="/assets/images/blog/ecommerce/polza-cjm.jpg" alt="Слайд с преимуществами Customer Journey Map (CJM) в маркетинге." width="720" height="540" itemprop="contentUrl" />
     </picture>
 </div>
 </section>
@@ -91,7 +91,7 @@ image: /assets/images/tizers/tizer-40.jpg
 <picture>
                <source srcset="/assets/images/blog/ecommerce/seminar110517.avif" type="image/avif">
 			    <source srcset="/assets/images/blog/ecommerce/seminar110517.webp" type="image/webp">
-         <img class="image" loading="lazy" decoding="async" src="/assets/images/blog/ecommerce/seminar110517.jpg" alt="Дмитрий Бартошевич рассказывает об алгоритме составления карт потребительского опыта" width="720" height="540"  title="Фото: Арина Чернышева" itemprop="contentUrl"/>
+         <img class="image" loading="lazy" decoding="async" src="/assets/images/blog/ecommerce/seminar110517.jpg" alt="Дмитрий Бартошевич объясняет, как создавать карту клиентского опыта (CJM)" width="720" height="540"  title="Фото: Арина Чернышева" itemprop="contentUrl">
     </picture>
 </div>
 </section>

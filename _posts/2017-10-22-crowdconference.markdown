@@ -1,12 +1,12 @@
 ---
 layout: post
 title: "Как бизнесу использовать новые технологии"
-name: "Новые технологии: что нужно использовать бизнесу"
-description: "Идеи, озвученные спикерами и&nbsp;участниками конференции &laquo;Новая реальность: вызовы для Беларуси 2017&raquo;. Актуально и&nbsp;сегодня."
+name: "Новые технологии для бизнеса: тренды, инсайты и реальные примеры"
+description: "Как&nbsp;новые технологии помогают бизнесу? Обсуждаем тренды, IT-инструменты и&nbsp;идеи, представленные на&nbsp;конференции &laquo;Новая реальность&raquo;."
 date:   2017-10-22
-last_modified_at: 2022-02-04
+last_modified_at: 2024-02-04
 categories: мнение
-permalink: "/blog/crowdconference/"
+permalink: "/blog/novye-tehnologii-dlya-biznesa/"
 tags: "семинары"
 image: /assets/images/tizers/tizer-46.jpg
 keywords: "семинар Новые технологии,  IT"

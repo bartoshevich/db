@@ -1,12 +1,12 @@
 ---
 layout: post
 title:  "Как работать с проблемными клиентами"
-name: "Делюсь опытом работы с&nbsp;проблемными клиентами"
-description: "Делюсь опытом работы с&nbsp;проблемными клиентами: что важно знать сотруднику и&nbsp;что&nbsp;— управляющему компанией."
+name: "Работа с&nbsp;проблемными клиентами: как вести переговоры и&nbsp;снижать риски"
+description: "Делюсь опытом работы с&nbsp;проблемными клиентами: что важно знать сотруднику, а&nbsp;что&nbsp;&mdash; владельцу бизнеса. Готовые решения для сложных ситуаций."
 date:   2018-02-06
-last_modified_at: 2022-02-04
+last_modified_at: 2023-02-04
 categories: мнение
-permalink: "/blog/difficult-clients/"
+permalink: "/blog/kak-rabotat-s-problemnymi-klientami/"
 tags: "бизнес маркетолог"
 image: /assets/images/tizers/tizer-47.jpg
 keywords: "проблемный клиент"

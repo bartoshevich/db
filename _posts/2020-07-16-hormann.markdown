@@ -1,12 +1,12 @@
 ---
 layout: post
-title:  "Разрабатываю концепцию бренда для Hörmann"
+title:  "Разработка концепции бренда Hörmann: подход и результаты"
 name: "Кейс: концепция бренда для Hörmann Беларусь"
-description: "Разработал концепцию бренда для белорусского офиса Hörmann: рассказываю об&nbsp;этапах работы и&nbsp;результатах."
+description: "Кейс H&ouml;rmann: мой подход к&nbsp;созданию бренда. Глубокий анализ, четкая стратегия и&nbsp;внедрение, которое повысило ценность компании в&nbsp;глазах клиентов."
 date:   2020-07-16
-last_modified_at: 2022-02-05
+last_modified_at: 2023-02-05
 categories: опыт
-permalink: "/blog/brand-conception-hormann/"
+permalink: "/blog/razrabotka-koncepcii-brenda-hormann/"
 tags: "кейсы"
 image: /assets/images/tizers/tizer-66.png
 keywords: "брендинг, разработка развитие создание бренда, стратегия, концепция Хёрманн"

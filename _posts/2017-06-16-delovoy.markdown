@@ -1,12 +1,12 @@
 ---
 layout: post
-title: "Кейс: создание и развитие интернет-магазина"
-name: "Создание и развитие интернет-магазина: опыт и принципы"
-description: "Павел Супрунюк поделился опытом и&nbsp;принципами создания интернет-магазина delovoy.by: ориентация на&nbsp;клиента, эффективное использование SEO и&nbsp;веб-аналитики."
+title: "Как создать и развить интернет-магазин: кейс delovoy.by"
+name: "Кейс delovoy.by: создание интернет-магазина, SEO и&nbsp;рост продаж"
+description: "Создание интернет-магазина: как delovoy.by развивал клиентский сервис, использовал SEO и&nbsp;веб-аналитику, чтобы стать лидером в&nbsp;нише."
 date:   2017-06-16
-last_modified_at: 2022-02-05
+last_modified_at: 2023-02-05
 categories: опыт
-permalink: "/blog/delovoy/"
+permalink: "/blog/kejs-internet-magazina-delovoy/"
 image: /assets/images/tizers/tizer-42.jpg
 tags: "интернет-маркетинг интервью"
 keywords:  "развитие интернет-магазина"
