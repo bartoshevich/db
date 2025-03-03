@@ -1,16 +1,16 @@
 ---
 layout: default
 permalink: /uslugi/marketing-audit/
-description: "Независимый аудит маркетинга: оценка и анализ вашего маркетинга с фокусом на потребительский опыт (CJM). Экспертные рекомендации и улучшения."
-title: "Аудит маркетинга | Дмитрий Бартошевич"
+description: "Проведите аудит маркетинга с фокусом на потребительский опыт (CJM). Оценка стратегий, выявление слабых мест и экспертные рекомендации для роста вашего бизнеса."
+title: "Аудит маркетинга – независимый анализ и рекомендации | Дмитрий Бартошевич"
 date:   2015-07-31
-last_modified_at: 2024-06-18
+last_modified_at: 2025-03-02
 keywords: "услуги консультанта по маркетингу и стратегии"
 ---
 
 <div class="body__container">
   
-  {% include menu__uslugi--audit.html %}
+{% include menu__uslugi--audit.html %}
 
 <main class="section__content row-gap--l">
        
