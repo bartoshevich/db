@@ -434,7 +434,6 @@ width="1500" height="750" alt="анализ конкурентов Хёрман�
 <section class="full-bleed mt-m row-gap--m" itemscope itemtype="https://schema.org/Project">
 		<h3 class="h2 bold mb-m" itemprop="name">Наружная реклама </h3>
 		<p>Посылы привели в&nbsp;соответствие с&nbsp;концепцией бренда. </p>
-
 		<div class="full-bleed figure" itemprop="image" itemscope itemtype="https://schema.org/ImageObject">	
 		<link itemprop="url" href="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1648646401/site/konkurentnyj_analiz.jpg">			
 		<img class="image is-2by1 border" loading="lazy" decoding="async" 

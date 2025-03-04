@@ -1,12 +1,12 @@
 ---
 layout: post
-title:  "Делаем SWOT-анализ: Как избежать типичных ошибок"
-name: "Делаем SWOT-анализ: типичные ошибки"
-description: "Частые ошибки в&nbsp;SWOT-анализе и&nbsp;рекомендации для их&nbsp;коррекции. Примеры и&nbsp;советы от&nbsp;консультанта по&nbsp;маркетингу и&nbsp;стратегии."
+title:  "Ошибки в SWOT-анализе: как их избежать и провести анализ правильно"
+name: "Разбираем ошибки в&nbsp;SWOT-анализе: как их&nbsp;избежать и&nbsp;провести анализ правильно"
+description: "Какие ошибки чаще всего встречаются в&nbsp;SWOT-анализе? Разбираю типичные проблемы и&nbsp;объясняю, как сделать анализ действительно полезным для бизнеса."
 date:   2019-01-15
 last_modified_at: 2023-08-20
 categories: инструкции
-permalink: "/blog/primer-swot-analiza/"
+permalink: "/blog/oshibki-v-swot-analize-i-kak-ih-izbezhat/"
 tags: "инструменты, управление"
 image: /assets/images/tizers/tizer-53.jpg
 keywords: "пример SWOT "
@@ -177,19 +177,19 @@ keywords: "пример SWOT "
 <p class="mb-m mt-m"> Идеи для развития:</p>
 <ul class="addictive-spacing">
 <li class="list-li">
-  <a href="/blog/choice/" class="link"> Выбор концепции рекламной кампании: почему одна идея лучше трех </a>
+  <a href="/blog/kak-agentstva-skryvayut-slabye-resheniya/" class="link"> Выбор концепции рекламной кампании: почему одна идея лучше трех </a>
 </li>
 <li class="list-li">
-  <a href="/blog/misconceptions/" class="link"> Пять распространенных мифов о&nbsp;маркетинге</a>
+  <a href="/blog/mify-o-marketinge/" class="link"> Пять распространенных мифов о&nbsp;маркетинге</a>
 </li>
 <li class="list-li">
-  <a href="/blog/igra/" class="link">Игра в&nbsp;«Спасителя» в&nbsp;маркетинге</a>
+  <a href="/blog/lovushka-dlya-marketologov-igra-spasitel/" class="link">Игра в&nbsp;&laquo;Спасителя&raquo;: как маркетологи становятся жертвами</a>
 </li>
 <li class="list-li">
-  <a href="/blog/effektivnost-marketinga/" class="link">Оценка эффективности маркетинга через временные затраты</a>
+  <a href="/blog/vremya-kak-metod-analiza-marketinga/" class="link">Оценка эффективности маркетинга через временные затраты</a>
 </li>
 <li class="list-li">
-  <a href="/blog/algoritm-provedeniya-reklamnoj-kampanii/" class="link">Рекламная кампания: алгоритм проведения</a>
+  <a href="/blog/algoritm-reklamnoj-kampanii/" class="link">Как разработать рекламную кампанию: полный алгоритм от&nbsp;идеи до&nbsp;оценки эффективности</a>
 </li>
 </ul>
 </footer>

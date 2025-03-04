@@ -1,12 +1,12 @@
 ---
 layout: post
-title: "Как найти и нанять лучших маркетологов: руководство"
-name: "Как&nbsp;найти и&nbsp;нанять лучших маркетологов"
-description: "Узнайте, как выбрать лучших маркетологов для компании. Подробный гид для&nbsp;HR и&nbsp;руководителей по&nbsp;оценке знаний, навыков и&nbsp;аналитического подхода кандидатов."
+title: "Как выбрать маркетолога, который реально понимает маркетинг"
+name: "Как&nbsp;узнать сильного маркетолога на&nbsp;собеседовании"
+description: "Маркетолог может говорить красиво, но разбирается ли он в маркетинге? Как понять, что перед вами сильный специалист? Вопросы и критерии для точного отбора."
 date:   2016-09-27
 last_modified_at: 2023-09-02
 categories: мнение
-permalink: "/blog/marketers/"
+permalink: "/blog/kak-uznat-silnogo-marketologa/"
 tags: "маркетолог"
 keywords: "отличия маркетера от маркетолога"
 image: /assets/images/tizers/tizer-29.jpg
@@ -144,16 +144,16 @@ image: /assets/images/tizers/tizer-29.jpg
   <a href="/blog/otlichie-marketologa-ot-brexuna/" class="link"> Как маркетолога отличить от&nbsp;брехуна</a>
 </li>
 <li class="list-li">
-  <a href="/blog/2-idei-po-razvitiyu-marketinga/" class="link"> Как&nbsp;восприятие клиента определяет успех продукта: советы для руководителей и&nbsp;маркетологов </a>
+  <a href="/blog/vospriyatie-klienta-uspeh/" class="link"> Как&nbsp;восприятие клиента определяет успех продукта: советы для руководителей и&nbsp;маркетологов </a>
 </li>
 <li class="list-li">
-  <a href="/blog/spam-replacement/" class="link"> Чем заменить рекламную листовку</a>
+  <a href="/blog/spam-replacement/" class="link"> Заменяю рекламную листовку на&nbsp;полезный материал</a>
 </li>
 <li class="list-li">
   <a href="/blog/perfomance-and-brand-marketing/" class="link"> Бренд и&nbsp;перфоманс маркетинг&nbsp;&mdash; что важно знать маркетологу</a>
 </li>
 <li class="list-li">
-  <a href="/blog/igra/" class="link"> Маркетинг и игра в «Cпасителя»</a>
+  <a href="/blog/lovushka-dlya-marketologov-igra-spasitel/" class="link">Игра в&nbsp;&laquo;Спасителя&raquo;: как маркетологи становятся жертвами</a>
 </li>
 </ul>
 </footer>

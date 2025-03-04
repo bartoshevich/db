@@ -25,8 +25,8 @@ keywords: "маркетинг задачи маркетолога"
 <div class="side">
 <p>Подробнее в&nbsp;статьях:</p>
 <ul>
-<li><a class="link" href="/blog/in-store-marketing/">Йенс Нордфальт. Решения о&nbsp;покупке в&nbsp;точке продаж</a> </li>
-<li><a class="link" href="/blog/emotions-in-marketing/">Зачем и&nbsp;как говорить на&nbsp;языке эмоций</a></li>
+<li><a class="link" href="/blog/in-store-marketing/">Ритейл-маркетинг: как направить выбор покупателя и&nbsp;повысить продажи</a> </li>
+<li><a class="link" href="/blog/kak-brendy-sozdajut-emotsionalnuyu-svyaz/">Эмоциональный маркетинг: как бренды создают сильную связь с&nbsp;клиентом</a></li>
 </ul>
 </div>
 </div>

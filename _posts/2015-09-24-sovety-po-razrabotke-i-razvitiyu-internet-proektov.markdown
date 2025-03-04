@@ -39,7 +39,7 @@ image: /assets/images/tizers/tizer-7.jpg
 
 
 
-<p><span class="bold">update:</span> Рекомендую прочесть <a class="link" href="/blog/delovoy/">историю Павла Супрунюка</a>, как создавался интернет-магазин Delovoy.by. Он&nbsp;вывел <strong>4&nbsp;принципа, следуя которым вы&nbsp;сможете создать успешный интернет-проект</strong>.  </p>
+<p><span class="bold">update:</span> Рекомендую прочесть <a class="link" href="/blog/kejs-internet-magazina-delovoy/">историю Павла Супрунюка</a>, как создавался интернет-магазин Delovoy.by. Он&nbsp;вывел <strong>4&nbsp;принципа, следуя которым вы&nbsp;сможете создать успешный интернет-проект</strong>.  </p>
 
 </section>
 
@@ -76,7 +76,7 @@ image: /assets/images/tizers/tizer-7.jpg
 <p>Представители компании «Скрытый маркетинг» делились примерами использования социальных сетей белорусским бизнесом. Между слов слышался призыв использовать сети везде. Даже если вы&nbsp;торгуете лопатами, «Скрытый маркетинг» призывал зарегистрироваться в&nbsp;instagram и&nbsp;фотографировать ситуации использования продукции, например, как <a class="link" href="https://blisch.by/" >Денис Блищ</a> копает в&nbsp;огороде. Подобные материалы&nbsp;&mdash; уверено агентство&nbsp;&mdash; &laquo;завирусятся&raquo;.</p>
 
 
-<p>Я&nbsp;не&nbsp;разделяю восторга по&nbsp;поводу социальных сетей. Присутствие в&nbsp;сетях ради присутствия не&nbsp;имеет смысла. А&nbsp;<a class="link" href="/blog/razvitie-brenda/">стремление к&nbsp;вирусности&nbsp;&mdash; убивает бренд</a>. Впрочем, соц. сети&nbsp;&mdash; тема для отдельной статьи.
+<p>Я&nbsp;не&nbsp;разделяю восторга по&nbsp;поводу социальных сетей. Присутствие в&nbsp;сетях ради присутствия не&nbsp;имеет смысла. А&nbsp;<a class="link" href="/blog/riski-virusnogo-marketinga/">стремление к&nbsp;вирусности&nbsp;&mdash; убивает бренд</a>. Впрочем, соц. сети&nbsp;&mdash; тема для отдельной статьи.
 </p>
 </section>
 
@@ -102,15 +102,15 @@ image: /assets/images/tizers/tizer-7.jpg
   <a href="/blog/perfomance-and-brand-marketing/" class="link">Бренд и&nbsp;перфоманс маркетинг&nbsp;&mdash; что важно знать маркетологу</a>
 </li>
 <li class="list-li">
-  <a href="/blog/marketing-for-industrial-giants-12-archetypes/" class="link">Как 12 архетипов меняют B2B маркетинг</a>
+  <a href="/blog/12-archetypes-b2b-marketing/" class="link">Как 12 архетипов меняют B2B маркетинг</a>
 </li>
 
 <li class="list-li">
-  <a href="/blog/kak-privlech-klientov/" class="link">Клиентов привлекают убеждения, а&nbsp;не&nbsp;товары</a>
+  <a href="/blog/klienty-vybirayut-brendy-po-cennostyam/" class="link">Как&nbsp;ценности бренда привлекают клиентов и&nbsp;формируют лояльность</a>
 </li>
 
 <li class="list-li">
-  <a href="/blog/system-marketing/" class="link">Системный маркетинг: от&nbsp;мифов к&nbsp;эффективной практике</a>
+  <a href="/blog/system-marketing/" class="link">Таблицы и&nbsp;схемы не&nbsp;делают маркетинг системным</a>
 </li>
 
 <li class="list-li">

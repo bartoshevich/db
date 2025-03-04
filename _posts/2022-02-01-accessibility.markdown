@@ -301,7 +301,7 @@ keywords: "доступность"
 	</li>
 </ul>
 
-<p> В&nbsp;блоге есть <a class="link" href="/blog/dlya-tex-kto-pishet/">статья «Полезные ссылки для тех, кто пишет»</a>. Вы&nbsp;можете ее&nbsp;использовать в&nbsp;подготовке материалов для ваших ресурсов. </p> 
+<p> В&nbsp;блоге есть <a class="link" href="/blog/redaktirovanie-teksta-instrumenty/">статья «Полезные ссылки для тех, кто пишет»</a>. Вы&nbsp;можете ее&nbsp;использовать в&nbsp;подготовке материалов для ваших ресурсов. </p> 
 </section>
 
 

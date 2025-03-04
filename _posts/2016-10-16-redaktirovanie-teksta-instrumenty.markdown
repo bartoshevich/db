@@ -180,20 +180,20 @@ image: /assets/images/tizers/tizer-31.jpg
 <p class="mb-m mt-m">Идеи для развития:</p>
 <ul class="addictive-spacing">
 <li class="list-li">
-  <a href="/blog/spam-replacement/" class="link"> Чем заменить рекламную листовку</a>
+  <a href="/blog/spam-replacement/" class="link"> Заменяю рекламную листовку полезным материалом</a>
 </li>
 <li class="list-li">
-  <a href="/blog/editorial-policy/" class="link"> Разработка и&nbsp;внедрение редполитики: создание целостного бренда</a>
+  <a href="/blog/editorial-policy/" class="link">Редакционная политика бренда: мой опыт, принципы и&nbsp;выводы</a>
 </li>
 <li class="list-li">
-  <a href="/blog/reklamnyj-tekst-atlant-telekom/" class="link"> Анализ и&nbsp;улучшение рекламного текста: кейс Атлант Телеком</a>
+  <a href="/blog/reklamnyj-tekst-atlant-telekom/" class="link"> Анализ и&nbsp;переработка рекламного текста &laquo;Атлант Телеком&raquo;: исправляю ошибки</a>
 </li>
 <li class="list-li">
-  <a href="/blog/faberge/" class="link"> Смелость брендинга: как выделиться и&nbsp;слушать себя</a>
+  <a href="/blog/smelyj-brend/" class="link">Как смелость помогает брендам выделяться и&nbsp;оставаться собой</a>
 </li>
 
 <li class="list-li">
-  <a href="/blog/chatgpt-mozhet-preobrazit-brend-i-reklamnye-kampanii/" class="link"> Использование ChatGPT в&nbsp;маркетинге</a>
+  <a href="/blog/chatgpt-v-marketinge/" class="link"> Использование ChatGPT в&nbsp;маркетинге</a>
 </li>
 </ul>
 </footer>

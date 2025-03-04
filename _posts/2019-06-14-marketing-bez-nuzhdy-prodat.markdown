@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Маркетинг без нужды продать: подходы и стратегия "
+title:  "Маркетинг без продаж: как компании выигрывают, создавая ценность"
 name: "Маркетинг без нужды продать"
-description: "Маркетинг нового поколения: когда цель не&nbsp;в&nbsp;продажах, а&nbsp;в&nbsp;создании устойчивой ценности и&nbsp;уникальности. Исследуйте современные стратегии и&nbsp;подходы. "
+description: "Маркетинг&nbsp;&mdash; это не&nbsp;про агрессивные продажи, а&nbsp;про создание ценности. Как компании выстраивают доверие и&nbsp;побеждают без манипуляций? Разбираем подходы. "
 date:   2019-06-14
 last_modified_at: 2022-02-05
 categories: мнение
@@ -63,16 +63,16 @@ keywords: "Маркетинг, Продажи, Бизнес-стратегия, 
 <p class="mb-m mt-m">Идеи для развития:</p>
 <ul class="addictive-spacing">
 <li class="list-li">
-  <a href="/blog/choice/" class="link"> Выбор концепции рекламной кампании: почему одна идея лучше трех </a>
+  <a href="/blog/kak-agentstva-skryvayut-slabye-resheniya/" class="link"> Выбор концепции рекламной кампании: почему одна идея лучше трех </a>
 </li>
 <li class="list-li">
-  <a href="/blog/misconceptions/" class="link"> Пять распространенных мифов о&nbsp;маркетинге</a>
+  <a href="/blog/mify-o-marketinge/" class="link"> Пять распространенных мифов о&nbsp;маркетинге</a>
 </li>
 <li class="list-li">
-  <a href="/blog/igra/" class="link">Игра в&nbsp;«Спасителя» в&nbsp;маркетинге</a>
+  <a href="/blog/lovushka-dlya-marketologov-igra-spasitel/" class="link">Игра в&nbsp;&laquo;Спасителя&raquo;: как маркетологи становятся жертвами</a>
 </li>
 <li class="list-li">
-  <a href="/blog/effektivnost-marketinga/" class="link">Оценка эффективности маркетинга через временные затраты</a>
+  <a href="/blog/vremya-kak-metod-analiza-marketinga/" class="link">Оценка эффективности маркетинга через временные затраты</a>
 </li>
 <li class="list-li">
   <a href="/blog/zachem-marketing-biznesu/ " class="link">Зачем нужен маркетинг (мнение консультантов по&nbsp;развитию продаж)</a>

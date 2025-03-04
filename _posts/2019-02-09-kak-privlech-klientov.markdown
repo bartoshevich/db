@@ -1,18 +1,18 @@
 ---
 layout: post
-title:  "Клиентов привлекают не товары, а убеждения "
-name: "Клиентов привлекают убеждения, а&nbsp;не&nbsp;товары"
-description: "Клиентов привлекает не&nbsp;перечень полезных характеристик, а&nbsp;набор ценностей и&nbsp;взглядов, которые стоят за&nbsp;товаром."
+title:  "Клиенты выбирают не товары, а бренды с ценностями"
+name: "Как&nbsp;ценности бренда привлекают клиентов и&nbsp;формируют лояльность"
+description: "Бренды побеждают не&nbsp;продуктами, а&nbsp;идеями. Почему клиенты выбирают компании, разделяющие их&nbsp;ценности, и&nbsp;что это значит для маркетолога."
 date:   2019-02-09
-last_modified_at: 2022-02-05
+last_modified_at: 2024-02-05
 categories: мнение
-permalink: "/blog/kak-privlech-klientov/"
+permalink: "/blog/klienty-vybirayut-brendy-po-cennostyam/"
 tags: "управление"
 image: /assets/images/tizers/tizer-55.jpg
 keywords: "привлечь клиентов брендинг бренд"
 ---
 
-{% include post__header.html %}
+{% include post__header--update.html %}
 
 <p>Потребителей привлекает не&nbsp;перечень полезных характеристик, а&nbsp;набор ценностей и&nbsp;взглядов, которые стоят за&nbsp;товаром. <strong>Если товар ассоциируется с&nbsp;тем, во&nbsp;что верит и&nbsp;что разделяет покупатель, товар&nbsp;— хороший. Если нет, товар&nbsp;— плохой.</strong> </p>
 

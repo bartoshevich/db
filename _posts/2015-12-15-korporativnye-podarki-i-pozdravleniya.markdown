@@ -57,10 +57,10 @@ image: /assets/images/tizers/tizer-13.jpg
 <p class="mb-m "> Идеи для развития:</p>
 <ul >
 <li class="list-li">
-  <a href="/blog/novogodnee-oformlenie-magazina/" class="link">Новогоднее оформление магазина</a>
+  <a href="/blog/novogodnee-oformlenie-magazina/" class="link">Как оформить магазин к&nbsp;Новому году: визуальный мерчендайзинг без ошибок</a>
 </li>
 <li class="list-li">
-  <a href="/blog/direktor-xochet-korporativ/" class="link">Статья для директора, который хочет организовать корпоратив</a>
+  <a href="/blog/pochemu-korporativy-ne-rabotayut/" class="link">Корпоративы не&nbsp;работают: компании тратят деньги впустую</a>
 </li>
 <li class="list-li">
   <a href="/blog/marketing-v-afrike-i-migraciya/" class="link"> Трудовая миграция и&nbsp;маркетинг: как работать там, где все иначе </a>

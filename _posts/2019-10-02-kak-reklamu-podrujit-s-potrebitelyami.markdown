@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Реклама против приватности: как вернуть доверие клиентов"
-name: "Реклама и&nbsp;приватность: стратегия восстановления доверия"
-description: "Как&nbsp;реклама влияет на&nbsp;приватность клиентов? Разбираю причины недоверия к&nbsp;онлайн рекламе и&nbsp;предлагаю шаги для построения маркетинга без нарушения приватности."
+title:  "Реклама и приватность: как восстановить доверие клиентов"
+name: "Маркетинг без слежки: как вернуть доверие клиентов к&nbsp;онлайн-рекламе"
+description: "Модель онлайн-рекламы рушится: люди блокируют трекинг, не&nbsp;хотят делиться данными. Какие подходы помогут маркетологам адаптироваться и&nbsp;сохранить аудиторию?"
 date:   2019-10-02
 last_modified_at: 2024-11-05
 categories: мнение
@@ -247,21 +247,21 @@ keywords: "приватность в интернете, доверие клие
 <p class="mb-m mt-m bold"> Идеи для развития:</p>
 <ul class="addictive-spacing">
 <li class="list-li">
-  <a href="/blog/ethical-marketing-dark-patterns/" class="link"> Преодоление темных паттернов&nbsp;&mdash; путь к&nbsp;устойчивому бизнесу</a>
+  <a href="/blog/ethical-marketing-dark-patterns/" class="link">Темные паттерны в&nbsp;маркетинге: почему они вредят бизнесу и&nbsp;как работать иначе</a>
 </li>
 <li class="list-li">
   <a href="/blog/perfomance-and-brand-marketing/" class="link"> Бренд и&nbsp;перфоманс маркетинг&nbsp;&mdash; что важно знать маркетологу</a>
 </li>
 <li class="list-li">
-  <a href="/blog/system-marketing/" class="link"> От&nbsp;мифов к&nbsp;эффективной практике в&nbsp;системном маркетинге</a>
+  <a href="/blog/system-marketing/" class="link"> Таблицы и&nbsp;схемы не&nbsp;делают маркетинг системным</a>
 </li>
 
 <li class="list-li">
-  <a href="/blog/brand-conception-hormann/" class="link">Создаю концепцию бренда для компании Hörmann</a>
+  <a href="/blog/razrabotka-koncepcii-brenda-hormann/" class="link">Создаю концепцию бренда для компании H&ouml;rmann</a>
 </li>
 
 <li class="list-li">
-  <a href="/blog/igra/" class="link">Игра в&nbsp;&laquo;Спасителя&raquo; в&nbsp;маркетинге</a>
+  <a href="/blog/lovushka-dlya-marketologov-igra-spasitel/" class="link">Игра в&nbsp;&laquo;Спасителя&raquo;: как маркетологи становятся жертвами</a>
 </li>
 
 

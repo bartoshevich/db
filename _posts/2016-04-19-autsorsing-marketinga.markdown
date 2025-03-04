@@ -154,10 +154,10 @@ image: /assets/images/tizers/tizer-19.jpg
   <a href="/blog/stars/" class="link"> О&nbsp;звездах и&nbsp;богах маркетинга</a>
 </li>
 <li class="list-li">
-  <a href="/blog/algoritm-provedeniya-reklamnoj-kampanii/" class="link">Рекламная кампания: алгоритм проведения</a>
+  <a href="/blog/algoritm-reklamnoj-kampanii/" class="link">Как&nbsp;разработать рекламную кампанию: полный алгоритм от&nbsp;идеи до&nbsp;оценки эффективности</a>
 </li>
 <li class="list-li">
-  <a href="/blog/choice/" class="link">Почему три варианта концепции рекламы плохо</a>
+  <a href="/blog/kak-agentstva-skryvayut-slabye-resheniya/" class="link">Как рекламные агентства скрывают слабые решения</a>
 </li>
 <li class="list-li">
   <a href="/blog/research-quality/" class="link">Как контролировать качество маркетингового исследования</a>

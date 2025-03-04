@@ -107,16 +107,16 @@ image: /assets/images/tizers/tizer-4.jpg
 <p class="mb-m mt-m"> Идеи для развития:</p>
 <ul class="addictive-spacing">
 <li class="list-li">
-  <a href="/blog/marketers/" class="link"> Мастер-класс по&nbsp;найму маркетологов</a>
+  <a href="/blog/kak-uznat-silnogo-marketologa/" class="link"> Как узнать сильного маркетолога на&nbsp;собеседовании</a>
 </li>
 <li class="list-li">
-  <a href="/blog/primer-swot-analiza/" class="link"> Делаем SWOT-анализ: как избежать типичных ошибок</a>
+  <a href="/blog/oshibki-v-swot-analize-i-kak-ih-izbezhat/" class="link"> Разбираем ошибки в&nbsp;SWOT-анализе: как их&nbsp;избежать и&nbsp;провести анализ правильно </a>
 </li>
 <li class="list-li">
   <a href="/blog/share-of-searches/" class="link"> Доля в&nbsp;поиске&nbsp;&mdash; новый показатель в&nbsp;маркетинге</a>
 </li>
 <li class="list-li">
-  <a href="/blog/how-to-effectively-complete-tasks-and-manage-projects/" class="link"> Почему задачи не&nbsp;выполняются и&nbsp;как это исправить</a>
+  <a href="/blog/how-to-effectively-complete-tasks-and-manage-projects/" class="link"> Задачи &laquo;выполнены&raquo;, но&nbsp;результата нет: разбор ошибок</a>
 </li>
 <li class="list-li">
   <a href="/blog/100-dnej-marketologa/" class="link"> Первые сто дней маркетолога на&nbsp;новом рабочем&nbsp;месте</a>

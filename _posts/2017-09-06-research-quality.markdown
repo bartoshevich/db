@@ -1,10 +1,10 @@
 ---
 layout: post
-title:  "Качество проведения маркетингового исследования: способы контроля"
+title:  "Контроль качества исследований: как избежать обмана"
 name: "Как контролировать качество маркетингового исследования"
-description: "Исследовательские агентства обманывают. Если вы&nbsp;не&nbsp;контролируете качество проведения маркетингового исследования, то&nbsp;возможно обманывают вас."
+description: "Ошибки в&nbsp;маркетинговых исследованиях стоят бизнесу миллионов. Как проверить агентства, выявить недостоверные данные и&nbsp;не&nbsp;принимать ошибочных решений?"
 date:   2017-09-06
-last_modified_at: 2022-02-05
+last_modified_at: 2024-02-05
 categories: инструкции
 permalink: "/blog/research-quality/"
 tags: "управление инструменты интервью"
@@ -197,13 +197,13 @@ keywords: "контроль исследовательских агентств"
 <p class="mb-m mt-m italic"> Идеи для развития:</p>
 <ul class="addictive-spacing">
 <li class="list-li">
-  <a href="/blog/3-pravila-marketingovyx-issledovanij/" class="link"> Как&nbsp;выжать из&nbsp;маркетинговых исследований максимум: правила для руководителей</a>
+  <a href="/blog/pravila-marketingovyx-issledovanij/" class="link">Три правила маркетинговых исследований: как получить данные и&nbsp;не&nbsp;потратить бюджет впустую</a>
 </li>
 <li class="list-li">
   <a href="/blog/eye-tracking/" class="link"> Как&nbsp;оптимизируют маркетинговые кампании с&nbsp;помощью айтрекинга</a>
 </li>
 <li class="list-li">
-  <a href="/blog/autsorsing-marketinga/" class="link">Аутсорсинг маркетинговых услуг: как защитить деньги компании</a>
+  <a href="/blog/autsorsing-marketinga/" class="link">Аутсорсинг маркетинга: как избежать ошибок и&nbsp;снизить риски</a>
 </li>
 <li class="list-li">
   <a href="/blog/marketing-bolshe-chem-prodazhi/" class="link">От&nbsp;распродаж к&nbsp;стратегии: почему маркетинг&nbsp;&mdash; это больше, чем просто продажи</a>

@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "Как Улучшить Рекламный Текст: Кейс «Атлант Телеком»"
-name: "Переработка рекламного текста для «Атлант Телеком»"
-description: "Анализ и&nbsp;улучшение рекламного текста «Атлант Телеком»: переход от&nbsp;стандартного предложения к&nbsp;убедительному объявлению. Инсайты и&nbsp;рекомендации."
+title: "Как улучшить рекламный текст: разбор листовки «Атлант Телеком»"
+name: "Анализ и&nbsp;переработка рекламного текста &laquo;Атлант Телеком&raquo;: исправляю ошибки"
+description: "Плохая реклама&nbsp;&mdash; потерянные клиенты. Разбираю рекламный текст &laquo;Атлант Телеком&raquo;, выявляю слабые места и&nbsp;предлагаю улучшенный вариант для продаж."
 date:   2015-08-10
 last_modified_at: 2023-08-14
 categories: опыт
@@ -106,22 +106,22 @@ image: /assets/images/tizers/tizer-2.jpg
 <p class="mb-m mt-m"> Идеи для развития:</p>
 <ul class="addictive-spacing">
 <li class="list-li">
-  <a href="/blog/dlya-tex-kto-pishet/" class="link"> Как написать сильный текст: полезные ресурсы</a>
+  <a href="/blog/redaktirovanie-teksta-instrumenty/" class="link"> Как редактировать текст: проверенные методы, сервисы и&nbsp;лайфхаки</a>
 </li>
 <li class="list-li">
   <a href="/blog/put-marketologa/" class="link"> Дао маркетолога</a>
 </li>
 <li class="list-li">
-  <a href="/blog/editorial-policy/" class="link"> Зачем бренду редакционная политика</a>
+  <a href="/blog/editorial-policy/" class="link"> Редакционная политика бренда: мой опыт, принципы и&nbsp;выводы</a>
 </li>
 <li class="list-li">
-  <a href="/blog/marketing-for-industrial-giants-12-archetypes/" class="link"> Как 12 архетипов меняют B2B маркетинг</a>
+  <a href="/blog/12-archetypes-b2b-marketing/" class="link"> Как 12 архетипов меняют B2B маркетинг</a>
 </li>
 <li class="list-li">
   <a href="/blog/filmy-dlya-marketologov/" class="link"> Кино, меняющее взгляд на&nbsp;маркетинг</a>
 </li>
 <li class="list-li">
-  <a href="/blog/chatgpt-mozhet-preobrazit-brend-i-reklamnye-kampanii/" class="link"> Использование ChatGPT в&nbsp;маркетинге: умные технологии для бизнеса</a>
+  <a href="/blog/chatgpt-v-marketinge/" class="link"> Использование ChatGPT в&nbsp;маркетинге: умные технологии для бизнеса</a>
 </li>
 </ul>
 </footer>

@@ -1,12 +1,12 @@
 ---
 layout: post
-title: "Игра в «Спасителя» в маркетинге: личный опыт"
-name: "Игра в «Спасителя» в&nbsp;маркетинге"
-description: "Несколько раз я&nbsp;играл в&nbsp;&laquo;Спасителя&raquo; бизнеса. Осознал и&nbsp;перестал играть с&nbsp;клиентами. Делюсь правилами, которые вывел для себя."
+title: "Ловушка для маркетолога: почему роль «спасителя» опасна и как выйти из неё"
+name: "Игра в&nbsp;&laquo;Спасителя&raquo;: как маркетологи становятся жертвами"
+description: "Как маркетологи попадают в&nbsp;ловушку &laquo;спасителя&raquo; и&nbsp;становятся виноватыми за&nbsp;провалы клиентов? Разбираю, как выйти из&nbsp;этой игры и&nbsp;работать осознанно."
 date:   2017-02-18
 last_modified_at: 2023-09-23
 categories: мнение
-permalink: "/blog/igra/"
+permalink: "/blog/lovushka-dlya-marketologov-igra-spasitel/"
 image: /assets/images/tizers/tizer-37.jpg
 tags: "маркетолог управление"
 keywords: "психология в маркетинге, стратегии маркетинга, отношения с клиентами, эффективный маркетинг, консультация по маркетингу, маркетинговые техники, бизнес-стратегии"
@@ -66,10 +66,10 @@ keywords: "психология в маркетинге, стратегии ма
 <p class="mb-m mt-m">Идеи для развития:</p>
 <ul class="addictive-spacing">
 <li class="list-li">
-  <a href="/blog/difficult-clients/" class="link"> Делюсь опытом работы с&nbsp;проблемными клиентами</a>
+  <a href="/blog/kak-rabotat-s-problemnymi-klientami/" class="link">Работа с&nbsp;проблемными клиентами: как вести переговоры и&nbsp;снижать риски</a>
 </li>
 <li class="list-li">
-  <a href="/blog/stars/" class="link"> Статья о&nbsp;роли маркетологов в&nbsp;итоговых результатах компании</a>
+  <a href="/blog/stars/" class="link"> О&nbsp;звёздах и&nbsp;богах маркетинга: кто действительно делает бизнес успешным</a>
 </li>
 <li class="list-li">
   <a href="/blog/put-marketologa/" class="link"> Дао маркетолога</a>

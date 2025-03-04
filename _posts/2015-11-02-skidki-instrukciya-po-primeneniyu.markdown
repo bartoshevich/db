@@ -43,7 +43,7 @@ image: /assets/images/tizers/tizer-11.jpg
 <section class="full-bleed row-gap--m max-width-text" >
 <h2 class="section__title h1 bold ">Как предлагать скидки правильно </h2>
 
-<p>Сущность маркетинга — в&nbsp;создании и&nbsp;подкреплении <a class="link" href="/blog/2-idei-po-razvitiyu-marketinga/#distinction">отличий</a>. В&nbsp;рамках маркетинговой кампании <strong>снижайте стоимость на&nbsp;условиях, которые подчеркивают ценность бренда и&nbsp;укрепляют отличия от&nbsp;конкурентов</strong>.</p>
+<p>Сущность маркетинга — в&nbsp;создании и&nbsp;подкреплении <a class="link" href="/blog/vospriyatie-klienta-uspeh/#distinction">отличий</a>. В&nbsp;рамках маркетинговой кампании <strong>снижайте стоимость на&nbsp;условиях, которые подчеркивают ценность бренда и&nbsp;укрепляют отличия от&nbsp;конкурентов</strong>.</p>
 
 <p>Поясню на&nbsp;примере <a class="link" href="/blog/3dom-mebel-dlya-semi/">компании 3Dom</a>&nbsp;— производителя мебели для семьи. Многие «мебельщики» предлагают скидки. Отличие 3Dom в&nbsp;том, что скидки получают только&nbsp;те, кто состоит в&nbsp;официальном браке. Предлагая участие в&nbsp;дисконтной программе, компания невольно подчеркивает ценности бренда.</p>
 
@@ -64,16 +64,16 @@ image: /assets/images/tizers/tizer-11.jpg
 <ul class="addictive-spacing">
 
 <li class="list-li">
-  <a class="link" href="/blog/akcii-so-skidkami/">Как отличаться среди акций со&nbsp;скидками</a>
+  <a class="link" href="/blog/akcii-so-skidkami/">Как компании выделиться среди акций со&nbsp;скидками</a>
 </li>
 <li class="list-li">
   <a class="link" href="/blog/marketing-bolshe-chem-prodazhi/">От&nbsp;распродаж к&nbsp;стратегии: почему маркетинг&nbsp;&mdash; это больше, чем просто продажи</a>
 </li>
 <li class="list-li">
-  <a class="link" href="/blog/marketing-v-krizis/">Маркетинг в&nbsp;кризис: стратегия для брендов</a>
+  <a class="link" href="/blog/marketing-v-krizis/">Антикризисный маркетинг: стратегия и&nbsp;ценности бренда определяют успех</a>
 </li>
 <li class="list-li">
-  <a href="/blog/primer-swot-analiza/" class="link"> SWOT-анализ предприятия. Разбираю пример </a>
+  <a href="/blog/oshibki-v-swot-analize-i-kak-ih-izbezhat/" class="link"> Разбираем ошибки в&nbsp;SWOT-анализе: как их&nbsp;избежать и&nbsp;провести анализ правильно </a>
 </li>
 <li class="list-li">
   <a href="/blog/marketing-v-afrike-i-migraciya/" class="link"> Трудовая миграция и&nbsp;маркетинг: как работать там, где все иначе </a>

@@ -30,7 +30,7 @@ keywords: "смысловой маркетинг, ценности, концеп
 		<p>Создание продуктов и&nbsp;услуг, которые имеют значение для потребителей. Вместо вопросов «Как получить бо́льшую аудиторию?», «Как увеличить конверсию?», маркетолог спрашивает «Что я&nbsp;могу изменить, чтобы это имело значение для клиентов?».</p>
  	</li>
 	<li> 
-		<p>Ориентация на&nbsp;смыслы, а&nbsp;не&nbsp;только на&nbsp;функциональные характеристики. Это поможет потребителям понять, как продукт или услуга вписывается в&nbsp;их&nbsp;систему ценностей. <a class="link" href="/blog/kak-privlech-klientov/">Выбор на&nbsp;основе убеждений&nbsp;— растущий тренд.</a> Товар&nbsp;— (уже) не&nbsp;перечень полезных характеристик. Это набор ценностей и&nbsp;убеждений, которыми стремится жить человек. </p>
+		<p>Ориентация на&nbsp;смыслы, а&nbsp;не&nbsp;только на&nbsp;функциональные характеристики. Это поможет потребителям понять, как продукт или услуга вписывается в&nbsp;их&nbsp;систему ценностей. <a class="link" href="/blog/klienty-vybirayut-brendy-po-cennostyam/">Выбор на&nbsp;основе убеждений&nbsp;— растущий тренд.</a> Товар&nbsp;— (уже) не&nbsp;перечень полезных характеристик. Это набор ценностей и&nbsp;убеждений, которыми стремится жить человек. </p>
  	</li>
  </ul>
 
@@ -116,13 +116,16 @@ keywords: "смысловой маркетинг, ценности, концеп
   <a href="/blog/perfomance-and-brand-marketing/" class="link">Бренд и&nbsp;перфоманс маркетинг&nbsp;&mdash; что важно знать маркетологу</a>
 </li>
 <li class="list-li">
-  <a href="/blog/put-marketologa/" class="link"> Дао маркетолога</a>
+  <a href="/blog/put-marketologa/" class="link">Дао маркетолога: путь мастера</a>
 </li>
 <li class="list-li">
   <a href="/blog/marketing-bez-nuzhdy-prodat/" class="link"> Маркетинг без нужды продать</a>
 </li>
 <li class="list-li">
-  <a href="/blog/seth-godin/" class="link"> Сет Годин «Это маркетинг» </a>
+  <a href="/blog/set-godin-eto-marketing/" class="link">&laquo;Это маркетинг&raquo; Сета Година: в&nbsp;чем суть маркетинга на&nbsp;самом деле</a>
+</li>
+<li class="list-li">
+  <a href="/blog/lovushka-dlya-marketologov-igra-spasitel/" class="link">Игра в&nbsp;&laquo;Спасителя&raquo;: как маркетологи становятся жертвами</a>
 </li>
 </ul>
 </footer>

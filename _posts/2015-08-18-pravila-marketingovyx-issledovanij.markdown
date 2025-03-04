@@ -52,7 +52,7 @@ image: /assets/images/tizers/tizer-3.jpg
 </p>
 
 <div class="side">
-<p>Подробнее об&nbsp;этом читайте <a class="link" href="/blog/analiz-prodaj/" >в&nbsp;&laquo;Алгоритме анализа продаж&raquo;</a></p>
+<p>Подробнее об&nbsp;этом читайте <a class="link" href="/blog/analiz-prodazh-nielsen/" >в&nbsp;&laquo;Алгоритме анализа продаж&raquo;</a></p>
 </div>
 </div>
 </section>
@@ -103,13 +103,13 @@ image: /assets/images/tizers/tizer-3.jpg
   <a href="/blog/research-quality/" class="link"> Как контролировать качество маркетингового исследования</a>
 </li>
 <li class="list-li">
-  <a href="/blog/eye-tracking/" class="link"> Айтрекинг: какую пользу приносит и&nbsp;как использовать правильно</a>
+  <a href="/blog/eye-tracking/" class="link"> Айтрекинг в&nbsp;маркетинге: как понять клиентов и&nbsp;сделать рекламу сильнее</a>
 </li>
 <li class="list-li">
-  <a href="/blog/autsorsing-marketinga/" class="link"> Аутсорсинг маркетинговых услуг: как защитить деньги компании</a>
+  <a href="/blog/autsorsing-marketinga/" class="link"> Аутсорсинг маркетинга: как избежать ошибок и&nbsp;снизить риски</a>
 </li>
 <li class="list-li">
-  <a href="/blog/how-to-effectively-complete-tasks-and-manage-projects/" class="link"> Почему задачи не&nbsp;выполняются и&nbsp;как это исправить</a>
+  <a href="/blog/how-to-effectively-complete-tasks-and-manage-projects/" class="link">Задачи &laquo;выполнены&raquo;, но&nbsp;результата нет: разбор ошибок</a>
 </li>
 <li class="list-li">
   <a href="/blog/100-dnej-marketologa/" class="link"> Первые сто дней маркетолога на&nbsp;новом рабочем&nbsp;месте</a>

@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "Адаптация маркетинга в кризис: Советы и стратегии"
-name:  "Адаптация маркетинговой стратегии в&nbsp;условиях кризиса"
-description: "Рассказываю, о&nbsp;важности стратегического мышления и&nbsp;эффективных подходах к&nbsp;маркетингу и&nbsp;маркетинговой стратегии в&nbsp;условиях кризиса."
+title: "В кризис маркетинговая стратегия важнее, чем кажется"
+name:  "Маркетинговая стратегия важна даже в&nbsp;кризис&nbsp;&mdash; и&nbsp;особенно в&nbsp;кризис"
+description: "Стратегия кажется лишней в&nbsp;кризис, но&nbsp;именно её&nbsp;отсутствие ведёт к&nbsp;потере рынка. Почему важно не&nbsp;просто &laquo;ждать лучших времён&raquo;, а&nbsp;действовать осмысленно?"
 date:   2015-07-31
 last_modified_at: 2023-08-17
 categories: мнение
@@ -49,16 +49,16 @@ image: /assets/images/tizers/tizer-1.jpg
 
 <p class="mb-m mt-m"> Если вы&nbsp;хотите узнать больше о&nbsp;том, как адаптировать ваш маркетинговый план к&nbsp;текущим экономическим условиям, изучите следующие материалы:</p>
 <ul class="addictive-spacing">
-<li class="list-li"><a href="/blog/system-marketing/" class="link">Системный маркетинг: от&nbsp;мифов к&nbsp;эффективной практике</a>
+<li class="list-li"><a href="/blog/system-marketing/" class="link">Таблицы и&nbsp;схемы не&nbsp;делают маркетинг системным</a>
 </li>
 <li class="list-li">
-  <a href="/blog/marketing-v-krizis/" class="link"> Маркетинг в&nbsp;кризис: стратегия для брендов</a>
+  <a href="/blog/marketing-v-krizis/" class="link"> Антикризисный маркетинг: стратегия и&nbsp;ценности бренда определяют успех</a>
 </li>
 <li class="list-li">
   <a href="/blog/marketing-in-belarus/" class="link"> Задачи маркетолога в&nbsp;Беларуси</a>
 </li>
 <li class="list-li">
-  <a href="/blog/primer-swot-analiza/" class="link"> SWOT-анализ предприятия. Разбираю пример </a>
+  <a href="/blog/oshibki-v-swot-analize-i-kak-ih-izbezhat/" class="link"> Разбираем ошибки в&nbsp;SWOT-анализе: как их&nbsp;избежать и&nbsp;провести анализ правильно </a>
 </li>
 <li class="list-li">
   <a href="/blog/marketing-bolshe-chem-prodazhi/" class="link"> От&nbsp;распродаж к&nbsp;стратегии: почему маркетинг&nbsp;&mdash; это больше, чем просто продажи </a>

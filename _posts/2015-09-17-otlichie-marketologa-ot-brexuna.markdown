@@ -15,7 +15,7 @@ keywords: "характеристика маркетолога"
 {% include post__header.html %}
 
 
-<p>Здорово, когда директор рассматривает <b>маркетолога</b> как помощника в&nbsp;управлении бизнесом. Когда <a class="link" href="/blog/3-pravila-marketingovyx-issledovanij/" title="правила маркетинговых исследований">маркетолог исследует рынок,</a> действия конкурентов, реакции потребителей и&nbsp;предоставляет руководству необходимую для принятия решений информацию. Только так маркетинг принесет пользу компании.</p>
+<p>Здорово, когда директор рассматривает <b>маркетолога</b> как помощника в&nbsp;управлении бизнесом. Когда <a class="link" href="/blog/pravila-marketingovyx-issledovanij/" title="правила маркетинговых исследований">маркетолог исследует рынок,</a> действия конкурентов, реакции потребителей и&nbsp;предоставляет руководству необходимую для принятия решений информацию. Только так маркетинг принесет пользу компании.</p>
 <p>И&nbsp;<strong>если маркетолог влияет на&nbsp;политику предприятия, важно уметь отличать грамотный анализ рынка от&nbsp;брехни</strong>. Когда сотрудник не&nbsp;владеет точной информацией, пытается это скрыть и&nbsp;выдает сказанное за&nbsp;истину, то&nbsp;создает условия для ошибочных решений руководителя.</p>
 
 
@@ -58,19 +58,19 @@ keywords: "характеристика маркетолога"
 <p class="mb-m mt-m"> Идеи для развития:</p>
 <ul class="addictive-spacing">
 <li class="list-li">
-  <a href="/blog/stars/" class="link"> О&nbsp;звездах и&nbsp;богах маркетинга</a>
+  <a href="/blog/stars/" class="link"> О&nbsp;звёздах и&nbsp;богах маркетинга: кто действительно делает бизнес успешным</a>
 </li>
 <li class="list-li">
   <a href="/blog/put-marketologa/" class="link"> Дао маркетолога</a>
 </li>
 <li class="list-li">
-  <a href="/blog/igra/" class="link"> Маркетинг и&nbsp;игра в&nbsp;«Cпасителя»</a>
+  <a href="/blog/lovushka-dlya-marketologov-igra-spasitel/" class="link"> Игра в&nbsp;&laquo;Спасителя&raquo;: как маркетологи становятся жертвами</a>
 </li>
 <li class="list-li">
   <a href="/blog/filmy-dlya-marketologov/" class="link"> Кино, меняющее взгляд на&nbsp;маркетинг</a>
 </li>
 <li class="list-li">
-  <a href="/blog/chatgpt-mozhet-preobrazit-brend-i-reklamnye-kampanii/" class="link"> Использование ChatGPT в&nbsp;маркетинге: умные технологии для бизнеса</a>
+  <a href="/blog/chatgpt-v-marketinge/" class="link"> Использование ChatGPT в&nbsp;маркетинге: умные технологии для бизнеса</a>
 </li>
 </ul>
 </footer>

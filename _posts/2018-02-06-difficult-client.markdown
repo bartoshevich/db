@@ -289,11 +289,11 @@ keywords: "проблемный клиент"
 <ul class="addictive-spacing">
 
 <li class="list-li">
-  <a href="/blog/stars/" class="link">Роль маркетологов в&nbsp;итоговых результатах компании</a>
+  <a href="/blog/stars/" class="link">О&nbsp;звёздах и&nbsp;богах маркетинга: кто действительно делает бизнес успешным</a>
 </li>
 
 <li class="list-li">
-  <a href="/blog/igra/" class="link">Игра в&nbsp;«Спасителя» в&nbsp;маркетинге</a>
+  <a href="/blog/lovushka-dlya-marketologov-igra-spasitel/" class="link">Игра в&nbsp;&laquo;Спасителя&raquo;: как маркетологи становятся жертвами</a>
 </li>
 
 <li class="list-li">

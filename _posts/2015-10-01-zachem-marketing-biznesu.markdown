@@ -92,13 +92,13 @@ keywords: "маркетинг, маркетинг для бизнеса, экс�
 <p class="mb-m mt-m">Идеи для развития:</p>
 <ul class="addictive-spacing">
 <li class="list-li">
-  <a href="/blog/pochemu-net-prodazh/" class="link">Почему нет продаж и&nbsp;что делать</a>
+  <a href="/blog/pochemu-net-prodazh/" class="link">Нет&nbsp;продаж? Как понять причину и&nbsp;что с&nbsp;этим делать</a>
 </li>
 <li class="list-li">
-  <a href="/blog/ethical-marketing-dark-patterns/" class="link"> Этичный маркетинг: преодоление темных паттернов</a>
+  <a href="/blog/ethical-marketing-dark-patterns/" class="link"> Темные паттерны в&nbsp;маркетинге: почему они вредят бизнесу и&nbsp;как работать иначе</a>
 </li>
 <li class="list-li">
-  <a href="/blog/marketing-for-industrial-giants-12-archetypes/" class="link"> Как 12 архетипов меняют B2B маркетинг</a>
+  <a href="/blog/12-archetypes-b2b-marketing/" class="link"> Как 12 архетипов меняют B2B маркетинг</a>
 </li>
 <li class="list-li">
   <a href="/blog/marketing-bolshe-chem-prodazhi/" class="link">От&nbsp;распродаж к&nbsp;стратегии: почему маркетинг&nbsp;&mdash; это больше, чем просто продажи</a>

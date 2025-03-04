@@ -13,7 +13,7 @@ image:  /assets/images/tizers/tizer-24.jpg
 ---
 
 {% include post__header.html %}
-<p>23&nbsp;июня прошел региональный семинар «1С-Битрикс» в&nbsp;Минске. Как сэкономить время и&nbsp;деньги и&nbsp;избежать ошибок при создании и&nbsp;продвижении <a class="link" href="/blog/delovoy/">интернет-магазина</a>, организаторы обещали показать на&nbsp;примерах. Я&nbsp;посетил семинар и&nbsp;расскажу, насколько он&nbsp;полезен для руководителей бизнеса и&nbsp;<b>маркетологов</b>.</p>
+<p>23&nbsp;июня прошел региональный семинар «1С-Битрикс» в&nbsp;Минске. Как сэкономить время и&nbsp;деньги и&nbsp;избежать ошибок при создании и&nbsp;продвижении <a class="link" href="/blog/kejs-internet-magazina-delovoy/">интернет-магазина</a>, организаторы обещали показать на&nbsp;примерах. Я&nbsp;посетил семинар и&nbsp;расскажу, насколько он&nbsp;полезен для руководителей бизнеса и&nbsp;<b>маркетологов</b>.</p>
 <p class="mb-m">Условно семинар разделю на&nbsp;три части:</p>
 <ul class="additive-spacing">
 	<li class="list-li"><a class="link" href="#1">Презентация продуктов «1С-Битрикс».</a> О&nbsp;возможностях «1С-Битрикс» через функции интернет-магазина и&nbsp;CRM-решения говорили сотрудники B3x.by.</li>
@@ -109,16 +109,16 @@ image:  /assets/images/tizers/tizer-24.jpg
   <a href="/blog/accessibility/" class="link"> Доступность (accessibility) сайтов&nbsp;&mdash; новая норма</a>
 </li>
 <li class="list-li">
-  <a href="/blog/faberge/" class="link"> Мастерство создания запоминающихся брендов</a>
+  <a href="/blog/smelyj-brend/" class="link"> Как смелость помогает брендам выделяться и&nbsp;оставаться собой</a>
 </li>
 <li class="list-li">
-  <a href="/blog/sajt-agrousadby/" class="link"> Ошибки и&nbsp;решения при создании сайта для агроусадьбы</a>
+  <a href="/blog/sajt-agrousadby/" class="link"> Ошибки и&nbsp;решения при создании сайта агроусадьбы для иностранных гостей</a>
 </li>
 <li class="list-li">
   <a href="/blog/optimizaciya-izobrajenii/" class="link"> Эффективные способы оптимизации изображений</a>
 </li>
 <li class="list-li">
-  <a href="/blog/chatgpt-mozhet-preobrazit-brend-i-reklamnye-kampanii/" class="link"> Использование ChatGPT в маркетинге</a>
+  <a href="/blog/chatgpt-v-marketinge/" class="link"> Использование ChatGPT в маркетинге</a>
 </li>
 </ul>
 </footer>

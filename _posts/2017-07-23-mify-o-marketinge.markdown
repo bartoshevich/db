@@ -1,12 +1,12 @@
 ---
 layout: post
-title: "Разбираюсь в мифах о маркетинге"
-name: "Пять распространенных мифов о&nbsp;маркетинге"
-description: "Разбираюсь в&nbsp;распространенных мифах о&nbsp;маркетинге, чтобы помочь вам лучше понять, как строить эффективные маркетинговые стратегии и&nbsp;избегать популярных ошибок "
+title: "Мифы о маркетинге, из-за которых бизнес теряет деньги"
+name: "Разбираю мифы о&nbsp;маркетинге: как не&nbsp;потерять клиентов и&nbsp;бюджет"
+description: "Не каждый маркетинг работает. В&nbsp;какие мифы продолжают верить компании и&nbsp;как они мешают росту бизнеса? 5&nbsp;распространённых заблуждений, которые важно знать. "
 date:   2017-07-23
 last_modified_at: 2022-01-24
 categories: мнение
-permalink: "/blog/misconceptions/"
+permalink: "/blog/mify-o-marketinge/"
 image: /assets/images/tizers/tizer-43.jpg
 tags: "интернет-маркетинг семинары управление"
 keywords: "мифы о маркетинге"
@@ -78,7 +78,7 @@ keywords: "мифы о маркетинге"
 
 <p class="mt-m mb-m italic">Узнать больше:</p>
 <ul >
-<li class="list-li"> <a class="link" href="/blog/konkurentnoe-preimushhestvo/">Конкурентное преимущество, о&nbsp;котором молчат маркетологи</a></li>
+<li class="list-li"> <a class="link" href="/blog/konkurentnoe-preimushhestvo/">Маркетинг, который вызывает доверие,&nbsp;&mdash; главное конкурентное преимущество</a></li>
 <li class="list-li"> <a class="link" href="/blog/marketing-bez-nuzhdy-prodat/">Маркетинг без нужды продать</a></li>
 <li class="list-li"> <a class="link" href="/blog/metodika-nps-indeks-loyalnosti-klientov/">Net Promoter Score: как определить и&nbsp;использовать правильно</a></li>
 </ul>
@@ -111,8 +111,8 @@ keywords: "мифы о маркетинге"
 
 <p class="mt-m mb-m italic">Узнать больше:</p>
 <ul>
-<li class="list-li"><a class="link" href="/blog/test-drajv-dlya-rosta-prodazh/">Тест-драйв для роста продаж</a></li>
-<li class="list-li"> <a class="link" href="/blog/customer-journey-map/">Карта потребительского опыта&nbsp;— алгоритм составления</a></li>
+<li class="list-li"><a class="link" href="/blog/test-drajv-dlya-rosta-prodazh/">Хотите увеличить продажи? Дайте клиенту попробовать</a></li>
+<li class="list-li"> <a class="link" href="/blog/customer-journey-map/">Как создать Customer Journey Map (CJM) и&nbsp;превратить клиентов в&nbsp;лояльных покупателей</a></li>
 </ul>
 
 </article>
@@ -133,8 +133,8 @@ keywords: "мифы о маркетинге"
 
 <p class="mt-m mb-m italic">Узнать больше:</p>
 <ul>
-<li class="list-li"><a class="link" href="/blog/delovoy/">Как&nbsp;создать и&nbsp;развивать интернет-магазин</a></li>
-<li class="list-li"> <a class="link" href="/blog/sovety-po-razrabotke-i-razvitiyu-internet-proektov/">Студия Борового: как развивать интернет-проекты</a></li>
+<li class="list-li"><a class="link" href="/blog/kejs-internet-magazina-delovoy/">Кейс delovoy.by: создание интернет-магазина, SEO и&nbsp;рост продаж</a></li>
+<li class="list-li"> <a class="link" href="/blog/sovety-po-razrabotke-i-razvitiyu-internet-proektov/">Секреты успеха интернет-проектов Студии Борового</a></li>
 <li class="list-li">
   <a href="/blog/system-marketing/" class="link"> Что&nbsp;не&nbsp;так с&nbsp;системным маркетингом?</a>
 </li>
@@ -145,7 +145,7 @@ keywords: "мифы о маркетинге"
 <article class="row-gap--m" id="5">
 <h2 class="section__title h1 bold ">Миф&nbsp;5: «Реклама решит все проблемы с&nbsp;продажами»</h2>
 <p>Часто сталкиваюсь, когда рекламу заказывают по&nbsp;знакомству, без должных расчетов по&nbsp;охвату максимума человек из&nbsp;целевой аудитории. Когда на&nbsp;рекламу возлагают несвойственные ей&nbsp;задачи и&nbsp;функции, а&nbsp;затем разочаровываются и&nbsp;обвиняют всеx и&nbsp;вся. </p>
-<p>Если для решения задач бизнеса не&nbsp;требуется увеличить уровень осведомленности или изменить восприятие клиентов, не&nbsp;рекламируйтесь. Если все это требуется, следуйте <a class="link" href="/blog/algoritm-provedeniya-reklamnoj-kampanii/">алгоритму проведения рекламной кампании</a>. </p>
+<p>Если для решения задач бизнеса не&nbsp;требуется увеличить уровень осведомленности или изменить восприятие клиентов, не&nbsp;рекламируйтесь. Если все это требуется, следуйте <a class="link" href="/blog/algoritm-reklamnoj-kampanii/">алгоритму проведения рекламной кампании</a>. </p>
 
 <p class="mt-m mb-m italic">Узнать больше:</p>
 <ul >

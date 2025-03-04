@@ -239,13 +239,13 @@ image: /assets/images/tizers/tizer-12.jpg
 <p class="mb-m">Для более глубокого понимания различных аспектов маркетинга и анализа данных, вы можете ознакомиться со следующими статьями: </p>
 <ul class="addictive-spacing">
 <li class="list-li">
-  <a href="/blog/system-marketing/" class="link">От мифов к эффективной практике в системном маркетинге</a>
+  <a href="/blog/system-marketing/" class="link">Таблицы и&nbsp;схемы не&nbsp;делают маркетинг системным</a>
 </li>
 <li class="list-li">
-  <a href="/blog/primer-swot-analiza/" class="link"> Делаем SWOT-анализ: Как избежать типичных ошибок</a>
+  <a href="/blog/oshibki-v-swot-analize-i-kak-ih-izbezhat/" class="link"> Разбираем ошибки в&nbsp;SWOT-анализе: как их&nbsp;избежать и&nbsp;провести анализ правильно </a>
 </li>
 <li class="list-li">
-  <a href="/blog/analiz-prodaj/" class="link">Алгоритм анализа продаж</a>
+  <a href="/blog/analiz-prodazh-nielsen/" class="link">Как&nbsp;анализировать продажи: проверенный алгоритм Nielsen</a>
 </li>
 <li class="list-li">
   <a href="/blog/perfomance-and-brand-marketing/" class="link">Бренд и&nbsp;перфоманс маркетинг&nbsp;&mdash; что важно знать маркетологу</a>
@@ -254,7 +254,7 @@ image: /assets/images/tizers/tizer-12.jpg
   <a href="/blog/share-of-searches/" class="link">Доля в&nbsp;поиске&nbsp;&mdash; новый показатель в&nbsp;маркетинге</a>
 </li>
 <li class="list-li">
-  <a href="/blog/emotions-in-marketing/" class="link">Эмоциональный маркетинг: Как использовать эмоции для глубокой связи с&nbsp;клиентами</a>
+  <a href="/blog/kak-brendy-sozdajut-emotsionalnuyu-svyaz/" class="link">Эмоциональный маркетинг: как бренды создают сильную связь с&nbsp;клиентом</a>
 </li>
 <li class="list-li">
   <a href="/blog/marketing-bolshe-chem-prodazhi/" class="link"> От&nbsp;распродаж к&nbsp;стратегии: почему маркетинг&nbsp;&mdash; это больше, чем просто продажи</a>

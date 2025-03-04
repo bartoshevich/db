@@ -32,10 +32,10 @@ image: /assets/images/tizers/tizer-40.jpg
 <p class="mb-m mt-m italic"> Дополнительные материалы</p>
 <ul>
 <li class="list-li">
-  <a class="link" href="/blog/2-idei-po-razvitiyu-marketinga/#distinction">Сущность маркетинга&nbsp;&mdash; в&nbsp;отличиях</a>
+  <a class="link" href="/blog/vospriyatie-klienta-uspeh/#distinction">Сущность маркетинга&nbsp;&mdash; в&nbsp;отличиях</a>
 </li>
 <li class="list-li">
-  <a href="/blog/seth-godin/" class="link"> Сет Годин «Это маркетинг». Ключевые идеи новой книги</a>
+  <a href="/blog/set-godin-eto-marketing/" class="link"> &laquo;Это маркетинг&raquo; Сета Година: в&nbsp;чем суть маркетинга на&nbsp;самом деле</a>
 </li>
 <li class="list-li">
   <a href="/blog/marketing-mind/" class="link"> Акция не&nbsp;сработает, если не&nbsp;думать как маркетолог</a>
@@ -108,13 +108,13 @@ image: /assets/images/tizers/tizer-40.jpg
   <a href="/blog/1s-bitriks/" class="link"> 1С-Битрикс: какие возможности платформы вы&nbsp;упускаете</a>
 </li>
 <li class="list-li">
-  <a href="/blog/sajt-agrousadby/" class="link"> Ошибки и&nbsp;решения при создании сайта для агроусадьбы</a>
+  <a href="/blog/sajt-agrousadby/" class="link"> Ошибки и&nbsp;решения при создании сайта агроусадьбы для иностранных гостей</a>
 </li>
 <li class="list-li">
   <a href="/blog/optimizaciya-izobrajenii/" class="link"> Эффективные способы оптимизации изображений</a>
 </li>
 <li class="list-li">
-  <a href="/blog/chatgpt-mozhet-preobrazit-brend-i-reklamnye-kampanii/" class="link"> Использование ChatGPT в маркетинге</a>
+  <a href="/blog/chatgpt-v-marketinge/" class="link"> Использование ChatGPT в маркетинге</a>
 </li>
 </ul>
 </footer>

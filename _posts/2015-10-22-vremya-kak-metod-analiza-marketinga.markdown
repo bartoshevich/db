@@ -91,19 +91,19 @@ image: /assets/images/tizers/tizer-10.jpg
 <p class="mb-m mt-m"> Идеи для развития:</p>
 <ul class="addictive-spacing">
 <li class="list-li">
-  <a href="/blog/seth-godin/" class="link"> Сет Годин «Это маркетинг». Ключевые идеи книги</a>
+  <a href="/blog/set-godin-eto-marketing/" class="link"> &laquo;Это маркетинг&raquo; Сета Година: в&nbsp;чем суть маркетинга на&nbsp;самом деле</a>
 </li>
 <li class="list-li">
-  <a href="/blog/put-marketologa/" class="link"> Дао&nbsp;маркетолога: путь от&nbsp;мартышки к&nbsp;профессионалу</a>
+  <a href="/blog/put-marketologa/" class="link"> Дао маркетолога: путь мастера</a>
 </li>
 <li class="list-li">
-  <a href="/blog/marketing-v-krizis/" class="link"> Маркетинг в&nbsp;кризис: стратегия для брендов</a>
+  <a href="/blog/marketing-v-krizis/" class="link"> Антикризисный маркетинг: стратегия и&nbsp;ценности бренда определяют успех</a>
 </li>
 <li class="list-li">
-  <a href="/blog/kak-reklamu-podrujit-s-potrebitelyami/" class="link"> Время блокировать рекламу</a>
+  <a href="/blog/kak-reklamu-podrujit-s-potrebitelyami/" class="link"> Маркетинг без слежки: как вернуть доверие клиентов к&nbsp;онлайн-рекламе</a>
 </li>
 <li class="list-li">
-  <a href="/blog/chatgpt-mozhet-preobrazit-brend-i-reklamnye-kampanii/" class="link"> Использование ChatGPT в маркетинге</a>
+  <a href="/blog/chatgpt-v-marketinge/" class="link"> Использование ChatGPT в маркетинге</a>
 </li>
 </ul>
 </footer>

@@ -14,7 +14,7 @@ keywords: "новое рабочее место маркетолога"
 
 {% include post__header.html %}
 
-<p><strong>Что должен знать маркетолог, как следует себя вести и&nbsp;выстраивать отношения с&nbsp;коллегами, чтобы адаптация к&nbsp;новому рабочему месту прошла максимально гладко</strong>. Обсудили с Екатериной Пажитных и&nbsp;Алексеем Шломой. </p> <p>А&nbsp;если вы&nbsp;только готовитесь к&nbsp;собеседованию, статья, <a class="link" href="/blog/marketers/">как&nbsp;правильно оценить профессионализм в&nbsp;маркетинге</a>, может стать для вас полезным ресурсом для успешного прохождения интервью. </p> 
+<p><strong>Что должен знать маркетолог, как следует себя вести и&nbsp;выстраивать отношения с&nbsp;коллегами, чтобы адаптация к&nbsp;новому рабочему месту прошла максимально гладко</strong>. Обсудили с Екатериной Пажитных и&nbsp;Алексеем Шломой. </p> <p>А&nbsp;если вы&nbsp;только готовитесь к&nbsp;собеседованию, статья, <a class="link" href="/blog/kak-uznat-silnogo-marketologa/">как&nbsp;правильно оценить профессионализм в&nbsp;маркетинге</a>, может стать для вас полезным ресурсом для успешного прохождения интервью. </p> 
 
 
 <div class="guests">
@@ -107,16 +107,16 @@ keywords: "новое рабочее место маркетолога"
   <a href="/blog/perfomance-and-brand-marketing/" class="link"> Бренд или конверсия&nbsp;&mdash; на&nbsp;чем фокусироваться маркетологу</a>
 </li>
 <li class="list-li">
-  <a href="/blog/algoritm-provedeniya-reklamnoj-kampanii/" class="link">Рекламная кампания: алгоритм проведения</a>
+  <a href="/blog/algoritm-reklamnoj-kampanii/" class="link">Как&nbsp;разработать рекламную кампанию: полный алгоритм от&nbsp;идеи до&nbsp;оценки эффективности</a>
 </li>
 <li class="list-li">
-  <a href="/blog/dlya-tex-kto-pishet/" class="link">Как написать сильный текст: полезные ресурсы</a>
+  <a href="/blog/redaktirovanie-teksta-instrumenty/" class="link">Как&nbsp;редактировать текст: проверенные методы, сервисы и&nbsp;лайфхаки</a>
 </li>
 <li class="list-li">
   <a href="/blog/research-quality/" class="link">Как контролировать качество маркетингового исследования</a>
 </li>
 <li class="list-li">
-  <a href="/blog/primer-swot-analiza/" class="link">SWOT-анализ предприятия. Разбираю пример</a>
+  <a href="/blog/oshibki-v-swot-analize-i-kak-ih-izbezhat/" class="link">Разбираем ошибки в&nbsp;SWOT-анализе: как их&nbsp;избежать и&nbsp;провести анализ правильно </a>
 </li>
 </ul>
 </footer>

@@ -91,10 +91,10 @@ image: /assets/images/tizers/tizer-5.jpg
 <p class="mb-m mt-m"> Идеи для развития:</p>
 <ul class="addictive-spacing">
 <li class="list-li">
-  <a href="/blog/kak-privlech-klientov/" class="link"> Клиентов привлекают убеждения, а&nbsp;не&nbsp;товары </a>
+  <a href="/blog/klienty-vybirayut-brendy-po-cennostyam/" class="link"> Как ценности бренда привлекают клиентов и&nbsp;формируют лояльность </a>
 </li>
 <li class="list-li">
-  <a href="/blog/seth-godin/" class="link"> Сет Годин «Это маркетинг». Ключевые идеи новой книги</a>
+  <a href="/blog/set-godin-eto-marketing/" class="link"> Сет Годин «Это маркетинг». Ключевые идеи новой книги</a>
 </li>
 <li class="list-li">
   <a href="/blog/marketing-mind/" class="link"> Акция не&nbsp;сработает, если не&nbsp;думать как маркетолог</a>

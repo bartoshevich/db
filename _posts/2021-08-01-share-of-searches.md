@@ -1,10 +1,10 @@
 ---
 layout: post
-title:  "Share of&nbsp;searches&nbsp;— новый показатель в&nbsp;маркетинге"
+title:  "Share of Searches: как доля брендовых запросов предсказывает рынок"
 name: "Доля в&nbsp;поиске&nbsp;— новый показатель в&nbsp;маркетинге"
-description: 'Показатель отражает интерес пользователей к&nbsp;бренду и&nbsp;служит индикатором предстоящих изменений на&nbsp;рынке.'
+description: 'Share of&nbsp;Searches&nbsp;&mdash; это индикатор интереса к&nbsp;бренду. Как его рассчитать, что он&nbsp;показывает и&nbsp;как помогает маркетологам понимать рынок? '
 date:   2021-08-01
-last_modified_at: 2022-02-05
+last_modified_at: 2024-02-05
 categories: мнение
 permalink: "/blog/share-of-searches/"
 tags: "инструменты, маркетолог"

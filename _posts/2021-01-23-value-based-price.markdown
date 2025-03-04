@@ -214,15 +214,15 @@ https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1648760933/s
 </li>
 
 <li class="list-li">
-  <a href="/blog/kak-privlech-klientov/" class="link">Клиентов привлекают убеждения, а&nbsp;не&nbsp;товары</a>
+  <a href="/blog/klienty-vybirayut-brendy-po-cennostyam/" class="link">Как ценности бренда привлекают клиентов и формируют лояльность</a>
 </li>
 
 <li class="list-li">
-  <a href="/blog/system-marketing/" class="link">Системный маркетинг: от&nbsp;мифов к&nbsp;эффективной практике</a>
+  <a href="/blog/system-marketing/" class="link">Таблицы и&nbsp;схемы не&nbsp;делают маркетинг системным</a>
 </li>
 
 <li class="list-li">
-  <a href="/blog/emotions-in-marketing/" class="link">Как использовать эмоции в&nbsp;маркетинге</a>
+  <a href="/blog/kak-brendy-sozdajut-emotsionalnuyu-svyaz/" class="link">Как использовать эмоции в&nbsp;маркетинге</a>
 </li>
 
 </ul>

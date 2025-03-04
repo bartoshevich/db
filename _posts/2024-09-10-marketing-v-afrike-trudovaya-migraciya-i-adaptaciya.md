@@ -680,15 +680,15 @@ keywords: "маркетинг в Африке, работа в Сенегале,
   <a href="/blog/research-quality/" class="link"> Как контролировать качество маркетингового исследования</a>
 </li>
 <li class="list-li">
-  <a href="/blog/kak-reklamu-podrujit-s-potrebitelyami/" class="link"> Реклама и&nbsp;приватность: стратегия восстановления доверия</a>
+  <a href="/blog/kak-reklamu-podrujit-s-potrebitelyami/" class="link">Маркетинг без слежки: как вернуть доверие клиентов к&nbsp;онлайн-рекламе</a>
 </li>
 
 <li class="list-li">
-  <a href="/blog/brand-conception-hormann/" class="link">Создаю концепцию бренда для компании Hörmann</a>
+  <a href="/blog/razrabotka-koncepcii-brenda-hormann/" class="link">Создаю концепцию бренда для компании Hörmann</a>
 </li>
 
 <li class="list-li">
-  <a href="/blog/igra/" class="link">Игра в&nbsp;&laquo;Спасителя&raquo; в&nbsp;маркетинге</a>
+  <a href="/blog/lovushka-dlya-marketologov-igra-spasitel/" class="link">Игра в&nbsp;&laquo;Спасителя&raquo;: как маркетологи становятся жертвами</a>
 </li>
 
 

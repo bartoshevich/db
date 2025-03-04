@@ -149,13 +149,13 @@ keywords:  "развитие интернет-магазина"
   <a href="/blog/1s-bitriks/" class="link"> 1С-Битрикс: какие возможности платформы вы&nbsp;упускаете</a>
 </li>
 <li class="list-li">
-  <a href="/blog/sajt-agrousadby/" class="link"> Ошибки и&nbsp;решения при создании сайта для агроусадьбы</a>
+  <a href="/blog/sajt-agrousadby/" class="link">Ошибки и&nbsp;решения при создании сайта агроусадьбы для иностранных гостей</a>
 </li>
 <li class="list-li">
   <a href="/blog/optimizaciya-izobrajenii/" class="link"> Эффективные способы оптимизации изображений</a>
 </li>
 <li class="list-li">
-  <a href="/blog/chatgpt-mozhet-preobrazit-brend-i-reklamnye-kampanii/" class="link"> Использование ChatGPT в маркетинге</a>
+  <a href="/blog/chatgpt-v-marketinge/" class="link"> Использование ChatGPT в маркетинге</a>
 </li>
 </ul>
 </footer>

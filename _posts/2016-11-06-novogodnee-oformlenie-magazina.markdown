@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "Как оформить магазин к Новому году"
-name: "Новогоднее оформление магазина"
-description: "Визуальный мерчендайзинг в&nbsp;новогодний период: задачи, типичные ошибки, принципы выбора специалистов."
+title: "Новогоднее оформление магазина: ошибки и удачные решения"
+name: "Как оформить магазин к&nbsp;Новому году: визуальный мерчендайзинг без ошибок"
+description: "Новогодний декор магазина&nbsp;&mdash; это не&nbsp;просто гирлянды. Разбираем принципы визуального мерчендайзинга, типичные ошибки и&nbsp;удачные решения для витрин."
 date:   2016-11-06
 last_modified_at: 2022-02-04
 categories: мнение
@@ -93,13 +93,13 @@ image: /assets/images/tizers/tizer-32.jpg
 <p class="mb-m ">Идеи для развития:</p>
 <ul >
 <li class="list-li">
-  <a href="/blog/gifts2clients/" class="link">Подарки клиентам на&nbsp;Новый&nbsp;год</a>
+  <a href="/blog/korporativnye-podarki-i-pozdravleniya/" class="link">Как&nbsp;подготовить подарки и&nbsp;поздравления, которые запомнят клиенты</a>
 </li>
 <li class="list-li">
-  <a href="/blog/direktor-xochet-korporativ/" class="link">Статья для директора, который хочет организовать корпоратив</a>
+  <a href="/blog/pochemu-korporativy-ne-rabotayut/" class="link">Корпоративы не&nbsp;работают: компании тратят деньги впустую</a>
 </li>
 <li class="list-li">
-  <a href="/blog/ethical-marketing-dark-patterns/" class="link">Преодоление темных паттернов&nbsp;&mdash; путь к&nbsp;устойчивому бизнесу</a>
+  <a href="/blog/ethical-marketing-dark-patterns/" class="link">Темные паттерны в&nbsp;маркетинге: почему они вредят бизнесу и&nbsp;как работать иначе</a>
 </li>
 <li class="list-li">
   <a href="/blog/pes-global-brand-concept/" class="link">Создаю концепцию бренда для компании «PES GLOBAL»</a>

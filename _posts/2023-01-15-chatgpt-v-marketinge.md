@@ -138,16 +138,16 @@ keywords: "ChatGPT, маркетинг, бренд, рекламная камп�
 <p class="mb-m ">Идеи для развития:</p>
 <ul class="addictive-spacing">
 <li class="list-li">
-  <a href="/blog/crowdconference/" class="link"> Новые технологии: что нужно использовать бизнесу</a>
+  <a href="/blog/novye-tehnologii-dlya-biznesa/" class="link"> Новые технологии для бизнеса: тренды, инсайты и&nbsp;реальные примеры</a>
 </li>
 <li class="list-li">
-  <a href="/blog/seth-godin/" class="link">Сет Годин «Это маркетинг». Ключевые идеи книги</a>
+  <a href="/blog/set-godin-eto-marketing/" class="link">&laquo;Это маркетинг&raquo; Сета Година: в&nbsp;чем суть маркетинга на&nbsp;самом деле</a>
 </li>
 <li class="list-li">
-  <a href="/blog/spam-replacement/" class="link">Чем заменить рекламную листовку</a>
+  <a href="/blog/spam-replacement/" class="link">Заменяю рекламную листовку на&nbsp;полезный материал</a>
 </li>
 <li class="list-li">
-  <a href="/blog/igra/" class="link">Игра в&nbsp;«Спасителя» в&nbsp;маркетинге</a>
+  <a href="/blog/lovushka-dlya-marketologov-igra-spasitel/" class="link">Игра в&nbsp;&laquo;Спасителя&raquo;: как маркетологи становятся жертвами</a>
 </li>
 </ul>
 </footer>
