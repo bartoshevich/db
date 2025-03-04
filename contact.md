@@ -36,10 +36,10 @@ image:
 				<p> Примеры разработанных мной концепций бренда: </p>
 				<ul>
 					<li class="list-li">
-						<a class="link" href="/blog/brand-conception-hormann/">Hörmann (Беларусь)</a>
+						<a class="link" href="/blog/razrabotka-koncepcii-brenda-hormann/">Hörmann (Беларусь)</a>
 					</li>
 					<li class="list-li">
-						<a class="link" href="/blog/brand-giperlink/">Giperlink</a>
+						<a class="link" href="/blog/kejs-brend-giperlink/">Giperlink</a>
 					</li>
 					<li class="list-li">
 						<a class="link" href="/blog/brand-strategy-flex-n-roll/"><span class="noperenos">Flex-n-Roll</span></a>
@@ -62,7 +62,7 @@ image:
 
 				<p>Мне легко грамотно ставить задачу фрилансерам, агентствам и&nbsp;контролировать исполнение. Работал в&nbsp;типографии, рекламной и&nbsp;исследовательской компаниях, поэтому разговариваю с&nbsp;коллегами на&nbsp;одном языке. Подрядчики клиента, которые настроены на&nbsp;плодотворную работу, благодарят меня за&nbsp;четкие и&nbsp;внятные задачи, конструктивную обратную связь. Не&nbsp;даю халтурить, поэтому не&nbsp;нравлюсь тем, кто работает недобросовестно.</p>
 
-				<p> Работаю по&nbsp;договору, <a class="link" href="/blog/igra/">не&nbsp;играю в&nbsp;«Спасителя»</a>. </p>
+				<p> Работаю по&nbsp;договору, <a class="link" href="/blog/lovushka-dlya-marketologov-igra-spasitel/">не&nbsp;играю в&nbsp;«Спасителя»</a>. </p>
 </section>      
 
 

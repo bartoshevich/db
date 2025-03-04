@@ -72,13 +72,13 @@ image: /assets/images/main/bartoshevich@16x9.jpg
    <p class="mb-m bold"> Мир моих размышлений:  </p>       
      <ul class="additive-spacing">
             <li class="list-li ">
-                <a class="link" href="/blog/konkurentnoe-preimushhestvo/"> Конкурентное преимущество в&nbsp;пользе и&nbsp;доверии</a>    
+                <a class="link" href="/blog/konkurentnoe-preimushhestvo/">Маркетинг, который вызывает доверие,&nbsp;&mdash; главное конкурентное преимущество</a>    
             </li>
             <li class="list-li">
                 <a class="link" href="/blog/perfomance-and-brand-marketing/" >Бренд и&nbsp;перфоманс маркетинг&nbsp;&mdash; что важно знать маркетологу</a>      
             </li>
             <li class="list-li">
-                <a class="link" href="/blog/2-idei-po-razvitiyu-marketinga/">Как восприятие клиента определяет успех продукта</a>      
+                <a class="link" href="/blog/vospriyatie-klienta-uspeh/">Как восприятие клиента определяет успех продукта</a>      
             </li>
             <li class="list-li">
                 <a class="link" href="/blog/marketing-bolshe-chem-prodazhi/">От&nbsp;распродаж к&nbsp;стратегии: почему маркетинг&nbsp;&mdash; это больше, чем просто продажи</a>      

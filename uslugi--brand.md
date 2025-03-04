@@ -138,7 +138,7 @@ keywords: "разработка концепции бренда"
 		<ul>
 			<li class="list-li"><span class="italic">цель работы; </span><br>Почему важно решить задачу сейчас? Что изменится на&nbsp;предприятии, когда задача будет&nbsp;решена?</li>
 			<li class="list-li"><span class="italic">кто&nbsp;воспользуется результатами и&nbsp;как будет использовать;</span></li>
-			<li class="list-li"><span class="italic">ответственность сторон: что делает клиент, что делаю&nbsp;я; </span><br><a href="/blog/igra/" class="link" >Я&nbsp;не&nbsp;играю&nbsp;в&nbsp;&laquo;Спасителя&raquo;.</a> Мне&nbsp;важно, чтобы руководитель был готов лично участвовать в&nbsp;разработке и&nbsp;внедрении изменений.  </li>
+			<li class="list-li"><span class="italic">ответственность сторон: что делает клиент, что делаю&nbsp;я; </span><br><a href="/blog/lovushka-dlya-marketologov-igra-spasitel/" class="link" >Я&nbsp;не&nbsp;играю&nbsp;в&nbsp;&laquo;Спасителя&raquo;.</a> Мне&nbsp;важно, чтобы руководитель был готов лично участвовать в&nbsp;разработке и&nbsp;внедрении изменений.  </li>
 			<li class="list-li"><span class="italic">сроки и&nbsp;порядок выполнения проекта.</span></li>
 		</ul>
 		<p>Договоренности фиксирую в&nbsp;тексте договора. Это обеспечивает прозрачность и&nbsp;ответственность с&nbsp;обеих сторон.</p>
@@ -147,7 +147,7 @@ keywords: "разработка концепции бренда"
     <li class="additive-spacing max-width-text">
     		<h3 class="bold h2">Этап 2. Анализ бизнеса</h3>
 
-    		<p class=""> Погружаюсь в&nbsp;бизнес клиента, чтобы понять его суть и&nbsp;ценности. <a href="/blog/brief/" class="link">Не&nbsp;полагаюсь на&nbsp;заполненные&nbsp;брифы.</a> Поэтому договариваюсь о&nbsp;встрече и&nbsp;вместе с&nbsp;заказчиком <em>детально</em> обсуждаю:</p>
+    		<p class=""> Погружаюсь в&nbsp;бизнес клиента, чтобы понять его суть и&nbsp;ценности. <a href="/blog/otkaz-ot-brifov/" class="link">Не&nbsp;полагаюсь на&nbsp;заполненные&nbsp;брифы.</a> Поэтому договариваюсь о&nbsp;встрече и&nbsp;вместе с&nbsp;заказчиком <em>детально</em> обсуждаю:</p>
     		<ul>
     			<li class="list-li">
     				миссию, ценности, существующее позиционирование;
@@ -228,7 +228,7 @@ keywords: "разработка концепции бренда"
 <div class="mt-m">
 
 <div class="figcaption">
-            <p> <span class="bold">Пример.</span> Содержание презентации с&nbsp;концепцией бренда, которую я&nbsp;разработал для&nbsp;Hörmann. <a href="/blog/brand-conception-hormann/" class="link">Описание кейса </a></p>
+            <p> <span class="bold">Пример.</span> Содержание презентации с&nbsp;концепцией бренда, которую я&nbsp;разработал для&nbsp;Hörmann. <a href="/blog/razrabotka-koncepcii-brenda-hormann/" class="link">Описание кейса </a></p>
     </div>
 	<img  loading="lazy" decoding="async" class="image is4by3" width="2000" height="1500"
 	src="https://res.cloudinary.com/bartoshevich/image/upload/f_auto/bo_1px_solid_grey/v1622023855/site/hormann-slide.jpg" alt="Пример презентации концепции бренда для Hörmann" title="Презентация концепции бренда Hörmann: структура и содержание">

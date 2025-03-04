@@ -10,5 +10,5 @@ Gemfile
 Gemfile.lock
 node_modules
 package.json
-
+update-links-script.py
 
