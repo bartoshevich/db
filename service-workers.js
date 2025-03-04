@@ -6,7 +6,7 @@
 
 (function () {
 
-    const version = 'v133::';
+    const version = 'v134::';
     const staticCacheName = 'static';
     const pagesCacheName = 'pages';
     const imagesCacheName = 'images';
