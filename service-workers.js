@@ -3,7 +3,7 @@
 (function () {
   // Конфигурация
   const CONFIG = {
-    version: 'v3.0.0::',
+    version: 'v3.0.7::',
     debug: false,
     caches: {
       static: 'static-resources',
@@ -34,11 +34,6 @@
             '/uslugi/autsorsing-marketinga/',
             '/about/',
             '/offline/',
-            '/blog/brand-giperlink/',
-            '/blog/seth-godin/',
-            '/blog/stars/',
-            '/blog/brand-conception-hormann/',
-            '/blog/brand-strategy-flex-n-roll/',
             '/assets/css/style.css',
             '/assets/css/style-home.css',
             '/assets/fonts/pt-sans-v12-latin_cyrillic/pt-sans-v12-latin_cyrillic-regular.woff2',
