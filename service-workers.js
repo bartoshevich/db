@@ -3,7 +3,7 @@
 (function () {
   // Конфигурация
   const CONFIG = {
-    version: 'v3.0.8::',
+    version: 'v3.0.9::',
     debug: false,
     caches: {
       static: 'static-resources',
