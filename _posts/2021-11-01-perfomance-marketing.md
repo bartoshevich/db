@@ -170,7 +170,7 @@ keywords: "перфоманс маркетинг, брендинг, эффект
   <a href="/blog/zachem-marketing-biznesu/" class="link"> Зачем нужен маркетинг (мнение консультантов по&nbsp;развитию продаж)</a>
 </li>
 <li class="list-li">
-  <a href="/blog/effektivnost-marketinga/ " class="link"> Оценка эффективности маркетинга через временные затраты</a>
+  <a href="/blog/vremya-kak-metod-analiza-marketinga/" class="link"> Как оценить маркетинг: ключевая метрика, о&nbsp;которой забывают</a>
 </li>
 
 
