@@ -4,7 +4,7 @@ title: "Что делать маркетологу в первые 100 дней 
 name: "Первые сто дней маркетолога на&nbsp;новом рабочем месте"
 description: "Как&nbsp;маркетологу быстро адаптироваться на&nbsp;новом месте? Советы по&nbsp;взаимодействию с&nbsp;коллегами, выстраиванию процессов и&nbsp;достижению первых результатов. "
 date:   2016-03-05
-last_modified_at: 2024-02-04
+last_modified_at: 2025-02-04
 categories: мнение
 permalink: "/blog/100-dnej-marketologa/"
 tags: "маркетолог интервью"
@@ -20,9 +20,9 @@ keywords: "новое рабочее место маркетолога"
 <div class="guests">
 <div class="guest-person">
 <picture>
-            <source srcset="/assets/images/blog/100-dnej-marketologa/ekaterina.avif" type="image/avif">
-            <source srcset="/assets/images/blog/100-dnej-marketologa/ekaterina.webp" type="image/webp">
-            <img class="image is-150x150" src="/assets/images/blog/100-dnej-marketologa/ekaterina.jpg" alt="Екатерина Пажитных" width="150" height="150">	
+            <source srcset="/assets/images/blog/100-dnej-marketologa/ekaterina.avif, /assets/images/blog/100-dnej-marketologa/ekaterina_2x.avif 2x" type="image/avif">
+      <source srcset="/assets/images/blog/100-dnej-marketologa/ekaterina.webp, /assets/images/blog/100-dnej-marketologa/ekaterina_2x.webp 2x" type="image/webp">
+            <img class="image is-150x150" src="/assets/images/blog/100-dnej-marketologa/ekaterina.jpg" srcset="/assets/images/blog/100-dnej-marketologa/ekaterina.jpg, /assets/images/blog/100-dnej-marketologa/ekaterina_2x.jpg 2x" alt="Екатерина Пажитных, портрет" width="150" height="150">	
     </picture>
 		<div class="guest-person__name">Екатерина Пажитных</div>
 		<div class="guest-person__position">маркетолог</div>
@@ -30,9 +30,9 @@ keywords: "новое рабочее место маркетолога"
 </div>
 <div class="guest-person">
 <picture>
-            <source srcset="/assets/images/blog/100-dnej-marketologa/alexei.avif" type="image/avif">
-            <source srcset="/assets/images/blog/100-dnej-marketologa/alexei.webp" type="image/webp">
-            <img class="image is-150x150" src="/assets/images/blog/100-dnej-marketologa/alexei.jpg" alt="Алексей Шлома" width="150" height="150">	
+            <source srcset="/assets/images/blog/100-dnej-marketologa/alexei.avif, /assets/images/blog/100-dnej-marketologa/alexei_2x.avif 2x" type="image/avif">
+      <source srcset="/assets/images/blog/100-dnej-marketologa/alexei.webp, /assets/images/blog/100-dnej-marketologa/alexei_2x.webp 2x" type="image/webp">
+      <img class="image is-150x150" src="/assets/images/blog/100-dnej-marketologa/alexei.jpg" srcset="/assets/images/blog/100-dnej-marketologa/alexei.jpg, /assets/images/blog/100-dnej-marketologa/alexei_2x.jpg 2x" alt="Алексей Шлома, портрет" width="150" height="150">
     </picture>
 			<div class="guest-person__name">Алексей Шлома</div>
 			<div class="guest-person__position">бренд-менеджер Condor (Беларусь)</div>
