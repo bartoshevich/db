@@ -1,6 +1,38 @@
+@use "variables" as v;
+
 // Стили для главной страницы
 .home {
-    max-width: var(--content-width);
-    margin: 0 auto;
-    padding: 0 var(--space-m);
-} 
+  max-width: var(--content-width);
+  margin: 0 auto;
+  padding: 0 var(--space-m);
+}
+
+.service {
+  border-radius: 12px;
+  transition: all 0.3s ease;
+  margin-bottom: 24px;
+}
+
+.service__title {
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+  margin-bottom: 16px;
+  font-size: 20px;
+  line-height: 1.4;
+}
+
+.service__icon {
+  margin-right: 12px;
+  transition: all 0.3s ease;
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: currentColor;
+}
+
+.service:hover .service__icon {
+  transform: scale(1.3);
+}

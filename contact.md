@@ -141,11 +141,20 @@ image:
 
 
 <p class="mb-m">Как со мной связаться:</p>
-<ul>
+<ul class="list-reset">
   
  
-   <li class="list-li"> Телеграм:  <a class="link" href="https://t.me/bartoshevich">@bartoshevich</a> </li>
-   <li class="list-li"> Электронная почта:  <a class="link" href="mailto:dmitry@bartoshevich.by" title="написать" >dmitry@bartoshevich.by</a> </li>
+   <li class="list-li">           
+   <svg class="service__icon" role="presentation" aria-hidden="true">
+  <use xlink:href="/assets/images/sprite_2.svg#telegram"></use>
+</svg> 
+ <a class="link" href="https://t.me/bartoshevich" title="написать в телеграм">@bartoshevich</a> </li>
+
+
+   <li class="list-li">   <svg class="service__icon" role="presentation" aria-hidden="true">
+  <use xlink:href="/assets/images/sprite_2.svg#mail"></use>
+</svg> 
+  <a class="link" href="mailto:dmitry@bartoshevich.by" title="написать письмо" >dmitry@bartoshevich.by</a> </li>
    
 
 </ul>

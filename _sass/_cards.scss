@@ -1,3 +1,5 @@
+@use "variables" as v;
+
 .cards > ul {
   list-style: none;
 }
@@ -20,11 +22,18 @@
 }
 
 .card {
-  border: 1px solid;
+  border: 1px solid v.$text-colour;
   border-radius: 0.25rem;
   display: flex;
   flex-direction: column;
   position: relative;
+  transition: all 0.3s ease;
+
+  &:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    border-color: v.$link;
+  }
 }
 
 .card .text {
@@ -68,9 +77,8 @@
   text-decoration: underline;
 }
 
-.card:focus-within,
-.card:hover {
-  box-shadow: 0 0 0 0.25rem;
+.card:focus-within {
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
 }
 
 .card:focus-within a:focus {

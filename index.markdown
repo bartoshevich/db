@@ -16,60 +16,77 @@ keywords: "развитие брендов, анализ данных, разр�
 
     <div class="intro">Меня зовут Дмитрий Бартошевич.<br>Я&nbsp;<h1 class="inline">консультант по&nbsp;маркетингу и&nbsp;стратегии.</h1></div>
 
-<section class="row-gap--m">
-    <div class="max-width-text"><h2 class="inline">Помогаю компаниям развивать свои бренды.</h2> Опираясь на&nbsp;исследования и&nbsp;анализ данных, разрабатываю план необходимых действий. Обеспечиваю контроль за&nbsp;реализацией и&nbsp;слежу за&nbsp;результатами каждого проекта, чтобы добиться согласованных с&nbsp;клиентом целей. </div> 
+<div class="row-gap--m">
+    <div class="max-width-text"> Мои услуги прошли оценку <a class="link" href="/assets/images/contact/ebrd__bartoshevich.pdf" target="_blank" rel="noopener" title="Свидетельство ЕБРР -  pdf, 25.8 кБ, откроется в новой вкладке">Европейского банка реконструкции и&nbsp;развития</a> и&nbsp;соответствуют установленным критериям качества и&nbsp;надёжности.
+   </div> 
   
-    <p class="max-width-text">Прошел оценку <a class="link" href="https://www.ebrd.com/home">Европейского банка реконструкции и&nbsp;развития</a> на&nbsp;соответствие оказываемых маркетинговых услуг определенным критериям качества и&nbsp;надежности. </p>
-</section>
-
-<div class="full-bleed intro__image" itemscope itemtype="https://schema.org/ImageObject">
-<link itemprop="url" href="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1734078851/site/desktop_new.jpg">
-  
-    <img class="image"
-    	src="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1734078851/site/desktop_new.jpg" alt="Рабочее место консультанта по маркетингу: современный монитор с аналитической панелью, демонстрирующей графики эффективности маркетинга, KPI и стратегическое планирование в минималистичном стиле"
-    	sizes="(min-width: 1500px) 80vw, 100vw"
-    	srcset="https://res.cloudinary.com/bartoshevich/image/upload/w_640/f_auto,q_auto/v1734078851/site/desktop_new.jpg 640w,
-        https://res.cloudinary.com/bartoshevich/image/upload/w_1200/f_auto,q_auto/v1734078851/site/desktop_new.jpg 1200w,
-        https://res.cloudinary.com/bartoshevich/image/upload/w_1700/f_auto,q_auto/v1734078851/site/desktop_new.jpg 1700w,
-        https://res.cloudinary.com/bartoshevich/image/upload/w_1980/f_auto,q_auto/v1734078851/site/desktop_new.jpg 1980w,
-        https://res.cloudinary.com/bartoshevich/image/upload/w_2500/f_auto,q_auto/v1734078851/site/desktop_new.jpg 2500w,
-        https://res.cloudinary.com/bartoshevich/image/upload/w_3500/f_auto,q_auto/v1734078851/site/desktop_new.jpg 3500w,
-        https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1734078851/site/desktop_new.jpg 4928w"
-        width="4928" height="2816" itemprop="contentUrl" >
-
-         {% comment %}
-    <picture>
-                <source srcset="/assets/images/home/desktop.avif 1x, /assets/images/home/desktop_2x.avif 2x" type="image/avif">
-                   <source srcset="/assets/images/home/desktop.webp 1x, /assets/images/home/desktop_2x.webp 2x" type="image/webp">
-                <img class="image" src="/assets/images/home/desktop_2x.jpg" srcset="/assets/images/home/desktop.jpg 1x, /assets/images/home/desktop_2x.jpg 2x" width="1792" height="1024" alt="Иллюстрация современного рабочего места маркетингового консультанта, подчеркивающая стратегическое планирование и инновации" itemprop="contentUrl">
-    </picture>
-
-{% endcomment %}
-
+    <p class="max-width-text">Я превращаю хаотичный маркетинг в&nbsp;структурированный и&nbsp;системный процесс. Трансформирую размытые образы бренда в&nbsp;четкие идеи, которые привлекают покупателей и&nbsp;закрепляются в&nbsp;их&nbsp;сознании. Маркетинг, который наконец-то работает.
+   </p>
 </div>
+
+ <div class="full-bleed intro__image" itemscope itemtype="https://schema.org/ImageObject">	
+            <link itemprop="url" href="https://res.cloudinary.com/bartoshevich/image/upload/v1743351755/site/desktop_photo.jpg">
+        
+     <img class="image is-16by9" sizes="(max-width: 1100px) 100vw, (max-width: 1900px) 80vw, 50vw"  loading="lazy" decoding="async" 
+                srcset="https://res.cloudinary.com/bartoshevich/image/upload/w_640/f_auto,q_auto/v1743351755/site/desktop_photo.jpg 640w,
+                https://res.cloudinary.com/bartoshevich/image/upload/w_1200/f_auto,q_auto/v1743351755/site/desktop_photo.jpg 1200w,
+          https://res.cloudinary.com/bartoshevich/image/upload/w_1600/f_auto,q_auto/v1743351755/site/desktop_photo.jpg 1600w,
+          https://res.cloudinary.com/bartoshevich/image/upload/w_2560/f_auto,q_auto/v1743351755/site/desktop_photo.jpg 2560w,
+          https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1743351755/site/desktop_photo.jpg 3000w" 
+          src="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1743351755/site/desktop_photo.jpg" alt="Дмитрий Бартошевич (или Барташевич), консультант по маркетинговой стратегии, портрет" width="3000" height="1714" title="Дмитрий Бартошевич" itemprop="contentUrl"> 
+    </div>
+
+
+
+
+
+
 
 <section class="full-bleed block__item clients__block">
 <div class="block__sign"></div>
 <h2 class="block__name block__title bold"> Когда полезен? </h2>
 <div class=" block__content row-gap--l" >
 
-<article>
-<h3><img class="icon--check" src="/assets/images/check.svg" alt="" role="presentation" aria-hidden="true"><a class="link"  href="/uslugi/marketing-audit/">Аудит маркетинга</a></h3>
+<article class="service">
+
+ 
+
+<h3 class="service__title">
+<svg class="service__icon" role="presentation" aria-hidden="true">
+  <use xlink:href="/assets/images/sprite_2.svg#search"></use>
+</svg> 
+<a class="link"  href="/uslugi/marketing-audit/">Аудит маркетинга</a></h3>
 <p>Провожу аудит маркетинговой активности компании, фокусируясь на&nbsp;потребительском опыте, реальных потребностях и&nbsp;поведении клиентов. Цель&nbsp;&mdash; предоставить рекомендации для оптимизации маркетинга и&nbsp;улучшения взаимодействия с&nbsp;клиентами.</p>
 </article>
 
-<article>
-<h3><img class="icon--check" src="/assets/images/check.svg" alt="" role="presentation" aria-hidden="true"><a class="link" href="/uslugi/brand-conception/">Концепция бренда</a></h3>
+<article class="service">
+<h3 class="service__title">
+<svg class="service__icon" role="presentation" aria-hidden="true">
+  <use xlink:href="/assets/images/sprite_2.svg#target"></use>
+</svg> 
+<a class="link" href="/uslugi/brand-conception/">Концепция бренда</a></h3>
 <p>Создаю ясную, запоминающуюся идентичность бренда, которая отражает его суть и&nbsp;отличает от&nbsp;конкурентов. Ваш бренд приобретет статус, выходящий за&nbsp;рамки обычного продукта или услуги&nbsp;&mdash; он&nbsp;станет неотъемлемой частью жизни вашей аудитории.</p>
 </article>
 
-<article>
-<h3><img class="icon--check" src="/assets/images/check.svg" alt="" role="presentation" aria-hidden="true"><a class="link"  href="/uslugi/razrabotka-reklamnyh-kampanij/">Рекламные кампании</a></h3>
+
+
+<article class="service">
+<h3 class="service__title">
+<svg class="service__icon" role="presentation" aria-hidden="true">
+  <use xlink:href="/assets/images/sprite_2.svg#ads"></use>
+</svg> 
+
+<a class="link"  href="/uslugi/razrabotka-reklamnyh-kampanij/">Рекламные кампании</a></h3>
 <p>Разрабатываю рекламные кампании, фокусируясь на&nbsp;сути вашего бизнеса. Мой подход&nbsp;&mdash; не&nbsp;просто привлечение внимания, а&nbsp;создание глубокого резонанса с&nbsp;вашей аудиторией. </p>
 </article>
 
-<article>
-<h3><img class="icon--check" src="/assets/images/check.svg" alt="" role="presentation" aria-hidden="true"><a class="link" href="/uslugi/autsorsing-marketinga/">Абонентское обслуживание</a></h3>
+<article class="service">
+<h3 class="service__title">
+<svg class="service__icon" role="presentation" aria-hidden="true">
+  <use xlink:href="/assets/images/sprite_2.svg#workspace"></use>
+</svg> 
+
+<a class="link" href="/uslugi/autsorsing-marketinga/">Абонентское обслуживание</a></h3>
 <p>Полный спектр услуг по&nbsp;маркетинговому сопровождению вашего бренда. Это включает в&nbsp;себя личное руководство рекламными кампаниями, профессиональное взаимодействие с&nbsp;подрядчиками, а&nbsp;также устные и&nbsp;письменные консультации по&nbsp;всем аспектам продвижения и&nbsp;развития бренда. </p>
 </article>
 

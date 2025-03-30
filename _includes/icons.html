@@ -9,3 +9,154 @@
 <meta name="theme-color" content="#fafafa">
 <meta name="theme-color" content="#272727" media="(prefers-color-scheme: dark)">
 
+
+
+<style>
+
+    .link {
+      text-decoration: none;
+      box-shadow: inset 0 -2px 0 -1px var(--link-opacity-80);
+      color: var(--link);
+      cursor: pointer;
+      position: relative;
+      transition:  0.3s ease;
+    }
+    
+    .link:hover {
+      box-shadow: inset 0 -2px 0 -1px var(--link);
+      background-color: var(--link-opacity-05);
+    }
+    
+    .link::after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: 2px;
+      transform: scaleX(0);
+      transform-origin: right;
+      transition: 0.3s ease;
+      z-index: 1;
+    }
+    
+    .link:hover::after {
+      transform: scaleX(1);
+      transform-origin: left;
+    }
+    
+    .link:visited {
+      color: var(--link);
+    }
+    
+    /* Стили для сервисных блоков */
+    .service {
+      border-radius: 12px;
+      transition: all 0.3s ease;
+      margin-bottom: 24px;
+    }
+    
+    .service__title {
+      display: flex;
+      align-items: center;
+      font-weight: 600;
+      margin-bottom: 16px;
+      font-size: 20px;
+      line-height: 1.4;
+    }
+    
+    .service__icon {
+      margin-right: 12px;
+      transition: all 0.3s ease;
+      display: inline-block;
+      width: 1em;
+      height: 1em;
+      stroke-width: 0;
+      stroke: currentColor;
+      fill: currentColor;
+    }
+    
+    .service:hover .service__icon {
+      transform: scale(1.3);
+    }
+    
+    /* Стили для карточек */
+    .cards .card.service {
+      height: 100%;
+      display: flex;
+      border: 1px solid var(--gray);
+      border-radius: 8px;
+      background-color: var(--background-color);
+      transition: all 0.3s ease;
+      overflow: hidden;
+    }
+    
+    .cards .card.service:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+      border-color:  var(--link);
+    }
+    
+    .cards .card.service .service-link {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      height: 100%;
+      text-decoration: none;
+      color: var(--text-colour);
+      box-shadow: none;
+    }
+    
+    .cards .card.service .service-link:hover {
+      box-shadow: none;
+      background-color: transparent;
+    }
+    
+    .cards .card.service .service-link::after {
+      display: none;
+    }
+    
+    .cards .card.service .text {
+      padding: var(--space-m);
+      display: flex;
+      flex-direction: column;
+      height: 100%;
+    }
+    
+    .cards .card.service .service__title {
+      display: flex;
+      align-items: center;
+      margin-bottom: var(--space-s);
+      font-size: var(--step-1);
+      line-height: 1.4;
+      color: var(--link);
+    }
+    
+    .cards .card.service .service__icon {
+      width: 24px;
+      height: 24px;
+      min-width: 24px;
+      margin-right: var(--space-s);
+      transition: transform 0.3s ease;
+      fill: var(--link);
+    }
+    
+    .cards .card.service:hover .service__icon {
+      transform: scale(1.2);
+    }
+    
+    .cards .card.service .block__content {
+      font-size: var(--step-0);
+      line-height: 1.6;
+      color: var(--text-colour);
+      margin-top: auto;
+    }
+    
+    /* Медиа-запросы */
+    @media (max-width: 768px) {
+      .service-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+    </style>
+

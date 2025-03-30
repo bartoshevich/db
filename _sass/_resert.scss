@@ -47,6 +47,8 @@ html {
   --toc: #fafafa;
   --gray: #eaeaea;
   --link: #000000;
+  --link-opacity-80: rgba(0, 0, 0, 0.8);
+  --link-opacity-05: rgba(0, 0, 0, 0.05);
   --link-hover: #000000;
   --link-active: #000000;
   --link-bg: #beff5c;
@@ -74,6 +76,8 @@ html[data-theme="dark"] {
   --toc: rgb(5, 5, 5);
   --gray: #464646;
   --link: rgb(250, 250, 250);
+  --link-opacity-80: rgba(250, 250, 250, 0.8);
+  --link-opacity-05: rgba(250, 250, 250, 0.05);
   --link-hover: rgb(250, 250, 250);
   --link-active: rgb(250, 250, 250);
   --link-bg: #0a50c2;

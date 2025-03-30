@@ -3,7 +3,7 @@
 (function () {
   // Конфигурация
   const CONFIG = {
-    version: 'v3.0.9::',
+    version: 'v3.0.96::',
     debug: false,
     caches: {
       static: 'static-resources',
@@ -41,6 +41,7 @@
             '/assets/fonts/pt-sans-v12-latin_cyrillic/pt-sans-v12-latin_cyrillic-regular.woff2',
             '/assets/fonts/pt-sans-v12-latin_cyrillic/pt-sans-v12-latin_cyrillic-700.woff2',
             '/assets/fonts/pt-sans-v12-latin_cyrillic/pt-sans-v12-latin_cyrillic-italic.woff2',
+            '/assets/images/sprite_2.svg',
             '/assets/images/logo/bartoshevich@1x.avif',
             '/assets/images/logo/bartoshevich@2x.avif',
             '/assets/images/logo/bartoshevich@1x.webp',
