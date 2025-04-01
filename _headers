@@ -8,6 +8,8 @@
     Referrer-Policy: strict-origin-when-cross-origin
     Permissions-Policy: geolocation=(self "https://bartoshevich.by"), microphone=()
     Content-Security-Policy: default-src 'self' res.cloudinary.com; base-uri 'self'; font-src 'self' ; worker-src 'self'; object-src 'none'; manifest-src 'self'; form-action 'self'; img-src 'self' res.cloudinary.com i.ytimg.com static.probusiness.io data:; connect-src 'self' res.cloudinary.com unpkg.com i.ytimg.com; upgrade-insecure-requests ; style-src   'self' unpkg.com 'nonce-prefetchStyle'; script-src  'self' 'nonce-y4VZC0VrqMma_4wARYnlJpifIomnbHG-ibt6RepxdkA'  'nonce-L2JS5waycEy7jN21le1sxDHnqwVKqEXPwLTCf8_FGNg' 'nonce-p7sQJZbrgAKwZ0Ne1Sej7fnN5RbjO15U0MhOhPE0iQ0' 'nonce-jWPgGmQxJK_xiuK99HwbZfxkkBF7sWWTre7Q7c2BEwg' 'nonce-Lpr3pEgdeSHDkme_pHPKEgqDQUBEKxDNZl8eHveC4vw' 'nonce-JoohhatAUG0vOvKglAq0ChYloUBko0sycTLyoyAEcX0' 'nonce-prefetchNonce'; frame-ancestors 'self' ; frame-src 'self' www.youtube-nocookie.com www.youtube.com embed.ted.com youtu.be/; media-src 'self' www.youtube-nocookie.com www.youtube.com embed.ted.com youtu.be/;
+    Content-Encoding: gzip
+    Cache-Control: public, max-age=3600
 
 /assets/images/*
     Cache-Control: max-age=31536000, public, immutable
@@ -20,3 +22,39 @@
 
 /assets/media/*
     Cache-Control: max-age=31536000, public, immutable
+
+
+/*.html
+    Cache-Control: public, max-age=3600, must-revalidate
+
+
+/*.css
+    Cache-Control: public, max-age=31536000, immutable
+    Content-Encoding: gzip
+
+
+/*.js
+    Cache-Control: public, max-age=31536000, immutable
+    Content-Encoding: gzip
+
+/*.svg
+    Cache-Control: max-age=31536000, public, immutable
+
+/*.jpg
+    Cache-Control: max-age=31536000, public, immutable
+
+/*.jpeg
+    Cache-Control: max-age=31536000, public, immutable
+
+/*.png
+    Cache-Control: max-age=31536000, public, immutable
+
+/*.webp
+    Cache-Control: max-age=31536000, public, immutable
+
+/*.woff
+    Cache-Control: max-age=31536000, public, immutable
+
+/*.woff2
+    Cache-Control: max-age=31536000, public, immutable
+
