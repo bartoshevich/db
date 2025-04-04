@@ -4,7 +4,7 @@ title: "Топ фильмы для маркетологов о рекламе и
 name: "Кино, меняющее взгляд на&nbsp;маркетинг"
 description: "Что посмотреть маркетологу: подборка фильмов о&nbsp;маркетинге, рекламе и&nbsp;потребительском поведении, которые вдохновят и&nbsp;расширят профессиональный взгляд."
 date: 2024-01-13
-last_modified_at: 2025-01-21
+last_modified_at: 2025-04-04
 categories: мнение
 permalink: "/blog/filmy-dlya-marketologov/"
 tags: "маркетолог"
@@ -34,43 +34,48 @@ keywords: "фильмы, маркетологи, подборка фильмов
     <a class="link" href="#99-francs-2009">99 франков / 99 francs (2009)
     </a>
   </li>
+    <li >
+    <span class="tocnumber">4 </span>
+    <a class="link" href="#emily-in-paris">Эмили в Париже / Emily in Paris (2020 - наст.вр.)
+    </a>
+  </li>
   <li>			
-    <span class="tocnumber">4</span>
+    <span class="tocnumber">5</span>
     <a class="link" href="#the-joneses-2009">Семейка Джонсов / The Joneses (2009)
     </a>
   </li>
    <li>
-    <span class="tocnumber">5</span>
+    <span class="tocnumber">6</span>
     <a class="link" href="#vogel">Bиктop Фoгeль — Kopoль peклaмы / Viktor Vogel — Commercial Man (2001)
     </a>
   </li>
   <li>
-    <span class="tocnumber">6</span>
+    <span class="tocnumber">7</span>
     <a class="link" href="#the-founder-2016">Основатель / The Founder (2016)
     </a>
   </li>
   <li>			
-    <span class="tocnumber">7</span>
+    <span class="tocnumber">8</span>
     <a class="link" href="#art-and-copy-2009">Изображение и текст / Art & Copy (2009) 
     </a>
   </li>
   <li>			
-    <span class="tocnumber">8</span>
+    <span class="tocnumber">9</span>
     <a class="link" href="#the-greatest-movie-ever-sold-2011">Величайший фильм из всех когда-либо проданных / The Greatest Movie Ever Sold (2011) 
     </a>
   </li>
   <li>			
-    <span class="tocnumber">9</span>
+    <span class="tocnumber">10</span>
     <a class="link" href="#moneyball-2011">Человек, который изменил все / Moneyball (2011) 
     </a>
   </li>
   <li>			
-    <span class="tocnumber">10</span>
+    <span class="tocnumber">11</span>
     <a class="link" href="#jiro-dreams-of-sushi-2011">Мечты Дзиро о суши / Jiro Dreams of Sushi (2011) 
     </a>
   </li>
   <li>			
-    <span class="tocnumber">11</span>
+    <span class="tocnumber">12</span>
     <a class="link" href="#syrup-2013">Сироп / Syrup (2013) 
     </a>
   </li>
@@ -182,31 +187,17 @@ keywords: "фильмы, маркетологи, подборка фильмов
   </p>
   <p itemprop="description">Документальная драма о&nbsp;том, как социальные сети программируют людей. За&nbsp;первые 4&nbsp;недели ее посмотрели 38&nbsp;миллионов зрителей. Это один из&nbsp;самых обсуждаемых фильмов Netflix.  </p>
 
-<div class="full-bleed figure" itemprop="trailer" itemscope itemtype="https://schema.org/VideoObject">
- <meta itemprop="name" content="Социальная дилемма. Фильм.">
- <meta itemprop="description" content="Документальная драма о том, как социальные сети программируют людей">
- 	<link itemprop="url" href="https://youtu.be/vMvBpbeZiZs" >
-	<link itemprop="contentUrl" href="https://youtu.be/vMvBpbeZiZs" >
-	<link itemprop="thumbnailUrl" href="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1711824420/site/films/social_dilemma.jpg" >
-    <meta itemprop="uploadDate" content="2021-01-27T00:00:00+03:00">
-  	<meta itemprop="duration" content="PT1H33M9S">
- 	<meta itemprop="isFamilyFriendly" content="true">
-						
-	<div class="video">
-	    <a class="video__link " href="https://youtu.be/vMvBpbeZiZs" target="_blank" rel="noopener noreferrer">
-			
-				<img loading="lazy" class="video__media" src="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1711824420/site/films/social_dilemma.jpg" alt="фильм Социальная дилемма на русском языке" width="1920" height="1080" itemprop="thumbnail">
-          <span class="element--hidden">Видео: Социальная дилемма на русском языке</span>
-			
-		</a>
-		<button class="video__button" aria-label="Запустить видео">
-			<svg width="68" height="48" viewBox="0 0 68 48"><path class="video__button-shape" d="M66.52,7.74c-0.78-2.93-2.49-5.41-5.42-6.19C55.79,.13,34,0,34,0S12.21,.13,6.9,1.55 C3.97,2.33,2.27,4.81,1.48,7.74C0.06,13.05,0,24,0,24s0.06,10.95,1.48,16.26c0.78,2.93,2.49,5.41,5.42,6.19 C12.21,47.87,34,48,34,48s21.79-0.13,27.1-1.55c2.93-0.78,4.64-3.26,5.42-6.19C67.94,34.95,68,24,68,24S67.94,13.05,66.52,7.74z"></path><path class="video__button-icon" d="M 45,24 27,14 27,34"></path>
-            </svg>
-		</button>
-	</div>
-    <div class="figcaption"  itemprop="description">
-   Посмотреть можно <a class="link" href="https://www.netflix.com/pt-en/title/81254224">на&nbsp;Netflix</a> или здесь.
-	</div>
+<div class="figure" itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
+<link itemprop="url" href="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1743773091/site/films/sd.jpg">
+<img class="image" loading="lazy" decoding="async" 
+     sizes="100vw" 
+			srcset="https://res.cloudinary.com/bartoshevich/image/upload/w_640/f_auto,q_auto/v1743773091/site/films/sd.jpg 640w,
+			https://res.cloudinary.com/bartoshevich/image/upload/w_1024/f_auto,q_auto/v1743773091/site/films/sd.jpg 1024w,
+      https://res.cloudinary.com/bartoshevich/image/upload/w_1280/f_auto,q_auto/v1743773091/site/films/sd.jpg 1280w,
+      https://res.cloudinary.com/bartoshevich/image/upload/w_1980/f_auto,q_auto/v1743773091/site/films/sd.jpg 1980w,
+      https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1743773091/site/films/sd.jpg 2365w"
+      src="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1743773091/site/films/sd.jpg" alt="Кадр из фильма Социальная дилемма" width="2365" height="1268" itemprop="contentUrl">
+    <div class="figcaption">Кадр из&nbsp;фильма &laquo;Социальная дилемма&raquo;. <a class="link" href="https://www.netflix.com/de-en/title/81254224">Смотреть на&nbsp;Netlify</a></div>
 </div>
 
 
@@ -333,7 +324,7 @@ keywords: "фильмы, маркетологи, подборка фильмов
     
   </article>
 
- <article class="blockquote--emphasis mt-m ml-2xl" itemprop="review" itemscope itemtype="https://schema.org/Review">
+   <article class="blockquote--emphasis mt-m ml-2xl" itemprop="review" itemscope itemtype="https://schema.org/Review">
  <h4 class="element--hidden">Отзыв 2</h4>
  <meta itemprop="datePublished" content="2022-02-04">
       <div itemprop="reviewRating" itemscope itemtype="https://schema.org/Rating">
@@ -358,6 +349,89 @@ keywords: "фильмы, маркетологи, подборка фильмов
 
 
 
+
+
+<article id="emily-in-paris" class="row-gap--m mt-m" itemscope itemtype="https://schema.org/Movie">
+<meta itemprop="image" content="https://i.ytimg.com/vi_webp/lptctjAT-Mk/maxresdefault.webp">
+
+  <h2 itemprop="name" class="section__title h1 bold">Эмили в Париже / Emily in Paris (2020 - наст.вр.)</h2>
+  <meta itemprop="dateCreated" content="2020">
+<p><span class="bold">Создатель:</span> <span itemprop="creator" itemscope itemtype="https://schema.org/Person"><span itemprop="name">Даррен Стар</span></span><br>
+<span class="bold">Режиссеры:</span> 
+<span itemprop="director" itemscope itemtype="https://schema.org/Person"><span itemprop="name">Эндрю Флеминг</span></span> (22 эпизода), 
+<span itemprop="director" itemscope itemtype="https://schema.org/Person"><span itemprop="name">Питер Лауэр</span></span> (6 эпизодов), 
+<span itemprop="director" itemscope itemtype="https://schema.org/Person"><span itemprop="name">Катина Медина Мора</span></span> (4 эпизода), 
+<span itemprop="director" itemscope itemtype="https://schema.org/Person"><span itemprop="name">Эрин Эрлих</span></span> (4 эпизода) и др.<br>
+<span class="bold">IMDb рейтинг:</span> <span itemprop="aggregateRating" itemscope itemtype="https://schema.org/AggregateRating">
+<meta itemprop="ratingCount" content="131000">
+<meta itemprop="bestRating" content="10">
+<span itemprop="ratingValue">6.8</span>/10</span></p>
+  <p itemprop="description">Американка Эмили Купер приезжает в&nbsp;Париж работать в&nbsp;маркетинговом агентстве. Она хочет показать американский подход к&nbsp;маркетингу, при этом не&nbsp;владеет французским языком и&nbsp;теряется в&nbsp;тонкостях местной культуры. </p>
+
+
+<div class="figure" itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
+<link itemprop="url" href="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1743771696/site/films/emily-in-paris.jpg">
+<img class="image" loading="lazy" decoding="async" 
+     sizes="100vw" 
+			srcset="https://res.cloudinary.com/bartoshevich/image/upload/w_640/f_auto,q_auto/v1743771696/site/films/emily-in-paris.jpg 640w,
+			https://res.cloudinary.com/bartoshevich/image/upload/w_1024/f_auto,q_auto/v1743771696/site/films/emily-in-paris.jpg 1024w,
+      https://res.cloudinary.com/bartoshevich/image/upload/w_1280/f_auto,q_auto/v1743771696/site/films/emily-in-paris.jpg 1280w,
+      https://res.cloudinary.com/bartoshevich/image/upload/w_1980/f_auto,q_auto/v1743771696/site/films/emily-in-paris.jpg 1980w,
+      https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1743771696/site/films/emily-in-paris.jpg 2160w"
+      src="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1743771696/site/films/emily-in-paris.jpg" alt="Кадр из сериала 'Эмили в Париже'" width="2160" height="1440" itemprop="contentUrl">
+    <div class="figcaption">Кадр из&nbsp;сериала &laquo;Эмили в&nbsp;Париже&raquo;. <a class="link" href="https://www.netflix.com/de-en/title/81037371">Смотреть сериал на&nbsp;Netlify</a></div>
+</div>
+
+
+
+
+<p><span class="bold">Зачем смотреть</span> <br>Несмотря на&nbsp;некоторую поверхностность и&nbsp;порой примитивность, в&nbsp;сериале вы&nbsp;найдете интересный взгляд на&nbsp;различия в&nbsp;американском и&nbsp;европейском подходах к&nbsp;маркетингу. Однако этот кинопроект все&nbsp;же ближе к&nbsp;&laquo;Сексу в&nbsp;большом городе&raquo;, нежели к&nbsp;серьезному кино о&nbsp;профессии. Инструменты и&nbsp;маркетинговые решения следует воспринимать критически. </p>
+
+
+<section>
+  <h3 class="bold">Отзывы</h3>
+
+  <article class="blockquote--emphasis mt-m ml-2xl" itemprop="review" itemscope itemtype="https://schema.org/Review">
+  <h4 class="element--hidden">Отзыв 1</h4>
+  <meta itemprop="datePublished" content="2020-10-03">
+      <div itemprop="reviewRating" itemscope itemtype="https://schema.org/Rating">
+        <meta itemprop="ratingValue" content="10">
+        <meta itemprop="bestRating" content="10">
+        <meta itemprop="worstRating" content="1">
+      </div>
+    <blockquote class="citation" cite="https://www.imdb.com/review/rw6144432/?ref_=rw_urv" itemprop="reviewBody">
+        <p >10/10. Сначала мне показалось, что сериал&nbsp;&mdash; просто набор клише. Но&nbsp;потом неожиданно втянулась. Серии достаточно короткие, чтобы хотелось смотреть дальше, а&nbsp;сам сериал лёгкий, забавный и&nbsp;не&nbsp;пытается казаться серьёзнее, чем он&nbsp;есть. </p>
+    </blockquote>
+    <footer class="citation__author">
+        — <span itemprop="author" itemscope itemtype="https://schema.org/Person">
+            <span itemprop="name"><cite>пользователь IMDb: sarahjohnson-90980 </cite></span>
+        </span>
+    </footer>
+    
+  </article>
+
+  <article class="blockquote--emphasis mt-m ml-2xl" itemprop="review" itemscope itemtype="https://schema.org/Review">
+ <h4 class="element--hidden">Отзыв 2</h4>
+ <meta itemprop="datePublished" content="2022-02-04">
+      <div itemprop="reviewRating" itemscope itemtype="https://schema.org/Rating">
+        <meta itemprop="ratingValue" content="5">
+        <meta itemprop="bestRating" content="10">
+        <meta itemprop="worstRating" content="1">
+      </div>
+    <blockquote class="citation" cite="https://www.imdb.com/review/rw7675901/?ref_=rw_urv" itemprop="reviewBody">
+        <p >5/10. Почему люди вообще восхищаются &laquo;Эмили в&nbsp;Париже&raquo;? Этот сериал ужасен. Складывается впечатление, что главная ценность Эмили в&nbsp;том, что она привлекательна и&nbsp;может завоевать любого мужчину. Честно говоря, она иногда весьма посредственно справляется со&nbsp;своей работой. Помимо организации удачных вечеринок, она потеряла множество клиентов&nbsp;&mdash; более трёх. Я&nbsp;вообще редко вижу, как она работает, поскольку сериал в&nbsp;основном сосредоточен на&nbsp;её&nbsp;личной жизни и&nbsp;романтических похождениях.</p>
+    </blockquote>
+    <footer class="citation__author">
+        — <span itemprop="author" itemscope itemtype="https://schema.org/Person">
+            <span itemprop="name"><cite>пользователь IMDb: queenvalbrient </cite></span>
+        </span>
+    </footer>
+      
+  </article>
+
+</section>
+    
+</article>
 
 
 

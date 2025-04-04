@@ -59,10 +59,10 @@
 }
 
 .link-is-more {
-  color: v.$secondary-text-colour;
+  color: v.$secondary-text-colour!important;
 
   &:hover {
-    color: v.$link;
+    color: v.$link!important;
   }
   &:visited {
     color: v.$secondary-text-colour;
