@@ -197,7 +197,7 @@ keywords: "фильмы, маркетологи, подборка фильмов
       https://res.cloudinary.com/bartoshevich/image/upload/w_1980/f_auto,q_auto/v1743773091/site/films/sd.jpg 1980w,
       https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1743773091/site/films/sd.jpg 2365w"
       src="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1743773091/site/films/sd.jpg" alt="Кадр из фильма Социальная дилемма" width="2365" height="1268" itemprop="contentUrl">
-    <div class="figcaption">Кадр из&nbsp;фильма &laquo;Социальная дилемма&raquo;. <a class="link" href="https://www.netflix.com/de-en/title/81254224">Смотреть на&nbsp;Netlix</a></div>
+    <div class="figcaption">Кадр из&nbsp;фильма &laquo;Социальная дилемма&raquo;. <a class="link" href="https://www.netflix.com/de-en/title/81254224">Смотреть на&nbsp;Netflix</a></div>
 </div>
 
 
@@ -379,7 +379,7 @@ keywords: "фильмы, маркетологи, подборка фильмов
       https://res.cloudinary.com/bartoshevich/image/upload/w_1980/f_auto,q_auto/v1743771696/site/films/emily-in-paris.jpg 1980w,
       https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1743771696/site/films/emily-in-paris.jpg 2160w"
       src="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1743771696/site/films/emily-in-paris.jpg" alt="Кадр из сериала 'Эмили в Париже'" width="2160" height="1440" itemprop="contentUrl">
-    <div class="figcaption">Кадр из&nbsp;сериала &laquo;Эмили в&nbsp;Париже&raquo;. <a class="link" href="https://www.netflix.com/de-en/title/81037371">Смотреть сериал на&nbsp;Netlix</a></div>
+    <div class="figcaption">Кадр из&nbsp;сериала &laquo;Эмили в&nbsp;Париже&raquo;. <a class="link" href="https://www.netflix.com/de-en/title/81037371">Смотреть сериал на&nbsp;Netflix</a></div>
 </div>
 
 
