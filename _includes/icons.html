@@ -1,162 +1,161 @@
-
-
-<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-<link rel="manifest" href="/site.webmanifest?time=123456">
-<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
-<meta name="msapplication-TileColor" content="#232323">
-<meta name="theme-color" content="#fafafa">
-<meta name="theme-color" content="#272727" media="(prefers-color-scheme: dark)">
-
-
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+<link rel="manifest" href="/site.webmanifest?time=123456" />
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5" />
+<meta name="msapplication-TileColor" content="#232323" />
+<meta name="theme-color" content="#fafafa" />
+<meta
+  name="theme-color"
+  content="#272727"
+  media="(prefers-color-scheme: dark)"
+/>
 
 <style nonce="prefetchStyle">
+  <style > html {
+    --link: #000000;
+    --link-hover: #000000;
+    --link-active: #000000;
+    --link-opacity-05: rgba(0, 0, 0, 0.05);
+    --text-colour: #000000;
+    --secondary-text-colour: #515154;
+    --secondary-text-colour-rgb: 81, 81, 84;
+    --card-border: #c5c5c5;
+    --background-color: #fafafa;
+    --button-text-color: #000000;
+  }
 
-    .link {
-      text-decoration: none;
-      box-shadow: inset 0 -2px 0 -1px var(--link-opacity-80);
-      color: var(--link);
-      cursor: pointer;
-      position: relative;
-      transition:  0.3s ease;
-    }
-    
-    .link:hover {
-      box-shadow: inset 0 -2px 0 -1px var(--link);
-      background-color: var(--link-opacity-05);
-    }
-    
-    .link::after {
-      content: '';
-      position: absolute;
-      bottom: 0;
-      left: 0;
-      width: 100%;
-      height: 2px;
-      transform: scaleX(0);
-      transform-origin: right;
-      transition: 0.3s ease;
-      z-index: 1;
-    }
-    
-    .link:hover::after {
-      transform: scaleX(1);
-      transform-origin: left;
-    }
-    
-    .link:visited {
-      color: var(--link);
-    }
-    
-    /* Стили для сервисных блоков */
-    .service {
-      border-radius: 12px;
-      transition: all 0.3s ease;
-      margin-bottom: 24px;
-    }
-    
-    .service__title {
-      display: flex;
-      align-items: center;
-      font-weight: 600;
-      margin-bottom: 16px;
-      font-size: 20px;
-      line-height: 1.4;
-    }
-    
-    .service__icon {
-      margin-right: 12px;
-      transition: all 0.3s ease;
-      display: inline-block;
-      width: 1em;
-      height: 1em;
-      stroke-width: 0;
-      stroke: currentColor;
-      fill: currentColor;
-    }
-    
-    .service:hover .service__icon {
-      transform: scale(1.3);
-    }
-    
-    /* Стили для карточек */
-    .cards .card.service {
-      height: 100%;
-      display: flex;
-      border: 1px solid var(--gray);
-      border-radius: 8px;
-      background-color: var(--background-color);
-      transition: all 0.3s ease;
-      overflow: hidden;
-    }
-    
-    .cards .card.service:hover {
-      transform: translateY(-4px);
-      box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
-      border-color:  var(--link);
-    }
-    
-    .cards .card.service .service-link {
-      display: flex;
-      flex-direction: column;
-      width: 100%;
-      height: 100%;
-      text-decoration: none;
-      color: var(--text-colour);
-      box-shadow: none;
-    }
-    
-    .cards .card.service .service-link:hover {
-      box-shadow: none;
-      background-color: transparent;
-    }
-    
-    .cards .card.service .service-link::after {
-      display: none;
-    }
-    
-    .cards .card.service .text {
-      padding: var(--space-m);
-      display: flex;
-      flex-direction: column;
-      height: 100%;
-    }
-    
-    .cards .card.service .service__title {
-      display: flex;
-      align-items: center;
-      margin-bottom: var(--space-s);
-      font-size: var(--step-1);
-      line-height: 1.4;
-      color: var(--link);
-    }
-    
-    .cards .card.service .service__icon {
-      width: 24px;
-      height: 24px;
-      min-width: 24px;
-      margin-right: var(--space-s);
-      transition: transform 0.3s ease;
-      fill: var(--link);
-    }
-    
-    .cards .card.service:hover .service__icon {
-      transform: scale(1.2);
-    }
-    
-    .cards .card.service .block__content {
-      font-size: var(--step-0);
-      line-height: 1.6;
-      color: var(--text-colour);
-      margin-top: auto;
-    }
-    
-    /* Медиа-запросы */
-    @media (max-width: 768px) {
-      .service-grid {
-        grid-template-columns: 1fr;
-      }
-    }
-    </style>
+  html[data-theme="dark"] {
+    --link: #f5f5f7;
+    --link-hover: #ffffff;
+    --link-active: #c4c4ca;
+    --link-opacity-05: rgba(245, 245, 247, 0.1);
+    --text-colour: #f5f5f7;
+    --secondary-text-colour: #b8b8bc;
+    --secondary-text-colour-rgb: 184, 184, 188;
+    --card-border: #3a3a3c;
+    --background-color: #1c1c1e;
+    --button-text-color: #f5f5f7;
+  }
 
+  .link {
+    color: var(--link);
+    box-shadow: inset 0 -1px 0 0 rgba(var(--secondary-text-colour-rgb), 0.6);
+  }
+  .link:hover {
+    color: var(--link-hover);
+    box-shadow: inset 0 -2px 0 0 var(--link);
+    background-color: var(--link-opacity-05);
+  }
+  .link:active {
+    color: var(--link-active);
+    box-shadow: inset 0 -2px 0 0 var(--link-active);
+  }
+  .link:focus-visible {
+    outline: 2px solid var(--link);
+    outline-offset: 2px;
+    box-shadow: none;
+    text-decoration: none;
+    background-color: transparent;
+  }
+  .link:visited {
+    color: var(--link);
+  }
+
+  #random-article-button {
+    background-color: transparent;
+    color: var(--text-colour);
+    border: 2px solid var(--secondary-text-colour);
+  }
+  #random-article-button:hover {
+    background-color: var(--link-opacity-05);
+    border-color: var(--text-colour);
+    color: var(--text-colour);
+  }
+  #random-article-button:active {
+    background-color: rgba(var(--secondary-text-colour-rgb), 0.15);
+    border-color: var(--text-colour);
+    transform: none;
+    box-shadow: none;
+  }
+
+  .cards .card.service {
+    border: 2px solid var(--card-border); /* Use updated variable */
+    outline: 2px solid transparent;
+    outline-offset: 2px;
+  }
+  .cards .card.service:hover {
+    border-color: var(--link);
+  }
+  .cards .card.service::before {
+    background-color: var(--link);
+  }
+  .cards .card.service:hover::before {
+    opacity: 1;
+  }
+  .cards .card.service:focus-within {
+    outline-color: var(--link);
+    border-color: var(--card-border);
+  }
+  .cards .card.service .service-link:focus,
+  .cards .card.service .service-link:focus-visible {
+    outline: none;
+  }
+  .cards .card.service .service__title {
+    color: var(--text-colour);
+  }
+  .cards .card.service:hover .service__title {
+    color: var(--link);
+  }
+  .cards .card.service .block__content {
+    color: var(--secondary-text-colour);
+  }
+
+  html:not([data-theme="dark"]) .cards .card.service {
+    border-color: #c5c5c5;
+  }
+  html:not([data-theme="dark"]) .cards .card.service:hover {
+    border-color: var(--link);
+  }
+  html[data-theme="dark"] .cards .card.service {
+    border-color: #3a3a3c;
+  }
+  html[data-theme="dark"] .cards .card.service:hover {
+    border-color: var(--link);
+  }
+
+  .cards > ul > li > .card {
+    border: 2px solid #c5c5c5;
+    transition: none;
+  }
+  html:not([data-theme="dark"]) .cards > ul > li > .card {
+    border-color: #c5c5c5;
+  }
+  html:not([data-theme="dark"]) .cards > ul > li > .card:hover {
+    border-color: var(--link);
+  }
+  html[data-theme="dark"] .cards > ul > li > .card {
+    border: 2px solid #525252;
+  }
+  html[data-theme="dark"] .cards > ul > li > .card:hover {
+    border-color: var(--link); /* Use --link for hover border */
+  }
+  .cards > ul > li > .card:focus-within {
+    border-color: var(--link);
+  }
+  html[data-theme="dark"] .cards > ul > li > .card:focus-within {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.35);
+  }
+  .cards > ul > li > .card a:focus,
+  .cards > ul > li > .card a:focus-visible {
+    outline: none;
+  }
+  .cards > ul > li > .card h4, /* Blog card titles */
+   .cards > ul > li > .card .h2 {
+    color: var(--text-colour);
+  }
+  .cards > ul > li > .card p, /* Blog card text */
+   .cards > ul > li > .card .small {
+    color: var(--secondary-text-colour);
+  }
+</style>

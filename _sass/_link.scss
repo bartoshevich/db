@@ -1,24 +1,121 @@
 @use "variables" as v;
-@use "sass:color";
 
-
-
+/* Основной стиль ссылок - подчеркивание и систематический цвет */
 .link {
-  text-decoration: none;
-  box-shadow: inset 0 -2px 0 -1px v.$link-opacity-80;
   color: v.$link;
-  cursor: pointer;
+  text-decoration: none;
+  box-shadow: inset 0 -1px 0 0 rgba(var(--secondary-text-colour-rgb), 0.6);
   position: relative;
-  transition:  0.4s ease;
-  
+  transition: all 0.2s ease-in-out;
+  padding: 0 1px;
+  border-radius: 2px;
+
   &:hover {
-    text-decoration: none;
-    box-shadow: inset 0 -2px 0 -1px v.$link;
+    color: v.$link-hover;
+    box-shadow: inset 0 -2px 0 0 v.$link;
     background-color: v.$link-opacity-05;
   }
-  
+
+  &:focus-visible {
+    outline: 2px solid v.$link;
+    outline-offset: 2px;
+    box-shadow: none;
+    text-decoration: none;
+  }
+
+  &:active {
+    color: v.$link-active;
+    box-shadow: inset 0 -2px 0 0 v.$link-active;
+    transform: translateY(1px);
+  }
+
+  &:visited {
+    color: v.$link;
+  }
+}
+
+
+
+
+/* Ссылки для второстепенного содержимого */
+.link-secondary {
+  text-decoration: none;
+  color: v.$secondary-text-colour;
+  position: relative;
+  transition: all 0.2s ease-in-out;
+  padding: 0 1px;
+  box-shadow: inset 0 -1px 0 0 rgba(v.$secondary-text-colour, 0.5);
+  border-radius: 2px;
+
+  &:hover {
+    text-decoration: none;
+    color: v.$link;
+    box-shadow: inset 0 -1px 0 0 v.$link;
+  }
+
+  &:focus-visible {
+    outline: 2px solid v.$link;
+    outline-offset: 2px;
+  }
+}
+
+/* Ссылки в виде обычного текста  */
+.link-as-text {
+  color: inherit;
+  box-shadow: none;
+  text-decoration: none;
+
+  &:hover {
+    color: v.$link;
+    background-color: transparent;
+    box-shadow: none;
+  }
+
+  &:active {
+    color: v.$link-active;
+  }
+}
+
+/* Ссылки для "Читать дальше" или похожих действий */
+.link-more {
+  display: inline-flex;
+  align-items: center;
+  //color: v.$link;
+  font-weight: 500;
+
   &::after {
-    content: '';
+    content: "→";
+    margin-left: 0.35em;
+    transition: transform 0.2s ease;
+  }
+
+  &:hover::after {
+    transform: translateX(3px);
+  }
+}
+
+/* Навигационные ссылки с индикацией активности */
+.nav-link {
+  position: relative;
+  color: v.$text-colour;
+  text-decoration: none;
+  box-shadow: none;
+  transition: color 0.2s ease;
+  border-radius: 2px;
+
+  &::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background-color: var(--secondary-text-colour);
+    opacity: 0.6;
+  }
+
+  &::after {
+    content: "";
     position: absolute;
     bottom: 0;
     left: 0;
@@ -27,59 +124,37 @@
     background-color: v.$link;
     transform: scaleX(0);
     transform-origin: right;
-    transition: 0.3s ease;
-    z-index: 1;
+    transition: transform 0.3s ease;
   }
-  
-  &::after:hover {
-    transform: scaleX(1);
-    transform-origin: left;
-  }
-}
-
-.link:visited {
-  color: v.$link;
-}
-
-
-
-.focus:focus,
-.link:focus {
-  outline: 3px solid transparent;
-  color: v.$link;
-  background-color: v.$link-bg;
-  -webkit-box-shadow: 0 -2px v.$link-bg, 0 -1px v.$link-active;
-  box-shadow: 0 -2px v.$link-bg, 0 -1px v.$link-active;
-  text-decoration: none;
-}
-
-
-.link:active {
-  color: v.$link-active;
-}
-
-.link-is-more {
-  color: v.$secondary-text-colour!important;
 
   &:hover {
-    color: v.$link!important;
-  }
-  &:visited {
-    color: v.$secondary-text-colour;
-  }
-  &:active {
-    color: v.$link-active;
-  }
-}
+    color: v.$link;
 
+    &::after {
+      transform: scaleX(1);
+      transform-origin: left;
+    }
+  }
 
+  &.active {
+    font-weight: 500;
 
-.link-as-text,
-.link-as-text:visited,
-.link-as-text:focus,
-.link-as-text:hover,
-.link-as-text:active {
-  color: inherit;
-  text-decoration: none;
-  cursor: default;
+    &::after {
+      transform: scaleX(1);
+      transform-origin: left;
+    }
+  }
+
+  &:focus-visible {
+    padding: 0;
+    margin: 0;
+    outline: 2px solid v.$link;
+    outline-offset: 2px;
+    box-shadow: none !important;
+    text-decoration: none;
+
+    &::before {
+      opacity: 0;
+    }
+  }
 }

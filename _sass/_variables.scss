@@ -1,15 +1,31 @@
-/* Text  */
+/* Обновленный файл _variables.scss */
 
+/* ==================
+   ОСНОВНЫЕ ЦВЕТА
+   ================== */
+
+// Текст
 $text-colour: var(--text-colour);
 $secondary-text-colour: var(--secondary-text-colour);
 
-/* Color */
+// Цвета бренда
+$brand-color: var(--brand-color);
+$brand-color-light: var(--brand-color-light);
+$brand-color-dark: var(--brand-color-dark);
+
+// Акцентные цвета
+$accent-success: var(--accent-success);
+$accent-warning: var(--accent-warning);
+
+// Фон
 $background-color: var(--background-color);
+$selected-bg-color: var(--selected-bg-color);
 $toc: var(--toc);
+$gray: var(--gray);
 
-
-/*  Link  */
-
+/* ==================
+   ССЫЛКИ
+   ================== */
 $link: var(--link);
 $link-hover: var(--link-hover);
 $link-active: var(--link-active);
@@ -18,19 +34,72 @@ $link-focus: var(--link-focus);
 $link-opacity-80: var(--link-opacity-80);
 $link-opacity-05: var(--link-opacity-05);
 
-/* Border */
+/* ==================
+   КОМПОНЕНТЫ
+   ================== */
+// Таблицы
+$table-bg-color: var(--table-bg-color);
+$table-border-top: var(--table-border-top);
+$table-border-td: var(--table-border-td);
+$table-bg-th: var(--table-bg-th);
+$table-gainsboro: var(--table-gainsboro);
 
-$gray: var(--gray);
+// Кнопки
+$button-bg-color: var(--button-bg-color);
+$button-text-color: var(--button-text-color);
+$button-hover-bg-color: var(--button-hover-bg-color);
 
-// Typography
+// Видео
+$video-border: var(--video-border);
 
+// Карточки
+$card-bg: var(--background-color);
+$card-border: var(--gray);
+$card-shadow: rgba(0, 0, 0, 0.05);
+$card-hover-shadow: rgba(0, 0, 0, 0.12);
+$card-hover-transform: -6px;
+
+/* ==================
+   ТИПОГРАФИКА
+   ================== */
 $family-sans-serif: "PT Sans", "PT Sans-fallback", Arial, Helvetica, sans-serif !default;
 $family-monospace: monospace !default;
 $render-mode: optimizeLegibility !default;
 
-// Terminal
-@use "sass:color";
+/* ==================
+   ТЕРМИНАЛ
+   ================== */
 $base-color: #393e46;
-$terminal-border-color: color.mix(#fff, $base-color, 80%);
+$terminal-border-color: rgba(255, 255, 255, 0.8);
 $terminal-window-height: 10px;
 $terminal-border-radius: 0.125em;
+
+/* ==================
+   МЕДИА-ТОЧКИ
+   ================== */
+$breakpoint-small: 640px;    // Мобильные устройства
+$breakpoint-medium: 768px;   // Планшеты
+$breakpoint-large: 1069px;   // Ноутбуки/настольные
+$breakpoint-xlarge: 1430px;  // Большие экраны
+
+/* ==================
+   АНИМАЦИИ
+   ================== */
+$transition-fast: 0.2s ease;
+$transition-normal: 0.3s ease;
+$transition-slow: 0.5s ease;
+$easing-standard: cubic-bezier(0.4, 0, 0.2, 1);
+$easing-accelerate: cubic-bezier(0.4, 0, 1, 1);
+$easing-decelerate: cubic-bezier(0, 0, 0.2, 1);
+
+/* ==================
+   КОМПОЗИЦИЯ
+   ================== */
+$spacing-unit: 8px;  // Базовый отступ
+$border-radius-small: 4px;
+$border-radius-medium: 8px;
+$border-radius-large: 12px;
+$container-width: var(--content-width);
+$z-index-header: 1000;
+$z-index-modal: 2000;
+$z-index-tooltip: 3000;

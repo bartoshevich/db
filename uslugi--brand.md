@@ -114,7 +114,7 @@ keywords: "разработка концепции бренда"
                     <span itemprop="name">Дмитрий Лихтарович</span>, <span itemprop="jobTitle">директор интернет-агентства Giperlink</span>
                 </cite>
                 <br>
-                <a class="italic link" href="{{ site.url }}/blog/brand-giperlink/" itemprop="url">описание проекта и&nbsp;отзыв</a>
+                <a class="italic link" href="{{ site.url }}/blog/kejs-brend-giperlink/" itemprop="url">описание проекта и&nbsp;отзыв</a>
             </div>
             <div itemprop="reviewRating" itemscope itemtype="https://schema.org/Rating">
                 <meta itemprop="ratingValue" content="5">

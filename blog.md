@@ -21,7 +21,7 @@ image:
 <div class="intro max-width-text"><span class="inline bold">Блог</span>. <strong>Возвращаю смысл в&nbsp;маркетинг</strong>. Делюсь идеями, наблюдениями, опытом. Подписаться на&nbsp;обновления: <a class="link" href="https://t.me/+OuzxNOZg-g44ZjYy">telegram</a>, <a class="link" href="https://eepurl.com/cmkKcz">эл.почта</a> 
 
     <div>        
-    <button class="small" id="random-article-button">Открыть случайно выбранную статью</button>
+    <button class="small button--outlined" id="random-article-button">Открыть случайно выбранную статью</button>
         <noscript>
             <div style="color: red;">
                 Для полной функциональности сайта необходимо включить JavaScript. 

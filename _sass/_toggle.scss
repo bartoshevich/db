@@ -1,3 +1,5 @@
+@use "variables" as v;
+
 /* @import"https://unpkg.com/open-props/easings.min.css"; */
 
 :where(html) {
@@ -123,6 +125,12 @@
   touch-action: manipulation;
   -webkit-tap-highlight-color: transparent;
   outline-offset: 5px;
+
+  &:focus-visible {
+    outline: 2px solid v.$link;
+   
+  
+  }
 }
 
 .theme-toggle > svg {
