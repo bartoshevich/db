@@ -1,22 +1,54 @@
-
 @use "variables" as v;
 
 #random-article-button {
-  background-color: transparent;    
-  color: var(--text-colour);                         
-  border: 2px solid var(--secondary-text-colour); 
+  background-color: transparent;
+  color: var(--text-colour);
+  border: 2px solid var(--secondary-text-colour);
   display: inline-block;
   border-radius: 5px;
   padding: 10px 20px;
   font-size: var(--step-0);
   margin-top: 2em;
   cursor: pointer;
-  transition: background-color 0.2s ease, color 0.2s ease, border-color 0.2s ease, transform 0.2s ease, box-shadow 0.2s ease;
+  transition: background-color 0.2s ease, color 0.2s ease,
+    border-color 0.2s ease, transform 0.2s ease, box-shadow 0.2s ease;
 }
 
 #random-article-button:hover {
   background-color: v.$link-opacity-05;
-          
+
   border-color: v.$link-opacity-05;
 }
 
+/* Состояние при клике */
+#random-article-button:active {
+  transform: translateY(2px);
+}
+
+/* Состояние блокировки после клика */
+#random-article-button.button-cooldown {
+  opacity: 0.6;
+  cursor: wait;
+  pointer-events: none;
+  border-color: v.$link-opacity-05;
+  background-color: v.$link-opacity-05;
+  // color: var(--background-color);
+  transform: scale(0.9);
+}
+
+/* Анимация для индикации периода ожидания */
+@keyframes pulse-fade {
+  0% {
+    opacity: 0.6;
+  }
+  50% {
+    opacity: 0.8;
+  }
+  100% {
+    opacity: 0.6;
+  }
+}
+
+#random-article-button.button-cooldown {
+  animation: pulse-fade 2s ease infinite;
+}

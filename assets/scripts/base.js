@@ -39,14 +39,14 @@
 /* #### Service Worker Registration #### */
 (() => {
   // Проверяем поддержку Service Worker и наличие объекта navigator
-  if (typeof navigator === 'undefined' || !('serviceWorker' in navigator)) {
+  if (typeof navigator === "undefined" || !("serviceWorker" in navigator)) {
     return;
   }
 
   // Функция регистрации с повторными попытками
   const registerServiceWorker = async (maxRetries = 2) => {
     let retries = 0;
-    
+
     const attemptRegistration = async () => {
       try {
         const registration = await navigator.serviceWorker.register(
@@ -59,13 +59,13 @@
           retries++;
           // Экспоненциальная задержка между попытками (1s, 2s, 4s...)
           const delay = Math.pow(2, retries) * 1000;
-          await new Promise(resolve => setTimeout(resolve, delay));
+          await new Promise((resolve) => setTimeout(resolve, delay));
           return attemptRegistration();
         }
         throw error;
       }
     };
-    
+
     try {
       await attemptRegistration();
     } catch (error) {
@@ -75,7 +75,7 @@
   };
 
   // Запускаем регистрацию, когда браузер не занят
-  if ('requestIdleCallback' in window) {
+  if ("requestIdleCallback" in window) {
     requestIdleCallback(() => registerServiceWorker());
   } else {
     setTimeout(() => registerServiceWorker(), 1000);
@@ -101,7 +101,9 @@
 
   // Используем единый подход к проверке готовности DOM
   if (document.readyState === "loading") {
-    document.addEventListener("DOMContentLoaded", initImageExpand, { once: true });
+    document.addEventListener("DOMContentLoaded", initImageExpand, {
+      once: true,
+    });
   } else {
     initImageExpand();
   }
@@ -117,7 +119,7 @@
   document.addEventListener("copy", (event) => {
     // Проверяем доступность объекта event и clipboardData
     if (!event || !event.clipboardData) return;
-    
+
     event.preventDefault();
 
     const selection = window.getSelection();
@@ -146,7 +148,7 @@
 /* #### Prefetch on hover functionality #### */
 (() => {
   // Проверка на наличие необходимых глобальных объектов
-  if (typeof window === 'undefined' || typeof document === 'undefined') {
+  if (typeof window === "undefined" || typeof document === "undefined") {
     return;
   }
 
@@ -163,9 +165,10 @@
     // Проверяем поддержку prefetch
     supportsPrefetch: () => {
       let link = document.createElement("link");
-      const supportsFeature = link.relList && 
-                             link.relList.supports && 
-                             link.relList.supports("prefetch");
+      const supportsFeature =
+        link.relList &&
+        link.relList.supports &&
+        link.relList.supports("prefetch");
       // Удаляем созданный элемент, чтобы не засорять память
       link = null;
       return supportsFeature;
@@ -194,12 +197,12 @@
       if (prefetcher.urlQueue.length > prefetcher.MAX_CACHE_SIZE) {
         const oldestUrl = prefetcher.urlQueue.shift();
         const oldLinkElement = prefetcher.cache.get(oldestUrl);
-        
+
         // Удаляем DOM-элемент, если он существует
         if (oldLinkElement && oldLinkElement.parentNode) {
           oldLinkElement.parentNode.removeChild(oldLinkElement);
         }
-        
+
         prefetcher.cache.delete(oldestUrl);
       }
     },
@@ -241,10 +244,10 @@
     // Обработчик наведения
     handleHover: (event) => {
       if (!event || !event.target) return;
-      
+
       const link = event.target.closest("a");
       if (!link) return;
-      
+
       const url = link.getAttribute("href");
       if (url) {
         // Используем requestIdleCallback для оптимизации производительности
@@ -260,7 +263,7 @@
     // Инициализация
     init: () => {
       if (!prefetcher.supportsPrefetch()) return;
-      
+
       // Добавляем обработчик на весь документ (делегирование событий)
       document.addEventListener("mouseover", prefetcher.handleHover, {
         passive: true,
@@ -270,7 +273,9 @@
 
   // Запускаем после загрузки DOM
   if (document.readyState === "loading") {
-    document.addEventListener("DOMContentLoaded", prefetcher.init, { once: true });
+    document.addEventListener("DOMContentLoaded", prefetcher.init, {
+      once: true,
+    });
   } else {
     prefetcher.init();
   }
@@ -280,19 +285,16 @@
 (() => {
   // Функция инициализации случайной статьи
   const initRandomArticle = () => {
-    const randomArticleButton = document.getElementById("random-article-button");
+    const randomArticleButton = document.getElementById(
+      "random-article-button"
+    );
     if (!randomArticleButton) return;
 
-    const articleLinksArray = Array.from(document.querySelectorAll(".article-link"));
-    
+    const articleLinksArray = Array.from(
+      document.querySelectorAll(".article-link")
+    );
+
     if (articleLinksArray.length === 0) {
-      // Предупреждение только для разработки, в продакшене можно убрать
-      if (process.env.NODE_ENV !== 'production') {
-        console.warn(
-          "Кнопка случайной статьи найдена (#random-article-button), но ссылки на статьи (.article-link) отсутствуют."
-        );
-      }
-      
       // Деактивируем кнопку
       randomArticleButton.disabled = true;
       randomArticleButton.style.opacity = "0.5";
@@ -303,37 +305,79 @@
       return;
     }
 
+    // Функция для блокировки кнопки
+    const setCooldown = (button) => {
+      button.classList.add("button-cooldown");
+      button.setAttribute("aria-disabled", "true");
+      button.title = "Пожалуйста, подождите...";
+
+      setTimeout(() => {
+        button.classList.remove("button-cooldown");
+        button.removeAttribute("aria-disabled");
+        button.title = "Выбрать случайную статью";
+      }, 2000);
+    };
+
     // Добавляем обработчик события клика
-    randomArticleButton.addEventListener("click", () => {
+    randomArticleButton.addEventListener("click", (event) => {
+      // Предотвращаем действие, если кнопка уже в режиме ожидания
+      if (randomArticleButton.classList.contains("button-cooldown")) {
+        event.preventDefault();
+        return;
+      }
+
       try {
-        const randomIndex = Math.floor(Math.random() * articleLinksArray.length);
+        // Активируем состояние ожидания
+        setCooldown(randomArticleButton);
+
+        const randomIndex = Math.floor(
+          Math.random() * articleLinksArray.length
+        );
         const randomArticleElement = articleLinksArray[randomIndex];
-        
+
         if (randomArticleElement && randomArticleElement.href) {
           try {
-            const url = new URL(randomArticleElement.href, window.location.origin);
-            url.searchParams.set("utm_source", "random_button");
-            window.location.href = url.toString();
+            // Добавляем небольшую задержку перед переходом для визуального эффекта
+            setTimeout(() => {
+              const url = new URL(
+                randomArticleElement.href,
+                window.location.origin
+              );
+              url.searchParams.set("utm_source", "random_button");
+              window.location.href = url.toString();
+            }, 300);
           } catch (error) {
-            // В продакшн режиме можно убрать детали ошибки
-            window.location.href = randomArticleElement.href;
+            // Для продакшна - тихое логирование ошибки
+            setTimeout(() => {
+              window.location.href = randomArticleElement.href;
+            }, 300);
           }
         } else {
-          if (process.env.NODE_ENV !== 'production') {
-            console.error("Выбранный элемент не является корректной ссылкой:", randomArticleElement);
-          }
+          // Восстанавливаем кнопку немедленно в случае ошибки
+          randomArticleButton.classList.remove("button-cooldown");
+          randomArticleButton.removeAttribute("aria-disabled");
         }
       } catch (error) {
-        if (process.env.NODE_ENV !== 'production') {
-          console.error("Ошибка при попытке перехода к случайной статье:", error);
-        }
+        // Восстанавливаем кнопку немедленно в случае ошибки
+        randomArticleButton.classList.remove("button-cooldown");
+        randomArticleButton.removeAttribute("aria-disabled");
+      }
+    });
+
+    // Улучшаем доступность - добавляем обработку нажатия Enter на кнопке
+    randomArticleButton.addEventListener("keydown", (event) => {
+      if (event.key === "Enter" || event.key === " ") {
+        event.preventDefault();
+        randomArticleButton.click();
       }
     });
   };
 
   // Проверяем готовность DOM
   if (document.readyState === "loading") {
-    document.addEventListener("DOMContentLoaded", initRandomArticle, { once: true });
+    document.addEventListener("DOMContentLoaded", initRandomArticle, {
+      once: true,
+    });
   } else {
     initRandomArticle();
   }
