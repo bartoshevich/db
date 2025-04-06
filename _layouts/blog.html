@@ -26,32 +26,5 @@ layout: compress
  {% include script.html %}
 
 
- <script>
- document.addEventListener('DOMContentLoaded', () => {
-  const randomArticleButton = document.getElementById('random-article-button');
-  
-  if (randomArticleButton) {
-    randomArticleButton.addEventListener('click', () => {
-      const articleLinks = document.querySelectorAll('.article-link');
-      
-      if (articleLinks.length === 0) {
-        console.warn('Статьи не найдены.');
-        return;
-      }
-
-      const randomIndex = Math.floor(Math.random() * articleLinks.length);
-      const randomArticleLink = articleLinks[randomIndex].href;
-      
-      window.location.assign(randomArticleLink);
-    });
-  } else {
-    console.warn('Кнопка случайной статьи не найдена.');
-  }
-});
-</script>
-
-
-
-
 </body>
 </html>
