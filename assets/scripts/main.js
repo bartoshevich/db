@@ -1,4 +1,125 @@
-// Prefetch on hover functionality
+
+
+  /* #### MENU #### */
+  (() => {
+   
+    const menuList = document.querySelector(".menu__header");
+    const menuButton = document.querySelector(".menu__button");
+    
+    if (!menuButton || !menuList) return;
+     
+    const mobileMenu = () => {
+      const expanded = menuButton.getAttribute("aria-expanded") === "true";
+      menuButton.setAttribute("aria-expanded", !expanded);
+  
+      menuButton.classList.toggle("menu__button--open", !expanded);
+      menuList.classList.toggle("menu__header--open", !expanded);
+    };
+  
+    menuButton.addEventListener("click", mobileMenu);
+  
+    menuButton.addEventListener("keydown", (event) => {
+      if (event.key === "Enter" || event.key === " ") {
+        event.preventDefault();
+        mobileMenu();
+      }
+    });
+  
+    window.addEventListener("click", (event) => {
+      if (
+        !event.target.closest(".menu__header") &&
+        !event.target.closest(".menu__button")
+      ) {
+        if (menuButton.getAttribute("aria-expanded") === "true") {
+          menuButton.setAttribute("aria-expanded", "false");
+        }
+        menuList.classList.remove("menu__header--open");
+        menuButton.classList.remove("menu__button--open");
+      }
+    });
+  })();
+ 
+
+
+  /* #### Service Worker Registration #### */
+
+  (async () => {
+    if (!('serviceWorker' in navigator)) {
+      console.warn('Service Worker не поддерживается в этом браузере.');
+      return;
+    }
+
+    try {
+      const registration = await navigator.serviceWorker.register('/service-workers.js', {
+        scope: '/'
+      });
+      console.log('Service Worker зарегистрирован. Scope:', registration.scope);
+    } catch (error) {
+      console.error('Service Worker registration failed:', error);
+    }
+  })();
+
+
+
+
+
+  /* #### Image Expand #### */
+  (() => {
+    document.addEventListener('DOMContentLoaded', () => {
+      const elements = document.querySelectorAll('.image-expand');
+      if (!elements.length) return;
+  
+      elements.forEach((element) => {
+        element.addEventListener('click', () => {
+          const url = element.dataset.url;
+          if (url) {
+            window.open(url, '_blank', 'noopener,noreferrer');
+          }
+        });
+      });
+    });
+  })();
+
+
+
+  /* #### Copy to Clipboard #### */
+  (() => {
+    const MIN_COPY_LENGTH = 300;
+    const MAX_COPY_LENGTH = 2000;
+    const MAX_UNMODIFIED_LENGTH = 250;
+    const sourceLink = " [Источник: https://bartoshevich.by]";
+
+    document.addEventListener("copy", (event) => {
+      event.preventDefault();
+
+      const selection = window.getSelection();
+      const originalText = selection ? selection.toString() : "";
+
+      if (!originalText) return;
+
+      if (originalText.length <= MAX_UNMODIFIED_LENGTH) {
+        event.clipboardData?.setData("text/plain", originalText);
+        return;
+      }
+
+      const maxLength =
+        Math.floor(Math.random() * (MAX_COPY_LENGTH - MIN_COPY_LENGTH + 1)) +
+        MIN_COPY_LENGTH;
+
+      let truncatedText = originalText.substring(0, maxLength);
+
+      truncatedText = truncatedText.split(" ").join(" ");
+
+      const modifiedText = truncatedText + sourceLink;
+
+      event.clipboardData?.setData("text/plain", modifiedText);
+    });
+  })();
+
+
+
+  /* #### Prefetch on hover functionality #### */
+
 const prefetcher = {
     // Максимальное количество URL в кэше
     MAX_CACHE_SIZE: 100,

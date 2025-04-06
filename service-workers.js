@@ -3,7 +3,7 @@
 (function () {
   // Конфигурация
   const CONFIG = {
-    version: 'v4.0.0::',
+    version: 'v4.0.02::',
     debug: false,
     caches: {
       static: 'static-resources',
@@ -34,7 +34,8 @@
             '/uslugi/autsorsing-marketinga/',
             '/about/',
             '/offline/',
-            '/assets/scripts/prefetch.js',
+            '/assets/scripts/main.js',
+            '/assets/scripts/video.js',
             '/assets/scripts/theme.js',
             '/assets/css/style.css',
             '/assets/css/style-home.css',

@@ -1,7 +1,4 @@
-<script
-  type="application/ld+json"
-  nonce="y4VZC0VrqMma_4wARYnlJpifIomnbHG-ibt6RepxdkA"
->
+<script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@type": "Blog",
@@ -14,36 +11,35 @@
   }
 </script>
 
-
 <!-- BlogPosting для всех статей -->
-<script type="application/ld+json" nonce="y4VZC0VrqMma_4wARYnlJpifIomnbHG-ibt6RepxdkA">
-    {
-      "@context": "https://schema.org",
-      "@graph": [
-        {% for post in site.posts %}
-        {
-          "@type": "BlogPosting",
-          "headline": "{{ post.name | escape }}",
-          "name": "{{ post.name | escape  }}",
-          "datePublished": "{{ post.date | date_to_xmlschema | escape  }}",
-          "dateModified": "{{ post.last_modified_at | date_to_xmlschema  | escape  }}",
-          "description": "{{ post.description | strip_html | strip | escape  }}",
-          "url": "{{ site.url }}{{ post.url }}",
-          {% if post.image %}
-          "image": "{{ site.url }}{{ post.image }}",
-          {% endif %}
-          "author": {
-            "@id": "#person"
-          },
-          "publisher": {
-            "@id": "#service"
-          },
-          "mainEntityOfPage": {
-            "@type": "WebPage",
-            "@id": "{{ site.url }}{{ post.url }}"
-          }
-        }{% unless forloop.last %},{% endunless %}
-        {% endfor %}
-      ]
-    }
-    </script>
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {% for post in site.posts %}
+      {
+        "@type": "BlogPosting",
+        "headline": "{{ post.name | escape }}",
+        "name": "{{ post.name | escape  }}",
+        "datePublished": "{{ post.date | date_to_xmlschema | escape  }}",
+        "dateModified": "{{ post.last_modified_at | date_to_xmlschema  | escape  }}",
+        "description": "{{ post.description | strip_html | strip | escape  }}",
+        "url": "{{ site.url }}{{ post.url }}",
+        {% if post.image %}
+        "image": "{{ site.url }}{{ post.image }}",
+        {% endif %}
+        "author": {
+          "@id": "#person"
+        },
+        "publisher": {
+          "@id": "#service"
+        },
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "{{ site.url }}{{ post.url }}"
+        }
+      }{% unless forloop.last %},{% endunless %}
+      {% endfor %}
+    ]
+  }
+</script>
