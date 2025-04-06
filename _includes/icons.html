@@ -13,6 +13,7 @@
 
 <style nonce="prefetchStyle">
 
+/* Стили ссылок и карточек, извлеченные из минифицированного CSS */
 
 /* Ссылки */
 .link {
@@ -20,7 +21,7 @@
   text-decoration: none;
   box-shadow: inset 0 -1px 0 0 rgba(var(--secondary-text-colour-rgb), 0.6);
   position: relative;
-  transition: all 0.2s ease-in-out;
+  transition: all .2s ease-in-out;
   padding: 0 1px;
   border-radius: 2px;
 }
@@ -52,7 +53,7 @@
   text-decoration: none;
   color: var(--secondary-text-colour);
   position: relative;
-  transition: all 0.2s ease-in-out;
+  transition: all .2s ease-in-out;
   padding: 0 1px;
   box-shadow: inset 0 -1px 0 0 rgba(var(--secondary-text-colour), 0.5);
   border-radius: 2px;
@@ -77,7 +78,7 @@
 
 .link-as-text:hover {
   color: var(--link);
-  background-color: transparent;
+  background-color: rgba(0,0,0,0);
   box-shadow: none;
 }
 
@@ -93,8 +94,8 @@
 
 .link-more::after {
   content: "→";
-  margin-left: 0.35em;
-  transition: transform 0.2s ease;
+  margin-left: .35em;
+  transition: transform .2s ease;
 }
 
 .link-more:hover::after {
@@ -106,7 +107,7 @@
   color: var(--text-colour);
   text-decoration: none;
   box-shadow: none;
-  transition: color 0.2s ease;
+  transition: color .2s ease;
   border-radius: 2px;
 }
 
@@ -118,7 +119,7 @@
   width: 100%;
   height: 1px;
   background-color: var(--secondary-text-colour);
-  opacity: 0.6;
+  opacity: .6;
 }
 
 .nav-link::after {
@@ -131,7 +132,7 @@
   background-color: var(--link);
   transform: scaleX(0);
   transform-origin: right;
-  transition: transform 0.3s ease;
+  transition: transform .3s ease;
 }
 
 .nav-link:hover {
@@ -165,7 +166,7 @@
   opacity: 0;
 }
 
-/* Карточки блога */
+/* Карточки */
 .cards > ul {
   list-style: none;
   display: grid;
@@ -189,20 +190,20 @@
 
 .cards .card {
   height: 100%;
-  border: 2px solid #c5c5c5; 
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
-  border-radius: 0.25rem;
+  border: 2px solid #c5c5c5;
+  box-shadow: 0 1px 3px rgba(0,0,0,.08);
+  border-radius: .25rem;
   display: flex;
   flex-direction: column;
   position: relative;
   overflow: hidden;
-  transition: all 0.3s ease;
+  transition: all .3s ease;
   background-color: var(--background-color);
 }
 
 .cards .card:hover {
   transform: translateY(-4px);
-  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 6px 12px rgba(0,0,0,.1);
   border-color: var(--link);
 }
 
@@ -215,7 +216,7 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
-  transition: transform 0.3s ease;
+  transition: transform .3s ease;
 }
 
 .cards .card:hover .img img {
@@ -231,7 +232,7 @@
 
 .cards .card h4 {
   font-size: var(--step-1);
-  margin-bottom: 0.75rem;
+  margin-bottom: .75rem;
 }
 
 .cards .card .h2 {
@@ -270,31 +271,16 @@
 }
 
 .cards .card:focus-within {
-  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 6px 12px rgba(0,0,0,.1);
   border-color: var(--link);
 }
 
 .cards .card .text > * + * {
-  margin-top: 0.75rem;
+  margin-top: .75rem;
 }
 
 .cards .card .text > :last-child {
   margin-top: auto;
-}
-
-/* Стили для темной темы */
-html[data-theme="dark"] .cards .card {
-  border: 2px solid #525252; 
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
-}
-
-html[data-theme="dark"] .cards .card:hover {
-  border-color: #f5f5f7;
-  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.35);
-}
-
-html[data-theme="dark"] .cards .card .img img {
-  filter: brightness(0.9);
 }
 
 /* Карточки услуг */
@@ -311,11 +297,11 @@ html[data-theme="dark"] .cards .card .img img {
   border: 2px solid var(--card-border);
   border-radius: 8px;
   background-color: var(--background-color);
-  transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+  transition: transform .3s ease,box-shadow .3s ease,border-color .3s ease;
   box-shadow: 0 1px 3px var(--hover-shadow);
   overflow: hidden;
   position: relative;
-  outline: 2px solid transparent;
+  outline: 2px solid rgba(0,0,0,0);
   outline-offset: 2px;
 }
 
@@ -338,7 +324,7 @@ html[data-theme="dark"] .cards .card .img img {
   height: 2px;
   background-color: var(--link);
   opacity: 0;
-  transition: opacity 0.3s ease;
+  transition: opacity .3s ease;
 }
 
 .cards .card.service:hover::before {
@@ -358,7 +344,7 @@ html[data-theme="dark"] .cards .card .img img {
 
 .cards .card.service .service-link:hover {
   box-shadow: none;
-  background-color: transparent;
+  background-color: rgba(0,0,0,0);
 }
 
 .cards .card.service .text {
@@ -376,7 +362,7 @@ html[data-theme="dark"] .cards .card .img img {
   line-height: 1.4;
   color: var(--text-colour);
   font-weight: 600;
-  transition: color 0.3s ease;
+  transition: color .3s ease;
 }
 
 .cards .card.service:hover .service__title {
@@ -388,8 +374,8 @@ html[data-theme="dark"] .cards .card .img img {
   height: 32px;
   min-width: 32px;
   margin-right: var(--space-s);
-  transition: transform 0.3s ease, opacity 0.3s ease;
-  opacity: 0.85;
+  transition: transform .3s ease,opacity .3s ease;
+  opacity: .85;
 }
 
 .cards .card.service:hover .service__icon {
@@ -409,7 +395,7 @@ html[data-theme="dark"] .cards .card .img img {
 }
 
 .cards .card.service.featured::before {
-  opacity: 0.8;
+  opacity: .8;
   height: 3px;
 }
 
@@ -417,13 +403,27 @@ html[data-theme="dark"] .cards .card .img img {
   color: var(--link);
 }
 
-/* Стили для светлой и темной темы */
+/* Стили для карточек в светлой и темной темах */
 html .cards .card.service {
   border-color: #c5c5c5;
 }
 
 html .cards .card.service:hover {
   border-color: var(--link);
+}
+
+html[data-theme="dark"] .cards .card {
+  border: 2px solid #525252;
+  box-shadow: 0 1px 3px rgba(0,0,0,.2);
+}
+
+html[data-theme="dark"] .cards .card:hover {
+  border-color: #f5f5f7;
+  box-shadow: 0 6px 12px rgba(0,0,0,.35);
+}
+
+html[data-theme="dark"] .cards .card .img img {
+  filter: brightness(0.9);
 }
 
 html[data-theme="dark"] .cards .card.service {
@@ -434,77 +434,46 @@ html[data-theme="dark"] .cards .card.service:hover {
   border-color: var(--link);
 }
 
-/* CSS переменные для цветовой схемы */
-:root {
-  color-scheme: light dark;
-  --background-color: #fafafa;
-  --selected-bg-color: #e7e7e8;
-  --text-colour: #000000;
-  --secondary-text-colour: #515154;
-  --secondary-text-colour-rgb: 81, 81, 84;
-  --toc: #fafafa;
-  --gray: #eaeaea;
-
-  /* Ссылки (светлая тема) */
-  --link: #000000;
-  --link-opacity-80: rgba(0, 0, 0, 0.8);
-  --link-opacity-05: rgba(0, 0, 0, 0.05);
-  --link-hover: #000000;
-  --link-active: #000000;
-  --link-bg: #f5f5f5;
-  --link-focus-outline: rgba(0, 0, 0, 0.3);
-
-  /* Эффекты и состояния (светлая тема) */
-  --hover-shadow: rgba(0, 0, 0, 0.08);
-  --card-border: #e0e0e0;
-  --card-highlight: rgba(0, 0, 0, 0.7);
-  --background-color-rgb: 250, 250, 250;
+/* Кнопка случайной статьи */
+#random-article-button {
+  background-color: rgba(0,0,0,0);
+  color: var(--text-colour);
+  border: 2px solid var(--secondary-text-colour);
+  display: inline-block;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: var(--step-0);
+  margin-top: 2em;
+  cursor: pointer;
+  transition: background-color .2s ease,color .2s ease,border-color .2s ease,transform .2s ease,box-shadow .2s ease;
 }
 
-html[data-theme="dark"] {
-  color-scheme: dark;
-  --background-color: #1c1c1e;
-  --selected-bg-color: #2c2c2e;
-  --text-colour: #f5f5f7;
-  --secondary-text-colour: #b8b8bc;
-  --secondary-text-colour-rgb: 184, 184, 188;
-  --toc: #111111;
-  --gray: #3a3a3c;
-
-  /* Ссылки (темная тема) */
-  --link: #f5f5f7;
-  --link-opacity-80: rgba(245, 245, 247, 0.8);
-  --link-opacity-05: rgba(245, 245, 247, 0.1);
-  --link-hover: #ffffff;
-  --link-active: #c4c4ca;
-  --link-bg: rgba(245, 245, 247, 0.05);
-  --link-focus-outline: rgba(255, 255, 255, 0.4);
-
-  /* Эффекты и состояния (темная тема) */
-  --hover-shadow: rgba(0, 0, 0, 0.3);
-  --card-border: #3a3a3c;
-  --card-highlight: rgba(255, 255, 255, 0.7);
-  --background-color-rgb: 28, 28, 30;
+#random-article-button:hover {
+  background-color: var(--link-opacity-05);
+  border-color: var(--link-opacity-05);
 }
 
-/* Адаптивные стили */
+/* Адаптивность */
 @media (max-width: 768px) {
-  .service-grid {
+  .cards > ul {
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
   }
   
-  .cards > ul {
+  .service-grid {
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
   }
 }
 
 @media (max-width: 480px) {
-  .service-grid {
-    grid-template-columns: 1fr;
-  }
-  
   .cards > ul {
     grid-template-columns: 1fr;
   }
+  
+  .service-grid {
+    grid-template-columns: 1fr;
+  }
 }
+
+
+
 </style>
