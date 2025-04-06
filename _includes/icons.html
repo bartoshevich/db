@@ -12,150 +12,499 @@
 />
 
 <style nonce="prefetchStyle">
-  <style > html {
-    --link: #000000;
-    --link-hover: #000000;
-    --link-active: #000000;
-    --link-opacity-05: rgba(0, 0, 0, 0.05);
-    --text-colour: #000000;
-    --secondary-text-colour: #515154;
-    --secondary-text-colour-rgb: 81, 81, 84;
-    --card-border: #c5c5c5;
-    --background-color: #fafafa;
-    --button-text-color: #000000;
-  }
 
-  html[data-theme="dark"] {
-    --link: #f5f5f7;
-    --link-hover: #ffffff;
-    --link-active: #c4c4ca;
-    --link-opacity-05: rgba(245, 245, 247, 0.1);
-    --text-colour: #f5f5f7;
-    --secondary-text-colour: #b8b8bc;
-    --secondary-text-colour-rgb: 184, 184, 188;
-    --card-border: #3a3a3c;
-    --background-color: #1c1c1e;
-    --button-text-color: #f5f5f7;
-  }
 
-  .link {
-    color: var(--link);
-    box-shadow: inset 0 -1px 0 0 rgba(var(--secondary-text-colour-rgb), 0.6);
-  }
-  .link:hover {
-    color: var(--link-hover);
-    box-shadow: inset 0 -2px 0 0 var(--link);
-    background-color: var(--link-opacity-05);
-  }
-  .link:active {
-    color: var(--link-active);
-    box-shadow: inset 0 -2px 0 0 var(--link-active);
-  }
-  .link:focus-visible {
-    outline: 2px solid var(--link);
-    outline-offset: 2px;
-    box-shadow: none;
-    text-decoration: none;
-    background-color: transparent;
-  }
-  .link:visited {
-    color: var(--link);
-  }
+/* Ссылки */
+.link {
+  color: var(--link);
+  text-decoration: none;
+  box-shadow: inset 0 -1px 0 0 rgba(var(--secondary-text-colour-rgb), 0.6);
+  position: relative;
+  transition: all 0.2s ease-in-out;
+  padding: 0 1px;
+  border-radius: 2px;
+}
 
-  #random-article-button {
-    background-color: transparent;
-    color: var(--text-colour);
-    border: 2px solid var(--secondary-text-colour);
-  }
-  #random-article-button:hover {
-    background-color: var(--link-opacity-05);
-    border-color: var(--text-colour);
-    color: var(--text-colour);
-  }
-  #random-article-button:active {
-    background-color: rgba(var(--secondary-text-colour-rgb), 0.15);
-    border-color: var(--text-colour);
-    transform: none;
-    box-shadow: none;
-  }
+.link:hover {
+  color: var(--link-hover);
+  box-shadow: inset 0 -2px 0 0 var(--link);
+  background-color: var(--link-opacity-05);
+}
 
-  .cards .card.service {
-    border: 2px solid var(--card-border); /* Use updated variable */
-    outline: 2px solid transparent;
-    outline-offset: 2px;
-  }
-  .cards .card.service:hover {
-    border-color: var(--link);
-  }
-  .cards .card.service::before {
-    background-color: var(--link);
-  }
-  .cards .card.service:hover::before {
-    opacity: 1;
-  }
-  .cards .card.service:focus-within {
-    outline-color: var(--link);
-    border-color: var(--card-border);
-  }
-  .cards .card.service .service-link:focus,
-  .cards .card.service .service-link:focus-visible {
-    outline: none;
-  }
-  .cards .card.service .service__title {
-    color: var(--text-colour);
-  }
-  .cards .card.service:hover .service__title {
-    color: var(--link);
-  }
-  .cards .card.service .block__content {
-    color: var(--secondary-text-colour);
-  }
+.link:focus-visible {
+  outline: 2px solid var(--link);
+  outline-offset: 2px;
+  box-shadow: none;
+  text-decoration: none;
+}
 
-  html:not([data-theme="dark"]) .cards .card.service {
-    border-color: #c5c5c5;
-  }
-  html:not([data-theme="dark"]) .cards .card.service:hover {
-    border-color: var(--link);
-  }
-  html[data-theme="dark"] .cards .card.service {
-    border-color: #3a3a3c;
-  }
-  html[data-theme="dark"] .cards .card.service:hover {
-    border-color: var(--link);
-  }
+.link:active {
+  color: var(--link-active);
+  box-shadow: inset 0 -2px 0 0 var(--link-active);
+  transform: translateY(1px);
+}
 
-  .cards > ul > li > .card {
-    border: 2px solid #c5c5c5;
-    transition: none;
+.link:visited {
+  color: var(--link);
+}
+
+.link-secondary {
+  text-decoration: none;
+  color: var(--secondary-text-colour);
+  position: relative;
+  transition: all 0.2s ease-in-out;
+  padding: 0 1px;
+  box-shadow: inset 0 -1px 0 0 rgba(var(--secondary-text-colour), 0.5);
+  border-radius: 2px;
+}
+
+.link-secondary:hover {
+  text-decoration: none;
+  color: var(--link);
+  box-shadow: inset 0 -1px 0 0 var(--link);
+}
+
+.link-secondary:focus-visible {
+  outline: 2px solid var(--link);
+  outline-offset: 2px;
+}
+
+.link-as-text {
+  color: inherit;
+  box-shadow: none;
+  text-decoration: none;
+}
+
+.link-as-text:hover {
+  color: var(--link);
+  background-color: transparent;
+  box-shadow: none;
+}
+
+.link-as-text:active {
+  color: var(--link-active);
+}
+
+.link-more {
+  display: inline-flex;
+  align-items: center;
+  font-weight: 500;
+}
+
+.link-more::after {
+  content: "→";
+  margin-left: 0.35em;
+  transition: transform 0.2s ease;
+}
+
+.link-more:hover::after {
+  transform: translateX(3px);
+}
+
+.nav-link {
+  position: relative;
+  color: var(--text-colour);
+  text-decoration: none;
+  box-shadow: none;
+  transition: color 0.2s ease;
+  border-radius: 2px;
+}
+
+.nav-link::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background-color: var(--secondary-text-colour);
+  opacity: 0.6;
+}
+
+.nav-link::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: var(--link);
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform 0.3s ease;
+}
+
+.nav-link:hover {
+  color: var(--link);
+}
+
+.nav-link:hover::after {
+  transform: scaleX(1);
+  transform-origin: left;
+}
+
+.nav-link.active {
+  font-weight: 500;
+}
+
+.nav-link.active::after {
+  transform: scaleX(1);
+  transform-origin: left;
+}
+
+.nav-link:focus-visible {
+  padding: 0;
+  margin: 0;
+  outline: 2px solid var(--link);
+  outline-offset: 2px;
+  box-shadow: none !important;
+  text-decoration: none;
+}
+
+.nav-link:focus-visible::before {
+  opacity: 0;
+}
+
+/* Карточки блога */
+.cards > ul {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  grid-gap: 1.5rem;
+  margin: var(--space-xl) 0 var(--space-xl) 0;
+}
+
+@supports not (display: grid) {
+  .cards > ul {
+    display: flex;
+    flex-wrap: wrap;
   }
-  html:not([data-theme="dark"]) .cards > ul > li > .card {
-    border-color: #c5c5c5;
+  
+  .cards > ul > li {
+    flex: 0 0 calc(33.333% - 1rem);
+    margin-right: 1rem;
+    margin-bottom: 1.5rem;
   }
-  html:not([data-theme="dark"]) .cards > ul > li > .card:hover {
-    border-color: var(--link);
+}
+
+.cards .card {
+  height: 100%;
+  border: 2px solid #c5c5c5; 
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+  border-radius: 0.25rem;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  overflow: hidden;
+  transition: all 0.3s ease;
+  background-color: var(--background-color);
+}
+
+.cards .card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  border-color: var(--link);
+}
+
+.cards .card .img {
+  height: 10.5rem;
+  overflow: hidden;
+}
+
+.cards .card .img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.cards .card:hover .img img {
+  transform: scale(1.03);
+}
+
+.cards .card .text {
+  padding: 1rem;
+  flex: 1 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.cards .card h4 {
+  font-size: var(--step-1);
+  margin-bottom: 0.75rem;
+}
+
+.cards .card .h2 {
+  font-weight: 600;
+  line-height: 1.3;
+}
+
+.cards .card p {
+  font-size: var(--step--1);
+  color: var(--secondary-text-colour);
+  line-height: 1.5;
+  margin-top: 0;
+}
+
+.cards .card .small {
+  font-size: var(--step--1);
+  color: var(--secondary-text-colour);
+}
+
+.cards .card a {
+  text-decoration: none;
+  color: var(--text-colour);
+}
+
+.cards .card a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.cards .card a:focus {
+  outline: none;
+}
+
+.cards .card:focus-within {
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  border-color: var(--link);
+}
+
+.cards .card .text > * + * {
+  margin-top: 0.75rem;
+}
+
+.cards .card .text > :last-child {
+  margin-top: auto;
+}
+
+/* Стили для темной темы */
+html[data-theme="dark"] .cards .card {
+  border: 2px solid #525252; 
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+html[data-theme="dark"] .cards .card:hover {
+  border-color: #f5f5f7;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.35);
+}
+
+html[data-theme="dark"] .cards .card .img img {
+  filter: brightness(0.9);
+}
+
+/* Карточки услуг */
+.service-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: var(--space-l);
+  margin: var(--space-xl) 0;
+}
+
+.cards .card.service {
+  height: 100%;
+  display: flex;
+  border: 2px solid var(--card-border);
+  border-radius: 8px;
+  background-color: var(--background-color);
+  transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+  box-shadow: 0 1px 3px var(--hover-shadow);
+  overflow: hidden;
+  position: relative;
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+
+.cards .card.service:focus-within {
+  outline-color: var(--link);
+}
+
+.cards .card.service:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 12px var(--hover-shadow);
+  border-color: var(--link);
+}
+
+.cards .card.service::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background-color: var(--link);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.cards .card.service:hover::before {
+  opacity: 1;
+}
+
+.cards .card.service .service-link {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+  color: var(--text-colour);
+  box-shadow: none;
+  border-radius: 6px;
+}
+
+.cards .card.service .service-link:hover {
+  box-shadow: none;
+  background-color: transparent;
+}
+
+.cards .card.service .text {
+  padding: var(--space-m);
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.cards .card.service .service__title {
+  display: flex;
+  align-items: center;
+  margin-bottom: var(--space-s);
+  font-size: var(--step-1);
+  line-height: 1.4;
+  color: var(--text-colour);
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+.cards .card.service:hover .service__title {
+  color: var(--link);
+}
+
+.cards .card.service .service__icon {
+  width: 32px;
+  height: 32px;
+  min-width: 32px;
+  margin-right: var(--space-s);
+  transition: transform 0.3s ease, opacity 0.3s ease;
+  opacity: 0.85;
+}
+
+.cards .card.service:hover .service__icon {
+  transform: scale(1.1);
+  opacity: 1;
+}
+
+.cards .card.service .block__content {
+  font-size: var(--step-0);
+  line-height: 1.6;
+  color: var(--secondary-text-colour);
+  margin-bottom: auto;
+}
+
+.cards .card.service.featured {
+  border-color: var(--link-opacity-80);
+}
+
+.cards .card.service.featured::before {
+  opacity: 0.8;
+  height: 3px;
+}
+
+.cards .card.service.featured .service__title {
+  color: var(--link);
+}
+
+/* Стили для светлой и темной темы */
+html .cards .card.service {
+  border-color: #c5c5c5;
+}
+
+html .cards .card.service:hover {
+  border-color: var(--link);
+}
+
+html[data-theme="dark"] .cards .card.service {
+  border-color: #3a3a3c;
+}
+
+html[data-theme="dark"] .cards .card.service:hover {
+  border-color: var(--link);
+}
+
+/* CSS переменные для цветовой схемы */
+:root {
+  color-scheme: light dark;
+  --background-color: #fafafa;
+  --selected-bg-color: #e7e7e8;
+  --text-colour: #000000;
+  --secondary-text-colour: #515154;
+  --secondary-text-colour-rgb: 81, 81, 84;
+  --toc: #fafafa;
+  --gray: #eaeaea;
+
+  /* Ссылки (светлая тема) */
+  --link: #000000;
+  --link-opacity-80: rgba(0, 0, 0, 0.8);
+  --link-opacity-05: rgba(0, 0, 0, 0.05);
+  --link-hover: #000000;
+  --link-active: #000000;
+  --link-bg: #f5f5f5;
+  --link-focus-outline: rgba(0, 0, 0, 0.3);
+
+  /* Эффекты и состояния (светлая тема) */
+  --hover-shadow: rgba(0, 0, 0, 0.08);
+  --card-border: #e0e0e0;
+  --card-highlight: rgba(0, 0, 0, 0.7);
+  --background-color-rgb: 250, 250, 250;
+}
+
+html[data-theme="dark"] {
+  color-scheme: dark;
+  --background-color: #1c1c1e;
+  --selected-bg-color: #2c2c2e;
+  --text-colour: #f5f5f7;
+  --secondary-text-colour: #b8b8bc;
+  --secondary-text-colour-rgb: 184, 184, 188;
+  --toc: #111111;
+  --gray: #3a3a3c;
+
+  /* Ссылки (темная тема) */
+  --link: #f5f5f7;
+  --link-opacity-80: rgba(245, 245, 247, 0.8);
+  --link-opacity-05: rgba(245, 245, 247, 0.1);
+  --link-hover: #ffffff;
+  --link-active: #c4c4ca;
+  --link-bg: rgba(245, 245, 247, 0.05);
+  --link-focus-outline: rgba(255, 255, 255, 0.4);
+
+  /* Эффекты и состояния (темная тема) */
+  --hover-shadow: rgba(0, 0, 0, 0.3);
+  --card-border: #3a3a3c;
+  --card-highlight: rgba(255, 255, 255, 0.7);
+  --background-color-rgb: 28, 28, 30;
+}
+
+/* Адаптивные стили */
+@media (max-width: 768px) {
+  .service-grid {
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
   }
-  html[data-theme="dark"] .cards > ul > li > .card {
-    border: 2px solid #525252;
+  
+  .cards > ul {
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
   }
-  html[data-theme="dark"] .cards > ul > li > .card:hover {
-    border-color: var(--link); /* Use --link for hover border */
+}
+
+@media (max-width: 480px) {
+  .service-grid {
+    grid-template-columns: 1fr;
   }
-  .cards > ul > li > .card:focus-within {
-    border-color: var(--link);
+  
+  .cards > ul {
+    grid-template-columns: 1fr;
   }
-  html[data-theme="dark"] .cards > ul > li > .card:focus-within {
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.35);
-  }
-  .cards > ul > li > .card a:focus,
-  .cards > ul > li > .card a:focus-visible {
-    outline: none;
-  }
-  .cards > ul > li > .card h4, /* Blog card titles */
-   .cards > ul > li > .card .h2 {
-    color: var(--text-colour);
-  }
-  .cards > ul > li > .card p, /* Blog card text */
-   .cards > ul > li > .card .small {
-    color: var(--secondary-text-colour);
-  }
+}
 </style>
