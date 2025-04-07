@@ -5,9 +5,11 @@
     "name": "{{ page.title | escape  }}",
     "description": "{{ page.description | escape  }}",
     "url": "https://bartoshevich.by/blog/",
-    "author": { "@id": "#service" },
-    "publisher": { "@id": "#service" },
-    "mainEntity": { "@id": "#service" }
+    "datePublished": "{{ page.date | date_to_xmlschema | escape  }}",
+    "dateModified": "{{ page.last_modified_at | date_to_xmlschema  | escape  }}",
+    "author": { "@id": "https://bartoshevich.by/about/#person" },
+    "publisher": { "@id": "https://bartoshevich.by/#service" },
+    "mainEntity": { "@id": "https://bartoshevich.by/#service"}
   }
 </script>
 
@@ -29,10 +31,10 @@
         "image": "{{ site.url }}{{ post.image }}",
         {% endif %}
         "author": {
-          "@id": "#person"
+          "@id": "https://bartoshevich.by/about/#person"
         },
         "publisher": {
-          "@id": "#service"
+          "@id": "https://bartoshevich.by/#service"
         },
         "mainEntityOfPage": {
           "@type": "WebPage",

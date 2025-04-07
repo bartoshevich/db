@@ -1,22 +1,33 @@
 ---
 layout: default
 permalink: /faq/
-description: "Ответы на вопросы о маркетинговых услугах и сотрудничестве с Дмитрием Бартошевичем: разработка концепций бренда, рекламных кампаний и аутсорсинг маркетинга. "
-title: "Частые вопросы | Дмитрий Бартошевич"
+description: "Ответы на частые вопросы о сотрудничестве с Дмитрием Бартошевичем: отличия, стоимость услуг, разработка концепций бренда и рекламных кампаний."
+title: "FAQ: Сотрудничество с Дмитрием Бартошевичем | Маркетинг"
 date:   2015-07-31
-last_modified_at: 2024-06-18
-keywords: "частые вопросы, маркетинг, брендинг, сотрудничество, эксперт по маркетингу, Дмитрий Бартошевич, подход к маркетингу, услуги по маркетингу"
+last_modified_at: 2025-04-07
+keywords: "faq, частые вопросы, маркетинг, брендинг, сотрудничество, дмитрий бартошевич, услуги маркетинга, концепция бренда, рекламные кампании, аутсорсинг маркетинга, консультант по маркетингу"
 ---
 
 <div class="body__container">
   
   {% include menu__faq.html %}
 
-<main class="section__content row-gap--l" itemscope itemtype="https://schema.org/FAQPage">
+<main class="section__content" itemscope itemtype="https://schema.org/FAQPage">
        
 
 
- <div class="intro max-width-text"><h1 class="inline bold">FAQ</h1>. Отвечаю на&nbsp;вопросы. Не&nbsp;нашли своего&nbsp;— <a class="link" href="https://t.me/bartoshevich">напишите в&nbsp;telegram</a>. </div>
+<header class="intro max-width-text">
+    <h1 class="inline bold">Вопросы Дмитрию Бартошевичу</h1>
+   <p class="inline">об&nbsp;услугах, подходе к&nbsp;работе и&nbsp;условиях сотрудничества. </p>
+</header>
+
+<div class="button-container">
+  <a href="mailto:dmitry@bartoshevich.by" class="button-link">
+    Задать вопрос
+  </a>
+</div>
+
+
 
  <nav class="toc">
  <h2 class="toc__title">Содержание</h2>

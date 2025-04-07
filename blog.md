@@ -1,11 +1,11 @@
 ---
 layout: blog
 permalink: /blog/
-description: "Авторский блог Дмитрия Бартошевича о&nbsp;маркетинге: анализ данных, развитие брендов, актуальные тренды. Экспертные советы и&nbsp;инсайты для профессионалов." 
-title: "Практический блог о маркетинге: кейсы и аналитика"
+description: "Авторский блог Дмитрия Бартошевича о маркетинге, стратегии и брендинге. Кейсы, анализ данных, тренды. Экспертные советы и инсайты для профессионалов." 
+title: "Блог Дмитрия Бартошевича: маркетинг, стратегия, брендинг"
 keywords: "блог о маркетинге, стратегия, анализ данных, разработка брендов, управление брендами, антикризисный маркетинг, консультант по маркетингу, Дмитрий Бартошевич, советы по маркетингу, статьи о маркетинге"
 date:   2015-07-31
-last_modified_at: 2025-03-01
+last_modified_at: 2025-04-07
 image:
 ---
 
@@ -16,12 +16,12 @@ image:
 
 <main class="section__content row-gap--l">
        
-<h1 class="element--hidden">Инсайты и актуальные тренды в маркетинге</h1>
+<header class="intro max-width-text"><h1 class="inline bold">Блог Дмитрия Бартошевича</h1> <p class="inline">о&nbsp;маркетинге и&nbsp;стратегии. Делюсь инсайтами, актуальными трендами, наблюдениями и&nbsp;кейсами. Подпишитесь на&nbsp;обновления: <a class="link" href="https://t.me/+OuzxNOZg-g44ZjYy">telegram</a>, <a class="link" href="https://eepurl.com/cmkKcz">эл.почта</a></p> 
+</header>
 
-<div class="intro max-width-text"><span class="inline bold">Блог</span>. <strong>Возвращаю смысл в&nbsp;маркетинг</strong>. Делюсь идеями, наблюдениями, опытом. Подписаться на&nbsp;обновления: <a class="link" href="https://t.me/+OuzxNOZg-g44ZjYy">telegram</a>, <a class="link" href="https://eepurl.com/cmkKcz">эл.почта</a> 
 
-    <div>        
-    <button class="small button--outlined" id="random-article-button">Открыть случайно выбранную статью</button>
+<div>     
+    <button id="random-article-button">Открыть случайно выбранную статью</button>
         <noscript>
             <div style="color: red;">
                 Для полной функциональности сайта необходимо включить JavaScript. 
@@ -29,8 +29,6 @@ image:
             </div>
         </noscript>
     </div>
-</div>
-
 
 
 <div class="full-bleed mt-m row-gap--l" id="all-posts">
@@ -47,11 +45,11 @@ image:
            
 
             <div class="block__name--align-left">
-                <p class="h2">
+                <h2 class="h2">
                     <a class="link article-link" href="{{ site.baseurl }}{{ post.url }}" >							
                             <span class="article_title">	{{ post.name }} </span> 
                     </a>
-                </p>
+                </h2>
 
                 <p>
                     <small>

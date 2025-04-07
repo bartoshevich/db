@@ -8,14 +8,14 @@
     "dateModified": "{{ page.last_modified_at | date_to_xmlschema }}",
     "image": "{{ page.image | default: '/assets/images/main/bartoshevichby.png' | prepend: site.url | escape }}",
     "author": {
-      "@id": "#person"
+      "@id": "https://bartoshevich.by/about/#person"
     },
     "publisher": {
-      "@id": "#service"
+      "@id": "https://bartoshevich.by/#service"
     },
     "mainEntityOfPage": {
       "@type": "WebPage",
-      "@id": "{{ page.url }}"
+      "@id": "{{ site.url }}{{ page.url }}"
     }
   }
 </script>
