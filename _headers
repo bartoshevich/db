@@ -7,7 +7,7 @@
     X-Content-Type-Options: nosniff
     Referrer-Policy: strict-origin-when-cross-origin
     Permissions-Policy: geolocation=(self "https://bartoshevich.by"), microphone=()
-    Content-Security-Policy: default-src 'self' res.cloudinary.com; base-uri 'self'; font-src 'self' ; worker-src 'self'; object-src 'none'; manifest-src 'self'; form-action 'self'; img-src 'self' res.cloudinary.com i.ytimg.com static.probusiness.io data:; connect-src 'self' res.cloudinary.com unpkg.com i.ytimg.com; upgrade-insecure-requests ; style-src   'self' unpkg.com 'unsafe-inline'; script-src  'self'; frame-ancestors 'self' ; frame-src 'self' www.youtube-nocookie.com www.youtube.com embed.ted.com youtu.be/; media-src 'self' www.youtube-nocookie.com www.youtube.com embed.ted.com youtu.be/;
+    Content-Security-Policy: default-src 'self' res.cloudinary.com; base-uri 'self'; font-src 'self' ; worker-src 'self'; object-src 'none'; manifest-src 'self'; form-action 'self'; img-src 'self' res.cloudinary.com i.ytimg.com static.probusiness.io data:; connect-src 'self' res.cloudinary.com  i.ytimg.com; upgrade-insecure-requests ; style-src   'self'; script-src  'self'; frame-ancestors 'self' ; frame-src 'self' www.youtube-nocookie.com www.youtube.com embed.ted.com youtu.be/; media-src 'self' www.youtube-nocookie.com www.youtube.com embed.ted.com youtu.be/;
    
     Cache-Control: public, max-age=3600
 
