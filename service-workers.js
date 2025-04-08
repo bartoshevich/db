@@ -3,7 +3,7 @@
 (function () {
   // Конфигурация
   const CONFIG = {
-    version: 'v4.0.09::',
+    version: 'v4.0.091::',
     debug: false,
     caches: {
       static: 'static-resources',
@@ -37,8 +37,8 @@
             '/assets/scripts/base.js',
             '/assets/scripts/video.js',
             '/assets/scripts/theme.js',
-            '/assets/css/style.css',
-            '/assets/css/style-home.css',
+            '/assets/css/style_07.css',
+            '/assets/css/style-home_07.css',
             '/assets/fonts/pt-sans-v12-latin_cyrillic/pt-sans-v12-latin_cyrillic-regular.woff2',
             '/assets/fonts/pt-sans-v12-latin_cyrillic/pt-sans-v12-latin_cyrillic-700.woff2',
             '/assets/fonts/pt-sans-v12-latin_cyrillic/pt-sans-v12-latin_cyrillic-italic.woff2',
