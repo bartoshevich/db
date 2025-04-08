@@ -260,3 +260,15 @@ p {
 summary:hover {
   cursor: pointer;
 }
+
+
+  
+
+  summary:focus-visible {
+    border-radius: 5px;
+    outline: 2px solid v.$link;
+    outline-offset: 2px;
+    box-shadow: none;
+    text-decoration: none;         
+}
+

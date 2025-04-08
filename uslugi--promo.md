@@ -112,7 +112,7 @@ keywords: "разработка рекламных кампаний, креат�
 </div>
 </article>
 
- <article class="row-gap--m">
+ <article class="row-gap--m max-width-text">
 <h3 class="h2 bold mt-m mb-m">Аудиоролики для Hörmann</h3>
 
 <section class="row-gap--m">

@@ -24,6 +24,13 @@ details summary {
   list-style: none;
   outline: 0;
   margin: 1em 0;
+
+  &:focus-visible {
+    outline: 2px solid v.$link;
+    outline-offset: 2px;
+    box-shadow: none;
+    text-decoration: none;         
+}
 }
 
 details summary:after {
