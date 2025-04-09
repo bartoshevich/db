@@ -10,7 +10,7 @@
     Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
     Cross-Origin-Resource-Policy: same-site
     Cross-Origin-Opener-Policy: same-origin
-    Cross-Origin-Embedder-Policy: credentialless
+    Cross-Origin-Embedder-Policy: unsafe-none
     X-Frame-Options: SAMEORIGIN
     Content-Security-Policy: default-src 'self' res.cloudinary.com; base-uri 'self'; font-src 'self' ; worker-src 'self'; object-src 'none'; manifest-src 'self'; form-action 'self'; img-src 'self' res.cloudinary.com i.ytimg.com static.probusiness.io data:; connect-src 'self' res.cloudinary.com  i.ytimg.com; upgrade-insecure-requests ; style-src   'self'; script-src  'self'; frame-ancestors 'self' ; frame-src 'self' www.youtube-nocookie.com www.youtube.com embed.ted.com youtu.be/; media-src 'self' www.youtube-nocookie.com www.youtube.com embed.ted.com youtu.be/;
    
