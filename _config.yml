@@ -18,6 +18,15 @@ include:
 # Build settings
 plugins:
   - jekyll-feed
+  - jekyll-minifier
+
+jekyll-minifier:
+  javascript: true
+  javascript_compression: uglifier
+  javascript_options:
+    harmony: true
+    compress: true
+    mangle: true
 
 
 
