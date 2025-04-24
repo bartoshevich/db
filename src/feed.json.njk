@@ -1,0 +1,39 @@
+---
+permalink: "/feed.json"
+layout: null
+title: "Блог Дмитрия Бартошевича о маркетинге и стратегии"
+description: "Кейсы, анализ данных, тренды. Экспертные советы и инсайты для профессионалов."
+language: "ru"
+---
+{
+    "version": "https://jsonfeed.org/version/1.1",
+    "title": "{{ title }}",
+    "language": "{{ language }}",
+    "home_page_url": "{{ site.url }}",
+    "feed_url": "{{ permalink | htmlBaseUrl(site.url) }}",
+    "description": "{{ description }}",
+    "authors": [
+      {
+        "name": "Дмитрий Бартошевич",
+        "url": "https://bartoshevich.by",
+        "avatar": {
+          "url": "https://bartoshevich.by/assets/images/logo/bartoshevich@2x.jpg",
+          "width": 300,
+          "height": 300
+        }
+      }
+    ],
+    "items": [
+        {%- for post in collections.post | reverse %}
+        {%- set url = post.url | htmlBaseUrl(site.url) %}
+        {
+          "id":             "{{ url }}",
+          "url":            "{{ url }}",
+          "title":          "{{ post.data.title | escape }}",
+          "description":    "{{ post.data.description | decodeEntities | escape }}",
+          "date_published": "{{ post.date | dateToRfc3339 }}"
+        }{% if not loop.last %},{% endif %}
+        {%- endfor %}
+    ]
+}
+    

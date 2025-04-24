@@ -10,10 +10,12 @@ import sitemap from "@quasibit/eleventy-plugin-sitemap";
 import Image from "@11ty/eleventy-img";
 import postcss from "postcss";
 import * as Nunjucks from "nunjucks";
+import pluginRss from "@11ty/eleventy-plugin-rss";
+
+
 const isProdBuild = process.env.ELEVENTY_ENV === "production";
-
-
 const isProduction = process.env.NODE_ENV === "production";
+
 
 export default function (eleventyConfig) {
   /* ---------------- Paths ---------------- */
@@ -36,12 +38,15 @@ export default function (eleventyConfig) {
   eleventyConfig.setLibrary("njk", nunjucksEnv);
 
   /* --------------- Plugins --------------- */
-  eleventyConfig.addPlugin(eleventyNavigationPlugin);
+  eleventyConfig.addPlugin(pluginRss);
+  eleventyConfig.addPlugin(eleventyNavigationPlugin);  
   eleventyConfig.addPlugin(EleventyHtmlBasePlugin);
   eleventyConfig.addPlugin(sitemap, {
    lastModifiedProperty: "last_modified_at",
     sitemap: { hostname: "https://bartoshevich.by" }
   });
+ 
+
 
   /* ------------- Shortcodes ------------- */
   async function imageShortcode(
@@ -81,6 +86,10 @@ export default function (eleventyConfig) {
   eleventyConfig.addNunjucksAsyncShortcode("image", imageShortcode);
 
   /* -------------- Filters --------------- */
+
+  eleventyConfig.addLiquidFilter("dateToRfc3339", pluginRss.dateToRfc3339);
+	eleventyConfig.addLiquidFilter("dateToRfc822", pluginRss.dateToRfc822);
+
   eleventyConfig.addShortcode("year", () => `${new Date().getFullYear()}`);
   eleventyConfig.addFilter("limit", (arr, n) => arr.slice(0, n));
   eleventyConfig.addFilter("decodeEntities", (v) =>
@@ -256,7 +265,7 @@ eleventyConfig.addExtension("js", {
 
   /* ------------- Final Config ----------- */
   return {
-    templateFormats: ["md","markdown","html","liquid","njk","scss","js"],
+    templateFormats: ["md","markdown","html","liquid","njk","scss","js", "json"],
     markdownTemplateEngine: "njk",
     htmlTemplateEngine: "njk",
     dataTemplateEngine: "njk",
