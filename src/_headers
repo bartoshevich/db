@@ -1,0 +1,52 @@
+/*
+  X-Forwarded-Proto: https
+  X-Forwarded-Host: bartoshevich.by
+  X-Robots-Tag: index, follow
+  X-XSS-Protection: 1; mode=block
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin
+  Permissions-Policy: geolocation=(self "https://bartoshevich.by"), microphone=(), camera=(), payment=(), usb=(), screen-wake-lock=(), display-capture=(), autoplay=()
+  Strict-Transport-Security: max-age=63072000; includeSubDomains; preload
+  Cross-Origin-Resource-Policy: same-site
+  Cross-Origin-Opener-Policy: same-origin
+  Cross-Origin-Embedder-Policy: unsafe-none
+  X-Frame-Options: SAMEORIGIN
+  Content-Security-Policy: default-src 'self'; base-uri 'self'; font-src 'self'; worker-src 'self'; object-src 'none'; manifest-src 'self'; form-action 'self'; img-src 'self' res.cloudinary.com i.ytimg.com static.probusiness.io data:; connect-src 'self' res.cloudinary.com i.ytimg.com queue.simpleanalytics.com events.simpleanalytics.com; upgrade-insecure-requests; style-src 'self'; script-src 'self' cdn.simpleanalytics.io; frame-ancestors 'self'; frame-src 'self' www.youtube-nocookie.com www.youtube.com embed.ted.com youtu.be/; media-src 'self' www.youtube-nocookie.com www.youtube.com embed.ted.com youtu.be/;
+  Cache-Control: public, max-age=3600
+
+/assets/images/*
+    Cache-Control: max-age=31536000, public, immutable
+
+/assets/fonts/*
+    Cache-Control: max-age=31536000, public, immutable
+    
+/assets/scripts/*
+    Cache-Control: max-age=31536000, public, immutable
+
+/assets/media/*
+    Cache-Control: max-age=31536000, public, immutable
+
+
+ 
+
+/*.svg
+    Cache-Control: max-age=31536000, public, immutable
+
+/*.jpg
+    Cache-Control: max-age=31536000, public, immutable
+
+/*.jpeg
+    Cache-Control: max-age=31536000, public, immutable
+
+/*.png
+    Cache-Control: max-age=31536000, public, immutable
+
+/*.webp
+    Cache-Control: max-age=31536000, public, immutable
+
+/*.woff
+    Cache-Control: max-age=31536000, public, immutable
+
+/*.woff2
+    Cache-Control: max-age=31536000, public, immutable
+

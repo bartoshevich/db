@@ -1,0 +1,15 @@
+{% if schemaBreadcrumb and schemaBreadcrumb.itemListElement %}
+<nav class="breadcrumbs" aria-label="Хлебные крошки">
+  <ol class="breadcrumbs__ol">
+    {% for item in schemaBreadcrumb.itemListElement %}
+      <li class="breadcrumbs__li">
+        {% if item.item and not loop.last %}
+          <a href="{{ item.item }}">{{ item.name }}</a>
+        {% else %}
+          <span>{{ item.name | safe }}</span>
+        {% endif %}
+      </li>
+    {% endfor %}
+  </ol>
+</nav>
+{% endif %} 

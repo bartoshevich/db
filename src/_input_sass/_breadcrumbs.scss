@@ -1,0 +1,30 @@
+@use "./variables" as v;
+
+.breadcrumbs__ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.breadcrumbs__li {
+  align-items: center;
+  display: flex;
+}
+
+.breadcrumbs__li:not(:last-child)::after {
+  content: "/";
+  color: v.$text-colour;
+  font-weight: 700;
+  line-height: 20px;
+  padding: 0 0.5em;
+}
+
+.breadcrumbs {
+  box-sizing: border-box;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  // width: calc(120% - 12px);
+}

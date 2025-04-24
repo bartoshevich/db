@@ -1,0 +1,40 @@
+{
+  "name": "db--test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+  "debug:autoprefixer": "npx postcss src/assets/css/test.css --use autoprefixer -o src/assets/css/test.out.css",
+  "eleventy": "eleventy",
+  "build:css": "npx sass src/_input_sass/style.scss src/assets/css/style.css --no-source-map --style=compressed",
+  "process:css": "npx postcss src/assets/css/style.css --config postcss.config.js --replace",
+  "watch:css": "npx sass --watch src/_input_sass/style.scss:src/assets/css/style.css",
+  "build:js": "npx esbuild src/assets/scripts/main.js --bundle --minify --sourcemap --outfile=src/assets/scripts/main.bundle.js",
+  "watch:js": "npx esbuild src/assets/scripts/main.js --bundle --watch --outfile=src/assets/scripts/main.bundle.js",
+  "serve": "eleventy --serve",
+  "start": "cross-env NODE_ENV=development npm-run-all -p watch:css watch:js serve",
+  "build": "npm run build:css && npm run process:css && npm run build:js && eleventy"
+},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@11ty/eleventy": "^3.0.0",
+    "@11ty/eleventy-img": "^6.0.2",
+    "@11ty/eleventy-navigation": "^1.0.4",
+    "@fullhuman/postcss-purgecss": "^7.0.2",
+    "@quasibit/eleventy-plugin-sitemap": "^2.2.0",
+    "autoprefixer": "^10.4.21",
+    "cross-env": "^7.0.3",
+    "cssnano": "^7.0.6",
+    "esbuild": "^0.25.3",
+    "html-minifier-terser": "^7.2.0",
+    "luxon": "^3.6.1",
+    "npm-run-all": "^4.1.5",
+    "postcss": "^8.5.3",
+    "postcss-cli": "^11.0.1",
+    "sass": "^1.86.3",
+    "terser": "^5.39.0"
+  }
+}

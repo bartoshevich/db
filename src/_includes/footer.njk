@@ -1,0 +1,138 @@
+{# --- Получаем данные и текущий URL --- #}
+{% set navData = navigation %} 
+{% set currentUrl = page.url %} 
+
+
+<div class="buffer"></div>
+<footer class="footer"> 
+
+    <h2 class="element--hidden">Дополнительная информация</h2>
+
+
+    <section class="footer__nav" >  
+        <h3 class="element--hidden">Больше на сайте</h3>      
+        <nav class="menu__header__item">  
+            <h4 class="element--hidden">Разделы сайта</h4>        
+            <ul class="header__item--bleed item__content nav__group">
+                {% for item in navData.footerNav %}
+                    {# Добавляем класс active, если URL совпадает #}
+                    <li class="{% if item.url != currentUrl %} nav__li{% endif %} bold{% if item.url == currentUrl %} nav__li--active{% endif %}">
+                        {% if item.url == currentUrl %}
+                            {# Текущая страница: просто текст #}
+                            {{ item.text }}
+                        {% else %}
+                            {# Другая страница: ссылка #}
+                            <a class="link" href="{{ item.url | url }}">{{ item.text }}</a>
+                        {% endif %}
+                    </li>
+                {% endfor %}
+            </ul>
+        </nav>   
+    
+    
+         {# --- Навигация по услугам --- #}
+         <nav class="menu__header__item">
+            {# Заголовок секции Услуги (из services.parent) #}
+            <h4 class="bold block__title item__title">
+                {% if navData.services.parent.url == currentUrl %}
+                    {# Текущая страница /uslugi/: просто текст #}
+                    <span class=" text-color">{{ navData.services.parent.text }}</span>
+                {% else %}
+                    {# Другая страница: ссылка на /uslugi/ #}
+                    <a class="link text-color" href="{{ navData.services.parent.url | url }}">{{ navData.services.parent.text }}</a>
+                {% endif %}
+            </h4>
+            <ul class="nav__group item__content">
+                {% for item in navData.services.list %}
+                    {# Добавляем класс active, если URL совпадает #}
+                    <li class="nav__li{% if item.url == currentUrl %} nav__li--active{% endif %}">
+                        {% if item.url == currentUrl %}
+                            {# Текущая страница услуги: просто текст #}
+                            {{ item.text }}
+                        {% else %}
+                            {# Другая страница: ссылка на услугу #}
+                            <a class="link" href="{{ item.url | url }}">{{ item.text }}</a>
+                        {% endif %}
+                    </li>
+                {% endfor %}
+            </ul>
+        </nav>
+    
+        <nav class="menu__header__item">
+            {# Заголовок секции Блог (из blog.parent) #}
+            <h4 class="block__title item__title bold">
+                {% if navData.blog.parent.url == currentUrl %}
+                     {# Текущая страница /blog/: просто текст #}
+                     <span>{{ navData.blog.parent.text }}</span>
+                {% else %}
+                     {# Другая страница: ссылка на /blog/ #}
+                     <a href="{{ navData.blog.parent.url | url }}" class="link">{{ navData.blog.parent.text }}</a>
+                {% endif %}
+            </h4>
+
+
+
+            {% set latestPosts = collections.post | reverse | limit(4) %}
+
+            <ul class="nav__group item__content">
+                {% set count = 0 %} {# Счетчик для вывода не более 3 постов #}
+                {# Цикл по последним 4 постам #}
+                {% for post in latestPosts %}
+                    {# Пропускаем текущую страницу И выводим не более 3-х #}
+                    {% if post.url != page.url and count < 3 %}
+                        {% set count = count + 1 %} {# Увеличиваем счетчик #}
+                        {% set displayTitle = post.data.name or post.data.title %}
+                        <li class="nav__li">
+                            <a class="link" href="{{ post.url | url }}">
+                                {{ displayTitle | decodeEntities | safe }}
+                            </a>
+                        </li>
+                    {% endif %}
+                {% endfor %}
+                <li class="nav__li "><a class="link-secondary link-more" href="{{ '/blog/#all-posts' | url }}">Смотреть все записи</a></li>
+            </ul>
+        </nav>  
+    </section>
+ 
+
+
+
+<section class="social">
+    <h3 class="element--hidden">Социальные сети</h3>
+    <ul class="list-reset">
+        <li class="inline-block social__item"> <a class="link" href="https://www.facebook.com/bartoshevichby/" target="_blank" rel="noopener"  title="откроется в новой вкладке" aria-label="фейсбук"> фейсбук</a> </li> 
+        <li class="inline-block social__item"> <a class="link" href="https://www.linkedin.com/in/bartoshevich" target="_blank" rel="me noopener" title="откроется в новой вкладке" aria-label="линкедин"> линкедин</a> </li> 
+        <li class="inline-block social__item"> <a class="link" href="https://twitter.com/dbartoshevich" target="_blank" rel="me noopener"  title="откроется в новой вкладке" aria-label="твиттер">х (твиттер)</a></li> 
+        <li class="inline-block social__item"> <a class="link" href="https://mastodon.social/@bartoshevich" target="_blank" rel="me noopener" title="откроется в новой вкладке" aria-label="мастодон">мастодон</a></li> 
+        <li class="inline-block"> <a class="link" href="https://t.me/+OuzxNOZg-g44ZjYy" target="_blank" rel="me noopener"  title="откроется в новой вкладке" aria-label="телеграм">телеграм</a></li> 
+    </ul>
+</section>
+
+<div class="credentials menu--flex">
+<div class="small"> © 2015...{% year %}, УНП&nbsp;192414874 </div>
+
+
+<button type="button" class="theme-toggle" id="theme-toggle" title="Переключатель светлой и темной темы" aria-label="auto" aria-live="polite">
+    <svg class="sun-and-moon" aria-hidden="true" width="24" height="24" viewBox="0 0 24 24">
+      <mask class="moon" id="moon-mask">
+        <rect x="0" y="0" width="100%" height="100%" fill="white" />
+        <circle cx="24" cy="10" r="6" fill="black" />
+      </mask>
+      <circle class="sun" cx="12" cy="12" r="6" mask="url(#moon-mask)" fill="currentColor" />
+      <g class="sun-beams" stroke="currentColor">
+        <line x1="12" y1="1" x2="12" y2="3" />
+        <line x1="12" y1="21" x2="12" y2="23" />
+        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64" />
+        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78" />
+        <line x1="1" y1="12" x2="3" y2="12" />
+        <line x1="21" y1="12" x2="23" y2="12" />
+        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36" />
+        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22" />
+       </g>
+    </svg>
+  </button>
+
+</div>
+
+
+</footer> 

@@ -1,0 +1,58 @@
+
+<meta name="supported-color-schemes" content="light dark">
+<meta name="color-scheme" content="light dark">
+<meta name="robots" content="index, follow">
+<meta name="generator" content="{{ eleventy.generator }}">
+
+{% set metaTitle = title | default(name) | default(site.title)  %}
+<title>{{ metaTitle | decodeEntities | safe }}</title>
+<meta name="description" content="{{ description | default(site.description)  | decodeEntities | safe  }}">
+
+{% set pageUrl = page.url | absoluteUrl(site.url) %} 
+<link rel="canonical" href="{{ pageUrl | escape }}">
+<link rel="alternate" hreflang="ru" href="{{ pageUrl | escape }}"> 
+<link rel="alternate" hreflang="x-default" href="{{ pageUrl | escape }}"> 
+
+<meta property="og:locale" content="ru_BY">
+
+{% if layout == "post" %}
+  <meta property="og:type" content="article">
+  <meta property="article:publisher" content="https://www.linkedin.com/in/bartoshevich/">
+  <meta property="article:author" content="https://www.linkedin.com/in/bartoshevich/">
+  {% if date and (date | isoDate) %}
+    <meta property="article:published_time" content="{{ date | isoDate }}">
+    {% endif %}
+    {% if last_modified_at and (last_modified_at | isoDate) %}
+      <meta property="article:modified_time" content="{{ last_modified_at | isoDate }}">
+    {% endif %}
+
+ {% else %}
+  <meta property="og:type" content="website">
+{% endif %}
+
+<meta property="og:title" content="{{ metaTitle | safe  }}">
+<meta property="og:url" content="{{ pageUrl | escape }}">
+{% set metaImage = image | default('/assets/images/main/bartoshevichby.png') %}
+<meta property="og:image" content="{{ metaImage | absoluteUrl(site.url) | escape }}"> 
+<meta property="og:site_name" content="bartoshevich.by"> 
+<meta property="og:description" content="{{ description | default(site.description)  | decodeEntities | safe  }}">
+
+<meta name="keywords" content="{{ keywords | default("") | safe | escape }}">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{{ metaTitle  | safe | escape }}">
+<meta name="twitter:description" content="{{ description | default(site.description)  | decodeEntities | safe  }}">
+<meta name="twitter:site" content="@dbartoshevich"> 
+<meta name="twitter:creator" content="@dbartoshevich"> 
+<meta name="twitter:image" content="{{ metaImage | absoluteUrl(site.url) | escape }}"> 
+
+<meta name="google-site-verification" content="k_w8istwR04PocDmdpSQHIcgwbPfx8cDYy5Z2Y5bvuA">
+<meta name="yandex-verification" content="29cd2d09fdd2bc5e">
+<meta name="wot-verification" content="9e40d766e6d6b17ee528">
+<meta name="author" content="Дмитрий Бартошевич">
+<meta name="copyright" content="Все права принадлежат Дмитрию Бартошевичу - https://bartoshevich.by">
+<link rel="author" href="https://www.linkedin.com/in/bartoshevich/">
+
+<link href="/feed.xml" rel="alternate" type="application/atom+xml">
+
+<link rel="preconnect" href="https://res.cloudinary.com" >
+<link rel="preconnect" href="https://cdn.simpleanalytics.io">

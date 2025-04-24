@@ -1,0 +1,20 @@
+<div class="intro__post">
+    <h1 class=" bold max-width-text">{{ name | default(title) | safe }}</h1> 
+    <small class="small">
+      {# Используем page.date - это правильно #}
+      {# Атрибут datetime оставляем с htmlDateString (YYYY-MM-DD) #}
+      <time datetime="{{ page.date | htmlDateString }}" > 
+          {# Видимый текст форматируем новым фильтром readableDateRU #}
+          {{ page.date | readableDateRU }}
+      </time> 
+      
+      {# Проверяем и используем last_modified_at НАПРЯМУЮ #}
+      {% if last_modified_at %}
+      {# Атрибут datetime оставляем с htmlDateString (YYYY-MM-DD) #}
+      <time datetime="{{ last_modified_at | htmlDateString }}" >
+          {# Видимый текст форматируем новым фильтром readableDateRU #}
+          (обновил {{ last_modified_at | readableDateRU }})
+      </time>
+      {% endif %}
+    </small>
+</div> 

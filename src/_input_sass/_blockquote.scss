@@ -1,0 +1,40 @@
+@use "./variables" as v;
+
+.blockquote--emphasis {
+  position: relative;
+  display: inherit;
+}
+
+.blockquote--emphasis:not(:last-child) {
+  margin-bottom: var(--space-xl-2xl);
+}
+
+.blockquote--emphasis::before {
+  content: "\201E";
+  display: inline-block;
+  position: absolute;
+  color: v.$text-colour;
+  left: -0.5em;
+  top: -0.85em;
+  font-size: 5em;
+  line-height: 1;
+}
+
+@media (min-width: 1069px) {
+  .blockquote--emphasis::before {
+    left: -0.7em;
+    top: -0.85em;
+  }
+}
+
+.citation {
+  margin-top: 1em;
+}
+
+.citation__author {
+  margin-top: var(--space-xs) !important;
+}
+
+cite {
+  font-style: normal;
+}

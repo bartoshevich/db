@@ -1,0 +1,60 @@
+{
+  "siteName": "Бартошевич",
+  "mainNav": [
+    { "text": "Бартошевич", "url": "/" },
+    { "text": "Проекты", "url": "/cases/", "key": "cases" },
+    { "text": "Блог", "url": "/blog/", "key": "blog" },
+    { "text": "Вопрос - Ответ", "url": "/faq/", "key": "faq" },
+    { "text": "Контакты", "url": "/contact/", "key": "contact" }
+  ],
+  "footerNav": [
+      { "text": "Главная", "url": "/" },
+      { "text": "Проекты", "url": "/cases/", "key": "cases" },
+      { "text": "Обо мне", "url": "/about/", "key": "about" }, 
+      { "text": "Вопрос - Ответ", "url": "/faq/", "key": "faq" },
+      { "text": "Контакты", "url": "/contact/", "key": "contact" }
+  ],
+  "services": {
+    "parent": { "text": "Услуги", "url": "/uslugi/", "key": "uslugi" },
+    "list": [
+      { "text": "Аудит маркетинга", "url": "/uslugi/marketing-audit/" },
+      { "text": "Концепция бренда", "url": "/uslugi/brand-conception/" },
+      {
+        "text": "Разработка рекламных кампаний",
+        "url": "/uslugi/razrabotka-reklamnyh-kampanij/"
+      },
+      {
+        "text": "Абонентское обслуживание",
+        "url": "/uslugi/autsorsing-marketinga/"
+      }
+    ]
+  },
+  "blog": { 
+    "parent": { "text": "Блог", "url": "/blog/", "key": "blog" }    
+  },
+  "subscription": {
+    "title": "Подписка",
+    "list": [
+      {
+        "text": "Telegram",
+        "url": "https://t.me/+OuzxNOZg-g44ZjYy",
+        "ariaLabel": "Присоединиться к каналу в Telegram"
+      },
+      { "text": "Электронная почта", "url": "https://eepurl.com/cmkKcz" }
+    ]
+  },
+  "ariaLabels": {
+    "openMenu": "открыть меню",
+    "closeMenu": "закрыть меню",
+    "mainMenu": "Основное меню",
+    "servicesMenu": "Меню услуг",
+    "subscriptionMenu": "Меню подписки",
+    "breadcrumbs": "breadcrumbs",
+    "openHomePage": "открыть главную страницу сайта"
+  },
+  "specialPageTitles": {
+    "/404.html": "404",
+    "/offline.html": "Нет сети",
+    "/confidential/": "Политика конфиденциальности"
+  }
+}

@@ -1,0 +1,7 @@
+{% extends "default.njk" %}
+
+{# Переопределяем только блок основного контента #}
+{% block main_content %}
+  {{ content | safe }}
+{% endblock %}
+

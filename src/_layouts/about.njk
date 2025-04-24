@@ -1,0 +1,11 @@
+{% extends "default.njk" %}
+
+
+
+{# Переопределяем блок основного контента #}
+{% block main_content %}
+  {{ content | safe }}
+  {# Уникальные инклюды для about #}
+  {% include "about__jobs.njk" %}
+  {% include "about__education.njk" %}
+{% endblock %}

@@ -1,14 +1,24 @@
-_site
+# Node.js
+node_modules/
+package-lock.json
+npm-debug.log*
+
+# Eleventy output
+_site/               
+
+# Eleventy cache
+.eleventy.js.cache/ 
+
+# OS / Editor
 .DS_Store
-.jekyll
-.jekyll-metadata
-.jekyll-cache
-.jekyll-cache/*
-.bundle
-.sass-cache
-Gemfile
-Gemfile.lock
-node_modules
-package.json
-update-links-script.py
+Thumbs.db
+*.log
+
+# VSCode
+.vscode/
+
+# dotenv и конфиденциальные данные
+.env
+.env.*
+
 

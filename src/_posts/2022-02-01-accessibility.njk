@@ -1,0 +1,435 @@
+---
+layout: post
+title:  "Accessibility сайтов и приложений — новые стандарты и практики"
+name: "Доступность сайтов&nbsp;— новая норма"
+description: 'Доступность сайтов&nbsp;&mdash; новый стандарт в&nbsp;маркетинге. Узнайте, как создать удобный сайт, улучшить&nbsp;UX и&nbsp;расширить аудиторию. Практические рекомендации!'
+date:   2022-02-01
+last_modified_at: 2022-02-05
+categories: мнение
+permalink: "/blog/accessibility/"
+tags: "управление бизнес"
+image: /assets/images/tizers/tizer-74.png
+keywords: "доступность"
+eleventyNavigation:
+  key: accessibility
+  title: "Доступность сайтов — новая норма"
+  parent: blog
+---
+
+
+
+<p>Уверен, в&nbsp;скором будущем ни&nbsp;один сайт не&nbsp;запустят, если он&nbsp;не&nbsp;будет соответствовать требованиям <b>доступности</b> (accessibility&nbsp;— в&nbsp;англоязычной среде). Произойдет то&nbsp;же, что и&nbsp;с&nbsp;оптимизацией веб-страниц для мобильных устройств. Лет 10&nbsp;назад считанные компании имели мобильные версии сайтов, а&nbsp;сейчас каждый, открывая браузер в&nbsp;смартфоне, ожидает, что все будет работать. </p>
+
+<p><strong>От&nbsp;распространения доступных сайтов выиграют не&nbsp;только люди со&nbsp;специальными потребностями, но&nbsp;и&nbsp;все пользователи интернета.</strong> При этом внедрение базовых принципов доступности не&nbsp;требуют дополнительных затрат (если применять их&nbsp;с&nbsp;первого этапа разработки сайта). </p>
+
+<nav class="toc">
+<h2 class="toc__title">Содержание</h2>
+<ul class="additive-spacing">
+		  <li>		   
+		      <span class="tocnumber">1 </span>
+			   <a class="link" href="#1">Что такое доступность
+		    </a>
+		  </li>
+		  <li >
+		    
+		      <span class="tocnumber">2 </span>			  
+			  <a class="link" href="#2">Что говорит закон о&nbsp;доступности
+		    </a>
+		  </li>
+          <li >
+		   
+		      <span class="tocnumber">3 </span>
+			   <a class="link" href="#3">
+			   Преимущества доступности для условно здоровых
+		    </a>
+		  </li>
+			<li class="additive-spacing">
+		   
+		      <span class="tocnumber">4 </span>
+			   <a class="link" href="#4">
+			   Базовые принципы доступности
+		    </a>
+		  
+
+		  <ul class="additive-spacing">
+          	<li class="level2">
+		    
+		      <span class="tocnumber">4.1 </span>
+			  <a class="link" href="#semantics">Используйте семантические HTML теги
+		    </a>
+		  </li>
+          	<li class="level2">
+		    
+		      <span class="tocnumber">4.2 </span>
+			  <a class="link" href="#heading">
+			  Используйте заголовки как элемент структуры документа
+		    </a>
+		  </li>
+          	<li class="level2">
+		    
+		      <span class="tocnumber">4.3 </span>
+			  <a class="link" href="#constancy">Придерживайтесь единообразия в структуре
+		    </a>
+		  </li>
+          	<li class="level2">
+		   
+		      <span class="tocnumber">4.4 </span>
+			   <a class="link" href="#clearity">Пишите ясно
+		    </a>
+		  </li>
+          	<li class="level2">
+		   
+		      <span class="tocnumber">4.5 </span>
+			   <a class="link" href="#links">Делайте очевидной цель ссылки 
+		    </a>
+		  </li>
+          	<li class="level2">
+		   
+		      <span class="tocnumber">4.6 </span>
+			   <a class="link" href="#alt">Размещайте текстовые версии для нетекстового контента
+		    </a>
+		  </li>
+          	<li class="level2">
+		    
+		      <span class="tocnumber">4.7 </span>
+			  <a class="link" href="#contrast">Обеспечьте достаточный цветовой контраст
+		    </a>
+		  </li>
+          	<li class="level2">
+		   
+		      <span class="tocnumber">4.8 </span>
+			   <a class="link" href="#notonlycolor">Не полагайтесь только на цвет
+		    </a>
+		  </li>	
+		  </ul>
+</li>
+
+		 <li>
+			
+				<span class="tocnumber">5</span>
+				<a class="link" href="#5">Дополнительные материалы
+			</a>
+		</li>
+</ul>
+</nav>
+
+<section class="row-gap--m" id="1">
+<h2 class="section__title h1 bold">Что такое доступность </h2>
+<p>Когда-то за&nbsp;доступность я&nbsp;принимал некое программное дополнение к&nbsp;сайту, которое увеличивает шрифты, изменяет контрастность, помогая людям с&nbsp;нарушениями восприятия.</p>
+
+<div    itemscope itemtype="https://schema.org/ImageObject">
+<link itemprop="url" href="/assets/images/blog/accessibility/accessibility_widget@2x.jpg">
+<picture>
+			<source srcset="/assets/images/blog/accessibility/accessibility_widget@1x.avif 1x, /assets/images/blog/accessibility/accessibility_widget@2x.avif 2x" type="image/avif"> 
+			<source srcset="/assets/images/blog/accessibility/accessibility_widget@1x.webp 1x, /assets/images/blog/accessibility/accessibility_widget@2x.webp 2x" type="image/webp"> 
+			<img class="image" loading="lazy" decoding="async" src="/assets/images/blog/accessibility/accessibility_widget@1x.jpg" srcset="/assets/images/blog/accessibility/accessibility_widget@1x.jpg 1x, /assets/images/blog/accessibility/accessibility_widget@2x.jpg 2x" width="720" height="240" alt="скриншот" itemprop="contentUrl">
+		 </picture> 
+<div class="figcaption">Пример интерфейса настроек специальной версии сайта </div>
+</div>
+
+<p>Однако, подобные вспомогательные технологии нельзя отождествлять с&nbsp;доступностью. Когда ориентируются на&nbsp;одну категорию людей, игнорируя других, это не&nbsp;про доступность. Разрабатывать и&nbsp;внедрять все новые и&nbsp;новые дополнения для разных групп&nbsp;— не&nbsp;лучшее решение. К&nbsp;тому&nbsp;же некоторые вещи нельзя реализовать в&nbsp;автоматическом режиме (напр., указывать правильный альтернативный текст к&nbsp;картинкам). Выход&nbsp;— сайт изначально должен разрабатываться доступным для всех, вне зависимости от&nbsp;их&nbsp;физического состояния и&nbsp;возможностей. </p>
+
+ 
+    
+<div class="blockquote--emphasis mt-m ml-2xl">
+<blockquote>
+    		<p class="citation">
+                Доступность&nbsp;— это практика, позволяющая использовать ваши сайты как можно большему числу людей. 
+    		</p>
+    		</blockquote>
+    		<cite class="citation__author">
+    			— <a class="link" href="https://developer.mozilla.org/ru/docs/Learn/Accessibility/What_is_accessibility">MDN Web Docs</a>
+    		</cite>
+    	</div>
+
+
+
+
+
+
+<p>Доступность&nbsp;— это про желание ставить в&nbsp;центр бизнес-процессов пользователя. Не&nbsp;идеальный образ клиента в&nbsp;&laquo;типичном&raquo; мире, а&nbsp;живого человека в&nbsp;реальных жизненных ситуациях. Тогда появляются вопросы подобные этим:</p>
+<ul> 
+	<li class="list-li"> 
+		<p>У&nbsp;клиента с&nbsp;возрастом ослабло зрение, он&nbsp;сможет пользоваться моим сайтом?</p>
+	</li>
+	<li class="list-li"> 
+		<p>Если человек сломал руку и&nbsp;сидит один на&nbsp;больничном, он&nbsp;сможет заказать у&nbsp;нас продукты домой?</p>
+	</li>
+	<li class="list-li"> 
+		<p>Поймет&nbsp;ли пользователь, о&nbsp;чем видео, если будет смотреть в&nbsp;шумном помещении?</p>
+	</li>
+	<li class="list-li"> 
+		<p>Если у&nbsp;пенсионера монитор с&nbsp;плохой цветопередачей, он&nbsp;найдет ссылку без посторонней помощи?</p>
+	</li>
+	<li class="list-li"> 
+		<p>Удобно&nbsp;ли молодой маме вызвать такси через наше приложение, если у&nbsp;нее свободна только одна рука? </p>
+	</li>
+</ul>
+
+<p><a class="link" href="https://web.archive.org/web/20210519122434/https://www.sb.by/articles/v-belarusi-naschityvaetsya-118-tysyach-invalidov-trudosposobnogo-vozrasta.html" >В&nbsp;Беларуси более 564 тысяч человек&nbsp;— люди с&nbsp;инвалидностью</a>. Также есть люди со&nbsp;снижением слуха, зрения, двигательными и&nbsp;другими нарушениями, которым не&nbsp;присвоена группа инвалидности. Недоступный сайт автоматически означает, что компания исключает этих людей из&nbsp;своей коммуникации. </p>
+
+
+<div class="figure">
+	<div class="video">
+		   <a class="video__link " href="https://youtu.be/RQiN1Hhrxu0" target="_blank" rel="noopener noreferrer">
+			   <picture>
+				   <source srcset="https://i.ytimg.com/vi_webp/RQiN1Hhrxu0/maxresdefault.webp" type="image/webp">
+				   <img loading="lazy" decoding="async" class="video__media " src="https://i.ytimg.com/vi/RQiN1Hhrxu0/maxresdefault.jpg" alt="Интервью с&nbsp;незрячим пользователем современных гаджетов" width="1280" height="720">
+			   </picture>
+			   <span class="element--hidden">Видео: как незрячие пользуются гаджетами</span>
+		   </a>
+		   <button class="video__button" aria-label="Запустить видео">
+			   <svg width="68" height="48" viewBox="0 0 68 48"><path class="video__button-shape" d="M66.52,7.74c-0.78-2.93-2.49-5.41-5.42-6.19C55.79,.13,34,0,34,0S12.21,.13,6.9,1.55 C3.97,2.33,2.27,4.81,1.48,7.74C0.06,13.05,0,24,0,24s0.06,10.95,1.48,16.26c0.78,2.93,2.49,5.41,5.42,6.19 C12.21,47.87,34,48,34,48s21.79-0.13,27.1-1.55c2.93-0.78,4.64-3.26,5.42-6.19C67.94,34.95,68,24,68,24S67.94,13.05,66.52,7.74z"></path><path class="video__button-icon" d="M 45,24 27,14 27,34"></path></svg>
+		   </button>
+   </div>
+<div class="figcaption">
+—&nbsp;Меня инвалидом делает не&nbsp;то, что я&nbsp;не&nbsp;вижу, не&nbsp;слышу, не&nbsp;хожу. А&nbsp;то, что телефон, который я&nbsp;беру в&nbsp;руки, не&nbsp;может со&nbsp;мной разговаривать. В&nbsp;этот момент я&nbsp;конечно становлюсь инвалидом
+</div>
+</div>
+</section>
+
+<section class="row-gap--m" id="2">
+<h2 class="section__title h1 bold">Что говорит закон о&nbsp;доступности</h2>
+<p>В&nbsp;Беларуси с&nbsp;2010 года действует <a class="link" href="https://pravo.by/document/?guid=3871&amp;p0=C21000645">«Положение о&nbsp;порядке функционирования интернет-сайтов государственных органов и&nbsp;организаций»</a>. Доступность сайта для инвалидов по&nbsp;зрению&nbsp;— одно из&nbsp;требований. Существует также <a class="link" href="https://tnpa.by/#!/DocumentCard/294842/392675">стандарт СТБ <span class="noperenos">2304-2013</span></a> «Интернет-ресурсы. Общие требования доступности для инвалидов по&nbsp;зрению». Как контролируют исполнение этих требований государственными организациями и&nbsp;контролируют&nbsp;ли, не&nbsp;знаю. </p>
+
+<p>На&nbsp;Западе сайты, не&nbsp;соответствующие критериям доступности, рассматриваются как проявление дискриминации людей с&nbsp;ограниченными возможностями. Если вы&nbsp;работаете с&nbsp;западными компаниями, скорее всего вам рано или поздно придется привести сайт в&nbsp;соответствие с&nbsp;требованиями доступности. </p>
+
+<p>В&nbsp;США, например, действует Закон об&nbsp;американцах с&nbsp;ограниченными возможностями (Americans with Disabilities Act (ADA)). Закон распространяется, в&nbsp;том числе, на&nbsp;сайты коммерческих предприятий. В&nbsp;2021 году против компаний, чьи сайты не&nbsp;соответствовали требованиям доступности, было подано 2&nbsp;352 иска (<a class="link" href="https://www.boia.org/blog/web-accessibility-lawsuits-dramatically-rose-in-2021.-heres-why">отчет accessibility.com,</a> англ.). </p>
+
+<div class="with-side row-gap--m">
+<p>Я&nbsp;запросил <a class="link" href="https://userway.org/">у&nbsp;компании UserWay</a> аудит своего сайта на&nbsp;предмет доступности. Через некоторое время мне сообщили о&nbsp;найденных ошибках. Указали, что я&nbsp;нарушил ряд американских и&nbsp;европейских нормативных требований и&nbsp;мне может грозить судебный иск. </p>
+<div class="side">
+<p>*UserWay&nbsp;— один из&nbsp;лидеров в&nbsp;сфере технологий обеспечения доступности веб-сайтов. В&nbsp;числе их&nbsp;клиентов Disney, eBay, Coca-Cola, Unicef, Wallmart.</p>
+</div>
+</div>
+
+<div    itemscope itemtype="https://schema.org/ImageObject">
+<link itemprop="url" href="/assets/images/blog/accessibility/accessibility_letter@1,4x.jpg">
+<div class="figcaption">Скриншот письма с&nbsp;оценкой доступности сайта bartoshevich.by</div>
+<picture>
+			<source srcset="/assets/images/blog/accessibility/accessibility_letter@1x.avif 1x,/assets/images/blog/accessibility/accessibility_letter@1,4x.avif 1.4x" type="image/avif"> 
+			<source srcset="/assets/images/blog/accessibility/accessibility_letter@1x.webp 1x, /assets/images/blog/accessibility/accessibility_letter@1,4x.webp 1.4x" type="image/webp"> 
+			<img class="image" loading="lazy" decoding="async" src="/assets/images/blog/accessibility/accessibility_letter@1x.jpg" srcset="/assets/images/blog/accessibility/accessibility_letter@1x.jpg 1x, /assets/images/blog/accessibility/accessibility_letter@1,4x.jpg 1.4x" width="800" height="480" alt="письмо UserWay" itemprop="contentUrl">
+</picture>
+</div>
+
+<p>Но&nbsp;юридические требования, на&nbsp;мой взгляд, не&nbsp;должны быть главным мотиватором к&nbsp;переходу на&nbsp;доступные сайты. Если в&nbsp;центр бизнеса компания ставит клиента, то&nbsp;доступность&nbsp;— логическое следствие организации работы. Кроме того, от&nbsp;доступности выигрывают все пользователи, независимо от&nbsp;их&nbsp;текущего физического состояния. </p>
+</section>
+
+
+<section class="row-gap--m" id="3">
+<h2 class="section__title h1 bold">Преимущества доступности для условно здоровых </h2>
+<p>Грядет время, когда серфить в&nbsp;интернете будут с&nbsp;помощью голосовых помощников. Управлять навигацией, понимать содержимое доступных сайтов в&nbsp;этом случае будет проще. </p>
+
+<p>Есть и&nbsp;другие выгоды, которые приносит доступность условно здоровым людям. Например: </p>
+
+<ul class="additive-spacing"> 
+	<li class="list-li"> 
+		<p>Субтитры в&nbsp;видео помогут людям с&nbsp;нарушением слуха, но&nbsp;также всем, кто смотрит видео в&nbsp;шумном помещении или без возможности включить звук. Видео с&nbsp;субтитрами лучше воспринимаются. Внутренние тесты Facebook показали, что <a class="link" href="https://www.facebook.com/business/news/updated-features-for-video-ads" >субтитры увеличивают просмотр видеорекламы в&nbsp;среднем на&nbsp;12%</a>. </p>
+	</li>
+	<li class="list-li"> 
+		<p>Правильный цветовой контраст поможет не&nbsp;только людям с&nbsp;нарушениями цветового восприятия. Всем пользователям станет легче читать текст на&nbsp;маленьком экране или при ярком освещении. </p>
+	</li>
+	<li class="list-li"> 
+		<p>Если на&nbsp;сайте реализована возможность управления с&nbsp;помощью клавиатуры, то&nbsp;пользователь откроет выпадающее меню сайта даже когда в&nbsp;беспроводной мышке села батарейка. </p>
+	</li>
+	<li class="list-li"> 
+		<p>Понятные и&nbsp;простые в&nbsp;навигации доступные сайты улучшают поведенческие факторы. Пользователи легко схватывают, что хочет сказать компания. <b>Маркетологи</b> быстрее донесут до&nbsp;аудитории идею бренда. </p>
+	</li>
+</ul>
+</section>
+
+<section class="row-gap--m" id="4">
+<h2 class="section__title h1 bold">Базовые принципы доступности</h2>
+<p>Я&nbsp;познакомился с&nbsp;техническими спецификациями и&nbsp;обнаружил, что соблюдение базовых принципов доступности не&nbsp;требует значимых затрат. Например, верстая макет вы&nbsp;знаете, что нельзя использовать светлый шрифт на&nbsp;светлом фоне. Сколько денег потребуется, чтобы заменить цвет шрифта на&nbsp;более контрастный? Нисколько. Вы&nbsp;сразу выберете правильный «диапазон» цветов. И&nbsp;так со&nbsp;всеми базовыми требованиями. Минимальными усилиями можно значимо улучшить доступность сайтов. </p>
+
+<section class="row-gap--m" id="semantics">
+<h3 class="h2 bold mt-m mb-m">Используйте семантические HTML теги</h3>
+<p>В&nbsp;HTML есть семантические теги, которые точно описывают цель элемента и&nbsp;тип заключенного в&nbsp;них контента. Они помогают скринридерам правильно считывать страницы сайта. Если, например, на&nbsp;странице нет тега &lt;nav&gt;, скринридер может не&nbsp;узнать, где на&nbsp;сайте меню. </p>
+
+<p>Допускаю, многим этот пункт покажется непонятным. «Я&nbsp;же не&nbsp;разработчик, зачем мне это?» Я&nbsp;хочу обратить внимание на&nbsp;цену вопроса. Использовать семантические теги, это, например, вместо &lt;div class="header"&gt;&lt;/div&gt; написать &lt;header&gt;&lt;/header&gt;. Как видите, если придерживаться доступности с&nbsp;самого начала разработки, семантические теги не&nbsp;потребуют сверхусилий. </p>
+</section>
+
+
+<section class="row-gap--m" id="heading">
+<h3 class="h2 bold mt-m mb-m">Используйте заголовки как элемент структуры документа</h3>
+<p>Иногда веб-разработчики используют теги заголовков (&lt;h1&gt;, &lt;h2&gt;, &lt;h3&gt; и&nbsp;т.д.), чтобы сделать текст крупнее, заметнее. От&nbsp;подобной практики следует отходить. Заголовки&nbsp;— это не&nbsp;про дизайн, а&nbsp;про структуру страницы. В&nbsp;идеале, если выписать заголовки страницы, должна получиться связная история. Скринридер прочтет заголовки и&nbsp;у&nbsp;пользователя сложится представление о&nbsp;содержимом. </p>
+
+<p>Заголовки желательно располагать в&nbsp;последовательном порядке. Сначала заголовок первого уровня (&lt;h1&gt;). Он&nbsp;отражает основную цель страницы. Заголовки второго уровня (&lt;h2&gt;) разбивают страницу на&nbsp;разделы. Заголовки третьего уровня (&lt;h3&gt;) делят содержание блока под тегом &lt;h2&gt;. Каждый новый уровень заголовков более детально раскрывает предыдущий. </p>
+
+
+<div class="figure">
+<div class="figcaption">Пример. Структура заголовков <a class="link" href="/blog/in-store-marketing/">статьи «Как влиять на&nbsp;решения о&nbsp;покупке в&nbsp;точках продаж»</a></div>
+
+<pre class="language-terminal highlight ">
+&lt;<span class="tag">h1</span>&gt; Как влиять на&nbsp;решения о&nbsp;покупке в&nbsp;точках продаж &lt;/<span class="tag">h1</span>&gt; 
+	&lt;<span class="tag">h2</span>&gt; Покупатель рациональный&nbsp;— миф &lt;/<span class="tag">h2</span>&gt;
+	&lt;<span class="tag">h2</span>&gt; Задача маркетолога в&nbsp;рознице &lt;/<span class="tag">h2</span>&gt;
+		&lt;<span class="tag">h3</span>&gt; Стать визуально большим и&nbsp;выделяющимся &lt;/<span class="tag">h3</span>&gt;
+		&lt;<span class="tag">h3</span>&gt; Использовать ассоциативные связи &lt;/<span class="tag">h3</span>&gt;
+		&lt;<span class="tag">h3</span>&gt; Подсказать критерии выбора &lt;/<span class="tag">h3</span>&gt;
+		&lt;<span class="tag">h3</span>&gt; Влиять на&nbsp;эмоции &lt;/<span class="tag">h3</span>&gt;
+	&lt;<span class="tag">h2</span>&gt; Ритейл-маркетинг и&nbsp;брендинг &lt;/<span class="tag">h2</span>&gt;
+</pre>
+</div>
+
+
+<p>Если на&nbsp;странице нарушена иерархия заголовков, например, если страница переходит от&nbsp;тега &lt;h1&gt; сразу к&nbsp;тегу &lt;h4&gt;, при использовании скринридера пользователь может подумать, что он&nbsp;пропустил важные блоки информации. </p>
+</section>
+
+
+
+<section class="row-gap--m" id="constancy">
+<h3 class="h2 bold mt-m mb-m">Придерживайтесь единообразия в&nbsp;структуре</h3>
+<p>Человек, который слушает сайт, строит в&nbsp;голове его структуру. Если основные блоки меняются на&nbsp;каждой странице или структура обновляется каждую неделю, освоить сайт сложно.</p>
+</section>
+
+
+
+<section class="row-gap--m" id="clearity">
+<h3 class="h2 bold mt-m mb-m">Пишите ясно</h3>
+<p>Если текст состоит из&nbsp;широко распространенных слов и&nbsp;коротких предложений, для его понимания, как правило, не&nbsp;требуются развитые способности к&nbsp;чтению. Легче такой текст воспринимать и&nbsp;на&nbsp;слух через речевой синтезатор. Поэтому:</p>
+
+<ul> 
+	<li class="list-li"> 
+		<p>Используйте простой язык. </p>
+	</li>
+	<li class="list-li"> 
+		<p>Пишите короткими фразами. </p>
+	</li>
+	<li class="list-li"> 
+		<p>По&nbsp;возможности избегайте метафор и&nbsp;идиом. </p>
+	</li>
+	<li class="list-li"> 
+		<p>Избегайте жаргонов. К&nbsp;терминам и&nbsp;мало известным словам добавляйте определения. </p>
+	</li>
+</ul>
+
+<p> В&nbsp;блоге есть <a class="link" href="/blog/redaktirovanie-teksta-instrumenty/">статья «Полезные ссылки для тех, кто пишет»</a>. Вы&nbsp;можете ее&nbsp;использовать в&nbsp;подготовке материалов для ваших ресурсов. </p> 
+</section>
+
+
+<section class="row-gap--m" id="links">
+<h3 class="h2 bold mt-m mb-m">Делайте очевидной цель ссылки </h3>
+<p>Если размещаете ссылку, объясните, что ожидает пользователя, который по&nbsp;ней перейдет. Бывает, на&nbsp;сайте разместили иконки соц. сетей. Оформили как ссылки. Визуально понятно, куда человек перейдет по&nbsp;клику, но&nbsp;на&nbsp;слух&nbsp;— нет. </p>
+
+<p>«Подписать» ссылки недостаточно. Текст должен быть информативным. Пользователь не&nbsp;должен кликать по&nbsp;ссылке, чтобы понять, куда она приведет. Поэтому, например, ссылка «подробнее» не&nbsp;так полезна, как ссылка «больше информации об&nbsp;услугах компании». </p>
+
+
+<table>
+<caption>примеры, как ставить ссылки</caption>
+	<thead>
+		<tr>
+			<th class="width50"> Плохо </th>
+			<th> Хорошо </th>
+ 		</tr>
+ 	</thead>
+		<tbody >
+			<tr>
+				<td>
+					<p>Скачайте <a href="#" class="link">здесь</a></p> 
+				</td>				
+				<td>	
+				<p>Скачайте <a href="/#" class="link">с&nbsp;сайта группы компаний Sarmont</a></p>		
+					
+				</td>
+			</tr>
+			<tr>
+			<td><p>О маркетинге я пишу <a href="/blog/#" class="link">тут</a></p></td>
+			<td> <p>Я веду <a href="/blog/#" class="link">блог о&nbsp;маркетинге</a></p></td>
+			</tr>
+			<tr>
+			<td><p>Он <a href="#" class="link">выложил</a> новый ролик</p></td>
+			<td>  <p>Он&nbsp;выложил <a href="/#" class="link">новый рекламный ролик AIDA Pioneer</a></p></td>
+			</tr>
+		</tbody>
+	</table>
+</section>
+
+
+<section class="row-gap--m" id="alt">
+<h3 class="h2 bold mt-m mb-m">Размещайте текстовые версии для нетекстового контента</h3>
+<p>Люди с&nbsp;нарушениями зрения могут использовать программы для чтения с&nbsp;экрана. Если на&nbsp;сайте нет альтернативного текста для изображений, пользователи скринридеров не&nbsp;смогут воспринять контент. Поэтому, если размещаете картинку, добавьте краткое описание того, что изображено, или укажите назначение картинки. </p>
+
+<p>Публикуете видео&nbsp;— добавьте субтитры для тех, кто не&nbsp;может слышать аудио. </p>
+</section>
+
+
+<section class="row-gap--m" id="contrast">
+<h3 class="h2 bold mt-m mb-m">Обеспечьте достаточный цветовой контраст </h3>
+<p>Убедитесь, что все текстовые элементы имеют достаточный цветовой контраст между текстом на&nbsp;переднем плане и&nbsp;цветом фона за&nbsp;ним. Если он&nbsp;не&nbsp;будет достаточным, пользователь не&nbsp;увидит текст или для восприятия страницы ему нужно будет приложить больше усилий. </p>
+
+<p class="mb-m">Инструменты, с&nbsp;помощью которых можно выявить проблемные зоны:</p>
+
+<ul> 
+	<li class="list-li"> 
+		<p><a class="link" href="https://color.a11y.com/" >Color Contrast Accessibility Validator</a> Введите адрес веб-страницы. Сервис покажет проблемы цветового контраста (при наличии). </p>
+	</li>
+	<li class="list-li"> 
+		<p><a class="link" href="https://webaim.org/resources/contrastchecker/" >Contrast Checker</a> Нужно ввести цвет шрифта и&nbsp;фона в&nbsp;формате RGB (например, #FD3 или #F7DA39). Сервис покажет, допустимо&nbsp;ли такое сочетание. </p>
+	</li>
+	<li class="list-li"> 
+		<p><a class="link" href="https://chrome.google.com/webstore/detail/wcag-color-contrast-check/plnahcmalebffmaghcpcmpaciebdhgdf" >WCAG Color contrast checker</a> Расширение для браузера Chrome. Кликнув по&nbsp;значку расширения, вы&nbsp;получите оценки контрастности всех элементов страницы. </p>
+	</li>
+</ul>
+</section>
+
+
+<section class="row-gap--m" id="notonlycolor">
+<h3 class="h2 bold mt-m mb-m">Не&nbsp;полагайтесь только на&nbsp;цвет </h3>
+<p>Дизайнеры часто используют цвет для привлечения внимания или выделения важных информационных блоков. Это нормально, но&nbsp;в&nbsp;некоторых случаях такой принцип не&nbsp;работает. Например, если на&nbsp;сайте ссылки не&nbsp;подчеркиваются, то&nbsp;человек может их&nbsp;не&nbsp;видеть. Если на&nbsp;графике продукт&nbsp;A обозначен красной линией, а&nbsp;продукт B&nbsp;— зеленой, для части аудитории это будут две одинаковые линии. </p>
+
+<div class="extract">
+		<p>—&nbsp;Чтобы перейти в&nbsp;корзину, кликайте на&nbsp;красную кнопку. </p>
+	
+		<p>—&nbsp;Подскажите теперь, какая из&nbsp;кнопок красная. </p>
+
+</div>
+</section>
+</section>
+
+
+
+
+<section class="row-gap--m" id="5">
+<h2 class="section__title h1 bold">Дополнительные материалы </h2>
+
+<ul class="additive-spacing"> 
+	<li class="list-li"> 
+		<p><a class="link" href="https://developer.mozilla.org/ru/docs/Learn/Accessibility/What_is_accessibility" >«Что такое доступность?»</a>&nbsp;| MDN Web Docs</p>
+	</li>
+	<li class="list-li"> 
+		<p><a class="link" href="https://www.w3.org/WAI/fundamentals/accessibility-principles/ru#perceivable" >«Принципы доступности»</a>&nbsp;| W3C</p>
+	</li>
+	<li class="list-li"> 
+		<p><a class="link" href="https://habr.com/ru/company/linka/blog/346238/" >Пандус для сайта</a> Статья Ивана Бакаидова. У&nbsp;него ДЦП, самопроизвольно сокращаются мышцы тела, неразборчивая речь. Программист, пишет приложения для неговорящих людей. </p>
+	</li>
+	<li class="list-li"> 
+		<p><a class="link" href="https://web-standards.ru/articles/a11y-and-law/">Доступность и&nbsp;закон.</a> Разбор законов и&nbsp;стандартов по&nbsp;веб-доступности</p>
+	</li>
+	<li class="list-li"> 
+		<p><a class="link" href="https://weblind.ru/" >Веблайнд&nbsp;— рекомендации по&nbsp;разработке сайтов для людей с&nbsp;нарушениями зрения</a></p>
+	</li>
+	<li class="list-li"> 
+		<p><a class="link" href="https://webaim.org/articles/" >статьи WebAIM</a> (англ.) </p>
+	</li>
+	<li class="list-li"> 
+		<p><a class="link" href="https://www.boia.org/blog" >блог Bureau of&nbsp;Internet Accessibility</a> (англ.)</p>
+	</li>
+	<li class="list-li"> 
+		<p><a class="link" href="https://www.a11yproject.com/posts/" >блог A11Y Project</a> (англ.)</p>
+	</li>
+	<li class="list-li"> 
+		<p><a class="link" href="https://www.audioeye.com/blog" >блог компании AudioEye</a> (англ.)</p>
+	</li>
+	<li class="list-li"> 
+		<p><a class="link" href="https://userway.org/blog/" >блог компании UserWay</a> (англ.)</p>
+	</li>
+	<li class="list-li"> 
+		<p><a class="link" href="https://www.udacity.com/course/web-accessibility--ud891" >бесплатный курс Google «Web Accessibility»</a></p>
+	</li>
+	<li class="list-li"> 
+		<p><a class="link" href="https://wave.webaim.org/extension/" >WAVE расширение браузера</a> (для Chrome, Firefox, Edge)&nbsp;— оценивает доступность веб-страниц непосредственно в&nbsp;браузере </p>
+	</li>
+</ul>
+</section>

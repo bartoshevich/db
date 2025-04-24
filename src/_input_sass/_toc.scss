@@ -1,0 +1,79 @@
+@use "./variables" as v;
+
+.toc {
+  margin-top: var(--space-s);
+  border: solid v.$secondary-text-colour;
+  border-width: var(--space-3xs);
+  padding: var(--space-m);
+  display: inline-block;
+  word-wrap: break-word;
+  max-width: 680px;
+  line-height: 1.65;
+  position: relative;
+}
+
+.toc__title {
+  font-weight: 600;
+  position: absolute;
+  background-color: v.$background-color;
+  color: v.$text-colour;
+  right: 1rem;
+  top: -0.85em;
+  padding: 0 0.6em;
+  font-size: var(--step-1);
+  line-height: var(--space-m);
+}
+
+.toc ul {
+  list-style-type: none;
+  list-style-image: none;
+  text-align: left;
+}
+
+li.level2 {
+  padding-left: 1em;
+}
+
+.tocnumber {
+  padding-right: var(--space-2xs);
+  color: v.$text-colour;
+}
+
+.tag-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.tag-item {
+  margin-bottom: 1em;
+  margin-right: 1em;
+}
+
+.tag-link {
+  text-decoration: none;
+  background-color: #f0f0f0;
+  padding: 5px 10px;
+  border-radius: 20px;
+  color: #333;
+  transition: background-color 0.3s ease;
+}
+
+.tag-link:hover {
+  background-color: v.$link-bg;
+  color: v.$link-hover;
+}
+
+.tag-link:focus {
+  outline: 3px solid transparent;
+  text-decoration: none;
+  color: v.$link;
+  background-color: v.$link-bg;
+}
+
+.tag-link::before {
+  content: "#";
+  margin-right: 5px;
+}

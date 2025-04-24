@@ -1,0 +1,41 @@
+@use "./variables" as v;
+
+.footer__nav {
+  margin: var(--space-xl-2xl) 0 var(--space-l) 0;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-column-gap: 2rem;
+  column-gap: 2rem;
+  grid-column-gap: 8px;
+  row-gap: 8px;
+  //overflow: hidden;
+}
+
+@media (min-width: 640px) {
+  .footer__nav {
+    grid-template-columns: 2fr 4fr 4fr;
+    grid-gap: 2rem;
+    //overflow: hidden;
+  }
+}
+
+.footer::before {
+  content: "* * *";
+  display: block;
+  text-align: center;
+  font-size: var(--step-3);
+  padding-top: var(--space-2xl);
+}
+
+.credentials {
+  border-top: 1px dashed v.$text-colour;
+  padding: var(--space-xs-s) 0;
+}
+
+.social {
+  padding: var(--space-s) 0;
+}
+
+.social__item {
+  margin-right: var(--space-s);
+}
