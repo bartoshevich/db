@@ -13,7 +13,7 @@
   "watch:js": "npx esbuild src/assets/scripts/main.js --bundle --watch --outfile=src/assets/scripts/main.bundle.js",
   "serve": "eleventy --serve",
   "start": "cross-env NODE_ENV=development npm-run-all -p watch:css watch:js serve",
-  "build": "npm run build:css && npm run process:css && npm run build:js && eleventy"
+  "build": "npm run build:css && npm run process:css && npm run build:js && eleventy && exit 0"
 },
   "keywords": [],
   "author": "",
