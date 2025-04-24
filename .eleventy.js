@@ -37,7 +37,7 @@ export default function (eleventyConfig) {
   eleventyConfig.addPlugin(eleventyNavigationPlugin);
   eleventyConfig.addPlugin(EleventyHtmlBasePlugin);
   eleventyConfig.addPlugin(sitemap, {
-    lastModifiedProperty: "last_modified_at",
+   lastModifiedProperty: "last_modified_at",
     sitemap: { hostname: "https://bartoshevich.by" }
   });
 
@@ -245,6 +245,10 @@ eleventyConfig.addExtension("js", {
   });
 
   
+  eleventyConfig.on('afterBuild', () => {
+    console.log("✅ Сборка завершена. Завершаем процесс вручную.");
+    process.exit(0);
+  });
 
   /* ------------- Final Config ----------- */
   return {
