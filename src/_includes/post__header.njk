@@ -1,6 +1,6 @@
 <div class="intro__post">
     <h1 class=" bold max-width-text">{{ name | default(title) | safe }}</h1> 
-    <small class="small">
+    <small class="small secondary-color">
       {# Используем page.date - это правильно #}
       {# Атрибут datetime оставляем с htmlDateString (YYYY-MM-DD) #}
       <time datetime="{{ page.date | htmlDateString }}" > 
