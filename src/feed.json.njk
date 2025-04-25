@@ -30,7 +30,7 @@ language: "ru"
           "id":             "{{ url }}",
           "url":            "{{ url }}",
           "title":          "{{ post.data.title | escape }}",
-          "description":    "{{ post.data.description | decodeEntities | escape }}",
+          "content_text":    "{{ post.data.description | decodeEntities | escape }}",
           "date_published": "{{ post.date | dateToRfc3339 }}"
         }{% if not loop.last %},{% endif %}
         {%- endfor %}
