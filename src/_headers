@@ -19,11 +19,11 @@
     object-src 'none';
     manifest-src 'self';
     form-action 'self';
-    img-src 'self' res.cloudinary.com i.ytimg.com queue.simpleanalyticscdn.com static.probusiness.io data:;
-    connect-src 'self' res.cloudinary.com i.ytimg.com simpleanalyticscdn.com events.simpleanalytics.com;
+    img-src 'self' res.cloudinary.com i.ytimg.com *.simpleanalytics.com *.simpleanalyticscdn.com static.probusiness.io data:;
+    connect-src 'self' res.cloudinary.com i.ytimg.com *.simpleanalytics.com *.simpleanalyticscdn.com;
     upgrade-insecure-requests;
     style-src 'self';
-    script-src 'self' cdn.simpleanalytics.io;
+    script-src 'self' *.simpleanalytics.com *.simpleanalyticscdn.com;
     frame-ancestors 'self';
     frame-src www.youtube-nocookie.com www.youtube.com embed.ted.com youtu.be;
     media-src www.youtube-nocookie.com www.youtube.com embed.ted.com youtu.be; 
