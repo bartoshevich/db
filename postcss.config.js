@@ -1,19 +1,23 @@
 
 import autoprefixer from "autoprefixer";
-import cssnano       from "cssnano";
+import lightningcssPlugin from "postcss-lightningcss";
 
 export default {
   plugins: [
     autoprefixer({
       overrideBrowserslist: [
-        "last 2 versions",      // последние 2 версии всех основных браузеров
-        "not dead",             // исключить устаревшие браузеры
-        "not < 0.5%",           // исключить редкие
-        "Firefox ESR"           // поддержка Long Term версии Firefox
+        "last 2 versions",
+        "not dead",
+        "not < 0.5%",
+        "Firefox ESR"
       ],
-      grid: "autoplace",        // поддержка CSS Grid (IE/старые браузеры)
-      flexbox: "no-2009"        // исключить устаревшую 2009 реализацию
+      grid: "autoplace",
+      flexbox: "no-2009"
     }),
-    cssnano({ preset: "default" })
+    // Заменяем cssnano на lightningcss
+    lightningcssPlugin({
+      browsers: "last 2 versions, not dead, not < 0.5%, Firefox ESR",
+      minify: true
+    })
   ]
 };

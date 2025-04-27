@@ -11,6 +11,7 @@ import Image from "@11ty/eleventy-img";
 import postcss from "postcss";
 import * as Nunjucks from "nunjucks";
 import pluginRss from "@11ty/eleventy-plugin-rss";
+import { transform } from "lightningcss";
 
 
 const isProdBuild = process.env.ELEVENTY_ENV === "production";
@@ -138,6 +139,30 @@ export default function (eleventyConfig) {
     return crumbs;
   });
 
+
+
+  /* -------------- Оптимизация встроенных стилей (в HTML) -------------- */
+  eleventyConfig.addTransform("optimizeInlineStyles", (content, outputPath) => {
+    if (outputPath && outputPath.endsWith(".html")) {
+     
+      return content.replace(/<style>([\s\S]*?)<\/style>/g, (match, cssContent) => {
+        try {
+          // Оптимизируем CSS внутри style блоков
+          const { code } = transform({
+            code: Buffer.from(cssContent),
+            minify: true
+          });
+          return `<style>${code}</style>`;
+        } catch (error) {
+          console.warn("Ошибка при оптимизации встроенных стилей:", error);
+          return match; 
+        }
+      });
+    }
+    return content;
+  });
+
+
   /* ------------ Collections ------------ */
   eleventyConfig.addCollection("navigationItems", (api) =>
     api.getAllSorted().filter((i) => i.data?.eleventyNavigation?.key)
@@ -240,8 +265,8 @@ eleventyConfig.addExtension("js", {
     "src/robots.txt","src/site.webmanifest","src/browserconfig.xml",
     "src/favicon.ico","src/apple-touch-icon.png","src/favicon-32x32.png",
     "src/favicon-16x16.png","src/favicon-192x192.png", "src/android-chrome-192x192.png",
-    "src/safari-pinned-tab.svg","src/mstile-150x150.png", "scr/48c3b517-7a37-497c-aa5e-76363bef87b1.txt",
-    "src/maskable_icon.png","src/maskable_icon_x512.png", "scr/ew7d7qc6dkbqq2ybv7erfmu21vd135du.txt",
+    "src/safari-pinned-tab.svg","src/mstile-150x150.png", "src/48c3b517-7a37-497c-aa5e-76363bef87b1.txt",
+    "src/maskable_icon.png","src/maskable_icon_x512.png", "src/ew7d7qc6dkbqq2ybv7erfmu21vd135du.txt",
     "src/_redirects","src/_headers","src/netlify.toml","src/CNAME", "src/service-workers.js",
   ].forEach((p) => eleventyConfig.addPassthroughCopy(p));
 

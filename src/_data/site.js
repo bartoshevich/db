@@ -7,7 +7,7 @@ export default {
     // --- Глобальные схемы Schema.org ---
     schemaOrg: {
       organization: {
-        "@context": "https://schema.org",
+        
         "@id": "https://bartoshevich.by/#service",
         "@type": "ProfessionalService",
         "name": "Консультант по маркетингу и стратегии (ИП Бартошевич Дмитрий)",
@@ -106,7 +106,7 @@ export default {
         }
       },
       person: {
-        "@context": "https://schema.org",
+       
         "@id": "https://bartoshevich.by/about/#person",
         "@type": "Person",
         "name": "Дмитрий Бартошевич",
@@ -133,7 +133,7 @@ export default {
         ]
       },
       webSite: {
-        "@context": "https://schema.org",
+       
         "@id": "https://bartoshevich.by/#website",
         "@type": "WebSite",
         "url": "https://bartoshevich.by/",
@@ -146,7 +146,7 @@ export default {
         "mainEntity": { "@id": "https://bartoshevich.by/#service" }
       },
       specialAnnouncement: {
-        "@context": "https://schema.org",
+        
         "@type": "SpecialAnnouncement",
         "name": "Прохождение оценки Европейским банком реконструкции и развития",
         "datePosted": "2019-04-22T08:00",

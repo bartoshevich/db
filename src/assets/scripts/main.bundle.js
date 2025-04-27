@@ -257,7 +257,10 @@
     document.firstElementChild.setAttribute("data-theme", theme.value);
     const themeToggle = document.querySelector("#theme-toggle");
     if (themeToggle) {
-      themeToggle.setAttribute("aria-label", theme.value);
+      themeToggle.setAttribute(
+        "aria-label",
+        theme.value === "dark" ? "\u041F\u0435\u0440\u0435\u043A\u043B\u044E\u0447\u0438\u0442\u044C \u043D\u0430 \u0441\u0432\u0435\u0442\u043B\u0443\u044E \u0442\u0435\u043C\u0443" : "\u041F\u0435\u0440\u0435\u043A\u043B\u044E\u0447\u0438\u0442\u044C \u043D\u0430 \u0442\u0451\u043C\u043D\u0443\u044E \u0442\u0435\u043C\u0443"
+      );
     }
   };
   reflectPreference();

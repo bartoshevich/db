@@ -75,8 +75,7 @@
     <div class="menu__header" id="menu__list">
 
       {# --- Основное меню --- #}
-      <nav class="menu__header__item">
-        <h2 class="element--hidden">{{ navData.ariaLabels.mainMenu }}</h2>
+      <nav class="menu__header__item" aria-label="{{ navData.ariaLabels.mainMenu }}">
         <ul class="header__item--bleed item__content nav__group">
           {% for item in navData.mainNav %}
           <li class="nav__li">
@@ -93,16 +92,16 @@
 
 
       {# --- Меню Услуг --- #}
-      <nav class="menu__header__item">
+      <nav class="menu__header__item" aria-label="Услуги">
         {% set servicesParent = navData.services.parent %}
-        <h2 class="bold block__title item__title">
+        <div class="bold block__title item__title">
           {# Простая проверка: текущая страница или нет #}
           {% if servicesParent.url == currentPageUrl %}
           <span class=" text-color nav__li--selected" aria-current="page">{{ servicesParent.text }}</span>
           {% else %}
           <a class="nav-link text-color" href="{{ servicesParent.url | url }}">{{ servicesParent.text }}</a>
           {% endif %}
-        </h2>
+        </div>
         <ul class="nav__group item__content">
           {% for item in navData.services.list %}
           <li class="nav__li">
@@ -118,8 +117,8 @@
       </nav>
 
       {# --- Подписка --- #}
-      <section class="menu__header__item">
-        <h2 class="block__title item__title bold">{{ navData.subscription.title }}</h2>
+      <nav class="menu__header__item" aria-labelledby="subscription-heading">
+        <p id="subscription-heading" class="block__title item__title bold">{{ navData.subscription.title }}</p>
         <ul class="nav__group item__content">
           {% for item in navData.subscription.list %}
           <li class="nav__li">
@@ -130,7 +129,7 @@
           </li>
           {% endfor %}
         </ul>
-      </section>
+      </nav>
 
     </div>
   </div>

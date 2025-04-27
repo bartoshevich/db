@@ -26,7 +26,10 @@ const reflectPreference = () => {
   document.firstElementChild.setAttribute("data-theme", theme.value);
   const themeToggle = document.querySelector("#theme-toggle");
   if (themeToggle) {
-    themeToggle.setAttribute("aria-label", theme.value);
+    themeToggle.setAttribute(
+      "aria-label",
+      theme.value === "dark" ? "Переключить на светлую тему" : "Переключить на тёмную тему"
+    );
   }
 };
 
