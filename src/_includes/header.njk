@@ -7,7 +7,15 @@
   <div class="menu--flex">
 
     <div class="logoside">
-      <div class="navbar-logo"></div>
+      {% if currentPageUrl == "/" %}
+      <div class="navbar-logo">
+       {% include "logo.njk" %}
+      </div>
+    {% else %}
+      <a href="/" class="navbar-logo" aria-label="На главную">
+        {% include "logo.njk" %}
+      </a>
+    {% endif %}
 
       {% set navKey = eleventyNavigation.key %}
 
@@ -64,8 +72,8 @@
     <button class="menu__button" type="button" aria-expanded="false" aria-controls="menu__list"
       aria-label="открыть меню">
       <svg class="menu__icon" aria-hidden="true" width="30" height="36">
-        <use class="menu__icon-menu" href="/assets/images/sprite.svg#menu"></use>
-        <use class="menu__icon-cross" href="/assets/images/sprite.svg#cross"></use>
+        <use class="menu__icon-menu" href="/assets/images/sprite.svg?v={{ buildVersion }}#menu"></use>
+        <use class="menu__icon-cross" href="/assets/images/sprite.svg?v={{ buildVersion }}#cross"></use>
       </svg>
     </button>
   </div>

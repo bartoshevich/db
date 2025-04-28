@@ -14,11 +14,18 @@ import pluginRss from "@11ty/eleventy-plugin-rss";
 import { transform } from "lightningcss";
 
 
+
 const isProdBuild = process.env.ELEVENTY_ENV === "production";
 const isProduction = process.env.NODE_ENV === "production";
 
 
 export default function (eleventyConfig) {
+
+  const buildVersion = DateTime.now().toFormat("yyyyMMddHHmmss");
+  eleventyConfig.addGlobalData("buildVersion", buildVersion);
+
+
+
   /* ---------------- Paths ---------------- */
   const inputDir = "src";
   const includesDir = "_includes";

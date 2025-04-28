@@ -1,0 +1,95 @@
+@use "./variables" as v;
+
+.related-ideas {
+  margin-top: var(--space-3xl);
+  position: relative;
+  padding-left: var(--space-xs);
+}
+
+.related-ideas::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width:9px;
+  border-left: 2px dotted v.$link;
+  border-right: 2px dotted v.$link;
+  opacity: 0.9;
+}
+
+.related-ideas__title {
+  font-size: var(--font-size-0);
+  margin-bottom: 1.1em;
+  padding-inline-start: 15px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.related-ideas__list {
+  columns: 2 300px;
+  column-gap: 44px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+
+  @media (max-width: 768px) {
+    columns: 1;
+  }
+}
+
+.related-ideas__item {
+  position: relative;
+  margin-bottom: 16px;
+  break-inside: avoid;
+  display: grid;
+  grid-template-columns: 40px 1fr;
+  height: 100%;
+
+  &:hover .simbol-right {
+    transform: translateX(4px);
+  }
+}
+
+.related-ideas__link {
+  display: inline;
+  text-decoration: none;
+  transition: color 0.3s ease;
+  position: relative;
+  padding: 4px 6px;
+  overflow: hidden;
+  
+
+  &::after {
+    content: "\00A0→";
+    display: inline-block;
+    transition: transform 0.2s ease;
+    transform: translateY(-1px);
+    white-space: nowrap;
+  }
+
+  &:hover {
+    color: var(--link-hover);
+    text-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+
+    &::after {
+      transform: translate(5px, -1px);
+    }
+  }
+}
+
+.related-ideas__icon {
+  width: 20px;
+  height: 20px;
+  fill: var(--gray);
+  flex-shrink: 0;
+  transition: fill 0.3s ease, transform 0.3s ease;
+  align-self: center;
+  justify-self: center;
+}
+
+.related-ideas__item:hover .related-ideas__icon {
+  fill: var(--link-hover);
+  transform: scale(1.6);
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
+}

@@ -35,7 +35,7 @@
             '/about/',
             '/offline/',
             '/assets/scripts/main.bundle.js',        
-            '/assets/css/style.css',
+           
            
             '/assets/fonts/pt-sans-v12-latin_cyrillic/pt-sans-v12-latin_cyrillic-regular.woff2',
             '/assets/fonts/pt-sans-v12-latin_cyrillic/pt-sans-v12-latin_cyrillic-700.woff2',

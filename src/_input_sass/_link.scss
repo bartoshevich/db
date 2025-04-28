@@ -14,7 +14,7 @@
   &:hover {
     color: v.$link-hover;
     box-shadow: inset 0 -2px 0 0 v.$link;
-    background-color: v.$link-opacity-05;
+    background-color: v.$link-bg;
   }
 
   &:focus-visible {

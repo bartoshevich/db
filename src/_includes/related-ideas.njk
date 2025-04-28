@@ -1,0 +1,17 @@
+{% if relatedIdeas %}
+<section class="full-bleed related-ideas mb-m">
+  <h2 class="related-ideas__title">идеи для развития</h2>
+  <ul class="related-ideas__list">
+    {% for idea in relatedIdeas %}
+    <li class="related-ideas__item">
+      <svg class="related-ideas__icon" role="presentation" aria-hidden="true">
+        <use xlink:href="/assets/images/sprite.svg?v={{ buildVersion }}#trekking_icon"></use>
+      </svg>
+      <a href="{{ idea.url }}" class="related-ideas__link link-as-text">
+        {{ idea.title }}
+      </a>
+    </li>
+    {% endfor %}
+  </ul>
+</section>
+{% endif %}

@@ -11,6 +11,7 @@
       {% block main_content %}
         {% include "post__header.njk" %}
         {{ content | safe }}
+        {% include "related-ideas.njk" %}
         {% include "subscription.njk" %}
       {% endblock %}
     </main>

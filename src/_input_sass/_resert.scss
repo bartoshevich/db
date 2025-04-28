@@ -51,7 +51,7 @@ html {
   --link-opacity-05: rgba(0, 0, 0, 0.05);
   --link-hover: #000;
   --link-active: #1d1d1f;
-  --link-bg: #f5f5f5;
+  --link-bg: #eaeaea;
   --link-focus-outline: rgba(0, 0, 0, 0.3);
 
   /* Эффекты и состояния (светлая тема) */
@@ -90,7 +90,7 @@ html[data-theme="dark"] {
   --link-opacity-05: rgba(245, 245, 247, 0.1);
   --link-hover: #ffffff;
   --link-active: #c4c4ca;
-  --link-bg: rgba(245, 245, 247, 0.05);
+  --link-bg: #2c2c2e;
   --link-focus-outline: rgba(255, 255, 255, 0.4);
 
   /* Эффекты и состояния (темная тема) */
