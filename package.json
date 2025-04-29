@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "type": "module",
-  "scripts": {
+  "scripts": {   
     "debug:autoprefixer": "npx postcss src/assets/css/test.css --use autoprefixer -o src/assets/css/test.out.css",
     "eleventy": "eleventy",
     "build:css": "npx sass src/_input_sass/style.scss src/assets/css/style.css --no-source-map --style=compressed",
@@ -11,9 +11,9 @@
     "watch:css": "npx sass --watch src/_input_sass/style.scss:src/assets/css/style.css",
     "build:js": "npx esbuild src/assets/scripts/main.js --bundle --minify --sourcemap --outfile=src/assets/scripts/main.bundle.js",
     "watch:js": "npx esbuild src/assets/scripts/main.js --bundle --watch --outfile=src/assets/scripts/main.bundle.js",
-    "serve": "eleventy --serve",
+    "serve": "eleventy --serve",  
     "start": "cross-env NODE_ENV=development npm-run-all -p watch:css watch:js serve",
-    "build": "npm run build:css && npm run process:css && npm run build:js && cross-env ELEVENTY_ENV=production eleventy"
+    "build": " npm run build:css && npm run process:css && npm run build:js && cross-env ELEVENTY_ENV=production eleventy"
   },
   "keywords": [],
   "author": "",
@@ -30,6 +30,7 @@
     "autoprefixer": "^10.4.21",
     "cross-env": "^7.0.3",
     "esbuild": "^0.25.3",
+    "fs-extra": "^11.3.0",
     "html-minifier-terser": "^7.2.0",
     "lightningcss": "^1.29.3",
     "luxon": "^3.6.1",
@@ -38,6 +39,7 @@
     "postcss-cli": "^11.0.1",
     "postcss-lightningcss": "^1.0.1",
     "sass": "^1.86.3",
+    "svgo": "^3.3.2",
     "terser": "^5.39.0"
   }
 }

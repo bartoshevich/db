@@ -97,14 +97,52 @@
 
 
 
-<nav class="social" aria-labelledby="footer-social">
-    <h3 id="footer-social" class="element--hidden">Социальные сети</h3>
-    <ul class="list-reset">
-        <li class="inline-block social__item"> <a class="link" href="https://www.facebook.com/bartoshevichby/" target="_blank" rel="noopener"  title="откроется в новой вкладке" aria-label="фейсбук"> фейсбук</a> </li> 
-        <li class="inline-block social__item"> <a class="link" href="https://www.linkedin.com/in/bartoshevich" target="_blank" rel="me noopener" title="откроется в новой вкладке" aria-label="линкедин"> линкедин</a> </li> 
-        <li class="inline-block social__item"> <a class="link" href="https://twitter.com/dbartoshevich" target="_blank" rel="me noopener"  title="откроется в новой вкладке" aria-label="твиттер">х (твиттер)</a></li> 
-        <li class="inline-block social__item"> <a class="link" href="https://mastodon.social/@bartoshevich" target="_blank" rel="me noopener" title="откроется в новой вкладке" aria-label="мастодон">мастодон</a></li> 
-        <li class="inline-block"> <a class="link" href="https://t.me/+OuzxNOZg-g44ZjYy" target="_blank" rel="me noopener"  title="откроется в новой вкладке" aria-label="телеграм">телеграм</a></li> 
+<nav class="footer-social" aria-labelledby="footer-social-title">
+    <h3 id="footer-social-title" class="element--hidden">Социальные сети</h3>
+    <ul class="footer-social__list">
+        <li class="footer-social__item footer-social__item--facebook">
+
+            <a class="footer-social__link" href="https://www.facebook.com/bartoshevichby/" target="_blank"
+                rel="noopener" aria-label="фейсбук">
+                <svg class="footer-social__icon" role="presentation" aria-hidden="true">
+                    <use href="/assets/images/sprite.svg?v={{ buildVersion }}#facebook_icon"></use>
+                </svg>
+            </a>
+        </li>
+
+        <li class="footer-social__item footer-social__item--linkedin">
+            <a class="footer-social__link" href="https://www.linkedin.com/in/bartoshevich" target="_blank"
+                rel="noopener me" aria-label="линкедин">
+                <svg class="footer-social__icon" role="presentation" aria-hidden="true">
+                    <use href="/assets/images/sprite.svg?v={{ buildVersion }}#linkedin_icon"></use>
+                </svg>
+            </a>
+        </li>
+
+        
+        <li class="footer-social__item footer-social__item--mastodon">
+            <a class="footer-social__link" href="https://mastodon.social/@bartoshevich" target="_blank"
+                rel="noopener me" aria-label="Мастодон">
+                <svg class="footer-social__icon" role="presentation" aria-hidden="true">
+                    <use href="/assets/images/sprite.svg?v={{ buildVersion }}#mastodon_icon"></use>
+                </svg>
+            </a>
+        </li>
+        <li class="footer-social__item footer-social__item--telegram">
+            <a class="footer-social__link" href="https://t.me/+OuzxNOZg-g44ZjYy" target="_blank" rel="noopener"
+                aria-label="телеграм">
+                <svg class="footer-social__icon" role="presentation" aria-hidden="true">
+                    <use href="/assets/images/sprite.svg?v={{ buildVersion }}#telegram"></use>
+                </svg>
+            </a>
+        </li>
+        <li class="footer-social__item footer-social__item--rss">
+            <a class="footer-social__link" href="/feed.xml" aria-label="RSS">
+                <svg class="footer-social__icon" role="presentation" aria-hidden="true">
+                    <use href="/assets/images/sprite.svg?v={{ buildVersion }}#rss_icon"></use>
+                </svg>
+            </a>
+        </li>
     </ul>
 </nav>
 

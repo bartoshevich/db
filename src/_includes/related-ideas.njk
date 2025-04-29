@@ -5,7 +5,7 @@
     {% for idea in relatedIdeas %}
     <li class="related-ideas__item">
       <svg class="related-ideas__icon" role="presentation" aria-hidden="true">
-        <use xlink:href="/assets/images/sprite.svg?v={{ buildVersion }}#trekking_icon"></use>
+        <use href="/assets/images/sprite.svg?v={{ buildVersion }}#trekking_icon"></use>
       </svg>
       <a href="{{ idea.url }}" class="related-ideas__link link-as-text">
         {{ idea.title }}
