@@ -90,6 +90,10 @@
 {% endif %}
 {# --- КОНЕЦ: Добавляем схему Blog только на странице блога --- #}
 
+
+
+
+
 {# --- НАЧАЛО: Добавляем BlogPosting для всех статей на странице блога --- #}
 {% if page.url == '/blog/' and collections.post | length > 0 %}
   {% set blogPostingSchemas = [] %}
@@ -136,7 +140,96 @@
     {% set dummy = schemaParts.push(postSchema) %}
   {% endfor %}
 {% endif %}
+
+
+ 
 {# --- КОНЕЦ: Добавляем BlogPosting для всех статей на странице блога --- #}
+
+
+
+
+
+{# --- НАЧАЛО: Добавляем Subscription схему --- #}
+{% set subscriptionSchema = {
+  "@type": "Service",
+  "@id": "https://bartoshevich.by/#subscription",
+  "serviceType": "Subscription",
+  "name": "Подписка на обновления блога",
+  "description": "Анонсы новых статей и эксклюзивный контент по маркетингу и стратегии",
+  "provider": {"@id": "https://bartoshevich.by/about/#person"},
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "BYN",
+    "availability": "https://schema.org/InStock"
+  },
+  "potentialAction": [
+    {
+      "@type": "SubscribeAction",
+      "target": {
+        "@type": "EntryPoint",
+        "urlTemplate": "https://eepurl.com/cmkKcz",
+        "inLanguage": "ru-BY",
+        "actionPlatform": ["https://schema.org/DesktopWebPlatform"]
+      },
+      "result": {
+        "@type": "Thing",
+        "name": "Подписка на email-рассылку"
+      }
+    },
+    {
+      "@type": "SubscribeAction",
+      "target": {
+        "@type": "EntryPoint",
+        "urlTemplate": "https://t.me/+OuzxNOZg-g44ZjYy",
+        "inLanguage": "ru-BY",
+        "actionPlatform": ["https://schema.org/DesktopWebPlatform"]
+      },
+      "result": {
+        "@type": "Thing",
+        "name": "Подписка на Telegram-канал"
+      }
+    },
+    {
+      "@type": "SubscribeAction",
+      "target": {
+        "@type": "EntryPoint",
+        "urlTemplate": "https://bartoshevich.by/feed.xml",
+        "actionPlatform": ["https://schema.org/DesktopWebPlatform"]
+      },
+      "result": {
+        "@type": "DataFeed",
+        "encodingFormat": "application/rss+xml",
+        "name": "RSS-канал блога",
+        "description": "Блог Дмитрия Бартошевича о маркетинге и стратегии — RSS"
+      }
+    },
+    {
+      "@type": "SubscribeAction",
+      "target": {
+        "@type": "EntryPoint",
+        "urlTemplate": "https://bartoshevich.by/feed.json",
+        "actionPlatform": ["https://schema.org/DesktopWebPlatform"]
+      },
+      "result": {
+        "@type": "DataFeed",
+        "encodingFormat": "application/feed+json",
+        "name": "JSON Feed блога",
+        "description": "Блог Дмитрия Бартошевича о маркетинге и стратегии — JSON Feed"
+      }
+    }
+  ]
+} %}
+
+{# Добавляем подписку в массив схем #}
+{% set dummy = schemaParts.push(subscriptionSchema) %}
+{# --- КОНЕЦ: Добавляем Subscription схему --- #}
+
+
+
+
+
+
 
 {# --- НАЧАЛО: Добавляем BlogPosting для отдельной страницы поста --- #}
 {% if page
