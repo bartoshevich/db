@@ -130,8 +130,11 @@
         <ul class="nav__group item__content">
           {% for item in navData.subscription.list %}
           <li class="nav__li">
-            <a class="nav-link" href="{{ item.url }}" {% if item.ariaLabel %} aria-label="{{ item.ariaLabel }}" {% endif
-              %} target="_blank" rel="noopener noreferrer">
+            <a class="nav-link" href="{{ item.url }}" 
+              {% if item.ariaLabel %} aria-label="{{ item.ariaLabel }}" {% endif %}
+              {% if item.type %} type="{{ item.type }}" {% endif %}
+              {% if item.title %} title="{{ item.title }}" {% endif %}
+              {% if item.external %} target="_blank" rel="noopener noreferrer" {% endif %}>
               {{ item.text }}
             </a>
           </li>

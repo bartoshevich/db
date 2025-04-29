@@ -32,15 +32,35 @@
   "blog": { 
     "parent": { "text": "Блог", "url": "/blog/", "key": "blog" }    
   },
-  "subscription": {
+ "subscription": {
     "title": "Подписка",
     "list": [
       {
         "text": "Telegram",
         "url": "https://t.me/+OuzxNOZg-g44ZjYy",
-        "ariaLabel": "Присоединиться к каналу в Telegram"
+        "ariaLabel": "Присоединиться к каналу в Telegram",
+        "title": "Присоединиться к каналу в Telegram. Здесь не только анонсы, но и материал, который не попадает на сайт.",
+        "external": true
       },
-      { "text": "Электронная почта", "url": "https://eepurl.com/cmkKcz" }
+      { 
+        "text": "Электронная почта", 
+        "url": "https://eepurl.com/cmkKcz", 
+        "title": "Подписаться на email-рассылку с анонсами новых материалов (не чаще раза в месяц)",
+        "external": true 
+      },
+      { 
+        "text": "JSON Feed", 
+        "url": "/feed.json", 
+        "type": "application/feed+json",
+        "title": "Современный формат подписки. Поддерживается многими RSS-ридерами, например, Feedly." 
+      },
+      { 
+        "text": "RSS", 
+        "url": "/feed.xml", 
+        "type": "application/rss+xml",
+        "title": "Следить за обновлениями блога через RSS-ридер"
+        
+      }
     ]
   },
   "ariaLabels": {
