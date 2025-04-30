@@ -2556,6 +2556,13 @@ td > p:not(:first-child) {
   transition: fill 0.3s ease;
   color: currentColor;
 }
+.footer-social__link:focus-visible {
+  outline: 2px solid var(--link);
+  outline-offset: 2px;
+  box-shadow: none;
+  text-decoration: none;
+  border-radius: 2px;
+}
 @media (max-width: 640px) {
   .footer-social__link {
     padding: 8px;
