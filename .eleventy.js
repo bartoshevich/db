@@ -95,6 +95,12 @@ export default function (eleventyConfig) {
 
   /* -------------- Filters --------------- */
 
+  eleventyConfig.addFilter("readingTime", function(text) {
+    const wordsPerMinute = 190;
+    const words = text.trim().split(/\s+/).length;
+    const minutes = Math.ceil(words / wordsPerMinute);
+    return minutes;
+  });
   eleventyConfig.addLiquidFilter("dateToRfc3339", pluginRss.dateToRfc3339);
 	eleventyConfig.addLiquidFilter("dateToRfc822", pluginRss.dateToRfc822);
 

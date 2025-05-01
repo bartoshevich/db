@@ -44,7 +44,6 @@
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  transition: transform 0.3s ease; 
   margin-right: .6em;
 }
 
@@ -80,10 +79,14 @@
 .footer-social__icon {
   width: 28px;
   height: 28px;
-  fill: #747474;
+  fill: #8E8E93;
+  transition: transform 0.2s ease, opacity 0.2s ease;
+  opacity: 0.7;
+
 
   &:hover {
     transform: scale(1.1);
+    opacity: 1;
   }
 
   @media (max-width: 640px) {
@@ -95,7 +98,7 @@
 
 
 .footer-social__item--rss .footer-social__icon circle {
-  fill: #747474;
+  fill: #8E8E93;
 }
 
 
