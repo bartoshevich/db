@@ -11,7 +11,7 @@
   Cross-Origin-Opener-Policy: same-origin
   Cross-Origin-Embedder-Policy: unsafe-none
   X-Frame-Options: SAMEORIGIN
-  Content-Security-Policy:  default-src 'self';     base-uri 'self';      font-src 'self';    worker-src 'self';    object-src 'none';    manifest-src 'self';     form-action 'self';    img-src 'self' res.cloudinary.com i.ytimg.com *.simpleanalytics.com *.simpleanalyticscdn.com static.probusiness.io data:;    connect-src 'self' res.cloudinary.com i.ytimg.com *.simpleanalytics.com *.simpleanalyticscdn.com;    upgrade-insecure-requests;    style-src 'self';    script-src 'self' *.simpleanalytics.com *.simpleanalyticscdn.com;    frame-ancestors 'self';    frame-src www.youtube-nocookie.com www.youtube.com embed.ted.com youtu.be;    media-src www.youtube-nocookie.com www.youtube.com embed.ted.com youtu.be; 
+  Content-Security-Policy:  default-src 'self';     base-uri 'self';      font-src 'self';    worker-src 'self';    object-src 'none';    manifest-src 'self';     form-action 'self';    img-src 'self' res.cloudinary.com i.ytimg.com *.simpleanalytics.com *.simpleanalyticscdn.com static.probusiness.io data:;    connect-src 'self' res.cloudinary.com i.ytimg.com *.simpleanalytics.com *.simpleanalyticscdn.com;    upgrade-insecure-requests;    style-src 'self';    script-src 'self' *.simpleanalytics.com *.simpleanalyticscdn.com;    frame-ancestors 'self';    frame-src www.youtube-nocookie.com www.youtube.com embed.ted.com youtu.be;    media-src 'self' www.youtube-nocookie.com www.youtube.com embed.ted.com youtu.be; 
   Cache-Control: public, max-age=3600
 
 /assets/images/*
@@ -24,6 +24,9 @@
     Cache-Control: max-age=31536000, public, immutable
 
 /assets/media/*
+    Cache-Control: max-age=31536000, public, immutable
+
+/assets/css/*
     Cache-Control: max-age=31536000, public, immutable
 
 
