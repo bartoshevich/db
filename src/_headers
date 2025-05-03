@@ -11,8 +11,7 @@
   Cross-Origin-Opener-Policy: same-origin
   Cross-Origin-Embedder-Policy: unsafe-none
   X-Frame-Options: SAMEORIGIN
-  Content-Security-Policy:
-    default-src 'self';
+  Content-Security-Policy:  default-src 'self';
     base-uri 'self';
     font-src 'self';
     worker-src 'self';
