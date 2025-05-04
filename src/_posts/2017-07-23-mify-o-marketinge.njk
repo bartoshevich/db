@@ -67,11 +67,11 @@ eleventyNavigation:
 
  <div   itemscope itemtype="https://schema.org/ImageObject">	
 		<link itemprop="url" href="/assets/images/blog/misconceptions/vainer.jpg">
-    <picture>
-                    <source srcset="/assets/images/blog/misconceptions/vainer.avif" type="image/avif">
-                    <source srcset="/assets/images/blog/misconceptions/vainer.webp" type="image/webp">  
-                    <img class="image" loading="lazy" decoding="async" src="/assets/images/blog/misconceptions/vainer.jpg" alt="По мнению Гарри Вайнерчука, реклама, которая крадет время людей и впаривает им то, что они не хотят, в будущем исчезнет."  width="1500" height="844" itemprop="contentUrl">
-    </picture>
+
+    {% image "src/assets/images/blog/misconceptions/vainer.jpg", "По мнению Гарри Вайнерчука, реклама, которая крадет время людей и впаривает им то, что они не хотят, в будущем исчезнет.", "(min-width: 1140px) 707px, (min-width: 700px) 64.52vw, (min-width: 460px) calc(10.45vw + 352px), calc(94.29vw - 15px)", [420, 706, 984, 1412, 1412, 1500], ["avif", "webp", "jpeg"], "image full-bleed" %}
+
+		<meta itemprop="contentUrl" content="/assets/images/blog/misconceptions/vainer.jpg">
+
 </div>
 
 

@@ -1432,8 +1432,12 @@ html[data-theme=dark] .cards .card.service:hover {
   font-size: 0;
 }
 
-.is-rounded {
-  border-radius: 290486px;
+.border--gray {
+  border: 1px solid var(--gray);
+}
+
+.width--full {
+  width: 100%;
 }
 
 .is-square,
