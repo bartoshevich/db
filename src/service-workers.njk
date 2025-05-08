@@ -1,9 +1,16 @@
+---
+permalink: /service-worker.js
+eleventyExcludeFromCollections: true
+---
+
+
+
 'use strict';
 
 (function () {
   // Конфигурация Service Worker
   const CONFIG = {
-    // Версия SW. Изменяйте при каждом деплое, чтобы вызвать обновление SW
+    // Версия SW. 
     version: '{{ swVersion }}::',
     debug: false, // Включите для подробных логов в консоли SW
     caches: {
