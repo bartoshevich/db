@@ -1,10 +1,3 @@
----
-permalink: /service-workers.js
-eleventyExcludeFromCollections: true
----
-
-
-
 'use strict';
 
 (function () {
@@ -22,7 +15,7 @@ eleventyExcludeFromCollections: true
     limits: { // Лимиты кеша (сколько последних элементов хранить)
       pages: 35,
       images: 100, // Увеличил для изображений
-      media: 20
+      media: 50    // Увеличено с 20 до 50 для медиафайлов
     },
     externalDomains: { // Настройки для внешних доменов
       allowedOrigins: ['res.cloudinary.com'], // Cloudinary
@@ -119,8 +112,13 @@ eleventyExcludeFromCollections: true
           }
           return 'images'; // Остальные изображения (eleventy-img, старые нехешированные etc) идут в images
       }
-       // Проверяем медиа
-      else if (request.destination === 'audio' || request.destination === 'video' || /\.(mp3|mp4|webm|ogg)$/i.test(url.pathname)) {
+       // Проверяем медиа более тщательно
+      else if (
+        request.destination === 'audio' || 
+        request.destination === 'video' || 
+        /\.(mp3|mp4|webm|ogg|wav|m4a|aac)$/i.test(url.pathname) ||
+        (acceptHeader && (acceptHeader.includes('audio') || acceptHeader.includes('video')))
+      ) {
         return 'media';
       }
        // Остальное считаем статикой (CSS, JS, шрифты, др. файлы из AssetProcessor)
@@ -128,7 +126,6 @@ eleventyExcludeFromCollections: true
        else if (request.destination === 'script' || request.destination === 'style' || request.destination === 'font' || /\.[a-f0-9]{8}\.(js|css|woff2?|ttf|otf|eot)$/i.test(url.pathname)) {
            return 'static';
        }
-
 
       // Для всего остального, что не попало в категории
       return 'static';
@@ -142,6 +139,21 @@ eleventyExcludeFromCollections: true
           headers: {
             'Content-Type': 'image/svg+xml',
             'Cache-Control': 'no-store' // Не кешируем саму заглушку в браузерном кеше
+          }
+        }
+      );
+    },
+
+    // Заглушка для медиа файлов
+    createMediaFallback() {
+      return new Response(
+        'Медиафайл недоступен в режиме офлайн',
+        {
+          status: 503,
+          statusText: 'Media resource unavailable offline',
+          headers: { 
+            'Content-Type': 'text/plain; charset=UTF-8',
+            'Cache-Control': 'no-store'
           }
         }
       );
@@ -451,17 +463,44 @@ eleventyExcludeFromCollections: true
       }
 
       // Если нет ни в кеше, ни в сети, возвращаем запасной вариант
-       Utils.log('warn', `SWR: Нет в кеше и нет в сети для ${request.url}. Отдаем запасной вариант.`);
+      Utils.log('warn', `SWR: Нет в кеше и нет в сети для ${request.url}. Отдаем запасной вариант.`);
       if (cacheType === 'images') {
         return Utils.createImageFallback();
+      } else if (cacheType === 'media') {
+        // Создаем запасной ответ для медиафайлов
+        return Utils.createMediaFallback();
       }
 
       // Для других типов ресурсов при отсутствии кеша и сети
       return new Response('Ресурс недоступен офлайн', {
         status: 503, // Service Unavailable
         statusText: 'Resource unavailable offline',
-        headers: { 'Content-Type': 'text/plain' }
+        headers: { 'Content-Type': 'text/plain; charset=UTF-8' }
       });
+    },
+
+    // Специальная стратегия для медиафайлов
+    async mediaStrategy(request, cacheType) {
+      Utils.log('debug', `Стратегия Media Strategy для: ${request.url}`);
+      
+      // Специальная обработка для Range-запросов
+      if (request.headers.has('range')) {
+        Utils.log('info', `Media Strategy: Range request для ${request.url}`);
+        try {
+          // Для Range-запросов идем сразу в сеть
+          const response = await fetch(request);
+          return response;
+        } catch (error) {
+          Utils.log('error', `Media Range: Сеть недоступна для ${request.url}`, error);
+          return new Response('Не удалось загрузить медиафайл в оффлайн режиме', {
+            status: 503,
+            headers: { 'Content-Type': 'text/plain; charset=UTF-8' }
+          });
+        }
+      }
+      
+      // Для обычных запросов используем SWR, но с осторожной обработкой ошибок
+      return this.staleWhileRevalidate(request, cacheType);
     },
 
     // Специальная стратегия для Cloudinary (модифицированная SWR)
@@ -714,8 +753,12 @@ eleventyExcludeFromCollections: true
       // Для суб-ресурсов на странице (которые тоже могут быть HTML, например, включения),
       // стратегия тоже Network First.
       event.respondWith(Strategies.networkFirst(request, cacheType));
+    } else if (cacheType === 'media') {
+      // Для медиафайлов используем специальную стратегию
+      // с поддержкой Range-запросов
+      event.respondWith(Strategies.mediaStrategy(request, cacheType));
     } else {
-      // Для статических ресурсов (CSS, JS, шрифты, SVG, ICO, media) и изображений (кроме Cloudinary)
+      // Для статических ресурсов (CSS, JS, шрифты, SVG, ICO) и изображений (кроме Cloudinary)
       // используем Stale While Revalidate.
       // Это хорошо подходит для ассетов с хешами, т.к. хешированный файл считается "неизменяемым".
       // SWR сначала проверит кеш (который может быть старой версии), отдаст его,
