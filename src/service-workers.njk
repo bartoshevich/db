@@ -1,0 +1,727 @@
+---
+permalink: /service-workers.js
+eleventyExcludeFromCollections: true
+---
+
+
+
+'use strict';
+
+(function () {
+  // Конфигурация Service Worker
+  const CONFIG = {
+    // Версия SW. Изменяйте при каждом деплое, чтобы вызвать обновление SW
+    version: '{{ swVersion }}::',
+    debug: false, // Включите для подробных логов в консоли SW
+    caches: {
+      static: 'static-resources', // Хешированные JS, CSS, шрифты, статика
+      pages: 'html-pages',      // HTML страницы
+      images: 'optimized-images', // Оптимизированные изображения (eleventy-img, Cloudinary)
+      media: 'media-files'      // Другие медиа (видео, аудио, если нужно)
+    },
+    limits: { // Лимиты кеша (сколько последних элементов хранить)
+      pages: 35,
+      images: 100, // Увеличил для изображений
+      media: 20
+    },
+    externalDomains: { // Настройки для внешних доменов
+      allowedOrigins: ['res.cloudinary.com'], // Cloudinary
+      cachingEnabled: true // Кешировать ли ресурсы с разрешенных внешних доменов
+    },
+    // Базовые пути страниц для предварительного кеширования (НЕ ДОБАВЛЯТЬ ХЕШИ СЮДА)
+    corePages: [
+      '/',
+      '/cases/',
+      '/blog/',
+      '/faq/',
+      '/contact/',
+      '/uslugi/',
+      '/uslugi/marketing-audit/',
+      '/uslugi/brand-conception/',
+      '/uslugi/razrabotka-reklamnyh-kampanij/',
+      '/uslugi/autsorsing-marketinga/',
+      '/about/',
+      '/offline/', 
+    ],
+    // Пути к критическим ассетам (НЕ ДОБАВЛЯТЬ ХЕШИ СЮДА)
+    // SW будет искать их хешированные версии в манифесте
+     criticalAssets: [
+       '/assets/css/style.css',
+       '/assets/scripts/main.bundle.js',
+       '/assets/scripts/critical--theme.js', // Если этот файл хешируется отдельно
+       '/assets/scripts/registerServiceWorker.js', // Если этот файл хешируется отдельно
+       // Добавьте сюда другие критичные скрипты, стили, шрифты, иконки
+       '/assets/fonts/pt-sans-v12-latin_cyrillic/pt-sans-v12-latin_cyrillic-regular.woff2',
+       '/assets/fonts/pt-sans-v12-latin_cyrillic/pt-sans-v12-latin_cyrillic-700.woff2',
+       '/assets/fonts/pt-sans-v12-latin_cyrillic/pt-sans-v12-latin_cyrillic-italic.woff2',
+        
+     ]
+  };
+
+  // Встраиваем манифест прямо в SW при сборке (только в production)
+  {% if eleventy.env.isProd and assetManifest %}
+  // Предварительно загруженный манифест ассетов из сборки
+  const initialAssetManifest = {
+    {% for key, value in assetManifest %}
+    "{{ key }}": "{{ value }}",
+    {% endfor %}
+  };
+  // Устанавливаем начальное значение
+  let assetManifest = initialAssetManifest;
+  {% else %}
+  // В режиме разработки начинаем с пустого манифеста
+  let assetManifest = null;
+  {% endif %}
+
+  const manifestUrl = '/asset-manifest.json';
+
+  // Служебные функции
+  const Utils = {
+    log(level, message, ...data) {
+      if (!CONFIG.debug && level === 'debug') return;
+
+      const styles = {
+        debug: 'color: #7f8c8d',
+        info: 'color: #3498db',
+        warn: 'color: #f39c12',
+        error: 'color: #e74c3c; font-weight: bold'
+      };
+
+      console[level](`%c[SW ${level.toUpperCase()}]`, styles[level], message, ...data);
+    },
+
+    getCacheName(type) {
+      return `${CONFIG.version}${CONFIG.caches[type]}`;
+    },
+
+    determineCacheType(request) {
+      const url = new URL(request.url);
+      const acceptHeader = request.headers.get('Accept') || '';
+
+      // Проверяем внешние домены (Cloudinary)
+      if (url.origin !== location.origin) {
+        if (CONFIG.externalDomains.allowedOrigins.includes(url.hostname)) {
+          return 'images'; // Внешние разрешенные изображения кешируем как images
+        }
+        return null; // Игнорируем другие внешние ресурсы
+      }
+
+      // Определяем тип по заголовкам, URL и destination
+       // Проверяем HTML
+      if (request.mode === 'navigate' || acceptHeader.includes('text/html')) {
+        return 'pages';
+      }
+      // Проверяем изображения (включая SVG спрайты)
+      else if (request.destination === 'image' || acceptHeader.includes('image') || /\.(jpe?g|png|gif|avif|svg|webp|ico)$/i.test(url.pathname)) {
+          // Если это хешированный SVG спрайт из AssetProcessor
+          if (/\.[a-f0-9]{8}\.svg$/i.test(url.pathname) && url.pathname.includes('/assets/images/')) {
+              return 'static'; // Хешированные статические SVG через AssetProcessor идут в static
+          }
+          return 'images'; // Остальные изображения (eleventy-img, старые нехешированные etc) идут в images
+      }
+       // Проверяем медиа
+      else if (request.destination === 'audio' || request.destination === 'video' || /\.(mp3|mp4|webm|ogg)$/i.test(url.pathname)) {
+        return 'media';
+      }
+       // Остальное считаем статикой (CSS, JS, шрифты, др. файлы из AssetProcessor)
+      // Проверка на хеш в имени может быть полезной, но destination 'script', 'style', 'font' тоже помогут
+       else if (request.destination === 'script' || request.destination === 'style' || request.destination === 'font' || /\.[a-f0-9]{8}\.(js|css|woff2?|ttf|otf|eot)$/i.test(url.pathname)) {
+           return 'static';
+       }
+
+
+      // Для всего остального, что не попало в категории
+      return 'static';
+    },
+
+    // Заглушка для изображений
+    createImageFallback() {
+      return new Response(
+        `<svg role="img" aria-labelledby="offline-title" viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg"><title id="offline-title">Offline</title><g fill="none" fill-rule="evenodd"><path fill="#D8D8D8" d="M0 0h400v300H0z"/><text fill="#9B9B9B" font-family="Helvetica Neue,Arial,Helvetica,sans-serif" font-size="72" font-weight="bold"><tspan x="93" y="172">offline</tspan></text></g></svg>`,
+        {
+          headers: {
+            'Content-Type': 'image/svg+xml',
+            'Cache-Control': 'no-store' // Не кешируем саму заглушку в браузерном кеше
+          }
+        }
+      );
+    },
+
+    // Загрузка манифеста ассетов
+    async loadAssetManifest() {
+      // Если уже загружен, возвращаем
+      if (assetManifest !== null) {
+        return assetManifest;
+      }
+
+      try {
+        Utils.log('info', `Загрузка манифеста ассетов с ${manifestUrl}...`);
+        const manifestResponse = await fetch(manifestUrl);
+        if (manifestResponse.ok) {
+          assetManifest = await manifestResponse.json();
+          Utils.log('info', 'Манифест ассетов успешно загружен'); //, assetManifest); // Не логировать весь манифест в проде
+          return assetManifest;
+        } else {
+          Utils.log('error', `Не удалось загрузить манифест ассетов: статус ${manifestResponse.status}`);
+          return {}; // Возвращаем пустой объект при ошибке
+        }
+      } catch (error) {
+        Utils.log('error', 'Ошибка при загрузке манифеста ассетов:', error);
+        return {}; // Возвращаем пустой объект при ошибке
+      }
+    },
+
+    // Получение хешированного пути из манифеста
+    async getHashedPath(originalPath) {
+      const manifest = await this.loadAssetManifest();
+      // Нормализуем путь для поиска (убираем query string/hash если есть)
+      const cleanPath = originalPath.split('?')[0].split('#')[0];
+      const normalizedPath = cleanPath.startsWith('/') ? cleanPath : '/' + cleanPath;
+
+      // Возвращаем хешированный путь или оригинальный, если не найдено
+      const hashedPath = manifest[normalizedPath];
+      if (!hashedPath) {
+        //Utils.log('debug', `Не найден хешированный путь в манифесте для: ${normalizedPath}`);
+        return originalPath; // Возвращаем оригинальный
+      }
+
+      // Возвращаем найденный хешированный путь, сохраняя оригинальные query string/hash
+      const url = new URL(originalPath, 'http://localhost'); // Используем URL для парсинга
+      url.pathname = hashedPath;
+      return url.pathname + url.search + url.hash;
+    },
+
+    // Получение списка ресурсов для предварительного кеширования (с хешированными именами)
+    async getUrlsToPrecache() {
+        const manifest = await this.loadAssetManifest();
+        const urlsToPrecache = [...CONFIG.corePages]; // Начинаем с базовых страниц
+
+        // Добавляем хешированные пути критических ассетов из манифеста
+        for (const originalPath of CONFIG.criticalAssets) {
+            const hashedPath = manifest[originalPath];
+            if (hashedPath) {
+                urlsToPrecache.push(hashedPath);
+                Utils.log('debug', `Добавлен в прекеш (манифест): ${originalPath} -> ${hashedPath}`);
+            } else {
+                 // Это предупреждение может сработать, если манифест загружен некорректно,
+                 // или если файл не был сгенерирован/хеширован в сборке.
+                 // В таком случае кешируем оригинальный путь (если он существует)
+                Utils.log('warn', `Не найден хешированный путь в манифесте для критического ассета: ${originalPath}. Кешируем оригинальный.`);
+                urlsToPrecache.push(originalPath); // Попробуем закешировать оригинальный
+            }
+        }
+
+        // Добавьте сюда манифест сам по себе, если он маленький и критичен
+        // urlsToPrecache.push(manifestUrl);
+
+        // Убедимся, что все пути уникальны и являются абсолютными (начинаются с /)
+        return [...new Set(urlsToPrecache)].filter(url => url.startsWith('/'));
+    }
+  };
+
+  // Управление кешем
+  const Cache = {
+    async open(type) {
+      return await caches.open(Utils.getCacheName(type));
+    },
+
+    async addAll(type, urls) {
+      try {
+        const cache = await this.open(type);
+        // cache.addAll может упасть, если хоть один ресурс не загрузится.
+        // Более надежный подход - кешировать каждый ресурс отдельно.
+        Utils.log('info', `Попытка кеширования ${urls.length} ресурсов типа ${type}...`);
+        const addPromises = urls.map(async url => {
+            try {
+                // Используем fetch(url) вместо cache.add(url), чтобы иметь больше контроля
+                const response = await fetch(url);
+                if (response.ok) {
+                    await cache.put(url, response);
+                    Utils.log('debug', `Успешно закешировано: ${url}`);
+                } else {
+                    Utils.log('warn', `Не удалось закешировать (ответ не OK): ${url} Статус: ${response.status}`);
+                }
+            } catch (error) {
+                 Utils.log('error', `Не удалось закешировать ${url}:`, error);
+            }
+        });
+        await Promise.all(addPromises);
+        Utils.log('info', `Завершено кеширование для типа ${type}.`);
+
+      } catch (error) {
+         // Эта ошибка по идее не должна произойти с Promise.all(addPromises),
+         // но оставим на всякий случай.
+        Utils.log('error', `Критическая ошибка при добавлении в кеш ${type}:`, error);
+        // throw error; // Не бросаем ошибку, чтобы не убить SW
+      }
+    },
+
+    async put(type, request, response) {
+      try {
+        const cache = await this.open(type);
+         // Проверяем, что ответ кешируемый
+        if (response.status === 206) { // Partial Content - не кешируем
+             Utils.log('debug', `Пропущен кеш для Partial Content: ${request.url}`);
+             return;
+        }
+         // Проверяем, что запрос не является range request
+        if (request.headers.has('range')) {
+             Utils.log('debug', `Пропущен кеш для Range Request: ${request.url}`);
+             return;
+        }
+
+        // Клонируем ответ, так как он может быть прочитан только один раз
+        const responseToCache = response.clone();
+
+        await cache.put(request, responseToCache);
+        //Utils.log('debug', `Кеширован ресурс типа ${type}: ${request.url}`);
+      } catch (error) {
+        Utils.log('error', `Ошибка кеширования ресурса ${request.url}:`, error);
+      }
+    },
+
+     // Оптимизированная очистка кеша по лимиту (удаляем самые старые)
+    async trim(type, maxItems = null) {
+      const limit = maxItems || CONFIG.limits[type];
+       if (!limit) return; // Если лимит не установлен, не чистим
+
+      try {
+        const cache = await this.open(type);
+        const keys = await cache.keys();
+
+        if (keys.length > limit) {
+          // Сортируем ключи по дате (самые старые первые)
+          // Это не идеально, т.к. Date не является частью Cache API,
+          // но некоторые браузеры могут сортировать по времени добавления.
+          // Более надежно было бы хранить метаданные о времени в IndexedDB, но это сложнее.
+          // Пока полагаемся на дефолтную сортировку или примерное FIFO.
+          const deleteCount = keys.length - limit;
+          Utils.log('info', `Удаление ${deleteCount} ресурсов из кеша ${type}. Текущий размер: ${keys.length}, лимит: ${limit}`);
+
+          // Удаляем старые элементы пакетно (FIFO)
+          const deletionPromises = keys.slice(0, deleteCount).map(key => {
+            Utils.log('debug', `Удаление из кеша ${type}: ${key.url}`);
+            return cache.delete(key);
+          });
+          await Promise.all(deletionPromises);
+
+          Utils.log('info', `Удалено ${deleteCount} элементов из кеша ${type}`);
+        }
+      } catch (error) {
+        Utils.log('error', `Ошибка при очистке кеша ${type}:`, error);
+      }
+    },
+
+     // Очистка старых версий кеша
+    async clearOld() {
+      Utils.log('info', 'Начата очистка устаревших кешей');
+      const keys = await caches.keys();
+      const currentVersionPrefix = CONFIG.version; // Префикс текущей версии
+
+      // Находим все кеши, которые НЕ начинаются с текущего префикса
+      const oldKeys = keys.filter(key => !key.startsWith(currentVersionPrefix));
+
+      if (oldKeys.length === 0) {
+        Utils.log('info', 'Устаревших кешей не найдено.');
+        return;
+      }
+
+      Utils.log('info', `Удаление ${oldKeys.length} устаревших кешей: ${oldKeys.join(', ')}`);
+      // Удаляем все устаревшие кеши параллельно
+      const deletionPromises = oldKeys.map(key => {
+        Utils.log('debug', `Удаление кеша: ${key}`);
+        return caches.delete(key);
+      });
+      await Promise.all(deletionPromises);
+      Utils.log('info', 'Устаревшие кеши успешно удалены.');
+    }
+  };
+
+  // Стратегии кеширования
+  const Strategies = {
+    // Стратегия "сначала сеть, затем кеш" для HTML-страниц
+    async networkFirst(request, cacheType) {
+      Utils.log('debug', `Стратегия Network First для: ${request.url}`);
+      try {
+        // Пробуем получить из сети с таймаутом (опционально)
+        // Можно добавить race между fetch и таймаутом
+
+        const response = await fetch(request);
+
+        // Если ответ получен и он OK, кешируем и возвращаем
+        if (response.ok) {
+          Utils.log('debug', `Network First: Ответ из сети OK для ${request.url}`);
+          const copy = response.clone();
+          // Кешируем в фоне, не ждем завершения put/trim для быстрого ответа пользователю
+          Cache.put(cacheType, request, copy)
+            .then(() => Cache.trim(cacheType))
+            .catch(error => Utils.log('error', `Network First: Ошибка кеширования: ${error}`));
+          return response;
+        } else {
+           // Если ответ не OK (например, 404, 500), пробуем найти в кеше
+           Utils.log('warn', `Network First: Ответ из сети не OK (${response.status}) для ${request.url}. Проверяем кеш.`);
+           const cachedResponse = await caches.match(request); // Ищем прямое совпадение
+           if (cachedResponse) {
+             Utils.log('info', `Network First: Найдено в кеше: ${request.url}`);
+             return cachedResponse;
+           }
+            // Если нет в кеше и ответ из сети не OK, возвращаем сам ответ из сети
+            // или запасной вариант для HTML
+           if (cacheType === 'pages') {
+              Utils.log('info', `Network First: Страница ${request.url} не в сети и не в кеше. Отдаем offline.`);
+              return caches.match('./offline/') ||
+                new Response('<h1>Офлайн страница недоступна</h1><p>Пожалуйста, проверьте ваше соединение.</p>',
+                  { headers: { 'Content-Type': 'text/html' } });
+           }
+           // Для других типов, если ответ из сети не OK и нет в кеше, просто возвращаем не-OK ответ
+           return response;
+        }
+
+      } catch (error) {
+        Utils.log('warn', `Network First: Сеть недоступна или ошибка для ${request.url}. Проверяем кеш.`, error);
+
+        // Сеть недоступна, ищем в кеше
+        const cachedResponse = await caches.match(request); // Ищем прямое совпадение
+        if (cachedResponse) {
+          Utils.log('info', `Network First: Найдено в кеше: ${request.url}`);
+          return cachedResponse;
+        }
+
+        // Если нет в кеше и сеть недоступна, возвращаем запасной вариант
+        if (cacheType === 'pages') {
+           Utils.log('info', `Network First: Страница ${request.url} не в сети и не в кеше. Отдаем offline.`);
+           return caches.match('./offline/') ||
+             new Response('<h1>Офлайн страница недоступна</h1><p>Пожалуйста, проверьте ваше соединение.</p>',
+               { headers: { 'Content-Type': 'text/html' } });
+        }
+
+        // Для других типов ресурсов при отсутствии сети и кеша
+        Utils.log('warn', `Network First: Ресурс ${request.url} не в сети и не в кеше.`);
+        throw error; // Пробрасываем ошибку
+      }
+    },
+
+    // Стратегия "сначала кеш, затем обновление в фоне" для статических ресурсов
+    async staleWhileRevalidate(request, cacheType) {
+      Utils.log('debug', `Стратегия Stale While Revalidate для: ${request.url}`);
+
+      // Ищем в кеше прямое совпадение
+      const cachedResponsePromise = caches.match(request);
+
+      // Создаем промис на получение из сети и обновление кеша
+      const fetchPromise = fetch(request)
+        .then(networkResponse => {
+          // Кешируем только успешные ответы (200 OK)
+          if (networkResponse.ok) {
+             Utils.log('debug', `SWR: Ответ из сети OK для ${request.url}`);
+             const responseToCache = networkResponse.clone(); // Клонируем для кеширования
+             // Кешируем в фоне, не ждем завершения put/trim
+             Cache.put(cacheType, request, responseToCache)
+               .then(() => Cache.trim(cacheType))
+               .catch(error => Utils.log('error', `SWR: Ошибка обновления кеша: ${error}`));
+          } else {
+             Utils.log('warn', `SWR: Ответ из сети не OK (${networkResponse.status}) для ${request.url}. Не кешируем.`);
+          }
+          return networkResponse; // Возвращаем ответ из сети независимо от OK/не OK
+        })
+        .catch(error => {
+          Utils.log('warn', `SWR: Не удалось получить из сети для ${request.url}.`, error);
+          // В случае ошибки сети, просто возвращаем null, чтобы SWR мог использовать кеш
+          return null;
+        });
+
+      // Ждем ответа из кеша
+      const cachedResponse = await cachedResponsePromise;
+
+      // Если есть в кеше, возвращаем сразу и запускаем обновление в фоне
+      if (cachedResponse) {
+        Utils.log('info', `SWR: Найдено в кеше: ${request.url}`);
+        // Запускаем сетевой запрос и обновление кеша асинхронно
+        fetchPromise.catch(() => {}); // Отлавливаем возможные ошибки fetchPromise
+        return cachedResponse;
+      }
+
+      // Если нет в кеше, ждем ответа из сети
+      Utils.log('debug', `SWR: Не найдено в кеше ${request.url}. Ждем сеть.`);
+      const networkResponse = await fetchPromise;
+
+      // Если ответ из сети получен
+      if (networkResponse) {
+        return networkResponse; // Возвращаем ответ из сети (он уже закеширован, если был OK)
+      }
+
+      // Если нет ни в кеше, ни в сети, возвращаем запасной вариант
+       Utils.log('warn', `SWR: Нет в кеше и нет в сети для ${request.url}. Отдаем запасной вариант.`);
+      if (cacheType === 'images') {
+        return Utils.createImageFallback();
+      }
+
+      // Для других типов ресурсов при отсутствии кеша и сети
+      return new Response('Ресурс недоступен офлайн', {
+        status: 503, // Service Unavailable
+        statusText: 'Resource unavailable offline',
+        headers: { 'Content-Type': 'text/plain' }
+      });
+    },
+
+    // Специальная стратегия для Cloudinary (модифицированная SWR)
+    async cloudinaryStrategy(request) {
+       Utils.log('debug', `Стратегия Cloudinary (SWR) для: ${request.url}`);
+       // Cloudinary - это внешние изображения, кешируем как images
+       const cacheType = 'images';
+
+        // Ищем в кеше прямое совпадение
+       const cachedResponsePromise = caches.match(request);
+
+        // Создаем промис на получение из сети и обновление кеша
+       const fetchPromise = fetch(request, { mode: 'cors', credentials: 'omit' })
+        .then(networkResponse => {
+           if (networkResponse.ok) {
+              Utils.log('debug', `Cloudinary SWR: Ответ из сети OK для ${request.url}`);
+              const responseToCache = networkResponse.clone();
+              Cache.put(cacheType, request, responseToCache)
+                 .then(() => Cache.trim(cacheType))
+                 .catch(error => Utils.log('error', `Cloudinary SWR: Ошибка обновления кеша: ${error}`));
+           } else {
+              Utils.log('warn', `Cloudinary SWR: Ответ из сети не OK (${networkResponse.status}) для ${request.url}. Не кешируем.`);
+           }
+           return networkResponse;
+        })
+        .catch(error => {
+           Utils.log('warn', `Cloudinary SWR: Не удалось получить из сети для ${request.url}.`, error);
+           return null;
+        });
+
+        // Ждем ответа из кеша
+       const cachedResponse = await cachedResponsePromise;
+
+       if (cachedResponse) {
+           Utils.log('info', `Cloudinary SWR: Найдено в кеше: ${request.url}`);
+           fetchPromise.catch(() => {}); // Запускаем обновление в фоне
+           return cachedResponse;
+       }
+
+       // Если нет в кеше, ждем сеть
+       Utils.log('debug', `Cloudinary SWR: Не найдено в кеше ${request.url}. Ждем сеть.`);
+       const networkResponse = await fetchPromise;
+
+       if (networkResponse) {
+           return networkResponse;
+       }
+
+        // Если нет ни в кеше, ни в сети
+       Utils.log('warn', `Cloudinary SWR: Нет в кеше и нет в сети для ${request.url}. Отдаем запасной вариант.`);
+       return Utils.createImageFallback(); // Возвращаем заглушку изображения
+    }
+  };
+
+  // Обработчики Service Worker
+
+  // Установка: кешируем основные ресурсы
+  self.addEventListener('install', event => {
+    Utils.log('info', 'Установка Service Worker ' + CONFIG.version);
+
+    // event.waitUntil гарантирует, что SW не будет установлен до завершения промиса
+    event.waitUntil(
+      (async () => {
+        try {
+          // Очищаем старые кеши на этапе установки, чтобы они не занимали место
+           await Cache.clearOld(); // Очистка старых кешей
+
+          // Загружаем манифест и получаем список URL для прекеширования
+          const urlsToPrecache = await Utils.getUrlsToPrecache();
+
+          // Кешируем критические ресурсы
+           if (urlsToPrecache.length > 0) {
+              await Cache.addAll('static', urlsToPrecache); // Кешируем все как 'static' пока
+           } else {
+              Utils.log('warn', 'Список URL для прекеширования пуст!');
+           }
+
+          // Убеждаемся, что offline страница закеширована
+          const offlinePageUrl = './offline/';
+          const offlineResponse = await caches.match(offlinePageUrl);
+          if (!offlineResponse) {
+              Utils.log('info', `Кеширование офлайн страницы: ${offlinePageUrl}`);
+              try {
+                   await Cache.addAll('pages', [offlinePageUrl]);
+              } catch (e) {
+                   Utils.log('error', `Не удалось закешировать офлайн страницу: ${offlinePageUrl}`, e);
+              }
+          } else {
+               Utils.log('info', `Офлайн страница уже в кеше.`);
+          }
+
+
+          // Принудительная активация нового SW сразу после установки
+          // (не ждет, пока старый SW перестанет контролировать клиентов)
+          // Используйте осторожно, может вызвать проблемы, если старый SW еще активен.
+          // Обычно лучше подождать активации по умолчанию.
+          // Но для быстрого обновления критических ассетов может быть оправдано.
+          // await self.skipWaiting();
+
+          Utils.log('info', 'Этап установки SW завершен.');
+        } catch (error) {
+          Utils.log('error', 'Ошибка при установке Service Worker:', error);
+          // Можно выбросить ошибку, чтобы установка SW провалилась
+          // throw error;
+        }
+      })()
+    );
+  });
+
+  // Активация: очищаем старые кеши и заявляем контроль над клиентами
+  self.addEventListener('activate', event => {
+    Utils.log('info', 'Активация Service Worker ' + CONFIG.version);
+    // event.waitUntil гарантирует, что активация завершится до начала обработки fetch
+    event.waitUntil(
+      (async () => {
+        try {
+          // Удаляем старые версии кешей (если не сделали это на install)
+          // await Cache.clearOld(); // Можно сделать тут или на install
+
+          // self.clients.claim() позволяет новому SW сразу взять под контроль все открытые страницы
+          // под его scope, без необходимости перезагрузки страниц.
+          // Используйте осторожно, может вызвать проблемы при сложных переходах от старой версии SW.
+          // Обычно браузер делает это автоматически при первой навигации после установки.
+          // await self.clients.claim();
+
+          Utils.log('info', 'Этап активации SW завершен.');
+        } catch (error) {
+          Utils.log('error', 'Ошибка при активации Service Worker:', error);
+          // throw error;
+        }
+      })()
+    );
+  });
+
+   // Обработка сообщений из клиентского скрипта
+  self.addEventListener('message', event => {
+    Utils.log('debug', 'Получено сообщение:', event.data);
+    if (event.data && event.data.command) {
+      switch (event.data.command) {
+        case 'trimCaches':
+          Utils.log('info', 'Получена команда: trimCaches');
+          Promise.all(Object.keys(CONFIG.caches).map(type => Cache.trim(type)))
+            .catch(error => Utils.log('error', 'Ошибка при выполнении trimCaches:', error));
+          break;
+
+        case 'setDebug':
+          CONFIG.debug = !!event.data.value;
+          Utils.log('info', `Получена команда: setDebug. Режим отладки ${CONFIG.debug ? 'включен' : 'выключен'}`);
+          break;
+
+        case 'updateVersion':
+          Utils.log('info', 'Получена команда: updateVersion');
+          // Принудительно инициировать обновление SW.
+          // Браузер проверит manifest SW по URL и загрузит новую версию, если она изменилась.
+          self.registration.update();
+          break;
+
+        case 'skipWaiting':
+           Utils.log('info', 'Получена команда: skipWaiting');
+           // Позволяет новому (waiting) SW пропустить состояние waiting и сразу стать активным.
+           // Обычно вызывается в клиентском скрипте после обнаружения нового SW.
+           self.skipWaiting();
+           break;
+
+        case 'precache':
+           Utils.log('info', 'Получена команда: precache', event.data.urls);
+           if (event.data.urls && Array.isArray(event.data.urls)) {
+               const urlsToPrecache = event.data.urls.map(url => new URL(url, self.location.origin).pathname);
+                Utils.log('info', `Добавление ${urlsToPrecache.length} URL в кеш static по команде precache.`);
+                Cache.addAll('static', urlsToPrecache)
+                   .catch(error => Utils.log('error', 'Ошибка при выполнении precache:', error));
+           }
+           break;
+
+         // Можно добавить команду для очистки конкретных кешей
+         case 'clearCache':
+            Utils.log('info', 'Получена команда: clearCache', event.data.cacheType);
+            if (event.data.cacheType && CONFIG.caches[event.data.cacheType]) {
+                 caches.delete(Utils.getCacheName(event.data.cacheType))
+                    .then(() => Utils.log('info', `Кеш ${event.data.cacheType} очищен.`))
+                    .catch(error => Utils.log('error', `Ошибка при очистке кеша ${event.data.cacheType}:`, error));
+            } else {
+                 Utils.log('warn', 'Получена команда clearCache с неверным типом кеша.');
+            }
+            break;
+
+        default:
+          Utils.log('warn', 'Получена неизвестная команда:', event.data.command);
+      }
+    }
+  });
+
+
+  // Обработка fetch-запросов с учетом хешированных имен файлов
+  self.addEventListener('fetch', event => {
+    const request = event.request;
+
+    // Игнорируем не GET-запросы
+    if (request.method !== 'GET') {
+      // Для POST, PUT и т.д. просто отдаем их сети.
+      // Если сеть недоступна, они все равно, вероятно, не выполнятся успешно.
+      // Можно перехватить ошибку fetch и вернуть запасной ответ, но это редко нужно.
+      Utils.log('debug', `Пропущен ${request.method} запрос: ${request.url}`);
+      return; // Не обрабатываем в SW, запрос уйдет в сеть
+    }
+
+    // Пропускаем запросы с определенным заголовком (например, 'x-use-network-only')
+     if (request.headers.get('Service-Worker-Cache-Control') === 'network-only') {
+       Utils.log('debug', `Пропущен по заголовку 'network-only': ${request.url}`);
+       return; // Запрос уйдет в сеть
+     }
+
+
+    const url = new URL(request.url);
+
+    // Игнорируем запросы к сторонним источникам, кроме разрешенных
+    if (url.origin !== self.location.origin && !CONFIG.externalDomains.allowedOrigins.includes(url.hostname)) {
+       Utils.log('debug', `Пропущен сторонний запрос: ${request.url}`);
+       return; // Запрос уйдет в сеть
+    }
+
+    // Игнорируем запросы к инструментам разработчика, расширениям и т.п.
+    if (url.protocol === 'chrome-extension:' || url.protocol === 'devtools:') {
+        return; // Запрос уйдет дальше
+    }
+
+
+    // Определяем тип кеша для запроса
+    const cacheType = Utils.determineCacheType(request);
+
+    if (!cacheType) {
+      Utils.log('debug', `Не определен тип кеша для: ${request.url}. Пропускаем.`);
+      return; // Не обрабатываем запросы без определенного типа кеша
+    }
+
+     // --- Стратегии кеширования ---
+
+    // Специальная обработка для Cloudinary (если разрешено кеширование)
+    const isCloudinaryRequest = CONFIG.externalDomains.allowedOrigins.includes(url.hostname);
+    if (isCloudinaryRequest && CONFIG.externalDomains.cachingEnabled) {
+       event.respondWith(Strategies.cloudinaryStrategy(request));
+       return; // Завершаем обработку fetch
+    }
+
+    // Выбор стратегии в зависимости от типа ресурса
+    if (cacheType === 'pages') {
+      // Для HTML-страниц используем стратегию Network First
+      // Навигационные запросы (когда пользователь переходит по ссылке) должны
+      // всегда пытаться получить свежую версию страницы из сети.
+      // Если сеть недоступна, тогда берем из кеша.
+      // Для суб-ресурсов на странице (которые тоже могут быть HTML, например, включения),
+      // стратегия тоже Network First.
+      event.respondWith(Strategies.networkFirst(request, cacheType));
+    } else {
+      // Для статических ресурсов (CSS, JS, шрифты, SVG, ICO, media) и изображений (кроме Cloudinary)
+      // используем Stale While Revalidate.
+      // Это хорошо подходит для ассетов с хешами, т.к. хешированный файл считается "неизменяемым".
+      // SWR сначала проверит кеш (который может быть старой версии), отдаст его,
+      // а в фоне сходит в сеть за новой версией (если хеш в URL изменился) и обновит кеш.
+      // При следующем запросе к НОВОМУ хешированному URL, он будет сразу взят из кеша.
+       event.respondWith(Strategies.staleWhileRevalidate(request, cacheType));
+    }
+  });
+})();

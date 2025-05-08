@@ -19,9 +19,9 @@
     {% include "footer.njk" %}
   </div>
 
-  <script src="/assets/scripts/main.bundle.js" defer></script>
-  <script async src="/assets/scripts/registerServiceWorker.js"></script>
-  <script data-collect-dnt="true" async src="https://scripts.simpleanalyticscdn.com/latest.js" crossorigin="anonymous"></script>
+  <script src="{{ '/assets/scripts/main.bundle.js' | hashed }}" defer></script>
+  <script async src="{{ '/assets/scripts/registerServiceWorker.js' | hashed }}"></script>
+  <script data-collect-dnt="true" defer src="https://scripts.simpleanalyticscdn.com/latest.js" crossorigin="anonymous"></script>
 
 </body>
 {% endblock %} 

@@ -4,16 +4,12 @@
   "main": "index.js",
   "type": "module",
   "scripts": {   
-    "debug:autoprefixer": "npx postcss src/assets/css/test.css --use autoprefixer -o src/assets/css/test.out.css",
-    "eleventy": "eleventy",
-    "build:css": "npx sass src/_input_sass/style.scss src/assets/css/style.css --no-source-map --style=compressed",
-    "process:css": "npx postcss src/assets/css/style.css --config postcss.config.js --replace",
-    "watch:css": "npx sass --watch src/_input_sass/style.scss:src/assets/css/style.css",
-    "build:js": "npx esbuild src/assets/scripts/main.js --bundle --minify --sourcemap --outfile=src/assets/scripts/main.bundle.js",
-    "watch:js": "npx esbuild src/assets/scripts/main.js --bundle --watch --outfile=src/assets/scripts/main.bundle.js",
-    "serve": "eleventy --serve",  
-    "start": "cross-env NODE_ENV=development npm-run-all -p watch:css watch:js serve",
-    "build": "npm run build:css && npm run process:css && npm run build:js && cross-env ELEVENTY_ENV=production eleventy"
+   "eleventy": "eleventy",
+    "eleventy:serve": "eleventy --serve",
+    "start": "cross-env NODE_ENV=development npm-run-all -p eleventy:serve",
+    "prebuild": "rimraf _site",
+    "build": "cross-env NODE_ENV=production ELEVENTY_ENV=production npm run eleventy",
+    "clean": "rimraf _site"
   },
   "keywords": [],
   "author": "",

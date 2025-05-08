@@ -39,7 +39,7 @@ eleventyNavigation:
 <ul class="row-gap--xl list-reset">
 
      {% if collections.post and collections.post.length > 0 %}
-        {% for post in collections.post | reverse %}
+        {% for post in collections.post  %}
         <li class="block__item">
             <div class="block__name--align-left">
                 <h2 class="h2">
