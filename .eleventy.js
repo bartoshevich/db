@@ -26,7 +26,7 @@ import postcssConfig from "./postcss.config.js";
 
 // --- ВОССТАНАВЛИВАЕМ ИМПОРТЫ КОМПИЛЯТОРОВ ---
 // Эти компиляторы нужны здесь, чтобы передать их в плагин
-import sass from 'sass'; // Импортируем Sass
+import * as sass from 'sass'; // Импортируем Sass
 import postcss from 'postcss'; // Импортируем PostCSS
 import esbuild from 'esbuild'; // Импортируем Esbuild
 import * as Terser from 'terser'; // Импортируем Terser (* as Terser)
