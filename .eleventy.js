@@ -284,6 +284,55 @@ export default function (eleventyConfig) {
   });
 
 
+
+ 
+ /* --------------- Фильтр для безопасного использования в RSS-каналах --------------- */
+
+  eleventyConfig.addFilter("feedSafe", (v) => {
+    if (typeof v !== 'string') return v;
+    
+    // Сначала выполняем обычное декодирование HTML-сущностей
+    // (работает так же, как ваш decodeEntities)
+    let result = v
+      .replace(/&nbsp;/g, "\u00A0") // Неразрывный пробел
+      .replace(/&mdash;/g, "—") // Длинное тире
+      .replace(/&laquo;/g, "«") // Кавычка елочка левая
+      .replace(/&raquo;/g, "»") // Кавычка елочка правая
+      .replace(/ /g, "\u00A0") // HTML сущности
+      .replace(/—/g, "—")
+      .replace(/«/g, "«")
+      .replace(/»/g, "»");
+  
+    // Затем, экранируем стандартные XML-символы
+    result = result
+      .replace(/&/g, "&amp;")
+      .replace(/</g, "&lt;")
+      .replace(/>/g, "&gt;")
+      .replace(/"/g, "&quot;")
+      .replace(/'/g, "&apos;");
+      
+    return result;
+  });
+
+
+  eleventyConfig.addFilter("jsonFeedSafe", (v) => {
+    if (typeof v !== 'string') return v;
+    
+    // Для JSON преобразуем HTML-сущности в Unicode
+    return v
+      .replace(/&nbsp;/g, "\u00A0")
+      .replace(/&mdash;/g, "—")
+      .replace(/&laquo;/g, "«")
+      .replace(/&raquo;/g, "»")
+      .replace(/ /g, "\u00A0")
+      .replace(/—/g, "—")
+      .replace(/«/g, "«")
+      .replace(/»/g, "»");
+    
+    // JavaScript автоматически экранирует специальные символы при JSON.stringify
+  });
+
+
   /* --------------- Globals --------------- */
   // Пример глобальной функции Nunjucks
   eleventyConfig.addNunjucksGlobal("getBreadcrumbs", (key, items) => {

@@ -56,6 +56,8 @@
 /assets/fonts/**/*.{eot}
   Content-Type: application/vnd.ms-fontobject
 
+/feed.json
+  Content-Type: application/feed+json; charset=utf-8
 
 /*.svg
   Cache-Control: public, max-age=31536000, immutable

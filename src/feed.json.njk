@@ -7,11 +7,11 @@ language: "ru"
 ---
 {
     "version": "https://jsonfeed.org/version/1.1",
-    "title": "{{ title }}",
+    "title": "{{ title | jsonFeedSafe }}",
     "language": "{{ language }}",
     "home_page_url": "{{ site.url }}",
     "feed_url": "{{ permalink | htmlBaseUrl(site.url) }}",
-    "description": "{{ description }}",
+    "description": "{{ description | jsonFeedSafe }}",
     "authors": [
       {
         "name": "Дмитрий Бартошевич",
@@ -24,13 +24,13 @@ language: "ru"
       }
     ],
     "items": [
-        {%- for post in collections.post | reverse %}
+        {%- for post in collections.post %}
         {%- set url = post.url | htmlBaseUrl(site.url) %}
         {
           "id":             "{{ url }}",
           "url":            "{{ url }}",
-          "title":          "{{ post.data.title | escape }}",
-          "content_text":    "{{ post.data.description | decodeEntities | escape }}",
+          "title":          "{{ post.data.title | jsonFeedSafe }}",
+          "content_text":    "{{ post.data.description | jsonFeedSafe }}",
           "date_published": "{{ post.date | dateToRfc3339 }}"
         }{% if not loop.last %},{% endif %}
         {%- endfor %}

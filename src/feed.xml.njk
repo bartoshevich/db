@@ -15,15 +15,15 @@ author: "Дмитрий Бартошевич"
     <title>{{ title }}</title>
     <link>{{ site.url | addPathPrefixToFullUrl }}</link>
     <atom:link href="{{ permalink | htmlBaseUrl(site.url) }}" rel="self" type="application/rss+xml" />
-    <description>{{ description }}</description>
+    <description>{{ description | feedSafe  }}</description>
     <language>{{ language }}</language>
 
-    {%- for post in collections.post | reverse %}
+    {%- for post in collections.post %}
       {%- set absolutePostUrl = post.url | htmlBaseUrl(site.url) %}
     <item>
       <title>{{ post.data.title }}</title>
       <link>{{ absolutePostUrl }}</link>
-      <description>{{ post.data.description | decodeEntities | safe }}</description>
+      <description>{{ post.data.description | feedSafe }}</description>
       <pubDate>{{ post.date | dateToRfc822 }}</pubDate>
       <dc:creator> {{ author }} </dc:creator>
       <guid>{{ absolutePostUrl }}</guid>
