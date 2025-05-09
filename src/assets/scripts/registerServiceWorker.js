@@ -19,6 +19,23 @@
       // --- Продакшен Среда: Регистрируем SW ---
       console.log('Service Worker: Текущий хост продакшен (%s). Попытка регистрации...', hostname);
 
+      if (!navigator.serviceWorker.controller) {
+        // Service Worker еще не контролирует страницу - это первое посещение
+        // Предзагружаем критические шрифты
+        try {
+          const fontPreload = document.createElement('link');
+          fontPreload.rel = 'preload';
+          fontPreload.href = '/assets/fonts/pt-sans-v12-latin_cyrillic/pt-sans-v12-latin_cyrillic-regular.woff2';
+          fontPreload.as = 'font';
+          fontPreload.type = 'font/woff2';
+          fontPreload.crossOrigin = 'anonymous';
+          document.head.appendChild(fontPreload);
+          console.log('Font preload добавлен для первого посещения');
+        } catch (error) {
+          console.warn('Ошибка при предзагрузке шрифта:', error);
+        }
+      }
+
       // Функция регистрации с повторными попытками (оставляем вашу логику)
       const registerServiceWorker = async (maxRetries = 2) => {
         let retries = 0;

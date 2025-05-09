@@ -11,6 +11,7 @@
 
 
   <script src="{{ '/assets/scripts/critical--theme.js' | hashed }}"></script>
+  <script src="{{ '/assets/scripts/registerServiceWorker.js' | hashed }}"></script>
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | hashed }}">
 
   {% include "icons.njk" %}
@@ -37,8 +38,8 @@
   </div>
 
 
-  <script src="{{ '/assets/scripts/main.bundle.js' | hashed }}" defer></script>
-  <script async src="{{ '/assets/scripts/registerServiceWorker.js' | hashed }}"></script>
+  <script defer src="{{ '/assets/scripts/main.bundle.js' | hashed }}"></script>
+ 
   <script data-collect-dnt="true" defer  src="https://scripts.simpleanalyticscdn.com/latest.js" crossorigin="anonymous"></script>
   {% include "schema.njk" %}
 
