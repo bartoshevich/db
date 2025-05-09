@@ -18,18 +18,18 @@ eleventyNavigation:
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
  
-  <link rel="stylesheet"  href="/assets/css/style.css"> 
-
-  {% include "meta__tags.njk" %} 
+  <script src="{{ '/assets/scripts/critical--theme.js' | hashed }}"></script>
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | hashed }}">
+ 
   {% include "icons.njk" %} 
 </head>
 <body class="body">
-
+  <a href="#maincontent" class="element--hidden focusable">Перейти к содержимому</a>
   
 
   <div class="body__container"> 
     {% include "header.njk" %} 
-    <main class="section__content row-gap--m">
+    <main class="section__content row-gap--m" id="maincontent">
       <!-- Содержимое 404 страницы -->
       <h1 class="intro bold">Запрашиваемая страница не найдена</h1>  
       <h2 class="mb-m h2 bold">Что делать? </h2>
@@ -42,13 +42,6 @@ eleventyNavigation:
     </main>
     {% include "footer.njk" %} 
   </div>
-
-  
-
-  {%- if site.schemaWebSite -%}
-  <script type="application/ld+json">{{ site.schemaWebSite | jsonify | safe }}</script>
-  {%- endif -%}
-
-
+  <script defer src="{{ '/assets/scripts/main.bundle.js' | hashed }}"></script>
 </body>
 </html>

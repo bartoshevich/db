@@ -1,27 +1,9 @@
 {% extends "default.njk" %}
-
-{% block body %}
-<body class="body">
-  <div class="body__container">
-    {% block page_menu %}
-      {% include "header.njk" %}
-    {% endblock %}
-
-    <main class="section__content row-gap--m">
+ 
       {% block main_content %}
         {% include "post__header.njk" %}
         {{ content | safe }}
         {% include "related-ideas.njk" %}
         {% include "subscription.njk" %}
       {% endblock %}
-    </main>
-
-    {% include "footer.njk" %}
-  </div>
-
-  <script src="{{ '/assets/scripts/main.bundle.js' | hashed }}" defer></script>
-
-  <script data-collect-dnt="true" defer src="https://scripts.simpleanalyticscdn.com/latest.js" crossorigin="anonymous"></script>
-
-</body>
-{% endblock %} 
+  

@@ -19,6 +19,7 @@
 
 
 <body class="body">
+  <a href="#maincontent" class="element--hidden focusable">Перейти к содержимому</a>
    <div class="body__container"> 
     
     {# Новый блок для меню #}
@@ -27,7 +28,7 @@
     {% endblock %}
 
        
-    <main class="section__content">
+    <main class="section__content" id="maincontent">
       {# Новый блок для основного контента #}
       {% block main_content %}
         {{ content | safe }} 

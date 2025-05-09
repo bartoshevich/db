@@ -1,10 +1,8 @@
 {% extends "default.njk" %}
 
 
-
 {# Переопределяем блок основного контента #}
 {% block main_content %}
  {{ content | safe }}
 {% endblock %}
 
-{# Блок page_specific_scripts будет взят из default.njk #}
