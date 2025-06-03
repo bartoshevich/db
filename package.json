@@ -7,9 +7,9 @@
    "eleventy": "eleventy",
     "eleventy:serve": "eleventy --serve",
     "start": "cross-env NODE_ENV=development npm-run-all -p eleventy:serve",
-    "prebuild": "rimraf _site",
+    "prebuild": "rm -rf _site",
     "build": "cross-env NODE_ENV=production ELEVENTY_ENV=production npm run eleventy",
-    "clean": "rimraf _site"
+    "clean": "rm -rf _site"
   },
   "keywords": [],
   "author": "",
