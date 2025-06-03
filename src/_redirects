@@ -1,46 +1,52 @@
-http://bartoshevich.by/*  https://bartoshevich.by/:splat 301!
-http://www.bartoshevich.by/*  https://bartoshevich.by/:splat 301!
-https://www.bartoshevich.by/*  https://bartoshevich.by/:splat 301!
-/me/  /cases/
-/mnenie/*  /blog/:splat
-/opyt/*  /blog/:splat
-/instrukcii/*  /blog/:splat
-/mnemie/*  /blog/:splat
-/blog/feedback/  /blog/metodika-nps-indeks-loyalnosti-klientov/
-/blog/covid-2019/  /blog/marketing-strategies-pandemic/
-/blog/razrabotka-marketingovoj-strategii/  /blog/riski-splochnennogo-kollektiva-v-marketinge/
-/belarus/ /blog/marketing-strategies-pandemic/
-/blog/2-idei-po-razvitiyu-marketinga/  /blog/vospriyatie-klienta-uspeh/
-/blog/3-pravila-marketingovyx-issledovanij/  /blog/pravila-marketingovyx-issledovanij/
-/blog/algoritm-provedeniya-reklamnoj-kampanii/  /blog/algoritm-reklamnoj-kampanii/ 
-/blog/analiz-prodaj/ /blog/analiz-prodazh-nielsen/
-/blog/brand-conception-hormann/  /blog/razrabotka-koncepcii-brenda-hormann/
-/blog/brand-giperlink/  /blog/kejs-brend-giperlink/
-/blog/brand-is-good/  /blog/strategiya-silnogo-brenda/
-/blog/brief/  /blog/otkaz-ot-brifov/ 
-/blog/choice/  /blog/kak-agentstva-skryvayut-slabye-resheniya/
-/blog/chatgpt-mozhet-preobrazit-brend-i-reklamnye-kampanii/  /blog/chatgpt-v-marketinge/
-/blog/delayu-sajt-detskogo-psixologa/   /blog/sajt-dlya-psihologa-kejs/
-/blog/delovoy/   /blog/kejs-internet-magazina-delovoy/
-/blog/difficult-clients/  /blog/kak-rabotat-s-problemnymi-klientami/
-/blog/direktor-xochet-korporativ/  /blog/pochemu-korporativy-ne-rabotayut/
-/blog/dlya-tex-kto-pishet/  /blog/redaktirovanie-teksta-instrumenty/
-/blog/ecommerce/  /blog/klientskij-opyt-v-ecommerce/
-/blog/crowdconference/  /blog/novye-tehnologii-dlya-biznesa/
-/blog/effektivnost-marketinga/  /blog/vremya-kak-metod-analiza-marketinga/
-/blog/emotions-in-marketing/ /blog/kak-brendy-sozdajut-emotsionalnuyu-svyaz/
-/blog/faberge/  /blog/smelyj-brend/
-/blog/gifts2clients/    /blog/korporativnye-podarki-i-pozdravleniya/
-/blog/hype/  /blog/iskusstvennyj-intellekt-v-marketinge/
-/blog/igra/  /blog/lovushka-dlya-marketologov-igra-spasitel/
-/blog/kak-privlech-klientov/    /blog/klienty-vybirayut-brendy-po-cennostyam/
-/blog/marketers/  /blog/kak-uznat-silnogo-marketologa/ 
-/blog/marketing-for-industrial-giants-12-archetypes/  /blog/12-archetypes-b2b-marketing/
-/blog/misconceptions/  /blog/mify-o-marketinge/
-/blog/primer-swot-analiza/  /blog/oshibki-v-swot-analize-i-kak-ih-izbezhat/
-/blog/razvitie-brenda/  /blog/riski-virusnogo-marketinga/
-/blog/seth-godin/  /blog/set-godin-eto-marketing/
+# HTTPS и WWW редиректы (приоритет 1)
+http://bartoshevich.by/* https://bartoshevich.by/:splat 301!
+http://www.bartoshevich.by/* https://bartoshevich.by/:splat 301!
+https://www.bartoshevich.by/* https://bartoshevich.by/:splat 301!
+
+# СПЕЦИФИЧНЫЕ редиректы (приоритет 2) - ДОЛЖНЫ БЫТЬ ВЫШЕ wildcard правил
+/me/ /cases/ 301
+/belarus/ /blog/marketing-strategies-pandemic/ 301
+
+# Блог - специфичные редиректы
+/blog/feedback/  /blog/metodika-nps-indeks-loyalnosti-klientov/ 301
+/blog/covid-2019/  /blog/marketing-strategies-pandemic/ 301
+/blog/razrabotka-marketingovoj-strategii/  /blog/riski-splochnennogo-kollektiva-v-marketinge/ 301
+/belarus/ /blog/marketing-strategies-pandemic/ 301
+/blog/2-idei-po-razvitiyu-marketinga/  /blog/vospriyatie-klienta-uspeh/ 301
+/blog/3-pravila-marketingovyx-issledovanij/  /blog/pravila-marketingovyx-issledovanij/ 301
+/blog/algoritm-provedeniya-reklamnoj-kampanii/  /blog/algoritm-reklamnoj-kampanii/ 301
+/blog/analiz-prodaj/ /blog/analiz-prodazh-nielsen/ 301
+/blog/brand-conception-hormann/  /blog/razrabotka-koncepcii-brenda-hormann/ 301
+/blog/brand-giperlink/  /blog/kejs-brend-giperlink/ 301
+/blog/brand-is-good/  /blog/strategiya-silnogo-brenda/ 301
+/blog/brief/  /blog/otkaz-ot-brifov/  301
+/blog/choice/  /blog/kak-agentstva-skryvayut-slabye-resheniya/ 301
+/blog/chatgpt-mozhet-preobrazit-brend-i-reklamnye-kampanii/  /blog/chatgpt-v-marketinge/ 301
+/blog/delayu-sajt-detskogo-psixologa/   /blog/sajt-dlya-psihologa-kejs/ 301
+/blog/delovoy/   /blog/kejs-internet-magazina-delovoy/ 301
+/blog/difficult-clients/  /blog/kak-rabotat-s-problemnymi-klientami/ 301
+/blog/direktor-xochet-korporativ/  /blog/pochemu-korporativy-ne-rabotayut/ 301
+/blog/dlya-tex-kto-pishet/  /blog/redaktirovanie-teksta-instrumenty/ 301
+/blog/ecommerce/  /blog/klientskij-opyt-v-ecommerce/ 301
+/blog/crowdconference/  /blog/novye-tehnologii-dlya-biznesa/ 301
+/blog/effektivnost-marketinga/  /blog/vremya-kak-metod-analiza-marketinga/ 301
+/blog/emotions-in-marketing/ /blog/kak-brendy-sozdajut-emotsionalnuyu-svyaz/ 301
+/blog/faberge/  /blog/smelyj-brend/ 301
+/blog/gifts2clients/    /blog/korporativnye-podarki-i-pozdravleniya/ 301
+/blog/hype/  /blog/iskusstvennyj-intellekt-v-marketinge/ 301
+/blog/igra/  /blog/lovushka-dlya-marketologov-igra-spasitel/ 301
+/blog/kak-privlech-klientov/    /blog/klienty-vybirayut-brendy-po-cennostyam/ 301     
+/blog/marketers/  /blog/kak-uznat-silnogo-marketologa/ 301
+/blog/marketing-for-industrial-giants-12-archetypes/  /blog/12-archetypes-b2b-marketing/ 301
+/blog/misconceptions/  /blog/mify-o-marketinge/ 301
+/blog/primer-swot-analiza/  /blog/oshibki-v-swot-analize-i-kak-ih-izbezhat/ 301
+/blog/razvitie-brenda/  /blog/riski-virusnogo-marketinga/ 301
+/blog/seth-godin/  /blog/set-godin-eto-marketing/ 301
 
 
 
-
+# ОБЩИЕ wildcard правила (приоритет 3) 
+/mnenie/* /blog/:splat 301
+/opyt/* /blog/:splat 301
+/instrukcii/* /blog/:splat 301
+/mnemie/* /blog/:splat 301

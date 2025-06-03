@@ -367,7 +367,12 @@ eleventyExcludeFromCollections: true
           return response;
         } 
         
-        // Если ответ не OK, пробуем найти в кеше
+if (response.status === 404) {
+      Utils.log('info', `Network First: 404 для ${request.url} - возможно нужен редирект`);
+      return response; 
+    }
+
+        // Для других ошибок (500, 503 и т.д.) пробуем найти в кеше
         Utils.log('warn', `Network First: Ответ из сети не OK (${response.status}) для ${request.url}. Проверяем кеш.`);
         const cachedResponse = await caches.match(request);
         if (cachedResponse) {
@@ -376,7 +381,7 @@ eleventyExcludeFromCollections: true
         }
         
         // Если нет в кеше, возвращаем запасной вариант для HTML или оригинальный ответ
-        if (cacheType === 'pages') {
+        if (response.status >= 500) {
           Utils.log('info', `Network First: Страница ${request.url} не в сети и не в кеше. Отдаем offline.`);
           const offlineResponse = await caches.match('/offline/');
           if (offlineResponse) {
