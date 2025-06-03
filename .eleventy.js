@@ -2,8 +2,7 @@
 
 import path from "path";
 
-// --- Импортируем ВСЕ необходимые библиотеки НА ВЕРХНЕМ УРОВНЕ ---
-// Импортируем только те библиотеки, которые используются непосредственно в .eleventy.js:
+
 import { URL } from "url"; // Используется в фильтре absoluteUrl
 import htmlmin from "html-minifier-terser"; // Используется в трансформе htmlmin
 import { DateTime } from "luxon"; // Используется в фильтрах даты
@@ -15,16 +14,16 @@ import pluginRss from "@11ty/eleventy-plugin-rss"; // Плагин RSS
 import fs from 'fs'; // Используется для проверки существования файлов в PassthroughCopy
 import crypto from 'crypto'; // Используется для shortcode Image (нужен для filenameFormat)
 
-// Импортируем Nunjucks здесь, т.k. он используется для настройки библиотеки шаблонов
+
 import * as Nunjucks from "nunjucks"; // ЭТОТ ИМПОРТ ДОЛЖЕН БЫТЬ НА ВЕРХНЕМ УРОВНЕ И ИСПОЛЬЗОВАТЬ * as
 
-// Импортируем lightningcss для использования в трансформе optimizeInlineStyles
+
 import { transform as lightningcssTransform } from "lightningcss";
 
-// Импортируем вашу PostCSS конфигурацию (она нужна AssetProcessorPlugin)
+
 import postcssConfig from "./postcss.config.js";
 
-// --- ВОССТАНАВЛИВАЕМ ИМПОРТЫ КОМПИЛЯТОРОВ ---
+
 // Эти компиляторы нужны здесь, чтобы передать их в плагин
 import * as sass from 'sass'; // Импортируем Sass
 import postcss from 'postcss'; // Импортируем PostCSS
@@ -33,8 +32,8 @@ import * as Terser from 'terser'; // Импортируем Terser (* as Terser)
 
 
 // --- Импортируем ФУНКЦИЮ плагина AssetProcessor ---
-// Убедитесь, что путь правильный!
- import EleventyAssetProcessorPlugin from "./src/_11ty/AssetProcessorPlugin.js"; // Если файл в src/_11ty/
+
+ import EleventyAssetProcessorPlugin from "./src/_11ty/AssetProcessorPlugin.js"; 
 
 
 
@@ -46,7 +45,7 @@ const outputDir = "_site";
 const dataDir = "_data";
 
 const isProdBuild = process.env.ELEVENTY_ENV === "production";
-// const isProduction = process.env.NODE_ENV === "production"; // Часто совпадает с isProdBuild
+
 
 // --- Основная конфигурация Eleventy ---
 export default function (eleventyConfig) {
@@ -89,11 +88,7 @@ export default function (eleventyConfig) {
         Terser: Terser, // Объект Terser (импортирован как * as Terser)
         // lightningcss: lightningcss, // lightningcss нужен только в трансформе, можно не передавать, если не используется плагином напрямую
     },
-    // ТОЧКИ ВХОДА для ВСЕХ ассетов, которые должен обработать AssetProcessor в Production
-    // (кроме изображений, обрабатываемых eleventy-img).
-    // Это могут быть шаблоны glob (относительно process.cwd() или inputDir, если плагин корректно обрабатывает)
-    // Ваш плагин использует path.join(process.cwd(), pattern), поэтому указывайте пути относительно корня проекта или inputDir.
-    // Указание путей относительно inputDir ('src/...') является общепринятой практикой.
+
     assetEntryPoints: [
        
        `${inputDir}/assets/images/**/*.{svg,ico}`, // SVG и ICO в assets/images/ (эти форматы не всегда оптимально обрабатываются eleventy-img, обрабатываем как статику)
