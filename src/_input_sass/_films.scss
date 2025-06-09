@@ -1,0 +1,56 @@
+/* Метаданные фильма - режиссер, рейтинг */
+.movie-metadata {
+  font-size: var(--step--1);
+  line-height: 1.7;
+  color: var(--secondary-text-colour);
+  margin: 0; /* Обнуляем, полагаемся на row-gap */
+  font-weight: 400;
+}
+
+.movie-metadata .bold {
+  font-weight: 500;
+  color: var(--text-colour);
+}
+
+/* Описание фильма */
+.movie-description {
+  line-height: 1.5;
+  color: var(--text-colour);
+  margin: 0; /* Обнуляем, полагаемся на row-gap */
+  font-weight: 400;
+  max-width: 66ch;
+}
+
+/* Уменьшаем отступ от заголовка секции до первого фильма */
+#advertising-films > article:first-of-type,
+#marketing-films > article:first-of-type,
+#business-films > article:first-of-type,
+#documentary-films > article:first-of-type {
+  margin-top: var(--space-s); 
+}
+
+/* Адаптивность */
+@media (width <= 768px) {
+  .movie-metadata {   
+    margin-top: var(--space-2xs);
+    margin-bottom: var(--space-xs);
+  }
+  
+  .movie-description {   
+    margin-top: var(--space-xs);
+  }
+  
+  #advertising-films > article:first-of-type,
+  #marketing-films > article:first-of-type,
+  #business-films > article:first-of-type,
+  #documentary-films > article:first-of-type {
+    margin-top: var(--space-s);
+  }
+}
+
+
+.section-subtitle {
+  font-weight: 700;
+  line-height: 1.5;
+  margin-bottom: var(--space-xs);
+}

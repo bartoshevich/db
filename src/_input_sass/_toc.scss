@@ -1,5 +1,7 @@
 @use "./variables" as v;
 
+
+/* 
 .toc {
   margin-top: var(--space-s);
   border: solid v.$secondary-text-colour;
@@ -39,6 +41,10 @@ li.level2 {
   color: v.$text-colour;
 }
 
+
+*/
+
+
 .tag-list {
   list-style: none;
   padding: 0;
@@ -76,4 +82,59 @@ li.level2 {
 .tag-link::before {
   content: "#";
   margin-right: 5px;
+}
+
+
+
+.toc {
+  margin-top: var(--space-s);
+  padding: var(--space-l); 
+  max-width: 680px;
+  background-color: var(--color-toc-ui-element-background);  
+  border: 0.7px solid var(--color-toc-separator-light); 
+  box-shadow: var(--toc-shadow);
+  transition: box-shadow 0.2s ease-in-out;
+  line-height: 1.6;
+  overflow-wrap: break-word;
+  display: block;
+}
+
+.toc:hover {
+  box-shadow: var(--toc-shadow-hover); 
+}
+
+
+
+/* Стили для заголовка Содержания, если он внутри .toc */
+.toc__title {
+  font-weight: 600;
+  color: var(--color-toc-text-primary);
+  margin-bottom: 1.5em;
+  padding: 0;
+  font-size: var(--step-1);
+  line-height: var(--space-m);
+}
+
+/* Стили для элементов списка (самих ссылок) */
+.toc ul {
+  list-style-type: none;
+  list-style-image: none;
+  text-align: left;
+  padding: 0;
+  margin: 1em 0;
+  
+}
+
+.toc li {
+  margin-bottom: var(--space-s);
+}
+
+li.level2 {
+  padding-left: 1em;
+}
+
+.tocnumber {
+  color: var(--color-toc-text-tertiary);
+  margin-right: var(--space-s);
+  font-weight: 500;
 }

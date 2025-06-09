@@ -2,11 +2,11 @@
 
 .blockquote--emphasis {
   position: relative;
-  display: inherit;
+  display: block;
 }
 
 .blockquote--emphasis:not(:last-child) {
-  margin-bottom: var(--space-xl-2xl);
+  margin-bottom: 2.55em;
 }
 
 .blockquote--emphasis::before {
@@ -32,7 +32,13 @@
 }
 
 .citation__author {
-  margin-top: var(--space-xs) !important;
+  margin-top: var(--space-xs);
+  color: var(--secondary-text-colour);
+}
+
+.citation__author::before {
+  content: "— "; 
+  color: var(--secondary-text-colour);
 }
 
 cite {

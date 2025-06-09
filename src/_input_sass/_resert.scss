@@ -45,6 +45,23 @@ html {
   --toc: #fafafa;
   --gray: #eaeaea;
 
+
+   /* TOC (светлая тема) */
+  --color-toc-ui-element-background: #f9f9f9; 
+  --color-toc-separator-light: rgba(60, 60, 67, 0.29);
+  --color-toc-text-primary: #1d1d1f;
+  --color-toc-text-secondary: #3c3c43; 
+  --color-toc-text-tertiary: #8e8e93; 
+  --toc-shadow: 
+    0 1px 2px rgba(0, 0, 0, 0.03),
+    0 2px 4px rgba(0, 0, 0, 0.04);  
+  --toc-shadow-hover: 
+    0 2px 4px rgba(0, 0, 0, 0.04), 
+    0 4px 8px rgba(0, 0, 0, 0.06);  
+
+
+
+
   /* Ссылки (светлая тема) */
   --link: #1d1d1f;
   --link-opacity-80: rgba(0, 0, 0, 0.8);
@@ -83,6 +100,19 @@ html[data-theme="dark"] {
   --secondary-text-colour-rgb: 184, 184, 188;
   --toc: #111111;
   --gray: #3a3a3c;
+
+     /* TOC (темная тема) */
+   --color-toc-ui-element-background: #2c2c2e;
+   --color-toc-separator-light: rgba(84, 84, 88, 0.65);
+   --color-toc-text-primary: #f5f5f7;
+   --color-toc-text-secondary: #aeaeb2;
+   --color-toc-text-tertiary: #8e8e93; 
+   --toc-shadow: 
+    0 1px 2px rgba(0, 0, 0, 0.1),   
+    0 0 0 0.5px rgba(255, 255, 255, 0.04); 
+  --toc-shadow-hover: 
+    0 2px 4px rgba(0, 0, 0, 0.15),  
+    0 0 0 0.75px rgba(255, 255, 255, 0.07); 
 
   /* Ссылки (темная тема) */
   --link: #f5f5f7;
