@@ -14,6 +14,66 @@
   <script src="{{ '/assets/scripts/registerServiceWorker.js' | hashed }}"></script>
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | hashed }}">
 
+  <script>
+    // Логирование готовности SW после загрузки страницы
+    window.addEventListener('load', () => {
+      console.log('🚀 Страница загружена, Service Worker должен быть инициализирован');
+      
+      // Проверяем статус SW через несколько секунд
+      setTimeout(() => {
+        if ('serviceWorker' in navigator && navigator.serviceWorker.controller) {
+          console.log('✅ Service Worker активен и контролирует страницу');
+        } else if ('serviceWorker' in navigator) {
+          console.log('⏳ Service Worker зарегистрирован, но еще не контролирует страницу');
+        }
+      }, 2000);
+    });
+  </script>
+
+  <!-- Встроенный скрипт для мониторинга сети -->
+  <script>
+    // Простой мониторинг сетевого статуса (дублирует функциональность SW менеджера)
+    function updateOnlineStatus() {
+      document.body.classList.toggle('offline', !navigator.onLine);
+      
+      // Логирование для отладки
+      if (!navigator.onLine) {
+        console.log('📴 Переход в офлайн режим');
+      } else {
+        console.log('🌐 Соединение восстановлено');
+      }
+    }
+
+    // Слушатели событий сети
+    window.addEventListener('online', updateOnlineStatus);
+    window.addEventListener('offline', updateOnlineStatus);
+    
+    // Проверяем начальное состояние
+    updateOnlineStatus();
+    
+    // Дополнительная проверка реального соединения
+    async function checkRealConnection() {
+      if (!navigator.onLine) return false;
+      
+      try {
+        const response = await fetch('/favicon.ico', {
+          method: 'HEAD',
+          cache: 'no-cache'
+        });
+        return response.ok;
+      } catch {
+        return false;
+      }
+    }
+    
+    // Периодическая проверка соединения (каждые 30 секунд)
+    setInterval(async () => {
+      const isReallyOnline = await checkRealConnection();
+      document.body.classList.toggle('connection-slow', navigator.onLine && !isReallyOnline);
+    }, 30000);
+  </script>
+  
+
   {% include "icons.njk" %}
 </head>
 

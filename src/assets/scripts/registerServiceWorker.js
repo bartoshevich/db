@@ -1,119 +1,281 @@
-// src/assets/scripts/registerServiceWorker.js
+// src/assets/scripts/registerServiceWorker.js - заменяет ваш существующий файл
+import { Workbox } from 'workbox-window';
 
-/* #### Service Worker Registration #### */
-(() => {
-  // Проверяем поддержку Service Worker и наличие объекта navigator
-  if (typeof navigator === "undefined" || !("serviceWorker" in navigator)) {
-    console.warn('Service Worker: Браузер не поддерживает Service Workers.');
-    return; // Выходим, если Service Worker не поддерживается
+class ServiceWorkerManager {
+  constructor() {
+    this.wb = null;
+    this.registration = null;
+    this.isUpdateAvailable = false;
+    this.isOffline = !navigator.onLine;
+    
+    // Инициализация
+    this.init();
+    this.setupNetworkListeners();
   }
 
-  // --- Проверяем среду выполнения (hostname) ---
-  const hostname = window.location.hostname;
-  // Определяем ваши продакшен-домены. Добавьте сюда 'www.bartoshevich.by' или другие, если используются.
-  const productionHosts = ['bartoshevich.by'];
+  async init() {
+    if (!('serviceWorker' in navigator)) {
+      console.warn('❌ Service Worker не поддерживается');
+      return;
+    }
 
-  // --- Условная регистрация ---
-  // Регистрируем Service Worker ТОЛЬКО если текущий hostname находится в списке продакшен-хостов
-  if (productionHosts.includes(hostname)) {
-      // --- Продакшен Среда: Регистрируем SW ---
-      console.log('Service Worker: Текущий хост продакшен (%s). Попытка регистрации...', hostname);
+    try {
+      // Используем комбинированный подход: Workbox + ваш кастомный SW
+      this.wb = new Workbox('/sw-generated.js', {
+        scope: '/',
+        updateViaCache: 'none' // Всегда проверяем обновления
+      });
+      
+      this.setupWorkboxListeners();
+      this.registration = await this.wb.register();
+      
+      console.log('✅ Service Worker зарегистрирован');
+      
+      // Проверяем обновления каждые 5 минут
+      this.startUpdateCheck();
+      
+    } catch (error) {
+      console.error('❌ Ошибка регистрации Service Worker:', error);
+    }
+  }
 
-      if (!navigator.serviceWorker.controller) {
-        // Service Worker еще не контролирует страницу - это первое посещение
-        // Предзагружаем критические шрифты
-        try {
-          const fontPreload = document.createElement('link');
-          fontPreload.rel = 'preload';
-          fontPreload.href = '/assets/fonts/pt-sans-v12-latin_cyrillic/pt-sans-v12-latin_cyrillic-regular.woff2';
-          fontPreload.as = 'font';
-          fontPreload.type = 'font/woff2';
-          fontPreload.crossOrigin = 'anonymous';
-          document.head.appendChild(fontPreload);
-          console.log('Font preload добавлен для первого посещения');
-        } catch (error) {
-          console.warn('Ошибка при предзагрузке шрифта:', error);
-        }
+  setupWorkboxListeners() {
+    // SW установлен и ждет активации
+    this.wb.addEventListener('waiting', (event) => {
+      console.log('⏳ Новая версия SW ожидает активации');
+      this.isUpdateAvailable = true;
+      this.showUpdateNotification();
+    });
+
+    // SW активирован и контролирует страницу
+    this.wb.addEventListener('controlling', (event) => {
+      console.log('🎯 Новый SW активирован');
+      // Показываем уведомление об успешном обновлении
+      this.showSuccessMessage();
+      // Перезагружаем через 1 секунду для применения изменений
+      setTimeout(() => window.location.reload(), 1000);
+    });
+
+    // Первая регистрация SW
+    this.wb.addEventListener('installed', (event) => {
+      if (!event.isUpdate) {
+        console.log('🎉 Service Worker установлен впервые');
+        this.showInstallMessage();
       }
+    });
 
-      // Функция регистрации с повторными попытками (оставляем вашу логику)
-      const registerServiceWorker = async (maxRetries = 2) => {
-        let retries = 0;
-        const attemptRegistration = async () => {
-          try {
-            // Выполняем регистрацию Service Worker'а
-            // Убедитесь, что путь к файлу Service Worker'а правильный.
-            // Если он копируется в корень _site через PassthroughCopy, путь '/service-workers.js' верен.
-            const registration = await navigator.serviceWorker.register(
-              "/service-workers.js",
-              { scope: "/" } // Область контроля SW (весь сайт)
-            );
-            console.log('Service Worker успешно зарегистрирован. Scope:', registration.scope);
-            return registration;
-          } catch (error) {
-            if (retries < maxRetries) {
-              retries++;
-              // Экспоненциальная задержка между попытками
-              const delay = Math.pow(2, retries) * 1000;
-              console.warn(`Service Worker: Регистрация не удалась, повторная попытка через ${delay}ms (Попытка ${retries}/${maxRetries}):`, error);
-              await new Promise((resolve) => setTimeout(resolve, delay));
-              return attemptRegistration(); // Повторная попытка
-            }
-            throw error; // Перебрасываем ошибку после всех попыток
+    // Обновления кеша
+    this.wb.addEventListener('message', (event) => {
+      if (event.data.type === 'CACHE_UPDATED') {
+        const { updatedURL } = event.data.payload;
+        console.log(`📦 Кеш обновлен для: ${updatedURL}`);
+      }
+      
+      if (event.data.type === 'SW_ACTIVATED') {
+        console.log('✅ SW сообщает об активации:', event.data.payload);
+      }
+    });
+  }
+
+  setupNetworkListeners() {
+    // Мониторинг сетевого статуса
+    window.addEventListener('online', () => {
+      this.isOffline = false;
+      this.hideOfflineIndicator();
+      console.log('🌐 Соединение восстановлено');
+      
+      // Проверяем обновления при восстановлении сети
+      this.checkForUpdates();
+    });
+
+    window.addEventListener('offline', () => {
+      this.isOffline = true;
+      this.showOfflineIndicator();
+      console.log('📴 Соединение потеряно');
+    });
+
+    // Проверяем начальное состояние
+    if (this.isOffline) {
+      this.showOfflineIndicator();
+    }
+  }
+
+  showUpdateNotification() {
+    // Удаляем предыдущие уведомления
+    this.removeNotification();
+    
+    const notification = document.createElement('div');
+    notification.className = 'sw-notification sw-update';
+    notification.innerHTML = `
+      <div class="sw-notification__content">
+        <div class="sw-notification__icon">🔄</div>
+        <div class="sw-notification__text">
+          <strong>Доступно обновление</strong>
+          <p>Новая версия сайта готова к установке</p>
+        </div>
+        <div class="sw-notification__actions">
+          <button class="sw-btn sw-btn--primary" data-action="update">
+            Обновить
+          </button>
+          <button class="sw-btn sw-btn--secondary" data-action="dismiss">
+            Позже
+          </button>
+        </div>
+      </div>
+    `;
+
+    document.body.appendChild(notification);
+
+    // Обработчики событий
+    notification.addEventListener('click', (e) => {
+      const action = e.target.dataset.action;
+      
+      if (action === 'update') {
+        this.activateUpdate();
+        this.removeNotification();
+      } else if (action === 'dismiss') {
+        this.removeNotification();
+        // Повторно показать через 10 минут
+        setTimeout(() => {
+          if (this.isUpdateAvailable) {
+            this.showUpdateNotification();
           }
-        };
-
-        // Запускаем регистрацию с отложенной логикой (ваша requestIdleCallback/setTimeout)
-        try {
-          await attemptRegistration();
-        } catch (error) {
-          // Логирование ошибки после всех неудачных попыток
-          console.error("Service Worker: Регистрация не удалась после повторных попыток:", error);
-          // В продакшн можно использовать более тихое логирование или отправку в сервис мониторинга ошибок
-        }
-      };
-
-      // Запускаем регистрацию, когда браузер не занят
-      if ("requestIdleCallback" in window) {
-        requestIdleCallback(() => registerServiceWorker());
-      } else {
-        // Фаллбэк для старых браузеров
-        setTimeout(() => registerServiceWorker(), 1000);
+        }, 10 * 60 * 1000);
       }
+    });
 
-  } else {
-      // --- Среда не Продакшен: Пропускаем Регистрацию и Снимаем Существующие ---
-      console.log('Service Worker: Текущий хост НЕ продакшен (%s). Регистрация пропущена.', hostname);
-
-      // В режиме разработки (localhost, 127.0.0.1) или на других не-продакшен хостах
-      // очень важно снять регистрацию любого ранее установленного SW,
-      // чтобы он не мешал локальной работе и отладке.
-      if ('serviceWorker' in navigator) { // Повторная проверка поддержки SW, хотя она уже была в начале IIFE
-           navigator.serviceWorker.getRegistrations().then(registrations => {
-            if (registrations.length > 0) {
-                 console.log('Service Worker: Найдено %d существующих регистраций для снятия.', registrations.length);
-            }
-            // Снимаем каждую найденную регистрацию
-            for (const registration of registrations) {
-              console.log('Service Worker: Снятие регистрации:', registration.scope);
-              registration.unregister(); // unregister() возвращает Promise, но нам не нужно ждать их завершения здесь
-            }
-          }).catch(error => {
-            console.error('Service Worker: Ошибка при получении/снятии регистраций:', error);
-          });
-
-           // Опционально: Можно также очистить все кеши, чтобы гарантировать чистый старт в dev.
-           // Будьте осторожны, это может быть излишне агрессивно.
-           /*
-           caches.keys().then(cacheNames => {
-               return Promise.all(
-                   cacheNames.map(cacheName => {
-                       console.log('Service Worker: Удаление кеша:', cacheName);
-                       return caches.delete(cacheName);
-                   })
-               );
-           }).then(() => console.log('Service Worker: Все кеши очищены.'));
-           */
+    // Автоскрытие через 30 секунд
+    setTimeout(() => {
+      if (notification.parentNode) {
+        this.removeNotification();
       }
+    }, 30000);
   }
-})();
+
+  showInstallMessage() {
+    const toast = this.createToast('🎉 Сайт готов к работе офлайн', 'success');
+    this.showToast(toast);
+  }
+
+  showSuccessMessage() {
+    const toast = this.createToast('✅ Сайт обновлен до последней версии', 'success');
+    this.showToast(toast);
+  }
+
+  showOfflineIndicator() {
+    let indicator = document.querySelector('.offline-indicator');
+    if (!indicator) {
+      indicator = document.createElement('div');
+      indicator.className = 'offline-indicator';
+      indicator.innerHTML = `
+        <span class="offline-indicator__icon">📴</span>
+        <span class="offline-indicator__text">Офлайн режим</span>
+      `;
+      document.body.appendChild(indicator);
+    }
+    indicator.classList.add('offline-indicator--visible');
+  }
+
+  hideOfflineIndicator() {
+    const indicator = document.querySelector('.offline-indicator');
+    if (indicator) {
+      indicator.classList.remove('offline-indicator--visible');
+    }
+  }
+
+  createToast(message, type = 'info') {
+    const toast = document.createElement('div');
+    toast.className = `sw-toast sw-toast--${type}`;
+    toast.textContent = message;
+    return toast;
+  }
+
+  showToast(toast) {
+    document.body.appendChild(toast);
+    
+    // Анимация появления
+    requestAnimationFrame(() => {
+      toast.classList.add('sw-toast--visible');
+    });
+
+    // Автоудаление через 3 секунды
+    setTimeout(() => {
+      toast.classList.remove('sw-toast--visible');
+      setTimeout(() => {
+        if (toast.parentNode) {
+          toast.remove();
+        }
+      }, 300);
+    }, 3000);
+  }
+
+  removeNotification() {
+    const notification = document.querySelector('.sw-notification');
+    if (notification) {
+      notification.remove();
+    }
+  }
+
+  async activateUpdate() {
+    if (!this.wb || !this.isUpdateAvailable) return;
+
+    console.log('🔄 Активация обновления SW...');
+    
+    // Показываем индикатор загрузки
+    const loading = this.createToast('⏳ Обновление...', 'info');
+    this.showToast(loading);
+
+    try {
+      // Сообщаем новому SW о необходимости активации
+      await this.wb.messageSW({ type: 'SKIP_WAITING' });
+      this.isUpdateAvailable = false;
+    } catch (error) {
+      console.error('❌ Ошибка активации обновления:', error);
+      const errorToast = this.createToast('❌ Ошибка обновления', 'error');
+      this.showToast(errorToast);
+    }
+  }
+
+  async checkForUpdates() {
+    if (this.registration) {
+      try {
+        await this.registration.update();
+        console.log('🔍 Проверка обновлений выполнена');
+      } catch (error) {
+        console.warn('⚠️ Ошибка проверки обновлений:', error);
+      }
+    }
+  }
+
+  startUpdateCheck() {
+    // Проверяем обновления каждые 5 минут
+    setInterval(() => {
+      if (!this.isOffline) {
+        this.checkForUpdates();
+      }
+    }, 5 * 60 * 1000);
+  }
+
+  // Публичные методы для внешнего использования
+  async forceUpdate() {
+    await this.checkForUpdates();
+  }
+
+  getStatus() {
+    return {
+      isRegistered: !!this.registration,
+      isUpdateAvailable: this.isUpdateAvailable,
+      isOffline: this.isOffline
+    };
+  }
+}
+
+// Инициализация и экспорт
+const swManager = new ServiceWorkerManager();
+
+// Глобальный доступ для отладки
+if (typeof window !== 'undefined') {
+  window.swManager = swManager;
+}
+
+export default swManager;
