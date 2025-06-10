@@ -114,105 +114,6 @@ export default function (eleventyConfig) {
   });
 
 
-/* ------------- Плагин для генерации service worker ------------- */
-
-// Копирование Service Worker файлов 
-  eleventyConfig.addPassthroughCopy({
-    "src/service-workers.js": "service-workers.js" 
-  });
-  
-  // Workbox: генерация дополнительного SW (только в production)
-  if (isProdBuild) {
-    eleventyConfig.on("afterBuild", async () => {
-      try {
-        console.log("🔄 Генерация Workbox Service Worker...");
-        
-        const { count, size } = await generateSW({
-          globDirectory: outputDir,
-          globPatterns: [
-            // Прекешируем критические ресурсы
-            '**/*.{html,css,js}',
-            // Ваши статические ресурсы
-            'assets/fonts/**/*.{woff2,woff}',
-            'assets/images/**/*.{svg,ico,png,jpg,jpeg,webp}',
-            // Исключаем медиа файлы
-            '!assets/media/**/*',
-            '!assets/images/optimized/**/*'
-          ],
-          globIgnores: [
-            '**/node_modules/**/*',
-            'service-workers.js', // Не кешируем ваш основной SW
-            'sw-generated.js' // Не кешируем сам Workbox SW
-          ],
-          swDest: `${outputDir}/sw-generated.js`,
-          // Импортируем ваш существующий SW
-          importScripts: ['/service-workers.js'],
-          
-          // Стратегии кеширования оптимизированы под ваш сайт
-          runtimeCaching: [
-            // HTML страницы - Network First (свежий контент приоритет)
-            {
-              urlPattern: /\.html$/,
-              handler: 'NetworkFirst',
-              options: {
-                cacheName: 'bartoshevich-pages',
-                expiration: {
-                  maxEntries: 50,
-                  maxAgeSeconds: 24 * 60 * 60
-                }
-              }
-            },
-            // CSS и JS - Stale While Revalidate  
-            {
-              urlPattern: /\.(?:css|js)$/,
-              handler: 'StaleWhileRevalidate',
-              options: {
-                cacheName: 'bartoshevich-assets',
-                expiration: {
-                  maxEntries: 100,
-                  maxAgeSeconds: 7 * 24 * 60 * 60
-                }
-              }
-            },
-            // Изображения - Cache First (долгосрочно)
-            {
-              urlPattern: /\.(?:png|jpg|jpeg|svg|webp|avif|gif|ico)$/,
-              handler: 'CacheFirst',
-              options: {
-                cacheName: 'bartoshevich-images',
-                expiration: {
-                  maxEntries: 200,
-                  maxAgeSeconds: 30 * 24 * 60 * 60
-                }
-              }
-            },
-            // Шрифты - Cache First (очень долгосрочно)
-            {
-              urlPattern: /\.(?:woff|woff2|ttf|otf)$/,
-              handler: 'CacheFirst',
-              options: {
-                cacheName: 'bartoshevich-fonts',
-                expiration: {
-                  maxEntries: 50,
-                  maxAgeSeconds: 365 * 24 * 60 * 60
-                }
-              }
-            }
-          ],
-          
-          clientsClaim: true,
-          skipWaiting: false, // Контролируемое обновление как у вас
-          mode: 'production'
-        });
-
-        console.log(`✅ Workbox Service Worker сгенерирован: ${count} файлов, ${(size / 1024).toFixed(2)} KB`);
-        
-      } catch (error) {
-        console.error('❌ Ошибка генерации Workbox Service Worker:', error);
-        // Сборка продолжается даже при ошибке SW
-      }
-    });
-  }
 
 
  
@@ -553,6 +454,7 @@ export default function (eleventyConfig) {
 
   const passthroughPaths = [
     path.join(inputDir, 'robots.txt'),
+    path.join(inputDir, 'sw.js'), 
     path.join(inputDir, 'site.webmanifest'), 
     path.join(inputDir, 'browserconfig.xml'),
     path.join(inputDir, 'favicon.ico'), 
