@@ -9,6 +9,7 @@ import spriteUrl from '../images/sprite.svg?url';
 import "./menu.js"; // Меню, header — обязательно
 import "./copyLength.js"; // Защита контента — обязательно
 import "./theme.js"; // Предполагается, что это registerServiceWorker.js или его часть
+import "./video.js";  // Видео — обязательно, если есть видео на странице
 
 // ===== Lazyload и другие модули, загружаемые по условию =====
 
@@ -39,15 +40,7 @@ document.addEventListener("DOMContentLoaded", () => {
        
     }
 
-  if (document.querySelector(".video")) {
-    import("./video.js")
-      .then((module) => {
-        if (typeof module.initializeVideos === 'function') {
-          module.initializeVideos();
-        }
-      })
-      .catch((err) => console.warn("Не удалось загрузить video.js:", err));
-  }
+
 
   if (document.querySelector(".image-expand")) {
     import("./imageExpand.js")

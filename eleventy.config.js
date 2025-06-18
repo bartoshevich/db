@@ -745,6 +745,11 @@ eleventyConfig.addPassthroughCopy({
 eleventyConfig.addPassthroughCopy({
   [`${inputDir}/assets/fonts`]: "assets/fonts"
 });
+
+// ✅ Копируем media
+eleventyConfig.addPassthroughCopy({
+  [`${inputDir}/assets/media`]: "assets/media"
+});
   
   // ИСПРАВЛЕНО: Игнорируем все файлы, которые обрабатывает Vite
   eleventyConfig.ignores.add(`${inputDir}/assets/images/sprite.svg`);
