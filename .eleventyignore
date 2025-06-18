@@ -11,3 +11,12 @@ package.json
 package-lock.json
 README.md
 .env
+
+
+
+# ✅ Исключаем спрайт из обработки Eleventy (его обрабатывает Vite)
+src/assets/images/sprite.svg
+
+# ✅ Исключаем JS и SCSS (их обрабатывает Vite)
+src/assets/scripts/
+src/assets/scss/

@@ -59,7 +59,7 @@
   row-gap: 16px;
 }
 
-@media (min-width: 69ch) {
+@media (min-width: 700px) {
   .section__content {
     min-width: 0;
     grid-template-columns: repeat(10, minmax(0, 1fr));

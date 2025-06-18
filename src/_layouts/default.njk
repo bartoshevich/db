@@ -7,102 +7,82 @@
 
   {% include "meta__tags.njk" %} 
 
+{# ========================================== #}
+{# VITE ИНТЕГРАЦИЯ #}
+{# ========================================== #}
+
+{# 1. Подключаем Vite dev client для HMR в режиме разработки #}
+{{ viteDevClient() | safe }}
+
+{# 2. Подключаем основной entry point (main.js + CSS) #}
+{{ viteAssetTags('assets/scripts/main.js') | safe }}
+
+{# 3. Preload-ссылки для продакшена (в dev ничего не выведет) #}
+{{ vitePreloadLinks(['assets/scripts/main.js']) | safe }}
+
+
+
+
+{# ========================================== #}
+{# ДОПОЛНИТЕЛЬНЫЕ СТИЛИ И СКРИПТЫ #}
+{# ========================================== #}
+{# Критический скрипт для темы загружаем сразу #}
+<script type="module" src="{{ viteAsset('assets/scripts/critical--theme.js') }}"></script>
+
   
+{# Иконки и фавиконки #}
+{% include "icons.njk" %}
 
 
-  <script src="{{ '/assets/scripts/critical--theme.js' | hashed }}"></script>
-  <script src="{{ '/assets/scripts/registerServiceWorker.js' | hashed }}"></script>
-  <link rel="stylesheet" href="{{ '/assets/css/style.css' | hashed }}">
-
-  <script>
-    // Логирование готовности SW после загрузки страницы
-    window.addEventListener('load', () => {
-      console.log('🚀 Страница загружена, Service Worker должен быть инициализирован');
-      
-      // Проверяем статус SW через несколько секунд
-      setTimeout(() => {
-        if ('serviceWorker' in navigator && navigator.serviceWorker.controller) {
-          console.log('✅ Service Worker активен и контролирует страницу');
-        } else if ('serviceWorker' in navigator) {
-          console.log('⏳ Service Worker зарегистрирован, но еще не контролирует страницу');
-        }
-      }, 2000);
-    });
-  </script>
-
-  <!-- Встроенный скрипт для мониторинга сети -->
-  <script>
-    // Простой мониторинг сетевого статуса (дублирует функциональность SW менеджера)
-    function updateOnlineStatus() {
-      document.body.classList.toggle('offline', !navigator.onLine);
-      
-      // Логирование для отладки
-      if (!navigator.onLine) {
-        console.log('📴 Переход в офлайн режим');
-      } else {
-        console.log('🌐 Соединение восстановлено');
-      }
-    }
-
-    // Слушатели событий сети
-    window.addEventListener('online', updateOnlineStatus);
-    window.addEventListener('offline', updateOnlineStatus);
-    
-    // Проверяем начальное состояние
-    updateOnlineStatus();
-    
-    // Дополнительная проверка реального соединения
-    async function checkRealConnection() {
-      if (!navigator.onLine) return false;
-      
-      try {
-        const response = await fetch('/favicon.ico', {
-          method: 'HEAD',
-          cache: 'no-cache'
-        });
-        return response.ok;
-      } catch {
-        return false;
-      }
-    }
-    
-    // Периодическая проверка соединения (каждые 30 секунд)
-    setInterval(async () => {
-      const isReallyOnline = await checkRealConnection();
-      document.body.classList.toggle('connection-slow', navigator.onLine && !isReallyOnline);
-    }, 30000);
-  </script>
-  
-
-  {% include "icons.njk" %}
 </head>
-
-
 <body class="body">
+
+
+{# Inline SVG спрайт для обхода Same-Origin Policy #}
+  {{ inlineSvgSprite() | safe }}
+
+
   <a href="#maincontent" class="element--hidden focusable">Перейти к содержимому</a>
    <div class="body__container"> 
     
-    {# Новый блок для меню #}
+{# ========================================== #}
+{# БЛОК МЕНЮ #}
+{# ========================================== #}
     {% block page_menu %}
         {% include "header.njk" %}   
     {% endblock %}
 
-       
+{# ========================================== #}
+{# ОСНОВНОЙ КОНТЕНТ #}
+{# =========================================== #}   
     <main class="section__content" id="maincontent">
-      {# Новый блок для основного контента #}
       {% block main_content %}
         {{ content | safe }} 
       {% endblock %}
     </main>
     
-    {% include "footer.njk" %} 
-  </div>
+{# ========================================== #}
+{# ФУТЕР #}
+{# ========================================== #}
+{% include "footer.njk" %}
+
+</div>
+
+{# ========================================== #}
+{# ОСНОВНЫЕ СКРИПТЫ #}
+{# ========================================== #}
 
 
-  <script defer src="{{ '/assets/scripts/main.bundle.js' | hashed }}"></script>
- 
-  <script data-collect-dnt="true" defer  src="https://scripts.simpleanalyticscdn.com/latest.js" crossorigin="anonymous"></script>
-  {% include "schema.njk" %}
+{# Аналитика Simple Analytics #}
+<script 
+  data-collect-dnt="true" 
+  defer 
+  src="https://scripts.simpleanalyticscdn.com/latest.js" 
+  crossorigin="anonymous">
+</script>
+
+{# Структурированные данные #}
+{% include "schema.njk" %}
 
   {# Новый блок для специфичных скриптов страницы #}
   {% block page_specific_scripts %}{% endblock %}

@@ -1,38 +1,41 @@
 @use "./variables" as v;
 
 .footer__nav {
-  margin: var(--space-xl-2xl) 0 var(--space-l) 0;
+  margin: 0 0 var(--space-xs) 0;
   display: grid;
   grid-template-columns: 1fr;
   grid-column-gap: 2rem;
   column-gap: 2rem;
   grid-column-gap: 8px;
   row-gap: 8px;
-  //overflow: hidden;
+   border-top: 1px solid var(--card-border);
+  padding-top: var(--space-xl-2xl);
+
+
 }
 
 @media (min-width: 640px) {
   .footer__nav {
     grid-template-columns: 2fr 4fr 4fr;
     grid-gap: 2rem;
-    //overflow: hidden;
+   
   }
 }
 
-.footer::before {
-  content: "* * *";
-  display: block;
-  text-align: center;
-  font-size: var(--step-3);
+.footer{
   padding-top: var(--space-2xl);
 }
 
 .credentials {
-  border-top: 1px dashed v.$text-colour;
-  padding: var(--space-xs-s) 0;
+  border-top: 1px solid var(--card-border);
+  padding: var(--space-s) 0;
 }
 
-.social {
+
+
+
+
+.footer-social {
   padding: var(--space-s) 0;
 }
 
@@ -77,8 +80,8 @@
 }
 
 .footer-social__icon {
-  width: 28px;
-  height: 28px;
+  width: 32px;
+  height: 32px;
   fill: #8E8E93;
   transition: transform 0.2s ease, opacity 0.2s ease;
   opacity: 0.7;

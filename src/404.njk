@@ -1,4 +1,5 @@
 ---
+layout: about
 permalink: /404.html 
 title: 404 — Страница не найдена
 description: "Страница на сайте Дмитрия Бартошевича не найдена (ошибка 404). Перейдите в блог или свяжитесь с автором для помощи." 
@@ -10,26 +11,8 @@ eleventyNavigation:
   title: "404"
   parent: home
 ---
-<!DOCTYPE html>
-<html lang="ru">
-<head>
-  <meta charset="utf-8">
-  <title>{{ title | safe }}</title> 
-  <meta name="viewport" content="width=device-width, initial-scale=1">
 
- 
-  <script src="{{ '/assets/scripts/critical--theme.js' | hashed }}"></script>
-  <link rel="stylesheet" href="{{ '/assets/css/style.css' | hashed }}">
- 
-  {% include "icons.njk" %} 
-</head>
-<body class="body">
-  <a href="#maincontent" class="element--hidden focusable">Перейти к содержимому</a>
-  
 
-  <div class="body__container"> 
-    {% include "header.njk" %} 
-    <main class="section__content row-gap--m" id="maincontent">
       <!-- Содержимое 404 страницы -->
       <h1 class="intro bold">Запрашиваемая страница не найдена</h1>  
       <h2 class="mb-m h2 bold">Что делать? </h2>
@@ -39,9 +22,4 @@ eleventyNavigation:
           <li class="list-li">Расскажите <a class="link" target="_blank" href="https://t.me/bartoshevich" rel="noopener nofollow noreferrer">в Telegram</a>, что вы искали и не нашли на сайте. </li>            
       </ul>   
     
-    </main>
-    {% include "footer.njk" %} 
-  </div>
-  <script defer src="{{ '/assets/scripts/main.bundle.js' | hashed }}"></script>
-</body>
-</html>
+  

@@ -1,50 +1,182 @@
 {
-  "name": "db--test",
-  "version": "1.0.0",
-  "main": "index.js",
+  "name": "bartoshevich-site",
+  "version": "2.0.0",
+  "description": "Сайт Дмитрия Бартошевича с интеграцией Eleventy + Vite",
   "type": "module",
   "scripts": {
-    "eleventy": "eleventy",
-    "eleventy:serve": "eleventy --serve",
-    "start": "cross-env NODE_ENV=development npm-run-all -p eleventy:serve",
-    "prebuild": "rm -rf _site",
-    "build": "cross-env NODE_ENV=production ELEVENTY_ENV=production npm run eleventy",
-    "clean": "rm -rf _site"
+    "_comment_dev": "=== РАЗРАБОТКА - ИСПРАВЛЕНО ===",
+    "dev": "concurrently \"npm run dev:vite\" \"npm run dev:eleventy\" --names \"🔥vite,📄11ty\" --prefix-colors \"blue,green\" --kill-others-on-fail",
+    "dev:vite": "cross-env VITE_MODE=serve vite --host localhost --port 5173",
+    "dev:eleventy": "cross-env ELEVENTY_ENV=development ELEVENTY_PORT=8080 npx @11ty/eleventy --serve --quiet",
+    "dev:debug": "concurrently \"npm run dev:vite\" \"npm run dev:eleventy:debug\" --names \"🔥vite,🐛11ty\" --prefix-colors \"blue,yellow\" --kill-others-on-fail",
+    "dev:eleventy:debug": "cross-env ELEVENTY_ENV=development DEBUG=Eleventy* npx @11ty/eleventy --serve",
+    
+    "_comment_build": "=== СБОРКА - ИСПРАВЛЕНО ===",
+    "build": "npm run clean && npm run build:vite && npm run build:eleventy",
+    "build:vite": "cross-env NODE_ENV=production vite build",
+    "build:eleventy": "cross-env ELEVENTY_ENV=production npx @11ty/eleventy",
+    "build:analyze": "npm run build:vite -- --mode analyze",
+    
+    "_comment_preview": "=== ПРЕДПРОСМОТР ===",
+    "preview": "npm run build && npm run preview:serve",
+    "preview:serve": "http-server _site -p 4173 -c-1 --cors",
+    "preview:vite": "vite preview",
+    
+    "_comment_utils": "=== УТИЛИТЫ ===",
+    "clean": "rimraf _site",
+    "clean:full": "rimraf _site node_modules/.vite .eleventy-cache",
+    "serve": "http-server _site -p 8000 -c-1",
+    
+    "_comment_quality": "=== КАЧЕСТВО КОДА ===",
+    "lint": "npm run lint:js && npm run lint:css",
+    "lint:js": "eslint 'src/**/*.js' 'scripts/**/*.js' '*.js'",
+    "lint:css": "stylelint 'src/**/*.{css,scss}'",
+    "lint:fix": "npm run lint:js -- --fix && npm run lint:css -- --fix",
+    "format": "prettier --write 'src/**/*.{js,css,scss,md,njk}' '*.{js,json,md}'",
+    
+    "_comment_test": "=== ТЕСТИРОВАНИЕ ===",
+    "test": "npm run build && npm run test:links && npm run test:integration",
+    "test:links": "node scripts/test-links.js",
+    "test:integration": "node scripts/test-integration.js",
+    "test:lighthouse": "node scripts/lighthouse-test.js",
+    
+    "_comment_deploy": "=== РАЗВЕРТЫВАНИЕ ===",
+    "deploy:netlify": "npm run build && netlify deploy --prod --dir=_site",
+    "deploy:preview": "npm run build && netlify deploy --dir=_site",
+    
+    "_comment_maintenance": "=== ОБСЛУЖИВАНИЕ ===",
+    "check-deps": "npm audit && npm outdated",
+    "update-deps": "npm update",
+    "health-check": "node scripts/health-check.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
+  
+  "keywords": [
+    "eleventy",
+    "vite",
+    "static-site",
+    "jamstack",
+    "marketing",
+    "business-site"
+  ],
+  "author": {
+    "name": "Дмитрий Бартошевич",
+    "email": "dmitry@bartoshevich.by",
+    "url": "https://bartoshevich.by"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bartoshevich/db"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=9.0.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead",
+    "not ie 11"
+  ],
   "devDependencies": {
-    "@11ty/eleventy": "^3.0.0",
-    "@11ty/eleventy-assets": "^1.0.6",
-    "@11ty/eleventy-img": "^6.0.2",
+    "@11ty/eleventy": "^3.1.1",
+    "@11ty/eleventy-img": "^6.0.4",
     "@11ty/eleventy-navigation": "^1.0.4",
-    "@11ty/eleventy-plugin-rss": "^2.0.3",
-    "@fullhuman/postcss-purgecss": "^7.0.2",
+    "@11ty/eleventy-plugin-rss": "^2.0.4",
+    "@eslint/js": "^9.29.0",
     "@quasibit/eleventy-plugin-sitemap": "^2.2.0",
     "autoprefixer": "^10.4.21",
+    "cheerio": "^1.1.0",
+    "clean-css": "^5.3.3",
+    "concurrently": "^9.1.2",
     "cross-env": "^7.0.3",
-    "esbuild": "^0.25.3",
-    "fs-extra": "^11.3.0",
+    "eslint": "^9.29.0",
+    "eslint-config-prettier": "^10.1.5",
     "html-minifier-terser": "^7.2.0",
-    "lightningcss": "^1.29.3",
+    "http-proxy-middleware": "^3.0.5",
+    "http-server": "^14.1.1",
+    "lighthouse": "^12.6.1",
+    "lightningcss": "^1.30.1",
     "luxon": "^3.6.1",
-    "npm-run-all": "^4.1.5",
-    "postcss": "^8.5.3",
-    "postcss-cli": "^11.0.1",
-    "postcss-lightningcss": "^1.0.1",
-    "sass": "^1.86.3",
-    "svgo": "^3.3.2",
-    "terser": "^5.39.0"
-  },
-  "dependencies": {
+    "markdown-it": "^14.1.0",
+    "markdown-it-anchor": "^9.2.0",
+    "nunjucks": "^3.2.4",
+    "postcss": "^8.5.6",
+    "postcss-nesting": "^13.0.2",
+    "prettier": "^3.5.3",
+    "puppeteer": "^24.10.1",
+    "rimraf": "^6.0.1",
+    "sass": "^1.89.2",
+    "stylelint": "^16.20.0",
+    "stylelint-config-standard-scss": "^15.0.1",
+    "vite": "^6.3.5",
     "workbox-build": "^7.3.0",
-    "workbox-cacheable-response": "^7.3.0",
-    "workbox-expiration": "^7.3.0",
-    "workbox-precaching": "^7.3.0",
-    "workbox-routing": "^7.3.0",
-    "workbox-strategies": "^7.3.0",
     "workbox-window": "^7.3.0"
+  },
+  "peerDependencies": {
+    "node": ">=20.19.1"
+  },
+  "config": {
+    "site_url": "https://bartoshevich.by",
+    "dev_port": 8080,
+    "vite_port": 5173
+  },
+  "postcss": {
+    "plugins": {
+      "postcss-nesting": {},
+      "autoprefixer": {}
+    }
+  },
+  "stylelint": {
+    "extends": [
+      "stylelint-config-standard-scss"
+    ],
+    "rules": {
+      "selector-class-pattern": "^[a-z][a-z0-9]*(-[a-z0-9]+)*(__[a-z][a-z0-9]*(-[a-z0-9]+)*)?(--[a-z][a-z0-9]*(-[a-z0-9]+)*)?$",
+      "scss/at-import-no-partial-leading-underscore": null,
+      "scss/dollar-variable-pattern": "^[a-z][a-zA-Z0-9]*(-[a-z][a-zA-Z0-9]*)*$"
+    }
+  },
+  "eslintConfig": {
+    "extends": [
+      "@eslint/js/recommended",
+      "prettier"
+    ],
+    "env": {
+      "browser": true,
+      "node": true,
+      "es2022": true
+    },
+    "parserOptions": {
+      "ecmaVersion": 2022,
+      "sourceType": "module"
+    },
+    "rules": {
+      "no-unused-vars": [
+        "error",
+        {
+          "argsIgnorePattern": "^_"
+        }
+      ],
+      "no-console": [
+        "warn",
+        {
+          "allow": [
+            "warn",
+            "error"
+          ]
+        }
+      ],
+      "prefer-const": "error"
+    }
+  },
+  "prettier": {
+    "semi": true,
+    "singleQuote": true,
+    "tabWidth": 2,
+    "trailingComma": "es5",
+    "printWidth": 100,
+    "bracketSpacing": true,
+    "arrowParens": "avoid"
   }
 }
