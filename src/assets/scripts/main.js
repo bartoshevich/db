@@ -8,8 +8,8 @@ import spriteUrl from '../images/sprite.svg?url';
 // ===== Критично для UX/UI =====
 import "./menu.js"; // Меню, header — обязательно
 import "./copyLength.js"; // Защита контента — обязательно
-import "./theme.js"; // Предполагается, что это registerServiceWorker.js или его часть
-import "./video.js";  // Видео — обязательно, если есть видео на странице
+import "./theme.js"; 
+
 
 // ===== Lazyload и другие модули, загружаемые по условию =====
 
@@ -33,14 +33,15 @@ document.addEventListener("DOMContentLoaded", () => {
             .catch((err) => {
                 console.error("💥 Не удалось загрузить randomArticle.js:", err);
             });
-    } else {
-        console.warn('⚠️ Кнопка #random-article-button не найдена на странице');
-        // Покажем все ID на странице для отладки
-       
-       
-    }
+    } 
 
-
+ if (document.querySelector(".video")) {
+    import("./video.js")
+      .then((module) => {
+        module.initVideo();
+      })
+      .catch((err) => console.error("⚠️ Ошибка при загрузке video.js", err));
+  }
 
   if (document.querySelector(".image-expand")) {
     import("./imageExpand.js")

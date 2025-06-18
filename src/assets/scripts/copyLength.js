@@ -1,5 +1,5 @@
 
-/* #### Copy to Clipboard #### */
+
 (() => {
   const MIN_COPY_LENGTH = 300;
   const MAX_COPY_LENGTH = 2000;

@@ -1,7 +1,8 @@
 
- "use strict";
+ 
 
- document.addEventListener("DOMContentLoaded", () => {
+ export function initVideo() {
+
    const YOUTUBE_EMBED_BASE = "https://www.youtube-nocookie.com/embed/";
    const YOUTUBE_PARAMS = "?rel=0&showinfo=0&autoplay=1";
 
@@ -80,6 +81,5 @@
 
    const videos = document.querySelectorAll(".video");
    videos.forEach(setupVideo);
- });
 
- 
+}
