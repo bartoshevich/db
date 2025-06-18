@@ -162,6 +162,29 @@ export default function(eleventyConfig) {
 
   eleventyConfig.setDataDeepMerge(true);
 
+
+
+  // =================================================================
+  // CSP ХЕШИРОВАНИЕ ДЛЯ КРИТИЧЕСКОГО СКРИПТА
+  // =================================================================
+  
+  // Читаем содержимое критического скрипта один раз при запуске
+  const criticalScriptContent = fs.readFileSync(
+    path.resolve(__dirname, 'src/assets/scripts/critical--theme.js'), 
+    'utf8'
+  );
+
+  // Вычисляем SHA256 хеш и кодируем в Base64
+  const cspScriptHash = crypto
+    .createHash('sha256')
+    .update(criticalScriptContent)
+    .digest('base64');
+    
+  // Делаем хеш и содержимое скрипта доступными во всех шаблонах
+  eleventyConfig.addGlobalData("cspScriptHash", cspScriptHash);
+  eleventyConfig.addGlobalData("criticalScriptContent", criticalScriptContent);
+
+
   // =================================================================
   // ГЛОБАЛЬНЫЕ ДАННЫЕ
   // =================================================================
@@ -723,8 +746,7 @@ export default function(eleventyConfig) {
   `${inputDir}/favicon-16x16.png`,
   `${inputDir}/safari-pinned-tab.svg`,
   `${inputDir}/_redirects`,
-  `${inputDir}/_headers`,
-  `${inputDir}/CNAME`
+   `${inputDir}/CNAME`
 ];
 
 passthroughFiles.forEach(file => {

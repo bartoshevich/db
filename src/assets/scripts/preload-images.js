@@ -1,1 +1,0 @@
-import '../images/sprite.svg'; // Импортируем спрайт иконок

@@ -11,6 +11,14 @@
 {# VITE ИНТЕГРАЦИЯ #}
 {# ========================================== #}
 
+{% if isProdBuild %}
+    {# В production-сборке вставляем содержимое скрипта для максимальной скорости #}
+    <script>{{ criticalScriptContent | safe }}</script>
+  {% else %}
+    {# В dev-режиме подключаем как модуль, чтобы Vite обеспечивал HMR #}
+    <script type="module" src="{{ viteAsset('src/assets/scripts/critical--theme.js') }}"></script>
+  {% endif %}
+
 {# 1. Подключаем Vite dev client для HMR в режиме разработки #}
 {{ viteDevClient() | safe }}
 
@@ -20,14 +28,6 @@
 {# 3. Preload-ссылки для продакшена (в dev ничего не выведет) #}
 {{ vitePreloadLinks(['assets/scripts/main.js']) | safe }}
 
-
-
-
-{# ========================================== #}
-{# ДОПОЛНИТЕЛЬНЫЕ СТИЛИ И СКРИПТЫ #}
-{# ========================================== #}
-{# Критический скрипт для темы загружаем сразу #}
-<script type="module" src="{{ viteAsset('assets/scripts/critical--theme.js') }}"></script>
 
   
 {# Иконки и фавиконки #}
