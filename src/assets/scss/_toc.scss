@@ -1,48 +1,7 @@
 @use "./variables" as v;
 
 
-/* 
-.toc {
-  margin-top: var(--space-s);
-  border: solid v.$secondary-text-colour;
-  border-width: var(--space-3xs);
-  padding: var(--space-m);
-  display: inline-block;
-  word-wrap: break-word;
-  max-width: 680px;
-  line-height: 1.65;
-  position: relative;
-}
 
-.toc__title {
-  font-weight: 600;
-  position: absolute;
-  background-color: v.$background-color;
-  color: v.$text-colour;
-  right: 1rem;
-  top: -0.85em;
-  padding: 0 0.6em;
-  font-size: var(--step-1);
-  line-height: var(--space-m);
-}
-
-.toc ul {
-  list-style-type: none;
-  list-style-image: none;
-  text-align: left;
-}
-
-li.level2 {
-  padding-left: 1em;
-}
-
-.tocnumber {
-  padding-right: var(--space-2xs);
-  color: v.$text-colour;
-}
-
-
-*/
 
 
 .tag-list {
@@ -138,3 +97,68 @@ li.level2 {
   margin-right: var(--space-s);
   font-weight: 500;
 }
+
+
+/* Модификатор для добавления отступов между категориями в TOC */
+.toc_divided > ul > li {
+  margin-top: 1.5rem;
+  letter-spacing: -0.01em;
+ 
+}
+
+.toc_divided > ul > li > .link {
+   color: var(--text-colour);
+}
+
+
+.toc_divided > ul > li:first-child {
+  margin-top: 0;
+}
+
+
+
+
+
+
+/* 
+.toc {
+  margin-top: var(--space-s);
+  border: solid v.$secondary-text-colour;
+  border-width: var(--space-3xs);
+  padding: var(--space-m);
+  display: inline-block;
+  word-wrap: break-word;
+  max-width: 680px;
+  line-height: 1.5;
+  position: relative;
+}
+
+.toc__title {
+  font-weight: 600;
+  position: absolute;
+  background-color: v.$background-color;
+  color: v.$text-colour;
+  right: 1rem;
+  top: -0.85em;
+  padding: 0 0.6em;
+  font-size: var(--step-1);
+  line-height: var(--space-m);
+}
+
+.toc ul {
+  list-style-type: none;
+  list-style-image: none;
+  text-align: left;
+}
+
+li.level2 {
+  padding-left: 1em;
+}
+
+.tocnumber {
+  padding-right: var(--space-2xs);
+  color: v.$text-colour;
+}
+
+
+*/
