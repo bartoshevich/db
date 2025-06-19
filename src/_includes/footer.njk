@@ -16,7 +16,7 @@
             <ul class="header__item--bleed item__content nav__group">
                 {% for item in navData.footerNav %}
                     {# Добавляем класс active, если URL совпадает #}
-                    <li class="{% if item.url != currentUrl %} nav__li{% endif %} bold{% if item.url == currentUrl %} nav__li--active{% endif %}">
+                    <li class="{% if item.url != currentUrl %} nav__li{% endif %} bold{% if item.url == currentUrl %} nav__li nav__li--active{% endif %}">
                         {% if item.url == currentUrl %}
                             {# Текущая страница: просто текст #}
                             {{ item.text }}
