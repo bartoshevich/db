@@ -1,4 +1,4 @@
-@use "./variables" as v;
+@use './variables' as v;
 
 .related-ideas {
   margin-top: var(--space-3xl);
@@ -7,12 +7,12 @@
 }
 
 .related-ideas::before {
-  content: "";
+  content: '';
   position: absolute;
   left: 0;
   top: 0;
   bottom: 0;
-  width:9px;
+  width: 9px;
   border-left: 2px dotted v.$link;
   border-right: 2px dotted v.$link;
   opacity: 0.9;
@@ -58,22 +58,36 @@
   position: relative;
   padding: 4px 6px;
   overflow: hidden;
-  
-
-  &::after {
-    content: "\00A0→";
-    display: inline-block;
-    transition: transform 0.2s ease;
-    transform: translateY(-1px);
-    white-space: nowrap;
-  }
 
   &:hover {
     color: var(--link-hover);
     text-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
 
+    .link-arrow {
+      transform: translateX(6px);
+      opacity: var(--arrow-hover-opacity, 0.4);
+    }
+
     &::after {
       transform: translate(5px, -1px);
+    }
+  }
+}
+
+.link-arrow {
+  display: inline-block;
+  transition:
+    transform 0.3s cubic-bezier(0.4, 0, 0.2, 1),
+    opacity 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  white-space: nowrap;
+  opacity: 1;
+  transform: translateX(0);
+  will-change: transform, opacity;
+
+  /* Убираем will-change после завершения анимации */
+  @media (prefers-reduced-motion: no-preference) {
+    .related-ideas__link:not(:hover) & {
+      will-change: auto;
     }
   }
 }
@@ -83,7 +97,9 @@
   height: 20px;
   fill: var(--gray);
   flex-shrink: 0;
-  transition: fill 0.3s ease, transform 0.3s ease;
+  transition:
+    fill 0.3s ease,
+    transform 0.3s ease;
   align-self: center;
   justify-self: center;
 }

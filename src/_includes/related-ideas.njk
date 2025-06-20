@@ -8,7 +8,7 @@
         <use href="{{ spritePath() }}#trekking_icon"></use>
       </svg>
       <a href="{{ idea.url }}" class="related-ideas__link link-as-text">
-        {{ idea.title | safe }}
+        {{ idea.title | noBreakArrow | safe }}
       </a>
     </li>
     {% endfor %}

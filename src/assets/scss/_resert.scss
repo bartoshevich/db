@@ -89,6 +89,7 @@ html {
   --button-bg-color: #2c2c2e;
   --button-text-color: #ffffff;
   --button-hover-bg-color: #000000;
+  --arrow-hover-opacity: 0.4; 
 
    /* SW уведомления (светлая тема) */
   --sw-notification-bg: #ffffff;
@@ -171,6 +172,7 @@ html[data-theme="dark"] {
   --button-bg-color: #f5f5f7;
   --button-text-color: #1c1c1e;
   --button-hover-bg-color: #ffffff;
+   --arrow-hover-opacity: 0.6; 
 
   /* SW уведомления (темная тема) */
   --sw-notification-bg: var(--color-toc-ui-element-background);

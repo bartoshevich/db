@@ -541,6 +541,15 @@ export default function(eleventyConfig) {
     return '';
   });
 
+ /* Принудительно склеиваем последние слова со стрелкой в блоке related */
+eleventyConfig.addFilter("noBreakArrow", function(text) {
+  return text.replace(/\s+(\S+)$/, '&nbsp;$1<span class="link-arrow">&nbsp;→</span>');
+});
+
+
+
+
+
    /* --------------- Фильтр для безопасного использования в RSS-каналах --------------- */
 
   eleventyConfig.addFilter("feedSafe", (v) => {
