@@ -846,10 +846,13 @@ eleventyConfig.addFilter("noBreakArrow", function(text) {
   `${inputDir}/favicon-32x32.png`,
   `${inputDir}/apple-touch-icon.png`,
   `${inputDir}/favicon-16x16.png`,
+  `${inputDir}/android-chrome-192x192.png`,
   `${inputDir}/safari-pinned-tab.svg`,
   `${inputDir}/_redirects`,
    `${inputDir}/CNAME`
 ];
+
+
 
 passthroughFiles.forEach(file => {
   const fullPath = path.resolve(process.cwd(), file);
