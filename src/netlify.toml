@@ -5,3 +5,18 @@
 [build.environment]
   NODE_VERSION = "20"
   ELEVENTY_ENV = "production"
+  SW_ENABLED = "true"
+
+# Service Worker headers
+[[headers]]
+  for = "/sw.js"
+  [headers.values]
+    Cache-Control = "no-cache, no-store, must-revalidate"
+    Content-Type = "application/javascript; charset=utf-8"
+    Service-Worker-Allowed = "/"
+    
+[[headers]]
+  for = "/workbox-*.js"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+    Content-Type = "application/javascript; charset=utf-8"

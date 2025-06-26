@@ -28,5 +28,21 @@
     "theme_color": "#fff",
     "start_url":"/",
     "background_color": "#fafafa",
-    "display": "standalone"
+    "display": "standalone",
+     "shortcuts": [
+    {
+      "name": "Блог",
+      "short_name": "Блог",
+      "description": "Статьи о маркетинге и брендинге",
+      "url": "/blog/",
+      "icons": [{ "src": "/maskable_icon.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Услуги",
+      "short_name": "Услуги", 
+      "description": "Маркетинговые услуги",
+      "url": "/uslugi/",
+      "icons": [{ "src": "/maskable_icon.png", "sizes": "192x192" }]
+    }
+  ]
 }

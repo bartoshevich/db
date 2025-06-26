@@ -47,7 +47,8 @@
     "_comment_maintenance": "=== ОБСЛУЖИВАНИЕ ===",
     "check-deps": "npm audit && npm outdated",
     "update-deps": "npm update",
-    "health-check": "node scripts/health-check.js"
+    "health-check": "node scripts/health-check.js",
+    "validate:sw": "node scripts/validate-sw.js"
   },
   
   "keywords": [

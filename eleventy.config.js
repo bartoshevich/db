@@ -186,6 +186,86 @@ export default function(eleventyConfig) {
 
 
   // =================================================================
+  // SW СКРИПТ С ХЕШИРОВАНИЕМ (добавить после критического скрипта)
+  // =================================================================
+
+  // Утилиты для генерации CSP хеша (если их еще нет)
+  function cleanScriptCode(code) {
+    return code
+      .replace(/\/\*[\s\S]*?\*\//g, '') // Убираем многострочные комментарии
+      .replace(/\/\/.*$/gm, '')         // Убираем однострочные комментарии
+      .replace(/\s+/g, ' ')             // Нормализуем пробелы
+      .trim();                          // Убираем крайние пробелы
+  }
+
+  function generateCSPHash(content) {
+    return crypto
+      .createHash('sha256')
+      .update(content)
+      .digest('base64');
+  }
+
+  // SW конфигурация
+  const SW_CONFIG = {
+    updateCheckInterval: 300000, // 5 минут
+    bannerAutoHideDelay: 25000,  // 25 секунд
+    scrollSaveKey: 'sw-scroll-position',
+    bannerId: 'sw-update-notification'
+  };
+
+  const SW_STRINGS = {
+    ru: {
+      updateMessage: 'Доступна новая версия сайта',
+      updateButton: 'Обновить',
+      dismissButton: 'Позже',
+      updateButtonAriaLabel: 'Применить обновление сайта',
+      dismissButtonAriaLabel: 'Отложить обновление'
+    }
+  };
+
+  // ИСПРАВЛЕНО: Обработка SW скрипта только в production
+  if (isProdBuild) {
+    try {
+      // Читаем шаблон SW скрипта
+      const swTemplatePath = path.resolve(__dirname, 'src/assets/scripts/sw-init.template.js');
+      
+      if (!fs.existsSync(swTemplatePath)) {
+        console.warn('⚠️ SW template не найден:', swTemplatePath);
+        eleventyConfig.addGlobalData("swScriptContent", "");
+        eleventyConfig.addGlobalData("swScriptHash", "");
+      } else {
+        const swTemplateContent = fs.readFileSync(swTemplatePath, 'utf8');
+
+        // Заменяем плейсхолдеры
+        const swScriptContent = swTemplateContent
+          .replace('{{UPDATE_CHECK_INTERVAL}}', SW_CONFIG.updateCheckInterval)
+          .replace('{{BANNER_AUTO_HIDE_DELAY}}', SW_CONFIG.bannerAutoHideDelay)
+          .replace('{{SCROLL_SAVE_KEY}}', SW_CONFIG.scrollSaveKey)
+          .replace('{{BANNER_ID}}', SW_CONFIG.bannerId)
+          .replace('{{SW_STRINGS}}', JSON.stringify(SW_STRINGS.ru));
+
+        // Очищаем и генерируем хеш
+        const cleanedSwScript = cleanScriptCode(swScriptContent);
+        const swScriptHash = generateCSPHash(cleanedSwScript);
+
+        // Делаем доступными в шаблонах
+        eleventyConfig.addGlobalData("swScriptContent", cleanedSwScript);
+        eleventyConfig.addGlobalData("swScriptHash", swScriptHash);
+
+        console.log(`✅ SW script hash: sha256-${swScriptHash}`);
+      }
+    } catch (error) {
+      console.error('❌ Ошибка обработки SW скрипта:', error.message);
+      eleventyConfig.addGlobalData("swScriptContent", "");
+      eleventyConfig.addGlobalData("swScriptHash", "");
+    }
+  } else {
+    // В dev режиме SW скрипт не нужен
+    eleventyConfig.addGlobalData("swScriptContent", "");
+    eleventyConfig.addGlobalData("swScriptHash", "");
+  }
+
+  // =================================================================
   // ГЛОБАЛЬНЫЕ ДАННЫЕ
   // =================================================================
   
@@ -799,7 +879,109 @@ eleventyConfig.addPassthroughCopy({
   eleventyConfig.ignores.add(`${inputDir}/assets/images/sprite.svg`);
   eleventyConfig.ignores.add(`${inputDir}/assets/scripts/**/*`);
   eleventyConfig.ignores.add(`${inputDir}/assets/scss/**/*`);
+
   
+// =================================================================
+// ГЕНЕРАЦИЯ SERVICE WORKER (в конце eleventy.config.js)
+// =================================================================
+
+if (isProdBuild) {
+  eleventyConfig.on('eleventy.after', async () => {
+    try {
+      console.log('🔄 Генерация Service Worker...');
+      
+      const { generateSW } = await import('workbox-build');
+      const workboxConfigModule = await import('./workbox-config.js');
+      const workboxConfig = workboxConfigModule.default;
+      
+      // Netlify detection
+      const isNetlify = process.env.NETLIFY === 'true';
+      if (isNetlify) {
+        console.log('🌐 Netlify deployment detected');
+        workboxConfig.additionalManifestEntries.push({
+          url: '/_redirects',
+          revision: null
+        });
+        workboxConfig.globIgnores = [
+          ...workboxConfig.globIgnores,
+          '**/.netlify/**/*',
+          '**/functions/**/*'
+        ];
+      }
+      
+      const swPath = path.resolve(__dirname, '_site/sw.js');
+      
+      // Генерируем SW
+      const { count, size, warnings } = await generateSW(workboxConfig);
+      
+      console.log(`✅ SW сгенерирован: ${count} файлов, ${(size / 1024 / 1024).toFixed(2)} MB`);
+      
+      if (warnings.length > 0) {
+        console.warn('⚠️ SW warnings:', warnings);
+      }
+      
+      // ИСПРАВЛЕНО: Читаем, проверяем и модифицируем SW
+      let swContent = fs.readFileSync(swPath, 'utf8');
+      
+      // Проверяем что файл не пустой и валидный
+      if (!swContent || swContent.length < 100) {
+        throw new Error('Generated SW file is empty or too small');
+      }
+      
+      // Убираем возможные лишние пробелы в начале/конце
+      swContent = swContent.trim();
+      
+      // Добавляем обработчик в начало с правильным форматированием
+      const skipWaitingHandler = `// Обработчик для ручного управления skipWaiting
+self.addEventListener('message', (event) => {
+  if (event.data && event.data.type === 'SKIP_WAITING') {
+    console.log('🚀 SW: Received SKIP_WAITING, applying update...');
+    self.skipWaiting();
+  }
+});
+
+`;
+      
+      // Объединяем с новой строкой
+      const finalSwContent = skipWaitingHandler + swContent;
+      
+      // Проверяем синтаксис перед записью
+      try {
+        new Function(finalSwContent);
+      } catch (syntaxError) {
+        console.error('🚨 SW syntax error after modification:', syntaxError.message);
+        throw new Error(`SW syntax validation failed: ${syntaxError.message}`);
+      }
+      
+      // Записываем исправленный файл
+      fs.writeFileSync(swPath, finalSwContent, 'utf8');
+      
+      console.log('✅ SW обработчик SKIP_WAITING добавлен');
+      
+    } catch (error) {
+      console.error('❌ Ошибка генерации SW:', error.message);
+      
+      // Создаём минимальный fallback SW
+      const fallbackSW = `// Fallback Service Worker
+self.addEventListener('fetch', (event) => {
+  // Пропускаем все запросы без кэширования
+  return;
+});
+
+self.addEventListener('message', (event) => {
+  if (event.data && event.data.type === 'SKIP_WAITING') {
+    self.skipWaiting();
+  }
+});
+`;
+      
+      const swPath = path.resolve(__dirname, '_site/sw.js');
+      fs.writeFileSync(swPath, fallbackSW, 'utf8');
+      console.log('🆘 Создан fallback SW');
+    }
+  });
+}
+   
   
   // =================================================================
   // КОНФИГУРАЦИЯ ВОЗВРАТА
@@ -818,5 +1000,4 @@ eleventyConfig.addPassthroughCopy({
     }
   };
 }
-
 
