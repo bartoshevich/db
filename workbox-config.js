@@ -1,34 +1,41 @@
 export default {
   globDirectory: '_site/',
   globPatterns: [
-    '**/*.{html,js,css,woff,woff2}',
-    // Только критичные иконки в корне
+    // Явно указываем, что кэшируем
+    '**/*.html', // Все HTML файлы
+    '**/*.js',   // Все JS файлы, сгенерированные Vite
+    '**/*.css',  // Все CSS файлы, сгенерированные Vite
+    '**/*.woff', // Шрифты
+    '**/*.woff2',
+    
+    // Иконки и манифесты - они должны быть в корне
     'favicon*.{png,ico}',
     'apple-touch-icon*.png',
-    'maskable_icon*.png'
+    'maskable_icon*.png',
+    'maskable_icon_x512.png',
+    'android-chrome-192x192.png',
+    'safari-pinned-tab.svg',
+    'site.webmanifest',
+    
+    // SEO и Feed файлы
+    'robots.txt',
+    'sitemap.xml',
+    'feed.xml',
+    'feed.json'
   ],
 
  globIgnores: [
-    '**/sw.js',
-    '**/sw-backup.js', 
-    '**/workbox-*.js',
-    '**/node_modules/**/*',
-    // ✅ ИСПРАВЛЕНО: Правильные пути для Netlify файлов
+    'sw.js', 
+    'sw.js.map',
+    'workbox-*.js',
+    'workbox-*.js.map',
     '_headers',
     '_redirects',
-    '**/_headers',
-    '**/_redirects',
-    '**/manifest.json', // Vite manifest
-    // Исключаем ВСЕ изображения контента из precache
-    '**/images/**/*',
-    '**/*.{png,jpg,jpeg,gif,webp,avif,svg}',
-    // ✅ ИСПРАВЛЕНО: Включаем обратно критичные иконки
-    '!favicon*.{png,ico}',
-    '!apple-touch-icon*.png', 
-    '!maskable_icon*.png',
-    // ✅ ДОБАВЛЕНО: Исключаем проблемные файлы
-    '**/workbox-28240*',
-    'netlify.toml'
+    'netlify.toml',
+    '**/.netlify/**/*',   
+    'assets/images/**/*',   
+    'maskable_icon.png', 
+    'assets/media/**/*'
   ],
 
   swDest: '_site/sw.js',

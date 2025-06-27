@@ -22,14 +22,3 @@
     Content-Type = "application/javascript; charset=utf-8"
 
 
-[[redirects]]
-  from = "/analytics/script.js"
-  to = "https://scripts.simpleanalyticscdn.com/latest.js"
-  status = 200
-  force = true
-
-[[redirects]]
-  from = "/analytics/*"
-  to = "https://queue.simpleanalyticscdn.com/:splat"
-  status = 200
-  force = true
