@@ -832,21 +832,21 @@ export default function (eleventyConfig) {
 if (isProdBuild) {
   eleventyConfig.on('eleventy.after', async () => {
     try {
-      console.log('🔄 Запускаю генерацию Service Worker...');
+      console.log('🔄 Запускаю генерацию Service Worker (режим injectManifest)...');
 
-      // 1. Запускаем Workbox
-      const { generateSW } = await import('workbox-build');
+      // ✅ ИСПОЛЬЗУЕМ injectManifest
+      const { injectManifest } = await import('workbox-build');
       const workboxConfigModule = await import('./workbox-config.js');
       const workboxConfig = workboxConfigModule.default;
 
-      const { count, size, warnings } = await generateSW(workboxConfig);
+      const { count, size, warnings } = await injectManifest(workboxConfig);
 
       if (warnings.length > 0) {
         console.warn('⚠️  Предупреждения от Workbox:', warnings);
       }
       
       console.log(
-        `✅ Service Worker успешно сгенерирован: ${count} файлов, ${(size / 1024).toFixed(2)} KB.`
+        `✅ Service Worker успешно сгенерирован: ${count} файлов для precache, итоговый размер ${(size / 1024).toFixed(2)} KB.`
       );
 
     } catch (error) {
