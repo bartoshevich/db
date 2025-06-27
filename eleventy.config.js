@@ -724,7 +724,7 @@ export default function (eleventyConfig) {
     });
   });
 
-   eleventyConfig.addTransform('htmlmin', async (content, outputPath) => {
+    eleventyConfig.addTransform('htmlmin', async (content, outputPath) => {
     if (!outputPath?.endsWith('.html') || !isProdBuild) {
       return content;
     }
@@ -735,13 +735,23 @@ export default function (eleventyConfig) {
         removeComments: true,
         collapseWhitespace: true,
         conservativeCollapse: true,
-        // ... другие опции по желанию
+        removeEmptyAttributes: true,
+        removeRedundantAttributes: true,
+        removeScriptTypeAttributes: true,
+        removeStyleLinkTypeAttributes: true,
+        minifyCSS: true,
+        // ✅ ВАЖНО: Мы говорим htmlmin, что именно игнорировать
+        ignoreCustomFragments: [
+            /<script\s*data-csp-preserve\s*>[\s\S]*?<\/script>/
+        ],
+        minifyJS: true, 
       });
     } catch (error) {
       console.warn(`⚠️ HTML minification error for ${outputPath}:`, error.message);
       return content;
     }
   });
+
 
   eleventyConfig.addTransform('normalizeNfc', (content, outputPath) => {
     if (outputPath?.endsWith('.html') && content && typeof content === 'string') {

@@ -12,7 +12,7 @@
 {# ========================================== #}
 
  {% if isProdBuild %}   
-    <script>{{ minifiedCriticalJs | safe }}</script>
+    <script data-csp-preserve>{{ minifiedCriticalJs | safe }}</script>
   {% else %}
     <script type="module" src="{{ viteAsset('src/assets/scripts/critical--theme.js') }}"></script>
   {% endif %}
