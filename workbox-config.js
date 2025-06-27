@@ -28,6 +28,7 @@ export default {
     '*.txt', // Исключаем все .txt, включая robots.txt
     'browserconfig.xml',
     'sw.js.map', // Исключаем карту, если она генерируется
+     'offline/index.html',
     'workbox-*.js',
     'workbox-*.js.map'
   ],
@@ -48,7 +49,10 @@ export default {
   // Это лучше сочетается с предлагаемым ниже подходом.
   skipWaiting: true, 
 
-
+ // ✅ Явно добавляем офлайн-страницу.
+  additionalManifestEntries: [
+    { url: '/offline/', revision: null }
+  ],
 
   // ✅ ИСПРАВЛЕНО: Оптимизированное кэширование во время работы
   runtimeCaching: [
