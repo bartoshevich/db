@@ -1,27 +1,24 @@
 export default {
   globDirectory: '_site/',
-  globPatterns: [
-    // Явно указываем, что кэшируем
-    '**/*.html', // Все HTML файлы
-    '**/*.js',   // Все JS файлы, сгенерированные Vite
-    '**/*.css',  // Все CSS файлы, сгенерированные Vite
-    '**/*.woff', // Шрифты
-    '**/*.woff2',
+globPatterns: [
+    // Только HTML файлы в определенных папках
+    'index.html',
+    'offline/index.html',
+    'about/index.html', 
+    'blog/index.html',
+    'uslugi/index.html',
+    'cases/index.html',
+    'contact/index.html',
+    'uslugi/index.html',
     
-    // Иконки и манифесты - они должны быть в корне
-    'favicon*.{png,ico}',
+    // Только ассеты
+    'assets/**/*.{js,css,woff,woff2}',
+    
+    // Только критичные иконки
+    'favicon.ico',
+    'favicon-*.png',
     'apple-touch-icon*.png',
-    'maskable_icon*.png',
-    'maskable_icon_x512.png',
-    'android-chrome-192x192.png',
-    'safari-pinned-tab.svg',
-    'site.webmanifest',
-    
-    // SEO и Feed файлы
-    'robots.txt',
-    'sitemap.xml',
-    'feed.xml',
-    'feed.json'
+    'maskable_icon*.png'
   ],
 
  globIgnores: [
@@ -29,10 +26,16 @@ export default {
     'sw.js.map',
     'workbox-*.js',
     'workbox-*.js.map',
-    '_headers',
+    '**/node_modules/**/*',    
     '_redirects',
+    '_headers', 
+    '**/_redirects',
+    '**/_headers',
+    '**/redirects',
+    '**/headers',
     'netlify.toml',
-    '**/.netlify/**/*',   
+
+
     'assets/images/**/*',   
     'maskable_icon.png', 
     'assets/media/**/*'
