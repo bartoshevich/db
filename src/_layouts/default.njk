@@ -11,11 +11,9 @@
 {# VITE ИНТЕГРАЦИЯ #}
 {# ========================================== #}
 
-{% if isProdBuild %}
-    {# В production-сборке вставляем содержимое скрипта для максимальной скорости #}
-    <script>{{ criticalScriptContent | safe }}</script>
+ {% if isProdBuild %}   
+    <script>{{ minifiedCriticalJs | safe }}</script>
   {% else %}
-    {# В dev-режиме подключаем как модуль, чтобы Vite обеспечивал HMR #}
     <script type="module" src="{{ viteAsset('src/assets/scripts/critical--theme.js') }}"></script>
   {% endif %}
 

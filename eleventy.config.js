@@ -1,5 +1,3 @@
-// eleventy.config.js - Исправленная и оптимизированная версия
-
 import path from 'path';
 import * as fs from 'node:fs';
 import { fileURLToPath } from 'url';
@@ -8,12 +6,15 @@ import eleventyNavigationPlugin from '@11ty/eleventy-navigation';
 import sitemap from '@quasibit/eleventy-plugin-sitemap';
 import Image from '@11ty/eleventy-img';
 import pluginRss from '@11ty/eleventy-plugin-rss';
-import crypto from 'crypto';
 import * as Nunjucks from 'nunjucks';
 import { createProxyMiddleware } from 'http-proxy-middleware';
-import CleanCSS from 'clean-css';
 import htmlmin from 'html-minifier-terser';
 import { transform as lightningcssTransform } from 'lightningcss';
+
+
+import { minify as terserMinify } from 'terser';
+import crypto from 'crypto';
+
 
 // =================================================================
 // НАСТРОЙКИ ОКРУЖЕНИЯ И ПУТЕЙ
@@ -169,24 +170,7 @@ export default function (eleventyConfig) {
 
   eleventyConfig.setDataDeepMerge(true);
 
-  // =================================================================
-  // CSP ХЕШИРОВАНИЕ ДЛЯ КРИТИЧЕСКОГО СКРИПТА
-  // =================================================================
-
-  // Читаем содержимое критического скрипта один раз при запуске
-  const criticalScriptContent = fs.readFileSync(
-    path.resolve(__dirname, 'src/assets/scripts/critical--theme.js'),
-    'utf8'
-  );
-
-  // Вычисляем SHA256 хеш и кодируем в Base64
-  const cspScriptHash = crypto.createHash('sha256').update(criticalScriptContent).digest('base64');
-
-  // Делаем хеш и содержимое скрипта доступными во всех шаблонах
-  eleventyConfig.addGlobalData('cspScriptHash', cspScriptHash);
-  eleventyConfig.addGlobalData('criticalScriptContent', criticalScriptContent);
-
-  
+    
 
   // =================================================================
   // ГЛОБАЛЬНЫЕ ДАННЫЕ
@@ -396,6 +380,33 @@ export default function (eleventyConfig) {
       manifestEntries: viteManifest ? Object.keys(viteManifest).length : 0,
     };
   });
+
+
+
+// =================================================================
+  // ✅ НОВЫЙ БЛОК: Подготовка данных для инлайн-скрипта и CSP
+  // =================================================================
+ 
+
+  const criticalScriptContent = fs.readFileSync(
+    path.resolve(__dirname, 'src/assets/scripts/critical--theme.js'), 'utf8'
+  );
+  
+  // Минимизируем код синхронно (это нормально для старта сборки)
+  const minifiedResult = terserMinify(criticalScriptContent, {
+    mangle: { toplevel: true },
+    compress: true
+  });
+  
+  const minifiedCriticalJs = minifiedResult.code || criticalScriptContent;
+  
+  // Вычисляем хэш от МИНИМИЗИРОВАННОГО кода
+  const cspScriptHash = crypto.createHash('sha256').update(minifiedCriticalJs).digest('base64');
+  
+  // Делаем минимизированный код и хэш доступными во всех шаблонах
+  eleventyConfig.addGlobalData('minifiedCriticalJs', minifiedCriticalJs);
+  eleventyConfig.addGlobalData('cspScriptHash', cspScriptHash);
+
 
   // =================================================================
   // ПЛАГИНЫ
@@ -713,7 +724,7 @@ export default function (eleventyConfig) {
     });
   });
 
-  eleventyConfig.addTransform('htmlmin', async (content, outputPath) => {
+   eleventyConfig.addTransform('htmlmin', async (content, outputPath) => {
     if (!outputPath?.endsWith('.html') || !isProdBuild) {
       return content;
     }
@@ -724,19 +735,7 @@ export default function (eleventyConfig) {
         removeComments: true,
         collapseWhitespace: true,
         conservativeCollapse: true,
-        removeEmptyAttributes: true,
-        removeRedundantAttributes: true,
-        removeScriptTypeAttributes: true,
-        removeStyleLinkTypeAttributes: true,
-        minifyCSS: {
-          level: 2,
-        },
-        minifyJS: {
-          mangle: {
-            toplevel: true,
-          },
-        },
-        ignoreCustomFragments: [/\{\{[\s\S]*?\}\}/, /\{%[\s\S]*?%\}/],
+        // ... другие опции по желанию
       });
     } catch (error) {
       console.warn(`⚠️ HTML minification error for ${outputPath}:`, error.message);
