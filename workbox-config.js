@@ -1,36 +1,40 @@
-// workbox-config.js - ИСПРАВЛЕННАЯ КОНФИГУРАЦИЯ
+// workbox-config.js - ФИНАЛЬНАЯ ИСПРАВЛЕННАЯ ВЕРСИЯ (убирает ВСЕ предупреждения)
 
 export default {
   // Директория, где находятся готовые файлы сайта
   globDirectory: '_site/',
   
-  // ЧТО кэшировать при установке SW
+  // ✅ ИСПРАВЛЕНО: Только файлы которые точно существуют (БЕЗ robots.txt)
   globPatterns: [
-    // HTML-страницы (критичные)
+    // HTML-страницы
     '**/*.html',
     
     // Ассеты, сгенерированные Vite (с хэшами)
     'assets/css/*.css',
     'assets/js/*.js',
     'assets/fonts/*.{woff,woff2}',
-    'assets/images/sprite-*.svg', // ✅ Только спрайт для предкэширования
+    'assets/images/sprite-*.svg', // Только спрайт для предкэширования
 
-    // Корневые PWA файлы
-    '*.{ico,png,svg,webmanifest,xml,txt}',
+    // ✅ Только файлы которые точно существуют
+    'favicon.ico',
+    'site.webmanifest',
     'feed.json'
+    
   ],
 
-  // ЧТО НЕ кэшировать при установке
+  // ✅ ИСПРАВЛЕНО: Убрали дублирование и конфликты
   globIgnores: [
-    // Служебные файлы
+    // Служебные файлы (БЕЗ дублирования)
     'sw.js',
     'sw.js.map',
-    '_headers', 
+    '_headers',
     '_redirects',
     'workbox-*.js',
     'workbox-*.js.map',
-    'netlify.toml'
-    // ✅ НЕ исключаем изображения - они обрабатываются в runtimeCaching
+    'netlify.toml',
+    'CNAME',
+    '*.txt', // robots.txt будет кэшироваться через runtimeCaching
+    'browserconfig.xml'
   ],
 
   // Куда сохранить сгенерированный Service Worker
@@ -39,7 +43,7 @@ export default {
   // Режим сборки
   mode: 'production',
 
-  // ✅ ИСПРАВЛЕНО: Увеличен лимит для современных сайтов
+  // ✅ Увеличен лимит для современных сайтов
   maximumFileSizeToCacheInBytes: 5 * 1024 * 1024, // 5MB
 
   // Очистка старых кэшей
@@ -59,17 +63,11 @@ export default {
         expiration: {
           maxEntries: 50,
           maxAgeSeconds: 60 * 60 * 24 * 7 // 7 дней
-        },
-        // ✅ Добавлены broadcast updates для уведомлений
-        plugins: [{
-          cacheKeyWillBeUsed: async ({ request }) => {
-            return `${request.url}?v=${Date.now()}`;
-          }
-        }]
+        }
       }
     },
     
-    // Cloudinary изображения - оптимизированное кэширование
+    // Cloudinary изображения
     {
       urlPattern: ({ request, url }) => 
         request.destination === 'image' && 
@@ -81,15 +79,7 @@ export default {
           maxEntries: 150, 
           maxAgeSeconds: 60 * 60 * 24 * 60, // 60 дней
           purgeOnQuotaError: true
-        },
-        plugins: [{
-          cacheKeyWillBeUsed: async ({ request }) => {
-            // ✅ Убираем query params для лучшего кэширования
-            const url = new URL(request.url);
-            url.searchParams.delete('_t');
-            return url.toString();
-          }
-        }]
+        }
       }
     },
     
@@ -110,7 +100,7 @@ export default {
       }
     },
 
-    // ✅ НОВОЕ: CSS и JS файлы (если пропущены)
+    // CSS и JS файлы (если пропущены)
     {
       urlPattern: ({ request }) => 
         request.destination === 'style' || 
@@ -125,7 +115,7 @@ export default {
       }
     },
 
-    // ✅ НОВОЕ: Шрифты
+    // Шрифты
     {
       urlPattern: ({ request }) => request.destination === 'font',
       handler: 'CacheFirst',
@@ -136,10 +126,25 @@ export default {
           maxAgeSeconds: 60 * 60 * 24 * 365 // 1 год
         }
       }
+    },
+
+    // ✅ НОВОЕ: Статические файлы (robots.txt, sitemap.xml и др.)
+    {
+      urlPattern: ({ url }) => 
+        /\.(txt|xml)$/i.test(url.pathname) &&
+        url.origin === self.location.origin,
+      handler: 'StaleWhileRevalidate',
+      options: {
+        cacheName: 'static-files-cache',
+        expiration: {
+          maxEntries: 20,
+          maxAgeSeconds: 60 * 60 * 24 * 7 // 7 дней
+        }
+      }
     }
   ],
   
-  // ✅ ИСПРАВЛЕНО: Улучшенная страница-заглушка для оффлайн
+  // ✅ Страница-заглушка для оффлайн
   navigateFallback: '/offline/',
   
   // ✅ ИСПРАВЛЕНО: Точные правила исключения
@@ -155,50 +160,9 @@ export default {
     /\/sitemap\./
   ],
 
-  // ✅ НОВОЕ: Дополнительные файлы манифеста с версионированием
-  additionalManifestEntries: [
-    {
-      url: '/offline/',
-      revision: '{{BUILD_VERSION}}' // Будет заменено при сборке
-    }
-  ],
+  // ✅ НЕ добавляем additionalManifestEntries - файлы добавляются только если существуют
 
-  // ✅ НОВОЕ: Настройки для лучшей отладки
+  // ✅ Настройки для лучшей отладки
   inlineWorkboxRuntime: false, // Выносим workbox в отдельный файл
   sourcemap: process.env.NODE_ENV !== 'production'
 };
-
-// ✅ ДОПОЛНИТЕЛЬНЫЕ НАСТРОЙКИ для интеграции с Eleventy
-export const workboxPlugins = [
-  // Plugin для broadcast updates (уведомления об обновлениях)
-  {
-    name: 'broadcast-update-plugin',
-    code: `
-      import { BroadcastUpdatePlugin } from 'workbox-broadcast-update';
-      
-      const broadcastUpdate = new BroadcastUpdatePlugin({
-        headersToCheck: ['content-length', 'etag', 'last-modified'],
-        generatePayload: ({ cacheName, updatedURL }) => ({
-          type: 'CACHE_UPDATED',
-          payload: {
-            cacheName,
-            updatedURL,
-            timestamp: Date.now()
-          }
-        })
-      });
-    `
-  },
-  
-  // Plugin для background sync (офлайн формы)
-  {
-    name: 'background-sync-plugin', 
-    code: `
-      import { BackgroundSyncPlugin } from 'workbox-background-sync';
-      
-      const bgSyncPlugin = new BackgroundSyncPlugin('contact-form-queue', {
-        maxRetentionTime: 24 * 60 // 24 часа
-      });
-    `
-  }
-];

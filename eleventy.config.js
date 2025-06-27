@@ -1,19 +1,19 @@
 // eleventy.config.js - Исправленная и оптимизированная версия
 
-import path from "path";
+import path from 'path';
 import * as fs from 'node:fs';
 import { fileURLToPath } from 'url';
-import { DateTime } from "luxon";
-import eleventyNavigationPlugin from "@11ty/eleventy-navigation";
-import sitemap from "@quasibit/eleventy-plugin-sitemap";
-import Image from "@11ty/eleventy-img";
-import pluginRss from "@11ty/eleventy-plugin-rss";
+import { DateTime } from 'luxon';
+import eleventyNavigationPlugin from '@11ty/eleventy-navigation';
+import sitemap from '@quasibit/eleventy-plugin-sitemap';
+import Image from '@11ty/eleventy-img';
+import pluginRss from '@11ty/eleventy-plugin-rss';
 import crypto from 'crypto';
-import * as Nunjucks from "nunjucks";
+import * as Nunjucks from 'nunjucks';
 import { createProxyMiddleware } from 'http-proxy-middleware';
 import CleanCSS from 'clean-css';
-import htmlmin from "html-minifier-terser";
-import { transform as lightningcssTransform } from "lightningcss";
+import htmlmin from 'html-minifier-terser';
+import { transform as lightningcssTransform } from 'lightningcss';
 
 // =================================================================
 // НАСТРОЙКИ ОКРУЖЕНИЯ И ПУТЕЙ
@@ -22,14 +22,14 @@ import { transform as lightningcssTransform } from "lightningcss";
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-const isProdBuild = process.env.ELEVENTY_ENV === "production";
+const isProdBuild = process.env.ELEVENTY_ENV === 'production';
 const isDevBuild = !isProdBuild;
 
-const inputDir = "src";
-const includesDir = "_includes";
-const layoutsDir = "_layouts";
-const outputDir = "_site";
-const dataDir = "_data";
+const inputDir = 'src';
+const includesDir = '_includes';
+const layoutsDir = '_layouts';
+const outputDir = '_site';
+const dataDir = '_data';
 
 const VITE_DEV_SERVER_URL = 'http://localhost:5173';
 const VITE_MANIFEST_PATH = path.join(outputDir, 'assets', 'manifest.json');
@@ -43,9 +43,12 @@ const VITE_MANIFEST_PATH = path.join(outputDir, 'assets', 'manifest.json');
  */
 async function checkViteDevServer(url) {
   if (isProdBuild) return false;
-  
+
   try {
-    const response = await fetch(`${url}/@vite/client`, { method: 'HEAD', timeout: 1000 });
+    const response = await fetch(`${url}/@vite/client`, {
+      method: 'HEAD',
+      timeout: 1000,
+    });
     return response.ok;
   } catch {
     return false;
@@ -57,7 +60,7 @@ async function checkViteDevServer(url) {
  */
 function loadViteManifest() {
   if (isDevBuild) return null;
-  
+
   try {
     if (fs.existsSync(VITE_MANIFEST_PATH)) {
       const manifestContent = fs.readFileSync(VITE_MANIFEST_PATH, 'utf-8');
@@ -68,12 +71,14 @@ function loadViteManifest() {
   } catch (error) {
     console.warn(`⚠️ Не удалось загрузить Vite манифест: ${error.message}`);
   }
-  
+
   if (isProdBuild) {
     console.error(`🚨 В production режиме манифест обязателен: ${VITE_MANIFEST_PATH}`);
-    throw new Error('Vite манифест не найден. Запустите "npm run build:vite" перед сборкой Eleventy.');
+    throw new Error(
+      'Vite манифест не найден. Запустите "npm run build:vite" перед сборкой Eleventy.'
+    );
   }
-  
+
   return null;
 }
 
@@ -86,11 +91,11 @@ function getViteAssetUrl(assetKey, manifest = null) {
     const cleanKey = assetKey.startsWith('/') ? assetKey.slice(1) : assetKey;
     return `${VITE_DEV_SERVER_URL}/${cleanKey}`;
   }
-  
+
   if (manifest && manifest[assetKey]) {
     return `/assets/${manifest[assetKey].file}`;
   }
-  
+
   console.warn(`⚠️ Vite ассет не найден: ${assetKey}`);
   return `/${assetKey}`;
 }
@@ -99,43 +104,43 @@ function getViteAssetUrl(assetKey, manifest = null) {
 // ОСНОВНАЯ КОНФИГУРАЦИЯ ELEVENTY
 // =================================================================
 
-export default function(eleventyConfig) {
-  
+export default function (eleventyConfig) {
   // Загружаем манифест для production
   const viteManifest = loadViteManifest();
-  
+
   // =================================================================
-  // НАСТРОЙКИ DEV РЕЖИМА И СЕРВЕРА С ПРОКСИ 
+  // НАСТРОЙКИ DEV РЕЖИМА И СЕРВЕРА С ПРОКСИ
   // =================================================================
-  
+
   if (isDevBuild) {
     // ИСПРАВЛЕНИЕ: Правильная настройка прокси для всех ассетов
     const viteProxy = createProxyMiddleware({
       target: VITE_DEV_SERVER_URL,
       changeOrigin: true,
       ws: true, // WebSocket для HMR
-      pathFilter: (pathname) => {
-
+      pathFilter: pathname => {
         if (pathname.startsWith('/assets/images/optimized/')) {
-        return false; // НЕ проксируем оптимизированные изображения
-      }
+          return false; // НЕ проксируем оптимизированные изображения
+        }
         // Проксируем все запросы к ассетам на Vite
-        return pathname.startsWith('/assets/') || 
-               pathname.startsWith('/@vite/') || 
-               pathname.startsWith('/@fs/') || 
-               pathname.startsWith('/@id/') ||
-               pathname.includes('.js') ||
-               pathname.includes('.css') ||
-               pathname.includes('.scss') ||
-               pathname.includes('.svg') ||
-               pathname.includes('.png') ||
-               pathname.includes('.jpg') ||
-               pathname.includes('.avif') ||
-               pathname.includes('.jpeg') ||
-               pathname.includes('.gif') ||
-               pathname.includes('.webp') ||
-               pathname.includes('.woff') ||
-               pathname.includes('.woff2');
+        return (
+          pathname.startsWith('/assets/') ||
+          pathname.startsWith('/@vite/') ||
+          pathname.startsWith('/@fs/') ||
+          pathname.startsWith('/@id/') ||
+          pathname.includes('.js') ||
+          pathname.includes('.css') ||
+          pathname.includes('.scss') ||
+          pathname.includes('.svg') ||
+          pathname.includes('.png') ||
+          pathname.includes('.jpg') ||
+          pathname.includes('.avif') ||
+          pathname.includes('.jpeg') ||
+          pathname.includes('.gif') ||
+          pathname.includes('.webp') ||
+          pathname.includes('.woff') ||
+          pathname.includes('.woff2')
+        );
       },
       onError: (err, req, res) => {
         console.error(`❌ Vite proxy error для ${req.url}:`, err.message);
@@ -144,46 +149,42 @@ export default function(eleventyConfig) {
           res.end('Asset not found');
         }
       },
-      logLevel: 'silent'
+      logLevel: 'silent',
     });
 
     eleventyConfig.setServerOptions({
       port: process.env.ELEVENTY_PORT || 8080,
       showAllHosts: true,
-      middleware: [viteProxy]
+      middleware: [viteProxy],
     });
 
     eleventyConfig.setWatchThrottleWaitTime(100);
-    eleventyConfig.addWatchTarget("src/assets/");
+    eleventyConfig.addWatchTarget('src/assets/');
     eleventyConfig.setQuietMode(true);
-    
-    console.log(`🚀 Dev режим: Eleventy (${process.env.ELEVENTY_PORT || 8080}) → Vite (${VITE_DEV_SERVER_URL})`);
+
+    console.log(
+      `🚀 Dev режим: Eleventy (${process.env.ELEVENTY_PORT || 8080}) → Vite (${VITE_DEV_SERVER_URL})`
+    );
   }
 
   eleventyConfig.setDataDeepMerge(true);
 
-
-
   // =================================================================
   // CSP ХЕШИРОВАНИЕ ДЛЯ КРИТИЧЕСКОГО СКРИПТА
   // =================================================================
-  
+
   // Читаем содержимое критического скрипта один раз при запуске
   const criticalScriptContent = fs.readFileSync(
-    path.resolve(__dirname, 'src/assets/scripts/critical--theme.js'), 
+    path.resolve(__dirname, 'src/assets/scripts/critical--theme.js'),
     'utf8'
   );
 
   // Вычисляем SHA256 хеш и кодируем в Base64
-  const cspScriptHash = crypto
-    .createHash('sha256')
-    .update(criticalScriptContent)
-    .digest('base64');
-    
-  // Делаем хеш и содержимое скрипта доступными во всех шаблонах
-  eleventyConfig.addGlobalData("cspScriptHash", cspScriptHash);
-  eleventyConfig.addGlobalData("criticalScriptContent", criticalScriptContent);
+  const cspScriptHash = crypto.createHash('sha256').update(criticalScriptContent).digest('base64');
 
+  // Делаем хеш и содержимое скрипта доступными во всех шаблонах
+  eleventyConfig.addGlobalData('cspScriptHash', cspScriptHash);
+  eleventyConfig.addGlobalData('criticalScriptContent', criticalScriptContent);
 
   // =================================================================
   // SW СКРИПТ С ХЕШИРОВАНИЕМ (добавить после критического скрипта)
@@ -193,24 +194,21 @@ export default function(eleventyConfig) {
   function cleanScriptCode(code) {
     return code
       .replace(/\/\*[\s\S]*?\*\//g, '') // Убираем многострочные комментарии
-      .replace(/\/\/.*$/gm, '')         // Убираем однострочные комментарии
-      .replace(/\s+/g, ' ')             // Нормализуем пробелы
-      .trim();                          // Убираем крайние пробелы
+      .replace(/\/\/.*$/gm, '') // Убираем однострочные комментарии
+      .replace(/\s+/g, ' ') // Нормализуем пробелы
+      .trim(); // Убираем крайние пробелы
   }
 
   function generateCSPHash(content) {
-    return crypto
-      .createHash('sha256')
-      .update(content)
-      .digest('base64');
+    return crypto.createHash('sha256').update(content).digest('base64');
   }
 
   // SW конфигурация
   const SW_CONFIG = {
     updateCheckInterval: 300000, // 5 минут
-    bannerAutoHideDelay: 25000,  // 25 секунд
+    bannerAutoHideDelay: 25000, // 25 секунд
     scrollSaveKey: 'sw-scroll-position',
-    bannerId: 'sw-update-notification'
+    bannerId: 'sw-update-notification',
   };
 
   const SW_STRINGS = {
@@ -219,8 +217,8 @@ export default function(eleventyConfig) {
       updateButton: 'Обновить',
       dismissButton: 'Позже',
       updateButtonAriaLabel: 'Применить обновление сайта',
-      dismissButtonAriaLabel: 'Отложить обновление'
-    }
+      dismissButtonAriaLabel: 'Отложить обновление',
+    },
   };
 
   // ИСПРАВЛЕНО: Обработка SW скрипта только в production
@@ -228,11 +226,11 @@ export default function(eleventyConfig) {
     try {
       // Читаем шаблон SW скрипта
       const swTemplatePath = path.resolve(__dirname, 'src/assets/scripts/sw-init.template.js');
-      
+
       if (!fs.existsSync(swTemplatePath)) {
         console.warn('⚠️ SW template не найден:', swTemplatePath);
-        eleventyConfig.addGlobalData("swScriptContent", "");
-        eleventyConfig.addGlobalData("swScriptHash", "");
+        eleventyConfig.addGlobalData('swScriptContent', '');
+        eleventyConfig.addGlobalData('swScriptHash', '');
       } else {
         const swTemplateContent = fs.readFileSync(swTemplatePath, 'utf8');
 
@@ -249,53 +247,53 @@ export default function(eleventyConfig) {
         const swScriptHash = generateCSPHash(cleanedSwScript);
 
         // Делаем доступными в шаблонах
-        eleventyConfig.addGlobalData("swScriptContent", cleanedSwScript);
-        eleventyConfig.addGlobalData("swScriptHash", swScriptHash);
+        eleventyConfig.addGlobalData('swScriptContent', cleanedSwScript);
+        eleventyConfig.addGlobalData('swScriptHash', swScriptHash);
 
         console.log(`✅ SW script hash: sha256-${swScriptHash}`);
       }
     } catch (error) {
       console.error('❌ Ошибка обработки SW скрипта:', error.message);
-      eleventyConfig.addGlobalData("swScriptContent", "");
-      eleventyConfig.addGlobalData("swScriptHash", "");
+      eleventyConfig.addGlobalData('swScriptContent', '');
+      eleventyConfig.addGlobalData('swScriptHash', '');
     }
   } else {
     // В dev режиме SW скрипт не нужен
-    eleventyConfig.addGlobalData("swScriptContent", "");
-    eleventyConfig.addGlobalData("swScriptHash", "");
+    eleventyConfig.addGlobalData('swScriptContent', '');
+    eleventyConfig.addGlobalData('swScriptHash', '');
   }
 
   // =================================================================
   // ГЛОБАЛЬНЫЕ ДАННЫЕ
   // =================================================================
-  
+
   eleventyConfig.addGlobalData('isProdBuild', isProdBuild);
   eleventyConfig.addGlobalData('isDevBuild', isDevBuild);
   eleventyConfig.addGlobalData('viteDevServerUrl', VITE_DEV_SERVER_URL);
-  
-  const buildVersion = DateTime.now().toFormat("yyyyMMddHHmmss");
-  eleventyConfig.addGlobalData("buildVersion", buildVersion);
-  
-  const dateStamp = new Date().toISOString().slice(0,10).replace(/-/g,"");
-  eleventyConfig.addGlobalData("swVersion", `v${dateStamp}.${buildVersion}`);
+
+  const buildVersion = DateTime.now().toFormat('yyyyMMddHHmmss');
+  eleventyConfig.addGlobalData('buildVersion', buildVersion);
+
+  const dateStamp = new Date().toISOString().slice(0, 10).replace(/-/g, '');
+  eleventyConfig.addGlobalData('swVersion', `v${dateStamp}.${buildVersion}`);
 
   // =================================================================
   // НАСТРОЙКА NUNJUCKS - ИСПРАВЛЕНО
   // =================================================================
-  
+
   const nunjucksEnv = new Nunjucks.Environment(
     new Nunjucks.FileSystemLoader([
       path.join(__dirname, inputDir, includesDir),
       path.join(__dirname, inputDir, layoutsDir),
-      path.join(__dirname, inputDir)
+      path.join(__dirname, inputDir),
     ]),
-    { 
+    {
       watch: isDevBuild,
-      noCache: isDevBuild
+      noCache: isDevBuild,
     }
   );
 
-  eleventyConfig.setLibrary("njk", nunjucksEnv);
+  eleventyConfig.setLibrary('njk', nunjucksEnv);
 
   // =================================================================
   // ИСПРАВЛЕННЫЕ VITE ХЕЛПЕРЫ ДЛЯ NUNJUCKS
@@ -304,8 +302,8 @@ export default function(eleventyConfig) {
   /**
    * ИСПРАВЛЕНО: Vite dev client для HMR
    */
-  nunjucksEnv.addGlobal("viteDevClient", () => {
-    if (process.env.ELEVENTY_ENV === "production") {
+  nunjucksEnv.addGlobal('viteDevClient', () => {
+    if (process.env.ELEVENTY_ENV === 'production') {
       return '';
     }
     return `<script type="module" src="${VITE_DEV_SERVER_URL}/@vite/client"></script>`;
@@ -314,27 +312,27 @@ export default function(eleventyConfig) {
   /**
    * ИСПРАВЛЕНО: Получение URL ассета
    */
-  nunjucksEnv.addGlobal("viteAsset", (assetKey) => {
-    if (process.env.ELEVENTY_ENV !== "production") {
+  nunjucksEnv.addGlobal('viteAsset', assetKey => {
+    if (process.env.ELEVENTY_ENV !== 'production') {
       const cleanKey = assetKey.startsWith('/') ? assetKey.slice(1) : assetKey;
       return `${VITE_DEV_SERVER_URL}/${cleanKey}`;
     }
-    
+
     // Проверяем возможные ключи в манифесте для критического скрипта
     const possibleKeys = [
       assetKey,
       assetKey.replace('assets/scripts/', ''),
       assetKey.replace('critical--theme.js', 'critical-theme.js'),
       'critical-theme.js',
-      `src/${assetKey}`
+      `src/${assetKey}`,
     ];
-    
+
     for (const key of possibleKeys) {
       if (viteManifest && viteManifest[key]) {
         return `/assets/${viteManifest[key].file}`;
       }
     }
-    
+
     console.warn(`⚠️ Ассет не найден в манифесте: ${assetKey}`);
     return `/${assetKey}`;
   });
@@ -342,41 +340,41 @@ export default function(eleventyConfig) {
   /**
    * ИСПРАВЛЕНО: Функция viteAssetTags
    */
-  nunjucksEnv.addGlobal("viteAssetTags", (entryKey) => {
-    if (process.env.ELEVENTY_ENV !== "production") {
+  nunjucksEnv.addGlobal('viteAssetTags', entryKey => {
+    if (process.env.ELEVENTY_ENV !== 'production') {
       return `<script type="module" src="${VITE_DEV_SERVER_URL}/${entryKey}"></script>`;
     }
-    
+
     if (!viteManifest || !viteManifest[entryKey]) {
       return '';
     }
-    
+
     const entry = viteManifest[entryKey];
     let tags = '';
-    
+
     // CSS файлы
     if (entry.css) {
       entry.css.forEach(cssFile => {
         tags += `<link rel="stylesheet" href="/assets/${cssFile}">\n`;
       });
     }
-    
+
     // JS файлы
     if (entry.file) {
       tags += `<script type="module" src="/assets/${entry.file}"></script>`;
     }
-    
+
     return tags;
   });
 
   /**
    * ИСПРАВЛЕНО: Preload ссылки
    */
-  nunjucksEnv.addGlobal("vitePreloadLinks", (entryKeys = []) => {
-    if (process.env.ELEVENTY_ENV !== "production") {
+  nunjucksEnv.addGlobal('vitePreloadLinks', (entryKeys = []) => {
+    if (process.env.ELEVENTY_ENV !== 'production') {
       return '';
     }
-    
+
     const links = new Set();
     entryKeys.forEach(entryKey => {
       const entry = viteManifest && viteManifest[entryKey];
@@ -391,38 +389,38 @@ export default function(eleventyConfig) {
         }
       }
     });
-    
+
     return Array.from(links).join('\n');
   });
 
   /**
    * ИСПРАВЛЕНО: Inline SVG спрайт
    */
-  nunjucksEnv.addGlobal("inlineSvgSprite", () => {
+  nunjucksEnv.addGlobal('inlineSvgSprite', () => {
     if (isDevBuild) {
       // В DEV режиме читаем и возвращаем inline спрайт
       const spritePath = path.join(__dirname, inputDir, 'assets/images/sprite.svg');
-      
+
       try {
         if (fs.existsSync(spritePath)) {
           let spriteContent = fs.readFileSync(spritePath, 'utf8');
-          
+
           // Убираем XML декларацию
           spriteContent = spriteContent.replace('<?xml version="1.0" encoding="UTF-8"?>', '');
-          
+
           // Делаем спрайт невидимым
           spriteContent = spriteContent.replace(
             /<svg([^>]*)>/,
             '<svg$1 style="position: absolute; width: 0; height: 0; pointer-events: none;">'
           );
-          
+
           return spriteContent;
         }
       } catch (error) {
         console.error(`❌ Ошибка чтения спрайта: ${error.message}`);
       }
     }
-    
+
     // В PRODUCTION режиме возвращаем пустую строку (используем внешний файл)
     return '';
   });
@@ -430,7 +428,7 @@ export default function(eleventyConfig) {
   /**
    * ИСПРАВЛЕНО: Простая функция spritePath БЕЗ циклов
    */
-  nunjucksEnv.addGlobal("spritePath", () => {
+  nunjucksEnv.addGlobal('spritePath', () => {
     if (isDevBuild) {
       return '';
     } else {
@@ -438,7 +436,7 @@ export default function(eleventyConfig) {
       if (viteManifest && viteManifest['assets/images/sprite.svg']) {
         return `/assets/${viteManifest['assets/images/sprite.svg'].file}`;
       }
-      
+
       return '/assets/images/sprite.svg';
     }
   });
@@ -446,31 +444,31 @@ export default function(eleventyConfig) {
   /**
    * Универсальная функция для шрифтов
    */
-  nunjucksEnv.addGlobal("fontAsset", (fontPath) => {
+  nunjucksEnv.addGlobal('fontAsset', fontPath => {
     return getViteAssetUrl(`assets/fonts/${fontPath}`, viteManifest);
   });
 
   /**
    * Условный рендеринг для dev/prod
    */
-  nunjucksEnv.addGlobal("viteDev", (devContent, prodContent = '') => {
+  nunjucksEnv.addGlobal('viteDev', (devContent, prodContent = '') => {
     return isDevBuild ? devContent : prodContent;
   });
 
   /**
    * URL dev сервера
    */
-  nunjucksEnv.addGlobal("viteDevServerUrl", VITE_DEV_SERVER_URL);
+  nunjucksEnv.addGlobal('viteDevServerUrl', VITE_DEV_SERVER_URL);
 
   /**
    * Информация о сборке
    */
-  nunjucksEnv.addGlobal("viteBuildInfo", () => {
+  nunjucksEnv.addGlobal('viteBuildInfo', () => {
     return {
       isDev: isDevBuild,
       isProd: isProdBuild,
       hasManifest: !!viteManifest,
-      manifestEntries: viteManifest ? Object.keys(viteManifest).length : 0
+      manifestEntries: viteManifest ? Object.keys(viteManifest).length : 0,
     };
   });
 
@@ -480,101 +478,110 @@ export default function(eleventyConfig) {
   eleventyConfig.addPlugin(pluginRss);
   eleventyConfig.addPlugin(eleventyNavigationPlugin);
   eleventyConfig.addPlugin(sitemap, {
-    lastModifiedProperty: "last_modified_at",
-    sitemap: { 
-      hostname: "https://bartoshevich.by",
-      ignore: ['/404.html', '/offline.html']
-    }
+    lastModifiedProperty: 'last_modified_at',
+    sitemap: {
+      hostname: 'https://bartoshevich.by',
+      ignore: ['/404.html', '/offline.html'],
+    },
   });
 
   // =================================================================
   // УЛУЧШЕННЫЙ ШОРТКОД ДЛЯ ИЗОБРАЖЕНИЙ
   // =================================================================
-  eleventyConfig.addNunjucksAsyncShortcode("image", async function(src, alt, sizes, widths = [414, 640, 800, 1366, 1920], formats = ["avif", "webp", "jpeg"], cssClass = "", loading = "lazy", decoding = "async") {
-    if (!alt) {
-      throw new Error(`Image Shortcode: Missing alt text for image: ${src}`);
-    }
-    
-    const fullSrcPath = path.resolve(process.cwd(), inputDir, src);
-    
-    if (!fs.existsSync(fullSrcPath)) {
-      console.warn(`⚠️ Image Shortcode: Исходное изображение не найдено: ${fullSrcPath}`);
-      return `<img src="${src}" alt="${alt}" loading="${loading}" decoding="${decoding}" class="${cssClass}">`;
-    }
-    
-    const imgOptions = { 
-      widths, 
-      formats, 
-      outputDir: path.join(outputDir, 'assets', 'images', 'optimized'), 
-      urlPath: "/assets/images/optimized/", 
-      cacheOptions: { 
-        duration: "1d", 
-        directory: ".cache" 
-      }, 
-      filenameFormat: function(id, src, width, format) { 
-        const name = path.basename(src, path.extname(src)); 
-        const hash = crypto.createHash('md5')
-          .update(`${src}-${width}-${format}`)
-          .digest('hex')
-          .substring(0, 8); 
-        return `${name}-${width}w-${hash}.${format}`; 
-      } 
-    };
-    
-    try {
-      const metadata = await Image(fullSrcPath, imgOptions);
-      return Image.generateHTML(metadata, { 
-        alt, 
-        sizes, 
-        loading, 
-        decoding, 
-        class: cssClass 
-      });
-    } catch (error) {
-      console.error(`❌ Image processing error for ${src}:`, error.message);
-      return `<img src="${src}" alt="${alt}" loading="${loading}" decoding="${decoding}" class="${cssClass}">`;
-    }
-  });
+  eleventyConfig.addNunjucksAsyncShortcode(
+    'image',
+    async function (
+      src,
+      alt,
+      sizes,
+      widths = [414, 640, 800, 1366, 1920],
+      formats = ['avif', 'webp', 'jpeg'],
+      cssClass = '',
+      loading = 'lazy',
+      decoding = 'async'
+    ) {
+      if (!alt) {
+        throw new Error(`Image Shortcode: Missing alt text for image: ${src}`);
+      }
 
-  eleventyConfig.addShortcode("year", () => `${new Date().getFullYear()}`);
+      const fullSrcPath = path.resolve(process.cwd(), inputDir, src);
+
+      if (!fs.existsSync(fullSrcPath)) {
+        console.warn(`⚠️ Image Shortcode: Исходное изображение не найдено: ${fullSrcPath}`);
+        return `<img src="${src}" alt="${alt}" loading="${loading}" decoding="${decoding}" class="${cssClass}">`;
+      }
+
+      const imgOptions = {
+        widths,
+        formats,
+        outputDir: path.join(outputDir, 'assets', 'images', 'optimized'),
+        urlPath: '/assets/images/optimized/',
+        cacheOptions: {
+          duration: '1d',
+          directory: '.cache',
+        },
+        filenameFormat: function (id, src, width, format) {
+          const name = path.basename(src, path.extname(src));
+          const hash = crypto
+            .createHash('md5')
+            .update(`${src}-${width}-${format}`)
+            .digest('hex')
+            .substring(0, 8);
+          return `${name}-${width}w-${hash}.${format}`;
+        },
+      };
+
+      try {
+        const metadata = await Image(fullSrcPath, imgOptions);
+        return Image.generateHTML(metadata, { alt, sizes, loading, decoding, class: cssClass });
+      } catch (error) {
+        console.error(`❌ Image processing error for ${src}:`, error.message);
+        return `<img src="${src}" alt="${alt}" loading="${loading}" decoding="${decoding}" class="${cssClass}">`;
+      }
+    }
+  );
+
+  eleventyConfig.addShortcode('year', () => `${new Date().getFullYear()}`);
 
   // =================================================================
   // ФИЛЬТРЫ
   // =================================================================
-  eleventyConfig.addLiquidFilter("dateToRfc3339", pluginRss.dateToRfc3339);
-  eleventyConfig.addLiquidFilter("dateToRfc822", pluginRss.dateToRfc822);
-  
-   eleventyConfig.addNunjucksGlobal("getBreadcrumbs", (key, items) => {
+  eleventyConfig.addLiquidFilter('dateToRfc3339', pluginRss.dateToRfc3339);
+  eleventyConfig.addLiquidFilter('dateToRfc822', pluginRss.dateToRfc822);
+
+  eleventyConfig.addNunjucksGlobal('getBreadcrumbs', (key, items) => {
     if (!key || !Array.isArray(items)) return []; // Проверяем, что items - массив
-    const map = new Map(items.map((i) => [i.data?.eleventyNavigation?.key, i]));
-    const crumbs = []; let safety=10; // Ограничение на 10 уровней для безопасности
+    const map = new Map(items.map(i => [i.data?.eleventyNavigation?.key, i]));
+    const crumbs = [];
+    let safety = 10; // Ограничение на 10 уровней для безопасности
     let currentKey = key; // Используем временную переменную
     while (currentKey && safety--) {
       const item = map.get(currentKey);
       if (!item) {
-           if (safety === 9) console.warn(`⚠️ getBreadcrumbs: Ключ "${currentKey}" не найден в коллекции навигации.`);
-          break;
+        if (safety === 9)
+          console.warn(`⚠️ getBreadcrumbs: Ключ "${currentKey}" не найден в коллекции навигации.`);
+        break;
       }
       crumbs.unshift(item); // Добавляем в начало
       currentKey = item.data?.eleventyNavigation?.parent; // Переходим к родителю
     }
-     
+
     return crumbs;
   });
 
   // Улучшенная функция парсинга дат
-  const parseDate = (d) => {
+  const parseDate = d => {
     if (d instanceof Date) return DateTime.fromJSDate(d);
-    if (typeof d === "string") {
+    if (typeof d === 'string') {
       // Пробуем разные форматы
       const formats = [
         () => DateTime.fromISO(d),
         () => DateTime.fromRFC2822(d),
         () => DateTime.fromSQL(d),
         () => DateTime.fromFormat(d, 'yyyy-MM-dd'),
-        () => DateTime.fromFormat(d, 'dd.MM.yyyy')
+        () => DateTime.fromFormat(d, 'dd.MM.yyyy'),
       ];
-      
+
       for (const formatFn of formats) {
         try {
           const dt = formatFn();
@@ -587,25 +594,25 @@ export default function(eleventyConfig) {
     return null;
   };
 
-  eleventyConfig.addFilter("readableDateRU", (d) => {
+  eleventyConfig.addFilter('readableDateRU', d => {
     const dt = parseDate(d);
     if (dt?.isValid) {
-      return dt.setLocale("ru").toFormat("d MMMM yyyy");
+      return dt.setLocale('ru').toFormat('d MMMM yyyy');
     }
-    
+
     if (typeof d === 'string') return d;
     if (d instanceof Date) {
-      return d.toLocaleDateString('ru-RU', { 
-        year: 'numeric', 
-        month: 'long', 
-        day: 'numeric' 
+      return d.toLocaleDateString('ru-RU', {
+        year: 'numeric',
+        month: 'long',
+        day: 'numeric',
       });
     }
-    
+
     return '';
   });
 
-  eleventyConfig.addFilter("htmlDateString", (d) => {
+  eleventyConfig.addFilter('htmlDateString', d => {
     const dt = parseDate(d);
     if (dt?.isValid) return dt.toISODate();
     if (d instanceof Date) return d.toISOString().split('T')[0];
@@ -613,7 +620,7 @@ export default function(eleventyConfig) {
     return '';
   });
 
-  eleventyConfig.addFilter("isoDate", (d) => {
+  eleventyConfig.addFilter('isoDate', d => {
     const dt = parseDate(d);
     if (dt?.isValid) return dt.toISO();
     if (d instanceof Date) return d.toISOString();
@@ -621,105 +628,102 @@ export default function(eleventyConfig) {
     return '';
   });
 
- /* Принудительно склеиваем последние слова со стрелкой в блоке related */
-eleventyConfig.addFilter("noBreakArrow", function(text) {
-  const words = text.trim().split(/\s+/);
-  
-  if (words.length === 1) {
-    // Если одно слово - просто добавляем стрелку
-    return `${text}<span class="link-arrow">&nbsp;→</span>`;
-  } else if (words.length === 2) {
-    // Если два слова - склеиваем оба
-    return `<span class="no-break">${text}<span class="link-arrow">&nbsp;→</span></span>`;
-  } else {
-    // Если больше двух - берем последние 2-3 слова
-    const lastWords = words.slice(-2).join(' ');
-    const firstWords = words.slice(0, -2).join(' ');
-    return `${firstWords} <span class="noperenos">${lastWords}<span class="link-arrow">&nbsp;→</span></span>`;
-  }
-});
+  /* Принудительно склеиваем последние слова со стрелкой в блоке related */
+  eleventyConfig.addFilter('noBreakArrow', function (text) {
+    const words = text.trim().split(/\s+/);
 
+    if (words.length === 1) {
+      // Если одно слово - просто добавляем стрелку
+      return `${text}<span class="link-arrow">&nbsp;→</span>`;
+    } else if (words.length === 2) {
+      // Если два слова - склеиваем оба
+      return `<span class="no-break">${text}<span class="link-arrow">&nbsp;→</span></span>`;
+    } else {
+      // Если больше двух - берем последние 2-3 слова
+      const lastWords = words.slice(-2).join(' ');
+      const firstWords = words.slice(0, -2).join(' ');
+      return `${firstWords} <span class="noperenos">${lastWords}<span class="link-arrow">&nbsp;→</span></span>`;
+    }
+  });
 
+  /* --------------- Фильтр для безопасного использования в RSS-каналах --------------- */
 
-
-
-   /* --------------- Фильтр для безопасного использования в RSS-каналах --------------- */
-
-  eleventyConfig.addFilter("feedSafe", (v) => {
+  eleventyConfig.addFilter('feedSafe', v => {
     if (typeof v !== 'string') return v;
-    
+
     // Сначала выполняем обычное декодирование HTML-сущностей
     // (работает так же, как ваш decodeEntities)
     let result = v
-      .replace(/&nbsp;/g, "\u00A0") // Неразрывный пробел
-      .replace(/&mdash;/g, "—") // Длинное тире
-      .replace(/&laquo;/g, "«") // Кавычка елочка левая
-      .replace(/&raquo;/g, "»") // Кавычка елочка правая
-      .replace(/—/g, "—")
-      .replace(/«/g, "«")
-      .replace(/»/g, "»");
-  
+      .replace(/&nbsp;/g, '\u00A0') // Неразрывный пробел
+      .replace(/&mdash;/g, '—') // Длинное тире
+      .replace(/&laquo;/g, '«') // Кавычка елочка левая
+      .replace(/&raquo;/g, '»') // Кавычка елочка правая
+      .replace(/—/g, '—')
+      .replace(/«/g, '«')
+      .replace(/»/g, '»');
+
     // Затем, экранируем стандартные XML-символы
     result = result
-      .replace(/&/g, "&amp;")
-      .replace(/</g, "&lt;")
-      .replace(/>/g, "&gt;")
-      .replace(/"/g, "&quot;")
-      .replace(/'/g, "&apos;");
-      
+      .replace(/&/g, '&amp;')
+      .replace(/</g, '&lt;')
+      .replace(/>/g, '&gt;')
+      .replace(/"/g, '&quot;')
+      .replace(/'/g, '&apos;');
+
     return result;
   });
 
-
-  eleventyConfig.addFilter("jsonFeedSafe", (v) => {
+  eleventyConfig.addFilter('jsonFeedSafe', v => {
     if (typeof v !== 'string') return v;
-    
+
     // Для JSON преобразуем HTML-сущности в Unicode
     return v
-      .replace(/&nbsp;/g, "\u00A0")
-      .replace(/&mdash;/g, "—")
-      .replace(/&laquo;/g, "«")
-      .replace(/&raquo;/g, "»")
-      .replace(/—/g, "—")
-      .replace(/«/g, "«")
-      .replace(/»/g, "»");
-    
+      .replace(/&nbsp;/g, '\u00A0')
+      .replace(/&mdash;/g, '—')
+      .replace(/&laquo;/g, '«')
+      .replace(/&raquo;/g, '»')
+      .replace(/—/g, '—')
+      .replace(/«/g, '«')
+      .replace(/»/g, '»');
+
     // JavaScript автоматически экранирует специальные символы при JSON.stringify
   });
 
+  eleventyConfig.addFilter('readingTime', function (text) {
+    if (!text || typeof text !== 'string') return '0 мин.';
 
-  eleventyConfig.addFilter("readingTime", function(text) {
-    if (!text || typeof text !== 'string') return "0 мин.";
-    
-    const words = text.trim().split(/\s+/).filter(word => word.length > 0).length;
+    const words = text
+      .trim()
+      .split(/\s+/)
+      .filter(word => word.length > 0).length;
     const minutes = Math.ceil(words / 190); // 190 слов в минуту для русского языка
-    
-    if (minutes === 0) return "меньше минуты";
-    if (minutes === 1) return "1 мин.";
+
+    if (minutes === 0) return 'меньше минуты';
+    if (minutes === 1) return '1 мин.';
     return `${minutes} мин.`;
   });
 
-  eleventyConfig.addFilter("limit", (arr, n) => {
+  eleventyConfig.addFilter('limit', (arr, n) => {
     if (!Array.isArray(arr)) return arr;
     return arr.slice(0, parseInt(n, 10) || 0);
   });
 
-  eleventyConfig.addFilter("decodeEntities", (v) => {
+  eleventyConfig.addFilter('decodeEntities', v => {
     if (typeof v !== 'string') return v;
     return v
-     .replace(/&nbsp;/g, "\u00A0") // Неразрывный пробел
-      .replace(/&mdash;/g, "—") // Длинное тире
-      .replace(/&laquo;/g, "«") // Кавычка елочка левая
-      .replace(/&raquo;/g, "»") // Кавычка елочка правая
-      .replace(/ö/g, "ö") // Пример символа
-      .replace(/—/g, "—")
-      .replace(/«/g, "«")
-      .replace(/»/g, "»")
+      .replace(/&nbsp;/g, '\u00A0') // Неразрывный пробел
+      .replace(/&mdash;/g, '—') // Длинное тире
+      .replace(/&laquo;/g, '«') // Кавычка елочка левая
+      .replace(/&raquo;/g, '»') // Кавычка елочка правая
+      .replace(/ö/g, 'ö') // Пример символа
+      .replace(/—/g, '—')
+      .replace(/«/g, '«')
+      .replace(/»/g, '»');
   });
 
-  eleventyConfig.addFilter("absoluteUrl", (url, base) => {
+  eleventyConfig.addFilter('absoluteUrl', (url, base) => {
     if (typeof url !== 'string') return url;
-    
+
     try {
       return new URL(url, base).href;
     } catch {
@@ -727,11 +731,14 @@ eleventyConfig.addFilter("noBreakArrow", function(text) {
     }
   });
 
-  eleventyConfig.addFilter("setAttribute", (obj, key, value) => {
-    return { ...obj, [key]: value };
+  eleventyConfig.addFilter('setAttribute', (obj, key, value) => {
+    return {
+      ...obj,
+      [key]: value,
+    };
   });
 
-  eleventyConfig.addFilter("jsonify", (obj) => {
+  eleventyConfig.addFilter('jsonify', obj => {
     try {
       return JSON.stringify(obj, null, 2);
     } catch (e) {
@@ -740,9 +747,9 @@ eleventyConfig.addFilter("noBreakArrow", function(text) {
     }
   });
 
-  eleventyConfig.addFilter("cssmin", (code) => {
+  eleventyConfig.addFilter('cssmin', code => {
     if (!isProdBuild || typeof code !== 'string') return code;
-    
+
     try {
       return new CleanCSS({ level: 2 }).minify(code).styles;
     } catch (error) {
@@ -754,14 +761,14 @@ eleventyConfig.addFilter("noBreakArrow", function(text) {
   // =================================================================
   // УЛУЧШЕННЫЕ ТРАНСФОРМАЦИИ
   // =================================================================
-  eleventyConfig.addTransform("inlineCssOptimize", (content, outputPath) => {
-    if (!outputPath?.endsWith(".html") || !isProdBuild || !content) {
+  eleventyConfig.addTransform('inlineCssOptimize', (content, outputPath) => {
+    if (!outputPath?.endsWith('.html') || !isProdBuild || !content) {
       return content;
     }
-    
+
     return content.replace(/<style>([\s\S]*?)<\/style>/g, (match, cssContent) => {
       if (!cssContent.trim()) return match;
-      
+
       try {
         const { code } = lightningcssTransform({
           code: Buffer.from(cssContent, 'utf8'),
@@ -770,8 +777,8 @@ eleventyConfig.addFilter("noBreakArrow", function(text) {
             chrome: 90,
             firefox: 88,
             safari: 14,
-            edge: 90
-          }
+            edge: 90,
+          },
         });
         return `<style>${code.toString('utf8')}</style>`;
       } catch (error) {
@@ -781,11 +788,11 @@ eleventyConfig.addFilter("noBreakArrow", function(text) {
     });
   });
 
-  eleventyConfig.addTransform("htmlmin", async (content, outputPath) => {
-    if (!outputPath?.endsWith(".html") || !isProdBuild) {
+  eleventyConfig.addTransform('htmlmin', async (content, outputPath) => {
+    if (!outputPath?.endsWith('.html') || !isProdBuild) {
       return content;
     }
-    
+
     try {
       return await htmlmin.minify(content, {
         useShortDoctype: true,
@@ -796,14 +803,15 @@ eleventyConfig.addFilter("noBreakArrow", function(text) {
         removeRedundantAttributes: true,
         removeScriptTypeAttributes: true,
         removeStyleLinkTypeAttributes: true,
-        minifyCSS: { level: 2 },
-        minifyJS: { 
-          mangle: { toplevel: true } 
+        minifyCSS: {
+          level: 2,
         },
-        ignoreCustomFragments: [
-          /\{\{[\s\S]*?\}\}/,
-          /\{%[\s\S]*?%\}/
-        ]
+        minifyJS: {
+          mangle: {
+            toplevel: true,
+          },
+        },
+        ignoreCustomFragments: [/\{\{[\s\S]*?\}\}/, /\{%[\s\S]*?%\}/],
       });
     } catch (error) {
       console.warn(`⚠️ HTML minification error for ${outputPath}:`, error.message);
@@ -811,9 +819,9 @@ eleventyConfig.addFilter("noBreakArrow", function(text) {
     }
   });
 
-  eleventyConfig.addTransform("normalizeNfc", (content, outputPath) => {
-    if (outputPath?.endsWith(".html") && content && typeof content === 'string') {
-      return content.normalize("NFC");
+  eleventyConfig.addTransform('normalizeNfc', (content, outputPath) => {
+    if (outputPath?.endsWith('.html') && content && typeof content === 'string') {
+      return content.normalize('NFC');
     }
     return content;
   });
@@ -821,12 +829,13 @@ eleventyConfig.addFilter("noBreakArrow", function(text) {
   // =================================================================
   // КОЛЛЕКЦИИ
   // =================================================================
-  eleventyConfig.addCollection("navigationItems", (api) => {
-    return api.getAllSorted().filter((item) => item.data?.eleventyNavigation?.key);
+  eleventyConfig.addCollection('navigationItems', api => {
+    return api.getAllSorted().filter(item => item.data?.eleventyNavigation?.key);
   });
 
-  eleventyConfig.addCollection("post", (api) => {
-    return api.getFilteredByGlob(`${inputDir}/_posts/**/*.njk`)
+  eleventyConfig.addCollection('post', api => {
+    return api
+      .getFilteredByGlob(`${inputDir}/_posts/**/*.njk`)
       .sort((a, b) => new Date(b.date) - new Date(a.date));
   });
 
@@ -834,208 +843,214 @@ eleventyConfig.addFilter("noBreakArrow", function(text) {
   // КОПИРОВАНИЕ ФАЙЛОВ - ИСПРАВЛЕНО
   // =================================================================
   const passthroughFiles = [
-  `${inputDir}/robots.txt`,
-  `${inputDir}/site.webmanifest`,
-  `${inputDir}/browserconfig.xml`,
-  `${inputDir}/favicon.ico`,
-  `${inputDir}/mstile-150x150.png`,
-  `${inputDir}/48c3b517-7a37-497c-aa5e-76363bef87b1.txt`,
-  `${inputDir}/maskable_icon.png`,
-  `${inputDir}/maskable_icon_x512.png`,
-  `${inputDir}/ew7d7qc6dkbqq2ybv7erfmu21vd135du.txt`,
-  `${inputDir}/favicon-32x32.png`,
-  `${inputDir}/apple-touch-icon.png`,
-  `${inputDir}/favicon-16x16.png`,
-  `${inputDir}/android-chrome-192x192.png`,
-  `${inputDir}/safari-pinned-tab.svg`,
-  `${inputDir}/_redirects`,
-  `${inputDir}/netlify.toml`,
-   `${inputDir}/CNAME`
-];
+    `${inputDir}/robots.txt`,
+    `${inputDir}/site.webmanifest`,
+    `${inputDir}/browserconfig.xml`,
+    `${inputDir}/favicon.ico`,
+    `${inputDir}/mstile-150x150.png`,
+    `${inputDir}/48c3b517-7a37-497c-aa5e-76363bef87b1.txt`,
+    `${inputDir}/maskable_icon.png`,
+    `${inputDir}/maskable_icon_x512.png`,
+    `${inputDir}/ew7d7qc6dkbqq2ybv7erfmu21vd135du.txt`,
+    `${inputDir}/favicon-32x32.png`,
+    `${inputDir}/apple-touch-icon.png`,
+    `${inputDir}/favicon-16x16.png`,
+    `${inputDir}/android-chrome-192x192.png`,
+    `${inputDir}/safari-pinned-tab.svg`,
+    `${inputDir}/_redirects`,
+    `${inputDir}/netlify.toml`,
+    `${inputDir}/CNAME`,
+  ];
 
+  passthroughFiles.forEach(file => {
+    const fullPath = path.resolve(process.cwd(), file);
+    if (fs.existsSync(fullPath)) {
+      eleventyConfig.addPassthroughCopy({ [file]: path.basename(file) });
+    }
+  });
 
+  // ✅ ПРОСТОЕ РЕШЕНИЕ: копируем ВСЮ папку images
+  eleventyConfig.addPassthroughCopy({
+    [`${inputDir}/assets/images`]: 'assets/images',
+  });
 
-passthroughFiles.forEach(file => {
-  const fullPath = path.resolve(process.cwd(), file);
-  if (fs.existsSync(fullPath)) {
-    eleventyConfig.addPassthroughCopy({
-      [file]: path.basename(file)
-    });
-  }
-});
+  // ✅ Копируем шрифты
+  eleventyConfig.addPassthroughCopy({
+    [`${inputDir}/assets/fonts`]: 'assets/fonts',
+  });
 
-// ✅ ПРОСТОЕ РЕШЕНИЕ: копируем ВСЮ папку images
-eleventyConfig.addPassthroughCopy({
-  [`${inputDir}/assets/images`]: "assets/images"
-});
+  // ✅ Копируем media
+  eleventyConfig.addPassthroughCopy({
+    [`${inputDir}/assets/media`]: 'assets/media',
+  });
 
-// ✅ Копируем шрифты
-eleventyConfig.addPassthroughCopy({
-  [`${inputDir}/assets/fonts`]: "assets/fonts"
-});
-
-// ✅ Копируем media
-eleventyConfig.addPassthroughCopy({
-  [`${inputDir}/assets/media`]: "assets/media"
-});
-  
   // ИСПРАВЛЕНО: Игнорируем все файлы, которые обрабатывает Vite
   eleventyConfig.ignores.add(`${inputDir}/assets/images/sprite.svg`);
   eleventyConfig.ignores.add(`${inputDir}/assets/scripts/**/*`);
   eleventyConfig.ignores.add(`${inputDir}/assets/scss/**/*`);
 
-  
-// =================================================================
-// ГЕНЕРАЦИЯ SERVICE WORKER 
-// =================================================================
+  // =================================================================
+  // ГЕНЕРАЦИЯ SERVICE WORKER
+  // =================================================================
 
-
-
-if (isProdBuild) {
-  eleventyConfig.on('eleventy.after', async () => {
-    try {
-      console.log('🔄 Генерация Service Worker...');
-      
-      const { generateSW } = await import('workbox-build');
-      const workboxConfigModule = await import('./workbox-config.js');
-      let workboxConfig = { ...workboxConfigModule.default };
-      
-      // ✅ ИСПРАВЛЕНО: Получаем buildVersion для версионирования
-      const buildVersion = DateTime.now().toFormat("yyyyMMddHHmmss");
-      
-      // Netlify detection и конфигурация
-      const isNetlify = process.env.NETLIFY === 'true';
-      if (isNetlify) {
-        console.log('🌐 Netlify deployment detected');
-        workboxConfig.additionalManifestEntries = [
-          ...(workboxConfig.additionalManifestEntries || []),
-          {
-            url: '/_redirects',
-            revision: buildVersion // ✅ Используем buildVersion вместо null
-          }
-        ];
-        workboxConfig.globIgnores = [
-          ...workboxConfig.globIgnores,
-          '**/.netlify/**/*',
-          '**/functions/**/*'
-        ];
-      }
-      
-      const swPath = path.resolve(__dirname, '_site/sw.js');
-      
-      // ✅ ИСПРАВЛЕНО: Более надежная генерация SW с обработкой ошибок
-      let swGenerationSuccess = false;
-      let swStats = null;
-      
+  if (isProdBuild) {
+    eleventyConfig.on('eleventy.after', async () => {
       try {
-        swStats = await generateSW(workboxConfig);
-        swGenerationSuccess = true;
-        
-        console.log(`✅ SW сгенерирован: ${swStats.count} файлов, ${(swStats.size / 1024 / 1024).toFixed(2)} MB`);
-        
-        if (swStats.warnings.length > 0) {
-          console.warn('⚠️ SW warnings:');
-          swStats.warnings.forEach(warning => console.warn(`  - ${warning}`));
-        }
-        
-      } catch (workboxError) {
-        console.error('❌ Workbox генерация не удалась:', workboxError.message);
-        swGenerationSuccess = false;
-      }
-      
-      // ✅ ИСПРАВЛЕНО: Улучшенная обработка SW файла
-      let swContent = '';
-      
-      if (swGenerationSuccess && fs.existsSync(swPath)) {
-        try {
-          swContent = fs.readFileSync(swPath, 'utf8');
-          
-          // Проверяем валидность сгенерированного файла
-          if (!swContent || swContent.length < 100) {
-            throw new Error('Generated SW file is too small or empty');
+        console.log('🔄 Генерация Service Worker...');
+
+        const { generateSW } = await import('workbox-build');
+        const workboxConfigModule = await import('./workbox-config.js');
+        let workboxConfig = {
+          ...workboxConfigModule.default,
+        };
+
+        // ✅ ИСПРАВЛЕНО: Получаем buildVersion для версионирования
+        const buildVersion = DateTime.now().toFormat('yyyyMMddHHmmss');
+
+        // Netlify detection и конфигурация
+        const isNetlify = process.env.NETLIFY === 'true';
+        if (isNetlify) {
+          console.log('🌐 Netlify deployment detected');
+
+          // ✅ ИСПРАВЛЕНО: Проверяем существование _redirects перед добавлением
+          const redirectsPath = path.resolve(__dirname, '_site/_redirects');
+          if (fs.existsSync(redirectsPath)) {
+            console.log('✅ _redirects file found, adding to manifest');
+            workboxConfig.additionalManifestEntries = [
+              ...(workboxConfig.additionalManifestEntries || []),
+              {
+                url: '/_redirects',
+                revision: buildVersion,
+              },
+            ];
+          } else {
+            console.log('⚠️ _redirects file not found, skipping from SW cache');
           }
-          
-          // Проверяем синтаксис
-          new Function(swContent);
-          
-          console.log('✅ Workbox SW валидирован');
-          
-        } catch (readError) {
-          console.error('❌ Ошибка чтения/валидации SW:', readError.message);
-          swContent = '';
+
+          // Добавляем Netlify-специфичные исключения
+          workboxConfig.globIgnores = [
+            ...workboxConfig.globIgnores,
+            '**/.netlify/**/*',
+            '**/functions/**/*',
+            '**/_headers', // ✅ Исключаем _headers тоже
+            '**/_redirects', // ✅ На всякий случай исключаем из glob patterns
+          ];
+        }
+
+        const swPath = path.resolve(__dirname, '_site/sw.js');
+
+        // ✅ ИСПРАВЛЕНО: Более надежная генерация SW с обработкой ошибок
+        let swGenerationSuccess = false;
+        let swStats = null;
+
+        try {
+          swStats = await generateSW(workboxConfig);
+          swGenerationSuccess = true;
+
+          console.log(
+            `✅ SW сгенерирован: ${swStats.count} файлов, ${(swStats.size / 1024 / 1024).toFixed(2)} MB`
+          );
+
+          if (swStats.warnings.length > 0) {
+            console.warn('⚠️ SW warnings:');
+            swStats.warnings.forEach(warning => console.warn(`  - ${warning}`));
+          }
+        } catch (workboxError) {
+          console.error('❌ Workbox генерация не удалась:', workboxError.message);
           swGenerationSuccess = false;
         }
-      } else {
-        swGenerationSuccess = false;
-      }
-      
-      // ✅ НОВОЕ: Улучшенный fallback SW с полной функциональностью
-      if (!swGenerationSuccess) {
-        console.log('🔄 Создание fallback Service Worker...');
-        
-        swContent = generateFallbackSW(buildVersion);
-        
-        try {
-          // Проверяем синтаксис fallback SW
-          new Function(swContent);
-          console.log('✅ Fallback SW создан и валидирован');
-        } catch (fallbackError) {
-          console.error('🚨 Критическая ошибка: Fallback SW невалиден:', fallbackError.message);
-          throw new Error('Unable to create valid Service Worker');
-        }
-      }
-      
-      // ✅ ИСПРАВЛЕНО: Добавляем обработчики с версионированием
-      const swEnhancements = generateSWEnhancements(buildVersion);
-      const finalSwContent = swEnhancements + swContent;
-      
-      // Финальная проверка синтаксиса
-      try {
-        new Function(finalSwContent);
-      } catch (syntaxError) {
-        console.error('🚨 SW syntax error after enhancements:', syntaxError.message);
-        throw new Error(`Final SW validation failed: ${syntaxError.message}`);
-      }
-      
-      // Записываем финальный SW
-      fs.writeFileSync(swPath, finalSwContent, 'utf8');
-      
-      const finalSize = (finalSwContent.length / 1024).toFixed(2);
-      console.log(`✅ SW обработан и записан (${finalSize} KB)`);
-      
-      // ✅ НОВОЕ: Создаем файл статистики SW для отладки
-      const swStatsInfo = {
-        generationTime: new Date().toISOString(),
-        buildVersion,
-        workboxSuccess: swGenerationSuccess,
-        finalSize: `${finalSize} KB`,
-        fileCount: swStats?.count || 'unknown',
-        warnings: swStats?.warnings || []
-      };
-      
-      fs.writeFileSync(
-        path.resolve(__dirname, '_site/sw-stats.json'), 
-        JSON.stringify(swStatsInfo, null, 2),
-        'utf8'
-      );
-      
-    } catch (error) {
-      console.error('❌ Критическая ошибка генерации SW:', error.message);
-      console.error('Stack trace:', error.stack);
-      
-      // В критических случаях - останавливаем сборку
-      if (process.env.SW_REQUIRED === 'true') {
-        throw error;
-      }
-      
-      console.log('⚠️ Продолжаем сборку без Service Worker');
-    }
-  });
-}
 
-// ✅ НОВАЯ ФУНКЦИЯ: Генерация улучшенного fallback SW
-function generateFallbackSW(buildVersion) {
-  return `// Fallback Service Worker v${buildVersion}
+        // ✅ ИСПРАВЛЕНО: Улучшенная обработка SW файла
+        let swContent = '';
+
+        if (swGenerationSuccess && fs.existsSync(swPath)) {
+          try {
+            swContent = fs.readFileSync(swPath, 'utf8');
+
+            // Проверяем валидность сгенерированного файла
+            if (!swContent || swContent.length < 100) {
+              throw new Error('Generated SW file is too small or empty');
+            }
+
+            // Проверяем синтаксис
+            new Function(swContent);
+
+            console.log('✅ Workbox SW валидирован');
+          } catch (readError) {
+            console.error('❌ Ошибка чтения/валидации SW:', readError.message);
+            swContent = '';
+            swGenerationSuccess = false;
+          }
+        } else {
+          swGenerationSuccess = false;
+        }
+
+        // ✅ НОВОЕ: Улучшенный fallback SW с полной функциональностью
+        if (!swGenerationSuccess) {
+          console.log('🔄 Создание fallback Service Worker...');
+
+          swContent = generateFallbackSW(buildVersion);
+
+          try {
+            // Проверяем синтаксис fallback SW
+            new Function(swContent);
+            console.log('✅ Fallback SW создан и валидирован');
+          } catch (fallbackError) {
+            console.error('🚨 Критическая ошибка: Fallback SW невалиден:', fallbackError.message);
+            throw new Error('Unable to create valid Service Worker');
+          }
+        }
+
+        // ✅ ИСПРАВЛЕНО: Добавляем обработчики с версионированием
+        const swEnhancements = generateSWEnhancements(buildVersion);
+        const finalSwContent = swEnhancements + swContent;
+
+        // Финальная проверка синтаксиса
+        try {
+          new Function(finalSwContent);
+        } catch (syntaxError) {
+          console.error('🚨 SW syntax error after enhancements:', syntaxError.message);
+          throw new Error(`Final SW validation failed: ${syntaxError.message}`);
+        }
+
+        // Записываем финальный SW
+        fs.writeFileSync(swPath, finalSwContent, 'utf8');
+
+        const finalSize = (finalSwContent.length / 1024).toFixed(2);
+        console.log(`✅ SW обработан и записан (${finalSize} KB)`);
+
+        // ✅ НОВОЕ: Создаем файл статистики SW для отладки
+        const swStatsInfo = {
+          generationTime: new Date().toISOString(),
+          buildVersion,
+          workboxSuccess: swGenerationSuccess,
+          finalSize: `${finalSize} KB`,
+          fileCount: swStats?.count || 'unknown',
+          warnings: swStats?.warnings || [],
+        };
+
+        fs.writeFileSync(
+          path.resolve(__dirname, '_site/sw-stats.json'),
+          JSON.stringify(swStatsInfo, null, 2),
+          'utf8'
+        );
+      } catch (error) {
+        console.error('❌ Критическая ошибка генерации SW:', error.message);
+        console.error('Stack trace:', error.stack);
+
+        // В критических случаях - останавливаем сборку
+        if (process.env.SW_REQUIRED === 'true') {
+          throw error;
+        }
+
+        console.log('⚠️ Продолжаем сборку без Service Worker');
+      }
+    });
+  }
+
+  // ✅ НОВАЯ ФУНКЦИЯ: Генерация улучшенного fallback SW
+  function generateFallbackSW(buildVersion) {
+    return `// Fallback Service Worker v${buildVersion}
 // Сгенерирован автоматически при ошибке Workbox
 
 const CACHE_NAME = 'fallback-cache-v${buildVersion}';
@@ -1176,11 +1191,11 @@ self.addEventListener('message', event => {
 
 console.log('SW Fallback v${buildVersion}: Готов к работе');
 `;
-}
+  }
 
-// ✅ НОВАЯ ФУНКЦИЯ: Генерация дополнительных возможностей SW
-function generateSWEnhancements(buildVersion) {
-  return `// SW Enhancements v${buildVersion}
+  // ✅ НОВАЯ ФУНКЦИЯ: Генерация дополнительных возможностей SW
+  function generateSWEnhancements(buildVersion) {
+    return `// SW Enhancements v${buildVersion}
 // Добавлено автоматически при генерации SW
 
 // Обработчик для ручного управления skipWaiting
@@ -1238,24 +1253,22 @@ console.log('🚀 SW Enhanced v${buildVersion}: Loaded');
 
 // Оригинальный Workbox код:
 `;
-}
-   
-  
+  }
+
   // =================================================================
   // КОНФИГУРАЦИЯ ВОЗВРАТА
   // =================================================================
   return {
-    templateFormats: ["md", "njk", "html", "liquid"],
-    markdownTemplateEngine: "njk",
-    htmlTemplateEngine: "njk",
-    dataTemplateEngine: "njk",
+    templateFormats: ['md', 'njk', 'html', 'liquid'],
+    markdownTemplateEngine: 'njk',
+    htmlTemplateEngine: 'njk',
+    dataTemplateEngine: 'njk',
     dir: {
       input: inputDir,
       includes: includesDir,
       layouts: layoutsDir,
       data: dataDir,
-      output: outputDir
-    }
+      output: outputDir,
+    },
   };
 }
-
