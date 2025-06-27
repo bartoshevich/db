@@ -74,12 +74,13 @@
 
 
 {# Аналитика Simple Analytics #}
-<script 
-  data-collect-dnt="true" 
-  defer 
-  src="https://scripts.simpleanalyticscdn.com/latest.js" 
-  crossorigin="anonymous">
-</script>  
+<script
+  data-collect-dnt="true"
+  data-hostname="bartoshevich.by"
+  data-api="/analytics/events"
+  defer
+  src="/analytics/script.js">
+</script> 
 
 {# Структурированные данные #}
 {% include "schema.njk" %}
