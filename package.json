@@ -12,8 +12,9 @@
     "dev:eleventy:debug": "cross-env ELEVENTY_ENV=development DEBUG=Eleventy* npx @11ty/eleventy --serve",
     
     "_comment_build": "=== СБОРКА - ИСПРАВЛЕНО ===",
-    "build": "npm run clean && npm run build:vite && npm run build:eleventy",
+    "build": "npm run clean && npm run build:vite && npm run build:sw && npm run build:eleventy",
     "build:vite": "cross-env NODE_ENV=production vite build",
+    "build:sw": "cross-env NODE_ENV=production vite build --config vite.config.sw.js",
     "build:eleventy": "cross-env ELEVENTY_ENV=production npx @11ty/eleventy",
     "build:analyze": "npm run build:vite -- --mode analyze",
     

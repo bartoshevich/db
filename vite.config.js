@@ -94,13 +94,15 @@ export default defineConfig({
         // Основной entry point
         main: path.resolve(__dirname, 'src/assets/scripts/main.js'),
         // ДОБАВЛЯЕМ критический скрипт для хеширования
-        'critical-theme': path.resolve(__dirname, 'src/assets/scripts/critical--theme.js')
+       'critical-theme': path.resolve(__dirname, 'src/assets/scripts/critical--theme.js')
+        
       },
       
       output: {
-        // Правильная организация файлов
+
         entryFileNames: isProd ? 'js/[name]-[hash].js' : 'js/[name].js',
         chunkFileNames: isProd ? 'js/[name]-[hash].js' : 'js/[name].js',
+        
         assetFileNames: (assetInfo) => {
           const ext = path.extname(assetInfo.name).slice(1);
           const dirMap = {

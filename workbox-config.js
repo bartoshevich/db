@@ -17,9 +17,7 @@ export default {
   additionalManifestEntries: [
     { url: '/offline/', revision: null }
   ],
-  // Исходный файл нашего SW
-  swSrc: 'src/sw.js',
-  // Куда положить финальный, обработанный SW
+  swSrc: '_site/sw.js',
   swDest: '_site/sw.js',
 
   // Опции для injectManifest
