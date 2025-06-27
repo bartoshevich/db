@@ -19,7 +19,7 @@ export default {
     'favicon.ico',
     'site.webmanifest',
     'feed.json'
-    
+    // ✅ УБРАЛИ robots.txt - будет кэшироваться через runtimeCaching
   ],
 
   // ✅ ИСПРАВЛЕНО: Убрали дублирование и конфликты
@@ -162,7 +162,7 @@ export default {
 
   // ✅ НЕ добавляем additionalManifestEntries - файлы добавляются только если существуют
 
-  // ✅ Настройки для лучшей отладки
-  inlineWorkboxRuntime: false, // Выносим workbox в отдельный файл
-  sourcemap: process.env.NODE_ENV !== 'production'
+  // ✅ ИСПРАВЛЕНО: Встраиваем workbox в sw.js для Netlify
+  inlineWorkboxRuntime: true, // Решает проблему с workbox-*.js 404
+  sourcemap: false // Отключаем sourcemap для production
 };

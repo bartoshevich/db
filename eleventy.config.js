@@ -912,29 +912,20 @@ export default function (eleventyConfig) {
         if (isNetlify) {
           console.log('🌐 Netlify deployment detected');
 
-          // ✅ ИСПРАВЛЕНО: Проверяем существование _redirects перед добавлением
-          const redirectsPath = path.resolve(__dirname, '_site/_redirects');
-          if (fs.existsSync(redirectsPath)) {
-            console.log('✅ _redirects file found, adding to manifest');
-            workboxConfig.additionalManifestEntries = [
-              ...(workboxConfig.additionalManifestEntries || []),
-              {
-                url: '/_redirects',
-                revision: buildVersion,
-              },
-            ];
-          } else {
-            console.log('⚠️ _redirects file not found, skipping from SW cache');
-          }
+          // ✅ ИСПРАВЛЕНО: НЕ добавляем _redirects в SW кэш - он не нужен клиентам
+          // _redirects обрабатывается на уровне CDN Netlify, не браузера
 
           // Добавляем Netlify-специфичные исключения
           workboxConfig.globIgnores = [
             ...workboxConfig.globIgnores,
             '**/.netlify/**/*',
             '**/functions/**/*',
-            '**/_headers', // ✅ Исключаем _headers тоже
-            '**/_redirects', // ✅ На всякий случай исключаем из glob patterns
+            '**/_headers', // Headers обрабатываются Netlify CDN
+            '**/_redirects', // Redirects обрабатываются Netlify CDN
+            '**/netlify.toml', // Конфигурация Netlify
           ];
+
+          console.log('✅ Netlify files excluded from SW cache');
         }
 
         const swPath = path.resolve(__dirname, '_site/sw.js');
