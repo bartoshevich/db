@@ -1,40 +1,35 @@
-// workbox-config.js - ФИНАЛЬНАЯ ИСПРАВЛЕННАЯ ВЕРСИЯ (убирает ВСЕ предупреждения)
+// workbox-config.js - ФИНАЛЬНАЯ ИСПРАВЛЕННАЯ ВЕРСИЯ
 
 export default {
   // Директория, где находятся готовые файлы сайта
   globDirectory: '_site/',
   
-  // ✅ ИСПРАВЛЕНО: Только файлы которые точно существуют (БЕЗ robots.txt)
+  // ✅ ИСПРАВЛЕНО: Указываем только те файлы, которые нужны для offline-работы.
+  // **/*.html включает /offline/index.html, что решит проблему.
   globPatterns: [
-    // HTML-страницы
     '**/*.html',
-    
-    // Ассеты, сгенерированные Vite (с хэшами)
     'assets/css/*.css',
     'assets/js/*.js',
     'assets/fonts/*.{woff,woff2}',
     'assets/images/sprite-*.svg', // Только спрайт для предкэширования
-
-    // ✅ Только файлы которые точно существуют
     'favicon.ico',
     'site.webmanifest',
-    'feed.json'
-    // ✅ УБРАЛИ robots.txt - будет кэшироваться через runtimeCaching
+    'feed.json',
+    'feed.xml'
   ],
 
-  // ✅ ИСПРАВЛЕНО: Убрали дублирование и конфликты
+  // ✅ ИСПРАВЛЕНО: Убираем конфликтующие и ненужные правила.
   globIgnores: [
-    // Служебные файлы (БЕЗ дублирования)
-    'sw.js',
-    'sw.js.map',
+    'sw.js', // Исключаем сам SW
     '_headers',
     '_redirects',
-    'workbox-*.js',
-    'workbox-*.js.map',
     'netlify.toml',
     'CNAME',
-    '*.txt', // robots.txt будет кэшироваться через runtimeCaching
-    'browserconfig.xml'
+    '*.txt', // Исключаем все .txt, включая robots.txt
+    'browserconfig.xml',
+    'sw.js.map', // Исключаем карту, если она генерируется
+    'workbox-*.js',
+    'workbox-*.js.map'
   ],
 
   // Куда сохранить сгенерированный Service Worker
@@ -49,7 +44,11 @@ export default {
   // Очистка старых кэшей
   cleanupOutdatedCaches: true,
   clientsClaim: true,
-  skipWaiting: false,
+  // ✅ ИЗМЕНЕНО: skipWaiting: true позволит новому SW активироваться сразу.
+  // Это лучше сочетается с предлагаемым ниже подходом.
+  skipWaiting: true, 
+
+
 
   // ✅ ИСПРАВЛЕНО: Оптимизированное кэширование во время работы
   runtimeCaching: [
@@ -63,18 +62,19 @@ export default {
         expiration: {
           maxEntries: 50,
           maxAgeSeconds: 60 * 60 * 24 * 7 // 7 дней
-        }
+        }    
+       
       }
     },
     
-    // Cloudinary изображения
+    // Cloudinary и другие внешние изображения
     {
       urlPattern: ({ request, url }) => 
         request.destination === 'image' && 
-        url.hostname === 'res.cloudinary.com',
+        (url.hostname === 'res.cloudinary.com' || url.hostname === 'i.ytimg.com'),
       handler: 'CacheFirst',
       options: {
-        cacheName: 'cloudinary-images',
+        cacheName: 'external-images',
         expiration: { 
           maxEntries: 150, 
           maxAgeSeconds: 60 * 60 * 24 * 60, // 60 дней
@@ -83,7 +83,7 @@ export default {
       }
     },
     
-    // ✅ ИСПРАВЛЕНО: Локальные изображения с проверкой origin
+    // Локальные изображения
     {
       urlPattern: ({ request, url }) => 
         request.destination === 'image' && 
@@ -127,42 +127,28 @@ export default {
         }
       }
     },
-
-    // ✅ НОВОЕ: Статические файлы (robots.txt, sitemap.xml и др.)
+    
+    // ✅ НОВОЕ: Отдельное правило для статичных файлов типа robots.txt
     {
-      urlPattern: ({ url }) => 
-        /\.(txt|xml)$/i.test(url.pathname) &&
-        url.origin === self.location.origin,
-      handler: 'StaleWhileRevalidate',
+      urlPattern: ({url}) => url.pathname === '/robots.txt',
+      handler: 'NetworkFirst',
       options: {
-        cacheName: 'static-files-cache',
+        cacheName: 'static-files',
         expiration: {
-          maxEntries: 20,
-          maxAgeSeconds: 60 * 60 * 24 * 7 // 7 дней
+          maxAgeSeconds: 60 * 60 * 24 // 1 день
         }
       }
     }
   ],
   
-  // ✅ Страница-заглушка для оффлайн
-  navigateFallback: '/offline/',
-  
-  // ✅ ИСПРАВЛЕНО: Точные правила исключения
+   navigateFallback: '/offline/',
   navigateFallbackDenylist: [
-    /^\/_/,                    // Служебные пути
-    /^\/\.netlify/,           // Netlify функции
-    /^\/api\//,               // API пути
-    /^\/admin/,               // Админка
-    // Файлы по расширениям
-    /\.(?:css|js|png|jpg|jpeg|gif|webp|svg|woff|woff2|ico|pdf|zip|txt|xml|json|map)$/i,
-    // RSS и похожие
-    /\/feed\./,
-    /\/sitemap\./
+    /^\/assets\//,
+    /\.(?:png|jpg|jpeg|gif|webp|svg|ico|pdf|zip|txt|xml|json|map)$/i,
+    /\/feed\.xml$/,
+    /\/feed\.json$/,
+    /\/sitemap\.xml$/
   ],
-
-  // ✅ НЕ добавляем additionalManifestEntries - файлы добавляются только если существуют
-
-  // ✅ ИСПРАВЛЕНО: Встраиваем workbox в sw.js для Netlify
-  inlineWorkboxRuntime: true, // Решает проблему с workbox-*.js 404
-  sourcemap: false // Отключаем sourcemap для production
+  inlineWorkboxRuntime: true,
+  sourcemap: false
 };

@@ -186,82 +186,7 @@ export default function (eleventyConfig) {
   eleventyConfig.addGlobalData('cspScriptHash', cspScriptHash);
   eleventyConfig.addGlobalData('criticalScriptContent', criticalScriptContent);
 
-  // =================================================================
-  // SW СКРИПТ С ХЕШИРОВАНИЕМ (добавить после критического скрипта)
-  // =================================================================
-
-  // Утилиты для генерации CSP хеша (если их еще нет)
-  function cleanScriptCode(code) {
-    return code
-      .replace(/\/\*[\s\S]*?\*\//g, '') // Убираем многострочные комментарии
-      .replace(/\/\/.*$/gm, '') // Убираем однострочные комментарии
-      .replace(/\s+/g, ' ') // Нормализуем пробелы
-      .trim(); // Убираем крайние пробелы
-  }
-
-  function generateCSPHash(content) {
-    return crypto.createHash('sha256').update(content).digest('base64');
-  }
-
-  // SW конфигурация
-  const SW_CONFIG = {
-    updateCheckInterval: 300000, // 5 минут
-    bannerAutoHideDelay: 25000, // 25 секунд
-    scrollSaveKey: 'sw-scroll-position',
-    bannerId: 'sw-update-notification',
-  };
-
-  const SW_STRINGS = {
-    ru: {
-      updateMessage: 'Доступна новая версия сайта',
-      updateButton: 'Обновить',
-      dismissButton: 'Позже',
-      updateButtonAriaLabel: 'Применить обновление сайта',
-      dismissButtonAriaLabel: 'Отложить обновление',
-    },
-  };
-
-  // ИСПРАВЛЕНО: Обработка SW скрипта только в production
-  if (isProdBuild) {
-    try {
-      // Читаем шаблон SW скрипта
-      const swTemplatePath = path.resolve(__dirname, 'src/assets/scripts/sw-init.template.js');
-
-      if (!fs.existsSync(swTemplatePath)) {
-        console.warn('⚠️ SW template не найден:', swTemplatePath);
-        eleventyConfig.addGlobalData('swScriptContent', '');
-        eleventyConfig.addGlobalData('swScriptHash', '');
-      } else {
-        const swTemplateContent = fs.readFileSync(swTemplatePath, 'utf8');
-
-        // Заменяем плейсхолдеры
-        const swScriptContent = swTemplateContent
-          .replace('{{UPDATE_CHECK_INTERVAL}}', SW_CONFIG.updateCheckInterval)
-          .replace('{{BANNER_AUTO_HIDE_DELAY}}', SW_CONFIG.bannerAutoHideDelay)
-          .replace('{{SCROLL_SAVE_KEY}}', SW_CONFIG.scrollSaveKey)
-          .replace('{{BANNER_ID}}', SW_CONFIG.bannerId)
-          .replace('{{SW_STRINGS}}', JSON.stringify(SW_STRINGS.ru));
-
-        // Очищаем и генерируем хеш
-        const cleanedSwScript = cleanScriptCode(swScriptContent);
-        const swScriptHash = generateCSPHash(cleanedSwScript);
-
-        // Делаем доступными в шаблонах
-        eleventyConfig.addGlobalData('swScriptContent', cleanedSwScript);
-        eleventyConfig.addGlobalData('swScriptHash', swScriptHash);
-
-        console.log(`✅ SW script hash: sha256-${swScriptHash}`);
-      }
-    } catch (error) {
-      console.error('❌ Ошибка обработки SW скрипта:', error.message);
-      eleventyConfig.addGlobalData('swScriptContent', '');
-      eleventyConfig.addGlobalData('swScriptHash', '');
-    }
-  } else {
-    // В dev режиме SW скрипт не нужен
-    eleventyConfig.addGlobalData('swScriptContent', '');
-    eleventyConfig.addGlobalData('swScriptHash', '');
-  }
+  
 
   // =================================================================
   // ГЛОБАЛЬНЫЕ ДАННЫЕ
@@ -889,362 +814,40 @@ export default function (eleventyConfig) {
   eleventyConfig.ignores.add(`${inputDir}/assets/scripts/**/*`);
   eleventyConfig.ignores.add(`${inputDir}/assets/scss/**/*`);
 
-  // =================================================================
-  // ГЕНЕРАЦИЯ SERVICE WORKER
-  // =================================================================
 
-  if (isProdBuild) {
-    eleventyConfig.on('eleventy.after', async () => {
-      try {
-        console.log('🔄 Генерация Service Worker...');
 
-        const { generateSW } = await import('workbox-build');
-        const workboxConfigModule = await import('./workbox-config.js');
-        let workboxConfig = {
-          ...workboxConfigModule.default,
-        };
+ // =================================================================
+// ГЕНЕРАЦИЯ SERVICE WORKER (ФИНАЛЬНАЯ УПРОЩЕННАЯ ВЕРСИЯ)
+// =================================================================
 
-        // ✅ ИСПРАВЛЕНО: Получаем buildVersion для версионирования
-        const buildVersion = DateTime.now().toFormat('yyyyMMddHHmmss');
+if (isProdBuild) {
+  eleventyConfig.on('eleventy.after', async () => {
+    try {
+      console.log('🔄 Запускаю генерацию Service Worker...');
 
-        // Netlify detection и конфигурация
-        const isNetlify = process.env.NETLIFY === 'true';
-        if (isNetlify) {
-          console.log('🌐 Netlify deployment detected');
+      // 1. Запускаем Workbox
+      const { generateSW } = await import('workbox-build');
+      const workboxConfigModule = await import('./workbox-config.js');
+      const workboxConfig = workboxConfigModule.default;
 
-          // ✅ ИСПРАВЛЕНО: НЕ добавляем _redirects в SW кэш - он не нужен клиентам
-          // _redirects обрабатывается на уровне CDN Netlify, не браузера
+      const { count, size, warnings } = await generateSW(workboxConfig);
 
-          // Добавляем Netlify-специфичные исключения
-          workboxConfig.globIgnores = [
-            ...workboxConfig.globIgnores,
-            '**/.netlify/**/*',
-            '**/functions/**/*',
-            '**/_headers', // Headers обрабатываются Netlify CDN
-            '**/_redirects', // Redirects обрабатываются Netlify CDN
-            '**/netlify.toml', // Конфигурация Netlify
-          ];
-
-          console.log('✅ Netlify files excluded from SW cache');
-        }
-
-        const swPath = path.resolve(__dirname, '_site/sw.js');
-
-        // ✅ ИСПРАВЛЕНО: Более надежная генерация SW с обработкой ошибок
-        let swGenerationSuccess = false;
-        let swStats = null;
-
-        try {
-          swStats = await generateSW(workboxConfig);
-          swGenerationSuccess = true;
-
-          console.log(
-            `✅ SW сгенерирован: ${swStats.count} файлов, ${(swStats.size / 1024 / 1024).toFixed(2)} MB`
-          );
-
-          if (swStats.warnings.length > 0) {
-            console.warn('⚠️ SW warnings:');
-            swStats.warnings.forEach(warning => console.warn(`  - ${warning}`));
-          }
-        } catch (workboxError) {
-          console.error('❌ Workbox генерация не удалась:', workboxError.message);
-          swGenerationSuccess = false;
-        }
-
-        // ✅ ИСПРАВЛЕНО: Улучшенная обработка SW файла
-        let swContent = '';
-
-        if (swGenerationSuccess && fs.existsSync(swPath)) {
-          try {
-            swContent = fs.readFileSync(swPath, 'utf8');
-
-            // Проверяем валидность сгенерированного файла
-            if (!swContent || swContent.length < 100) {
-              throw new Error('Generated SW file is too small or empty');
-            }
-
-            // Проверяем синтаксис
-            new Function(swContent);
-
-            console.log('✅ Workbox SW валидирован');
-          } catch (readError) {
-            console.error('❌ Ошибка чтения/валидации SW:', readError.message);
-            swContent = '';
-            swGenerationSuccess = false;
-          }
-        } else {
-          swGenerationSuccess = false;
-        }
-
-        // ✅ НОВОЕ: Улучшенный fallback SW с полной функциональностью
-        if (!swGenerationSuccess) {
-          console.log('🔄 Создание fallback Service Worker...');
-
-          swContent = generateFallbackSW(buildVersion);
-
-          try {
-            // Проверяем синтаксис fallback SW
-            new Function(swContent);
-            console.log('✅ Fallback SW создан и валидирован');
-          } catch (fallbackError) {
-            console.error('🚨 Критическая ошибка: Fallback SW невалиден:', fallbackError.message);
-            throw new Error('Unable to create valid Service Worker');
-          }
-        }
-
-        // ✅ ИСПРАВЛЕНО: Добавляем обработчики с версионированием
-        const swEnhancements = generateSWEnhancements(buildVersion);
-        const finalSwContent = swEnhancements + swContent;
-
-        // Финальная проверка синтаксиса
-        try {
-          new Function(finalSwContent);
-        } catch (syntaxError) {
-          console.error('🚨 SW syntax error after enhancements:', syntaxError.message);
-          throw new Error(`Final SW validation failed: ${syntaxError.message}`);
-        }
-
-        // Записываем финальный SW
-        fs.writeFileSync(swPath, finalSwContent, 'utf8');
-
-        const finalSize = (finalSwContent.length / 1024).toFixed(2);
-        console.log(`✅ SW обработан и записан (${finalSize} KB)`);
-
-        // ✅ НОВОЕ: Создаем файл статистики SW для отладки
-        const swStatsInfo = {
-          generationTime: new Date().toISOString(),
-          buildVersion,
-          workboxSuccess: swGenerationSuccess,
-          finalSize: `${finalSize} KB`,
-          fileCount: swStats?.count || 'unknown',
-          warnings: swStats?.warnings || [],
-        };
-
-        fs.writeFileSync(
-          path.resolve(__dirname, '_site/sw-stats.json'),
-          JSON.stringify(swStatsInfo, null, 2),
-          'utf8'
-        );
-      } catch (error) {
-        console.error('❌ Критическая ошибка генерации SW:', error.message);
-        console.error('Stack trace:', error.stack);
-
-        // В критических случаях - останавливаем сборку
-        if (process.env.SW_REQUIRED === 'true') {
-          throw error;
-        }
-
-        console.log('⚠️ Продолжаем сборку без Service Worker');
+      if (warnings.length > 0) {
+        console.warn('⚠️  Предупреждения от Workbox:', warnings);
       }
-    });
-  }
+      
+      console.log(
+        `✅ Service Worker успешно сгенерирован: ${count} файлов, ${(size / 1024).toFixed(2)} KB.`
+      );
 
-  // ✅ НОВАЯ ФУНКЦИЯ: Генерация улучшенного fallback SW
-  function generateFallbackSW(buildVersion) {
-    return `// Fallback Service Worker v${buildVersion}
-// Сгенерирован автоматически при ошибке Workbox
-
-const CACHE_NAME = 'fallback-cache-v${buildVersion}';
-const RUNTIME_CACHE = 'runtime-cache-v${buildVersion}';
-
-// Критически важные ресурсы для офлайн работы
-const ESSENTIAL_URLS = [
-  '/',
-  '/offline/',
-  '/assets/css/main.css'
-];
-
-// Установка SW
-self.addEventListener('install', event => {
-  console.log('SW Fallback: Installing...');
-  
-  event.waitUntil(
-    caches.open(CACHE_NAME)
-      .then(cache => {
-        console.log('SW Fallback: Кэширование критических ресурсов');
-        return cache.addAll(ESSENTIAL_URLS);
-      })
-      .then(() => {
-        console.log('SW Fallback: Установка завершена');
-        return self.skipWaiting();
-      })
-      .catch(error => {
-        console.error('SW Fallback: Ошибка установки:', error);
-      })
-  );
-});
-
-// Активация SW
-self.addEventListener('activate', event => {
-  console.log('SW Fallback: Activating...');
-  
-  event.waitUntil(
-    caches.keys()
-      .then(cacheNames => {
-        // Удаляем старые кэши
-        const deletePromises = cacheNames
-          .filter(cacheName => 
-            cacheName.startsWith('fallback-cache-') && 
-            cacheName !== CACHE_NAME
-          )
-          .map(cacheName => caches.delete(cacheName));
-        
-        return Promise.all(deletePromises);
-      })
-      .then(() => {
-        console.log('SW Fallback: Активация завершена');
-        return self.clients.claim();
-      })
-      .catch(error => {
-        console.error('SW Fallback: Ошибка активации:', error);
-      })
-  );
-});
-
-// Перехват запросов
-self.addEventListener('fetch', event => {
-  const { request } = event;
-  const url = new URL(request.url);
-  
-  // Только для запросов с нашего домена
-  if (url.origin !== self.location.origin) {
-    return;
-  }
-  
-  // Навигационные запросы (страницы)
-  if (request.mode === 'navigate') {
-    event.respondWith(
-      fetch(request)
-        .then(response => {
-          // Кэшируем успешные ответы
-          if (response.ok) {
-            const responseClone = response.clone();
-            caches.open(RUNTIME_CACHE)
-              .then(cache => cache.put(request, responseClone))
-              .catch(error => console.warn('SW Fallback: Кэширование не удалось:', error));
-          }
-          return response;
-        })
-        .catch(() => {
-          // Оффлайн - пробуем кэш, затем fallback
-          return caches.match(request)
-            .then(cachedResponse => {
-              if (cachedResponse) {
-                return cachedResponse;
-              }
-              // Показываем офлайн страницу
-              return caches.match('/offline/');
-            });
-        })
-    );
-    return;
-  }
-  
-  // Остальные ресурсы - простое кэширование
-  if (request.method === 'GET') {
-    event.respondWith(
-      caches.match(request)
-        .then(cachedResponse => {
-          if (cachedResponse) {
-            return cachedResponse;
-          }
-          
-          return fetch(request)
-            .then(response => {
-              if (response.ok && response.status < 400) {
-                const responseClone = response.clone();
-                caches.open(RUNTIME_CACHE)
-                  .then(cache => cache.put(request, responseClone))
-                  .catch(error => console.warn('SW Fallback: Кэширование ресурса не удалось:', error));
-              }
-              return response;
-            });
-        })
-    );
-  }
-});
-
-// Обработчик сообщений для ручного управления
-self.addEventListener('message', event => {
-  if (event.data && event.data.type === 'SKIP_WAITING') {
-    console.log('SW Fallback: Received SKIP_WAITING, applying update...');
-    self.skipWaiting();
-  }
-  
-  if (event.data && event.data.type === 'GET_VERSION') {
-    event.ports[0].postMessage({
-      type: 'VERSION_INFO',
-      version: '${buildVersion}',
-      mode: 'fallback'
-    });
-  }
-});
-
-console.log('SW Fallback v${buildVersion}: Готов к работе');
-`;
-  }
-
-  // ✅ НОВАЯ ФУНКЦИЯ: Генерация дополнительных возможностей SW
-  function generateSWEnhancements(buildVersion) {
-    return `// SW Enhancements v${buildVersion}
-// Добавлено автоматически при генерации SW
-
-// Обработчик для ручного управления skipWaiting
-self.addEventListener('message', event => {
-  if (event.data && event.data.type === 'SKIP_WAITING') {
-    console.log('🚀 SW: Received SKIP_WAITING, applying update...');
-    self.skipWaiting();
-  }
-  
-  // ✅ НОВОЕ: Обработчик для получения версии SW
-  if (event.data && event.data.type === 'GET_VERSION') {
-    event.ports[0].postMessage({
-      type: 'VERSION_INFO', 
-      version: '${buildVersion}',
-      mode: 'workbox',
-      timestamp: Date.now()
-    });
-  }
-  
-  // ✅ НОВОЕ: Обработчик для принудительного обновления кэша
-  if (event.data && event.data.type === 'FORCE_UPDATE_CACHE') {
-    event.waitUntil(
-      caches.keys().then(cacheNames => {
-        return Promise.all(
-          cacheNames.map(cacheName => {
-            if (cacheName.includes('pages-cache')) {
-              return caches.delete(cacheName);
-            }
-          })
-        );
-      }).then(() => {
-        console.log('🔄 SW: Кэш страниц принудительно очищен');
-        self.clients.matchAll().then(clients => {
-          clients.forEach(client => {
-            client.postMessage({ type: 'CACHE_CLEARED' });
-          });
-        });
-      })
-    );
-  }
-});
-
-// ✅ НОВОЕ: Обработка ошибок и отчетность
-self.addEventListener('error', event => {
-  console.error('SW Error:', event.error);
-  // Можно отправить ошибку в аналитику
-});
-
-self.addEventListener('unhandledrejection', event => {
-  console.error('SW Unhandled Promise Rejection:', event.reason);
-  event.preventDefault();
-});
-
-console.log('🚀 SW Enhanced v${buildVersion}: Loaded');
-
-// Оригинальный Workbox код:
-`;
-  }
+    } catch (error) {
+      console.error('❌ КРИТИЧЕСКАЯ ОШИБКА при генерации Service Worker:', error.message);
+      if (process.env.SW_REQUIRED === 'true') {
+        process.exit(1);
+      }
+    }
+  });
+}
 
   // =================================================================
   // КОНФИГУРАЦИЯ ВОЗВРАТА

@@ -82,12 +82,7 @@
   {# Новый блок для специфичных скриптов страницы #}
   {% block page_specific_scripts %}{% endblock %}
 
-  {# Service Worker - инлайн скрипт с хэшем (только в production) #}
-{% if isProdBuild %}
-  <script>
-    {{ swScriptContent | safe }}
-  </script>
-{% endif %}
+
 
 
 </body>

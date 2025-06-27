@@ -130,7 +130,7 @@ export default defineConfig({
     
     sourcemap: isProd ? false : 'inline',
     reportCompressedSize: isProd,
-    target: ['es2020', 'edge88', 'firefox78', 'chrome87', 'safari13.1']
+    target: ['es2022', 'edge109', 'firefox102', 'chrome109', 'safari15.6'],
   },
 
   // =================================================================

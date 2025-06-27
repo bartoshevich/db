@@ -4,6 +4,8 @@ import '../scss/style.scss';
 
 import spriteUrl from '../images/sprite.svg?url';
 
+import { Workbox } from 'workbox-window';
+
 
 // ===== Критично для UX/UI =====
 import "./menu.js"; // Меню, header — обязательно
@@ -59,6 +61,51 @@ if (window.matchMedia("(hover: hover)").matches) {
   import("./prefetcher.js")
     .catch(err => console.warn("Не удалось загрузить prefetcher.js:", err));
 }
+
+
+
+
+
+// =================================================================
+// НОВАЯ, УПРОЩЕННАЯ РЕГИСТРАЦИЯ SERVICE WORKER
+// =================================================================
+
+if ('serviceWorker' in navigator && !/localhost/.test(window.location)) {
+  if (Workbox) {
+    const wb = new Workbox('/sw.js');
+
+    const showUpdateBanner = () => {
+      console.log("Доступна новая версия сайта. Обновить?");
+      // Здесь будет ваша логика для показа красивого баннера.
+      // Для принудительного обновления без участия пользователя:
+       wb.addEventListener('controlling', () => {
+         window.location.reload();
+       });
+       wb.messageSkipWaiting();
+    };
+    
+    wb.addEventListener('waiting', showUpdateBanner);
+
+    wb.addEventListener('activated', (event) => {
+      if (!event.isUpdate) {
+        console.log('✅ Service Worker активирован впервые!');
+      } else {
+        console.log('✅ Service Worker обновлен!');
+      }
+    });
+
+    wb.register()
+      .then(registration => {
+        console.log('✅ Service Worker зарегистрирован:', registration);
+      })
+      .catch(error => {
+        console.error('❌ Ошибка регистрации Service Worker:', error);
+      });
+  }
+}
+
+
+
 
 
 // =================================================================
