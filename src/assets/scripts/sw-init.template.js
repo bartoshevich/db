@@ -1,19 +1,14 @@
 // src/assets/scripts/sw-init.template.js
-// Service Worker инициализация с поддержкой CSP хэширования
+// БЕЗОПАСНАЯ ВЕРСИЯ - сохраняет совместимость с существующим хэшированием
 
 (function() {
   'use strict';
-  
-  // =================================================================
-  // ПРОВЕРКИ СОВМЕСТИМОСТИ И ОКРУЖЕНИЯ
-  // =================================================================
   
   if (!('serviceWorker' in navigator)) {
     console.warn('SW: navigator.serviceWorker не поддерживается');
     return;
   }
   
-  // Development mode protection
   const isDevelopment = window.location.hostname === 'localhost' || 
                        window.location.hostname === '127.0.0.1' ||
                        window.location.port === '8080';
@@ -23,114 +18,58 @@
     return;
   }
   
-  // Deploy preview protection (Netlify)
   const isDeployPreview = window.location.hostname.includes('deploy-preview') ||
                          window.location.hostname.includes('branch-deploy'); 
                        
-
   if (isDeployPreview) {
     console.log('🚧 Deploy preview detected, SW registration skipped');
     return;
   }
   
-  // Graceful degradation для sessionStorage
   let hasSessionStorage = false;
   try {
     hasSessionStorage = !!window.sessionStorage;
-    if (hasSessionStorage) {
-      sessionStorage.setItem('sw-test', 'test');
-      sessionStorage.removeItem('sw-test');
-    }
+    sessionStorage.setItem('sw-test', '1');
+    sessionStorage.removeItem('sw-test');
   } catch (e) {
-    hasSessionStorage = false;
-    console.warn('SW: sessionStorage недоступен, сохранение позиции отключено');
-  }
-  
-  // iOS Safari private mode detection
-  function checkiOSPrivateMode() {
-    try {
-      if (/iPad|iPhone|iPod/.test(navigator.userAgent)) {
-        sessionStorage.setItem('ios-test', '1');
-        sessionStorage.removeItem('ios-test');
-        return false;
-      }
-    } catch (e) {
-      console.warn('SW: iOS Private Mode detected, некоторые функции недоступны');
-      return true;
-    }
-    return false;
-  }
-  
-  const isIOSPrivate = checkiOSPrivateMode();
-  if (isIOSPrivate) {
+    console.warn('SW: sessionStorage недоступен');
     hasSessionStorage = false;
   }
-
-  // =================================================================
-  // КОНФИГУРАЦИЯ
-  // =================================================================
 
   const CONFIG = {
     updateCheckInterval: {{UPDATE_CHECK_INTERVAL}},
     bannerAutoHideDelay: {{BANNER_AUTO_HIDE_DELAY}},
     scrollSaveKey: '{{SCROLL_SAVE_KEY}}',
-    bannerId: '{{BANNER_ID}}'
+    bannerId: '{{BANNER_ID}}',
+    lowBatteryThreshold: 0.15,
+    memoryPressureThreshold: 0.85,
+    retryDelay: 30000,
+    visibilityChangeDelay: 1000
   };
-
+  
   const STRINGS = {{SW_STRINGS}};
-
-  // =================================================================
-  // СОСТОЯНИЕ
-  // =================================================================
 
   let registration = null;
   let isRefreshing = false;
-  let lastUpdateCheck = 0;
   let bannerTimer = null;
+  let updateCheckTimer = null;
   let visibilityChangeTimeout = null;
 
-  // =================================================================
-  // UTILITY ФУНКЦИИ
-  // =================================================================
-
-  // Network quality detection
-  function getNetworkQuality() {
-    const connection = navigator.connection || navigator.mozConnection || navigator.webkitConnection;
-    
-    if (!connection) return 'unknown';
-    
-    if (connection.effectiveType === '2g' || connection.effectiveType === 'slow-2g') {
-      return 'slow';
+  function isLowEndDevice() {
+    if (navigator.hardwareConcurrency && navigator.hardwareConcurrency <= 2) {
+      return true;
     }
     
-    if (connection.effectiveType === '3g') {
-      return 'medium';
+    if (navigator.deviceMemory && navigator.deviceMemory <= 2) {
+      return true;
     }
     
-    return 'fast';
-  }
-  
-  // Battery awareness
-  async function shouldRespectBattery() {
-    if (!('getBattery' in navigator)) return false;
-    
-    try {
-      const battery = await navigator.getBattery();
-      return battery.level < 0.2 && !battery.charging;
-    } catch (e) {
-      return false;
-    }
-  }
-  
-  // Memory pressure detection
-  function handleMemoryPressure() {
-    if (performance.memory) {
-      const memoryRatio = performance.memory.usedJSHeapSize / performance.memory.jsHeapSizeLimit;
-      
-      if (memoryRatio > 0.8) {
-        console.warn('🧠 SW: High memory usage detected');
-        dismissBanner();
-        CONFIG.updateCheckInterval *= 2;
+    if (navigator.connection) {
+      const conn = navigator.connection;
+      if (conn.effectiveType === 'slow-2g' || conn.effectiveType === '2g') {
+        return true;
+      }
+      if (conn.saveData === true) {
         return true;
       }
     }
@@ -138,49 +77,147 @@
     return false;
   }
   
-  // Thermal state monitoring
+  async function isLowBattery() {
+    if (!('getBattery' in navigator)) return false;
+    
+    try {
+      const battery = await navigator.getBattery();
+      return battery.level < CONFIG.lowBatteryThreshold && !battery.charging;
+    } catch (e) {
+      return false;
+    }
+  }
+  
+  function checkNetworkConditions() {
+    if (!navigator.connection) return { quality: 'unknown', saveData: false };
+    
+    const conn = navigator.connection;
+    let quality = 'good';
+    
+    if (conn.effectiveType === 'slow-2g' || conn.effectiveType === '2g') {
+      quality = 'poor';
+    } else if (conn.effectiveType === '3g') {
+      quality = 'moderate';
+    }
+    
+    return {
+      quality,
+      saveData: conn.saveData === true,
+      downlink: conn.downlink,
+      rtt: conn.rtt
+    };
+  }
+  
+  function handleMemoryPressure() {
+    if (!performance.memory) return false;
+    
+    const memory = performance.memory;
+    const memoryRatio = memory.usedJSHeapSize / memory.jsHeapSizeLimit;
+    
+    if (memoryRatio > CONFIG.memoryPressureThreshold) {
+      console.warn('🧠 SW: Critical memory usage detected');
+      dismissBanner();
+      CONFIG.updateCheckInterval *= 3;
+      return true;
+    } else if (memoryRatio > 0.7) {
+      console.warn('🧠 SW: High memory usage detected');
+      CONFIG.updateCheckInterval *= 2;
+      return true;
+    }
+    
+    return false;
+  }
+  
   function checkThermalState() {
-    if ('thermal' in navigator) {
-      navigator.thermal.addEventListener('statechange', (event) => {
-        const thermalState = event.target.state;
+    if (!('thermal' in navigator)) return;
+    
+    navigator.thermal.addEventListener('statechange', (event) => {
+      const thermalState = event.target.state;
+      
+      if (thermalState === 'serious' || thermalState === 'critical') {
+        console.log('🌡️ SW: Device overheating, reducing activity');
+        CONFIG.updateCheckInterval *= 4;
         
-        if (thermalState === 'serious' || thermalState === 'critical') {
-          console.log('🌡️ SW: Device overheating, reducing activity');
-          CONFIG.updateCheckInterval *= 3;
-          
-          if (bannerTimer) {
-            clearTimeout(bannerTimer);
-            bannerTimer = null;
-          }
+        if (bannerTimer) {
+          clearTimeout(bannerTimer);
+          bannerTimer = null;
         }
-      });
+        
+        if (updateCheckTimer) {
+          clearTimeout(updateCheckTimer);
+          updateCheckTimer = null;
+        }
+      }
+    });
+  }
+
+  async function initServiceWorker() {
+    try {
+      console.log('🚀 SW: Initializing...');
+      
+      const networkConditions = checkNetworkConditions();
+      const isLowEnd = isLowEndDevice();
+      const lowBattery = await isLowBattery();
+      
+      if (networkConditions.quality === 'poor' && (isLowEnd || lowBattery)) {
+        console.log('⚠️ SW: Poor conditions detected, delaying registration');
+        setTimeout(initServiceWorker, 10000);
+        return;
+      }
+      
+      const existingRegistration = await navigator.serviceWorker.getRegistration('/sw.js');
+      
+      if (existingRegistration) {
+        console.log('✅ SW: Using existing registration');
+        registration = existingRegistration;
+        
+        if (existingRegistration.waiting) {
+          console.log('⏳ SW: Update is waiting');
+          showUpdateBanner();
+        } else if (existingRegistration.installing) {
+          console.log('⏳ SW: New version installing');
+          existingRegistration.installing.addEventListener('statechange', handleInstallStateChange);
+        }
+      } else {
+        console.log('🔄 SW: Registering new service worker');
+        registration = await navigator.serviceWorker.register('/sw.js', {
+          updateViaCache: 'none'
+        });
+        console.log('✅ SW registered:', registration.scope);
+      }
+      
+      console.log('🔍 SW controller:', navigator.serviceWorker.controller);
+      setupEventListeners();
+      checkThermalState();
+      scheduleUpdateCheck();
+      restoreScrollPosition();
+      
+    } catch (error) {
+      console.error('❌ SW registration failed:', error);
+      
+      if (error.name === 'SecurityError') {
+        console.log('🔒 SW: Security error, not retrying');
+        return;
+      }
+      
+      console.log('🔄 SW: Will retry registration in 30 seconds');
+      setTimeout(initServiceWorker, CONFIG.retryDelay);
     }
   }
 
-  // =================================================================
-  // SW CORE ЛОГИКА
-  // =================================================================
-
-  async function initServiceWorker() {
-    // Проверяем нет ли уже активной регистрации
-    const existingRegistration = await navigator.serviceWorker.getRegistration('/sw.js');
+  function handleInstallStateChange(event) {
+    const worker = event.target;
     
-    if (existingRegistration) {
-      console.log('✅ SW: Using existing registration');
-      registration = existingRegistration;
-    } else {
-      try {
-        registration = await navigator.serviceWorker.register('/sw.js');
-        console.log('✅ SW registered:', registration.scope);
-      } catch (error) {
-        console.error('❌ SW registration failed:', error);
-        return;
+    if (worker.state === 'installed') {
+      if (navigator.serviceWorker.controller) {
+        console.log('🆕 SW: New version installed');
+        showUpdateBanner();
+      } else {
+        console.log('✅ SW: First installation complete');
       }
+    } else if (worker.state === 'activated') {
+      console.log('✅ SW: Activated');
     }
-    
-    console.log('🔍 SW controller:', navigator.serviceWorker.controller);
-    setupEventListeners();
-    checkThermalState();
   }
 
   function setupEventListeners() {
@@ -196,157 +233,159 @@
       }
     });
 
-    // Debounced проверка обновлений с учетом Safari throttling
     document.addEventListener('visibilitychange', () => {
       if (visibilityChangeTimeout) {
         clearTimeout(visibilityChangeTimeout);
       }
       
-      const delay = /Safari/.test(navigator.userAgent) && !/Chrome/.test(navigator.userAgent) ? 2000 : 500;
+      const delay = /Safari/.test(navigator.userAgent) && !/Chrome/.test(navigator.userAgent) ? 
+                   2000 : CONFIG.visibilityChangeDelay;
       
       visibilityChangeTimeout = setTimeout(() => {
-        if (!document.hidden && shouldCheckForUpdates()) {
+        if (!document.hidden && registration) {
+          console.log('👁️ SW: Page visible, checking for updates');
           checkForUpdates();
         }
       }, delay);
     });
+
+    navigator.serviceWorker.addEventListener('message', handleSWMessage);
   }
 
-  function shouldCheckForUpdates() {
-    const now = Date.now();
-    const timeSinceLastCheck = now - lastUpdateCheck;
+  function handleSWMessage(event) {
+    const { data } = event;
     
-    if (!navigator.onLine) {
-      console.log('🌐 SW: Offline, skipping update check');
-      return false;
+    if (!data || !data.type) return;
+    
+    switch (data.type) {
+      case 'VERSION_INFO':
+        console.log('📊 SW Version: ' + data.version + ' (' + data.mode + ')');
+        break;
+        
+      case 'CACHE_CLEARED':
+        console.log('🗑️ SW: Cache cleared');
+        break;
+        
+      case 'CACHE_UPDATED': 
+        console.log('🔄 SW: Cache updated for:', data.payload && data.payload.updatedURL);
+        break;
+        
+      default:
+        console.log('📨 SW Message:', data);
     }
-    
-    // На медленных сетях проверяем реже
-    const networkQuality = getNetworkQuality();
-    const minInterval = networkQuality === 'slow' ? 
-      CONFIG.updateCheckInterval * 2 : CONFIG.updateCheckInterval;
-    
-    return timeSinceLastCheck >= minInterval;
-  }
-
-  async function checkForUpdates() {
-    if (!registration) return;
-    
-    if (await shouldRespectBattery()) {
-      console.log('🔋 Low battery, skipping SW update check');
-      return;
-    }
-    
-    lastUpdateCheck = Date.now();
-    console.log('🔍 SW: Checking for updates...');
-    
-    registration.update().catch(error => {
-      console.warn('⚠️ SW update check failed:', error);
-    });
   }
 
   function handleUpdate() {
-    const newWorker = registration.installing;
-    if (!newWorker) return;
-
-    console.log('🆕 SW: Update found');
+    if (!registration.installing) return;
     
-    newWorker.addEventListener('statechange', () => {
-      console.log('🔄 SW state changed:', newWorker.state);
-      
-      if (newWorker.state === 'installed' && navigator.serviceWorker.controller) {
-        console.log('✨ SW: New version ready');
+    console.log('🔄 SW: Update found, installing...');
+    
+    registration.installing.addEventListener('statechange', () => {
+      if (registration.waiting && navigator.serviceWorker.controller) {
+        console.log('⏳ SW: Update ready');
         showUpdateBanner();
       }
     });
   }
 
-  // =================================================================
-  // UI ЛОГИКА
-  // =================================================================
+  async function checkForUpdates() {
+    if (!registration) return;
+    
+    try {
+      if (handleMemoryPressure()) {
+        console.log('⚠️ SW: Skipping update check due to memory pressure');
+        return;
+      }
+      
+      const networkConditions = checkNetworkConditions();
+      if (networkConditions.saveData || networkConditions.quality === 'poor') {
+        console.log('⚠️ SW: Skipping update check due to poor network');
+        return;
+      }
+      
+      console.log('🔍 SW: Checking for updates...');
+      await registration.update();
+      
+    } catch (error) {
+      console.warn('⚠️ SW: Update check failed:', error.message);
+    }
+  }
+
+  function scheduleUpdateCheck() {
+    if (updateCheckTimer) {
+      clearTimeout(updateCheckTimer);
+    }
+    
+    const interval = Math.max(CONFIG.updateCheckInterval, 60000);
+    
+    updateCheckTimer = setTimeout(() => {
+      if (!document.hidden) {
+        checkForUpdates();
+      }
+      scheduleUpdateCheck();
+    }, interval);
+  }
 
   function showUpdateBanner() {
-    if (handleMemoryPressure()) {
-      console.log('🧠 SW: Skipping banner due to memory pressure');
+    if (document.getElementById(CONFIG.bannerId)) {
       return;
     }
     
-    if (document.getElementById(CONFIG.bannerId)) {
-      console.log('⚠️ SW: Banner already exists');
-      return;
-    }
-
-    const banner = createBannerElement();
-    const { updateBtn, dismissBtn } = createBannerButtons();
-    const message = createBannerMessage();
-
-    const actions = document.createElement('div');
-    actions.className = 'sw-update-actions';
-    actions.appendChild(updateBtn);
-    actions.appendChild(dismissBtn);
-
-    banner.appendChild(message);
-    banner.appendChild(actions);
-
-    setupBannerEventListeners(banner, updateBtn, dismissBtn);
-
+    console.log('📢 SW: Showing update banner');
+    
+    const banner = document.createElement('div');
+    banner.id = CONFIG.bannerId;
+    banner.className = 'sw-update-overlay';
+    banner.setAttribute('data-visible', 'false');
+    banner.setAttribute('role', 'dialog');
+    banner.setAttribute('aria-labelledby', 'sw-update-title');
+    
+    banner.innerHTML = '<div class="sw-update-content">' +
+      '<div class="sw-update-icon">🆕</div>' +
+      '<div class="sw-update-text">' +
+        '<div id="sw-update-title" class="sw-update-title">' +
+          STRINGS.updateMessage +
+        '</div>' +
+      '</div>' +
+      '<div class="sw-update-actions">' +
+        '<button type="button" class="sw-update-btn sw-update-btn--primary" ' +
+                'aria-label="' + STRINGS.updateButtonAriaLabel + '">' +
+          STRINGS.updateButton +
+        '</button>' +
+        '<button type="button" class="sw-update-btn sw-update-btn--secondary"' +
+                'aria-label="' + STRINGS.dismissButtonAriaLabel + '">' +
+          STRINGS.dismissButton +
+        '</button>' +
+      '</div>' +
+    '</div>';
+    
     document.body.appendChild(banner);
     
     requestAnimationFrame(() => {
       banner.setAttribute('data-visible', 'true');
-      updateBtn.focus();
-    });
-
-    bannerTimer = setTimeout(() => {
-      if (document.getElementById(CONFIG.bannerId)) {
-        dismissBanner();
-      }
-    }, CONFIG.bannerAutoHideDelay);
-  }
-
-  function createBannerElement() {
-    const banner = document.createElement('div');
-    banner.id = CONFIG.bannerId;
-    banner.className = 'sw-update-overlay';
-    banner.setAttribute('role', 'alert');
-    banner.setAttribute('aria-live', 'polite');
-    banner.setAttribute('aria-atomic', 'true');
-    banner.setAttribute('data-visible', 'false');
-    
-    // Error boundary
-    banner.addEventListener('error', (event) => {
-      console.error('🚨 SW Banner error:', event);
-      dismissBanner();
-      event.stopPropagation();
     });
     
-    return banner;
+    setupBannerEventListeners(banner);
+    
+    if (CONFIG.bannerAutoHideDelay > 0) {
+      bannerTimer = setTimeout(() => {
+        if (document.getElementById(CONFIG.bannerId)) {
+          console.log('⏰ SW: Auto-hiding banner');
+          dismissBanner();
+        }
+      }, CONFIG.bannerAutoHideDelay);
+    }
   }
 
-  function createBannerMessage() {
-    const message = document.createElement('div');
-    message.className = 'sw-update-message';
-    message.textContent = STRINGS.updateMessage;
-    return message;
-  }
-
-  function createBannerButtons() {
-    const updateBtn = document.createElement('button');
-    updateBtn.type = 'button';
-    updateBtn.className = 'sw-update-btn sw-update-btn-primary';
-    updateBtn.textContent = STRINGS.updateButton;
-    updateBtn.setAttribute('aria-label', STRINGS.updateButtonAriaLabel);
-
-    const dismissBtn = document.createElement('button');
-    dismissBtn.type = 'button';
-    dismissBtn.className = 'sw-update-btn sw-update-btn-secondary';
-    dismissBtn.textContent = STRINGS.dismissButton;
-    dismissBtn.setAttribute('aria-label', STRINGS.dismissButtonAriaLabel);
-
-    return { updateBtn, dismissBtn };
-  }
-
-  function setupBannerEventListeners(banner, updateBtn, dismissBtn) {
+  function setupBannerEventListeners(banner) {
+    const updateBtn = banner.querySelector('.sw-update-btn--primary');
+    const dismissBtn = banner.querySelector('.sw-update-btn--secondary');
+    
+    if (!updateBtn || !dismissBtn) {
+      console.error('❌ SW: Banner buttons not found');
+      return;
+    }
+    
     updateBtn.addEventListener('click', applyUpdate);
     dismissBtn.addEventListener('click', dismissBanner);
 
@@ -354,6 +393,9 @@
       if (event.key === 'Escape') {
         event.preventDefault();
         dismissBanner();
+      } else if (event.key === 'Enter' && event.target === banner) {
+        event.preventDefault();
+        updateBtn.focus();
       }
     });
 
@@ -361,6 +403,12 @@
       if (bannerTimer) {
         clearTimeout(bannerTimer);
         bannerTimer = null;
+      }
+    });
+    
+    banner.addEventListener('mouseleave', () => {
+      if (!bannerTimer && CONFIG.bannerAutoHideDelay > 0) {
+        bannerTimer = setTimeout(dismissBanner, CONFIG.bannerAutoHideDelay);
       }
     });
   }
@@ -371,7 +419,6 @@
       return;
     }
 
-    // Предотвращаем multiple calls
     if (isRefreshing) {
       console.log('🔄 SW: Update already in progress');
       return;
@@ -380,7 +427,6 @@
     console.log('🚀 SW: Applying update...');
     saveScrollPosition();
     
-    // Устанавливаем флаг ДО отправки сообщения
     isRefreshing = true;
     
     registration.waiting.postMessage({ type: 'SKIP_WAITING' });
@@ -407,10 +453,6 @@
     }, 300);
   }
 
-  // =================================================================
-  // SCROLL POSITION UTILITIES
-  // =================================================================
-
   function saveScrollPosition() {
     if (!hasSessionStorage) return;
     
@@ -419,7 +461,7 @@
       
       if (scrollY >= 0) {
         sessionStorage.setItem(CONFIG.scrollSaveKey, scrollY.toString());
-        console.log('💾 SW: Scroll position saved:', scrollY);
+        console.log('💾 SW: Scroll position saved: ' + scrollY);
       }
     } catch (error) {
       console.warn('⚠️ SW: Failed to save scroll position:', error);
@@ -431,77 +473,38 @@
     
     try {
       const savedPosition = sessionStorage.getItem(CONFIG.scrollSaveKey);
-      if (!savedPosition) return;
-
-      const position = parseInt(savedPosition, 10);
       
-      if (isNaN(position) || position < 0) {
-        console.warn('⚠️ SW: Invalid scroll position:', savedPosition);
-        sessionStorage.removeItem(CONFIG.scrollSaveKey);
-        return;
+      if (savedPosition !== null) {
+        const scrollY = parseInt(savedPosition, 10);
+        
+        if (!isNaN(scrollY) && scrollY > 0) {
+          const restoreScroll = () => {
+            if (document.readyState === 'complete') {
+              window.scrollTo({
+                top: scrollY,
+                behavior: 'auto'
+              });
+              console.log('📍 SW: Scroll position restored: ' + scrollY);
+              sessionStorage.removeItem(CONFIG.scrollSaveKey);
+            } else {
+              setTimeout(restoreScroll, 100);
+            }
+          };
+          
+          if (document.readyState === 'loading') {
+            window.addEventListener('load', restoreScroll, { once: true });
+          } else {
+            restoreScroll();
+          }
+        } else {
+          sessionStorage.removeItem(CONFIG.scrollSaveKey);
+        }
       }
-
-      console.log('📍 SW: Restoring scroll position:', position);
-      
-      requestAnimationFrame(() => {
-        window.scrollTo({
-          top: position,
-          left: 0,
-          behavior: 'auto'
-        });
-      });
-
-      sessionStorage.removeItem(CONFIG.scrollSaveKey);
-      
     } catch (error) {
       console.warn('⚠️ SW: Failed to restore scroll position:', error);
     }
   }
 
-  // =================================================================
-  // NETWORK MONITORING
-  // =================================================================
-
-  function setupNetworkMonitoring() {
-    window.addEventListener('online', () => {
-      console.log('🌐 SW: Back online');
-      if (shouldCheckForUpdates()) {
-        checkForUpdates();
-      }
-    });
-
-    window.addEventListener('offline', () => {
-      console.log('📴 SW: Gone offline');
-    });
-  }
-
-  // =================================================================
-  // GRACEFUL SHUTDOWN
-  // =================================================================
-
-  function gracefulShutdown() {
-    if (bannerTimer) {
-      clearTimeout(bannerTimer);
-      bannerTimer = null;
-    }
-    
-    if (visibilityChangeTimeout) {
-      clearTimeout(visibilityChangeTimeout);
-      visibilityChangeTimeout = null;
-    }
-    
-    const banner = document.getElementById(CONFIG.bannerId);
-    if (banner) {
-      banner.remove();
-    }
-    
-    console.log('👋 SW: Graceful shutdown');
-  }
-
-   // =================================================================
-  // CSP VIOLATION MONITORING
-  // =================================================================
-  
   function setupCSPMonitoring() {
     document.addEventListener('securitypolicyviolation', (event) => {
       console.warn('🚨 CSP Violation:', {
@@ -510,34 +513,43 @@
         lineNumber: event.lineNumber,
         sourceFile: event.sourceFile
       });
-      
-      // Отправляем в аналитику для мониторинга
-      if (window.sa_event) {
-        window.sa_event('csp_violation', {
-          directive: event.violatedDirective,
-          uri: event.blockedURI
-        });
-      }
     });
   }
 
-  // =================================================================
-  // ИНИЦИАЛИЗАЦИЯ
-  // =================================================================
-
- if (document.readyState === 'loading') {
-  document.addEventListener('DOMContentLoaded', () => {
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', () => {
+      initServiceWorker();
+      setupCSPMonitoring();
+    }, { once: true });
+  } else {
     initServiceWorker();
-    setupCSPMonitoring(); // ДОБАВИТЬ
-  });
-} else {
-  initServiceWorker();
-  setupCSPMonitoring(); // ДОБАВИТЬ
-}
+    setupCSPMonitoring();
+  }
 
-  window.addEventListener('load', restoreScrollPosition);
-  window.addEventListener('load', setupNetworkMonitoring);
-  window.addEventListener('beforeunload', gracefulShutdown);
-  window.addEventListener('pagehide', gracefulShutdown); // iOS Safari
+  window.addEventListener('beforeunload', () => {
+    if (updateCheckTimer) {
+      clearTimeout(updateCheckTimer);
+    }
+    if (bannerTimer) {
+      clearTimeout(bannerTimer);
+    }
+    if (visibilityChangeTimeout) {
+      clearTimeout(visibilityChangeTimeout);
+    }
+  });
+
+  if (window.location.hostname === 'localhost') {
+    window.swDebug = {
+      registration: () => registration,
+      checkUpdate: checkForUpdates,
+      showBanner: showUpdateBanner,
+      dismissBanner: dismissBanner,
+      clearCache: () => {
+        if (registration && registration.active) {
+          registration.active.postMessage({ type: 'FORCE_UPDATE_CACHE' });
+        }
+      }
+    };
+  }
 
 })();
