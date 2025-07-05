@@ -1,0 +1,97 @@
+@use './variables' as v;
+
+.post-footer {
+  margin-top: var(--space-2xl);
+}
+
+.related-service-block {
+  background: transparent;
+  border: none;
+  border-radius: 0;
+  padding: var(--space-xl, 40px) 0 0 0;
+  margin: var(--space-xl, 40px) 0 0 0;
+
+  border-top: 1px solid var(--divider-color, #d1d5db);
+}
+
+.related-service-block__title {
+  font-size: var(--step-1, 28px);
+  font-weight: 600;
+  line-height: 1.2;
+  letter-spacing: -0.015em;
+  color: var(--text-colour, #000000);
+  margin: 0 0 1em 0;
+}
+
+.related-service-block__text {
+  font-size: var(--step-0, 17px);
+  line-height: 1.6;
+  color: var(--secondary-text-colour, #424245);
+  margin: 0 0 28px 0;
+
+  max-width: 70ch;
+}
+
+.related-service-block__link {
+  display: inline-flex;
+  align-items: center;
+
+  background: var(--color-button-primary-bg);
+    background: linear-gradient(180deg, var(--color-button-primary-bg) 20%, var(--link-opacity-80) 100%);
+  color: var(--color-button-primary-text);
+  text-decoration: none;
+  border: 2px solid transparent;
+  border-radius: 8px;
+  padding: 16px 32px;
+  margin-bottom: var(--space-m);
+  font-size: var(--step-0);
+  font-weight: 400;
+  line-height: 1.23529;
+  letter-spacing: -0.022em;
+  cursor: pointer;
+  transition: background-color 0.2s ease, color 0.2s ease;
+   box-shadow: var(--toc-shadow);
+  
+
+  &:hover {
+    background: transparent;
+    color: var(--color-button-primary-hover-text);
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.12);
+    border: 2px solid var(--color-button-primary-hover-text);
+    box-shadow: var(--toc-shadow-hover); 
+    
+  }
+
+  &:active {
+    opacity: 0.8;
+    transition: none;
+  }
+
+  &:focus-visible {
+    outline: 2px solid v.$link;
+    outline-offset: 2px;
+    box-shadow: none;
+    text-decoration: none;
+  }
+}
+
+@media (max-width: 734px) {
+  .related-service-block {
+    padding: 32px 0;
+    margin: 32px 0;
+  }
+
+  .related-service-block__title {
+    font-size: 25px;
+    line-height: 1.2;
+  }
+
+  .related-service-block__text {
+    font-size: 17px;
+  }
+
+  .related-service-block__link {
+    min-width: 200px;
+    justify-content: center;
+  }
+}

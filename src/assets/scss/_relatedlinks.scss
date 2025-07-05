@@ -1,54 +1,43 @@
 @use './variables' as v;
 
-.related-ideas {
-  margin-top: var(--space-3xl);
-  position: relative;
-  padding-left: var(--space-xs);
+.related-ideas-block {
+  background: transparent;
+  border-top: 1px solid var(--card-border);
+  border-radius: 0;
+    padding: var(--space-xl, 40px) 0 0 0;
+  margin: var(--space-xl, 40px) 0 0 0;
+  box-shadow: none;
+
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  li {
+    position: relative;
+    margin-bottom: 0.8em;
+    line-height: 1.6;
+  }
 }
 
-.related-ideas::before {
-  content: '';
-  position: absolute;
-  left: 0;
-  top: 0;
-  bottom: 0;
-  width: 9px;
-  border-left: 2px dotted v.$link;
-  border-right: 2px dotted v.$link;
-  opacity: 0.9;
+.related-idea__arrow {
+  margin-right: 12px;
+  transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1); 
+  display: inline-block;
+  width: 0.7em;
+  height: 0.7em;
+  color: var(--arrow-color);
+  will-change: transform; 
 }
 
 .related-ideas__title {
-  font-size: var(--font-size-0);
-  margin-bottom: 1.1em;
-  padding-inline-start: 15px;
-  text-transform: uppercase;
+  font-size: var(--step-1);
   font-weight: 600;
-}
-
-.related-ideas__list {
-  columns: 2 300px;
-  column-gap: 44px;
-  list-style: none;
-  padding: 0;
-  margin: 0;
-
-  @media (max-width: 768px) {
-    columns: 1;
-  }
-}
-
-.related-ideas__item {
-  position: relative;
-  margin-bottom: 16px;
-  break-inside: avoid;
-  display: grid;
-  grid-template-columns: 40px 1fr;
-  height: 100%;
-
-  &:hover .simbol-right {
-    transform: translateX(4px);
-  }
+  line-height: 1.2;
+  letter-spacing: -0.015em;
+  color: var(--text-colour);
+  margin: 0 0 1em 0;
 }
 
 .related-ideas__link {
@@ -57,57 +46,52 @@
   transition: color 0.3s ease;
   position: relative;
   padding: 4px 6px;
-  overflow: hidden;
-  text-wrap: avoid;
+  color: var(--text-colour);
 
+
+      &:focus-visible {
+    outline: 2px solid v.$link;
+    outline-offset: 2px;
+    box-shadow: none;
+    text-decoration: none;
+  }
+  
  
+  &::after {
+    content: '';
+    position: absolute;
+    bottom: 4px; 
+    left: 6px;   
+    right: 6px; 
+    height: 2px;
+    background: v.$link;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.3s ease;
+  }
+}
+
+.related-ideas__item {
+  display: flex;
+  align-items: baseline;
+  margin-bottom: 16px;
+  gap: 0;
+  cursor: pointer; 
+
+
+  
   &:hover {
-    color: var(--link-hover);
-    text-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
-
-    .link-arrow {
-      transform: translateX(6px);
-      opacity: var(--arrow-hover-opacity, 0.4);
+    .related-idea__arrow {
+      color: var(--text-colour);
+      transform: translateX(3px);
     }
-
-    &::after {
-      transform: translate(5px, -1px);
-    }
-  }
-}
-
-.link-arrow {
-  display: inline-block;
-  transition:
-    transform 0.3s cubic-bezier(0.4, 0, 0.2, 1),
-    opacity 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-  white-space: nowrap;
-  opacity: 1;
-  transform: translateX(0);
-  will-change: transform, opacity;
-
-  /* Убираем will-change после завершения анимации */
-  @media (prefers-reduced-motion: no-preference) {
-    .related-ideas__link:not(:hover) & {
-      will-change: auto;
+    
+    .related-ideas__link {
+      color: var(--link-hover);
+      
+      &::after {
+        transform: scaleX(1);
+      }
     }
   }
-}
-
-.related-ideas__icon {
-  width: 20px;
-  height: 20px;
-  fill: var(--gray);
-  flex-shrink: 0;
-  transition:
-    fill 0.3s ease,
-    transform 0.3s ease;
-  align-self: center;
-  justify-self: center;
-}
-
-.related-ideas__item:hover .related-ideas__icon {
-  fill: var(--link-hover);
-  transform: scale(1.6);
-  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
 }

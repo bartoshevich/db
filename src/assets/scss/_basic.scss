@@ -1,7 +1,7 @@
-@use "./variables" as v;
+@use './variables' as v;
 
 p {
-  max-width: 66ch;
+  max-width: 70ch;
 }
 
 .h1 {
@@ -16,10 +16,12 @@ p {
 .intro {
   // margin-bottom: var(--space-l-xl);
   font-size: calc(1.06 * var(--step-2));
+ 
 }
 
-
-
+.text--accent {
+ color: var(--text-accent);
+}
 
 
 .intro__image {
@@ -78,7 +80,7 @@ p {
 }
 
 .list-sign:before {
-  content: "•";
+  content: '•';
   padding-right: var(--space-3xs);
 }
 
@@ -129,7 +131,7 @@ p {
 
 .section__title {
   margin-top: var(--space-xl);
-  margin-bottom: -0.2em;
+  margin-bottom: 0.4em;
 }
 
 .section__title--regular {
@@ -234,9 +236,12 @@ p {
 }
 
 .post__note {
-  border-left-width: var(--space-2xs);
+  border-left-width: 0.5em;
   border-style: double;
+  border-color: #d2d2d7;
   padding-left: var(--space-xs);
+  line-height: 1.4;
+  color: var(--text-accent);
 }
 
 /* Flex */

@@ -1,37 +1,45 @@
 table {
   position: relative;
   background-color: var(--table-bg-color);
-  border-top: 7px solid var(--table-border-top);
+  border-top: none;
+  width: 100%;
   border-collapse: collapse;
-  font-size: 0.87em;
-  margin: 0 0 1.5em 0;
+  font-size: 0.9em;
+  margin: 1.6em 0;
   text-align: left;
 }
 
 caption {
-  padding: 14px 14px 14px 0;
-  font-size: 1em;
-  font-weight: 700;
+  padding: 0 0 1em 0;
+  font-size: var(--step-0);
+  color: var(--text-colour);
+  font-weight: 600;
   text-align: left;
+  border-bottom: 1px solid var(--gray);
 }
 
 td,
 th {
-  border: 1px solid var(--table-border-td);
-  border-left-width: 0;
-  border-right-width: 0;
-  padding: 0.3em;
+  border: none;
+  border-bottom: 1px solid var(--gray);
+  padding: 1em;
   vertical-align: top;
-  line-height: 1.2;
+  line-height: 1.42;
 }
 
 thead th,
 tfoot td {
-  font-weight: 700;
+  font-weight: 400;
+  letter-spacing: 0.02em;
+  color: var(--text-accent);
 }
 
 thead th {
   background-color: var(--table-bg-th);
+}
+
+tfoot tr:last-child td {
+  border-bottom: none;
 }
 
 .sticky {
@@ -42,13 +50,13 @@ thead th {
 }
 
 thead th::after {
-  content: "";
+  content: '';
   position: absolute;
   bottom: -1px;
   left: 0;
   width: 100%;
   height: 1px;
-  background-color: var(--table-border-td);
+  background-color: transparent;
 }
 
 .width43 {
@@ -60,7 +68,7 @@ thead th::after {
 }
 
 .Gainsboro {
-  background-color: var(--table-gainsboro);
+  background-color: var(--table-bg-th);
 }
 
 td > ul,
@@ -75,11 +83,4 @@ td > p:not(:first-child) {
 
 .text-right {
   text-align: right;
-}
-
-@media (min-width: 768px) {
-  td,
-  th {
-    padding: 0.9em;
-  }
 }

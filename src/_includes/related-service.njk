@@ -1,0 +1,24 @@
+{% if relatedIdeas or relatedService %}
+  <footer class="post-footer">
+   
+
+    {# СНАЧАЛА ИДУТ ИДЕИ ДЛЯ РАЗВИТИЯ #}
+    {% include "related-ideas.njk" %}
+
+    {# ПОТОМ - ПРЕДЛОЖЕНИЕ УСЛУГИ #}
+    {% if relatedService %}
+      <section class="related-service-block" aria-labelledby="related-service-title">
+        <h2 class="related-service-block__title" id="related-service-title">
+          {{ relatedService.title | safe }}
+        </h2>
+        <p class="related-service-block__text">
+          {{ relatedService.text | safe }}
+        </p>
+        <a href="{{ relatedService.url | url }}" class="button-primary">
+          {{ relatedService.button_text | safe }}
+        </a>
+      </section>
+    {% endif %}
+
+  </footer>
+{% endif %}

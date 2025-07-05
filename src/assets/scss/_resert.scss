@@ -39,11 +39,13 @@ html {
   color-scheme: light;
   --background-color: #fafafa;
   --selected-bg-color: #e7e7e8;
+  --text-accent: #000;
   --text-colour: #1d1d1f;
   --secondary-text-colour: #515154;
   --secondary-text-colour-rgb: 81, 81, 84;
   --toc: #fafafa;
   --gray: #eaeaea;
+  --arrow-color: #86868b;
 
 
    /* TOC (светлая тема) */
@@ -70,6 +72,7 @@ html {
   --link-active: #1d1d1f;
   --link-bg: #eaeaea;
   --link-focus-outline: rgba(0, 0, 0, 0.3);
+  --link-underline-color: rgba(167, 167, 167, 0.7);
 
   /* Эффекты и состояния (светлая тема) */
   --hover-shadow: rgba(0, 0, 0, 0.08);
@@ -90,6 +93,15 @@ html {
   --button-text-color: #ffffff;
   --button-hover-bg-color: #000000;
   --arrow-hover-opacity: 0.4; 
+
+   /* Цвет кнопки */
+  --color-button-primary-bg: #eaeaea; 
+  --color-button-primary-text: #000;
+  --color-button-primary-hover-bg: #ffffff;
+  --color-button-primary-hover-text: #1d1d1f;
+  --color-button-secondary-bg: #eaeaea; 
+  --color-button-secondary-border: #515154; 
+  --color-button-secondary-text: #1d1d1f;
 
    /* SW уведомления (светлая тема) */
   --sw-notification-bg: #ffffff;
@@ -126,11 +138,13 @@ html[data-theme="dark"] {
   color-scheme: dark;
   --background-color: #1c1c1e;
   --selected-bg-color: #2c2c2e;
+  --text-accent: #fff;
   --text-colour: #f5f5f7;
   --secondary-text-colour: #b8b8bc;
   --secondary-text-colour-rgb: 184, 184, 188;
   --toc: #111111;
   --gray: #3a3a3c;
+  --arrow-color: #424245;
 
      /* TOC (темная тема) */
    --color-toc-ui-element-background: #2c2c2e;
@@ -153,6 +167,7 @@ html[data-theme="dark"] {
   --link-active: #c4c4ca;
   --link-bg: #2c2c2e;
   --link-focus-outline: rgba(255, 255, 255, 0.4);
+    --link-underline-color: rgba(184, 184, 188, 0.6);
 
   /* Эффекты и состояния (темная тема) */
   --hover-shadow: rgba(0, 0, 0, 0.3);
@@ -173,6 +188,13 @@ html[data-theme="dark"] {
   --button-text-color: #1c1c1e;
   --button-hover-bg-color: #ffffff;
    --arrow-hover-opacity: 0.6; 
+
+    --color-button-primary-bg: #e5e5e7;
+    --color-button-primary-text: #1d1d1f;
+    --color-button-primary-hover-bg: #424245;
+    --color-button-primary-hover-text: #ffffff;
+    --color-button-secondary-bg: #3a3a3c;
+    --color-button-secondary-text: #f5f5f7;
 
   /* SW уведомления (темная тема) */
   --sw-notification-bg: var(--color-toc-ui-element-background);

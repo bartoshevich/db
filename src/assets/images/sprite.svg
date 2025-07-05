@@ -76,4 +76,8 @@
     <path fill="var(--background-color)" d="M5 5.833A9.167 9.167 0 0 1 14.167 15H16A11 11 0 0 0 5 4z"/>
   </symbol>
 
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 6 11" id="arrow">
+    <polyline points=".675 .925 5.323 5.5 .675 10.075" fill="none"  stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.1"></polyline>
+  </symbol>
+
 </svg>

@@ -564,23 +564,7 @@ export default function (eleventyConfig) {
     return '';
   });
 
-  /* Принудительно склеиваем последние слова со стрелкой в блоке related */
-  eleventyConfig.addFilter('noBreakArrow', function (text) {
-    const words = text.trim().split(/\s+/);
-
-    if (words.length === 1) {
-      // Если одно слово - просто добавляем стрелку
-      return `${text}<span class="link-arrow">&nbsp;→</span>`;
-    } else if (words.length === 2) {
-      // Если два слова - склеиваем оба
-      return `<span class="no-break">${text}<span class="link-arrow">&nbsp;→</span></span>`;
-    } else {
-      // Если больше двух - берем последние 2-3 слова
-      const lastWords = words.slice(-2).join(' ');
-      const firstWords = words.slice(0, -2).join(' ');
-      return `${firstWords} <span class="noperenos">${lastWords}<span class="link-arrow">&nbsp;→</span></span>`;
-    }
-  });
+ 
 
   /* --------------- Фильтр для безопасного использования в RSS-каналах --------------- */
 
