@@ -101,13 +101,13 @@ li.level2 {
 
 /* Модификатор для добавления отступов между категориями в TOC */
 .toc_divided > ul > li {
-  margin-top: 1.5rem;
- 
+  margin-top: 1.5em;
+
  
 }
 
 .toc_divided > ul > li > .link {
-   color: var(--text-colour);
+   color: var(--text-accent);
   letter-spacing: -0.01em;
 }
  
