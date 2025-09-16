@@ -417,7 +417,7 @@ export default function (eleventyConfig) {
     lastModifiedProperty: 'last_modified_at',
     sitemap: {
       hostname: 'https://bartoshevich.by',
-      ignore: ['/404.html', '/offline.html'],
+      ignore: ['/404.html', '/offline.html', '/offline/'],
     },
   });
 
@@ -756,6 +756,16 @@ export default function (eleventyConfig) {
       .getFilteredByGlob(`${inputDir}/_posts/**/*.njk`)
       .sort((a, b) => new Date(b.date) - new Date(a.date));
   });
+
+
+  eleventyConfig.addCollection('sitemapPages', (api) => {
+  const excludePaths = ['/404.html', '/offline.html', '/offline/'];
+  
+  return api.getAllSorted().filter(item => {
+    return !item.data.eleventyExcludeFromSitemap && 
+           !excludePaths.includes(item.url);
+  });
+});
 
   // =================================================================
   // КОПИРОВАНИЕ ФАЙЛОВ - ИСПРАВЛЕНО
