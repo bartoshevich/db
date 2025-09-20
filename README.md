@@ -8,7 +8,7 @@ The site is built and maintained as a personal project. It is fast, privacy-focu
 
 - Built entirely with [Eleventy (11ty)](https://www.11ty.dev/)
 - Hosted on [Netlify](https://www.netlify.com/)
-- Analytics via [Simple Analytics](https://withcabin.com/), no cookies or personal data
+- Analytics via [Cabin Analytics](https://withcabin.com/), no cookies or personal data
 - Stack: Nunjucks, Sass, esbuild, PostCSS
 
 ## Live site
