@@ -1,0 +1,136 @@
+.checklist-pro {
+    
+  .list-ol {
+    background-color: var(--selected-bg-color, #f7f7f9);
+    border-radius: 16px; // Увеличим радиус для более "мягкого" вида
+    padding: 1rem; // Уменьшим общий padding, чтобы управлять отступами внутри
+    margin-top: 1.5rem;
+    margin-left: 0;
+    list-style: none;
+    
+    border: none; // Убираем рамку, фон уже создает контейнер
+  }
+
+  .list-ol > li {
+    padding: 1.5rem;
+     &:not(:last-child) {
+        margin-bottom: 0.5rem;
+    }
+  }
+
+
+  .checklist-item__header {
+    display: grid;
+    // Две колонки: иконка (автоширина) и текст (занимает остальное место)
+    grid-template-columns: auto 1fr;
+    gap: 1rem; // Отступ между иконкой и текстом
+    align-items: center; // Вертикальное выравнивание
+  }
+
+  .checklist-item__icon {
+    font-size: 1.75rem;
+    line-height: 1;
+  }
+  
+
+  .checklist-item__title {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: var(--text-colour, #1d1f23);
+    margin: 0;
+  }
+  
+  .checklist-item__subtitle {
+    font-size: 0.95rem;
+    color: var(--secondary-text-colour, #6c757d);
+    margin: 0.25rem 0 0;
+  }
+
+
+  .checklist-item__body {
+    // Весь контент теперь выровнен по левому краю текстового блока
+    padding-left: calc(1.75rem + 1rem); // Ширина иконки + отступ
+    padding-top: 1rem; // Отступ от заголовка
+
+    p {
+        color: var(--secondary-text-colour, #565a5f);
+        max-width: 60ch;
+        margin-bottom: 1rem;
+    }
+  }
+
+  details {
+    summary {
+        cursor: pointer;
+        list-style: none; // Убираем стандартную стрелку
+        display: inline-flex;
+        align-items: center;
+
+        &::before {
+            content: '►';
+            font-size: 0.6rem;
+            margin-right: 0.5rem;
+            transition: transform 0.2s ease;
+            color: var(--secondary-text-colour, #6c757d);
+        }
+
+        .link {
+            font-size: 0.95rem;
+        }
+        
+       
+    }
+    &[open] > summary::before {
+        transform: rotate(90deg);
+    }
+  }
+  
+  .details__content {
+    margin-top: 1rem;
+    padding-left: 1rem;
+    border-left: 2px solid var(--gray, #d1d5db);
+    font-size: 0.95rem;
+  }
+
+
+
+  @media (max-width: 440px) {
+
+    // Уменьшаем общие отступы контейнера, чтобы сэкономить место
+    .list-ol {
+      padding: 0.5rem;
+    }
+
+    .list-ol > li {
+      padding: 1rem;
+    }
+
+    // КЛЮЧЕВОЕ ИЗМЕНЕНИЕ: Перестраиваем сетку заголовка
+    .checklist-item__header {
+      // Переключаем сетку на одну колонку: иконка и текст теперь друг под другом
+      grid-template-columns: 1fr;
+      // Уменьшаем вертикальный отступ между иконкой и текстом
+      gap: 0.5rem;
+      // Выравниваем все по левому краю
+      text-align: left;
+    }
+
+    // КРИТИЧЕСКИ ВАЖНО: Сбрасываем отступ для основного контента
+    .checklist-item__body {
+      // Убираем отступ, рассчитанный под иконку, так как ее больше нет сбоку
+      padding-left: 0;
+      padding-top: 1.25rem; // Немного увеличим отступ сверху для "воздуха"
+    }
+
+    // ОПЦИОНАЛЬНО: Немного уменьшаем размеры для компактности
+    .checklist-item__icon {
+      font-size: 1.5rem; 
+    }
+    .checklist-item__title {
+      font-size: 1rem; 
+    }
+    .checklist-item__subtitle {
+      font-size: 0.85rem; 
+    }
+  }
+}
