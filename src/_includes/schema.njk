@@ -570,8 +570,8 @@
 {% if page.url == '/about/' %}
   {% set aboutPageSchema = {
     "@type": "AboutPage",
-    "name": title | decodeEntities | safe,
-    "description": description | decodeEntities | safe,
+    "name": title | decodeEntities,
+    "description": description | decodeEntities,
     "url": site.url + page.url,
     "datePublished": page.date | isoDate,
     "dateModified": last_modified_at | default(config.buildDate) | isoDate,
@@ -598,8 +598,8 @@
 {% if page.url == '/contact/' %}
   {% set contactPageSchema = {
     "@type": "ContactPage",
-    "name": title | decodeEntities | safe,
-    "description": description | decodeEntities | safe,
+    "name": title | decodeEntities,
+    "description": description | decodeEntities,
     "url": site.url + page.url,
     "datePublished": page.date | isoDate,
     "dateModified": last_modified_at | default(config.buildDate) | isoDate,
