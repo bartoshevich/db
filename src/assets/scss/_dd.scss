@@ -55,24 +55,7 @@
 
 
 
-/* Адаптивность */
-@media (max-width: 640px) {
-  .format-details dt {
-    font-size: var(--step--2);
-    margin-top: var(--space-s);
-  }
 
-  .format-details dd,
-  .format-context,
-  .format-conclusion {
-    font-size: var(--step--1);
-  }
-
-  .format-section--highlighted {
-    padding: var(--space-s);
-  }
-  
-}
 
 /* Темная тема */
 [data-theme="dark"] .format-details dt {
