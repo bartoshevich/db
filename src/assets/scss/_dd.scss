@@ -1,0 +1,80 @@
+/* Description List - семантическая структура контента */
+
+.format-details dt {
+  font-size: var(--step--1);
+  line-height: 1.4;
+  font-weight: 700;
+  color: var(--secondary-text-colour);
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+  margin-top: 1.1em;
+ 
+}
+
+
+
+.format-details dd {
+  font-size: var(--step-0);
+  line-height: 1.6;
+  color: var(--text-colour);
+  margin: 0 0 var(--space-m) 0;
+  padding: 0;
+}
+
+.format-details dd p{
+
+  margin: 0 0 .6em 0;
+  padding: 0;
+}
+
+.format-details dd:last-child {
+  margin-bottom: 0;
+}
+
+/* Модификаторы для различных типов контента */
+.format-section--highlighted {
+  background-color: var(--selected-bg-color);
+  border-radius: 8px;
+  padding: var(--space-m);
+  margin: var(--space-l) 0;
+}
+
+.format-section--bordered {
+  border-left: 3px solid var(--gray);
+  padding-left: var(--space-m);
+  margin: var(--space-l) 0;
+}
+
+/* Заключительный параграф */
+.format-conclusion {
+  font-size: var(--step-0);
+  line-height: 1.6;
+  color: var(--text-colour);
+  margin-top: var(--space-m);
+}
+
+
+
+/* Адаптивность */
+@media (max-width: 640px) {
+  .format-details dt {
+    font-size: var(--step--2);
+    margin-top: var(--space-s);
+  }
+
+  .format-details dd,
+  .format-context,
+  .format-conclusion {
+    font-size: var(--step--1);
+  }
+
+  .format-section--highlighted {
+    padding: var(--space-s);
+  }
+  
+}
+
+/* Темная тема */
+[data-theme="dark"] .format-details dt {
+  color: var(--secondary-text-colour);
+}

@@ -90,7 +90,8 @@ p {
 
 .list-sign:before {
   content: '•';
-  padding-right: var(--space-3xs);
+  margin-right: var(--space-xs);
+
 }
 
 .border-top {
