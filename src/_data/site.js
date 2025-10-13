@@ -62,7 +62,7 @@ export default {
         ratingValue: "5",
         bestRating: "5",
         worstRating: "1",
-        ratingCount: "11"
+        ratingCount: "19"
       },
       hasOfferCatalog: {
         "@type": "OfferCatalog",
