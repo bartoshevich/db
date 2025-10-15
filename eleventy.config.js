@@ -609,19 +609,55 @@ export default function (eleventyConfig) {
     // JavaScript автоматически экранирует специальные символы при JSON.stringify
   });
 
-  eleventyConfig.addFilter('readingTime', function (text) {
-    if (!text || typeof text !== 'string') return '0 мин.';
 
-    const words = text
-      .trim()
-      .split(/\s+/)
-      .filter(word => word.length > 0).length;
-    const minutes = Math.ceil(words / 190); // 190 слов в минуту для русского языка
 
-    if (minutes === 0) return 'меньше минуты';
-    if (minutes === 1) return '1 мин.';
-    return `${minutes} мин.`;
-  });
+
+      
+// =================================================================
+// === СИСТЕМА ФИЛЬТРОВ ДЛЯ ТЕКСТА ===
+
+// 1. Создаем чистую, независимую JS-функцию. Это наш "источник правды".
+const countWords = (text) => {
+  if (!text || typeof text !== 'string') {
+    return 0;
+  }
+  return text.trim().split(/\s+/).filter(word => word.length > 0).length;
+};
+
+// 2. Фильтр 'wordcount' 
+eleventyConfig.addFilter('wordcount', function (text) {
+  return countWords(text);
+});
+
+// 3. Фильтр 'readingTime' 
+eleventyConfig.addFilter('readingTime', function (text) {
+  const words = countWords(text); 
+  const wordsPerMinute = 190;
+  
+  if (words === 0) {
+    return 'меньше минуты';
+  }
+
+  const minutes = Math.ceil(words / wordsPerMinute);
+  
+  if (minutes === 1) {
+    return '1 мин.';
+  }
+  // Используем Intl.PluralRules для правильных окончаний (мин., минуты, минут)
+  const pluralRules = new Intl.PluralRules('ru-RU');
+  const pluralCategory = pluralRules.select(minutes);
+  
+  switch (pluralCategory) {
+    case 'one': return `${minutes} минута`;
+    case 'few': return `${minutes} минуты`;
+    default: return `${minutes} минут`;
+  }
+});
+// === КОНЕЦ БЛОКА ===
+// =================================================================
+
+  
+
 
   eleventyConfig.addFilter('limit', (arr, n) => {
     if (!Array.isArray(arr)) return arr;
@@ -655,6 +691,15 @@ export default function (eleventyConfig) {
     return {
       ...obj,
       [key]: value,
+    };
+  });
+
+  eleventyConfig.addFilter('merge', (target, source) => {
+    const toPlainObject = value =>
+      value && typeof value === 'object' && !Array.isArray(value) ? value : {};
+    return {
+      ...toPlainObject(target),
+      ...toPlainObject(source),
     };
   });
 

@@ -1,0 +1,18 @@
+ {#  Добавляем Breadcrumbs к текущей странице #}
+  {% set navKey = eleventyNavigation and eleventyNavigation.key %}
+  {% if navKey and (collections.navigationItems | length) > 0 %}
+    {% set breadcrumbItems = getBreadcrumbs(navKey, collections.navigationItems) %}
+    {% if breadcrumbItems | length > 0 %}
+      {% set listElements = [] %}
+      {% for itemPage in breadcrumbItems %}
+        {% set itemName = (itemPage.data.eleventyNavigation.title) or (itemPage.data.title) or (itemPage.data.name) or itemPage.url %}
+        {% set _ = listElements.push({ "@type": "ListItem", "position": loop.index, "name": itemName, "item": (itemPage.url | absoluteUrl(site.url)) }) %}
+      {% endfor %}
+      {% set breadcrumbSchemaObject = { "@type": "BreadcrumbList", "@id": (page.url | absoluteUrl(site.url)) ~ "#breadcrumbs", "itemListElement": listElements } %}
+      {% set _ = schemaParts.push(breadcrumbSchemaObject) %}
+      {% set breadcrumbReference = {
+        "breadcrumb": { "@id": (page.url | absoluteUrl(site.url)) ~ "#breadcrumbs" }
+      } %}
+      {% set currentPage = currentPage | merge(breadcrumbReference) %}
+    {% endif %}
+  {% endif %}

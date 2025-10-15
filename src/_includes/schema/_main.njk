@@ -1,0 +1,33 @@
+{# ============================================================== #}
+{# === Главный оркестратор Schema.org. Собирает все модули. === #}
+{# ============================================================== #}
+
+{# 1. Инициализация. Всегда выполняется. #}
+{% set schemaParts = [] %}
+
+{# 2. Подключаем глобальные сущности. Всегда выполняются. #}
+{% include "schema/global.njk" %}
+{% include "schema/navigation.njk" %}
+
+{% if site.schemaOrg.barsanOrganization %}
+  {% set _ = schemaParts.push(site.schemaOrg.barsanOrganization) %}
+{% endif %}
+
+{# 3. Конструируем сущность текущей страницы (WebPage и ее подтипы) #}
+{% include "schema/page.njk" %}
+
+{# 4. Подключаем дополнительные, специфичные для страниц сущности #}
+{% include "schema/blog-extras.njk" %}
+{% include "schema/cases-extras.njk" %}
+
+
+
+{# === ВЫВОД JSON-LD === #}
+{% if schemaParts | length > 0 %}
+  <script type="application/ld+json">
+    {{ {
+      "@context": "https://schema.org",
+      "@graph": schemaParts
+    } | jsonify | safe }}
+  </script>
+{% endif %}

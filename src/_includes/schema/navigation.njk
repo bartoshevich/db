@@ -1,0 +1,32 @@
+{# =======================================
+  Глобальная сущность: SiteNavigationElement
+ ========================================#}
+{% set navigationSchema = {
+  "@type": "SiteNavigationElement",
+  "@id": "https://bartoshevich.by/#navigation",
+  "name": "Главное меню",
+  "hasPart": [
+    {
+      "@type": "WebPage",
+      "url": "https://bartoshevich.by/blog/",
+      "name": "Блог"
+    },
+    {
+      "@type": "WebPage",
+      "url": "https://bartoshevich.by/cases/",
+      "name": "Кейсы"
+    },
+    {
+      "@type": "WebPage",
+      "url": "https://bartoshevich.by/about/",
+      "name": "Обо мне"
+    },
+    {
+      "@type": "WebPage",
+      "url": "https://bartoshevich.by/contact/",
+      "name": "Контакты"
+    }
+  ]
+} %}
+
+{% set _ = schemaParts.push(navigationSchema) %}

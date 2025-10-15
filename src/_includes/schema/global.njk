@@ -1,0 +1,56 @@
+{# =======================================
+  Глобальная сущность: Person, Website, Organization (Publisher)
+ ========================================#}
+
+{% if site and site.schemaOrg and site.schemaOrg.person %}
+  {% set _ = schemaParts.push(site.schemaOrg.person) %}
+{% endif %}
+{% if site.schemaOrg.webSite %}
+  {% set _ = schemaParts.push(site.schemaOrg.webSite) %}
+{% endif %}
+{% if site.schemaOrg.brandOrganization %}
+  {% set _ = schemaParts.push(site.schemaOrg.brandOrganization) %}
+{% endif %}
+
+
+{# =======================================
+  Глобальные сущности: DataFeeds (RSS и JSON)
+ ========================================#}
+
+{# Описываем RSS фид как отдельную, понятную сущность #}
+{% set rssFeed = {
+  "@type": "DataFeed",
+  "@id": site.url ~ "/feed.xml",
+  "name": "RSS-канал блога Дмитрия Бартошевича",
+  "description": "Статьи о системном маркетинге, брендинге и стратегии в формате RSS.",
+  "encodingFormat": "application/rss+xml",
+  "provider": { "@id": "https://bartoshevich.by/about/#person" }
+} %}
+{% set _ = schemaParts.push(rssFeed) %}
+
+{# Описываем JSON фид как отдельную, понятную сущность #}
+{% set jsonFeed = {
+  "@type": "DataFeed",
+  "@id": site.url ~ "/feed.json",
+  "name": "JSON Feed блога Дмитрия Бартошевича",
+  "description": "Статьи о системном маркетинге, брендинге и стратегии в формате JSON Feed.",
+  "encodingFormat": "application/feed+json",
+  "provider": { "@id": "https://bartoshevich.by/about/#person" }
+} %}
+{% set _ = schemaParts.push(jsonFeed) %}
+
+{# Привязываем фиды к основному сайту #}
+{% for part in schemaParts %}
+  {% if part['@id'] == 'https://bartoshevich.by/#website' %}
+    {% set _ = part | setAttribute("potentialAction", [
+        {
+            "@type": "SubscribeAction",
+            "target": rssFeed['@id']
+        },
+        {
+            "@type": "SubscribeAction",
+            "target": jsonFeed['@id']
+        }
+    ]) %}
+  {% endif %}
+{% endfor %}

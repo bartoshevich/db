@@ -325,16 +325,16 @@ articles: {
       {
         title: "Неадекваты и «холодная шаурма»: как работать с проблемными клиентами",
         url: "https://probusiness.io/management/4239-neadekvaty-ikholodnaya-shaurma-kak-rabotat-sproblemnymi-klientami.html",
-        publisher: "Pro Business",
+        publisher: "Про Бизнес",
         publisherUrl: "https://probusiness.io/",
         date: "2018-02-06",
         image: "https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1648159462/site/1hardclient.jpg",
         description: "Проблемных клиентов определяют менеджеры, ситуации или собственный характер. Как грамотно прорабатывать недовольство клиентов и в каких случаях не стоит работать с «проблемными» вообще."
       },
       {
-        title: "Как взглянуть на работу компании глазами клиентов, чтобы повысить продажи",
+        title: "Как взглянуть на работу компании глазами клиентов, чтобы повысить продажи: методика Customer Journey Mapping",
         url: "https://probusiness.io/tech/2150-kak-vzglyanut-na-rabotu-kompanii-glazami-klientov-chtoby-povysit-prodazhi-metodika-customer-journey-mapping.html",
-        publisher: "Pro Business",
+        publisher: "Про Бизнес",
         publisherUrl: "https://probusiness.io/",
         date: "2016-06-16",
         image: "https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1648159462/site/1cjmpb.jpg",
@@ -343,7 +343,7 @@ articles: {
       {
         title: "Эти элементарные ошибки на сайтах мешают компаниям привлекать иностранных клиентов: пример агроусадеб",
         url: "https://probusiness.io/tech/2323-eti-elementarnye-oshibki-na-saytakh-meshayut-kompaniyam-privlekat-klientov-inostrancev-primer-agrousadeb.html",
-        publisher: "Pro Business",
+        publisher: "Про Бизнес",
         publisherUrl: "https://probusiness.io/",
         date: "2016-07-20",
         image: "https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1648159462/site/1belarustourismpb.jpg",
@@ -352,7 +352,7 @@ articles: {
       {
         title: "Не ставьте телегу впереди лошади — вещи, которые обязательно должен знать и делать маркетолог",
         url: "https://probusiness.io/do_it/2445-ne-stavte-telegu-vperedi-loshadi-veshchi-kotorye-obyazatelno-dolzhen-znat-i-delat-marketolog.html",
-        publisher: "Pro Business",
+        publisher: "Про Бизнес",
         publisherUrl: "https://probusiness.io/",
         date: "2016-08-25",
         image: "https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1648159462/site/1mistakespb.jpg",
@@ -361,7 +361,7 @@ articles: {
       {
         title: "В «Черную пятницу» скидки будут у многих — чем выделиться на фоне конкурентов",
         url: "https://probusiness.io/management/2778-v-chernuyu-pyatnicu-skidki-budut-u-mnogikh-chem-vydelitsya-na-fone-konkurentov.html",
-        publisher: "Pro Business",
+        publisher: "Про Бизнес",
         publisherUrl: "https://probusiness.io/",
         date: "2016-11-23",
         image: "https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1648159462/site/1fridaypb.jpg",

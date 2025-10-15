@@ -1,0 +1,441 @@
+
+
+{# Логика для страницы /cases/ (ваш сложный код для кейсов) #}
+{% if page.url == '/cases/' %}
+  {% set casesPageId = page.url | absoluteUrl(site.url) %}
+
+   {% set mainEntityItems = [] %}
+
+
+  {% for client in cases.clients %}
+    {% set clientSchema = {
+      "@type": "Collection",
+      "@id": site.url ~ page.url ~ "#" ~ client.id,
+      "name": "Сотрудничество с " ~ client.name,
+      "description": (client.description.val or client.description) | decodeEntities,
+      "url": client.url,
+      "creator": { "@id": "https://bartoshevich.by/about/#person" },
+      "isPartOf": { "@id": casesPageId }
+    } %}
+
+    {% set _ = schemaParts.push(clientSchema) %}
+
+    {# Для каждой работы клиента #}
+    {% for work in client.works %}
+      {% set workSchema = {
+        "@type": "CreativeWork",
+        "name": work.name,
+        "isPartOf": {
+          "@id": site.url ~ page.url ~ "#" ~ client.id
+        }
+      } %}
+
+      {# Добавляем изображение, если есть #}
+      {% if work.image %}
+        {% set workSchema = workSchema | setAttribute("image", {
+          "@type": "ImageObject",
+          "url": work.image.url,
+          "contentUrl": work.image.url,
+          "width": work.image.width,
+          "height": work.image.height,
+          "description": work.image.caption
+        }) %}
+      {% endif %}
+
+      {# Добавляем видео, если есть #}
+      {% if work.videos and work.videos | length > 0 %}
+        {% set videosArray = [] %}
+        {% for video in work.videos %}
+          {% set videoSchema = {
+            "@type": "VideoObject",
+            "name": video.name,
+            "duration": video.duration,
+            "uploadDate": video.uploadDate,
+            "thumbnailUrl": video.thumbnailUrl,
+            "description": video.description,
+            "contentUrl": video.url,
+            "isFamilyFriendly": video.isFamilyFriendly | default(true),
+            "url": video.url
+          } %}
+
+         
+
+          {% set _ = videosArray.push(videoSchema) %}
+        {% endfor %}
+
+        {% if videosArray | length == 1 %}
+          {% set workSchema = workSchema | setAttribute("video", videosArray[0]) %}
+        {% else %}
+          {% set workSchema = workSchema | setAttribute("video", videosArray) %}
+        {% endif %}
+      {% endif %}
+
+      {# Добавляем аудио, если есть #}
+      {% if work.audio and work.audio | length > 0 %}
+        {% set audioArray = [] %}
+        {% for audioItem in work.audio %}
+          {% set audioSchema = {
+            "@type": "AudioObject",
+            "name": audioItem.name,
+            "duration": audioItem.duration,
+            "contentUrl": audioItem.url,
+            "description": audioItem.description,
+            "isFamilyFriendly": true
+          } %}
+
+          {% if audioItem.transcript %}
+            {% set audioSchema = audioSchema | setAttribute("transcript", audioItem.transcript) %}
+          {% endif %}
+
+          {% set _ = audioArray.push(audioSchema) %}
+        {% endfor %}
+
+        {% if audioArray | length == 1 %}
+          {% set workSchema = workSchema | setAttribute("audio", audioArray[0]) %}
+        {% else %}
+          {% set workSchema = workSchema | setAttribute("audio", audioArray) %}
+        {% endif %}
+      {% endif %}
+
+      {# Добавляем примеры, если есть #}
+      {% if work.examples and work.examples | length > 0 %}
+        {% set examplesArray = [] %}
+        {% for example in work.examples %}
+          {% set exampleSchema = {
+            "@type": "CreativeWork",
+            "name": example.name
+          } %}
+
+          {# Добавляем изображение для примера, если есть #}
+          {% if example.image %}
+            {% set exampleSchema = exampleSchema | setAttribute("image", {
+              "@type": "ImageObject",
+              "url": example.image.url,
+              "contentUrl": example.image.url,
+              "width": example.image.width | default(800),
+              "height": example.image.height | default(600),
+              "description": example.image.caption
+            }) %}
+          {% endif %}
+
+          {% set _ = examplesArray.push(exampleSchema) %}
+        {% endfor %}
+
+        {% set workSchema = workSchema | setAttribute("exampleOfWork", examplesArray) %}
+      {% endif %}
+
+     
+    {# Добавляем отзыв, если есть #}
+{# Внутри цикла for work in client.works #}
+{% if work.review %} 
+  {% set quotationObject = {
+    "@type": "Quotation",
+    "@id": site.url ~ page.url ~ "#quote-" ~ client.id ~ "-" ~ loop.index, 
+    "text": work.review.text,
+    "datePublished": work.review.datePublished,
+    "spokenByCharacter": {
+      "@type": "Person",
+      "name": work.review.author,
+      "jobTitle": work.review.position
+    }
+  } %}
+  
+  {# Добавляем цитату в основной граф #}
+  {% set _ = schemaParts.push(quotationObject) %}
+  
+  {# СВЯЗЫВАЕМ CreativeWork с этой цитатой через СВОЙСТВО citation #}
+   {% set workSchema = workSchema | setAttribute("subjectOf", { "@id": quotationObject['@id'] }) %}
+{% endif %}
+
+
+      {# Добавляем инициативы, если есть #}
+      {% if work.initiatives and work.initiatives | length > 0 %}
+        {% set initiatives = work.initiatives | join(", ") %}
+        {% set workSchema = workSchema | setAttribute("description", initiatives) %}
+      {% endif %}
+
+      {# Добавляем статью, если есть #}
+      {% if work.article %}
+        {% set articleSchema = {
+          "@type": "Article",
+          "headline": (work.article.headline.val or work.article.headline)  | decodeEntities, 
+          "name": work.article.title,
+          "url": work.article.url,
+          "author": work.article.author | default({"@id": "https://bartoshevich.by/about/#person"})
+        } %}
+
+        {% if work.article.image %}
+          {% set articleSchema = articleSchema | setAttribute("image", work.article.image) %}
+        {% endif %}
+
+        {% if work.article.datePublished %}
+        {% set datePublished = work.article.datePublished | isoDate %}
+        {% set articleSchema = articleSchema | setAttribute("datePublished", datePublished) %}
+      {% endif %}
+
+        {% set workSchema = workSchema | setAttribute("subjectOf", articleSchema) %}
+      {% endif %}
+
+      {# Добавляем схему работы #}
+      {% set _ = schemaParts.push(workSchema) %}
+    {% endfor %}
+
+
+
+
+
+    {# Добавляем статьи клиента, если есть #}
+   {% if client.articles and client.articles | length > 0 %}
+      {% for article in client.articles %}
+        {% set _ = mainEntityItems.push({
+          "@type": "ListItem",
+          "position": mainEntityItems | length + 1,
+          "item": {
+            "@type": "Article",
+            "name": (article.title.val or article.title) | decodeEntities,
+            "headline": (article.title.val or article.title) | decodeEntities,
+            "url": article.url,
+            "datePublished": article.datePublished | isoDate if article.datePublished,
+            "author": article.author | default({"@id": "https://bartoshevich.by/about/#person"}),
+            "isPartOf": { "@id": site.url ~ page.url ~ "#" ~ client.id }
+          }
+        }) %}
+      {% endfor %}
+    {% endif %}
+
+
+
+
+
+
+
+
+    {# Добавляем дополнительную информацию #}
+    {% if client.additionalInfo and client.additionalInfo.image %}
+      {% set additionalImageSchema = {
+        "@type": "ImageObject",
+        "url": client.additionalInfo.image.url,
+        "contentUrl": client.additionalInfo.image.url,
+        "width": client.additionalInfo.image.width,
+        "height": client.additionalInfo.image.height,
+        "description": client.additionalInfo.image.caption,
+        "isPartOf": {
+          "@id": site.url ~ page.url ~ "#" ~ client.id
+        }
+      } %}
+
+      {% set _ = schemaParts.push(additionalImageSchema) %}
+    {% endif %}
+
+    {# Добавляем презентацию, если есть #}
+    {% if client.presentationOverview %}
+      {% set presentationSchema = {
+        "@type": "PresentationDigitalDocument",
+        "name": client.presentationOverview.note,
+        "description": client.presentationOverview.description,
+        "image": {
+          "@type": "ImageObject",
+          "url": client.presentationOverview.image.url,
+          "contentUrl": client.presentationOverview.image.url,
+          "width": client.presentationOverview.image.width,
+          "height": client.presentationOverview.image.height,
+          "description": client.presentationOverview.image.caption
+        },
+        "isPartOf": {
+          "@id": site.url ~ page.url ~ "#" ~ client.id
+        }
+      } %}
+
+      {% set _ = schemaParts.push(presentationSchema) %}
+    {% endif %}
+
+    {# Добавляем результаты, если есть #}
+    {% if client.results %}
+      {% set resultsSchema = {
+        "@type": "CreativeWork",
+        "name": client.results.name,
+        "description": client.results.description,
+        "url": client.results.url,
+        "isPartOf": {
+          "@id": site.url ~ page.url ~ "#" ~ client.id
+        }
+      } %}
+
+      {% set _ = schemaParts.push(resultsSchema) %}
+    {% endif %}
+  {% endfor %}
+
+
+
+
+
+
+
+{# 1. Статьи для ProBusiness #}
+  {% if cases.articles and cases.articles.proBusiness %}
+    {% for article in cases.articles.proBusiness %}
+      {% set _ = mainEntityItems.push({
+        "@type": "ListItem",
+        "position": mainEntityItems | length + 1,
+        "item": {
+          "@type": "Article",
+          "name": (article.title.val or article.title) | decodeEntities,
+          "headline": (article.title.val or article.title) | decodeEntities,
+          "url": article.url,
+          "datePublished": article.date | isoDate,
+          "author": { "@id": "https://bartoshevich.by/about/#person" },
+          "publisher": {
+            "@type": "Organization",
+            "name": article.publisher,
+            "url": article.publisherUrl
+          }
+        }
+      }) %}
+    {% endfor %}
+  {% endif %}
+
+  {# 2. Добавляем статью для Wunder Digital (пример) #}
+  {# ПРИМЕЧАНИЕ: Эти данные лучше вынести в _data/cases.js #}
+  {% set _ = mainEntityItems.push({
+    "@type": "ListItem",
+    "position": mainEntityItems | length + 1,
+    "item": {
+      "@type": "Article",
+      "name": "Бренд и перформанс-маркетинг: что важно знать маркетологу",
+      "url": "https://wunder-digital.kz/brend-i-perfomans-marketing-chto-vazhno-znat-marketologu/",
+      "sameAs": ["https://wunder-digital.by/brend-i-perfomans-marketing-chto-vazhno-znat-marketologu/"],
+      "author": { "@id": "https://bartoshevich.by/about/#person" },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Wunder Digital"
+      }
+    }
+  }) %}
+
+
+
+
+
+  {# НАЧАЛО: Добавляем презентации и выступления #}
+{% for event in cases.presentations %}
+{% set eventSchema = {
+  "@type": "Event",
+  "name": event.name,
+  "description": event.description,
+  "startDate": event.startDate,
+  "endDate": event.endDate,
+  "eventAttendanceMode": event.eventAttendanceMode,
+  "eventStatus": event.status,
+  "location": {
+    "@type": "Place",
+    "name": event.location
+  },
+  "audience": {  
+    "@type": "Audience",
+    "audienceType": ["маркетологи", "руководители", "предприниматели", "бизнесмены" ]
+  },
+  "image": {
+    "@type": "ImageObject",
+    "url": event.image
+  },
+  "performer": { "@id": "https://bartoshevich.by/about/#person" },
+  "organizer": {
+    "@type": "Organization",
+    "name": event.organizer,
+    "url": event.organizerUrl
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": event.rating.value,
+    "bestRating": event.rating.bestRating,
+    "ratingCount": event.rating.count
+  },
+  "offers": {
+    "@type": "Offer",
+    "url": event.url,
+    "validFrom": event.validFrom,
+    "price": event.price,
+    "priceCurrency": event.currency,
+    "availability": event.availability
+  }
+} %}
+{% set _ = schemaParts.push(eventSchema) %}
+{% endfor %}
+
+
+  {# КОНЕЦ: Добавляем презентации и выступления #}
+
+
+  {# Добавляем другие кейсы #}
+  {% if cases.otherCases and cases.otherCases | length > 0 %}
+    {% set otherCasesCollection = {
+      "@type": "CollectionPage",
+      "@id": site.url ~ page.url ~ "#other-cases",
+      "name": "Другие маркетинговые проекты Дмитрия Бартошевича",
+      "description": "Коллекция ссылок на кейсы и проекты в сфере маркетинга, брендинга и рекламы",
+      "headline": "Другие кейсы",
+      "isPartOf": { "@id": casesPageId },
+      "mainEntity": {
+        "@type": "ItemList",
+        "numberOfItems": cases.otherCases | length,
+        "itemListElement": []
+      }
+    } %}
+
+    {% set caseItems = [] %}
+    {% for case in cases.otherCases %}
+      {% set caseSchema = {
+        "@type": "ListItem",
+        "position": loop.index,
+        "name": case.name,
+        "url": case.url,
+        "description": case.description
+      } %}
+
+      {# Особая обработка для кейса с другими компаниями #}
+      {% if case.id == "other-companies" %}
+        {% set caseSchema = {
+          "@type": "ListItem",
+          "position": loop.index,
+          "item": {
+            "@type": "CreativeWork",
+            "name": case.name,
+            "description": case.description
+          }
+        } %}
+      
+      {% endif %}
+
+      {% set _ = caseItems.push(caseSchema) %}
+    {% endfor %}
+    {% set otherCasesWithItems = otherCasesCollection %}
+    {% set otherCasesWithItems = otherCasesWithItems | setAttribute("mainEntity", {
+      "@type": "ItemList",
+      "numberOfItems": caseItems | length,
+      "itemListElement": caseItems
+    }) %}
+
+    {% set _ = schemaParts.push(otherCasesWithItems) %}
+  {% endif %}
+
+
+
+
+    {# =========================================================
+     ФИНАЛИЗАЦИЯ: Собираем главный ItemList и привязываем к странице
+     ========================================================== #}
+  {% if mainEntityItems | length > 0 %}
+    {% set mainItemList = {
+      "@type": "ItemList",
+      "name": "Портфолио и публикации Дмитрия Бартошевича",
+      "numberOfItems": mainEntityItems | length,
+      "itemListElement": mainEntityItems
+    } %}
+    
+    {# Привязываем этот список как mainEntity к currentPage (типа CollectionPage) #}
+    {% set currentPage = currentPage | merge({ "mainEntity": mainItemList }) %}
+  {% endif %}
+
+
+
+{% endif %}

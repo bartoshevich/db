@@ -1,0 +1,101 @@
+{# =======================================
+  КОНСТРУКТОР СУЩНОСТИ ТЕКУЩЕЙ СТРАНИЦЫ
+ ========================================#}
+{% set isHomepage = page and page.url == '/' %}
+{% if not isHomepage %}
+  {# 1. Базовый объект WebPage #}
+  {% set currentPage = {
+    "@type": "WebPage",
+    "@id": (page.url | absoluteUrl(site.url)),
+    "url": (page.url | absoluteUrl(site.url)),
+    "name": (title.val or title) | decodeEntities,
+    "description": (description.val or description) | decodeEntities,
+    "inLanguage": "ru",
+    "datePublished": page.date | isoDate,
+    "dateModified": last_modified_at | default(config.buildDate) | isoDate,
+    "isPartOf": {
+      "@id": "https://bartoshevich.by/#website"
+    }
+  } %}
+
+  {# 2. Уточнение типа и свойств #}
+{% if page.url.startsWith('/blog/') and page.url != '/blog/' %}
+  {% set postProperties = {
+    "@type": "BlogPosting",
+    "headline": (title.val or title) | decodeEntities,
+    "author": {
+      "@id": "https://bartoshevich.by/about/#person"
+    },
+    "publisher": {
+      "@id": "https://bartoshevich.by/#organization"
+    },
+    "interactionStatistic": {
+      "@type": "InteractionCounter",
+      "interactionType": "https://schema.org/WriteAction", 
+      "userInteractionCount": collections.post | length 
+    },
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": (page.url | absoluteUrl(site.url))
+    },
+    "isPartOf": {
+      "@id": site.url ~ "/blog/"
+    }
+  } %}
+
+    {% set imageUrl = image | default('/assets/images/main/bartoshevichby.png') %}
+    {% set postProperties = postProperties | setAttribute("image", site.url ~ imageUrl) %}
+
+    {% if page.content %}
+      {% set postProperties = postProperties | setAttribute("wordCount", page.content | decodeEntities | wordcount) %}
+    {% endif %}
+
+    {% set currentPage = currentPage | merge(postProperties) %}
+
+
+  {% elif page.url == '/about/' %}
+    {% set aboutProperties = {
+      "@type": "AboutPage",
+      "mainEntity": {
+        "@id": "https://bartoshevich.by/about/#person"
+      }
+    } %}
+    {% set currentPage = currentPage | merge(aboutProperties) %}
+
+  {% elif page.url == '/contact/' %}
+    {% set contactProperties = {
+      "@type": "ContactPage",
+      "mainEntity": {
+        "@id": "https://bartoshevich.by/about/#person"
+      },
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+375297753340",
+        "email": "mailto:dmitry@bartoshevich.by",
+        "contactType": "Contact",
+        "availableLanguage": [
+          "ru", "be", "en"
+        ],
+        "areaServed": ["KZ", "BY"]
+      }
+    } %}
+    {% set currentPage = currentPage | merge(contactProperties) %}
+
+  {% elif page.url == '/cases/' %}
+    {% set casesProperties = {
+      "@type": "CollectionPage",
+      "creator": {
+        "@id": "https://bartoshevich.by/about/#person"
+      }
+    } %}
+    {% set currentPage = currentPage | merge(casesProperties) %}
+  {% endif %}
+
+  {# 3. Добавляем Breadcrumbs к текущей странице #}
+  {% include "schema/breadcrumbs.njk" %}
+
+  {# 4. Финальный объект страницы добавляется в граф #}
+  {% if page.url != '/blog/' %}
+  {% set _ = schemaParts.push(currentPage) %}
+{% endif %}
+{% endif %}

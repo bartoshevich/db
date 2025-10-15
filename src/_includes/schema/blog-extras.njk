@@ -1,0 +1,86 @@
+{# =======================================
+  Сущность Blog и ItemList для раздела /blog/
+ ========================================#}
+
+
+ {% set pageUrl = page and page.url or '' %}
+{% set isBlogListing = pageUrl == '/blog/' %}
+{% set isBlogPost = pageUrl and pageUrl != '/blog/' and pageUrl.startsWith('/blog/') %}
+
+{# --- СЛУЧАЙ 1: Главная страница блога (/blog/) --- #}
+{# Мы СОЗДАЕМ с нуля ПОЛНЫЙ и ЕДИНСТВЕННЫЙ объект для этой страницы #}
+{% if isBlogListing and collections.post %}
+
+  {# 1. Собираем ItemList со всеми статьями #}
+  {% set blogPostItems = [] %}
+  {% for post in collections.post %}
+    {% set postUrl = site.url ~ post.url %}
+    {% set blogPosting = {
+      "@type": "BlogPosting",
+      "@id": postUrl,
+      "url": postUrl,
+      "name": (post.data.title.val or post.data.title) | decodeEntities,
+      "headline": (post.data.title.val or post.data.title) | decodeEntities,
+      "author": { "@id": "https://bartoshevich.by/about/#person" },
+      "datePublished": post.date | isoDate
+    } %}
+    {% if post.data.last_modified_at %}
+      {% set blogPosting = blogPosting | setAttribute("dateModified", post.data.last_modified_at | isoDate) %}
+    {% endif %}
+    {% if post.data.image %}
+      {% set blogPosting = blogPosting | setAttribute("image", site.url ~ post.data.image) %}
+    {% endif %}
+
+    {% set listItem = {
+      "@type": "ListItem",
+      "position": loop.index,
+      "item": blogPosting
+    } %}
+    {% set _ = blogPostItems.push(listItem) %}
+  {% endfor %}
+
+  {% set blogItemList = {
+    "@type": "ItemList",
+    "itemListElement": blogPostItems,
+    "numberOfItems": blogPostItems | length
+  } %}
+
+  {# 2. Создаем финальный объединенный объект ["WebPage", "Blog"] #}
+  {% set finalBlogObject = {
+    "@type": ["WebPage", "Blog"],
+    "@id": site.url ~ page.url,
+    "url": site.url ~ page.url,
+    "name": (title.val or title) | decodeEntities,
+    "description": (description.val or description) | decodeEntities,
+    "inLanguage": "ru",
+    "datePublished": page.date | isoDate,
+    "dateModified": last_modified_at | default(config.buildDate) | isoDate,
+    "isPartOf": { "@id": site.url ~ "#website" },
+    "author": { "@id": "https://bartoshevich.by/about/#person" },
+    "publisher": { "@id": "https://bartoshevich.by/#organization" },
+    "mainEntity": blogItemList,
+    "hasPart": [
+      { "@id": "https://bartoshevich.by/#subscription" }
+    ]
+  } %}
+
+  {# 3. Добавляем этот единственный, но полный объект в граф #}
+  {% set _ = schemaParts.push(finalBlogObject) %}
+
+
+{# --- СЛУЧАЙ 2: Отдельная статья блога (/blog/post/) --- #}
+{# Создаем легковесный узел "Blog" для корректной связи isPartOf #}
+{% elif isBlogPost %}
+
+  {% set blogSchema = {
+    "@type": "Blog",
+    "@id": site.url ~ "/blog/",
+    "url": site.url ~ "/blog/",
+    "name": "Блог Дмитрия Бартошевича: маркетинг, стратегия, брендинг",
+    "author": { "@id": "https://bartoshevich.by/about/#person" },
+    "publisher": { "@id": "https://bartoshevich.by/#organization" }
+  } %}
+
+  {% set _ = schemaParts.push(blogSchema) %}
+
+{% endif %}
