@@ -311,7 +311,7 @@ export default {
     },
     barsanOrganization: {
       '@type': ['Organization', 'ProfessionalService'],
-      '@id': 'https://barsan.kz/#organization',
+      '@id': 'https://barsan.kz#organization',
       name: 'Агентство маркетинговых решений BARSAN',
       alternateName: ['BARSAN Agency', 'БАРСАН'],
       legalName: 'ТОО «Агентство маркетинговых решений BARSAN»',
