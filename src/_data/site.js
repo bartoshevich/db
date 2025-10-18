@@ -50,7 +50,8 @@ export default {
       description:
         'Эксперт по маркетинговой стратегии и архитектуре брендов с 20+ летним опытом. Основатель агентства маркетинговых решений BARSAN.',
       email: 'mailto:dmitry@bartoshevich.by',
-      jobTitle: 'Директор, Маркетинговый консультант',
+      jobTitle: 'Основатель и директор | Founder & CEO',
+      worksFor: {"@id": "https://barsan.kz#organization"},
       award: ['Преквалификация консультанта по маркетингу (ЕБРР)'],
       subjectOf: [
         {

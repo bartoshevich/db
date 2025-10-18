@@ -6,6 +6,8 @@
 {% block main_content %}
   {{ content | safe }}
   {# Уникальные инклюды для about #}
+  {% include "about__approach.njk" %}
   {% include "about__jobs.njk" %}
   {% include "about__education.njk" %}
+    {% include "about__antipromotion.njk" %}
 {% endblock %}
