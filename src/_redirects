@@ -5,6 +5,12 @@ https://www.bartoshevich.by/* https://bartoshevich.by/:splat 301!
 
 /uslugi/brand-conception     https://barsan.kz/services/brand-concept/   301!
 /uslugi/brand-conception/    https://barsan.kz/services/brand-concept/   301!
+/uslugi/  https://barsan.kz/services/  301!
+/uslugi/razrabotka-reklamnyh-kampanij/  https://barsan.kz/services/commercials/  301!
+/uslugi/autsorsing-marketinga/   https://barsan.kz/services/marketing-support/  301! 
+/uslugi/marketing-audit/   https://barsan.kz/services/  301!
+
+
 
 # СПЕЦИФИЧНЫЕ редиректы (приоритет 2) - ДОЛЖНЫ БЫТЬ ВЫШЕ wildcard правил
 /me/ /cases/ 301

@@ -3,174 +3,183 @@
 {% set currentUrl = page.url %} 
 
 
-<div class="buffer"></div>
-<footer class="footer"> 
-
-    <h2 class="element--hidden">Дополнительная информация</h2>
 
 
-    <section class="footer__nav" >  
-        <h3 class="element--hidden">Больше на сайте</h3>      
-        <nav class="menu__header__item" aria-labelledby="footer-sections">  
-            <h4 id="footer-sections" class="element--hidden">Разделы сайта</h4>        
-            <ul class="header__item--bleed item__content nav__group">
-                {% for item in navData.footerNav %}
+
+<footer id="footer" class="footer" aria-label="Контактная информация и навигация">
+    <div class="footer__container">
+
+        {# vCard микроформат #}
+        <section class="vcard" aria-labelledby="author-heading">
+            <h2 id="author-heading" class="element--hidden">Информация об авторе</h2>
+
+            <div class="fn">Дмитрий Бартошевич</div>
+            <div class="role">Маркетинговая стратегия и архитектура бренда</div>
+
+            <dl class="credentials" aria-label="Профессиональные достижения">
+                <div class="credential">
+                    <dt class="element--hidden">Текущая позиция</dt>
+                    <dd>
+                        <span class="org">
+                            Основатель <a class="link" href="https://barsan.kz/" target="_blank"
+                                rel="noopener me">агентства BARSAN</a> (KZ)
+                        </span>
+                    </dd>
+                </div>
+
+                <div class="credential">
+                    <dt class="element--hidden">Сертификация</dt>
+                    <dd>Преквалификация <abbr title="Европейский банк реконструкции и развития">ЕБРР</abbr></dd>
+                </div>
+
+                <div class="credential">
+                    <dt class="element--hidden">Предыдущий опыт</dt>
+                    <dd>
+
+                        Ex-Nielsen (KZ, BY)
+
+                    </dd>
+                </div>
+
+                <div class="credential">
+                    <dt class="element--hidden">Опыт работы</dt>
+                    <dd>
+                        20+ лет в&nbsp;маркетинге
+                    </dd>
+                </div>
+            </dl>
+        </section>
+
+        {# Основная навигация #}
+        <nav class="footer__nav" aria-label="Основная навигация сайта">
+
+            {# Секция навигации #}
+            <section class="footer__nav-section" aria-labelledby="nav-main">
+                <h3 id="nav-main">Навигация</h3>
+                <ul class="footer__nav-list">
+                    {% for item in navData.footerNav %}
                     {# Добавляем класс active, если URL совпадает #}
-                    <li class="{% if item.url != currentUrl %} nav__li{% endif %} bold{% if item.url == currentUrl %} nav__li nav__li--active{% endif %}">
+                    <li
+                        class="{% if item.url != currentUrl %} footer__nav-item {% endif %} {% if item.url == currentUrl %}footer__nav-item  {% endif %}">
                         {% if item.url == currentUrl %}
-                            {# Текущая страница: просто текст #}
-                            {{ item.text }}
+                        {# Текущая страница: просто текст #}
+                        {{ item.text }}
                         {% else %}
-                            {# Другая страница: ссылка #}
-                            <a class="link" href="{{ item.url | url }}">{{ item.text }}</a>
+                        {# Другая страница: ссылка #}
+                        <a class="link" href="{{ item.url | url }}">{{ item.text }}</a>
                         {% endif %}
                     </li>
-                {% endfor %}
-            </ul>
-        </nav>   
-    
-    
-         {# --- Навигация по услугам --- #}
-         <nav class="menu__header__item" aria-labelledby="footer-services">
-            {# Заголовок секции Услуги (из services.parent) #}
-            <h4 id="footer-services" class="bold block__title item__title">
-                {% if navData.services.parent.url == currentUrl %}
-                    {# Текущая страница /uslugi/: просто текст #}
-                    <span class=" text-color">{{ navData.services.parent.text }}</span>
-                {% else %}
-                    {# Другая страница: ссылка на /uslugi/ #}
-                    <a class="link text-color" href="{{ navData.services.parent.url | url }}">{{ navData.services.parent.text }}</a>
-                {% endif %}
-            </h4>
-            <ul class="nav__group item__content">
-                {% for item in navData.services.list %}
-                    {# Добавляем класс active, если URL совпадает #}
-                    <li class="nav__li{% if item.url == currentUrl %} nav__li--active{% endif %}">
-                        {% if item.url == currentUrl %}
-                            {# Текущая страница услуги: просто текст #}
-                            {{ item.text }}
-                        {% else %}
-                            {# Другая страница: ссылка на услугу #}
-                            <a class="link" href="{{ item.url | url }}">{{ item.text }}</a>
-                        {% endif %}
-                    </li>
-                {% endfor %}
-            </ul>
-        </nav>
-    
-        <nav class="menu__header__item" aria-labelledby="footer-blog">
-            {# Заголовок секции Блог (из blog.parent) #}
-            <h4 id="footer-blog" class="block__title item__title bold">
-                {% if navData.blog.parent.url == currentUrl %}
-                     {# Текущая страница /blog/: просто текст #}
-                     <span>{{ navData.blog.parent.text }}</span>
-                {% else %}
-                     {# Другая страница: ссылка на /blog/ #}
-                     <a href="{{ navData.blog.parent.url | url }}" class="link">{{ navData.blog.parent.text }}</a>
-                {% endif %}
-            </h4>
+                    {% endfor %}
+                </ul>
+            </section>
 
+            {# Секция блога #}
+            <section class="footer__nav-section" aria-labelledby="nav-blog">
+                <h3 id="nav-blog">Блог</h3>
+                {% set latestPosts = collections.post | limit(3) %}
 
-
-            {% set latestPosts = collections.post | limit(4) %}
-
-            <ul class="nav__group item__content">
-                {% set count = 0 %} {# Счетчик для вывода не более 3 постов #}
-                {# Цикл по последним 4 постам #}
-                {% for post in latestPosts %}
-                    {# Пропускаем текущую страницу И выводим не более 3-х #}
-                    {% if post.url != page.url and count < 3 %}
-                        {% set count = count + 1 %} {# Увеличиваем счетчик #}
-                        {% set displayTitle = post.data.name or post.data.title %}
-                        <li class="nav__li">
-                            <a class="link" href="{{ post.url | url }}">
-                                {{ displayTitle | decodeEntities | safe }}
-                            </a>
+                <ul class="nav__group item__content">
+                    {% set count = 0 %} {# Счетчик для вывода не более 2 постов #}
+                    {# Цикл по последним 3 постам #}
+                    {% for post in latestPosts %}
+                    {# Пропускаем текущую страницу И выводим не более 2-х #}
+                    {% if post.url != page.url and count < 2 %} {% set count=count + 1 %} {# Увеличиваем счетчик #} {%
+                        set displayTitle=post.data.name or post.data.title %} <li class="footer__nav-item">
+                        <a class="link" href="{{ post.url | url }}">
+                            {{ displayTitle | decodeEntities | safe }}
+                        </a>
                         </li>
-                    {% endif %}
-                {% endfor %}
-                <li class="nav__li "><a class="link-secondary link-more" href="{{ '/blog/#all-posts' | url }}">Смотреть все записи</a></li>
-            </ul>
-        </nav>  
-    </section>
- 
+                        {% endif %}
+                        {% endfor %}
+                        <li class="footer__nav-item"><a class="link-secondary link-more"
+                                href="{{ '/blog/#all-posts' | url }}">Смотреть все записи</a></li>
+                </ul>
+            </section>
+
+            {# Контактная информация #}
+            <section class="footer__nav-section contact-info" aria-labelledby="nav-contacts">
+                <h3 id="nav-contacts">Контакты</h3>
+                <address>
+                    <div class="flex flex-column">
+                        <div>
+                    <a href="mailto:dmitry@bartoshevich.by" class="footer__nav-item link" title="Отправить email"
+                        aria-label="Отправить email на dmitry@bartoshevich.by">
+                        dmitry@bartoshevich.by
+                    </a>
+                    </div>
+                    <div>
+                    <a class="footer__nav-item link" href="https://t.me/bartoshevich" title="написать в телеграм"
+                        aria-label="написать в телеграм">@bartoshevich</a>
+                        </div>
+                        </div>
+                </address>
+            </section>
+
+            {# Социальные сети с правильной семантикой #}
+            <section class="footer__nav-section" aria-labelledby="nav-social">
+                <h3 id="nav-social">Социальные сети</h3>
+                <ul class="footer-social__list" aria-label="Ссылки на социальные сети">
+                    <li class="footer-social__item footer-social__item--facebook">
+                        <a class="footer-social__link" href="https://www.facebook.com/bartoshevichby/" target="_blank"
+                            rel="noopener noreferrer me" aria-label="Профиль в Facebook (откроется в новой вкладке)">
+                            <svg class="footer-social__icon" role="presentation" aria-hidden="true">
+                                <use href="{{ spritePath() }}#facebook_icon"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="footer-social__item footer-social__item--telegram">
+                        <a class="footer-social__link" href="https://t.me/+OuzxNOZg-g44ZjYy" target="_blank"
+                            rel="noopener noreferrer me" aria-label="телеграм-канал (откроется в новой вкладке)">
+                            <svg class="footer-social__icon" role="presentation" aria-hidden="true">
+                                <use href="{{ spritePath() }}#telegram"></use>
+                            </svg>
+                        </a>
+                    </li>
+
+                    <li class="footer-social__item footer-social__item--linkedin">
+                        <a class="footer-social__link" href="https://www.linkedin.com/in/bartoshevich" target="_blank"
+                            rel="noopener noreferrer me" aria-label="Профиль в LinkedIn (откроется в новой вкладке)">
+                            <svg class="footer-social__icon" role="presentation" aria-hidden="true">
+                                <use href="{{ spritePath() }}#linkedin_icon"></use>
+                            </svg>
+                        </a>
+                    </li>
+
+                    <li class="footer-social__item footer-social__item--mastodon">
+                        <a class="footer-social__link" href="https://mastodon.social/@bartoshevich" target="_blank"
+                            rel="noopener noreferrer me" aria-label="Профиль в Мастодон (откроется в новой вкладке)">
+                            <svg class="footer-social__icon" role="presentation" aria-hidden="true">
+                                <use href="{{ spritePath() }}#mastodon_icon"></use>
+                            </svg>
+                        </a>
+                    </li>
+
+
+                </ul>
+            </section>
+        </nav>
+
+        {# Юридическая информация #}
+        <div class="footer__legal">
+            <div class="copyright">
+                <div class="copyright__item">© <time datetime="2015">2015</time>...<time datetime="2025">2025</time> </div>
+                
+                <div class="copyright__item">
+                    <abbr title="Учетный номер плательщика">УНП</abbr>
+                    192414874
+                </div>
+            </div>
+
+            {# Переключатель темы с полной ARIA поддержкой #}
+           <button type="button" class="theme-toggle" id="theme-toggle" title="Переключатель светлой и темной темы" aria-label="Переключить на тёмную тему"> <svg class="sun-and-moon" aria-hidden="true" width="24" height="24" viewBox="0 0 24 24"> <mask class="moon" id="moon-mask"> <rect x="0" y="0" width="100%" height="100%" fill="white"></rect> <circle cx="24" cy="10" r="6" fill="black"></circle> </mask> <circle class="sun" cx="12" cy="12" r="6" mask="url(#moon-mask)" fill="currentColor"></circle> <g class="sun-beams" stroke="currentColor"> <line x1="12" y1="1" x2="12" y2="3"></line> <line x1="12" y1="21" x2="12" y2="23"></line> <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line> <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line> <line x1="1" y1="12" x2="3" y2="12"></line> <line x1="21" y1="12" x2="23" y2="12"></line> <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line> <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line> </g> </svg> </button>
+        </div>
+    </div>
+</footer>
 
 
 
-<nav class="footer-social" aria-labelledby="footer-social-title">
-    <h3 id="footer-social-title" class="element--hidden">Социальные сети</h3>
-    <ul class="footer-social__list">
-        <li class="footer-social__item footer-social__item--facebook">
-
-            <a class="footer-social__link" href="https://www.facebook.com/bartoshevichby/" target="_blank"
-                rel="noopener" aria-label="фейсбук">
-                <svg class="footer-social__icon" role="presentation" aria-hidden="true">
-                    <use href="{{ spritePath() }}#facebook_icon"></use>
-                </svg>
-            </a>
-        </li>
-
-        <li class="footer-social__item footer-social__item--linkedin">
-            <a class="footer-social__link" href="https://www.linkedin.com/in/bartoshevich" target="_blank"
-                rel="noopener me" aria-label="линкедин">
-                <svg class="footer-social__icon" role="presentation" aria-hidden="true">
-                    <use href="{{ spritePath() }}#linkedin_icon"></use>
-                </svg>
-            </a>
-        </li>
-
-        
-        <li class="footer-social__item footer-social__item--mastodon">
-            <a class="footer-social__link" href="https://mastodon.social/@bartoshevich" target="_blank"
-                rel="noopener me" aria-label="Мастодон">
-                <svg class="footer-social__icon" role="presentation" aria-hidden="true">
-                    <use href="{{ spritePath() }}#mastodon_icon"></use>
-                </svg>
-            </a>
-        </li>
-        <li class="footer-social__item footer-social__item--telegram">
-            <a class="footer-social__link" href="https://t.me/+OuzxNOZg-g44ZjYy" target="_blank" rel="noopener"
-                aria-label="телеграм">
-                <svg class="footer-social__icon" role="presentation" aria-hidden="true">
-                    <use href="{{ spritePath() }}#telegram"></use>
-                </svg>
-            </a>
-        </li>
-        <li class="footer-social__item footer-social__item--rss">
-            <a class="footer-social__link" href="/feed.xml" aria-label="RSS">
-                <svg class="footer-social__icon" role="presentation" aria-hidden="true">
-                    <use href="{{ spritePath() }}#rss_icon"></use>
-                </svg>
-            </a>
-        </li>
-    </ul>
-</nav>
-
-<div class="credentials menu--flex">
-<div class="small"> © 2015...{% year %}, УНП&nbsp;192414874 </div>
 
 
-<button type="button" class="theme-toggle" id="theme-toggle" title="Переключатель светлой и темной темы" aria-label="Переключить тему">
-    <svg class="sun-and-moon" aria-hidden="true" width="24" height="24" viewBox="0 0 24 24">
-      <mask class="moon" id="moon-mask">
-        <rect x="0" y="0" width="100%" height="100%" fill="white" />
-        <circle cx="24" cy="10" r="6" fill="black" />
-      </mask>
-      <circle class="sun" cx="12" cy="12" r="6" mask="url(#moon-mask)" fill="currentColor" />
-      <g class="sun-beams" stroke="currentColor">
-        <line x1="12" y1="1" x2="12" y2="3" />
-        <line x1="12" y1="21" x2="12" y2="23" />
-        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64" />
-        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78" />
-        <line x1="1" y1="12" x2="3" y2="12" />
-        <line x1="21" y1="12" x2="23" y2="12" />
-        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36" />
-        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22" />
-       </g>
-    </svg>
-  </button>
-
-</div>
 
 
-</footer> 
+

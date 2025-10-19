@@ -46,6 +46,7 @@ html {
   --toc: #fafafa;
   --gray: #eaeaea;
   --arrow-color: #86868b;
+  --color-tertiary: #54544f;
 
 
    /* TOC (светлая тема) */
@@ -140,11 +141,12 @@ html[data-theme="dark"] {
   --selected-bg-color: #2c2c2e;
   --text-accent: #fff;
   --text-colour: #f5f5f7;
-  --secondary-text-colour: #b8b8bc;
+  --secondary-text-colour: #aeaeb2;
   --secondary-text-colour-rgb: 184, 184, 188;
   --toc: #111111;
   --gray: #3a3a3c;
   --arrow-color: #424245;
+  --color-tertiary: #9e9ea2;
 
      /* TOC (темная тема) */
    --color-toc-ui-element-background: #2c2c2e;
@@ -164,21 +166,21 @@ html[data-theme="dark"] {
   --link-opacity-80: rgba(245, 245, 247, 0.8);
   --link-opacity-05: rgba(245, 245, 247, 0.1);
   --link-hover: #ffffff;
-  --link-active: #c4c4ca;
+  --link-active: #d1d1d6;
   --link-bg: #2c2c2e;
   --link-focus-outline: rgba(255, 255, 255, 0.4);
-    --link-underline-color: rgba(184, 184, 188, 0.6);
+    --link-underline-color: rgba(184, 184, 188, 0.5);
 
   /* Эффекты и состояния (темная тема) */
   --hover-shadow: rgba(0, 0, 0, 0.3);
   --card-border: #3a3a3c;
-  --card-highlight: rgba(255, 255, 255, 0.7);
+  --card-highlight: rgba(255, 255, 255, 0.75);
   --background-color-rgb: 28, 28, 30;
 
   /* Таблицы (темная тема) */
   --table-bg-color: #2a2a2c;
   --table-border-top: #4c4c4e;
-  --table-border-td: #6c6c70;
+  --table-border-td: #5a5a5f;
   --table-bg-th: #313133;
   --table-gainsboro: #2a2a2c;
 

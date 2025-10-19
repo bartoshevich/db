@@ -1,0 +1,98 @@
+@use "./variables" as v;
+
+
+.footer-social {
+  padding: var(--space-s) 0;
+}
+
+.social__item {
+  margin-right: var(--space-s);
+}
+
+.footer-social__item {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: .6em;
+}
+
+
+.footer-social__list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 12px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-social__link {
+  display: inline-block;
+  transition: fill 0.3s ease;
+  color:currentColor;
+
+  &:focus-visible {
+    outline: 2px solid v.$link;
+    outline-offset: 2px;
+    box-shadow: none;
+    text-decoration: none;
+    border-radius: 2px;
+  }
+
+  @media (max-width: 640px) {
+    padding: 8px;
+  }
+}
+
+.footer-social__icon {
+  width: 32px;
+  height: 32px;
+  fill: #8E8E93;
+  transition: transform 0.2s ease, opacity 0.2s ease;
+  opacity: 0.7;
+
+
+  &:hover {
+    transform: scale(1.1);
+    opacity: 1;
+  }
+
+  @media (max-width: 640px) {
+    width: 32px;
+    height: 32px; 
+  }
+}
+
+
+
+.footer-social__item--rss .footer-social__icon circle {
+  fill: #8E8E93;
+}
+
+
+.footer-social__item--rss .footer-social__icon {
+  color: #fff;                 
+}
+
+/* Брендовые цвета при наведении */
+.footer-social__item--facebook:hover .footer-social__icon {
+  fill: #1877f2;
+}
+.footer-social__item--linkedin:hover .footer-social__icon {
+  fill: #0a66c2;
+}
+
+.footer-social__item--mastodon:hover .footer-social__icon {
+  fill: #6364ff;
+}
+.footer-social__item--telegram:hover .footer-social__icon {
+  fill: #0088cc;
+}
+.footer-social__item--rss:hover .footer-social__icon {
+  fill: #f26522;
+}
+
+.footer-social__item--rss:hover .footer-social__icon circle {
+  fill: #ffe5d6;              
+}

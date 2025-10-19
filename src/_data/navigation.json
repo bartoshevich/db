@@ -3,6 +3,7 @@
   "mainNav": [
     { "text": "Бартошевич", "url": "/" },
     { "text": "Проекты", "url": "/cases/", "key": "cases" },
+     { "text": "Обо мне", "url": "/about/", "key": "about" },
     { "text": "Блог", "url": "/blog/", "key": "blog" },
     { "text": "Вопрос - Ответ", "url": "/faq/", "key": "faq" },
     { "text": "Контакты", "url": "/contact/", "key": "contact" }
