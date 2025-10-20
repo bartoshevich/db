@@ -22,28 +22,39 @@ const setPreference = () => {
   reflectPreference();
 };
 
-const reflectPreference = () => {
-  document.firstElementChild.setAttribute("data-theme", theme.value);
-  const themeToggle = document.querySelector("#theme-toggle");
-  if (themeToggle) {
-    themeToggle.setAttribute(
+const getThemeToggles = () => document.querySelectorAll(".theme-toggle");
+
+const updateToggleLabels = () => {
+  const toggles = getThemeToggles();
+  toggles.forEach((toggle) => {
+    toggle.setAttribute(
       "aria-label",
       theme.value === "dark" ? "Переключить на светлую тему" : "Переключить на тёмную тему"
     );
-  }
+  });
+};
+
+const reflectPreference = () => {
+  document.firstElementChild.setAttribute("data-theme", theme.value);
+  updateToggleLabels();
 };
 
 // Отражение предпочтения сразу при загрузке скрипта
 reflectPreference();
 
 // Настройка обработчиков событий при загрузке страницы
-window.onload = () => {
-  reflectPreference();
-  const themeToggle = document.querySelector("#theme-toggle");
-  if (themeToggle) {
-    themeToggle.addEventListener("click", onClick);
-  }
+const bindToggleHandlers = () => {
+  const toggles = getThemeToggles();
+  toggles.forEach((toggle) => {
+    toggle.removeEventListener("click", onClick);
+    toggle.addEventListener("click", onClick);
+  });
 };
+
+window.addEventListener("DOMContentLoaded", () => {
+  reflectPreference();
+  bindToggleHandlers();
+});
 
 // Слушатель изменений системных предпочтений
 window.matchMedia("(prefers-color-scheme: dark)").addEventListener("change", ({ matches: e }) => {
@@ -51,4 +62,3 @@ window.matchMedia("(prefers-color-scheme: dark)").addEventListener("change", ({ 
   setPreference();
 });
 // @license-end
-

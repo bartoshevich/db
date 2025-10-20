@@ -72,7 +72,7 @@
 }
 
 .menu-header__wrapper {
-  padding: 1em 0;
+  padding: 2em 0;
 }
 
 .menu__header {
@@ -91,8 +91,7 @@
 
   .menu__header__item {
     display: grid;
-    grid-template-columns: var(--space-xl-2xl) 1fr;
-    grid-template-rows: 1em 1fr;
+    grid-template-columns:  1fr;
     grid-gap: 12px;
   }
 
@@ -110,7 +109,7 @@
 @media (min-width: 640px) {
   .menu__header--open {
     display: grid;
-    grid-template-columns: 2fr 4fr 4fr;
+    grid-template-columns: 2fr 3fr 3fr 2fr;
     grid-gap: 2rem;
    // overflow: hidden;
     transition: all 5s;
@@ -157,4 +156,19 @@
   border-radius: 2px;
   text-decoration: none;
   color: v.$text-colour;
+}
+
+
+
+.nav__section__title {
+  font-size: 13px;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            color: var(--color-secondary);
+            margin-bottom: var(--spacing-sm);
+}
+
+.nav__section__item  {
+  margin-bottom: var(--space-xs);
 }

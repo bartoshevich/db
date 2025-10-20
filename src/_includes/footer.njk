@@ -116,47 +116,13 @@
             </section>
 
             {# Социальные сети с правильной семантикой #}
+
             <section class="footer__nav-section" aria-labelledby="nav-social">
-                <h3 id="nav-social">Социальные сети</h3>
-                <ul class="footer-social__list" aria-label="Ссылки на социальные сети">
-                    <li class="footer-social__item footer-social__item--facebook">
-                        <a class="footer-social__link" href="https://www.facebook.com/bartoshevichby/" target="_blank"
-                            rel="noopener noreferrer me" aria-label="Профиль в Facebook (откроется в новой вкладке)">
-                            <svg class="footer-social__icon" role="presentation" aria-hidden="true">
-                                <use href="{{ spritePath() }}#facebook_icon"></use>
-                            </svg>
-                        </a>
-                    </li>
-                    <li class="footer-social__item footer-social__item--telegram">
-                        <a class="footer-social__link" href="https://t.me/+OuzxNOZg-g44ZjYy" target="_blank"
-                            rel="noopener noreferrer me" aria-label="телеграм-канал (откроется в новой вкладке)">
-                            <svg class="footer-social__icon" role="presentation" aria-hidden="true">
-                                <use href="{{ spritePath() }}#telegram"></use>
-                            </svg>
-                        </a>
-                    </li>
+                <h3 id="nav-social" class="nav__section__title">Социальные сети</h3>
+{% include "smm.njk" %}  
+</section>
 
-                    <li class="footer-social__item footer-social__item--linkedin">
-                        <a class="footer-social__link" href="https://www.linkedin.com/in/bartoshevich" target="_blank"
-                            rel="noopener noreferrer me" aria-label="Профиль в LinkedIn (откроется в новой вкладке)">
-                            <svg class="footer-social__icon" role="presentation" aria-hidden="true">
-                                <use href="{{ spritePath() }}#linkedin_icon"></use>
-                            </svg>
-                        </a>
-                    </li>
-
-                    <li class="footer-social__item footer-social__item--mastodon">
-                        <a class="footer-social__link" href="https://mastodon.social/@bartoshevich" target="_blank"
-                            rel="noopener noreferrer me" aria-label="Профиль в Мастодон (откроется в новой вкладке)">
-                            <svg class="footer-social__icon" role="presentation" aria-hidden="true">
-                                <use href="{{ spritePath() }}#mastodon_icon"></use>
-                            </svg>
-                        </a>
-                    </li>
-
-
-                </ul>
-            </section>
+           
         </nav>
 
         {# Юридическая информация #}
@@ -171,14 +137,13 @@
             </div>
 
             {# Переключатель темы с полной ARIA поддержкой #}
-           <button type="button" class="theme-toggle" id="theme-toggle" title="Переключатель светлой и темной темы" aria-label="Переключить на тёмную тему"> <svg class="sun-and-moon" aria-hidden="true" width="24" height="24" viewBox="0 0 24 24"> <mask class="moon" id="moon-mask"> <rect x="0" y="0" width="100%" height="100%" fill="white"></rect> <circle cx="24" cy="10" r="6" fill="black"></circle> </mask> <circle class="sun" cx="12" cy="12" r="6" mask="url(#moon-mask)" fill="currentColor"></circle> <g class="sun-beams" stroke="currentColor"> <line x1="12" y1="1" x2="12" y2="3"></line> <line x1="12" y1="21" x2="12" y2="23"></line> <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line> <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line> <line x1="1" y1="12" x2="3" y2="12"></line> <line x1="21" y1="12" x2="23" y2="12"></line> <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line> <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line> </g> </svg> </button>
+             {% set toggleId = "theme-toggle-footer" %}
+             {% include "theme-toggle.njk" %}
+             {% set toggleId = none %}
+             {% set maskId = none %}
         </div>
     </div>
 </footer>
-
-
-
-
 
 
 

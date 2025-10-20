@@ -1,12 +1,12 @@
 {
   "siteName": "Бартошевич",
+  "title": "Навигация",
   "mainNav": [
-    { "text": "Бартошевич", "url": "/" },
+    { "text": "Главная", "url": "/" },
     { "text": "Проекты", "url": "/cases/", "key": "cases" },
      { "text": "Обо мне", "url": "/about/", "key": "about" },
     { "text": "Блог", "url": "/blog/", "key": "blog" },
-    { "text": "Вопрос - Ответ", "url": "/faq/", "key": "faq" },
-    { "text": "Контакты", "url": "/contact/", "key": "contact" }
+     { "text": "Контакты", "url": "/contact/", "key": "contact" }
   ],
   "footerNav": [
       { "text": "Главная", "url": "/" },
@@ -15,21 +15,7 @@
       { "text": "Вопрос - Ответ", "url": "/faq/", "key": "faq" },
       { "text": "Контакты", "url": "/contact/", "key": "contact" }
   ],
-  "services": {
-    "parent": { "text": "Услуги", "url": "/uslugi/", "key": "uslugi" },
-    "list": [
-      { "text": "Аудит маркетинга", "url": "/uslugi/marketing-audit/" },
-      { "text": "Концепция бренда", "url": "/uslugi/brand-conception/" },
-      {
-        "text": "Разработка рекламных кампаний",
-        "url": "/uslugi/razrabotka-reklamnyh-kampanij/"
-      },
-      {
-        "text": "Абонентское обслуживание",
-        "url": "/uslugi/autsorsing-marketinga/"
-      }
-    ]
-  },
+ 
   "blog": { 
     "parent": { "text": "Блог", "url": "/blog/", "key": "blog" }    
   },
