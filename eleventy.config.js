@@ -485,6 +485,31 @@ export default function (eleventyConfig) {
   eleventyConfig.addLiquidFilter('dateToRfc3339', pluginRss.dateToRfc3339);
   eleventyConfig.addLiquidFilter('dateToRfc822', pluginRss.dateToRfc822);
 
+const NBSP = "\u00A0";
+  const PREPOSITION_REGEX = /(^|[\s>])([ВвКкСсУуОоАаИи])\s+(?=[^\s<])/g;
+  const QUOTES_REGEX = /(^|[\s>«„(—-])"([^"<]+?)"(?=($|[\s<.,:;!?)]|—))/g;
+
+const applyTypography = value => {
+    if (typeof value !== "string" || !value.trim()) return value || "";
+    let result = value.replace(
+      PREPOSITION_REGEX,
+      (_, prefix, letter) => `${prefix}${letter}${NBSP}`
+    );
+    result = result.replace(
+      QUOTES_REGEX,
+      (_, prefix, content) => `${prefix}«${content.trim()}»`
+    );
+    return result;
+  };
+
+  eleventyConfig.addFilter("nbspPrepositions", value =>
+    typeof value === "string" ? applyTypography(value) : value
+  );
+
+
+
+
+
   eleventyConfig.addNunjucksGlobal('getBreadcrumbs', (key, items) => {
     if (!key || !Array.isArray(items)) return []; // Проверяем, что items - массив
     const map = new Map(items.map(i => [i.data?.eleventyNavigation?.key, i]));
