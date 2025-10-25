@@ -3,7 +3,7 @@
       {% block main_content %}
         {% include "post__header.njk" %}
       
-  {{ content | safe }}
+  {{ content | nbspPrepositions | safe  }}
        
         {% include "related-service.njk" %}
         

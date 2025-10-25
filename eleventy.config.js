@@ -486,7 +486,7 @@ export default function (eleventyConfig) {
   eleventyConfig.addLiquidFilter('dateToRfc822', pluginRss.dateToRfc822);
 
 const NBSP = "\u00A0";
-  const PREPOSITION_REGEX = /(^|[\s>])([ВвКкСсУуОоАаИи])\s+(?=[^\s<])/g;
+  const PREPOSITION_REGEX = /(^|[\s>])([ВвКкСсУуОоАаИиЯя])\s+(?=[^\s<])/g;
   const QUOTES_REGEX = /(^|[\s>«„(—-])"([^"<]+?)"(?=($|[\s<.,:;!?)]|—))/g;
 
 const applyTypography = value => {
@@ -926,7 +926,7 @@ if (isProdBuild) {
   // КОНФИГУРАЦИЯ ВОЗВРАТА
   // =================================================================
   return {
-    templateFormats: ['md', 'njk', 'html', 'liquid'],
+    templateFormats: ['md', 'njk', 'html', 'yml', 'liquid'],
     markdownTemplateEngine: 'njk',
     htmlTemplateEngine: 'njk',
     dataTemplateEngine: 'njk',

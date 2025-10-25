@@ -1,0 +1,69 @@
+{# _includes/partials/film-card.njk #}
+
+{% set isSeries = film.item_type == 'TVSeries' %}
+{% set item_visual_type = "сериала" if isSeries else "фильма" %}
+
+<article id="{{ film.id }}" class="row-gap--m">
+
+  {# Год выводится только для фильмов, не для сериалов #}
+  <h3 class="h2 bold mb-m">{{ film.title_ru }} / <span lang="en">{{ film.title_en }}</span> {% if not isSeries %}({{ film.year }}){% endif %}</h3>
+
+  <p class="movie-metadata">
+    <span class="bold">Режиссер:</span>
+    <span>{{ film.director.name }}</span>
+    <br>
+    <span class="bold">IMDb рейтинг:</span>
+    <span>{{ film.imdb_rating }}/10</span>
+  </p>
+
+  <p class="movie-description">{{ film.description | safe }}</p>
+
+  {# Логика для отображения трейлера или картинки (без изменений) #}
+  {% if film.trailer_yt_id %}
+    <div class="full-bleed figure">
+      <div class="video">
+          <a class="video__link " href="https://youtu.be/{{ film.trailer_yt_id }}" target="_blank" rel="noopener noreferrer">
+              
+                  
+                  <img loading="lazy"  decoding="async" class="video__media is-16by9" src="{{ film.image }}" alt="{{ film.image_alt }}" width="1280" height="720">
+              
+              <span class="element--hidden">Видео: {{ film.image_alt }}</span>
+          </a>
+          <button class="video__button" aria-label="Запустить видео">
+            <svg width="68" height="48" viewBox="0 0 68 48"><path class="video__button-shape" d="M66.52,7.74c-0.78-2.93-2.49-5.41-5.42-6.19C55.79,.13,34,0,34,0S12.21,.13,6.9,1.55 C3.97,2.33,2.27,4.81,1.48,7.74C0.06,13.05,0,24,0,24s0.06,10.95,1.48,16.26c0.78,2.93,2.49,5.41,5.42,6.19 C12.21,47.87,34,48,34,48s21.79-0.13,27.1-1.55c2.93-0.78,4.64-3.26,5.42-6.19C67.94,34.95,68,24,68,24S67.94,13.05,66.52,7.74z"></path><path class="video__button-icon" d="M 45,24 27,14 27,34"></path></svg>
+          </button>
+      </div>
+      <div class="figcaption">{{ film.image_alt }}</div>
+    </div>
+  {% elif film.image %}
+    <div class="figure">
+        <img class="image" loading="lazy" decoding="async" src="{{ film.image }}" alt="{{ film.image_alt }}" width="1280" height="720">
+        <div class="figcaption">
+          Кадр из {{ item_visual_type }} «{{ film.title_ru }}».
+          {% if film.netflix_id %}<br><a class="link italic" href="https://www.netflix.com/title/{{ film.netflix_id }}">Смотреть на Netflix</a>{% endif %}
+        </div>
+    </div>
+  {% endif %}
+
+  <section>
+    <h4 class="section-subtitle">Зачем смотреть</h4>
+    <p>{{ film.why_watch | safe }}</p>
+  </section>
+
+  {% if film.reviews and film.reviews.length > 0 %}
+  <section>
+    <h4 class="section-subtitle mt-m">Отзывы</h4>
+    {% for review in film.reviews %}
+      <article class="blockquote--emphasis mt-m ml-2xl">
+        <h5 class="element--hidden">Отзыв {{ review.author.name }}</h5>
+        <blockquote class="citation" cite="{{ review.cite_url }}">
+            <p>{{ review.text }}</p>
+        </blockquote>
+        <footer class="citation__author">
+            <cite>{{ review.author.name }}</cite>
+        </footer>
+      </article>
+    {% endfor %}
+  </section>
+  {% endif %}
+</article>
