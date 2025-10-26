@@ -44,7 +44,7 @@ eleventyNavigation:
             <div class="block__name--align-left">
                 <h2 class="h2">
                         <a class="link article-link" href="{{ post.url }}" >
-                        <span class="article_title">	{{ post.data.name  | safe }} </span>
+                        <span class="article_title">	{{ post.data.name  | nbspPrepositions | safe }} </span>
                     </a>
                 </h2>
                 <p class="mt-12">
@@ -56,7 +56,7 @@ eleventyNavigation:
                 </p>
             </div>
             <p class="block__content">
-                {{ post.data.description | safe }}
+                {{ post.data.description | nbspPrepositions | safe }}
             </p>
         </li>
         {% endfor %}
