@@ -489,9 +489,19 @@ const NBSP = "\u00A0";
   const PREPOSITION_REGEX = /(^|[\s>])([ВвКкСсУуОоАаИиЯя])\s+(?=[^\s<])/g;
   const QUOTES_REGEX = /(^|[\s>«„(—-])"([^"<]+?)"(?=($|[\s<.,:;!?)]|—))/g;
 
+const JSON_LD_SCRIPT_REGEX = /<script[^>]*type=["']application\/ld\+json["'][^>]*>[\s\S]*?<\/script>/gi;
+
 const applyTypography = value => {
     if (typeof value !== "string" || !value.trim()) return value || "";
-    let result = value.replace(
+
+    const preservedScripts = [];
+    let protectedValue = value.replace(JSON_LD_SCRIPT_REGEX, match => {
+      const placeholder = `__JSON_LD_BLOCK_${preservedScripts.length}__`;
+      preservedScripts.push({ placeholder, content: match });
+      return placeholder;
+    });
+
+    let result = protectedValue.replace(
       PREPOSITION_REGEX,
       (_, prefix, letter) => `${prefix}${letter}${NBSP}`
     );
@@ -499,6 +509,11 @@ const applyTypography = value => {
       QUOTES_REGEX,
       (_, prefix, content) => `${prefix}«${content.trim()}»`
     );
+
+    preservedScripts.forEach(({ placeholder, content }) => {
+      result = result.replace(placeholder, content);
+    });
+
     return result;
   };
 
