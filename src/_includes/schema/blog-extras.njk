@@ -1,14 +1,14 @@
-{# =======================================
-  Сущность Blog и ItemList для раздела /blog/
- ========================================#}
+{# =================================================================== #}
+{# === blog-extras.njk === #}
+{# === Полная и единственная логика для раздела /blog/ === #}
+{# =================================================================== #}
 
-
- {% set pageUrl = page and page.url or '' %}
+{% set pageUrl = page and page.url or '' %}
 {% set isBlogListing = pageUrl == '/blog/' %}
 {% set isBlogPost = pageUrl and pageUrl != '/blog/' and pageUrl.startsWith('/blog/') %}
 
 {# --- СЛУЧАЙ 1: Главная страница блога (/blog/) --- #}
-{# Мы СОЗДАЕМ с нуля ПОЛНЫЙ и ЕДИНСТВЕННЫЙ объект для этой страницы #}
+{# Логика для главной страницы блога. Остается без изменений. #}
 {% if isBlogListing and collections.post %}
 
   {# 1. Собираем ItemList со всеми статьями #}
@@ -69,9 +69,10 @@
 
 
 {# --- СЛУЧАЙ 2: Отдельная статья блога (/blog/post/) --- #}
-{# Создаем легковесный узел "Blog" для корректной связи isPartOf #}
+{# Этот блок теперь полностью отвечает за генерацию схемы для постов #}
 {% elif isBlogPost %}
 
+  {# ШАГ 2.1: Создаем "легковесный" узел Blog для корректной связи #}
   {% set blogSchema = {
     "@type": "Blog",
     "@id": site.url ~ "/blog/",
@@ -80,8 +81,124 @@
     "author": { "@id": "https://bartoshevich.by/about/#person" },
     "publisher": { "@id": "https://bartoshevich.by/#organization" }
   } %}
-
   {% set _ = schemaParts.push(blogSchema) %}
 
-{% endif %}
+  {# ШАГ 2.2: Создаем и ОБОГАЩАЕМ узел WebPage #}
+  {% set webPage = {
+    "@type": "WebPage",
+    "@id": (page.url | absoluteUrl(site.url)),
+    "url": (page.url | absoluteUrl(site.url)),
+    "name": (title.val or title) | decodeEntities | replace('"', '\\"'),
+    "description": (description.val or description) | decodeEntities | replace('"', '\\"'),
+    "inLanguage": "ru",
+    "datePublished": page.date | isoDate,
+    "dateModified": last_modified_at | default(config.buildDate) | isoDate,
+    "isPartOf": { "@id": "https://bartoshevich.by/#website" }
+  } %}
 
+  {# Обработка FAQ (если есть) #}
+  {% if faq %}
+    {% set faqItems = [] %}
+    {% for item in faq %}
+      {% set faqItem = { "@type": "Question", "name": item.question, "acceptedAnswer": { "@type": "Answer", "text": item.answer } } %}
+      {% set _ = faqItems.push(faqItem) %}
+    {% endfor %}
+    {% set faqPageSchema = { "@type": "FAQPage", "@id": (page.url | absoluteUrl(site.url)) ~ "#faq", "mainEntity": faqItems } %}
+    {% set _ = schemaParts.push(faqPageSchema) %}
+    {% set webPage = webPage | setAttribute("mainEntity", { "@id": (page.url | absoluteUrl(site.url)) ~ "#faq" }) %}
+  {% endif %}
+
+  {# Обработка постов с фильмами #}
+  {% if mainEntitySource == "films" and films and films.items %}
+    {% set movieItems = [] %}
+    {% for film in films.items %}
+      {% set itemType = "TVSeries" if film.item_type == "TVSeries" else "Movie" %}
+      {% set movieObject = {
+        "@type": itemType,
+        "url": site.url ~ page.url ~ "#" ~ film.id,
+        "name": film.title_ru | replace('"', '\\"'),
+        "alternateName": film.title_en | replace('"', '\\"'),
+        "image": film.image if film.image else "https://i.ytimg.com/vi/" ~ film.trailer_yt_id ~ "/maxresdefault.jpg",
+        "description": film.description | replace('"', '\\"'),
+        "datePublished": film.year,
+        "director": { "@type": "Person", "name": film.director.name }
+      } %}
+
+      {% if film.imdb_id %}
+        {% set imdbUrl = "https://www.imdb.com/title/" ~ film.imdb_id ~ "/" %}
+        {% set movieObject = movieObject | setAttribute("sameAs", imdbUrl) %}
+      {% endif %}
+
+      {% if film.reviews and (film.reviews | length) > 0 %}
+        {% set reviewList = [] %}
+        {% for review in film.reviews %}
+          {% set reviewObject = { "@type": "Review", "reviewBody": review.text, "reviewRating": { "@type": "Rating", "ratingValue": review.rating, "bestRating": 10, "worstRating": 1 }, "author": { "@type": "Person", "name": review.author.name } } %}
+          {% set _ = reviewList.push(reviewObject) %}
+        {% endfor %}
+        {% set movieObject = movieObject | setAttribute("review", reviewList) %}
+      {% endif %}
+
+      {% if film.imdb_rating and film.imdb_rating_count %}
+        {% set movieObject = movieObject | setAttribute("aggregateRating", { "@type": "AggregateRating", "ratingValue": film.imdb_rating, "ratingCount": film.imdb_rating_count, "bestRating": 10, "worstRating": 1 }) %}
+      {% elif film.imdb_rating %}
+        {% set imdbReview = { "@type": "Review", "author": { "@type": "Organization", "name": "IMDb" }, "reviewBody": "Рейтинг IMDb: " ~ film.imdb_rating ~ "/10", "reviewRating": { "@type": "Rating", "ratingValue": film.imdb_rating, "bestRating": 10, "worstRating": 1 } } %}
+        {% set existingReviews = movieObject.review or [] %}
+        {% set _ = existingReviews.push(imdbReview) %}
+        {% set movieObject = movieObject | setAttribute("review", existingReviews) %}
+      {% endif %}
+      
+      {% set listItem = { "@type": "ListItem", "position": loop.index, "item": movieObject } %}
+      {% set _ = movieItems.push(listItem) %}
+    {% endfor %}
+
+    {% set movieItemList = {
+      "@type": "ItemList",
+      "name": (title.val or title) | decodeEntities,
+      "itemListOrder": "https://schema.org/ItemListOrderAscending",
+      "numberOfItems": movieItems | length,
+      "itemListElement": movieItems
+    } %}
+    
+    {# Размещаем ItemList как mainEntity на WebPage, перезаписывая возможную ссылку на FAQ, т.к. фильмы важнее #}
+    {% set webPage = webPage | setAttribute("mainEntity", movieItemList) %}
+  {% endif %}
+
+  {# Отправляем финальный, полностью собранный WebPage в граф #}
+  {% set _ = schemaParts.push(webPage) %}
+
+  {# ШАГ 2.3: Создаем и ОБОГАЩАЕМ узел BlogPosting #}
+  {% set imageUrl = image | default('/assets/images/main/bartoshevichby.png') %}
+  {% set blogPosting = {
+    "@type": "BlogPosting",
+    "@id": (page.url | absoluteUrl(site.url)) ~ "#post",
+    "url": (page.url | absoluteUrl(site.url)),
+    "headline": (title.val or title) | decodeEntities | replace('"', '\\"'),
+    "author": { "@id": "https://bartoshevich.by/about/#person" },
+    "publisher": { "@id": "https://bartoshevich.by/#organization" },
+    "image": site.url ~ imageUrl,
+    "datePublished": page.date | isoDate,
+    "dateModified": last_modified_at | default(config.buildDate) | isoDate,
+    "mainEntityOfPage": { "@id": (page.url | absoluteUrl(site.url)) },
+    "isPartOf": { "@id": site.url ~ "/blog/" }
+  } %}
+
+  {# Добавляем опциональные поля, если есть контент #}
+  {% if content %}
+    {% set blogPosting = blogPosting | setAttribute("wordCount", content | decodeEntities | wordcount) %}
+    {% set blogPosting = blogPosting | setAttribute("timeRequired", content | readingTimeISO) %}
+  {% endif %}
+
+  {# Добавляем цитаты, если они есть в Front Matter #}
+  {% if citations %}
+    {% set citationObjects = [] %}
+    {% for citation in citations %}
+      {% set citationObject = { "@type": citation.type | default("WebPage"), "name": citation.name, "url": citation.url } %}
+      {% set _ = citationObjects.push(citationObject) %}
+    {% endfor %}
+    {% set blogPosting = blogPosting | setAttribute("citation", citationObjects) %}
+  {% endif %}
+
+  {# Отправляем финальный, полностью собранный BlogPosting в граф #}
+  {% set _ = schemaParts.push(blogPosting) %}
+
+{% endif %}

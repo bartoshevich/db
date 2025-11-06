@@ -657,42 +657,66 @@ const applyTypography = value => {
 // === СИСТЕМА ФИЛЬТРОВ ДЛЯ ТЕКСТА ===
 
 // 1. Создаем чистую, независимую JS-функцию. Это наш "источник правды".
+
 const countWords = (text) => {
   if (!text || typeof text !== 'string') {
     return 0;
   }
-  return text.trim().split(/\s+/).filter(word => word.length > 0).length;
+
+  // ШАГ 1: Очищаем текст от HTML-тегов, заменяя их на пробелы.
+  const cleanText = text.replace(/<[^>]*>/g, ' ');
+
+  // ШАГ 2: Считаем слова в уже очищенном тексте.
+  // Используем улучшенную регулярку для поддержки разных языков и цифр.
+  const words = cleanText.match(/[\p{L}\p{N}]+/gu);
+  return words ? words.length : 0;
 };
 
-// 2. Фильтр 'wordcount' 
+// 2. НОВАЯ базовая функция для получения времени чтения В ЧИСЛЕ.
+// Она будет переиспользоваться обоими фильтрами.
+const getReadingTimeInMinutes = (text) => {
+  const words = countWords(text);
+  const wordsPerMinute = 190; 
+  if (words === 0) {
+    return 0;
+  }
+  return Math.ceil(words / wordsPerMinute);
+};
+
+// 3. Фильтр 'wordcount' 
 eleventyConfig.addFilter('wordcount', function (text) {
   return countWords(text);
 });
 
-// 3. Фильтр 'readingTime' 
+// 4. Фильтр 'readingTime' для ЧЕЛОВЕКА 
 eleventyConfig.addFilter('readingTime', function (text) {
-  const words = countWords(text); 
-  const wordsPerMinute = 190;
-  
-  if (words === 0) {
-    return 'меньше минуты';
+  const minutes = getReadingTimeInMinutes(text);
+
+  if (minutes === 0) {
+    return 'меньше минуты'; // Можно оставить так или вернуть "0 минут"
   }
 
-  const minutes = Math.ceil(words / wordsPerMinute);
-  
-  if (minutes === 1) {
-    return '1 мин.';
-  }
   // Используем Intl.PluralRules для правильных окончаний (мин., минуты, минут)
   const pluralRules = new Intl.PluralRules('ru-RU');
   const pluralCategory = pluralRules.select(minutes);
-  
+
   switch (pluralCategory) {
     case 'one': return `${minutes} минута`;
     case 'few': return `${minutes} минуты`;
     default: return `${minutes} минут`;
   }
 });
+
+
+// 5. НОВЫЙ фильтр 'readingTimeISO' для МАШИНЫ (JSON-LD)
+eleventyConfig.addFilter('readingTimeISO', function (text) {
+    const minutes = getReadingTimeInMinutes(text);
+    if (minutes === 0) {
+        return 'PT1M'; // Минимальное значение, если контент есть, но очень короткий
+    }
+    return `PT${minutes}M`;
+});
+
 // === КОНЕЦ БЛОКА ===
 // =================================================================
 
