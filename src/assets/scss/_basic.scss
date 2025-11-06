@@ -52,6 +52,11 @@ p {
 .secondary-color {
   color: v.$secondary-text-colour;
 }
+
+.text-gray {
+color: var(--color-text-caption-secondary)
+}
+
 .regular {
   font-weight: 400;
 }
