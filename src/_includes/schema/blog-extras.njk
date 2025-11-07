@@ -93,10 +93,12 @@
     "inLanguage": "ru",
     "datePublished": page.date | isoDate,
     "dateModified": last_modified_at | default(config.buildDate) | isoDate,
-    "isPartOf": { "@id": "https://bartoshevich.by/#website" }
+    "isPartOf": { "@id": "https://bartoshevich.by/#website" },
+    "mainEntity": { "@id": (page.url | absoluteUrl(site.url)) ~ "#post" }
   } %}
 
-  {# Обработка FAQ (если есть) #}
+ 
+    {# Обработка FAQ (если есть) #}
   {% if faq %}
     {% set faqItems = [] %}
     {% for item in faq %}
@@ -105,8 +107,13 @@
     {% endfor %}
     {% set faqPageSchema = { "@type": "FAQPage", "@id": (page.url | absoluteUrl(site.url)) ~ "#faq", "mainEntity": faqItems } %}
     {% set _ = schemaParts.push(faqPageSchema) %}
-    {% set webPage = webPage | setAttribute("mainEntity", { "@id": (page.url | absoluteUrl(site.url)) ~ "#faq" }) %}
+    
+    {% set blogPosting = blogPosting | setAttribute("hasPart", { "@id": (page.url | absoluteUrl(site.url)) ~ "#faq" }) %}
   {% endif %}
+
+
+
+
 
   {# Обработка постов с фильмами #}
   {% if mainEntitySource == "films" and films and films.items %}
