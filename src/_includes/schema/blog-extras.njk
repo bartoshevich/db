@@ -182,6 +182,7 @@
     "headline": (title.val or title) | decodeEntities | replace('"', '\\"'),
     "author": { "@id": "https://bartoshevich.by/about/#person" },
     "publisher": { "@id": "https://bartoshevich.by/#organization" },
+    "description": (description.val or description) | decodeEntities | replace('"', '\\"'),
     "image": site.url ~ imageUrl,
     "datePublished": page.date | isoDate,
     "dateModified": last_modified_at | default(config.buildDate) | isoDate,
