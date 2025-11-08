@@ -185,7 +185,7 @@ export default {
 
       owns: [
         {
-          "@id": "https://barsan.kz/#organization"
+          "@id": "https://barsan.kz#organization"
         }
       ],
       hasOccupation: [
@@ -358,6 +358,9 @@ export default {
         addressCountry: "KZ",
         addressRegion: "Astana"
       },
+        sameAs: [
+        "https://www.linkedin.com/company/barsanagency/"
+      ],
       areaServed: ["KZ", "BY"]
     }
   }

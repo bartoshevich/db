@@ -20,11 +20,13 @@
 {# 1. Подключаем Vite dev client для HMR в режиме разработки #}
 {{ viteDevClient() | safe }}
 
-{# 2. Подключаем основной entry point (main.js + CSS) #}
+{# 2. Preload-ссылки для продакшена (в dev ничего не выведет) #}
+{{ vitePreloadLinks(['assets/scripts/main.js']) | safe }}
+
+{# 3. Подключаем основной entry point (main.js + CSS) #}
 {{ viteAssetTags('assets/scripts/main.js') | safe }}
 
-{# 3. Preload-ссылки для продакшена (в dev ничего не выведет) #}
-{{ vitePreloadLinks(['assets/scripts/main.js']) | safe }}
+
 
 
   
