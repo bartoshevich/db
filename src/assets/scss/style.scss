@@ -16,6 +16,7 @@
 @use  "./uslugi";
 @use  "./random-button";
 @use  "./home";
+@use  "./example";
 @use  "./clients";
 @use  "./blockquote";
 @use  "./button";
@@ -32,8 +33,11 @@
 @use  "./relatedservice";
 @use  "./post";
 @use  "./films";
-@use  "./footer";
+
 @use  "./footer-smm";
 @use  "./sw-update";
 @use  "./checklist-pro";
 @use  "./dd";
+
+@use  "./footer";
+

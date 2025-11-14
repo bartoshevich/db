@@ -182,15 +182,8 @@ color: var(--color-text-caption-secondary)
   white-space: nowrap;
 }
 
-.example--card {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  padding: 5%;
-  //  background-color: v.$gray;
-  border: 4px solid v.$gray;
-  border-radius: 10px;
-}
+
+
 
 .extract {
   font-style: italic;
@@ -263,6 +256,7 @@ margin-bottom: -1.5em;
   padding-left: var(--space-xs);
   line-height: 1.4;
   color: var(--text-accent);
+  margin-block: 1.5em;
 }
 
 /* Flex */
