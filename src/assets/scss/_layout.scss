@@ -48,7 +48,13 @@
   grid-template-columns: 1fr;
   grid-row-gap: 16px;
   row-gap: 16px;
+
+  & p {
+    line-height: 1.65;
+  }
 }
+
+
 
 .full-bleed-row {
   display: -ms-grid;

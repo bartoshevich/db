@@ -171,6 +171,60 @@
 
 
 
+  {# [MENTIONS] Обработка упомянутых экспертов для усиления E-E-A-T #}
+{% if mentions and mentions | length > 0 %}
+  {# Готовим массив, который будет содержать ссылки (@id) на объекты Person #}
+  {% set mentionedPersonIds = [] %}
+
+  {# Перебираем каждого эксперта из front matter #}
+  {% for person in mentions %}
+    {# 1. Создаем уникальный @id для каждого Person. 
+          Используем slugify, если есть, или простой replace для надежности. #}
+    {% set personSlug = person.name | replace(" ", "-") | lower %}
+    {% set personId = (page.url | absoluteUrl(site.url)) ~ "#person-" ~ personSlug %}
+
+    {# 2. Собираем основной объект Person #}
+    {% set personSchema = {
+      "@type": "Person",
+      "@id": personId,
+      "name": person.name
+    } %}
+
+    {# 3. Обогащаем объект опциональными полями из front matter #}
+    {% if person.jobTitle %}
+      {% set personSchema = personSchema | setAttribute("jobTitle", person.jobTitle) %}
+    {% endif %}
+
+    {% if person.image %}
+      {# Превращаем относительный URL картинки в абсолютный #}
+      {% set personSchema = personSchema | setAttribute("image", person.image | absoluteUrl(site.url)) %}
+    {% endif %}
+
+    {% if person.affiliation %}
+      {% set personSchema = personSchema | setAttribute("worksFor", {
+        "@type": "Organization",
+        "name": person.affiliation
+      }) %}
+    {% endif %}
+
+    {% if person.profileUrl %}
+      {# sameAs - ключевое поле для E-E-A-T, связывающее с авторитетными профилями #}
+      {% set personSchema = personSchema | setAttribute("sameAs", [person.profileUrl]) %}
+    {% endif %}
+
+    {# 4. Добавляем готовый объект Person в общий граф #}
+    {% set _ = schemaParts.push(personSchema) %}
+
+    {# 5. Добавляем ссылку на этот объект в наш массив для связи #}
+    {% set _ = mentionedPersonIds.push({ "@id": personId }) %}
+  {% endfor %}
+
+  {# 6. Привязываем массив ссылок на экспертов к основной статье (BlogPosting) #}
+  {% if mentionedPersonIds | length > 0 %}
+    {% set blogPosting = blogPosting | setAttribute("mentions", mentionedPersonIds) %}
+  {% endif %}
+{% endif %}
+
 
 
   {# Обработка постов с фильмами #}
