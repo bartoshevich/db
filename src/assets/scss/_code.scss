@@ -2,7 +2,7 @@
 
 .language-terminal {
   position: relative;
-  margin-bottom: 1.5em;
+ margin-block: var(--rhythm-micro); 
   padding: 1em;
   border: 1px solid v.$terminal-border-color;
   border-radius: v.$terminal-border-radius;

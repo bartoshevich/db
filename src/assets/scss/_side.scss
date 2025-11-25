@@ -2,45 +2,48 @@
 
 .with-side {
   position: relative;
+   display: flex;          
+  flex-direction: column; 
+  gap: var(--space-m); 
 }
 
-.side li {
-  margin-left: var(--space-s);
-  padding: var(--space-3xs) 0 var(--space-2xs) 0;
-}
 
-.side > p + ul {
-  margin: 0;
-}
+
+
 
 .side img {
   max-width: 100%;
 }
 
 .side {
-  color: v.$text-colour;
+  display: flex;               
+  flex-direction: column;      
+  gap: var(--space-xs); 
+  color: var(--secondary-text-colour);
   position: relative;
   left: 9%;
   width: 91%;
   padding: 0;
 }
 
+
+
 .side > * {
   font-size: var(--step--1);
-  line-height: 1.5;
+  line-height: 1.69;
 }
 
 .span__side {
   font-size: 0.8em;
-  line-height: 1.36em;
+  line-height: 1.76;
   margin-bottom: 0;
 }
 
 @media screen and (min-width: 1430px) {
   .side {
-    margin-top: 0.4em;
-    line-height: 1.4em;
-    color: inherit;
+     margin-block-start: 8px; 
+   line-height: 1.69;
+     color: var(--secondary-text-colour);
     position: absolute;
     top: 0;
     left: 112%;

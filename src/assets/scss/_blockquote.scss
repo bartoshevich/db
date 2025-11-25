@@ -3,44 +3,84 @@
 .blockquote--emphasis {
   position: relative;
   display: block;
+  padding-left: var(--space-l); 
 }
 
 .blockquote--emphasis:not(:last-child) {
-  margin-bottom: 2.55em;
+   margin-bottom: var(--space-xl); 
 }
 
 .blockquote--emphasis::before {
   content: "\201E";
   display: inline-block;
   position: absolute;
-  color: v.$text-colour;
-  left: -0.5em;
-  top: -0.85em;
-  font-size: 5em;
+  color: var(--decoration-subtle);
+  left: -0.1em;
+  top: -0.65em;
+  font-size: var(--step-5);
   line-height: 1;
+ 
 }
 
 @media (min-width: 1069px) {
   .blockquote--emphasis::before {
-    left: -0.7em;
-    top: -0.85em;
+    left: -0.1em;
+    top: -0.8em;
   }
 }
 
 .citation {
-  margin-top: 1em;
+  margin-top: var(--space-s);
+}
+
+.citation p {
+  margin-top: 0;
+  font-size: var(--step-0);
+  line-height: 1.5;
 }
 
 .citation__author {
-  margin-top: var(--space-xs);
+  margin-top: var(--space-s);
   color: var(--secondary-text-colour);
+  font-size: var(--step--1);
+
+
+    & .link {
+        color: var(--secondary-text-colour);       
+    }
+     & .link:visited {
+        color: var(--secondary-text-colour);       
+    }
 }
 
 .citation__author::before {
   content: "— "; 
-  color: var(--secondary-text-colour);
+  color: var(--decoration-subtle);
 }
 
 cite {
   font-style: normal;
+}
+
+
+
+.pull-quote {
+  border-left: 3px solid var(--decoration-subtle);
+  border-radius: 8px;
+  padding-left: var(--space-m);
+  padding-block: var(--space-s);
+  margin-block: var(--space-m);
+  font-size: 1.1em;
+  font-style: italic;
+  color: v.$text-colour;
+
+ 
+  p {
+    margin: 0;
+  }
+  
+
+  p + p {
+    margin-top: var(--space-s);
+  }
 }

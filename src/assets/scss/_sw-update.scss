@@ -1,35 +1,7 @@
 // src/assets/scss/_sw-update.scss
 // Стили для уведомлений о Service Worker обновлениях
 
-// =================================================================
-// CSS ПЕРЕМЕННЫЕ ДЛЯ ТЕМИЗАЦИИ
-// =================================================================
 
-:root {
-  // Светлая тема
-  --sw-background: #ffffff;
-  --sw-border: #e5e7eb;
-  --sw-text: #1f2937;
-  --sw-text-muted: #6b7280;
-  --sw-accent: #2563eb;
-  --sw-accent-hover: #1d4ed8;
-  --sw-background-hover: #f9fafb;
-  --sw-border-hover: #d1d5db;
-  --sw-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06), 0 20px 25px -5px rgba(0, 0, 0, 0.1);
-}
-
-[data-theme="dark"] {
-  // Тёмная тема
-  --sw-background: #1f2937;
-  --sw-border: #374151;
-  --sw-text: #f9fafb;
-  --sw-text-muted: #9ca3af;
-  --sw-accent: #3b82f6;
-  --sw-accent-hover: #2563eb;
-  --sw-background-hover: #374151;
-  --sw-border-hover: #4b5563;
-  --sw-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.3), 0 2px 4px -1px rgba(0, 0, 0, 0.2), 0 20px 25px -5px rgba(0, 0, 0, 0.4);
-}
 
 // =================================================================
 // OVERLAY (ОСНОВНОЙ КОНТЕЙНЕР)
@@ -37,16 +9,16 @@
 
 .sw-update-overlay {
   position: fixed;
-  top: 1rem;
-  right: 1rem;
+  top: var(--space-s);
+  right: var(--space-s);
   z-index: 9999;
   min-width: 300px;
   max-width: 400px;
-  padding: 1.25rem;
-  background: var(--sw-background);
-  border: 1px solid var(--sw-border);
-  border-radius: 8px;
-  box-shadow: var(--sw-shadow);
+  padding: var(--space-m);
+  background: var(--sw-notification-bg);
+  border: 1px solid var(--sw-notification-border);
+  border-radius: 12px; 
+  box-shadow: var(--sw-notification-shadow);
   opacity: 0;
   transform: translateX(100%) scale(0.95);
   pointer-events: none;
@@ -60,9 +32,9 @@
   
   @media (max-width: 480px) {
     top: auto;
-    bottom: 1rem;
-    left: 1rem;
-    right: 1rem;
+     bottom: var(--space-s);
+    left: var(--space-s);
+    right: var(--space-s);
     min-width: auto;
     max-width: none;
     
@@ -76,12 +48,12 @@
   }
   
   @media (max-width: 320px) {
-    padding: 1rem;
+    padding: var(--space-s);
   }
 }
 
 .sw-update-message {
-  margin-bottom: 1rem;
+   margin-bottom: var(--space-s);
   font-size: 0.9rem;
   line-height: 1.5;
   color: var(--sw-text);
@@ -90,13 +62,13 @@
 
 .sw-update-actions {
   display: flex;
-  gap: 0.75rem;
+   gap: var(--space-xs);
   align-items: center;
   justify-content: flex-end;
   
   @media (max-width: 360px) {
     flex-direction: column;
-    gap: 0.5rem;
+    gap: var(--space-2xs);
     
     .sw-update-btn {
       width: 100%;
@@ -109,15 +81,15 @@
   background: none;
   font-family: inherit;
   cursor: pointer;
-  padding: 0.5rem 1rem;
+ padding: var(--space-2xs) var(--space-s);
   font-size: 0.875rem;
   font-weight: 500;
   line-height: 1.4;
-  border-radius: 6px;
+  border-radius: 8px;
   transition: all 0.2s ease-in-out;
   
   &:focus {
-    outline: 2px solid var(--sw-accent);
+    outline: 2px solid var(--link);
     outline-offset: 2px;
   }
   
@@ -132,12 +104,12 @@
 }
 
 .sw-update-btn-primary {
-  background: var(--sw-accent);
-  color: var(--sw-background);
-  border: 1px solid var(--sw-accent);
+   background: var(--sw-btn-primary-bg);
+   color: var(--sw-btn-primary-text);
+   border: 1px solid transparent;
   
   &:hover:not(:disabled) {
-    background: var(--sw-accent-hover);
+    background: var(--sw-btn-primary-hover-bg);
     transform: translateY(-1px);
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
@@ -145,13 +117,13 @@
 
 .sw-update-btn-secondary {
   background: transparent;
-  color: var(--sw-text-muted);
-  border: 1px solid var(--sw-border);
+ color: var(--sw-notification-text-secondary);
+ border: 1px solid var(--sw-btn-border);
   
   &:hover:not(:disabled) {
-    background: var(--sw-background-hover);
-    color: var(--sw-text);
-    border-color: var(--sw-border-hover);
+    background: var(--sw-btn-hover-bg);
+    color: var(--sw-notification-text-primary);
+    border-color: var(--sw-btn-border);
     transform: translateY(-1px);
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
   }

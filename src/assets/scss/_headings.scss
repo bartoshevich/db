@@ -1,0 +1,72 @@
+@use './variables' as v;
+
+/* Обнуляем margin, так как за ритм отвечает _rhythm.scss */
+.heading--alpha,
+.heading--beta,
+.heading--gamma,
+.heading--delta,
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  font-weight: 700;
+  color: v.$text-colour;
+}
+
+/* H1 - Главный заголовок (Step 3: 29.38px) */
+.heading--alpha {
+  font-size: var(--step-3);
+  /* 
+     Target: 40px grid
+     Math: 29.38px * 1.3615 = 40.00px 
+  */
+  line-height: 1.3615;
+  letter-spacing: -0.02em;
+}
+
+/* H2 - Заголовок секции (Step 2: 24.48px) */
+.heading--beta {
+  font-size: var(--step-2);
+  /* 
+     Target: 32px grid
+     Math: 24.48px * 1.3072 = 32.00px 
+  */
+  line-height: 1.3072; 
+  letter-spacing: -0.015em;
+}
+
+/* H3 - Подзаголовок (Step 1: 20.4px) */
+.heading--gamma {
+  font-size: var(--step-1);
+  /* 
+     Target: 32px grid (для воздуха) или 24px (слишком плотно)
+     Math: 20.4px * 1.5686 = 32.00px 
+  */
+  line-height: 1.5686;
+}
+
+/* H4 - Заголовок подпункта (Step 0: 17px) */
+.heading--delta {
+  font-size: var(--step-0);
+  font-weight: 600;
+  /* 
+     Target: 24px grid
+     Math: 17px * 1.4118 = 24.00px
+  */
+  line-height: 1.4118;
+}
+
+
+
+/* Заголовки вне основного потока */
+.section__title {
+  margin-block-start: var(--rhythm-section);
+  margin-block-end: var(--space-s);
+}
+
+.section__title:first-child {
+  margin-block-start: 0;
+}
+
+.subsection__title {
+  margin-block-start: var(--space-l);
+  margin-block-end: var(--space-xs);
+}

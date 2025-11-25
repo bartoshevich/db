@@ -1,23 +1,19 @@
-
-
-
 .example--card {
   display: flex;
   flex-direction: column;
   background-color: var(--color-toc-ui-element-background);
-  border-radius: 16px; 
+  border-radius: var(--radius-xl); 
   padding: var(--space-l-xl); 
   margin-block: var(--space-m);
   box-shadow: var(--toc-shadow); 
   border: 1px solid var(--card-border); 
   transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  max-width: 65ch;
 
   &:hover {
- box-shadow: var(--toc-shadow-hover);
- 
+    box-shadow: var(--toc-shadow-hover);
   }
 }
-
 
 /* Card Header */
 .card-header {
@@ -33,7 +29,7 @@
   color: var(--background-color);
   background-color: var(--text-colour);
   padding: 6px 14px;
-  border-radius: 9999px;
+  border-radius: var(--radius-round);
   margin-bottom: var(--space-s);
 }
 
@@ -54,9 +50,13 @@
 /* Context Block */
 .context-block {
   background-color: var(--color-background);
-  border-radius: var(--radius-md);
+  border-radius: var(--radius-m);
   padding-top: var(--space-m);
   margin-bottom: var(--space-m);
+
+  & > * {
+    font-size: var(--step--1);
+  }
 }
 
 .context-label {
@@ -69,9 +69,9 @@
 }
 
 .context-text {
-  font-size: 15px;
+  font-size: var(--step--1);
   font-weight: 400;
-  line-height: var(--line-height-relaxed);
+  line-height: 1.6 !important;
   color: var(--color-text-secondary);
 }
 
@@ -92,7 +92,7 @@
 .letter-content {
   background-color: var(--color-background);
   border-left: 3px solid var(--gray);
-  border-radius: 8px;
+  border-radius: var(--radius-m);
   padding: var(--space-m);
   display: flex;
   flex-direction: column;
@@ -102,7 +102,7 @@
 .letter-paragraph {
   font-size: 16px;
   font-weight: 400;
-  line-height: var(--line-height-relaxed);
+  line-height: 1.6;
   color: var(--color-text-primary);
   font-style: normal;
 }

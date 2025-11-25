@@ -1,6 +1,58 @@
-// Стили для FAQ
-.faq {
-    max-width: var(--content-width);
-    margin: 0 auto;
-    padding: 0 var(--space-m);
-} 
+.faq-list {
+  margin: 0;
+  margin-block-start: var(--space-l);
+  display: flex;
+  flex-direction: column;
+  gap: 0; /* Разделители через border */
+}
+
+/* ВОПРОС */
+.faq-list__question {
+  margin: 0;
+  padding-block-start: var(--space-l);
+  border-top: 1px solid var(--gray);
+  font-weight: 700;
+  color: var(--text-colour);
+}
+
+.faq-list__question:first-child {
+  border-top: none;
+  padding-block-start: 0;
+}
+
+/* ОТВЕТ */
+.faq-list__answer {
+  margin: 0;
+  padding-block: var(--space-s) var(--space-l);
+  
+
+  
+  /* Ритм внутри ответа */
+  display: flex;
+  flex-direction: column;
+  gap: var(--rhythm-micro);
+}
+
+/* Элементы внутри ответа */
+.faq-list__answer p,
+.faq-list__answer ul {
+  margin: 0;
+  max-width: 65ch; 
+}
+
+.faq-list__answer ul {
+  display: flex;
+  flex-direction: column;
+  
+  list-style: disc;
+}
+
+@media (max-width: 767px) {
+  .faq-list__question {
+    padding-block-start: var(--space-m);
+  }
+  .faq-list__answer {
+    padding-block-end: var(--space-m);
+  }
+}
+

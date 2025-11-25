@@ -1,0 +1,93 @@
+@use "./variables" as v;
+
+.education-list {
+    grid-column: 1 / -1 !important;
+    width: 100%;
+    
+ 
+    display: grid; 
+    grid-template-columns: 1fr; 
+    gap: 0; 
+
+
+}
+
+.education-item {
+    width: 100%;
+     grid-column: 1 / -1;
+    margin-bottom: 0;
+}
+
+.education-item h3 {
+    margin-bottom: var(--space-xs);
+}
+
+.education-item__meta {
+    margin-bottom: var(--space-2xs);
+}
+
+
+
+
+
+/* Сетка работ */
+.work__list {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--space-xl);
+  margin-top: var(--space-m);
+  
+  @media (min-width: 800px) {
+    grid-template-columns: 1fr 1fr;
+    column-gap: var(--space-xl);
+    row-gap: var(--space-xl);  
+  }
+}
+
+.work-item {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+}
+
+/* --- FIX ЛОГОТИПОВ --- */
+.work-logo-wrapper {
+
+   height: 96px; 
+  display: flex;
+  align-items: center; 
+  justify-content: flex-start; 
+  margin-bottom: var(--space-s); 
+}
+
+.work-logo {
+  max-height: 88px;
+  width: auto; 
+  max-width: 180px; /* На всякий случай, чтобы длинные не улетели */
+  
+  object-fit: contain;
+  object-position: left;
+}
+
+/* Типографика */
+.work-item h3 {
+  margin-bottom: var(--space-2xs); /* ~4px */
+  line-height: 1.17647;
+  min-height: 2.6em; 
+}
+
+.work-item .small {
+  margin-bottom: var(--space-xs);
+  display: block;
+  font-size: var(--step--1);
+  color: v.$secondary-text-colour;
+}
+
+.work-item p {
+  margin-top: 0;
+  font-size: var(--step-0);
+  line-height: 1.41176; 
+  color: v.$text-colour;
+}
+

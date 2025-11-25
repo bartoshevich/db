@@ -8,8 +8,7 @@
 }
 
 .video-margin {
-  margin-top: 20px;
-  margin-bottom: 2em;
+  margin-block: var(--space-m) var(--space-l);
 }
 
 .video iframe,
@@ -77,8 +76,6 @@ iframe {
   fill: #fe0034;
   fill-opacity: 1;
 }
-
-/* Enabled */
 
 .video--enabled {
   cursor: pointer;

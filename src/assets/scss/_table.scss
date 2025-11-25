@@ -5,12 +5,12 @@ table {
   width: 100%;
   border-collapse: collapse;
   font-size: 0.9em;
-  margin: 1.6em 0;
+  margin: var(--space-l) 0; /* 24px */
   text-align: left;
 }
 
 caption {
-  padding: 0 0 1em 0;
+  padding: 0 0 var(--space-s) 0;
   font-size: var(--step-0);
   color: var(--text-colour);
   font-weight: 600;
@@ -22,9 +22,9 @@ td,
 th {
   border: none;
   border-bottom: 1px solid var(--gray);
-  padding: 1em;
+  padding: var(--space-s); /* 16px */
   vertical-align: top;
-  line-height: 1.42;
+  line-height: 1.4118;
 }
 
 thead th,
@@ -45,7 +45,7 @@ tfoot tr:last-child td {
 .sticky {
   position: -webkit-sticky;
   position: sticky;
-  top: -4px;
+  top: 0;
   z-index: 1;
 }
 
@@ -59,17 +59,9 @@ thead th::after {
   background-color: transparent;
 }
 
-.width43 {
-  width: 43%;
-}
-
-.width50 {
-  width: 50%;
-}
-
-.Gainsboro {
-  background-color: var(--table-bg-th);
-}
+.width43 { width: 43%; }
+.width50 { width: 50%; }
+.Gainsboro { background-color: var(--table-bg-th); }
 
 td > ul,
 td > li {
@@ -77,10 +69,8 @@ td > li {
 }
 
 td > p:not(:first-child) {
-  margin-bottom: calc(var(--space-s-m) / 2);
-  margin-top: calc(var(--space-s-m) / 2);
+  margin-bottom: var(--space-xs);
+  margin-top: var(--space-xs);
 }
 
-.text-right {
-  text-align: right;
-}
+.text-right { text-align: right; }

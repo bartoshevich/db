@@ -1,0 +1,92 @@
+@use "./variables" as v;
+
+/* Контейнер списка */
+.blog-list {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Заголовок года (Разделитель) */
+.blog-year-divider {
+    /* Используем наш space-chapter для большого отступа перед годом */
+    margin-top: var(--space-2xl); 
+    margin-bottom: var(--space-m);
+    padding-bottom: var(--space-xs);
+    border-bottom: 2px solid v.$text-colour; /* Жирная линия для года */
+    
+    /* Если это самый первый год, убираем отступ сверху */
+    &:first-child {
+        margin-top: 0;
+    }
+}
+
+/* Карточка статьи */
+.blog-item {
+    position: relative;
+    border-bottom: 1px solid var(--gray); /* Тонкая линия между статьями */
+    transition: background-color 0.2s ease;
+
+    &:hover {
+        background-color: rgba(0, 0, 0, 0.02); /* Еле заметный фон при наведении */
+    }
+    
+    /* Темная тема для ховера */
+    :global([data-theme="dark"]) &:hover {
+        background-color: rgba(255, 255, 255, 0.03);
+    }
+}
+
+.blog-item:last-child {
+    border-bottom: none;
+}
+
+/* Ссылка-обертка (растянута на весь блок) */
+.blog-item__link {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: var(--space-s);
+    padding: var(--space-l) 0; /* Вертикальные отступы внутри ячейки */
+    text-decoration: none;
+    color: v.$text-colour;
+    
+    /* На десктопе — 2 колонки (30% / 70%) */
+    @media (min-width: 768px) {
+        grid-template-columns: 4fr 6fr; /* Заголовок уже, описание шире */
+        gap: var(--space-xl);
+        align-items: baseline;
+    }
+}
+
+/* Левая колонка: Заголовок + Дата */
+.blog-item__header {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-2xs);
+}
+
+.blog-item__title {
+    font-size: var(--step-1);
+    font-weight: 600;
+    line-height: 1.3;
+    margin: 0;
+    transition: color 0.2s ease;
+}
+
+.blog-item__link:hover .blog-item__title {
+    color: var(--text-accent); 
+}
+
+.blog-item__date {
+    font-size: var(--step--1);
+    color: v.$secondary-text-colour;
+    font-feature-settings: "tnum"; /* Моноширинные цифры для красоты */
+}
+
+/* Правая колонка: Описание */
+.blog-item__content p {
+    margin: 0;
+    font-size: var(--step-0);
+    line-height: 1.5;
+    color: v.$secondary-text-colour;
+    max-width: 60ch; /* Ограничиваем длину строки для чтения */
+}

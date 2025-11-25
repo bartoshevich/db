@@ -22,7 +22,7 @@
   background-color: var(--color-toc-ui-element-background); 
   border-radius: 12px;
   padding: var(--space-xl); 
-  margin: var(--space-2xl) 0 var(--space-l) 0;
+  margin: 0 0 var(--space-l) 0;
 
   .button-link {   
     width: fit-content;
@@ -79,16 +79,16 @@
 
   // Юридическая информация (политика)
   &__legal {
-     display: block; // Делаем блоком для центрирования
+     display: block; 
      max-width: 30ch;
-    text-align: left; // Выравнивание по левому краю
+    text-align: left; 
     font-size: var(--step--1);
     margin-top: var(--space-l); 
     text-decoration: none;
     color: var(--text-colour);
 
     &:hover {
-      text-decoration: none; // Подчеркивание при наведении
+      text-decoration: none; 
       color: var(--secondary-text-colour);
       
     }
@@ -97,6 +97,6 @@
 
 // Дополнительный стиль для текста на кнопке
 .subscription-block .button-link {
-  font-weight: 500; // Делаем текст на кнопке увереннее
-  width: fit-content; // Ширина кнопки по содержимому
+  font-weight: 500; 
+  width: fit-content; 
 }

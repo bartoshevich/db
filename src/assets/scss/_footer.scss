@@ -1,52 +1,40 @@
 @use "./variables" as v;
 
-:root {
-
-    --spacing-xs: 10px;
-    --spacing-sm: 16px;
-    --spacing-md: 24px;
-    --spacing-lg: 32px;
-    --spacing-xl: 48px;
-    --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-}
-
 
 
 
 .footer {
-    margin-top: var(--space-6xl);
-    border-top: 1.5px solid var(--secondary-text-colour);
-    padding-top: auto;
+    margin-block-start: var(--rhythm-section);
+    padding-top: 0;
 }
 
 .footer__container {
-    // max-width: 1200px;
     margin: 0 auto;
-    padding: var(--spacing-xl) 0 var(--spacing-md) 0;
+    padding: var(--space-xl) 0 var(--space-l) 0;
+    max-width: 1040px;
+    border-top: 1px solid var(--gray);
 }
 
 
 /* vCard секция */
 .vcard {
     text-align: center;
-    margin-bottom: var(--spacing-xl);
-    padding-bottom: var(--spacing-lg);
-    border-bottom: 1px solid var(--gray);
+    margin-bottom: var(--space-2xl);
+    margin-inline: auto;
 }
 
 .fn {
-    font-size: 22px;
-    font-weight: 600;
+    font-size: var(--step-1);
+    font-weight: 700;
     letter-spacing: -0.5px;
-    margin-bottom: var(--spacing-xs);
-    color: var(--color-primary);
+    margin-bottom: var(--space-2xs);
+    color: var(--text-colour);
 }
 
 .role {
-    font-size: 17px;
-    font-weight: 400;
-    color: var(--color-secondary);
-    margin-bottom: var(--spacing-sm);
+    font-size: var(--step-0);
+    color: var(--secondary-text-colour);
+    margin-bottom: var(--space-m);
     line-height: 1.4;
 }
 
@@ -54,101 +42,135 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: var(--spacing-xs);
-    font-size: 17px;
-    color: var(--color-tertiary);
-    margin-top: var(--spacing-md);
+    gap: 0.5em;
+    font-size: var(--step--1);
+    /* ~14px */
+    color: var(--secondary-text-colour);
+    margin: 0;
 }
 
 .credential {
-    color: var(--secondary-text-colour);
-    position: relative;
-    padding: 0 var(--spacing-sm);
-    white-space: nowrap;
+    display: inline-flex;
+    align-items: center;
+
+      & .link:visited {
+        color: var(--secondary-text-colour);       
+    }
 }
 
 .credential:not(:last-child)::after {
     content: "•";
-    position: absolute;
-    right: -10px;
-    top: 2px;
-    color: var(--secondary-text-colour);
+    margin-left: 0.5em;
+    color: var(--decoration-subtle);
 }
 
+
+.credentials .role {
+    all: unset;
+    font-size: inherit;
+    font-weight: inherit;
+    color: inherit;
+    white-space: nowrap;
+}
+
+
 .org {
-    color: var(--color-secondary);
+    color: var(--secondary-text-colour);
     font-weight: 500;
 
     & .link {
-        color: var(--color-secondary);
+        color: var(--secondary-text-colour);
     }
+     
 }
 
 /* Навигация */
 .footer__nav {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: var(--spacing-xl);
-    margin-bottom: var(--spacing-xl);
-    padding-bottom: var(--spacing-xl);
+    grid-template-columns: repeat(4, 1fr);
+    gap: var(--space-l);
+    /* 32px между колонками */
+    padding-bottom: var(--space-xl);
     border-bottom: 1px solid var(--gray);
 }
 
 .footer__nav-section h3 {
-    font-size: 13px;
+    font-size: var(--step--1);
     font-weight: 600;
     text-transform: uppercase;
     letter-spacing: 0.5px;
-    color: var(--color-secondary);
-    margin-bottom: var(--spacing-sm);
+    color: var(--secondary-text-colour);
+    margin-bottom: var(--space-xs);
 }
 
+.item__content,
 .footer__nav-list {
     list-style: none;
-
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-2xs);
 }
 
 .footer__nav-item {
-    margin-bottom: var(--spacing-xs);
-    font-size: 15px;
-    color: var(--color-tertiary);
+    margin: 0;
+    font-size: var(--step--1);
+    color: v.$link-hover;
+    line-height: 1.4;
+    border: none;
+  
 
-    &:hover {
-        color: var(--text-colour);
-    }
+
 
     & .link {
-        color: var(--color-tertiary);
+        color: var(--secondary-text-colour);
+        text-decoration: none;
+        box-shadow: none;
+        transition: color 0.1s ease;
     }
 
     & .link:hover {
-        color: var(--text-colour);
+       color: v.$link-hover;
+       box-shadow: inset 0 -1px var(--link-underline-color);
+       
     }
+  
 
 }
 
 
 
-/* Контакты с микроформатами */
+
+
+/* Контакты */
 .contact-info address {
     font-style: normal;
 }
 
-
+/* Используем тот же ритм (gap), что и в списках ссылок */
+.contact-info .flex-column {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-2xs);
+}
 
 
 /* Нижняя панель */
 .footer__legal {
     display: flex;
-    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: start;
     justify-content: space-between;
-    font-size: 14px;
-    color: var(--color-tertiary);
+    gap: var(--space-m);
+    font-size: var(--step--1);
+    color: var(--secondary-text-colour);
+    margin-top: var(--space-m);
 }
 
 .copyright {
     display: flex;
-    gap: var(--spacing-sm);
+    gap: var(--space-m);
     align-items: center;
 
 
@@ -159,14 +181,23 @@
     &__item:not(:last-child)::after {
         content: "•";
         position: absolute;
-        right: -10px;
-        top: 4px;
+        right: calc(-1 * var(--space-xs) + 2px);
+        top: .4em;
         color: var(--secondary-text-colour);
         font-size: 10px;
     }
 
     &__item .link {
-        color: var(--color-tertiary);
+        color: var(--secondary-text-colour);
+    
+         box-shadow: inset 0 -1px var(--link-underline-color);
+     
+    }
+
+    &__item .link:hover {
+        color: var(--text-colour);
+        color: v.$link-hover;
+        box-shadow: inset 0 -2px 0 0 v.$link;
     }
 }
 
@@ -175,20 +206,21 @@
 /* Адаптивность с сохранением семантики */
 @media (max-width: 768px) {
     .footer__container {
-        padding: var(--spacing-lg) var(--spacing-sm);
+        padding: var(--space-l) var(--space-s);
     }
 
     .fn {
-        font-size: 20px;
+        font-size: var(--step-0);
     }
 
     .role {
-        font-size: 16px;
+        font-size: var(--step--1);
     }
 
     .credentials {
         flex-direction: column;
-        gap: 4px;
+        gap: var(--space-3xs);
+        align-items: center;
     }
 
     .credential::after {
@@ -197,13 +229,21 @@
 
     .footer__nav {
         grid-template-columns: 1fr;
-        gap: var(--spacing-lg);
+        gap: var(--space-m);
     }
 
+    .footer__nav-section {
+        display: flex;
+        flex-direction: column;
+        gap: var(--space-s);
+
+    }
 
     .footer__legal {
         flex-direction: column;
-        gap: var(--spacing-sm);
+        gap: var(--space-s);
+        margin-top: var(--space-m);
+        padding-top: var(--space-m);
     }
 
 

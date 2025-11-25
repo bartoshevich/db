@@ -1,120 +1,105 @@
 @use './variables' as v;
 
 .button-container {
-  margin-top: var(--space-l);
-  margin-bottom: var(--space-xl);
+  margin-block: var(--space-l);
   text-align: left;
 
   @media (max-width: 640px) {
     text-align: center;
-    margin-top: var(--space-m);
-    margin-bottom: var(--space-l);
+    margin-block: var(--space-m);
   }
 }
 
+  :where(.row-gap--m, .row-gap--l, .row-gap--lm) > .button-container {
+   margin-top: 0;
+}
+
+/* Общий базовый стиль */
+.button-primary,
+.button-secondary,
 .button-link {
-  background-color: transparent;
-  color: var(--text-colour);
-  border: 2px solid var(--text-colour);
-  display: inline-block;
-  border-radius: 8px;
-  padding: 10px 20px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  
+  font-family: v.$family-sans-serif;
   font-size: var(--step-0);
+  font-weight: 500; /* Medium для читаемости на сером */
+  line-height: 1.2;
   text-decoration: none;
+  
+  padding: var(--space-xs) var(--space-m);
+  border-radius: var(--radius-m);
+  border: 1px solid transparent;
+  
   cursor: pointer;
-  box-shadow: var(--toc-shadow);
-  transition:
+  
+  /* Анимация: цвет, трансформация и тень */
+  transition: 
     background-color 0.2s ease,
     color 0.2s ease,
     border-color 0.2s ease,
-    transform 0.2s ease,
-    box-shadow 0.2s ease;
-
-  &:hover {
-    [data-theme='light'] {
-      background-color: var(--background-light);
-      box-shadow: var(--toc-shadow-hover);
-    }
-
-    [data-theme='dark'] {
-      background-color: var(--background-dark);
-      box-shadow: var(--toc-shadow-hover);
-    }
-
-    border-color: var(--link);
-    outline: 2px solid var(--link);
-    outline-offset: -1px;
-
-    /* Убедимся, что фон остается прозрачным */
-    color: var(--text-colour);
-    text-decoration: none;
-  }
-
-  &:active {
-    transform: translateY(2px);
-  }
-
-  &:focus-visible {
-    outline: 2px solid v.$link;
-    outline-offset: 2px;
-    box-shadow: none;
-    text-decoration: none;
-  }
-
-  @media (max-width: 640px) {
-    display: block;
-    width: 100%;
-    box-sizing: border-box;
-  }
+    transform 0.3s cubic-bezier(0.25, 0.8, 0.25, 1),
+    box-shadow 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+    
+  /* Сглаживание для анимации */
+  -webkit-font-smoothing: subpixel-antialiased;
+  backface-visibility: hidden;
+  transform: translateZ(0); 
+  
+  /* Сброс дефолтной тени */
+  box-shadow: none;
 }
 
-.button-primary,
-.button-secondary {
-  display: inline-block;
-  border: none;
-  border-radius: 8px;
-  padding: 12px 24px;
-  font-weight: 500;
-  font-size: var(--step-0);
-  text-decoration: none;
-  cursor: pointer;
-  transition:
-    transform 0.15s ease,
-    background-color 0.2s ease;
-  text-align: center;
-  box-shadow: var(--toc-shadow);
-
-  &:hover {
-    transform: scale(1.03);
-    box-shadow: var(--toc-shadow-hover);
-  }
-
-  &:active {
-    transform: scale(0.9);
-    opacity: 0.6;
-    cursor: wait;
-    background-color: v.$link-opacity-05;
-  }
-
-  &:focus-visible {
-    outline: 2px solid v.$link;
-    outline-offset: 2px;
-    box-shadow: none;
-    text-decoration: none;
-  }
-}
-
+/* --- ВАРИАНТ 1: Основная кнопка --- */
 .button-primary {
-  background-color: var(--color-button-primary-bg);
-  color: var(--color-button-primary-text);
+  background-color: var(--btn-primary-bg);
+  color: var(--btn-primary-text);
+  /* Статичная тень из токена */
+ 
+  
+  &:hover {
+    background-color: var(--btn-primary-hover);
+    transform: scale(1.02);
+    /* Тень "полета" из токена */
+    
+  }
+
+  &:active {
+    background-color: var(--btn-primary-active);
+    transform: scale(0.98);
+    /* Тень "нажатия" из токена */
+   
+  }
+
+  &:focus-visible {
+    outline: 2px solid v.$link;
+    outline-offset: 2px;
+  }
 }
 
+/* --- ВАРИАНТ 2: Второстепенная кнопка --- */
 .button-secondary {
   background-color: transparent;
-  border: 2px solid var(--color-button-secondary-border);
-  color: var(--color-button-secondary-text);
-}
-.button-secondary:hover {
-  background-color: var(--color-button-secondary-bg);
-   border: 2px solid transparent;
+  border-color: var(--btn-secondary-border);
+  color: var(--btn-secondary-text);
+  
+  &:hover {
+    border-color: transparent;
+    background-color: var(--btn-primary-bg);
+    transform: scale(1.02);
+    /* Своя тень для контурной кнопки */
+    
+  }
+
+  &:active {
+    opacity: 0.6;
+    transform: scale(0.98);
+    box-shadow: none;
+  }
+  
+  &:focus-visible {
+    outline: 2px solid v.$link;
+    outline-offset: 2px;
+  }
 }

@@ -122,18 +122,57 @@
     {% set blogPosting = blogPosting | setAttribute("timeRequired", content | readingTimeISO) %}
   {% endif %}
 
-  {% if citations %}
-    {% set citationObjects = [] %}
-    {% for citation in citations %}
-      {% set citationObject = {
-        "@type": citation.type | default("WebPage"),
-        "name": citation.name,
-        "url": citation.url
-      } %}
-      {% set _ = citationObjects.push(citationObject) %}
-    {% endfor %}
+ {# [CITATIONS] Обработка цитируемых источников (книг, видео, статей) #}
+{% if citations and citations | length > 0 %}
+  {# Готовим массив, который будет содержать полные объекты цитат #}
+  {% set citationObjects = [] %}
+
+  {# Перебираем каждую цитату из front matter #}
+  {% for citation in citations %}
+    {# 1. Собираем базовый объект цитаты, обязательные поля #}
+    {% set citationObject = {
+      "@type": citation.type,
+      "name": citation.name,
+      "url": citation.url
+    } %}
+
+    {# 2. Обогащаем объект авторами (может быть несколько) #}
+    {% if citation.author and citation.author | length > 0 %}
+      {% set authorArray = [] %}
+      {% for auth in citation.author %}
+        {% set _ = authorArray.push({
+          "@type": "Person",
+          "name": auth.name
+        }) %}
+      {% endfor %}
+      {% set citationObject = citationObject | setAttribute("author", authorArray) %}
+    {% endif %}
+
+    {# 3. Обогащаем объект издателем (если есть) #}
+    {% if citation.publisher %}
+      {% set citationObject = citationObject | setAttribute("publisher", {
+        "@type": "Organization",
+        "name": citation.publisher.name
+      }) %}
+    {% endif %}
+
+    {# 4. Добавляем специфичные поля для разных типов #}
+    {% if citation.type == "VideoObject" and citation.uploadDate %}
+      {% set citationObject = citationObject | setAttribute("uploadDate", citation.uploadDate) %}
+    {% endif %}
+    
+    {# Здесь можно будет добавить другие типы, например, Article с полем datePublished #}
+    {# {% if citation.type == "Article" and citation.datePublished %} ... {% endif %} #}
+
+    {# 5. Добавляем готовый объект цитаты в наш массив #}
+    {% set _ = citationObjects.push(citationObject) %}
+  {% endfor %}
+
+  {# 6. Привязываем массив цитат к основной статье (BlogPosting) #}
+  {% if citationObjects | length > 0 %}
     {% set blogPosting = blogPosting | setAttribute("citation", citationObjects) %}
   {% endif %}
+{% endif %}
 
 
 
@@ -224,6 +263,77 @@
     {% set blogPosting = blogPosting | setAttribute("mentions", mentionedPersonIds) %}
   {% endif %}
 {% endif %}
+
+
+
+
+{# [HOWTO] Обработка пошаговых руководств #}
+{% if howto and howto.steps %}
+  {# 1. Собираем массив шагов (steps) #}
+  {% set howtoSteps = [] %}
+  {% set stepCounter = 0 %} {# Общий счетчик для position, чтобы нумерация была сквозной #}
+  
+  {% for step in howto.steps %}
+    {% set stepCounter = stepCounter + 1 %}
+    
+    {% if step.type == "HowToSection" %}
+      {# Это секция с вложенными шагами #}
+      {% set sectionSteps = [] %}
+      {% for subStep in step.steps %}
+        {% set subStepObject = {
+          "@type": "HowToStep",
+          "name": subStep.name,
+          "text": subStep.text,
+          "position": loop.index
+        } %}
+        {% set _ = sectionSteps.push(subStepObject) %}
+      {% endfor %}
+      
+      {% set stepObject = {
+        "@type": "HowToSection",
+        "name": step.name,
+        "position": stepCounter,
+        "itemListElement": sectionSteps
+      } %}
+
+    {% else %}
+      {# Это простой шаг HowToStep #}
+      {% set stepObject = {
+        "@type": "HowToStep",
+        "name": step.name,
+        "text": step.text,
+        "position": stepCounter
+      } %}
+      {# Добавляем изображение, если оно указано #}
+      {% if step.image %}
+        {% set stepObject = stepObject | setAttribute("image", step.image | absoluteUrl(site.url)) %}
+      {% endif %}
+    {% endif %}
+    
+    {% set _ = howtoSteps.push(stepObject) %}
+  {% endfor %}
+
+  {# 2. Собираем финальный HowTo объект #}
+  {% set howtoId = (page.url | absoluteUrl(site.url)) ~ "#howto" %}
+
+  {% set howtoSchema = {
+    "@type": "HowTo",
+    "@id": howtoId,
+    "name": howto.name,
+    "description": howto.description,
+    "step": howtoSteps
+  } %}
+
+  {# 3. Добавляем HowTo в общий граф #}
+  {% set _ = schemaParts.push(howtoSchema) %}
+
+  {# 4. Привязываем HowTo как основную сущность (mainEntity) к WebPage и BlogPosting #}
+  {# Это более сильная семантическая связь, чем hasPart #}
+  {% set webPage = webPage | setAttribute("mainEntity", { "@id": howtoId }) %}
+  {% set blogPosting = blogPosting | setAttribute("mainEntity", { "@id": howtoId }) %}
+{% endif %}
+
+
 
 
 

@@ -20,8 +20,8 @@ eleventyNavigation:
 
 <p>Скорость загрузки сайта была в&nbsp;числе моих основных приоритетов еще до&nbsp;настойчивых рекомендаций Google. Один из&nbsp;факторов, влияющих на&nbsp;скорость,&nbsp;— вес изображений. Меньше вес&nbsp;— браузер быстрее показывает страницу. <strong>Я&nbsp;пробовал разные способы оптимизации изображений и&nbsp;в&nbsp;результате выбрал несколько, которые использую сам и&nbsp;рекомендую другим.</strong> </p>
 
-<nav class="toc">
- <h2 class="toc__title">Содержание</h2>
+<nav class="toc space-tight"  aria-labelledby="toc-title">
+ <h2 class="toc__title" id="toc-title" >Содержание</h2>
  <ul class="additive-spacing">
   <li>
    
@@ -46,8 +46,8 @@ eleventyNavigation:
 </nav>
 
 
-<section class="row-gap--m" id="1">
-<h2 class="section__title h1 bold ">Стандартный подход к&nbsp;оптимизации изображений</h2>
+<section class="row-gap--m space-section max-width-text" id="1">
+<h2 class="heading--beta">Стандартный подход к&nbsp;оптимизации изображений</h2>
 <p>Перед публикацией фотографии на&nbsp;сайте я&nbsp;уменьшаю ее&nbsp;вес. Делаю это в&nbsp;графическом редакторе (Gimp + плагин «gimp-plugin-saveforweb») или <a class="link" href="https://imagecompressor.com/ru/">сервисе Optimizilla</a>. </p>
 
 <span class="bold">Пример</span>
@@ -83,19 +83,17 @@ eleventyNavigation:
 
 <p>Уменьшили размер фото&nbsp;— можно публиковать. В&nbsp;код html-страницы добавляем такую строку: </p>
 
-<pre class="language-terminal highlight ">&lt;<span class="tag">img</span> src=<span class="attr-value">"путь к&nbsp;изображению"</span> alt=<span class="attr-value">"описание, что изображено"</span> width=<span class="attr-value">"ширина"</span> height=<span class="attr-value">"высота"</span> /&gt;</pre>
+<pre class="language-terminal highlight">&lt;<span class="tag">img</span> src=<span class="attr-value">"путь к&nbsp;изображению"</span> alt=<span class="attr-value">"описание, что изображено"</span> width=<span class="attr-value">"ширина"</span> height=<span class="attr-value">"высота"</span> &gt;</pre>
 
 
+<p>Раньше этих действий было достаточно. Сейчас&nbsp;— нет. Назову три причины:</p>
 
 
-<p class="mb-m">Раньше этих действий было достаточно. Сейчас&nbsp;— нет. Назову три причины:</p>
-
-
-<ul class="additive-spacing">
+<ul>
 	<li class="list-li">
 		<p>Иногда оптимизированные фото на&nbsp;«ретине» выглядят плохо → Для мобильных устройств и экранов с высокой плотностью пикселей важно предоставлять адаптивные изображения, которые сохраняют четкость и загружаются быстро. </p>
 	</li>
-	<li class="list-li additive-spacing">
+	<li class="list-li row-gap--m">
 		<p>Появился <a class="link" href="https://developers.google.com/speed/webp/" >формат изображений&nbsp;— WebP</a>, который делает вес фото еще меньше. Пока формат поддерживается не&nbsp;всеми браузерами → для браузеров, которые «видят» WebP, следует предлагать WebP, а&nbsp;остальным&nbsp;— другие форматы. </p>
     
     <p class="italic"><span class="bold">updated.</span> Сегодня <a class="link" href="https://caniuse.com/webp">WebP поддерживается всеми основными браузерами</a>, однако появляются новые форматы, такие как AVIF и&nbsp;JPEG&nbsp;XL, которые обещают вытеснить WebP. </p>
@@ -105,12 +103,12 @@ eleventyNavigation:
 	</li>
 </ul>
 
-<p class="post__note">Вместо одной фотографии, одной строчки кода с&nbsp;адресом и&nbsp;описанием следует готовить набор фотографий (разного размера и&nbsp;формата) и&nbsp;указывать в&nbsp;html-коде условия, при которых должна показываться та&nbsp;или иная фотография из&nbsp;набора. Для каждого экрана должно загружаться наиболее релевантное изображение&nbsp;— нужного размера, формата и&nbsp;разрешения.</p>
+<p class="pull-quote">Вместо одной фотографии, одной строчки кода с&nbsp;адресом и&nbsp;описанием следует готовить набор фотографий (разного размера и&nbsp;формата) и&nbsp;указывать в&nbsp;html-коде условия, при которых должна показываться та&nbsp;или иная фотография из&nbsp;набора. Для каждого экрана должно загружаться наиболее релевантное изображение&nbsp;— нужного размера, формата и&nbsp;разрешения.</p>
 </section>
 
 
-<section class="row-gap--m" id="2">
-<h2 class="section__title h1 bold ">Адаптация изображений для каждого устройства</h2>
+<section class="row-gap--m space-section max-width-text" id="2">
+<h2 class="heading--beta">Адаптация изображений для каждого устройства</h2>
 <p>Принцип «каждому экрану свое изображение» можно реализовать с&nbsp;помощью плагинов: загружаем одну фотографию и&nbsp;плагин автоматически делает копии, меняет размеры и&nbsp;прописывает условия показа. Не&nbsp;нужно сосредотачиваться на&nbsp;технической составляющей работы сайта. Это плюс. </p>
 
 <p>Минусы тоже есть. Во-первых, не&nbsp;все плагины написаны хорошо. Иногда можно здорово проиграть в&nbsp;производительности сайта. Во-вторых, некоторые задачи нельзя решить в&nbsp;автоматическом режиме. Например, кадрирование. Панорамная фотография хорошо смотрится на&nbsp;большом экране, но&nbsp;на&nbsp;смартфоне лучше показать только наиболее значимую часть фотографии. </p>
@@ -147,10 +145,10 @@ eleventyNavigation:
 
 
 
-<div class="figure">
-<div class="figcaption">
+<figure class="figure">
+<figcaption class="figcaption">
 <span class="bold">updated</span>  Для желающих углубиться в&nbsp;тему Вадим Макеев рассказывает, как с&nbsp;помощью image-set можно подключать картинки разных типов и&nbsp;разрешения
-</div>
+</figcaption>
  <div class="video ">
         <a class="video__link " href="https://youtu.be/VnjrIGvoO_Y" target="_blank" rel="noopener noreferrer">
             <picture>
@@ -163,12 +161,12 @@ eleventyNavigation:
             <svg width="68" height="48" viewBox="0 0 68 48"><path class="video__button-shape" d="M66.52,7.74c-0.78-2.93-2.49-5.41-5.42-6.19C55.79,.13,34,0,34,0S12.21,.13,6.9,1.55 C3.97,2.33,2.27,4.81,1.48,7.74C0.06,13.05,0,24,0,24s0.06,10.95,1.48,16.26c0.78,2.93,2.49,5.41,5.42,6.19 C12.21,47.87,34,48,34,48s21.79-0.13,27.1-1.55c2.93-0.78,4.64-3.26,5.42-6.19C67.94,34.95,68,24,68,24S67.94,13.05,66.52,7.74z"></path><path class="video__button-icon" d="M 45,24 27,14 27,34"></path></svg>
         </button>
 </div>
-</div>
+</figure>
 
 </section>
 
-<section class="row-gap--m" id="3">
-<h2 class="section__title h1 bold ">Автоматизация и&nbsp;простота: инструменты для оптимизации</h2>
+<section class="row-gap--m space-section max-width-text" id="3">
+<h2 class="heading--beta">Автоматизация и&nbsp;простота: инструменты для оптимизации</h2>
 
 <p>С&nbsp;тегом &lt;picture&gt; код картинки занимает иногда более 10&nbsp;строк, не&nbsp;говоря уже о&nbsp;том, что нужно вручную подготовить несколько вариантов изображения. Если писать <span class="noperenos">1-2</span> статьи в&nbsp;месяц, это необременительно. А&nbsp;если у&nbsp;вас <a class="link" href="/blog/klientskij-opyt-v-ecommerce/">интернет-магазин</a> с&nbsp;тысячей наименований и&nbsp;соответствующим количеством фотографий? </p>
 

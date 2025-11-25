@@ -787,6 +787,48 @@ eleventyConfig.addFilter('readingTimeISO', function (text) {
     }
   });
 
+
+
+
+ // =================================================================
+  //Группировка постов по годам (с учетом даты обновления)
+  // =================================================================
+
+ 
+  eleventyConfig.addFilter('groupByYear', (posts) => {
+    if (!posts) return [];
+
+    const groups = new Map();
+
+    // 1. Вспомогательная функция для получения "эффективной даты" (числом)
+    const getEffectiveTime = (post) => {
+        const dateVal = post.data.last_modified_at || post.date;
+        return new Date(dateVal).getTime();
+    };
+
+    posts.forEach((post) => {
+      // Определяем год
+      const effectiveDate = new Date(getEffectiveTime(post));
+      const year = effectiveDate.getFullYear().toString();
+
+      if (!groups.has(year)) {
+        groups.set(year, []);
+      }
+      groups.get(year).push(post);
+    });
+
+    // 2. Превращаем Map в массив и СОРТИРУЕМ ГОДЫ ПО УБЫВАНИЮ
+    const sortedGroups = Array.from(groups.entries())
+      .map(([year, posts]) => {
+        // 3. На всякий случай сортируем посты ВНУТРИ года (свежие сверху)
+        posts.sort((a, b) => getEffectiveTime(b) - getEffectiveTime(a));
+        return { year, posts };
+      })
+      .sort((a, b) => Number(b.year) - Number(a.year)); // Сортировка самих групп (2022, 2019, 2016...)
+
+    return sortedGroups;
+  });
+
   // =================================================================
   // УЛУЧШЕННЫЕ ТРАНСФОРМАЦИИ
   // =================================================================

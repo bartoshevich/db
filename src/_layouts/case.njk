@@ -5,19 +5,20 @@
 {# Переопределяем блок основного контента #}
 {% block main_content %}
 <header class="intro max-width-text">
-  <h1 class="inline bold">Портфолио Дмитрия Бартошевича</h1>:
+  <h1 class="inline bold">Проекты и публикации</h1>:
   <nav class="inline" aria-label="Навигация по портфолио">
-      <p class="inline"><a class="link" href="#cases">проекты</a>, <a class="link" href="#speeches">выступления</a> и&nbsp;<a class="link" href="#articles">статьи в&nbsp;бизнес-СМИ</a>.</p>
+    <p class="inline"><a class="link" href="#cases">кейсы</a>, <a class="link" href="#speeches">выступления</a> на&nbsp;конференциях, <a class="link" href="#articles">статьи</a> в&nbsp;деловых изданиях.</p>
   </nav>
 </header>
 
-<section class="full-bleed row-gap--l mt-2xl">
-<h2 class="h1 bold mb-m">Развиваю бренды</h2>
+<section class="full-bleed row-gap--m space-section" id="cases">
+<h2 class="heading--beta">Развиваю бренды</h2>
 {% include "project__clients.njk" %}
 </section>
-
-<section class="full-bleed row-gap--l">
-<h2 class="h1 bold block__space--top-h1">Делюсь знаниями и&nbsp;профессиональным опытом</h2>
+  
+<section class="full-bleed row-gap--m space-chapter">
+  <hr class="separator"> 
+<h2 class="heading--beta space-chapter">Делюсь знаниями и&nbsp;профессиональным опытом</h2>
 
 {% include "project__articles.njk" %}
 
@@ -25,7 +26,7 @@
 
 </section>
 
-<p class="mt-m small secondary-color">
+<p class="small secondary-color space-connected">
 <small> Проекты Дмитрия Бартошевича. Обновлено <time datetime="2023-08-13">13 августа 2023 года</time>. </small>
 </p>
 {% endblock %}

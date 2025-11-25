@@ -4,14 +4,17 @@
 @use  "./resert";
 @use  "./type";
 @use  "./fluid_space";
+@use "./rhythm"; 
 @use  "./layout";
+@use  "./headings";
 @use  "./basic";
 @use  "./grid";
 @use  "./menu";
 @use  "./breadcrumbs";
+@use  "./blog";
 @use  "./cards";
 @use  "./service--cards";
-@use  "./project__jobs";
+@use  "./projects";
 @use  "./image";
 @use  "./uslugi";
 @use  "./random-button";
@@ -23,6 +26,7 @@
 @use  "./video";
 @use  "./side";
 @use  "./toc";
+@use "./lists";
 @use  "./link";
 @use  "./table";
 @use  "./guest";
@@ -33,11 +37,13 @@
 @use  "./relatedservice";
 @use  "./post";
 @use  "./films";
-
+@use  "./nps";
 @use  "./footer-smm";
 @use  "./sw-update";
 @use  "./checklist-pro";
 @use  "./dd";
-
+@use  "./faq";
+@use  "./about";
+@use  "./contact";
 @use  "./footer";
 

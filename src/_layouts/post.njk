@@ -1,10 +1,12 @@
 {% extends "default.njk" %}
  
       {% block main_content %}
+        <article class="full-bleed row-gap--m">
         {% include "post__header.njk" %}
-      
+    
   {{ content | nbspPrepositions | safe  }}
-       
+      </article>
+      <div class="space-chapter"></div>
         {% include "related-service.njk" %}
         
         {% include "subscription.njk" %}

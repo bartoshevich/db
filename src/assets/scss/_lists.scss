@@ -1,0 +1,40 @@
+
+.list-reset {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.list-li,
+.list-ol {
+  line-height: 1.41176;
+  margin-inline-start: var(--space-m);
+  padding-inline-start: var(--space-xs);
+}
+
+.list-ol {
+  list-style-position: outside;
+  padding-inline-start: var(--space-l);
+  display: flex;
+  flex-direction: column;
+  margin-bottom: var(--space-m);
+  gap: var(--space-xs); 
+}
+
+.list-li + .list-li {
+  margin-block-start: var(--space-xs);
+}
+
+.list-li p {
+  margin: 0;
+}
+
+.list-sign:before {
+  content: '•';
+  margin-inline-end: var(--space-xs);
+  color: var(--secondary-text-colour);
+  font-weight: 700;
+  display: inline-block; 
+  width: 1em;
+}
+

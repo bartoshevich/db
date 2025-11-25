@@ -12,6 +12,13 @@
   position: relative;
   font-family: v.$family-sans-serif;
   height: 100%;
+
+  /* Токены формы */
+  --radius-s: 4px;
+  --radius-m: 8px;
+  --radius-l: 12px;
+  --radius-xl: 16px;
+  --radius-round: 9999px;
 }
 
 *,
@@ -32,11 +39,9 @@
 
 html {
   scroll-behavior: smooth;
-}
-
-html {
   block-size: 100%;
-  color-scheme: light;
+  
+  /* Light Theme Colors */
   --background-color: #fafafa;
   --selected-bg-color: #e7e7e8;
   --text-accent: #000;
@@ -47,26 +52,18 @@ html {
   --gray: #eaeaea;
   --arrow-color: #86868b;
   --color-tertiary: #54544f;
-  --color-text-caption-secondary:  #1d1d1f9c;
+  --color-text-caption-secondary: #1d1d1f9c;
 
-
-   /* TOC (светлая тема) */
+  /* TOC */
   --color-toc-ui-element-background: #f9f9f9; 
   --color-toc-separator-light: rgba(60, 60, 67, 0.29);
   --color-toc-text-primary: #1d1d1f;
   --color-toc-text-secondary: #3c3c43; 
   --color-toc-text-tertiary: #8e8e93; 
-  --toc-shadow: 
-    0 1px 2px rgba(0, 0, 0, 0.03),
-    0 2px 4px rgba(0, 0, 0, 0.04);  
-  --toc-shadow-hover: 
-    0 2px 4px rgba(0, 0, 0, 0.04), 
-    0 4px 8px rgba(0, 0, 0, 0.06);  
+  --toc-shadow: 0 1px 2px rgba(0, 0, 0, 0.03), 0 2px 4px rgba(0, 0, 0, 0.04);  
+  --toc-shadow-hover: 0 2px 4px rgba(0, 0, 0, 0.04), 0 4px 8px rgba(0, 0, 0, 0.06);  
 
-
-
-
-  /* Ссылки (светлая тема) */
+  /* Links */
   --link: #1d1d1f;
   --link-opacity-80: rgba(0, 0, 0, 0.8);
   --link-opacity-05: rgba(0, 0, 0, 0.05);
@@ -76,36 +73,66 @@ html {
   --link-focus-outline: rgba(0, 0, 0, 0.3);
   --link-underline-color: rgba(167, 167, 167, 0.7);
 
-  /* Эффекты и состояния (светлая тема) */
+  /* Effects */
   --hover-shadow: rgba(0, 0, 0, 0.08);
   --card-border: #e0e0e0;
   --card-highlight: rgba(0, 0, 0, 0.7);
   --background-color-rgb: 250, 250, 250;
 
-  /* Таблицы (светлая тема) */
+
+  /* --- ТОКЕНЫ КНОПОК  */
+  --btn-primary-bg: #E8E8ED; 
+  --btn-primary-text: #1D1D1F;
+ --btn-primary-hover: #D2D2D7; 
+  --btn-primary-active: #C7C7CC;
+
+
+  --btn-secondary-border: rgba(0, 0, 0, 0.2);
+  --btn-secondary-text: var(--text-colour);
+  --btn-secondary-hover-border: var(--text-colour);
+
+  /* НОВЫЕ ТОКЕНЫ ТЕНЕЙ */
+  --btn-shadow-static: 0 1px 2px rgba(0, 0, 0, 0.04);
+  --btn-shadow-hover: 0 8px 16px rgba(0, 0, 0, 0.08);
+  --btn-shadow-active: 0 2px 4px rgba(0, 0, 0, 0.04);
+  
+  /* Тень для прозрачной кнопки чуть слабее */
+  --btn-secondary-shadow-hover: 0 4px 12px rgba(0, 0, 0, 0.05);
+
+  
+  /* --- ТОКЕНЫ ДЕКОРА (Линии, цитаты) --- */
+  --decoration-subtle: rgba(0, 0, 0, 0.2); /* Для рамок и подчеркиваний */
+  --quote-color: var(--link); /* Цвет кавычек */
+
+
+
+  /* Tables */
   --table-bg-color: #fbfbfd;
   --table-border-top: #b5b5b5;
   --table-border-td: #86868b;
   --table-bg-th: #f2f2f2;
   --table-gainsboro: #dcdcdc;
 
-  /* Прочее (светлая тема) */
+  /* Misc */
   --video-border: #eaeaea;
   --button-bg-color: #2c2c2e;
   --button-text-color: #ffffff;
   --button-hover-bg-color: #000000;
   --arrow-hover-opacity: 0.4; 
 
-   /* Цвет кнопки */
-  --color-button-primary-bg: #eaeaea; 
-  --color-button-primary-text: #000;
-  --color-button-primary-hover-bg: #ffffff;
-  --color-button-primary-hover-text: #1d1d1f;
-  --color-button-secondary-bg: #eaeaea; 
-  --color-button-secondary-border: #515154; 
-  --color-button-secondary-text: #1d1d1f;
 
-   /* SW уведомления (светлая тема) */
+
+  /* SW */
+  --sw-background: #ffffff;
+  --sw-border: #e5e7eb;
+  --sw-text: #1f2937;
+  --sw-text-muted: #6b7280;
+  --sw-accent: #2563eb;
+  --sw-accent-hover: #1d4ed8;
+  --sw-background-hover: #f9fafb;
+  --sw-border-hover: #d1d5db;
+  --sw-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06), 0 20px 25px -5px rgba(0, 0, 0, 0.1);
+
   --sw-notification-bg: #ffffff;
   --sw-notification-border: var(--card-border);
   --sw-notification-shadow: var(--toc-shadow);
@@ -113,7 +140,6 @@ html {
   --sw-notification-text-primary: var(--text-colour);
   --sw-notification-text-secondary: var(--secondary-text-colour);
   
-  /* SW кнопки (светлая тема) */
   --sw-btn-bg: var(--background-color);
   --sw-btn-border: var(--card-border);
   --sw-btn-text: var(--text-colour);
@@ -122,19 +148,16 @@ html {
   --sw-btn-primary-text: var(--button-text-color);
   --sw-btn-primary-hover-bg: var(--button-hover-bg-color);
   
-  /* SW индикаторы (светлая тема) */
   --sw-offline-bg: var(--text-colour);
   --sw-offline-text: var(--background-color);
   --sw-offline-border: var(--gray);
   --sw-toast-bg: var(--text-colour);
   --sw-toast-text: var(--background-color);
   
-  /* SW статусы */
-  --sw-success-bg: #34c759; /* iOS стиль зеленый */
-  --sw-error-bg: #ff3b30;   /* iOS стиль красный */
-  --sw-warning-bg: #ff9500; /* iOS стиль оранжевый */
+  --sw-success-bg: #34c759;
+  --sw-error-bg: #ff3b30;
+  --sw-warning-bg: #ff9500;
 }
-
 
 html[data-theme="dark"] {
   color-scheme: dark;
@@ -148,22 +171,16 @@ html[data-theme="dark"] {
   --gray: #3a3a3c;
   --arrow-color: #424245;
   --color-tertiary: #9e9ea2;
-   --color-text-caption-secondary: #adb5bd;
+  --color-text-caption-secondary: #adb5bd;
 
-     /* TOC (темная тема) */
-   --color-toc-ui-element-background: #2c2c2e;
-   --color-toc-separator-light: rgba(84, 84, 88, 0.65);
-   --color-toc-text-primary: #f5f5f7;
-   --color-toc-text-secondary: #aeaeb2;
-   --color-toc-text-tertiary: #8e8e93; 
-   --toc-shadow: 
-    0 1px 2px rgba(0, 0, 0, 0.1),   
-    0 0 0 0.5px rgba(255, 255, 255, 0.04); 
-  --toc-shadow-hover: 
-    0 2px 4px rgba(0, 0, 0, 0.15),  
-    0 0 0 0.75px rgba(255, 255, 255, 0.07); 
+  --color-toc-ui-element-background: #2c2c2e;
+  --color-toc-separator-light: rgba(84, 84, 88, 0.65);
+  --color-toc-text-primary: #f5f5f7;
+  --color-toc-text-secondary: #aeaeb2;
+  --color-toc-text-tertiary: #8e8e93; 
+  --toc-shadow: 0 1px 2px rgba(0, 0, 0, 0.1), 0 0 0 0.5px rgba(255, 255, 255, 0.04); 
+  --toc-shadow-hover: 0 2px 4px rgba(0, 0, 0, 0.15), 0 0 0 0.75px rgba(255, 255, 255, 0.07); 
 
-  /* Ссылки (темная тема) */
   --link: #f5f5f7;
   --link-opacity-80: rgba(245, 245, 247, 0.8);
   --link-opacity-05: rgba(245, 245, 247, 0.1);
@@ -171,36 +188,59 @@ html[data-theme="dark"] {
   --link-active: #d1d1d6;
   --link-bg: #2c2c2e;
   --link-focus-outline: rgba(255, 255, 255, 0.4);
-    --link-underline-color: rgba(184, 184, 188, 0.5);
+  --link-underline-color: rgba(184, 184, 188, 0.5);
 
-  /* Эффекты и состояния (темная тема) */
   --hover-shadow: rgba(0, 0, 0, 0.3);
   --card-border: #3a3a3c;
   --card-highlight: rgba(255, 255, 255, 0.75);
   --background-color-rgb: 28, 28, 30;
 
-  /* Таблицы (темная тема) */
   --table-bg-color: #2a2a2c;
   --table-border-top: #4c4c4e;
   --table-border-td: #5a5a5f;
   --table-bg-th: #313133;
   --table-gainsboro: #2a2a2c;
 
-  /* Прочее (темная тема) */
   --video-border: #3a3a3c;
   --button-bg-color: #f5f5f7;
   --button-text-color: #1c1c1e;
   --button-hover-bg-color: #ffffff;
-   --arrow-hover-opacity: 0.6; 
+  --arrow-hover-opacity: 0.6; 
 
-    --color-button-primary-bg: #e5e5e7;
-    --color-button-primary-text: #1d1d1f;
-    --color-button-primary-hover-bg: #424245;
-    --color-button-primary-hover-text: #ffffff;
-    --color-button-secondary-bg: #3a3a3c;
-    --color-button-secondary-text: #f5f5f7;
+ 
 
-  /* SW уведомления (темная тема) */
+
+  /* --- ТОКЕНЫ КНОПОК (Темная тема) --- */
+  --btn-primary-bg: #3A3A3C; 
+  --btn-primary-text: #FFFFFF;
+  --btn-primary-hover: #48484A;
+  --btn-primary-active: #636366;
+
+  --btn-secondary-border: rgba(255, 255, 255, 0.3);
+  --btn-secondary-text: #FFFFFF;
+  --btn-secondary-hover-border: #FFFFFF;
+
+  /* НОВЫЕ ТОКЕНЫ ТЕНЕЙ */
+
+  --btn-shadow-static: 0 1px 2px rgba(0, 0, 0, 0.5);
+  --btn-shadow-hover: 0 8px 16px rgba(0, 0, 0, 0.6);
+  --btn-shadow-active: 0 2px 4px rgba(0, 0, 0, 0.5);
+  
+  --btn-secondary-shadow-hover: 0 4px 12px rgba(0, 0, 0, 0.5);
+
+  /* --- ТОКЕНЫ ДЕКОРА (Темная тема) --- */
+  --decoration-subtle: rgba(255, 255, 255, 0.3);
+
+  --sw-background: #1f2937;
+  --sw-border: #374151;
+  --sw-text: #f9fafb;
+  --sw-text-muted: #9ca3af;
+  --sw-accent: #3b82f6;
+  --sw-accent-hover: #2563eb;
+  --sw-background-hover: #374151;
+  --sw-border-hover: #4b5563;
+  --sw-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.3), 0 2px 4px -1px rgba(0, 0, 0, 0.2), 0 20px 25px -5px rgba(0, 0, 0, 0.4);
+
   --sw-notification-bg: var(--color-toc-ui-element-background);
   --sw-notification-border: var(--card-border);
   --sw-notification-shadow: var(--toc-shadow);
@@ -208,7 +248,6 @@ html[data-theme="dark"] {
   --sw-notification-text-primary: var(--text-colour);
   --sw-notification-text-secondary: var(--secondary-text-colour);
   
-  /* SW кнопки (темная тема) */
   --sw-btn-bg: var(--background-color);
   --sw-btn-border: var(--card-border);
   --sw-btn-text: var(--text-colour);
@@ -217,20 +256,16 @@ html[data-theme="dark"] {
   --sw-btn-primary-text: var(--button-text-color);
   --sw-btn-primary-hover-bg: var(--button-hover-bg-color);
   
-  /* SW индикаторы (темная тема) */
   --sw-offline-bg: var(--text-colour);
   --sw-offline-text: var(--background-color);
   --sw-offline-border: var(--gray);
   --sw-toast-bg: var(--text-colour);
   --sw-toast-text: var(--background-color);
   
-  /* SW статусы для темной темы */
   --sw-success-bg: #30d158;
   --sw-error-bg: #ff453a;
   --sw-warning-bg: #ff9f0a;
   
-
-  /* Фильтры для темной темы */
   --icon-filter: brightness(0.95);
   --icon-filter_hover: brightness(1.1);
   --image-filter: brightness(0.95) contrast(1.05);
@@ -256,19 +291,7 @@ body {
   min-height: 100vh;
   color: v.$text-colour;
   background-color: v.$background-color;
-  line-height: 1.6;
   text-rendering: optimizeLegibility;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  color: v.$text-colour;
-  font-weight: inherit;
-  font-size: inherit;
 }
 
 input,
@@ -299,8 +322,19 @@ button,
   transition: all 0.25s ease-in-out;
 }
 
-
 *:focus {
   outline: none;
 }
 
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+  color: v.$text-colour;
+  font-weight: inherit;
+  font-size: inherit;
+}
+
+p, ul, ol, dl, dt, dd, figure, figcaption, blockquote {
+  margin: 0;
+  padding: 0;
+}

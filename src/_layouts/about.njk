@@ -4,7 +4,7 @@
 
 {# Переопределяем блок основного контента #}
 {% block main_content %}
-  {{ content | safe }}
+  {{ content | nbspPrepositions | safe }}
   {# Уникальные инклюды для about #}
   {% include "about__approach.njk" %}
   {% include "about__jobs.njk" %}

@@ -32,16 +32,16 @@ relatedIdeas:
 
 
 
-<nav class="toc toc_divided" aria-labelledby="toc-title">
-  <h2 id="toc-title" class="toc__title">Содержание</h2>
+<nav class="toc space-tight" aria-labelledby="toc-title">
+  <h2 class="toc__title" id="toc-title">Содержание</h2>
   <ul class="additive-spacing">
     {# Объявляем глобальный счетчик ОДИН РАЗ перед всеми циклами #}
     {% set globalFilmCounter = 1 %}
     
     {% for categoryKey, category in films.categories %}
-    <li class="additive-spacing">
-      <a class="link bold italic" href="#{{ category.key }}">{{ category.title }}</a>
-      <ul class="additive-spacing">
+    <li class="">
+      <a class="link bold" href="#{{ category.key }}">{{ category.title }}</a>
+      <ul class="">
         {% for film in films.items %}
           {% if film.category == categoryKey %}
             <li>
@@ -65,10 +65,10 @@ relatedIdeas:
 
 
 {% for categoryKey, category in films.categories %}
-<section id="{{ category.key }}" class="row-gap--m mt-2xl">
+<section id="{{ category.key }}" class="row-gap--m space-section max-width-text">
   <header>
-    <h2 class="section__title h1 bold">{{ category.title }}</h2>
-    <p class="mt-12">{{ category.description }}</p>
+    <h2 class="heading--beta space-block">{{ category.title }}</h2>
+    <p class="space-tight">{{ category.description }}</p>
   </header>
   
   
@@ -83,5 +83,5 @@ relatedIdeas:
 
 
 
-<p class="mt-2xl">Кино помогает взглянуть на&nbsp;привычные процессы под новым углом. Проанализируйте просмотренные картины&nbsp;&mdash; какие идеи можно адаптировать для ваших маркетинговых проектов? Применяйте найденные решения в&nbsp;работе и&nbsp;создавайте <a class="link" href="/blog/marketing-bolshe-chem-prodazhi/">осмысленные кампании</a>.</p>
+<p class="space-block">Кино помогает взглянуть на&nbsp;привычные процессы под новым углом. Проанализируйте просмотренные картины&nbsp;&mdash; какие идеи можно адаптировать для ваших маркетинговых проектов? Применяйте найденные решения в&nbsp;работе и&nbsp;создавайте <a class="link" href="/blog/marketing-bolshe-chem-prodazhi/">осмысленные кампании</a>.</p>
 

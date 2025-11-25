@@ -1,0 +1,96 @@
+
+/* --- СПИСОК КЕЙСОВ --- */
+.cases-section {
+  width: 100%;
+  margin-top: var(--space-2xl);
+}
+
+/* --- ОДИН КЕЙС --- */
+.case {
+  width: 100%;
+  margin-bottom: var(--space-3xl);
+  
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+/* Шапка кейса */
+.case__header {
+  margin-bottom: var(--space-m);
+}
+
+.case__label {
+  font-size: var(--step--1);     /* 14.17px */
+  line-height: 1.69;             /* 24px */
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--secondary-text-colour);
+  font-weight: 600;
+  margin: 0 0 4px 0;             /* Маленький отступ */
+}
+
+.case__client {
+  font-size: var(--step-2);      /* 24.48px */
+  line-height: 1.3072;           /* 32px */
+  font-weight: 700;
+  margin: 0 0 var(--space-xs) 0;
+  color: var(--text-colour);
+}
+
+.case__description {
+  font-size: var(--step-0);
+  line-height: 1.41176;
+  color: var(--secondary-text-colour);
+  margin: 0;
+}
+
+/* --- ЭТАПЫ ПРОЕКТА --- */
+.case__stage {
+  margin-top: var(--space-l);
+  
+  &:first-of-type {
+    margin-top: var(--space-m);
+  }
+  & p {
+    margin: 0;
+  }
+}
+
+.case__stage-layout {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--space-xs);
+  
+  @media (min-width: 700px) {
+    grid-template-columns: repeat(10, minmax(0, 1fr));
+    column-gap: var(--space-2xl);
+  }
+}
+
+.case__stage-title-wrapper {
+  @media (min-width: 700px) {
+    grid-column: 1 / 5;
+  }
+}
+
+.case__stage-content {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-m);
+  
+  @media (min-width: 700px) {
+    grid-column: 5 / -1;
+  }
+}
+
+/* Заголовок этапа */
+.case__stage-title {
+ font-size: var(--step-1);
+  line-height: 1.569;
+  font-weight: 400;
+  margin: 0;
+  display: flex;
+ 
+  
+}

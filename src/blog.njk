@@ -18,7 +18,7 @@ eleventyNavigation:
 
 
 
-<header class="intro max-width-text"><h1 class="inline bold">Блог Дмитрия Бартошевича</h1> <p class="inline">о&nbsp;маркетинге и&nbsp;стратегии. Делюсь инсайтами, актуальными трендами, наблюдениями и&nbsp;кейсами. Подпишитесь на&nbsp;обновления: <a class="link" href="https://t.me/+OuzxNOZg-g44ZjYy">telegram</a>, <a class="link" href="{{ navigation.subscription.list[1].url | url }}">эл.почта</a></p>
+<header class="intro max-width-text"><h1 class="inline bold">Блог Дмитрия Бартошевича</h1> <span class="inline">о&nbsp;маркетинге и&nbsp;стратегии. Делюсь инсайтами, актуальными трендами, наблюдениями и&nbsp;кейсами. Подпишитесь на&nbsp;обновления: <a class="link" href="https://t.me/+OuzxNOZg-g44ZjYy">telegram</a>, <a class="link" href="{{ navigation.subscription.list[1].url | url }}">эл.почта</a></span>
 </header>
 
 <div class="button-container">
@@ -32,39 +32,69 @@ eleventyNavigation:
     </noscript>
 </div>
 
-<div class="full-bleed mt-12 row-gap--l" id="all-posts">
+<div class="full-bleed row-gap--m" id="all-posts">
 
-<h2 class="h2 bold">Все записи (86) </h2>
+<h2 class="heading--beta space-connected">Все записи (86) </h2>
+ <p class="secondary-color"> Лента выстроена по&nbsp;дате обновления. Старые статьи, которые я&nbsp;актуализировал, поднимаются вверх. </p>
+ 
+     
+<div class="blog-list">
+    {# 1. Применяем наш новый фильтр #}
+    {% set groupedPosts = collections.post | groupByYear %}
 
-<ul class="row-gap--xl list-reset">
-
-     {% if collections.post and collections.post.length > 0 %}
-        {% for post in collections.post  %}
-        <li class="block__item">
-            <div class="block__name--align-left">
-                <h2 class="h2">
-                        <a class="link article-link" href="{{ post.url }}" >
-                        <span class="article_title">	{{ post.data.name  | nbspPrepositions | safe }} </span>
-                    </a>
-                </h2>
-                <p class="mt-12">
-                    <small>
-                         <time datetime="{{ post.date | htmlDateString }}" class="secondary-color">
-                            {{ post.date | readableDateRU }}
-                        </time>
-                    </small>
-                </p>
+    {% if groupedPosts.length > 0 %}
+        
+        {# 2. Перебираем ГОДЫ #}
+        {% for group in groupedPosts %}
+            
+            {# Заголовок года #}
+            <div class="blog-year-divider space-chapter">
+                <h2 class="heading--gamma">{{ group.year }}</h2>
             </div>
-            <p class="block__content">
-                {{ post.data.description | nbspPrepositions | safe }}
-            </p>
-        </li>
+
+            {# 3. Перебираем СТАТЬИ внутри этого года #}
+            {% for post in group.posts %}
+                
+                {# Подготовка дат для отображения #}
+                {% if post.data.last_modified_at %}
+                    {% set displayDate = post.data.last_modified_at %}
+                    {% set isUpdated = true %}
+                {% else %}
+                    {% set displayDate = post.date %}
+                    {% set isUpdated = false %}
+                {% endif %}
+
+                <article class="blog-item">
+                    <a class="blog-item__link article-link" href="{{ post.url }}">
+                        <div class="blog-item__header">
+                            <h3 class="blog-item__title">
+                                {{ post.data.name | default(post.data.title) | nbspPrepositions | safe }}
+                            </h3>
+                            
+                            <div class="blog-item__meta">
+                                <time datetime="{{ displayDate | htmlDateString }}" class="blog-item__date">
+                                    {{ displayDate | readableDateRU }}
+                                </time>
+                                {% if isUpdated %}
+                                    <span class="update-label">(обновлено)</span>
+                                {% endif %}
+                            </div>
+                        </div>
+                        
+                        <div class="blog-item__content">
+                            <p>{{ post.data.description | nbspPrepositions | safe }}</p>
+                        </div>
+                    </a>
+                </article>
+            {% endfor %}
+            
         {% endfor %}
+
     {% else %}
-        <li><p>Пока нет записей в блоге.</p></li>
+        <p>Пока нет записей в блоге.</p>
     {% endif %}
+</div>
 
-</ul>
- </div>
+  
 
-
+  </div>
