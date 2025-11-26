@@ -229,7 +229,7 @@
 
     .footer__nav {
         grid-template-columns: 1fr;
-        gap: var(--space-m);
+        gap: var(--space-l);
     }
 
     .footer__nav-section {
@@ -239,9 +239,13 @@
 
     }
 
+    .footer__nav-section h3 {
+margin-bottom: 0;
+    }
+
     .footer__legal {
         flex-direction: column;
-        gap: var(--space-s);
+        gap: var(--space-m);
         margin-top: var(--space-m);
         padding-top: var(--space-m);
     }
@@ -250,6 +254,7 @@
     .copyright {
         flex-direction: column;
         align-items: flex-start;
+        gap: 1em;
     }
 
     .copyright__item {
