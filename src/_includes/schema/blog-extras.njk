@@ -392,6 +392,24 @@
     {% set webPage = webPage | setAttribute("mainEntity", movieItemList) %}
   {% endif %}
 
+
+
+{# [SPEAKABLE] Базовые селекторы + опциональные #}
+{% set speakableSelectors = ["h1", ".heading--beta"] %}
+
+{% if hasPullQuote %}
+  {% set _ = speakableSelectors.push(".pull-quote") %}
+{% endif %}
+
+{% set speakable = {
+  "@type": "SpeakableSpecification",
+  "cssSelector": speakableSelectors
+} %}
+
+  {% set webPage = webPage | setAttribute("speakable", speakable) %}
+  {% set blogPosting = blogPosting | setAttribute("speakable", speakable) %}
+
+
   {# Отправляем финальный, полностью собранный WebPage в граф #}
   {% set _ = schemaParts.push(webPage) %}
 
