@@ -24,7 +24,7 @@ layout: false
 
 /*.html
   Cache-Control: public, max-age=300, stale-while-revalidate=3600
-  Content-Security-Policy: default-src 'self'; base-uri 'self'; font-src 'self' data:; worker-src 'self'; object-src 'none'; manifest-src 'self'; form-action 'self'; img-src 'self' res.cloudinary.com i.ytimg.com *.withcabin.com static.probusiness.io data:; connect-src 'self' res.cloudinary.com i.ytimg.com *.withcabin.com *.netlify.com; upgrade-insecure-requests; style-src 'self'; script-src 'self' *.withcabin.com 'sha256-{{ cspScriptHash }}'; frame-ancestors 'self'; frame-src www.youtube-nocookie.com www.youtube.com embed.ted.com youtu.be; media-src 'self' www.youtube-nocookie.com www.youtube.com embed.ted.com youtu.be
+  Content-Security-Policy: default-src 'self'; base-uri 'self'; font-src 'self' data:; worker-src 'self'; object-src 'none'; manifest-src 'self'; form-action 'self'; img-src 'self' res.cloudinary.com i.ytimg.com *.withcabin.com static.probusiness.io data:; connect-src 'self' res.cloudinary.com i.ytimg.com *.withcabin.com *.netlify.com; upgrade-insecure-requests; style-src 'self'; script-src 'self' *.withcabin.com 'sha256-{{ cspScriptHash }}' 'wasm-unsafe-eval'; frame-ancestors 'self'; frame-src www.youtube-nocookie.com www.youtube.com embed.ted.com youtu.be; media-src 'self' www.youtube-nocookie.com www.youtube.com embed.ted.com youtu.be
   Content-Type: text/html; charset=utf-8
   X-XSS-Protection: 1; mode=block
 
