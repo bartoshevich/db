@@ -6,8 +6,8 @@
 
 /* --- КОНТЕЙНЕР ПОИСКА --- */
 .blog-search {
-  margin-block: var(--space-m) var(--space-l); 
-  max-width: 670px; 
+  margin-block: var(--space-m) var(--space-l);
+  max-width: 670px;
 }
 
 /* --- ACCESSIBILITY: VISUALLY HIDDEN LABEL --- */
@@ -31,7 +31,7 @@
 
 /* --- ИНДИКАТОР ЗАГРУЗКИ --- */
 .pagefind-loading {
-  padding: var(--space-2xs); // 8px
+  padding: var(--space-2xs);
   color: var(--secondary-text-colour);
   font-size: var(--step--1);
 }
@@ -39,10 +39,10 @@
 /* --- СООБЩЕНИЕ DEV-РЕЖИМА --- */
 .pagefind-dev-message {
   background-color: var(--color-toc-ui-element-background);
-  padding: var(--space-m); // 24px
+  padding: var(--space-m);
   border-radius: var(--radius-m);
   border: 1px solid var(--gray);
-  margin-bottom: var(--space-m); // 24px
+  margin-bottom: var(--space-m);
 
   p {
     margin: 0;
@@ -57,9 +57,9 @@
 
   code {
     display: inline-block;
-    margin-top: var(--space-2xs); // 8px
+    margin-top: var(--space-2xs);
     background: var(--selected-bg-color);
-    padding: var(--space-3xs) var(--space-2xs); // 4px 8px
+    padding: var(--space-3xs) var(--space-2xs);
     border-radius: var(--radius-s);
     font-family: v.$family-monospace;
     font-size: 0.9em;
@@ -69,10 +69,10 @@
 /* --- СООБЩЕНИЕ ОБ ОШИБКЕ --- */
 .pagefind-error-message {
   background-color: var(--color-toc-ui-element-background);
-  padding: var(--space-m); // 24px
+  padding: var(--space-m);
   border-radius: var(--radius-m);
   border: 1px solid var(--gray);
-  margin-bottom: var(--space-m); // 24px
+  margin-bottom: var(--space-m);
 
   p {
     margin: 0;
@@ -96,30 +96,30 @@
 
 .pagefind-ui__search-input {
   width: 100%;
-  padding: var(--space-2xs) var(--space-xs); // 8px 16px (как у кнопок)
-  padding-right: var(--space-2xl); // 64px для кнопки очистки
+  padding: var(--space-2xs) var(--space-xs);
+  padding-right: var(--space-2xl);
   
   font-family: v.$family-sans-serif;
   font-size: var(--step-0);
   font-weight: 400;
   line-height: 1.5;
   
-  color: var(--text-colour);
-  background-color: var(--background-color);
+  color: var(--text-colour) !important;
+  background-color: var(--background-color) !important;
   
-  border: 1px solid var(--gray);
+  border: 1px solid var(--btn-secondary-border) !important;
   border-radius: var(--radius-m);
   
   transition: border-color 0.2s ease, box-shadow 0.2s ease;
   
   &::placeholder {
-    color: var(--secondary-text-colour);
+    color: var(--secondary-text-colour) !important;
     opacity: 0.7;
   }
   
   &:focus {
     outline: none;
-    border-color: var(--link);
+    border-color: var(--link) !important;
     box-shadow: 0 0 0 3px var(--link-opacity-05);
   }
   
@@ -132,24 +132,24 @@
 /* --- КНОПКА ОЧИСТКИ --- */
 .pagefind-ui__search-clear {
   position: absolute;
-  right: var(--space-2xs); // 8px
+  right: var(--space-2xs);
   top: 50%;
   transform: translateY(-50%);
   
-  padding: var(--space-3xs); // 4px
+  padding: var(--space-3xs);
   
-  background: transparent;
+  background: transparent !important;
   border: none;
   border-radius: var(--radius-s);
   
-  color: var(--secondary-text-colour);
+  color: var(--secondary-text-colour) !important;
   cursor: pointer;
   
   transition: color 0.2s ease, background-color 0.2s ease;
   
   &:hover {
-    color: var(--text-colour);
-    background-color: var(--selected-bg-color);
+    color: var(--text-colour) !important;
+    background-color: var(--selected-bg-color) !important;
   }
   
   &:focus-visible {
@@ -158,18 +158,26 @@
   }
 }
 
+/* --- ИКОНКА ПОИСКА --- */
+.pagefind-ui__search-input::before,
+.pagefind-ui__form svg,
+.pagefind-ui__search-icon {
+  color: var(--secondary-text-colour) !important;
+  fill: var(--secondary-text-colour) !important;
+}
+
 /* --- КОНТЕЙНЕР РЕЗУЛЬТАТОВ --- */
 .pagefind-ui__results {
-  margin-top: var(--space-m); // 24px
+  margin-top: var(--space-m);
 }
 
 /* --- ОДИН РЕЗУЛЬТАТ --- */
 .pagefind-ui__result {
-  margin-bottom: var(--space-m); 
-  padding: var(--space-xs); 
+  margin-bottom: var(--space-m);
+  padding: var(--space-xs);
   
-  background-color: var(--background-color);
-  border: 1px solid var(--gray);
+  background-color: var(--background-color) !important;
+  border: 1px solid var(--gray) !important;
   border-radius: var(--radius-m);
   
   transition: 
@@ -178,7 +186,7 @@
     transform 0.2s ease;
   
   &:hover {
-    border-color: var(--link);
+    border-color: var(--link) !important;
     box-shadow: var(--toc-shadow-hover);
     transform: translateY(-2px);
   }
@@ -191,6 +199,7 @@
 .pagefind-ui__result-link {
   text-decoration: none;
   display: block;
+  color: var(--text-colour) !important;
 }
 
 /* --- ЗАГОЛОВОК РЕЗУЛЬТАТА --- */
@@ -198,12 +207,12 @@
   font-size: var(--step-1);
   font-weight: 600;
   line-height: 1.3;
-  margin-bottom: var(--space-2xs); // 8px
+  margin-bottom: var(--space-2xs);
   
-  color: var(--text-colour);
+  color: var(--text-colour) !important;
   
   &:hover {
-    color: var(--link-hover);
+    color: var(--link-hover) !important;
   }
 }
 
@@ -211,43 +220,43 @@
 .pagefind-ui__result-excerpt {
   font-size: var(--step--1);
   line-height: 1.6;
-  color: var(--secondary-text-colour);
+  color: var(--secondary-text-colour) !important;
   
   mark {
-    background-color: var(--selected-bg-color);
-    color: var(--text-colour);
+    background-color: var(--selected-bg-color) !important;
+    color: var(--text-colour) !important;
     font-weight: 600;
-    padding: 0 var(--space-3xs); // 0 4px
+    padding: 0 var(--space-3xs);
     border-radius: 2px;
   }
 }
 
 /* --- МЕТАДАННЫЕ --- */
 .pagefind-ui__result-meta {
-  margin-top: var(--space-2xs); // 8px
+  margin-top: var(--space-2xs);
   font-size: var(--step--1);
-  color: var(--secondary-text-colour);
+  color: var(--secondary-text-colour) !important;
 }
 
 /* --- СООБЩЕНИЕ "НИЧЕГО НЕ НАЙДЕНО" --- */
 .pagefind-ui__message {
-  padding: var(--space-m); // 24px
-  margin-top: var(--space-m); // 24px
+  padding: var(--space-m);
+  margin-top: var(--space-m);
   
-  background-color: var(--color-toc-ui-element-background);
-  border: 1px solid var(--gray);
+  background-color: var(--color-toc-ui-element-background) !important;
+  border: 1px solid var(--gray) !important;
   border-radius: var(--radius-m);
   
   text-align: center;
   font-size: var(--step-0);
-  color: var(--secondary-text-colour);
+  color: var(--secondary-text-colour) !important;
 }
 
 /* --- ИНДИКАТОР ЗАГРУЗКИ PAGEFIND UI --- */
 .pagefind-ui__loading {
-  padding: var(--space-xs); // 16px
+  padding: var(--space-xs);
   text-align: center;
-  color: var(--secondary-text-colour);
+  color: var(--secondary-text-colour) !important;
   font-size: var(--step--1);
 }
 
@@ -257,18 +266,18 @@
   align-items: center;
   justify-content: center;
   
-  margin-top: var(--space-m); // 24px
-  padding: var(--space-2xs) var(--space-m); // 8px 24px (как у .button-secondary)
+  margin-top: var(--space-m);
+  padding: var(--space-2xs) var(--space-m);
   
   font-family: v.$family-sans-serif;
   font-size: var(--step-0);
   font-weight: 500;
   line-height: 1.2;
   
-  background-color: transparent;
-  border: 1px solid var(--btn-secondary-border);
+  background-color: transparent !important;
+  border: 1px solid var(--btn-secondary-border) !important;
   border-radius: var(--radius-m);
-  color: var(--btn-secondary-text);
+  color: var(--btn-secondary-text) !important;
   
   cursor: pointer;
   
@@ -279,8 +288,8 @@
     box-shadow 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
   
   &:hover {
-    border-color: transparent;
-    background-color: var(--btn-primary-bg);
+    border-color: transparent !important;
+    background-color: var(--btn-primary-bg) !important;
     transform: scale(1.02);
   }
   
@@ -296,17 +305,23 @@
   }
 }
 
+/* --- СЧЁТЧИК РЕЗУЛЬТАТОВ --- */
+.pagefind-ui__results-count,
+.pagefind-ui__message {
+  color: var(--secondary-text-colour) !important;
+}
+
 /* ==========================================
    RESPONSIVE
    ========================================== */
 
 @media (max-width: v.$breakpoint-small) {
   .blog-search {
-    margin-block: var(--space-xs) var(--space-m); // 16px 24px
+    margin-block: var(--space-xs) var(--space-m);
   }
   
   .pagefind-ui__result {
-    padding: var(--space-2xs); // 8px (меньше на мобильных)
+    padding: var(--space-2xs);
   }
   
   .pagefind-ui__result-title {
@@ -314,22 +329,104 @@
   }
   
   .pagefind-dev-message {
-    padding: var(--space-xs); // 16px
+    padding: var(--space-xs);
     
     code {
       display: block;
-      margin-top: var(--space-2xs); // 8px
+      margin-top: var(--space-2xs);
     }
   }
 }
 
 /* ==========================================
-   ТЕМНАЯ ТЕМА
+   ТЕМНАЯ ТЕМА - ЯВНЫЕ ПРАВИЛА
    ========================================== */
 
 html[data-theme="dark"] {
-  .pagefind-ui__result-excerpt mark {
-    background-color: var(--selected-bg-color);
-    color: var(--text-colour);
+  
+  /* Поле поиска */
+  .pagefind-ui__search-input {
+    color: #f5f5f7 !important;           
+    background-color: #2c2c2e !important; 
+    border-color: #48484a !important;     
+    
+    &::placeholder {
+      color: #c7c7cc !important;  // Светло-серый
+      opacity: 1 !important;
+    }
+    
+    &:focus {
+      border-color: var(--link) !important;
+      background-color: #2c2c2e !important;
+    }
+  }
+  
+  /* Иконка поиска */
+  .pagefind-ui__form svg,
+  .pagefind-ui__search-icon {
+    color: #8e8e93 !important;
+    fill: #8e8e93 !important;
+  }
+  
+  /* Результаты */
+  .pagefind-ui__result {
+    background-color: #2c2c2e !important;  // Совпадает с полем поиска
+    border-color: #48484a !important;
+  }
+  
+  .pagefind-ui__result-link {
+    color: #f5f5f7 !important;
+  }
+  
+  .pagefind-ui__result-title {
+    color: #f5f5f7 !important;
+    
+    &:hover {
+      color: #ffffff !important;
+    }
+  }
+  
+  .pagefind-ui__result-excerpt {
+    color: #aeaeb2 !important;
+    
+    mark {
+      background-color: #48484a !important;
+      color: #f5f5f7 !important;
+    }
+  }
+  
+  .pagefind-ui__result-meta {
+    color: #8e8e93 !important;
+  }
+  
+  /* Кнопка очистки */
+  .pagefind-ui__search-clear {
+    color: #8e8e93 !important;
+    background: transparent !important;
+    
+    &:hover {
+      color: #f5f5f7 !important;
+      background-color: #48484a !important;
+    }
+  }
+  
+  /* Сообщения */
+  .pagefind-ui__message,
+  .pagefind-ui__results-count {
+    color: #aeaeb2 !important;
+    background-color: #2c2c2e !important;
+    border-color: #48484a !important;
+  }
+  
+  /* Кнопка "Показать ещё" */
+  .pagefind-ui__button {
+    color: #f5f5f7 !important;
+    border-color: rgba(255, 255, 255, 0.3) !important;
+    background-color: transparent !important;
+    
+    &:hover {
+      background-color: #48484a !important;
+      border-color: transparent !important;
+    }
   }
 }
