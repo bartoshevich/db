@@ -37,6 +37,20 @@ eleventyNavigation:
 <h2 class="heading--beta space-connected">Все записи (86) </h2>
  <p class="secondary-color"> Лента выстроена по&nbsp;дате обновления. Старые статьи, которые я&nbsp;актуализировал, поднимаются вверх. </p>
  
+
+{# ========================================== #}
+{# БЛОК ПОИСКА ПО БЛОГУ #}
+{# ========================================== #}
+<section class="blog-search" aria-label="Поиск по блогу">
+  <h2 class="visually-hidden">Поиск по статьям блога</h2>
+  
+  {# Контейнер для Pagefind UI (заполняется JS) #}
+  <div id="blog-search-container" role="search"></div>
+</section>
+
+
+
+
      
 <div class="blog-list">
     {# 1. Применяем наш новый фильтр #}
@@ -98,3 +112,9 @@ eleventyNavigation:
   
 
   </div>
+
+
+
+{% block page_specific_scripts %}
+{{ viteAssetTags('assets/scripts/pagefind-init.js') | safe }}
+{% endblock %}

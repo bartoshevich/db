@@ -10,48 +10,41 @@
     "dev:eleventy": "cross-env ELEVENTY_ENV=development ELEVENTY_PORT=8080 npx @11ty/eleventy --serve --quiet",
     "dev:debug": "concurrently \"npm run dev:vite\" \"npm run dev:eleventy:debug\" --names \"🔥vite,🐛11ty\" --prefix-colors \"blue,yellow\" --kill-others-on-fail",
     "dev:eleventy:debug": "cross-env ELEVENTY_ENV=development DEBUG=Eleventy* npx @11ty/eleventy --serve",
-    
     "_comment_build": "=== СБОРКА - ИСПРАВЛЕНО ===",
-    "build": "npm run clean && npm run build:vite && npm run build:sw && npm run build:eleventy",
+    "build": "npm run clean && npm run build:vite && npm run build:sw && npm run build:eleventy && npm run build:search",
     "build:vite": "cross-env NODE_ENV=production vite build",
     "build:sw": "cross-env NODE_ENV=production vite build --config vite.config.sw.js",
     "build:eleventy": "cross-env ELEVENTY_ENV=production npx @11ty/eleventy",
     "build:analyze": "npm run build:vite -- --mode analyze",
-    
+    "build:search": "pagefind --site _site --output-path _site/pagefind",
     "_comment_preview": "=== ПРЕДПРОСМОТР ===",
     "preview": "npm run build && npm run preview:serve",
     "preview:serve": "http-server _site -p 4173 -c-1 --cors",
     "preview:vite": "vite preview",
-    
     "_comment_utils": "=== УТИЛИТЫ ===",
     "clean": "rimraf _site",
     "clean:full": "rimraf _site node_modules/.vite .eleventy-cache",
     "serve": "http-server _site -p 8000 -c-1",
-    
     "_comment_quality": "=== КАЧЕСТВО КОДА ===",
     "lint": "npm run lint:js && npm run lint:css",
     "lint:js": "eslint 'src/**/*.js' 'scripts/**/*.js' '*.js'",
     "lint:css": "stylelint 'src/**/*.{css,scss}'",
     "lint:fix": "npm run lint:js -- --fix && npm run lint:css -- --fix",
     "format": "prettier --write 'src/**/*.{js,css,scss,md,njk}' '*.{js,json,md}'",
-    
     "_comment_test": "=== ТЕСТИРОВАНИЕ ===",
     "test": "npm run build && npm run test:links && npm run test:integration",
     "test:links": "node scripts/test-links.js",
     "test:integration": "node scripts/test-integration.js",
     "test:lighthouse": "node scripts/lighthouse-test.js",
-    
     "_comment_deploy": "=== РАЗВЕРТЫВАНИЕ ===",
     "deploy:netlify": "npm run build && netlify deploy --prod --dir=_site",
     "deploy:preview": "npm run build && netlify deploy --dir=_site",
-    
     "_comment_maintenance": "=== ОБСЛУЖИВАНИЕ ===",
     "check-deps": "npm audit && npm outdated",
     "update-deps": "npm update",
     "health-check": "node scripts/health-check.js",
     "validate:sw": "node scripts/validate-sw.js"
   },
-  
   "keywords": [
     "eleventy",
     "vite",
@@ -103,6 +96,7 @@
     "markdown-it": "^14.1.0",
     "markdown-it-anchor": "^9.2.0",
     "nunjucks": "^3.2.4",
+    "pagefind": "^1.4.0",
     "postcss": "^8.5.6",
     "postcss-nesting": "^13.0.2",
     "prettier": "^3.6.2",

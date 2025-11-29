@@ -27,8 +27,24 @@ const navigationErrorHandler = async () => {
 };
 
 registerRoute(new NavigationRoute(navigationStrategy, {
+   denylist: [/^\/pagefind\//],
   errorHandler: navigationErrorHandler
 }));
+
+
+registerRoute(
+  ({ url }) => url.pathname.startsWith('/pagefind/'),
+  new StaleWhileRevalidate({
+    cacheName: 'pagefind-index',
+    plugins: [
+      new CacheableResponsePlugin({ statuses: [0, 200] }),
+      new ExpirationPlugin({
+        maxEntries: 50,
+        maxAgeSeconds: 60 * 60 * 24 * 30, // 30 дней
+      }),
+    ],
+  })
+);
 
 // --- СТРАТЕГИИ ДЛЯ АССЕТОВ ---
 

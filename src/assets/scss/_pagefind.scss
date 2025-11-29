@@ -1,0 +1,335 @@
+@use './variables' as v;
+
+/* ==========================================
+   PAGEFIND SEARCH - ИНТЕГРАЦИЯ
+   ========================================== */
+
+/* --- КОНТЕЙНЕР ПОИСКА --- */
+.blog-search {
+  margin-block: var(--space-m) var(--space-l); 
+  max-width: 670px; 
+}
+
+/* --- ACCESSIBILITY: VISUALLY HIDDEN LABEL --- */
+.visually-hidden {
+  clip: rect(1px, 1px, 1px, 1px);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  z-index: -1000;
+  -ms-user-select: none;
+  -webkit-user-select: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* ==========================================
+   СЛУЖЕБНЫЕ СООБЩЕНИЯ
+   ========================================== */
+
+/* --- ИНДИКАТОР ЗАГРУЗКИ --- */
+.pagefind-loading {
+  padding: var(--space-2xs); // 8px
+  color: var(--secondary-text-colour);
+  font-size: var(--step--1);
+}
+
+/* --- СООБЩЕНИЕ DEV-РЕЖИМА --- */
+.pagefind-dev-message {
+  background-color: var(--color-toc-ui-element-background);
+  padding: var(--space-m); // 24px
+  border-radius: var(--radius-m);
+  border: 1px solid var(--gray);
+  margin-bottom: var(--space-m); // 24px
+
+  p {
+    margin: 0;
+    color: var(--secondary-text-colour);
+    font-size: var(--step--1);
+    line-height: 1.6;
+  }
+
+  strong {
+    color: var(--text-colour);
+  }
+
+  code {
+    display: inline-block;
+    margin-top: var(--space-2xs); // 8px
+    background: var(--selected-bg-color);
+    padding: var(--space-3xs) var(--space-2xs); // 4px 8px
+    border-radius: var(--radius-s);
+    font-family: v.$family-monospace;
+    font-size: 0.9em;
+  }
+}
+
+/* --- СООБЩЕНИЕ ОБ ОШИБКЕ --- */
+.pagefind-error-message {
+  background-color: var(--color-toc-ui-element-background);
+  padding: var(--space-m); // 24px
+  border-radius: var(--radius-m);
+  border: 1px solid var(--gray);
+  margin-bottom: var(--space-m); // 24px
+
+  p {
+    margin: 0;
+    color: var(--secondary-text-colour);
+  }
+}
+
+/* ==========================================
+   PAGEFIND UI - КАСТОМИЗАЦИЯ
+   ========================================== */
+
+/* --- КОНТЕЙНЕР --- */
+#blog-search-container {
+  width: 100%;
+}
+
+/* --- ПОЛЕ ПОИСКА --- */
+.pagefind-ui__form {
+  position: relative;
+}
+
+.pagefind-ui__search-input {
+  width: 100%;
+  padding: var(--space-2xs) var(--space-xs); // 8px 16px (как у кнопок)
+  padding-right: var(--space-2xl); // 64px для кнопки очистки
+  
+  font-family: v.$family-sans-serif;
+  font-size: var(--step-0);
+  font-weight: 400;
+  line-height: 1.5;
+  
+  color: var(--text-colour);
+  background-color: var(--background-color);
+  
+  border: 1px solid var(--gray);
+  border-radius: var(--radius-m);
+  
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+  
+  &::placeholder {
+    color: var(--secondary-text-colour);
+    opacity: 0.7;
+  }
+  
+  &:focus {
+    outline: none;
+    border-color: var(--link);
+    box-shadow: 0 0 0 3px var(--link-opacity-05);
+  }
+  
+  &:focus-visible {
+    outline: 2px solid var(--link);
+    outline-offset: 2px;
+  }
+}
+
+/* --- КНОПКА ОЧИСТКИ --- */
+.pagefind-ui__search-clear {
+  position: absolute;
+  right: var(--space-2xs); // 8px
+  top: 50%;
+  transform: translateY(-50%);
+  
+  padding: var(--space-3xs); // 4px
+  
+  background: transparent;
+  border: none;
+  border-radius: var(--radius-s);
+  
+  color: var(--secondary-text-colour);
+  cursor: pointer;
+  
+  transition: color 0.2s ease, background-color 0.2s ease;
+  
+  &:hover {
+    color: var(--text-colour);
+    background-color: var(--selected-bg-color);
+  }
+  
+  &:focus-visible {
+    outline: 2px solid var(--link);
+    outline-offset: 2px;
+  }
+}
+
+/* --- КОНТЕЙНЕР РЕЗУЛЬТАТОВ --- */
+.pagefind-ui__results {
+  margin-top: var(--space-m); // 24px
+}
+
+/* --- ОДИН РЕЗУЛЬТАТ --- */
+.pagefind-ui__result {
+  margin-bottom: var(--space-m); 
+  padding: var(--space-xs); 
+  
+  background-color: var(--background-color);
+  border: 1px solid var(--gray);
+  border-radius: var(--radius-m);
+  
+  transition: 
+    border-color 0.2s ease,
+    box-shadow 0.3s cubic-bezier(0.25, 0.8, 0.25, 1),
+    transform 0.2s ease;
+  
+  &:hover {
+    border-color: var(--link);
+    box-shadow: var(--toc-shadow-hover);
+    transform: translateY(-2px);
+  }
+  
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.pagefind-ui__result-link {
+  text-decoration: none;
+  display: block;
+}
+
+/* --- ЗАГОЛОВОК РЕЗУЛЬТАТА --- */
+.pagefind-ui__result-title {
+  font-size: var(--step-1);
+  font-weight: 600;
+  line-height: 1.3;
+  margin-bottom: var(--space-2xs); // 8px
+  
+  color: var(--text-colour);
+  
+  &:hover {
+    color: var(--link-hover);
+  }
+}
+
+/* --- ВЫДЕРЖКА ИЗ ТЕКСТА --- */
+.pagefind-ui__result-excerpt {
+  font-size: var(--step--1);
+  line-height: 1.6;
+  color: var(--secondary-text-colour);
+  
+  mark {
+    background-color: var(--selected-bg-color);
+    color: var(--text-colour);
+    font-weight: 600;
+    padding: 0 var(--space-3xs); // 0 4px
+    border-radius: 2px;
+  }
+}
+
+/* --- МЕТАДАННЫЕ --- */
+.pagefind-ui__result-meta {
+  margin-top: var(--space-2xs); // 8px
+  font-size: var(--step--1);
+  color: var(--secondary-text-colour);
+}
+
+/* --- СООБЩЕНИЕ "НИЧЕГО НЕ НАЙДЕНО" --- */
+.pagefind-ui__message {
+  padding: var(--space-m); // 24px
+  margin-top: var(--space-m); // 24px
+  
+  background-color: var(--color-toc-ui-element-background);
+  border: 1px solid var(--gray);
+  border-radius: var(--radius-m);
+  
+  text-align: center;
+  font-size: var(--step-0);
+  color: var(--secondary-text-colour);
+}
+
+/* --- ИНДИКАТОР ЗАГРУЗКИ PAGEFIND UI --- */
+.pagefind-ui__loading {
+  padding: var(--space-xs); // 16px
+  text-align: center;
+  color: var(--secondary-text-colour);
+  font-size: var(--step--1);
+}
+
+/* --- КНОПКА "ПОКАЗАТЬ ЕЩЁ" --- */
+.pagefind-ui__button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  
+  margin-top: var(--space-m); // 24px
+  padding: var(--space-2xs) var(--space-m); // 8px 24px (как у .button-secondary)
+  
+  font-family: v.$family-sans-serif;
+  font-size: var(--step-0);
+  font-weight: 500;
+  line-height: 1.2;
+  
+  background-color: transparent;
+  border: 1px solid var(--btn-secondary-border);
+  border-radius: var(--radius-m);
+  color: var(--btn-secondary-text);
+  
+  cursor: pointer;
+  
+  transition: 
+    background-color 0.2s ease,
+    border-color 0.2s ease,
+    transform 0.3s cubic-bezier(0.25, 0.8, 0.25, 1),
+    box-shadow 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  
+  &:hover {
+    border-color: transparent;
+    background-color: var(--btn-primary-bg);
+    transform: scale(1.02);
+  }
+  
+  &:active {
+    opacity: 0.6;
+    transform: scale(0.98);
+    box-shadow: none;
+  }
+  
+  &:focus-visible {
+    outline: 2px solid var(--link);
+    outline-offset: 2px;
+  }
+}
+
+/* ==========================================
+   RESPONSIVE
+   ========================================== */
+
+@media (max-width: v.$breakpoint-small) {
+  .blog-search {
+    margin-block: var(--space-xs) var(--space-m); // 16px 24px
+  }
+  
+  .pagefind-ui__result {
+    padding: var(--space-2xs); // 8px (меньше на мобильных)
+  }
+  
+  .pagefind-ui__result-title {
+    font-size: var(--step-0);
+  }
+  
+  .pagefind-dev-message {
+    padding: var(--space-xs); // 16px
+    
+    code {
+      display: block;
+      margin-top: var(--space-2xs); // 8px
+    }
+  }
+}
+
+/* ==========================================
+   ТЕМНАЯ ТЕМА
+   ========================================== */
+
+html[data-theme="dark"] {
+  .pagefind-ui__result-excerpt mark {
+    background-color: var(--selected-bg-color);
+    color: var(--text-colour);
+  }
+}

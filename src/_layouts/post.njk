@@ -1,7 +1,7 @@
 {% extends "default.njk" %}
  
       {% block main_content %}
-        <article class="full-bleed row-gap--m">
+        <article class="full-bleed row-gap--m" data-pagefind-body>
         {% include "post__header.njk" %}
     
   {{ content | nbspPrepositions | safe  }}
