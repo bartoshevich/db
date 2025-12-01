@@ -334,50 +334,7 @@ export default {
       editor: {
         "@id": "https://bartoshevich.by/about/#person"
       }
-    },
-    barsanOrganization: {
-      "@type": [
-        "Organization", "ProfessionalService"
-      ],
-      "@id": "https://barsan.kz#organization",
-      name: "Агентство маркетинговых решений BARSAN",
-      alternateName: [
-        "BARSAN Agency", "БАРСАН"
-      ],
-      legalName: "ТОО «Агентство маркетинговых решений BARSAN»",
-      url: "https://barsan.kz/",
-      foundingDate: "2024-01-05",
-      priceRange: "$$",
-      telephone: "+77783193022",
-      logo: {
-        "@type": "ImageObject",
-        url: "https://barsan.kz/img/logo.svg",
-        width: 217,
-        height: 47,
-        encodingFormat: "image/svg+xml"
-      },
-      image: {
-        "@type": "ImageObject",
-        url: "https://res.cloudinary.com/bartoshevich/image/upload/q_auto,f_auto/v1760212197/barsan/tizers/agency.jpg",
-        contentUrl: "https://res.cloudinary.com/bartoshevich/image/upload/q_auto,f_auto/v1760212197/barsan/tizers/agency.jpg",
-        width: 1200,
-        height: 630
-      },
-      founder: {
-        "@id": "https://bartoshevich.by/about/#person"
-      },
-      address: {
-        "@type": "PostalAddress",
-        streetAddress: "Сыганак, 54А",
-        addressLocality: "Astana",
-        postalCode: "010000",
-        addressCountry: "KZ",
-        addressRegion: "Astana"
-      },
-        sameAs: [
-        "https://www.linkedin.com/company/barsanagency/"
-      ],
-      areaServed: ["KZ", "BY"]
     }
+ 
   }
 };
