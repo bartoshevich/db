@@ -129,14 +129,43 @@
 
   {# Перебираем каждую цитату из front matter #}
   {% for citation in citations %}
-    {# 1. Собираем базовый объект цитаты, обязательные поля #}
+    {# 1. Базовый объект цитаты без url/contentUrl — их добавим ниже в зависимости от типа #}
     {% set citationObject = {
       "@type": citation.type,
-      "name": citation.name,
-      "url": citation.url
+      "name": citation.name
     } %}
 
-    {# 2. Обогащаем объект авторами (может быть несколько) #}
+    {# 2. URL / contentUrl / embedUrl в зависимости от типа #}
+    {% if citation.type == "VideoObject" %}
+      {# Для видео Google просит contentUrl или embedUrl #}
+      {% if citation.url %}
+        {# используем url как contentUrl, если отдельного contentUrl нет #}
+        {% set citationObject = citationObject | setAttribute("contentUrl", citation.url) %}
+      {% endif %}
+      {% if citation.embedUrl %}
+        {% set citationObject = citationObject | setAttribute("embedUrl", citation.embedUrl) %}
+      {% endif %}
+    {% else %}
+      {# Для остальных типов достаточно обычного url #}
+      {% if citation.url %}
+        {% set citationObject = citationObject | setAttribute("url", citation.url) %}
+      {% endif %}
+    {% endif %}
+
+    {# 3. Описание (обязательно для VideoObject) #}
+    {% if citation.description %}
+      {% set citationObject = citationObject | setAttribute("description", citation.description) %}
+    {% elseif citation.type == "VideoObject" %}
+      {# fallback, чтобы не было ворнинга "Отсутствует поле description" #}
+      {% set citationObject = citationObject | setAttribute("description", citation.name) %}
+    {% endif %}
+
+    {# 3.1. Миниатюра для видео (не обязательно, но полезно) #}
+    {% if citation.type == "VideoObject" and citation.thumbnailUrl %}
+      {% set citationObject = citationObject | setAttribute("thumbnailUrl", citation.thumbnailUrl) %}
+    {% endif %}
+
+    {# 4. Обогащаем объект авторами (может быть несколько) #}
     {% if citation.author and citation.author | length > 0 %}
       {% set authorArray = [] %}
       {% for auth in citation.author %}
@@ -148,7 +177,7 @@
       {% set citationObject = citationObject | setAttribute("author", authorArray) %}
     {% endif %}
 
-    {# 3. Обогащаем объект издателем (если есть) #}
+    {# 5. Обогащаем объект издателем (если есть) #}
     {% if citation.publisher %}
       {% set citationObject = citationObject | setAttribute("publisher", {
         "@type": "Organization",
@@ -156,23 +185,23 @@
       }) %}
     {% endif %}
 
-    {# 4. Добавляем специфичные поля для разных типов #}
+    {# 6. uploadDate c корректным ISO-форматом и часовым поясом #}
     {% if citation.type == "VideoObject" and citation.uploadDate %}
-      {% set citationObject = citationObject | setAttribute("uploadDate", citation.uploadDate) %}
+      {# Предполагаем, что citation.uploadDate — дата/строка,
+         которую isoDate умеет преобразовать в ISO 8601 с таймзоной #}
+      {% set citationObject = citationObject | setAttribute("uploadDate", citation.uploadDate | isoDate) %}
     {% endif %}
-    
-    {# Здесь можно будет добавить другие типы, например, Article с полем datePublished #}
-    {# {% if citation.type == "Article" and citation.datePublished %} ... {% endif %} #}
 
-    {# 5. Добавляем готовый объект цитаты в наш массив #}
+    {# 7. Добавляем готовый объект цитаты в наш массив #}
     {% set _ = citationObjects.push(citationObject) %}
   {% endfor %}
 
-  {# 6. Привязываем массив цитат к основной статье (BlogPosting) #}
+  {# 8. Привязываем массив цитат к основной статье (BlogPosting) #}
   {% if citationObjects | length > 0 %}
     {% set blogPosting = blogPosting | setAttribute("citation", citationObjects) %}
   {% endif %}
 {% endif %}
+
 
 
 

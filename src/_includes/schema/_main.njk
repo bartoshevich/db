@@ -26,9 +26,13 @@
 {# === ВЫВОД JSON-LD === #}
 {% if schemaParts | length > 0 %}
   <script type="application/ld+json">
-    {{ {
-      "@context": "https://schema.org",
-      "@graph": schemaParts
-    } | jsonify | safe }}
+{{ {
+  "@context": "https://schema.org",
+  "@graph": schemaParts
+}
+  | jsonify
+  | replace('</script', '<\\/script')  
+  | safe
+}}
   </script>
 {% endif %}
