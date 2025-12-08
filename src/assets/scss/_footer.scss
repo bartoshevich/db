@@ -47,6 +47,10 @@
     /* ~14px */
     color: var(--secondary-text-colour);
     margin: 0;
+
+    &__main-header {
+        justify-content: start;
+    }
 }
 
 .credential {
@@ -221,6 +225,11 @@
         flex-direction: column;
         gap: var(--space-3xs);
         align-items: center;
+
+         &__main-header {
+        justify-content: start;
+        align-items: start;
+    }
     }
 
     .credential::after {
