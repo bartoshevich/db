@@ -32,3 +32,10 @@ Thumbs.db
 # Кэш Eleventy
 .eleventy-cache/
 
+# Content Strategy Assistant
+content-plans/
+scripts/content-strategist-old.js
+
+#Claude
+CLAUDE.md
+.claude/

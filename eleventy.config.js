@@ -939,6 +939,7 @@ eleventyConfig.addFilter('readingTimeISO', function (text) {
     `${inputDir}/_redirects`,
     `${inputDir}/netlify.toml`,
     `${inputDir}/CNAME`,
+    `llms.txt`,
   ];
 
   passthroughFiles.forEach(file => {
