@@ -259,7 +259,7 @@ export default {
         }
       ],
       sameAs: [
-        "https://www.linkedin.com/in/bartoshevich/", "https://mastodon.social/@bartoshevich", "https://www.facebook.com/dmitry.bartoshevich", "https://t.me/+OuzxNOZg-g44ZjYy", "https://barsan.kz/about-us#bartoshevich"
+        "https://www.linkedin.com/in/bartoshevich/", "https://mastodon.social/@bartoshevich", "https://www.facebook.com/dmitry.bartoshevich", "https://t.me/+OuzxNOZg-g44ZjYy", "https://barsan.kz/about-us/#bartoshevich"
       ],
 
       hasCredential: [
@@ -324,7 +324,7 @@ export default {
         "@id": "https://bartoshevich.by/about/#person"
       },
       publisher: {
-        "@id": "https://bartoshevich.by/#organization"
+        "@id": "https://bartoshevich.by/about/#person"
       },
       editor: {
         "@id": "https://bartoshevich.by/about/#person"

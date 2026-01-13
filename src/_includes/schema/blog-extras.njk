@@ -57,12 +57,23 @@
     "dateModified": last_modified_at | default(config.buildDate) | isoDate,
     "isPartOf": { "@id": site.url ~ "#website" },
     "author": { "@id": "https://bartoshevich.by/about/#person" },
-    "publisher": { "@id": "https://bartoshevich.by/#organization" },
+    "publisher": { "@id": "https://bartoshevich.by/about/#person" },
     "mainEntity": blogItemList,
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": {
+        "@type": "EntryPoint",
+        "urlTemplate": site.url ~ "/blog/?q={search_term_string}"
+      },
+      "query-input": "required name=search_term_string"
+    },
     "hasPart": [
       { "@id": "https://bartoshevich.by/#subscription" }
     ]
   } %}
+  {% if breadcrumbId %}
+    {% set finalBlogObject = finalBlogObject | setAttribute("breadcrumb", { "@id": breadcrumbId }) %}
+  {% endif %}
 
   {# 3. Добавляем этот единственный, но полный объект в граф #}
   {% set _ = schemaParts.push(finalBlogObject) %}
@@ -79,7 +90,7 @@
     "url": site.url ~ "/blog/",
     "name": "Блог Дмитрия Бартошевича: маркетинг, стратегия, брендинг",
     "author": { "@id": "https://bartoshevich.by/about/#person" },
-    "publisher": { "@id": "https://bartoshevich.by/#organization" }
+    "publisher": { "@id": "https://bartoshevich.by/about/#person" }
   } %}
   {% set _ = schemaParts.push(blogSchema) %}
 
@@ -96,6 +107,9 @@
     "isPartOf": { "@id": "https://bartoshevich.by/#website" },
     "mainEntity": { "@id": (page.url | absoluteUrl(site.url)) ~ "#post" }
   } %}
+  {% if breadcrumbId %}
+    {% set webPage = webPage | setAttribute("breadcrumb", { "@id": breadcrumbId }) %}
+  {% endif %}
 
 
   {# ШАГ 2.3: базовый BlogPosting (создаём СРАЗУ после WebPage) #}
@@ -106,7 +120,7 @@
     "url": (page.url | absoluteUrl(site.url)),
     "headline": (title.val or title) | decodeEntities | replace('"', '\\"'),
     "author": { "@id": "https://bartoshevich.by/about/#person" },
-    "publisher": { "@id": "https://bartoshevich.by/#organization" },
+    "publisher": { "@id": "https://bartoshevich.by/about/#person" },
     "description": (description.val or description) | decodeEntities | replace('"', '\\"'),
     "image": site.url ~ imageUrl,
     "datePublished": page.date | isoDate,

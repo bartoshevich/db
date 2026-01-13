@@ -16,34 +16,64 @@
     "dateModified": last_modified_at | default(config.buildDate) | isoDate,
     "isPartOf": { "@id": "https://bartoshevich.by/#website" }
   } %}
+  {% set currentPage = null %}
 
   {# 2) Специализация по типам страниц #}
   {% if page.url.startsWith('/blog/') and page.url != '/blog/' %}
 
-   
+    {# Для /blog/ и постов схема собирается в blog-extras.njk #}
 
   {% elif page.url == '/about/' %}
-    {% set aboutPage = webPage | merge({ 
+    {% set currentPage = webPage | merge({
       "@type": "ProfilePage", 
       "mainEntity": { "@id": "https://bartoshevich.by/about/#person" },
       "about": { "@id": "https://bartoshevich.by/about/#person" }
     }) %}
-    {% set _ = schemaParts.push(aboutPage) %}
 
   {% elif page.url == '/contact/' %}
-    {% set contactPage = webPage | merge({ "@type": "ContactPage", "mainEntity": { "@id": "https://bartoshevich.by/about/#person" } }) %}
-    {% set _ = schemaParts.push(contactPage) %}
+    {% set currentPage = webPage | merge({ "@type": "ContactPage", "mainEntity": { "@id": "https://bartoshevich.by/about/#person" } }) %}
 
   {% elif page.url == '/cases/' %}
-    {% set collectionPage = webPage | merge({ "@type": "CollectionPage", "creator": { "@id": "https://bartoshevich.by/about/#person" } }) %}
-    {% set _ = schemaParts.push(collectionPage) %}
+    {% set currentPage = webPage | merge({ "@type": "CollectionPage", "creator": { "@id": "https://bartoshevich.by/about/#person" } }) %}
 
   {% else %}
     {# Любая другая страница — просто WebPage #}
-    {% set _ = schemaParts.push(webPage) %}
+    {% set currentPage = webPage %}
   {% endif %}
 
   {# 3) Breadcrumbs #}
   {% include "schema/breadcrumbs.njk" %}
+
+  {% if currentPage %}
+    {% if breadcrumbId %}
+      {% set currentPage = currentPage | setAttribute("breadcrumb", { "@id": breadcrumbId }) %}
+    {% endif %}
+    {% set _ = schemaParts.push(currentPage) %}
+  {% endif %}
+
+{% else %}
+
+  {# Главная страница — отдельный узел HomePage с датой обновления #}
+  {% set homePage = {
+    "@type": "HomePage",
+    "@id": (page.url | absoluteUrl(site.url)),
+    "url": (page.url | absoluteUrl(site.url)),
+    "name": (title.val or title) | decodeEntities | replace('"', '\\"'),
+    "description": (description.val or description) | decodeEntities | replace('"', '\\"'),
+    "inLanguage": "ru",
+    "datePublished": page.date | isoDate,
+    "dateModified": last_modified_at | default(config.buildDate) | isoDate,
+    "isPartOf": { "@id": "https://bartoshevich.by/#website" }
+  } %}
+  {% if image %}
+    {% set primaryImageUrl = image | absoluteUrl(site.url) %}
+    {% set homePage = homePage | setAttribute("primaryImageOfPage", { "@type": "ImageObject", "url": primaryImageUrl }) %}
+  {% endif %}
+  {% set currentPage = homePage %}
+  {% include "schema/breadcrumbs.njk" %}
+  {% if breadcrumbId %}
+    {% set homePage = homePage | setAttribute("breadcrumb", { "@id": breadcrumbId }) %}
+  {% endif %}
+  {% set _ = schemaParts.push(homePage) %}
 
 {% endif %}

@@ -89,6 +89,7 @@ async function initializePagefind() {
     // Добавляем debounce и управление видимостью
     setupSearchDebounce();
     setupSearchVisibilityToggle();
+    applyInitialQueryFromUrl();
 
   } catch (error) {
     console.error('Ошибка загрузки Pagefind UI:', error);
@@ -140,6 +141,23 @@ function setupSearchVisibilityToggle() {
       });
     }
   }, 200);
+}
+
+/**
+ * Подхватываем поисковый запрос из URL (?q=...)
+ */
+function applyInitialQueryFromUrl() {
+  setTimeout(() => {
+    const searchInput = document.querySelector('#blog-search-container input[type="search"]');
+    if (!searchInput) return;
+
+    const params = new URL(window.location.href).searchParams;
+    const query = params.get('q');
+    if (!query) return;
+
+    searchInput.value = query;
+    searchInput.dispatchEvent(new Event('input', { bubbles: true }));
+  }, 250);
 }
 
 /**
