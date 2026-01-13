@@ -3,7 +3,7 @@
   publish = "_site"
 
 [build.environment]
-  NODE_VERSION = "20"
+  NODE_VERSION = "22"
   ELEVENTY_ENV = "production"
   SW_ENABLED = "true"
 
@@ -20,5 +20,3 @@
   [headers.values]
     Cache-Control = "public, max-age=31536000, immutable"
     Content-Type = "application/javascript; charset=utf-8"
-
-
