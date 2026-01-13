@@ -304,64 +304,14 @@ export default {
       alternateName: ["BARSAN Agency", "БАРСАН"],
       legalName: "ТОО «Агентство маркетинговых решений BARSAN»",
       url: "https://barsan.kz",
-      logo: {
-        "@type": "ImageObject",
-        "@id": "https://barsan.kz#logo",
-        url: "https://barsan.kz/img/logo.svg",
-        contentUrl: "https://barsan.kz/img/logo.svg",
-        width: 217,
-        height: 47,
-        caption: "Логотип BARSAN",
-        encodingFormat: "image/svg+xml"
-      },
-      image: {
-        "@type": "ImageObject",
-        "@id": "https://barsan.kz#mainImage",
-        url: "https://res.cloudinary.com/bartoshevich/image/upload/q_auto,f_auto/v1760212197/barsan/tizers/agency.jpg",
-        contentUrl: "https://res.cloudinary.com/bartoshevich/image/upload/q_auto,f_auto/v1760212197/barsan/tizers/agency.jpg",
-        width: 1200,
-        height: 630,
-        caption: "BARSAN маркетинговое агентство"
-      },
-      email: "solutions@barsan.kz",
-      foundingDate: "2024-01-05",
-      address: {
-        "@type": "PostalAddress",
-        "@id": "https://barsan.kz#address",
-        streetAddress: "Сыганак, 54А",
-        addressLocality: "Астана",
-        postalCode: "010000",
-        addressCountry: "KZ",
-        addressRegion: "Астана"
-      },
       sameAs: [
-        "https://www.linkedin.com/in/bartoshevich/", "https://mastodon.social/@bartoshevich", "https://www.facebook.com/dmitry.bartoshevich", "https://t.me/+OuzxNOZg-g44ZjYy", "https://barsan.kz/about-us/#bartoshevich"
+       "https://barsan.kz", "https://www.instagram.com/barsanagency/", "https://www.linkedin.com/company/barsanagency/"
       ],
       founder: {
         "@id": "https://bartoshevich.by/about/#person"
       }
     },
 
-    brandOrganization: {
-      "@type": "Organization",
-      "@id": "https://bartoshevich.by/#organization",
-      name: "bartoshevich.by",
-      logo: {
-        "@type": "ImageObject",
-        "@id": "https://bartoshevich.by/#logo",
-        url: "https://bartoshevich.by/assets/images/logo/bartoshevich@1x1.jpg",
-        width: 1200,
-        height: 1200
-      },
-      contactPoint: [
-        {
-          "@type": "ContactPoint",
-          contactType: "editorial",
-          email: "mailto:dmitry@bartoshevich.by",
-          availableLanguage: ["ru", "be", "en"]
-        }
-      ]
-    },
     webSite: {
       "@type": "WebSite",
       "@id": "https://bartoshevich.by/#website",
