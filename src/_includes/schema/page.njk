@@ -23,7 +23,11 @@
    
 
   {% elif page.url == '/about/' %}
-    {% set aboutPage = webPage | merge({ "@type": "AboutPage", "mainEntity": { "@id": "https://bartoshevich.by/about/#person" } }) %}
+    {% set aboutPage = webPage | merge({ 
+      "@type": "ProfilePage", 
+      "mainEntity": { "@id": "https://bartoshevich.by/about/#person" },
+      "about": { "@id": "https://bartoshevich.by/about/#person" }
+    }) %}
     {% set _ = schemaParts.push(aboutPage) %}
 
   {% elif page.url == '/contact/' %}

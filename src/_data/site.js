@@ -48,7 +48,7 @@ export default {
       "@type": "Person",
       "@id": "https://bartoshevich.by/about/#person",
       mainEntityOfPage: {
-        "@type": "WebPage",
+        "@type": ["ProfilePage", "WebPage"],
         "@id": "https://bartoshevich.by/about/"
       },
       name: "Дмитрий Бартошевич",
@@ -295,6 +295,51 @@ export default {
           }
         }
       ]
+    },
+
+    barsanOrganization: {
+      "@type": ["Organization", "ProfessionalService"],
+      "@id": "https://barsan.kz#organization",
+      name: "Агентство маркетинговых решений BARSAN",
+      alternateName: ["BARSAN Agency", "БАРСАН"],
+      legalName: "ТОО «Агентство маркетинговых решений BARSAN»",
+      url: "https://barsan.kz",
+      logo: {
+        "@type": "ImageObject",
+        "@id": "https://barsan.kz#logo",
+        url: "https://barsan.kz/img/logo.svg",
+        contentUrl: "https://barsan.kz/img/logo.svg",
+        width: 217,
+        height: 47,
+        caption: "Логотип BARSAN",
+        encodingFormat: "image/svg+xml"
+      },
+      image: {
+        "@type": "ImageObject",
+        "@id": "https://barsan.kz#mainImage",
+        url: "https://res.cloudinary.com/bartoshevich/image/upload/q_auto,f_auto/v1760212197/barsan/tizers/agency.jpg",
+        contentUrl: "https://res.cloudinary.com/bartoshevich/image/upload/q_auto,f_auto/v1760212197/barsan/tizers/agency.jpg",
+        width: 1200,
+        height: 630,
+        caption: "BARSAN маркетинговое агентство"
+      },
+      email: "solutions@barsan.kz",
+      foundingDate: "2024-01-05",
+      address: {
+        "@type": "PostalAddress",
+        "@id": "https://barsan.kz#address",
+        streetAddress: "Сыганак, 54А",
+        addressLocality: "Астана",
+        postalCode: "010000",
+        addressCountry: "KZ",
+        addressRegion: "Астана"
+      },
+      sameAs: [
+        "https://www.linkedin.com/in/bartoshevich/", "https://mastodon.social/@bartoshevich", "https://www.facebook.com/dmitry.bartoshevich", "https://t.me/+OuzxNOZg-g44ZjYy", "https://barsan.kz/about-us/#bartoshevich"
+      ],
+      founder: {
+        "@id": "https://bartoshevich.by/about/#person"
+      }
     },
 
     brandOrganization: {
