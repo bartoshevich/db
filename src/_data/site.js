@@ -304,6 +304,24 @@ export default {
       alternateName: ["BARSAN Agency", "БАРСАН"],
       legalName: "ТОО «Агентство маркетинговых решений BARSAN»",
       url: "https://barsan.kz",
+      address: {
+        "@type": "PostalAddress",
+        streetAddress: "ул. Сыганак, 54А",
+        addressLocality: "Астана",
+        addressCountry: "KZ"
+      },
+      areaServed: [
+        {
+          "@type": "Country",
+          name: "Казахстан",
+          sameAs: "https://en.wikipedia.org/wiki/Kazakhstan"
+        },
+        {
+          "@type": "Country",
+          name: "Беларусь",
+          sameAs: "https://en.wikipedia.org/wiki/Belarus"
+        }
+      ],
       sameAs: [
        "https://barsan.kz", "https://www.instagram.com/barsanagency/", "https://www.linkedin.com/company/barsanagency/"
       ],
