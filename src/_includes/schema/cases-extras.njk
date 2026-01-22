@@ -124,29 +124,29 @@
         {% set workSchema = workSchema | setAttribute("exampleOfWork", examplesArray) %}
       {% endif %}
 
-     
-    {# Добавляем отзыв, если есть #}
-{# Внутри цикла for work in client.works #}
-{% if work.review %} 
-  {% set quotationObject = {
-    "@type": "Quotation",
-    "@id": site.url ~ page.url ~ "#quote-" ~ client.id ~ "-" ~ loop.index, 
-    "text": work.review.text,
-    "datePublished": work.review.datePublished,
-    "spokenByCharacter": {
-      "@type": "Person",
-      "name": work.review.author,
-      "jobTitle": work.review.position
-    }
-  } %}
-  
-  {# Добавляем цитату в основной граф #}
-  {% set _ = schemaParts.push(quotationObject) %}
-  
-  {# СВЯЗЫВАЕМ CreativeWork с этой цитатой через СВОЙСТВО citation #}
-   {% set workSchema = workSchema | setAttribute("subjectOf", { "@id": quotationObject['@id'] }) %}
-{% endif %}
+      {# Массив для сбора всех CreativeWork, которые описывают эту работу #}
+      {% set subjectOfItems = [] %}
 
+      {# Добавляем отзыв (Quotation), если есть #}
+      {% if work.review %}
+        {% set quotationObject = {
+          "@type": "Quotation",
+          "@id": site.url ~ page.url ~ "#quote-" ~ client.id ~ "-" ~ loop.index,
+          "text": work.review.text,
+          "datePublished": work.review.datePublished,
+          "spokenByCharacter": {
+            "@type": "Person",
+            "name": work.review.author,
+            "jobTitle": work.review.position
+          }
+        } %}
+
+        {# Добавляем цитату в основной граф #}
+        {% set _ = schemaParts.push(quotationObject) %}
+
+        {# Добавляем ссылку на цитату в subjectOf (Quotation — это CreativeWork о данной работе) #}
+        {% set _ = subjectOfItems.push({ "@id": quotationObject['@id'] }) %}
+      {% endif %}
 
       {# Добавляем инициативы, если есть #}
       {% if work.initiatives and work.initiatives | length > 0 %}
@@ -158,7 +158,7 @@
       {% if work.article %}
         {% set articleSchema = {
           "@type": "Article",
-          "headline": (work.article.headline.val or work.article.headline)  | decodeEntities, 
+          "headline": (work.article.headline.val or work.article.headline) | decodeEntities,
           "name": work.article.title,
           "url": work.article.url,
           "author": work.article.author | default({"@id": "https://bartoshevich.by/about/#person"})
@@ -169,11 +169,19 @@
         {% endif %}
 
         {% if work.article.datePublished %}
-        {% set datePublished = work.article.datePublished | isoDate %}
-        {% set articleSchema = articleSchema | setAttribute("datePublished", datePublished) %}
+          {% set datePublished = work.article.datePublished | isoDate %}
+          {% set articleSchema = articleSchema | setAttribute("datePublished", datePublished) %}
+        {% endif %}
+
+        {# Добавляем статью в subjectOf (Article — это CreativeWork о данной работе) #}
+        {% set _ = subjectOfItems.push(articleSchema) %}
       {% endif %}
 
-        {% set workSchema = workSchema | setAttribute("subjectOf", articleSchema) %}
+      {# Устанавливаем subjectOf: один элемент или массив #}
+      {% if subjectOfItems | length == 1 %}
+        {% set workSchema = workSchema | setAttribute("subjectOf", subjectOfItems[0]) %}
+      {% elif subjectOfItems | length > 1 %}
+        {% set workSchema = workSchema | setAttribute("subjectOf", subjectOfItems) %}
       {% endif %}
 
       {# Добавляем схему работы #}

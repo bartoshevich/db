@@ -83,41 +83,46 @@ export default {
       award: ["Преквалификация консультанта по маркетингу (ЕБРР)"],
       subjectOf: [
         {
-          "@type": "ItemList",
+          "@type": "WebPage",
+          "@id": "https://bartoshevich.by/cases/",
           name: "Ключевые проекты Дмитрия Бартошевича",
-          itemListElement: [
-            {
-              "@type": "ListItem",
-              position: 1,
-              item: {
-                "@id": "https://bartoshevich.by/blog/razrabotka-koncepcii-brenda-hormann/"
+          description: "Портфолио кейсов и проектов по разработке брендов и маркетинговых стратегий",
+          mainEntity: {
+            "@type": "ItemList",
+            itemListElement: [
+              {
+                "@type": "ListItem",
+                position: 1,
+                item: {
+                  "@id": "https://bartoshevich.by/blog/razrabotka-koncepcii-brenda-hormann/"
+                }
+              }, {
+                "@type": "ListItem",
+                position: 2,
+                item: {
+                  "@id": "https://bartoshevich.by/blog/brand-strategy-flex-n-roll/"
+                }
+              }, {
+                "@type": "ListItem",
+                position: 3,
+                item: {
+                  "@id": "https://bartoshevich.by/blog/pes-global-brand-concept/"
+                }
+              }, {
+                "@type": "ListItem",
+                position: 4,
+                item: {
+                  "@id": "https://bartoshevich.by/blog/kejs-brend-giperlink/"
+                }
+              }, {
+                "@type": "ListItem",
+                position: 5,
+                item: {
+                  "@id": "https://bartoshevich.by/blog/spam-replacement/"
+                }
               }
-            }, {
-              "@type": "ListItem",
-              position: 2,
-              item: {
-                "@id": "https://bartoshevich.by/blog/brand-strategy-flex-n-roll/"
-              }
-            }, {
-              "@type": "ListItem",
-              position: 3,
-              item: {
-                "@id": "https://bartoshevich.by/blog/pes-global-brand-concept/"
-              }
-            }, {
-              "@type": "ListItem",
-              position: 4,
-              item: {
-                "@id": "https://bartoshevich.by/blog/kejs-brend-giperlink/"
-              }
-            }, {
-              "@type": "ListItem",
-              position: 5,
-              item: {
-                "@id": "https://bartoshevich.by/blog/spam-replacement/"
-              }
-            }
-          ]
+            ]
+          }
         }, {
           "@type": "Article",
           name: "Неадекваты и «холодная шаурма»: как работать с проблемными клиентами",
@@ -199,11 +204,6 @@ export default {
         }
       ],
 
-      owns: [
-        {
-          "@id": "https://barsan.kz#organization"
-        }
-      ],
       hasOccupation: [
         {
           "@type": "Occupation",
