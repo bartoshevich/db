@@ -380,6 +380,80 @@
 
 
 
+
+{# [BOOK] Обработка книги и рецензии #}
+{# [BOOK] Обработка книги и рецензии #}
+{% if book %}
+  {% set bookId = (page.url | absoluteUrl(site.url)) ~ "#book" %}
+  
+  {# Определяем основное имя: если есть русское, берем его, иначе fallback на text/original #}
+  {% set bookName = book.nameRu if book.nameRu else book.name %}
+  
+  {% set bookSchema = {
+    "@type": "Book",
+    "@id": bookId,
+    "name": bookName,
+    "image": site.url ~ book.image
+  } %}
+  
+  {# Если есть русское имя, то book.name (английское) записать в alternateName (если оно отличается) #}
+  {% if book.nameRu and book.name and book.name != book.nameRu %}
+     {% set bookSchema = bookSchema | setAttribute("alternateName", book.name) %}
+  {% endif %}
+
+  {# Логика для автора #}
+  {% set authorName = book.authorRu if book.authorRu else book.author %}
+  {% set authorObj = { "@type": "Person", "name": authorName } %}
+  
+  {% if book.authorRu and book.author and book.author != book.authorRu %}
+      {% set authorObj = authorObj | setAttribute("alternateName", book.author) %}
+  {% endif %}
+  
+  {% set bookSchema = bookSchema | setAttribute("author", authorObj) %}
+  
+  {% if book.isbn %}
+     {% set bookSchema = bookSchema | setAttribute("isbn", book.isbn) %}
+  {% endif %}
+  {% if book.sameAs %}
+     {% set bookSchema = bookSchema | setAttribute("sameAs", book.sameAs) %}
+  {% endif %}
+  
+  {% set _ = schemaParts.push(bookSchema) %}
+
+  {% if book.review %}
+    {% set reviewId = (page.url | absoluteUrl(site.url)) ~ "#review" %}
+    {% set reviewSchema = {
+       "@type": "Review",
+       "@id": reviewId,
+       "itemReviewed": { "@id": bookId },
+       "reviewRating": {
+         "@type": "Rating",
+         "ratingValue": book.review.rating,
+         "bestRating": 5,
+         "worstRating": 1
+       },
+       "reviewBody": book.review.body,
+       "author": { "@id": "https://bartoshevich.by/about/#person" }
+    } %}
+    {% set _ = schemaParts.push(reviewSchema) %}
+    
+    {# Linking to BlogPosting via hasPart #}
+    {% set reviewPart = { "@id": reviewId } %}
+    
+    {% if blogPosting.hasPart %}
+       {% if blogPosting.hasPart.length %} 
+          {% set _ = blogPosting.hasPart.push(reviewPart) %}
+       {% else %}
+          {% set newParts = [blogPosting.hasPart, reviewPart] %}
+          {% set blogPosting = blogPosting | setAttribute("hasPart", newParts) %}
+       {% endif %}
+    {% else %}
+       {% set blogPosting = blogPosting | setAttribute("hasPart", reviewPart) %}
+    {% endif %}
+  {% endif %}
+{% endif %}
+
+
   {# Обработка постов с фильмами #}
   {% if mainEntitySource == "films" and films and films.items %}
     {% set movieItems = [] %}
