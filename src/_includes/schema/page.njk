@@ -55,7 +55,7 @@
 
   {# Главная страница — отдельный узел HomePage с датой обновления #}
   {% set homePage = {
-    "@type": "HomePage",
+    "@type": "WebPage",
     "@id": (page.url | absoluteUrl(site.url)),
     "url": (page.url | absoluteUrl(site.url)),
     "name": (title.val or title) | decodeEntities | replace('"', '\\"'),

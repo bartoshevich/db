@@ -466,7 +466,7 @@
         "alternateName": film.title_en | replace('"', '\\"'),
         "image": film.image if film.image else "https://i.ytimg.com/vi/" ~ film.trailer_yt_id ~ "/maxresdefault.jpg",
         "description": film.description | replace('"', '\\"'),
-        "datePublished": film.year,
+        "datePublished": film.year | string,
         "director": { "@type": "Person", "name": film.director.name }
       } %}
 
