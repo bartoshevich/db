@@ -6,7 +6,7 @@
 
 {% set metaTitle = title | default(name) | default(site.title)  %}
 <title>{{ metaTitle | decodeEntities | safe }}</title>
-<meta name="description" content="{{ description | default(site.description)  | decodeEntities | safe  }}">
+<meta name="description" content="{{ description | default(site.description) | metaText }}">
 
 {% set pageUrl = page.url | absoluteUrl(site.url) %} 
 <link rel="canonical" href="{{ pageUrl | escape }}">
@@ -35,12 +35,12 @@
 {% set metaImage = image | default('/assets/images/main/bartoshevichby.png') %}
 <meta property="og:image" content="{{ metaImage | absoluteUrl(site.url) | escape }}"> 
 <meta property="og:site_name" content="bartoshevich.by"> 
-<meta property="og:description" content="{{ description | default(site.description)  | decodeEntities | safe  }}">
+<meta property="og:description" content="{{ description | default(site.description) | metaText }}">
 
 
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="{{ metaTitle  | safe | escape }}">
-<meta name="twitter:description" content="{{ description | default(site.description)  | decodeEntities | safe  }}">
+<meta name="twitter:description" content="{{ description | default(site.description) | metaText }}">
 <meta name="twitter:site" content="@dbartoshevich"> 
 <meta name="twitter:creator" content="@dbartoshevich"> 
 <meta name="twitter:image" content="{{ metaImage | absoluteUrl(site.url) | escape }}"> 

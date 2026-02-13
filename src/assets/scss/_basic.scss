@@ -21,6 +21,7 @@ blockquote {
   margin-top: var(--space-m); /* Исправлено с 0.9em */
 }
 
+
 .relative { position: relative; }
 .bold { font-weight: 700; }
 .text-color { color: v.$text-colour !important; }
@@ -33,7 +34,7 @@ blockquote {
 .center { text-align: center; }
 .right-align { text-align: right; }
 .justify { text-align: justify; }
-
+.smaller {font-size: smaller;}
 
 
 .separator {

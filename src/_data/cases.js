@@ -58,7 +58,7 @@ export default {
             {
               name: "Помощник в выборе ворот",
               image: {
-                url: "https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1614110807/site/helper-3.jpg",
+                url: "https://res.cloudinary.com/bartoshevich/image/upload/f_auto/q_auto/v1614110807/site/helper-3.jpg",
                 alt: "Альтернатива рекламной листовке. Идея - Дмитрий Бартошевич, верстка - Елизавета Мамчиц",
                 caption:
                   "Помощник в выборе ворот. Идея и текст — Дмитрий Бартошевич. Верстка — Елизавета Мамчиц",
@@ -82,9 +82,9 @@ export default {
         {
           name: "Координировал разработку промо сайта",
           image: {
-            url: "https://res.cloudinary.com/bartoshevich/image/upload/f_auto,g_auto/v1648378360/site/hormann_site_3--light.jpg",
+            url: "https://res.cloudinary.com/bartoshevich/image/upload/f_auto/g_auto/v1648378360/site/hormann_site_3--light.jpg",
             darkModeUrl:
-              "https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1648378360/site/hormann_site_3--dark.jpg",
+              "https://res.cloudinary.com/bartoshevich/image/upload/f_auto/q_auto/v1648378360/site/hormann_site_3--dark.jpg",
             alt: "Кейс: дизайн и структура сайта Hörmann под руководством Дмитрия Бартошевича",
             caption: "Стартовая версия сайта. Разработчик — Giperlink",
             width: 2000,
@@ -103,7 +103,7 @@ export default {
         {
           title: "Заменил рекламные листовки на помощники в выборе",
           url: "https://bartoshevich.by/blog/spam-replacement/",
-          image: "https://res.cloudinary.com/bartoshevich/image/upload/w_1040/f_auto,q_auto:best/v1614110807/site/helper-2.jpg",
+          image: "https://res.cloudinary.com/bartoshevich/image/upload/w_1040/f_auto/q_auto:best/v1614110807/site/helper-2.jpg",
           type: "Article",
           datePublished: "2021-02-24" 
         }
@@ -158,7 +158,7 @@ export default {
         {
           name: "Cоздал концепцию бренда и стратегию развития",
           image: {
-            url: "https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1692002941/site/pes/pes-global_mag.png",
+            url: "https://res.cloudinary.com/bartoshevich/image/upload/f_auto/q_auto/v1692002941/site/pes/pes-global_mag.png",
             alt: "Кейс: рекламный разворот PES GLOBAL в отраслевом журнале — маркетинговый проект Дмитрия Бартошевича",
             caption:
               "На основе концепции бренда совместно с дизайнером Сашей Бизиковым разработал рекламный разворот для отраслевого журнала «Добывающая промышленность. Центральная Азия».",
@@ -173,7 +173,7 @@ export default {
           additionalInfo:
             "Редполитика помогает не только сэкономить время и ресурсы сотрудников, но и улучшить качество обслуживания клиентов, поддержать профессиональный образ компании и укрепить связь с брендом.",
           image: {
-            url: "https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1698477680/pes_projects/redpolicy__example.jpg",
+            url: "https://res.cloudinary.com/bartoshevich/image/upload/f_auto/q_auto/v1698477680/pes_projects/redpolicy__example.jpg",
             alt: "Кейс: разработка редакционной политики бренда и стандартов коммуникации — маркетинговый проект Дмитрия Бартошевича",
             caption: "Выдержка из редполитики. Скриншот",
             width: 803,
@@ -219,7 +219,7 @@ export default {
         note: "презентация итогов аудита работы отдела маркетинга Ego-Art",
         description: "Презентация итогов аудита работы отдела маркетинга и разработанной концепции бренда: выявленные проблемы, рекомендации по оптимизации процессов и стратегия развития бренда для повышения конкурентоспособности компании.",
         image: {
-          url: "https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1623041572/site/ego-art_slides.png",
+          url: "https://res.cloudinary.com/bartoshevich/image/upload/f_auto/q_auto/v1623041572/site/ego-art_slides.png",
           alt: "Кейс: итоговая презентация по аудиту маркетинга Ego-Art — маркетинговый проект Дмитрия Бартошевича",
           caption:
             "Могу показать только скриншот обзора слайдов презентации с результатами аудита маркетинга (соглашение о неразглашении)",
@@ -238,9 +238,9 @@ export default {
         {
           name: "Cоздал концепцию бренда и стратегию развития",
           image: {
-            url: "https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1648378360/site/termium_site--light.jpg",
+            url: "https://res.cloudinary.com/bartoshevich/image/upload/f_auto/q_auto/v1648378360/site/termium_site--light.jpg",
             darkModeUrl:
-              "https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1648378360/site/termium_site--dark.jpg",
+              "https://res.cloudinary.com/bartoshevich/image/upload/f_auto/q_auto/v1648378360/site/termium_site--dark.jpg",
             alt: "Кейс: дизайн и структура сайта Termium под руководством Дмитрия Бартошевича",
             caption:
               "После утверждения концепции компания разработала новый сайт. И это только начало ;-)",
@@ -294,7 +294,7 @@ export default {
         {
           name: "Разработал рекламные кампании, координировал проведение",
           image: {
-            url: "https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1648365692/site/3Dom.jpg",
+            url: "https://res.cloudinary.com/bartoshevich/image/upload/f_auto/q_auto/v1648365692/site/3Dom.jpg",
             alt: "Кейс: промо-фото семейного праздника 3Dom — маркетинговый проект Дмитрия Бартошевича",
             caption:
               "Концепция 3Dom — мебель для семьи. Одна из инициатив — семейные праздники. На фотографии момент, когда через маленькую щелочку приоткрытой двери шкафа дети смотрели на северное сияние :-)",
@@ -328,7 +328,7 @@ articles: {
         publisher: "Про Бизнес",
         publisherUrl: "https://probusiness.io/",
         date: "2018-02-06",
-        image: "https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1648159462/site/1hardclient.jpg",
+        image: "https://res.cloudinary.com/bartoshevich/image/upload/f_auto/q_auto/v1648159462/site/1hardclient.jpg",
         description: "Проблемных клиентов определяют менеджеры, ситуации или собственный характер. Как грамотно прорабатывать недовольство клиентов и в каких случаях не стоит работать с «проблемными» вообще."
       },
       {
@@ -337,7 +337,7 @@ articles: {
         publisher: "Про Бизнес",
         publisherUrl: "https://probusiness.io/",
         date: "2016-06-16",
-        image: "https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1648159462/site/1cjmpb.jpg",
+        image: "https://res.cloudinary.com/bartoshevich/image/upload/f_auto/q_auto/v1648159462/site/1cjmpb.jpg",
         description: "Что такое методика изучения потребительского опыта (Customer Journey Mapping) и как с ее помощью увеличить поток покупателей."
       },
       {
@@ -346,7 +346,7 @@ articles: {
         publisher: "Про Бизнес",
         publisherUrl: "https://probusiness.io/",
         date: "2016-07-20",
-        image: "https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1648159462/site/1belarustourismpb.jpg",
+        image: "https://res.cloudinary.com/bartoshevich/image/upload/f_auto/q_auto/v1648159462/site/1belarustourismpb.jpg",
         description: "Список элементарных ошибок, на исправление которых не требуется выделять больших средств и много времени."
       },
       {
@@ -355,7 +355,7 @@ articles: {
         publisher: "Про Бизнес",
         publisherUrl: "https://probusiness.io/",
         date: "2016-08-25",
-        image: "https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1648159462/site/1mistakespb.jpg",
+        image: "https://res.cloudinary.com/bartoshevich/image/upload/f_auto/q_auto/v1648159462/site/1mistakespb.jpg",
         description: "О чем часто забывают маркетологи белорусских компаний, планируя рекламную кампанию или уже запустив ее?"
       },
       {
@@ -364,7 +364,7 @@ articles: {
         publisher: "Про Бизнес",
         publisherUrl: "https://probusiness.io/",
         date: "2016-11-23",
-        image: "https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1648159462/site/1fridaypb.jpg",
+        image: "https://res.cloudinary.com/bartoshevich/image/upload/f_auto/q_auto/v1648159462/site/1fridaypb.jpg",
         description: "«Узнали мнение экспертов — как компании можно выделиться среди похожих друг на друга акций со скидками»"
       }
     ]
@@ -460,7 +460,7 @@ articles: {
         "Разбираю методологию составления карт потребительского опыта (Customer Journey Map). Рассказываю, как анализировать путь клиента от первого запроса до завершения работы и улучшать каждый этап взаимодействия.",
       status: "EventScheduled",
       image:
-        "https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1602868382/psycareer/youtu.be-Ocx-TZ3Uj04.jpg",
+        "https://res.cloudinary.com/bartoshevich/image/upload/f_auto/q_auto/v1602868382/psycareer/youtu.be-Ocx-TZ3Uj04.jpg",
       eventAttendanceMode: "OnlineEventAttendanceMode",
       price: 60,
       currency: "BYN",
@@ -531,7 +531,7 @@ articles: {
       organizer: "Nature's Sunshine",
       status: "EventScheduled",
       image:
-        "https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1626334469/site/context_rb.jpg",
+        "https://res.cloudinary.com/bartoshevich/image/upload/f_auto/q_auto/v1626334469/site/context_rb.jpg",
       eventAttendanceMode: "OfflineEventAttendanceMode",
       price: 1,
       currency: "BYN",
@@ -594,7 +594,7 @@ articles: {
   // Общая информация для страницы кейсов
   pageInfo: {
     presentationImage: {
-      url: "https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1622259224/site/presentation-hormann.jpg",
+      url: "https://res.cloudinary.com/bartoshevich/image/upload/f_auto/q_auto/v1622259224/site/presentation-hormann.jpg",
       alt: "Кейс: выступление Дмитрия Бартошевича на конференции по маркетингу",
       description: "Дмитрий Бартошевич выступает на бизнес-мероприятии",
       width: 1100,

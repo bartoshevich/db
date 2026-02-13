@@ -657,6 +657,12 @@ const applyTypography = value => {
 // === СИСТЕМА ФИЛЬТРОВ ДЛЯ ТЕКСТА ===
 
 // 1. Создаем чистую, независимую JS-функцию. Это наш "источник правды".
+const stripHtml = value => {
+  if (typeof value !== 'string') return value;
+  const withoutSupSub = value.replace(/<\/?(sup|sub)\b[^>]*>/gi, '');
+  const withoutTags = withoutSupSub.replace(/<[^>]*>/g, ' ');
+  return withoutTags.replace(/\s+/g, ' ').trim();
+};
 
 const countWords = (text) => {
   if (!text || typeof text !== 'string') {
@@ -664,7 +670,7 @@ const countWords = (text) => {
   }
 
   // ШАГ 1: Очищаем текст от HTML-тегов, заменяя их на пробелы.
-  const cleanText = text.replace(/<[^>]*>/g, ' ');
+  const cleanText = stripHtml(text);
 
   // ШАГ 2: Считаем слова в уже очищенном тексте.
   // Используем улучшенную регулярку для поддержки разных языков и цифр.
@@ -728,7 +734,7 @@ eleventyConfig.addFilter('readingTimeISO', function (text) {
     return arr.slice(0, parseInt(n, 10) || 0);
   });
 
-  eleventyConfig.addFilter('decodeEntities', v => {
+  const decodeEntities = v => {
     if (typeof v !== 'string') return v;
     return v
       .replace(/&nbsp;/g, '\u00A0') // Неразрывный пробел
@@ -739,6 +745,36 @@ eleventyConfig.addFilter('readingTimeISO', function (text) {
       .replace(/—/g, '—')
       .replace(/«/g, '«')
       .replace(/»/g, '»');
+  };
+
+  const jsonLdText = value => {
+    if (typeof value !== 'string') return value;
+
+    let result = stripHtml(value);
+    result = decodeEntities(result);
+    result = stripHtml(result);
+
+    return result.replace(/"/g, '\\"');
+  };
+
+  const arrayify = value => {
+    if (Array.isArray(value)) return value;
+    if (value === undefined || value === null) return [];
+    return [value];
+  };
+
+  eleventyConfig.addFilter('decodeEntities', decodeEntities);
+  eleventyConfig.addFilter('jsonLdText', jsonLdText);
+  eleventyConfig.addFilter('arrayify', arrayify);
+
+  eleventyConfig.addFilter('metaText', value => {
+    if (typeof value !== 'string') return value;
+
+    let result = stripHtml(value);
+    result = decodeEntities(result);
+    result = stripHtml(result);
+
+    return result.replace(/"/g, '&quot;');
   });
 
   eleventyConfig.addFilter('absoluteUrl', (url, base) => {

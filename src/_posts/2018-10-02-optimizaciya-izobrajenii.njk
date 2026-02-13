@@ -174,7 +174,7 @@ eleventyNavigation:
 
 <p>C&nbsp;Cloudinary работа по&nbsp;оптимизации изображений сводится к&nbsp;корректировке адреса картинки, загруженной в&nbsp;облако сервиса. Поясню на&nbsp;примере. Давайте войдем в&nbsp;Cloudinary, добавим фотографию монеты из&nbsp;примера выше и&nbsp;скопируем url картинки. </p>
 
-<img class="image" loading="lazy" decoding="async" src="//res.cloudinary.com/bartoshevich/image/upload/q_auto,f_auto/v1538445318/copy_cloudinary.jpg" alt="пример работы с Cloudinary" width="519" height="478">
+<img class="image" loading="lazy" decoding="async" src="//res.cloudinary.com/bartoshevich/image/upload/q_auto/f_auto/v1538445318/copy_cloudinary.jpg" alt="пример работы с Cloudinary" width="519" height="478">
 
 
 <p>Адрес фото:</p>
@@ -189,7 +189,7 @@ eleventyNavigation:
 
 
 <pre class="language-terminal highlight ">
-//res.cloudinary.com/bartoshevich/image/upload/q_auto,f_auto/v1538423803/coin_original.jpg
+//res.cloudinary.com/bartoshevich/image/upload/q_auto/f_auto/v1538423803/coin_original.jpg
 </pre>
 
 
@@ -197,10 +197,10 @@ eleventyNavigation:
 
 <p>Ниже — оптимизированная с&nbsp;помощью Cloudinary фотография монеты. Если вы&nbsp;откроете статью в&nbsp;разных браузерах (Firefox и&nbsp;Chrome) и&nbsp;сохраните фото, вы&nbsp;получите фотографии разных форматов и&nbsp;веса. У&nbsp;меня скачанная с&nbsp;Chrome фотография весит всего 10.9&nbsp;КБ&nbsp;— почти в&nbsp;10&nbsp;раз меньше оригинала. Код&nbsp;же&nbsp;— одна строка. Нет &lt;picture&gt;, &lt;source&gt;, media и&nbsp;пр. </p>
 
-<img class="image" loading="lazy" decoding="async" src="https://res.cloudinary.com/bartoshevich/image/upload/q_auto,f_auto/v1538423803/coin_original.jpg" alt="оптимизированная с помощью Optimizilla фотография монеты" width="300" height="298" >
+<img class="image" loading="lazy" decoding="async" src="https://res.cloudinary.com/bartoshevich/image/upload/q_auto/f_auto/v1538423803/coin_original.jpg" alt="оптимизированная с помощью Optimizilla фотография монеты" width="300" height="298" >
 <p>Сотрудники Cloudinary подготовили <a class="link" href="https://cloudinary.com/documentation/image_transformations">Cookbook</a>, где описывают возможности сервиса: что можно добавить в&nbsp;адрес изображения и&nbsp;какой результат получить. Например, можно улучшить фотографию, если после upload/ написать в&nbsp;адресе e_improve/. Результат:</p>
 
-<img class="image" loading="lazy" decoding="async" src="https://res.cloudinary.com/bartoshevich/image/upload/e_improve/q_auto,f_auto/v1538423803/coin_original.jpg" alt="оптимизированная с помощью Optimizilla фотография монеты" width="300" height="298" >
+<img class="image" loading="lazy" decoding="async" src="https://res.cloudinary.com/bartoshevich/image/upload/e_improve/q_auto/f_auto/v1538423803/coin_original.jpg" alt="оптимизированная с помощью Optimizilla фотография монеты" width="300" height="298" >
 
 <p>Иногда я&nbsp;не&nbsp;могу обходиться без тега &lt;picture&gt;. И&nbsp;если тег комбинирую с&nbsp;Cloudinary, «пропуская» адреса изображений через сервис, я&nbsp;использую больше возможностей оптимизации при минимальных усилиях. </p>
 

@@ -51,7 +51,7 @@
     "@id": site.url ~ page.url,
     "url": site.url ~ page.url,
     "name": (title.val or title) | decodeEntities,
-    "description": (description.val or description) | decodeEntities,
+    "description": (description.val or description) | jsonLdText,
     "inLanguage": "ru",
     "datePublished": page.date | isoDate,
     "dateModified": last_modified_at | default(config.buildDate) | isoDate,
@@ -100,7 +100,7 @@
     "@id": (page.url | absoluteUrl(site.url)),
     "url": (page.url | absoluteUrl(site.url)),
     "name": (title.val or title) | decodeEntities | replace('"', '\\"'),
-    "description": (description.val or description) | decodeEntities | replace('"', '\\"'),
+    "description": (description.val or description) | jsonLdText,
     "inLanguage": "ru",
     "datePublished": page.date | isoDate,
     "dateModified": last_modified_at | default(config.buildDate) | isoDate,
@@ -121,7 +121,7 @@
     "headline": (title.val or title) | decodeEntities | replace('"', '\\"'),
     "author": { "@id": "https://bartoshevich.by/about/#person" },
     "publisher": { "@id": "https://bartoshevich.by/about/#person" },
-    "description": (description.val or description) | decodeEntities | replace('"', '\\"'),
+    "description": (description.val or description) | jsonLdText,
     "image": site.url ~ imageUrl,
     "datePublished": page.date | isoDate,
     "dateModified": last_modified_at | default(config.buildDate) | isoDate,
@@ -291,7 +291,7 @@
 
     {% if person.profileUrl %}
       {# sameAs - ключевое поле для E-E-A-T, связывающее с авторитетными профилями #}
-      {% set personSchema = personSchema | setAttribute("sameAs", [person.profileUrl]) %}
+      {% set personSchema = personSchema | setAttribute("sameAs", person.profileUrl | arrayify) %}
     {% endif %}
 
     {# 4. Добавляем готовый объект Person в общий граф #}
