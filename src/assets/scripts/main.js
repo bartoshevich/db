@@ -16,27 +16,6 @@ import "./theme.js";
 // ===== Lazyload и другие модули, загружаемые по условию =====
 
 document.addEventListener("DOMContentLoaded", () => {
-  // Улучшенные пути для статических импортов (Vite будет их анализировать)
-  const randomButton = document.querySelector("#random-article-button");
-   
-    
-    if (randomButton) {
-      
-        import("./randomArticle.js")
-            .then((module) => {
-               
-                if (typeof module.randomArticle === 'function') {
-                   
-                    module.randomArticle();
-                } else {
-                    console.error('❌ Функция randomArticle не найдена в модуле');
-                }
-            })
-            .catch((err) => {
-                console.error("💥 Не удалось загрузить randomArticle.js:", err);
-            });
-    } 
-
  if (document.querySelector(".video")) {
     import("./video.js")
       .then((module) => {
