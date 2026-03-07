@@ -2,6 +2,7 @@
 
 {% set isSeries = film.item_type == 'TVSeries' %}
 {% set item_visual_type = "сериала" if isSeries else "фильма" %}
+{% set directorName = film.director.name %}
 
 <article id="{{ film.id }}" class="row-gap--m">
 
@@ -10,7 +11,7 @@
 
   <p class="movie-metadata">
     <span class="bold">Режиссер:</span>
-    <span>{{ film.director.name }}</span>
+    <span>{{ directorName if directorName is string else (directorName | join(', ')) }}</span>
     <br>
     <span class="bold">IMDb рейтинг:</span>
     <span>{{ film.imdb_rating }}/10</span>
