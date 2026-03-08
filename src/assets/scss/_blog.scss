@@ -1,10 +1,24 @@
 @use "./variables" as v;
 
+.blog-topic-filters {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
 .blog-topic-filters__list {
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-rows: repeat(2, minmax(44px, auto));
+    grid-auto-columns: max-content;
     gap: var(--space-xs);
     margin-bottom: var(--space-l);
+    width: 100%;
+    max-width: 100%;
+    overflow-x: auto;
+    overflow-y: hidden;
+    -webkit-overflow-scrolling: touch;
+    overscroll-behavior-x: contain;
+    scrollbar-width: thin;
 }
 
 .blog-topic-chip {
@@ -20,6 +34,18 @@
     font-weight: 500;
     cursor: pointer;
     transition: background-color 0.2s ease, color 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
+    white-space: nowrap;
+}
+
+@media (min-width: 768px) {
+    .blog-topic-filters__list {
+        display: flex;
+        flex-wrap: wrap;
+        overflow-x: visible;
+        overflow-y: visible;
+        width: auto;
+        max-width: none;
+    }
 }
 
 .blog-topic-chip:hover {
