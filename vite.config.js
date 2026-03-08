@@ -94,6 +94,7 @@ export default defineConfig({
         // Основной entry point
         main: path.resolve(__dirname, 'src/assets/scripts/main.js'),
         pagefind: path.resolve(__dirname, 'src/assets/scripts/pagefind-init.js'),
+        blogTopicFilters: path.resolve(__dirname, 'src/assets/scripts/blog-topic-filters.js'),
         // ДОБАВЛЯЕМ критический скрипт для хеширования
        'critical-theme': path.resolve(__dirname, 'src/assets/scripts/critical--theme.js')
         
