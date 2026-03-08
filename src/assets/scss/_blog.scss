@@ -1,15 +1,15 @@
 @use "./variables" as v;
 
 .blog-topic-filters {
+    position: relative;
     max-width: 100%;
     overflow-x: hidden;
 }
 
 .blog-topic-filters__list {
-    display: grid;
-    grid-auto-flow: column;
-    grid-template-rows: repeat(2, minmax(44px, auto));
-    grid-auto-columns: max-content;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: stretch;
     gap: var(--space-xs);
     margin-bottom: var(--space-l);
     width: 100%;
@@ -19,10 +19,29 @@
     -webkit-overflow-scrolling: touch;
     overscroll-behavior-x: contain;
     scrollbar-width: thin;
+    padding-inline-end: 1rem;
+    scroll-padding-inline-end: 1rem;
+}
+
+.blog-topic-filters::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 2.25rem;
+    height: 44px;
+    pointer-events: none;
+    background: linear-gradient(
+        to right,
+        rgba(var(--background-color-rgb), 0),
+        rgba(var(--background-color-rgb), 1) 85%
+    );
 }
 
 .blog-topic-chip {
     appearance: none;
+    display: inline-flex;
+    align-items: center;
     border: 1px solid transparent;
     background-color: #f0f0f0;
     color: #333;
@@ -34,10 +53,15 @@
     font-weight: 500;
     cursor: pointer;
     transition: background-color 0.2s ease, color 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
+    flex: 0 0 auto;
     white-space: nowrap;
 }
 
 @media (min-width: 768px) {
+    .blog-topic-filters::after {
+        display: none;
+    }
+
     .blog-topic-filters__list {
         display: flex;
         flex-wrap: wrap;
@@ -45,6 +69,8 @@
         overflow-y: visible;
         width: auto;
         max-width: none;
+        padding-inline-end: 0;
+        scroll-padding-inline-end: 0;
     }
 }
 

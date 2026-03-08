@@ -3,7 +3,13 @@
 .page__header {
   box-sizing: border-box;
    margin-block-start: var(--space-l);
-  margin-block-end: var(--space-2xl);
+  margin-block-end: var(--space-l);
+}
+
+@media (min-width: 640px) {
+  .page__header {
+    margin-block-end: var(--space-2xl);
+  }
 }
 
 .menu--flex {
