@@ -18,16 +18,16 @@ eleventyNavigation:
 
 
 
-<header class="intro max-width-text"><h1 class="inline bold">Блог Дмитрия Бартошевича</h1> <span class="inline">о&nbsp;маркетинге без втюхивания и хаоса. Для тех, кому важны не трюки, а логика бренда, спроса и маркетинговых решений. </span>
+<header class="intro max-width-text"><h1 class="inline bold">Блог Дмитрия Бартошевича</h1>. <span class="inline">С&nbsp;2015&nbsp;года разбираю, почему маркетинговые решения работают&nbsp;&mdash; или не&nbsp;работают. </span>
   
 </header>
 
 
-<div class="full-bleed row-gap--m" id="all-posts">
+<div class="full-bleed row-gap--m space-connected" id="all-posts">
 
-<h2 class="heading--beta space-connected">Все записи ({{ collections.post | length }}) </h2>
- <p class="secondary-color">Подписка на&nbsp;обновления: <a class="link secondary-color" href="https://t.me/+OuzxNOZg-g44ZjYy">telegram</a>, <a class="link secondary-color" href="{{ navigation.subscription.list[1].url | url }}">эл.почта</a></span></p>
- <p class="secondary-color"> Записи отсортированы по дате обновления. </p>
+<h2 class="element--hidden">Все записи ({{ collections.post | length }}) </h2>
+ <p class="secondary-color">Следить за обновлениями: <a class="link secondary-color" href="https://t.me/+OuzxNOZg-g44ZjYy">telegram</a>, <a class="link secondary-color" href="{{ navigation.subscription.list[1].url | url }}">эл.почта</a></span></p>
+
 
  
 {% set topicCounts = {} %}
