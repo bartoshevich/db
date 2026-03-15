@@ -19,8 +19,8 @@
       "@type": "BlogPosting",
       "@id": postUrl,
       "url": postUrl,
-      "name": (post.data.title.val or post.data.title) | decodeEntities,
-      "headline": (post.data.title.val or post.data.title) | decodeEntities,
+      "name": (post.data.name.val or post.data.name or post.data.title.val or post.data.title) | decodeEntities,
+      "headline": (post.data.name.val or post.data.name or post.data.title.val or post.data.title) | decodeEntities,
       "author": { "@id": "https://bartoshevich.by/about/#person" },
       "datePublished": post.date | isoDate
     } %}
@@ -83,6 +83,8 @@
 {# Этот блок теперь полностью отвечает за генерацию схемы для постов #}
 {% elif isBlogPost %}
 
+  {% set visibleHeadline = (name or title) %}
+
   {# ШАГ 2.1: Создаем "легковесный" узел Blog для корректной связи #}
   {% set blogSchema = {
     "@type": "Blog",
@@ -99,7 +101,7 @@
     "@type": "WebPage",
     "@id": (page.url | absoluteUrl(site.url)),
     "url": (page.url | absoluteUrl(site.url)),
-    "name": (title.val or title) | decodeEntities | replace('"', '\\"'),
+    "name": (visibleHeadline.val or visibleHeadline) | decodeEntities | replace('"', '\"'),
     "description": (description.val or description) | jsonLdText,
     "inLanguage": "ru",
     "datePublished": page.date | isoDate,
@@ -118,7 +120,7 @@
     "@type": "BlogPosting",
     "@id": (page.url | absoluteUrl(site.url)) ~ "#post",
     "url": (page.url | absoluteUrl(site.url)),
-    "headline": (title.val or title) | decodeEntities | replace('"', '\\"'),
+    "headline": (visibleHeadline.val or visibleHeadline) | decodeEntities | replace('"', '\"'),
     "author": { "@id": "https://bartoshevich.by/about/#person" },
     "publisher": { "@id": "https://bartoshevich.by/about/#person" },
     "description": (description.val or description) | jsonLdText,
@@ -255,55 +257,65 @@
 
   {# [MENTIONS] Обработка упомянутых экспертов для усиления E-E-A-T #}
 {% if mentions and mentions | length > 0 %}
-  {# Готовим массив, который будет содержать ссылки (@id) на объекты Person #}
-  {% set mentionedPersonIds = [] %}
+  {# Готовим массив, который будет содержать ссылки (@id) на упомянутые сущности #}
+  {% set mentionedEntityIds = [] %}
 
-  {# Перебираем каждого эксперта из front matter #}
-  {% for person in mentions %}
-    {# 1. Создаем уникальный @id для каждого Person. 
+  {# Перебираем каждую сущность из front matter #}
+  {% for entity in mentions %}
+    {# 1. Создаем уникальный @id для каждой сущности.
           Используем slugify, если есть, или простой replace для надежности. #}
-    {% set personSlug = person.name | replace(" ", "-") | lower %}
-    {% set personId = (page.url | absoluteUrl(site.url)) ~ "#person-" ~ personSlug %}
+    {% set entitySlug = entity.name | replace(" ", "-") | lower %}
+    {% set entityType = entity.type or "Person" %}
+    {% set entityPrefix = "person" if entityType == "Person" else "organization" %}
+    {% set entityId = (page.url | absoluteUrl(site.url)) ~ "#" ~ entityPrefix ~ "-" ~ entitySlug %}
 
-    {# 2. Собираем основной объект Person #}
-    {% set personSchema = {
-      "@type": "Person",
-      "@id": personId,
-      "name": person.name
+    {# 2. Собираем основной объект Person или Organization #}
+    {% set entitySchema = {
+      "@type": entityType,
+      "@id": entityId,
+      "name": entity.name
     } %}
 
     {# 3. Обогащаем объект опциональными полями из front matter #}
-    {% if person.jobTitle %}
-      {% set personSchema = personSchema | setAttribute("jobTitle", person.jobTitle) %}
+    {% if entity.jobTitle %}
+      {% set entitySchema = entitySchema | setAttribute("jobTitle", entity.jobTitle) %}
     {% endif %}
 
-    {% if person.image %}
+    {% if entity.image %}
       {# Превращаем относительный URL картинки в абсолютный #}
-      {% set personSchema = personSchema | setAttribute("image", person.image | absoluteUrl(site.url)) %}
+      {% set entitySchema = entitySchema | setAttribute("image", entity.image | absoluteUrl(site.url)) %}
     {% endif %}
 
-    {% if person.affiliation %}
-      {% set personSchema = personSchema | setAttribute("worksFor", {
+    {% if entity.affiliation %}
+      {% set entitySchema = entitySchema | setAttribute("worksFor", {
         "@type": "Organization",
-        "name": person.affiliation
+        "name": entity.affiliation
       }) %}
     {% endif %}
 
-    {% if person.profileUrl %}
-      {# sameAs - ключевое поле для E-E-A-T, связывающее с авторитетными профилями #}
-      {% set personSchema = personSchema | setAttribute("sameAs", person.profileUrl | arrayify) %}
+    {% if entity.url %}
+      {% set entitySchema = entitySchema | setAttribute("url", entity.url | absoluteUrl(site.url)) %}
     {% endif %}
 
-    {# 4. Добавляем готовый объект Person в общий граф #}
-    {% set _ = schemaParts.push(personSchema) %}
+    {% if entity.profileUrl %}
+      {# sameAs - ключевое поле для E-E-A-T, связывающее с авторитетными профилями #}
+      {% set entitySchema = entitySchema | setAttribute("sameAs", entity.profileUrl | arrayify) %}
+    {% endif %}
+
+    {% if entity.sameAs %}
+      {% set entitySchema = entitySchema | setAttribute("sameAs", entity.sameAs | arrayify) %}
+    {% endif %}
+
+    {# 4. Добавляем готовый объект в общий граф #}
+    {% set _ = schemaParts.push(entitySchema) %}
 
     {# 5. Добавляем ссылку на этот объект в наш массив для связи #}
-    {% set _ = mentionedPersonIds.push({ "@id": personId }) %}
+    {% set _ = mentionedEntityIds.push({ "@id": entityId }) %}
   {% endfor %}
 
-  {# 6. Привязываем массив ссылок на экспертов к основной статье (BlogPosting) #}
-  {% if mentionedPersonIds | length > 0 %}
-    {% set blogPosting = blogPosting | setAttribute("mentions", mentionedPersonIds) %}
+  {# 6. Привязываем массив ссылок на упомянутые сущности к основной статье (BlogPosting) #}
+  {% if mentionedEntityIds | length > 0 %}
+    {% set blogPosting = blogPosting | setAttribute("mentions", mentionedEntityIds) %}
   {% endif %}
 {% endif %}
 

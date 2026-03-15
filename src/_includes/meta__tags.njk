@@ -4,7 +4,7 @@
 <meta name="robots" content="index, follow">
 <meta name="generator" content="{{ eleventy.generator }}">
 
-{% set metaTitle = title | default(name) | default(site.title)  %}
+{% set metaTitle = name | default(title) | default(site.title)  %}
 <title>{{ metaTitle | decodeEntities | safe }}</title>
 <meta name="description" content="{{ description | default(site.description) | metaText }}">
 
