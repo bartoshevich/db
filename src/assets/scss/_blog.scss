@@ -202,3 +202,55 @@
     color: v.$secondary-text-colour;
     max-width: 60ch; /* Ограничиваем длину строки для чтения */
 }
+
+
+.brand-structure {
+    margin-top: var(--space-l);
+}
+
+.brand-structure__item {
+    row-gap: var(--space-xs);
+    padding-top: var(--space-s);
+    border-top: 1px solid var(--table-gainsboro);
+}
+
+.brand-structure .block__sign {
+    display: none;
+}
+
+.brand-structure .block__name--align-left {
+    font-weight: 600;
+    line-height: 1.3;
+    padding-right: var(--space-s);
+}
+
+.brand-structure__content {
+    max-width: 56ch;
+    line-height: 1.5;
+}
+
+.brand-structure__list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.brand-structure__list li {
+    position: relative;
+    padding-left: 1rem;
+    line-height: 1.5;
+}
+
+.brand-structure__list li::before {
+    content: "•";
+    position: absolute;
+    left: 0;
+    color: v.$secondary-text-colour;
+    opacity: 0.75;
+}
+
+@media (max-width: 1068px) {
+    .brand-structure__item {
+        padding-top: var(--space-m);
+    }
+}
