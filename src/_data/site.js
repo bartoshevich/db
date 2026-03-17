@@ -17,12 +17,7 @@ const knowledgeAreas = [
   "Маркетинговый аудит",
   "SWOT-анализ",
   "B2B-маркетинг",
-  "Маркетинг промышленных компаний",
-  "20+ лет практического опыта",
-   "86+ экспертных статей",
-  "Преквалификация ЕБРР (2019)",
-   "Nielsen методология",
-  "Опыт работы в Nielsen"
+  "Маркетинг промышленных компаний"
 ];
 
 const practicalSkills = [
@@ -248,14 +243,6 @@ export default {
           "@type": "EducationalOrganization",
           name: "Белорусский государственный экономический университет",
           url: "https://bseu.by/"
-        }, {
-          "@type": "Organization",
-          name: "Nielsen",
-          sameAs: "https://en.wikipedia.org/wiki/Nielsen_Company"
-        }, {
-          "@type": "Organization",
-          name: "Aida Pioneer",
-          url: "https://aidapioneer.com/"
         }
       ],
       sameAs: [
