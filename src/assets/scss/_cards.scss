@@ -122,3 +122,61 @@ html[data-theme="dark"] {
     grid-template-columns: 1fr;
   }
 }
+
+/* --- Карточка маршрута (entry scenario card) --- */
+.route-card {
+  display: grid;
+  align-content: start;
+  row-gap: var(--space-s);
+  padding: var(--space-xl);
+  border-radius: 18px;
+  background: var(--route-card-bg);
+  transition: background-color 0.2s ease, box-shadow 0.2s ease;
+
+  &:hover {
+    background: var(--selected-bg-color);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+  }
+
+  /* Label: регулярный вес — самый легкий уровень иерархии */
+  .section-kicker {
+    font-weight: 400;
+  }
+
+  /* Description: secondary color — подчинён h3 */
+  > p:not(.section-kicker) {
+    color: var(--secondary-text-colour);
+  }
+
+  /* Кластерный разрыв перед ссылками */
+  ul {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-s);
+    margin-top: var(--space-m);
+  }
+
+  .link {
+    color: inherit;
+    text-decoration: underline;
+    text-decoration-color: var(--link-underline-color);
+    text-underline-offset: 3px;
+    text-decoration-thickness: 1px;
+    box-shadow: none;
+
+    &:hover {
+      text-decoration-color: var(--secondary-text-colour);
+      box-shadow: none;
+    }
+  }
+}
+
+/* --- Карточка принципа --- */
+.principle-card {
+  display: grid;
+  align-content: start;
+  row-gap: var(--space-m);
+  padding: var(--space-l);
+  border-radius: 18px;
+  background: var(--route-card-bg);
+}

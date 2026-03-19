@@ -31,8 +31,9 @@
   flex: 1 0 auto;
   display: grid;
   grid-template-columns: 1fr;
-  grid-row-gap: var(--space-xs); 
+  grid-row-gap: var(--space-xs);
   row-gap: var(--space-xs);
+  padding-top: var(--space-xl);
 
   & p {
     /* Соответствие body line-height */

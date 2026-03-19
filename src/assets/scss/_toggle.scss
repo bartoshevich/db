@@ -1,7 +1,5 @@
 @use "./variables" as v;
 
-/* @import"https://unpkg.com/open-props/easings.min.css"; */
-
 :where(html) {
   --ease-1: cubic-bezier(0.25, 0, 0.5, 1);
   --ease-2: cubic-bezier(0.25, 0, 0.4, 1);
@@ -111,26 +109,35 @@
 }
 
 .theme-toggle {
-  --size: var(--step-0);
+  --size: 44px;
   --icon-fill: hsl(210 10% 30%);
   --icon-fill-hover: hsl(210 10% 15%);
   background: none;
   border: none;
-  padding: 0;
+  padding: 10px;
   inline-size: var(--size);
   block-size: var(--size);
+  min-inline-size: 44px;
+  min-block-size: 44px;
   aspect-ratio: 1;
   border-radius: 50%;
   cursor: pointer;
   touch-action: manipulation;
   -webkit-tap-highlight-color: transparent;
-  outline-offset: 5px;
+  outline-offset: 3px;
+  transition: background-color 0.2s ease;
+
+  &:hover {
+    background-color: rgba(0, 0, 0, 0.05);
+  }
 
   &:focus-visible {
     outline: 2px solid v.$link;
-   
-  
   }
+}
+
+[data-theme="dark"] .theme-toggle:hover {
+  background-color: rgba(255, 255, 255, 0.1);
 }
 
 .theme-toggle > svg {
@@ -142,12 +149,6 @@
 [data-theme="dark"] .theme-toggle {
   --icon-fill: hsl(210 10% 70%);
   --icon-fill-hover: hsl(210 15% 90%);
-}
-
-@media (hover: none) {
-  .theme-toggle {
-    --size: var(--step-1);
-  }
 }
 
 @-webkit-keyframes octocat-wave {

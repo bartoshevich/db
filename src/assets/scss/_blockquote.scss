@@ -64,6 +64,72 @@ cite {
 
 
 
+.testimonial-card {
+  display: flex;
+  flex-direction: column;
+
+  .blockquote--emphasis {
+    flex: 1;
+    padding-left: 0;
+    margin-bottom: 0;
+
+    &::before {
+      content: none;
+    }
+  }
+}
+
+.testimonial-card__author {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--space-s);
+  margin-top: auto;
+  padding-top: var(--space-l);
+}
+
+.testimonial-card__avatar {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  object-fit: cover;
+  flex-shrink: 0;
+  margin-top: 3px;
+}
+
+.testimonial-card__meta {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+
+  .link {
+    align-self: flex-start;
+    margin-top: 8px;
+    box-shadow: none;
+    text-decoration: underline;
+    text-underline-offset: 4px;
+    text-decoration-color: var(--secondary-text-colour);
+
+    &:hover {
+      box-shadow: none;
+      text-decoration-color: var(--text-colour);
+      text-decoration-thickness: 2px;
+    }
+  }
+}
+
+.testimonial-card__name {
+  color: var(--text-colour);
+  font-weight: 600;
+  font-size: var(--step-0);
+  line-height: 1.3;
+}
+
+.testimonial-card__role {
+  color: var(--secondary-text-colour);
+  font-size: var(--step--1);
+}
+
+
 .pull-quote {
   border-left: 3px solid var(--decoration-subtle);
   border-radius: 8px;

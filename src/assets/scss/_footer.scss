@@ -102,7 +102,7 @@
     font-size: var(--step--1);
     font-weight: 600;
     text-transform: uppercase;
-    letter-spacing: 0.5px;
+    letter-spacing: 0.05em;
     color: var(--secondary-text-colour);
     margin-bottom: var(--space-xs);
 }
@@ -120,8 +120,12 @@
 .footer__nav-item {
     margin: 0;
     font-size: var(--step--1);
-    color: v.$link-hover;
+    color: var(--secondary-text-colour);
     line-height: 1.4;
+
+    & [aria-current="page"] {
+        font-weight: 700;
+    }
     border: none;
   
 
@@ -129,15 +133,18 @@
 
     & .link {
         color: var(--secondary-text-colour);
-        text-decoration: none;
+        text-decoration: underline;
+        text-decoration-color: transparent;
+        text-underline-offset: var(--space-3xs);
+        text-decoration-thickness: 1px;
         box-shadow: none;
-        transition: color 0.1s ease;
+        transition: color 0.2s ease, text-decoration-color 0.2s ease;
     }
 
     & .link:hover {
-       color: v.$link-hover;
-       box-shadow: inset 0 -1px var(--link-underline-color);
-       
+        color: v.$link-hover;
+        box-shadow: none;
+        text-decoration-color: v.$link-hover;
     }
   
 
@@ -146,6 +153,12 @@
 
 
 
+
+/* Социальные сети в футере */
+.footer__nav-section .footer-social__list {
+    margin-inline-start: -6px;
+    flex-wrap: nowrap;
+}
 
 /* Контакты */
 .contact-info address {
@@ -193,15 +206,16 @@
 
     &__item .link {
         color: var(--secondary-text-colour);
-    
-         box-shadow: inset 0 -1px var(--link-underline-color);
-     
+        text-decoration: underline;
+        text-decoration-color: rgba(0, 0, 0, 0.2);
+        text-underline-offset: var(--space-3xs);
+        text-decoration-thickness: 1px;
+        transition: color 0.2s ease, text-decoration-color 0.2s ease;
     }
 
     &__item .link:hover {
-        color: var(--text-colour);
         color: v.$link-hover;
-        box-shadow: inset 0 -2px 0 0 v.$link;
+        text-decoration-color: v.$link-hover;
     }
 }
 
@@ -259,6 +273,10 @@ margin-bottom: 0;
         padding-top: var(--space-m);
     }
 
+    .footer__legal .theme-toggle {
+        margin-inline-start: -10px;
+    }
+
 
     .copyright {
         flex-direction: column;
@@ -273,8 +291,8 @@ margin-bottom: 0;
             display: none;
         }
     }
-
-
 }
 
-
+[data-theme="dark"] .copyright__item .link {
+    text-decoration-color: rgba(255, 255, 255, 0.2);
+}

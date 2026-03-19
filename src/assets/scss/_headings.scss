@@ -56,6 +56,17 @@ h1, h2, h3, h4, h5, h6 {
 
 
 
+/* Meta-label над заголовком секции */
+.section-kicker {
+  font-size: var(--step--1);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--secondary-text-colour);
+  line-height: 1.25;
+  margin: 0;
+}
+
 /* Заголовки вне основного потока */
 .section__title {
   margin-block-start: var(--rhythm-section);

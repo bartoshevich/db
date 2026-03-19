@@ -5,17 +5,18 @@
     width: 100%;
     
  
-    display: grid; 
-    grid-template-columns: 1fr; 
-    gap: 0; 
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: var(--space-xl);
 
 
 }
 
 .education-item {
     width: 100%;
-     grid-column: 1 / -1;
+    grid-column: 1 / -1;
     margin-bottom: 0;
+    align-items: start;
 }
 
 .education-item h3 {
@@ -63,11 +64,29 @@
 
 .work-logo {
   max-height: 88px;
-  width: auto; 
-  max-width: 180px; /* На всякий случай, чтобы длинные не улетели */
-  
+  width: auto;
+  max-width: 180px;
   object-fit: contain;
   object-position: left;
+}
+
+/* Логотипы: ч/б → цвет при наведении */
+.work-item .work-logo {
+  filter: grayscale(100%);
+  transition: filter 0.3s ease;
+}
+
+.work-item:hover .work-logo,
+.work-item:focus-within .work-logo {
+  filter: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .work-item .work-logo { transition: none; }
+}
+
+.about__antipromotion {
+  margin-top: var(--space-4xl) !important;
 }
 
 /* Типографика */

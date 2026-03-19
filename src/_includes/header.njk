@@ -1,134 +1,26 @@
-{% set navData = navigation %} 
+{% set navData = navigation %}
 {% set currentPageUrl = page.url %}
 {% set siteUrl = site.url or "/" %}
-
+{% set navKey = eleventyNavigation.key %}
+{% set isHome = currentPageUrl == "/" or (navKey and navKey == 'home') %}
+{% set is404 = page.data.permalink == '/404.html' %}
+{% set isPost = (page.data.layout == 'post' or layout == 'post') and not is404 %}
+{% set contextVariant = 'page' %}
+{% if isHome %}
+  {% set contextVariant = 'home' %}
+{% elif is404 %}
+  {% set contextVariant = '404' %}
+{% elif isPost %}
+  {% set contextVariant = 'post' %}
+{% endif %}
+{% set breadcrumbPages = [] %}
+{% set breadcrumbCount = 0 %}
+{% if contextVariant == 'page' and navKey and navKey != 'home' %}
+  {% set breadcrumbPages = getBreadcrumbs(navKey, collections.navigationItems) %}
+  {% set breadcrumbCount = breadcrumbPages.length %}
+{% endif %}
 
 <header class="page__header">
-  <div class="menu--flex">
-
-    <div class="logoside">
-      {% if currentPageUrl == "/" %}
-      <div class="navbar-logo">
-       {% include "logo.njk" %}
-      </div>
-    {% else %}
-      <a href="/" class="navbar-logo" aria-label="На главную">
-        {% include "logo.njk" %}
-      </a>
-    {% endif %}
-
-      {% set navKey = eleventyNavigation.key %}
-
-      {# First check if it's a post, regardless of navKey #}
-      {% if page.data.layout == 'post' or layout == 'post' or page.data.permalink== '/404.html' %}
-      {# Special breadcrumbs for blog posts #}
-      <nav class="breadcrumbs" aria-label="Меню">
-        <ol class="breadcrumbs__ol">
-          <li class="breadcrumbs__li">
-            <a href="/" class="nav-link text-color logo__title">Бартошевич</a>
-          </li>
-          <li class="breadcrumbs__li">
-            <a href="/blog/" class="nav-link text-color logo__title">Блог</a>
-          </li>
-          <li class="breadcrumbs__li">
-            <span class="element--hidden" aria-current="page">{{ page.data.name or name or page.data.title or title }}</span>
-          </li>
-        </ol>
-      </nav>
-      {# Then check for regular navigation pages #}
-      {% elif navKey and navKey != 'home' %}
-      {% set breadcrumbPages = getBreadcrumbs(navKey, collections.navigationItems) %}
-      {% set breadcrumbCount = breadcrumbPages.length %}
-
-      {% if breadcrumbCount > 1 %}
-      <nav class="breadcrumbs" aria-label="Хлебные крошки">
-        <ol class="breadcrumbs__ol">
-          {% for itemPage in breadcrumbPages %}
-          <li class="breadcrumbs__li{% if loop.last and breadcrumbCount == 3 %} element--hidden{% endif %}">
-            {% if loop.last %}
-            <span class="text-color logo__title" aria-current="page">{{ itemPage.data.eleventyNavigation.title or
-              itemPage.data.title }}</span>
-            {% else %}
-            <a href="{{ itemPage.url | url }}" class="nav-link text-color logo__title">
-              {{ itemPage.data.eleventyNavigation.title or itemPage.data.title }}
-            </a>
-            {% endif %}
-          </li>
-          {% endfor %}
-        </ol>
-      </nav>
-      {% endif %}
-      {# Finally, handle home page #}
-      {% elif currentPageUrl == "/" or (navKey and navKey == 'home') %}
-      {% if navData and navData.siteName %}
-      <span class="logo__title">{{ navData.siteName }}</span>
-      {% else %}
-      <span class="logo__title">Бартошевич</span>
-      {% endif %}
-      {% endif %}
-    </div>
-
-
-    <button class="menu__button" type="button" aria-expanded="false" aria-controls="menu__list"
-      aria-label="открыть меню">
-      <svg class="menu__icon" aria-hidden="true" width="30" height="36">
-        <use class="menu__icon-menu" href="{{ spritePath() }}#menu"></use>
-        <use class="menu__icon-cross" href="{{ spritePath() }}#cross"></use>
-      </svg>
-    </button>
-  </div>
-
-  <div class="menu-header__wrapper">
-
-    <div class="menu__header" id="menu__list">
-
-      {# --- Основное меню --- #}
-      <nav class="nav__section" aria-labelledby="main-navigation">
-         <p id="main-navigation" class="nav__section__title">{{ navData.title }}</p>
-        <ul class="nav__group">
-          {% for item in navData.mainNav %}
-          <li class="nav__section__item">
-            {# Простая проверка: текущая страница или нет #}
-            {% if item.url == currentPageUrl %}
-            <span class="nav__li--selected" aria-current="page">{{ item.text | safe }}</span>
-            {% else %}
-            <a href="{{ item.url | url }}" class="nav-link ">{{ item.text | safe }}</a>
-            {% endif %}
-          </li>
-          {% endfor %}
-        </ul>
-      </nav>
-
-
-      
-
-      {# --- Подписка --- #}
-      <nav class="nav__section" aria-labelledby="subscription-heading">
-        <p id="subscription-heading" class="nav__section__title">{{ navData.subscription.title }}</p>
-        <ul class="subscription__list nav__group">
-          {% for item in navData.subscription.list %}
-          <li class="nav__section__item">
-            <a class="nav-link" href="{{ item.url }}" 
-              {% if item.ariaLabel %} aria-label="{{ item.ariaLabel }}" {% endif %}
-              {% if item.type %} type="{{ item.type }}" {% endif %}
-              {% if item.title %} title="{{ item.title }}" {% endif %}
-              {% if item.external %} target="_blank" rel="noopener noreferrer" {% endif %}>
-              {{ item.text }}
-            </a>
-          </li>
-          {% endfor %}
-        </ul>
-      </nav>
-
- <nav class="nav__section" aria-labelledby="header-social">
-        <p id="header-social" class="nav__section__title">Социальные сети</p>
-        {% include "smm.njk" %}  
-        </nav>
-
-          {% set toggleId = "theme-toggle-header" %}
-          {% include "theme-toggle.njk" %}
-          {% set toggleId = none %}
-          {% set maskId = none %}
-    </div>
-  </div>
+  {% include "header-bar.njk" %}
+  {% include "header-menu-panel.njk" %}
 </header>

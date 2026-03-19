@@ -41,6 +41,27 @@
 .h1-name {
   font-weight: 700;
   display: block;
-  margin-bottom: 4px; 
+  font-size: var(--step-3);
+  color: var(--text-accent);
+}
+
+.h1-role {
+  display: block;
+  font-size: var(--step-1);
+  font-weight: 400;
+  color: var(--secondary-text-colour);
+  margin-top: var(--space-xs);
+}
+
+.barsan-cta {
+  padding-block: var(--space-2xl);
+  padding-inline: var(--space-xl);
+  background: var(--route-card-bg);
+
+  .button-primary {
+    background-color: var(--button-bg-color);
+    color: var(--button-text-color);
+    &:hover { background-color: var(--button-hover-bg-color); }
+  }
 }
 
