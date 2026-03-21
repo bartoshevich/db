@@ -85,7 +85,7 @@
         right: 0;
         bottom: 0;
       }
-      &:focus { outline: none; }
+      &:focus:not(:focus-visible) { outline: none; }
     }
 
     &:focus-within {
@@ -120,6 +120,20 @@ html[data-theme="dark"] {
 @media (max-width: 480px) {
   .cards > ul {
     grid-template-columns: 1fr;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .cards .card {
+    transition: none;
+
+    &:hover {
+      transform: none;
+    }
+
+    .img img {
+      transition: none;
+    }
   }
 }
 

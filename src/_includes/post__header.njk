@@ -1,24 +1,25 @@
-<div class="intro__post">
-    <h1 class=" bold max-width-text">{{ name | default(title) | nbspPrepositions | safe }}</h1> 
-    <div class="post-metadata">
-        <span class="post-date">
-      {# Используем page.date - это правильно #}
-      {# Атрибут datetime оставляем с htmlDateString (YYYY-MM-DD) #}
-      <time datetime="{{ page.date | htmlDateString }}" > 
-          {# Видимый текст форматируем новым фильтром readableDateRU #}
-          {{ page.date | readableDateRU }} 
-      </time> 
-      
-      {# Проверяем и используем last_modified_at НАПРЯМУЮ #}
-      {% if last_modified_at %}
-      {# Атрибут datetime оставляем с htmlDateString (YYYY-MM-DD) #}
-      <time datetime="{{ last_modified_at | htmlDateString }}">
-          {# Видимый текст форматируем новым фильтром readableDateRU #}
-         <span class="update-info noperenos"> (обновил {{ last_modified_at | readableDateRU }})</span>
-      </time>
-      {% endif %}
-      </span>
-      <span class="reading-time"> {{ content | striptags | readingTime }} чтения</span>
+{% if topic %}
+  {% set topicMap = {} %}
+  {% for t in blogTopics %}
+    {% set topicMap = topicMap | setAttribute(t.key, t.title) %}
+  {% endfor %}
+  {% set topicTitle = topicMap[topic] or topic %}
+{% endif %}
 
-    </div>
-</div> 
+<header class="max-width-text row-gap--xs">
+  {% if topic %}<p class="section-kicker">{{ topicTitle }}</p>{% endif %}
+  <h1 class="intro">
+    <span class="h1-name">{{ (name or title) | nbspPrepositions | safe }}</span>
+  </h1>
+  <div class="post-metadata">
+    <span class="post-date">
+      <time datetime="{{ page.date | htmlDateString }}">{{ page.date | readableDateRU }}</time>
+      {% if last_modified_at %}
+        <time datetime="{{ last_modified_at | htmlDateString }}">
+          <span class="update-info noperenos">(обновил {{ last_modified_at | readableDateRU }})</span>
+        </time>
+      {% endif %}
+    </span>
+    <span class="reading-time">{{ content | striptags | readingTime }} чтения</span>
+  </div>
+</header>

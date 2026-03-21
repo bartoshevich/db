@@ -67,12 +67,12 @@ iframe {
   fill: #ffffff;
 }
 
-.video__button:focus {
+.video__button:focus:not(:focus-visible) {
   outline: none;
 }
 
 .video:hover .video__button-shape,
-.video__button:focus .video__button-shape {
+.video__button:focus-visible .video__button-shape {
   fill: #fe0034;
   fill-opacity: 1;
 }

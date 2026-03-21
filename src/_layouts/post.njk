@@ -1,14 +1,10 @@
 {% extends "default.njk" %}
- 
-      {% block main_content %}
-        <article class="full-bleed row-gap--m" data-pagefind-body>
-        {% include "post__header.njk" %}
-    
-  {{ content | nbspPrepositions | safe  }}
-      </article>
-      <div class="space-chapter"></div>
-        {% include "related-service.njk" %}
-        
-        {% include "subscription.njk" %}
-      {% endblock %}
-  
+
+{% block main_content %}
+  <article class="full-bleed row-gap--m" data-pagefind-body>
+    {% include "post__header.njk" %}
+    {{ content | nbspPrepositions | safe }}
+  </article>
+  {% include "related-service.njk" %}
+  {% include "subscription.njk" %}
+{% endblock %}

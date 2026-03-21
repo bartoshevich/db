@@ -1,33 +1,22 @@
-// Стили для постов
+@use './variables' as v;
 
 
-
-.intro__post {
-  font-size: clamp(1.75rem, 5vw, 2.5rem);
-  line-height: 1.2; /* Можно уточнить до 1.28 (40px) при необходимости */
-  margin-bottom: var(--space-s);
+/* Post title: primary color (not accent like home page h1) */
+[data-pagefind-body] .h1-name {
   color: var(--text-colour);
-  font-weight: 700;
-
-  @media (max-width: 768px) {
-    font-size: var(--step-3);
-    margin-bottom: var(--space-xs);
-  }
 }
 
-/* Контейнер метаданных с выверенными отступами */
+
 .post-metadata {
-  /* 16px и 24px */
-  margin: 16px 0 24px; 
+  margin: var(--space-xs) 0 var(--space-l);
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   gap: 1em;
   font-size: var(--step--1);
-  color: rgba(29, 29, 31, 0.71);
+  color: v.$secondary-text-colour;
   line-height: 1.4;
   font-weight: 400;
-  letter-spacing: -0.01em;
 
   @media screen and (max-width: 450px) {
     flex-direction: row;
@@ -42,18 +31,15 @@
   }
 }
 
-/* Информация об обновлении */
 .update-info {
-  color: rgba(29, 29, 31, 0.61);
+  color: v.$secondary-text-colour;
 }
 
-/* Время чтения */
 .reading-time {
   position: relative;
   padding-left: 16px;
 }
 
-/* Тонкая элегантная линия-разделитель */
 .reading-time::before {
   content: "";
   position: absolute;
@@ -61,10 +47,6 @@
   top: 50%;
   transform: translateY(-50%);
   height: var(--step--2);
-  width: 1px; /* Исправлено с 0.5px для четкости */
-  background-color: rgba(29, 29, 31, 0.4);
+  width: 1px;
+  background-color: var(--gray);
 }
-
-[data-theme="dark"] .post-metadata { color: rgba(250, 250, 250, 0.6); }
-[data-theme="dark"] .update-info { color: rgba(250, 250, 250, 0.5); }
-[data-theme="dark"] .reading-time::before { background-color: rgba(250, 250, 250, 0.3); }
