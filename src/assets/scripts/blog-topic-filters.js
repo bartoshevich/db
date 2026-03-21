@@ -5,6 +5,7 @@ function initBlogTopicFilters() {
 
   const allButton = filtersRoot.querySelector('[data-topic-all]');
   const topicButtons = Array.from(filtersRoot.querySelectorAll('[data-topic-filter]'));
+  const hubCells = Array.from(document.querySelectorAll('.blog-hub-cell[data-topic-filter]'));
   const articles = Array.from(blogList.querySelectorAll('.blog-item[data-topic]'));
   if (!allButton || topicButtons.length === 0 || articles.length === 0) return;
 
@@ -82,6 +83,13 @@ function initBlogTopicFilters() {
       button.setAttribute('aria-pressed', String(isActive));
     });
 
+    hubCells.forEach((cell) => {
+      cell.classList.toggle(
+        'blog-hub-cell--active',
+        hasFilter && selected.has(cell.dataset.topicFilter),
+      );
+    });
+
     articles.forEach((article) => {
       const isVisible = !hasFilter || selected.has(article.dataset.topic);
       article.hidden = !isVisible;
@@ -114,6 +122,22 @@ function initBlogTopicFilters() {
       selectedTopics = normalizeTopics(Array.from(selected));
       applyFilter(selectedTopics);
       updateUrl(selectedTopics);
+    });
+  });
+
+  hubCells.forEach((cell) => {
+    cell.addEventListener('click', () => {
+      const topic = cell.dataset.topicFilter;
+      if (!allowedTopics.has(topic)) return;
+      // Toggle: повторный клик по активной ячейке сбрасывает фильтр
+      if (selectedTopics.length === 1 && selectedTopics[0] === topic) {
+        selectedTopics = [];
+      } else {
+        selectedTopics = [topic];
+      }
+      applyFilter(selectedTopics);
+      updateUrl(selectedTopics);
+      document.getElementById('all-posts')?.scrollIntoView({ behavior: 'smooth', block: 'start' });
     });
   });
 }

@@ -8,11 +8,6 @@
 /* --- ОДИН КЕЙС --- */
 .case {
   width: 100%;
-  margin-bottom: var(--space-3xl);
-  
-  &:last-child {
-    margin-bottom: 0;
-  }
 }
 
 /* Шапка кейса */
@@ -91,6 +86,276 @@
   font-weight: 400;
   margin: 0;
   display: flex;
- 
-  
+}
+
+/* --- КАСТОМНЫЙ АУДИОПЛЕЕР --- */
+.audio-player {
+  display: flex;
+  align-items: center;
+  gap: var(--space-s);
+  background: var(--route-card-bg);
+  border-radius: var(--radius-l);
+  padding: var(--space-m);
+  max-width: 65ch;
+
+  &__play {
+    flex-shrink: 0;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    border: 1.5px solid var(--text-colour);
+    background: transparent;
+    color: var(--text-colour);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: opacity 0.15s ease;
+
+    &:hover {
+      opacity: 0.6;
+    }
+
+    &:focus-visible {
+      outline: 2px solid var(--text-colour);
+      outline-offset: 3px;
+    }
+
+    svg {
+      display: block;
+    }
+  }
+
+  &__body {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-2xs);
+    min-width: 0;
+  }
+
+  &__title {
+    font-size: var(--step-0);
+    font-weight: 600;
+    color: var(--text-colour);
+    margin: 0;
+  }
+
+  &__meta {
+    font-size: var(--step--1);
+    color: var(--secondary-text-colour);
+    margin: 0;
+  }
+
+  &__track {
+    display: flex;
+    align-items: center;
+    gap: var(--space-xs);
+  }
+
+  &__progress {
+    flex: 1;
+    min-width: 120px;
+    height: 4px;
+    border-radius: 2px;
+    background: var(--gray);
+    cursor: pointer;
+    transition: height 0.15s ease;
+
+    @media (hover: hover) {
+      &:hover {
+        height: 6px;
+      }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      transition: none;
+    }
+  }
+
+  &__bar {
+    height: 100%;
+    border-radius: inherit;
+    background: var(--text-colour);
+    width: 0%;
+    pointer-events: none;
+    transition: width 0.1s linear;
+
+    @media (prefers-reduced-motion: reduce) {
+      transition: none;
+    }
+  }
+
+  &__time {
+    font-size: var(--step--1);
+    color: var(--secondary-text-colour);
+    white-space: nowrap;
+    font-variant-numeric: tabular-nums;
+    flex-shrink: 0;
+  }
+}
+
+/* Фигура с медиа (видео, изображение): отступ перед подписью */
+.row-gap--xs > figure figcaption,
+.case__act-media figure figcaption {
+  margin-top: var(--space-2xs);
+}
+
+/* Фигура с аудиороликом: больший отступ — чтобы плеер и атрибуция читались как два блока */
+.audio-figure {
+  figcaption {
+    margin-top: var(--space-xs);
+  }
+}
+
+/* Блокквот внутри колонки кейса: row-gap родителя обеспечивает отступ */
+.grid-columns__last-one-half .blockquote--emphasis {
+  margin-bottom: 0 !important;
+}
+
+/* --- ТРЁХАКТНЫЙ ЛЕЙАУТ КЕЙСА --- */
+.case__act {
+  display: grid;
+  gap: var(--space-l);
+  align-content: start;
+}
+
+.case__act-text {
+  display: grid;
+  gap: var(--space-m);
+  max-width: 65ch;
+}
+
+.case__act-media {
+  display: grid;
+  gap: var(--space-l);
+}
+
+.section-kicker--act {
+  font-size: var(--step--2);
+}
+
+.case__evidence-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--space-xs);
+
+  @media (max-width: 699px) {
+    grid-template-columns: 1fr;
+  }
+
+  &--three {
+    grid-template-columns: repeat(3, 1fr);
+
+    @media (max-width: 699px) {
+      grid-template-columns: 1fr;
+    }
+  }
+}
+
+.case__evidence-card {
+  display: grid;
+  gap: var(--space-2xs);
+  align-content: start;
+  padding: var(--space-l);
+  border-radius: 18px;
+  background: var(--route-card-bg);
+}
+
+.case__photo-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--space-xs);
+
+  @media (max-width: 699px) {
+    grid-template-columns: 1fr;
+  }
+
+  figure {
+    display: grid;
+    gap: var(--space-2xs);
+    align-content: start;
+  }
+
+  .image {
+    border-radius: var(--radius-l);
+  }
+}
+
+.case__blog-links {
+  display: grid;
+  gap: var(--space-2xs);
+  padding-top: var(--space-l);
+  border-top: 1px solid var(--gray);
+}
+
+/* --- СПИСОК «В БЛОГЕ» --- */
+.blog-links {
+  li {
+    padding-inline-start: 1.5em;
+    position: relative;
+
+    &::before {
+      content: "→";
+      position: absolute;
+      inset-inline-start: 0;
+      color: var(--secondary-text-colour);
+    }
+  }
+}
+
+/* --- КАРТОЧКИ ВНЕШНИХ ПУБЛИКАЦИЙ --- */
+.publication-cards__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: var(--space-l);
+}
+
+.publication-card {
+  display: flex;
+  flex-direction: column;
+  border-radius: 18px;
+  background: var(--route-card-bg);
+  overflow: hidden;
+  position: relative;
+  transition: background-color 0.2s ease, box-shadow 0.2s ease;
+
+  &:hover {
+    background: var(--selected-bg-color);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+  }
+
+  &__image {
+    aspect-ratio: 3 / 2;
+    overflow: hidden;
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform 0.3s ease;
+    }
+  }
+
+  &:hover &__image img {
+    transform: scale(1.03);
+  }
+
+  &__body {
+    padding: var(--space-m);
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-xs);
+    flex: 1;
+  }
+
+  a {
+    color: var(--text-colour);
+    text-decoration: none;
+
+    &::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+    }
+  }
 }

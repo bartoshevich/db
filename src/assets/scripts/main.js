@@ -24,6 +24,14 @@ document.addEventListener("DOMContentLoaded", () => {
       .catch((err) => console.error("⚠️ Ошибка при загрузке video.js", err));
   }
 
+  if (document.querySelector(".audio-player")) {
+    import("./audio.js")
+      .then((module) => {
+        module.initAudio();
+      })
+      .catch((err) => console.error("⚠️ Ошибка при загрузке audio.js", err));
+  }
+
   if (document.querySelector(".image-expand")) {
     import("./imageExpand.js")
       .then((module) => {

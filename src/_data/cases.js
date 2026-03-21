@@ -367,6 +367,17 @@ articles: {
         image: "https://res.cloudinary.com/bartoshevich/image/upload/f_auto/q_auto/v1648159462/site/1fridaypb.jpg",
         description: "«Узнали мнение экспертов — как компании можно выделиться среди похожих друг на друга акций со скидками»"
       }
+    ],
+    wunderDigital: [
+      {
+        title: "Бренд и перформанс-маркетинг: что важно знать маркетологу",
+        url: "https://wunder-digital.kz/brend-i-perfomans-marketing-chto-vazhno-znat-marketologu/",
+        sameAs: ["https://wunder-digital.by/brend-i-perfomans-marketing-chto-vazhno-znat-marketologu/"],
+        publisher: "Wunder Digital",
+        publisherUrl: "https://wunder-digital.kz/",
+        image: "https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1774000049/site/cases/wunder.jpg",
+        description: "Почему разрыв между brand и performance-маркетингом вредит бизнесу — и как выстроить их взаимодействие."
+      }
     ]
   },
 

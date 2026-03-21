@@ -1,7 +1,7 @@
 ---
 layout: default
 permalink: /blog/
-description: "Авторский блог о маркетинге, стратегии и брендинге. 86+ экспертных статьи: кейсы, анализ данных и тренды. Практические советы Дмитрия Бартошевича." 
+description: "Авторский блог о маркетинге, стратегии и брендинге. 86+ экспертных статьи: кейсы, анализ данных и тренды. Практические советы Дмитрия Бартошевича."
 title: "Блог о маркетинге и стратегии Дмитрия Бартошевича"
 name: "Блог о маркетинге и стратегии"
 keywords: "блог о маркетинге, стратегия, анализ данных, разработка брендов, управление брендами, антикризисный маркетинг, консультант по маркетингу, Дмитрий Бартошевич, советы по маркетингу, статьи о маркетинге"
@@ -14,131 +14,190 @@ eleventyNavigation:
 ---
 
 
-
-
-
-
-<header class="intro max-width-text"><h1 class="inline bold">Блог Дмитрия Бартошевича</h1>. <span class="inline">С&nbsp;2015&nbsp;года разбираю, почему маркетинговые решения работают&nbsp;&mdash; или не&nbsp;работают. </span>
-  
+<header class="max-width-text row-gap--xs">
+  <p class="section-kicker">Заметки</p>
+  <h1 class="intro">
+    <span class="h1-name">О маркетинге и&nbsp;стратегии</span>
+  </h1>
+  <p class="secondary-color"><strong class="text-color">{{ collections.post | length }}&nbsp;статей.</strong> Следить: <a class="link" href="https://t.me/+OuzxNOZg-g44ZjYy">telegram</a>, <a class="link" href="{{ navigation.subscription.list[1].url | url }}">эл.почта</a></p>
 </header>
 
 
-<div class="full-bleed row-gap--m space-connected" id="all-posts">
+{# --- Подготовка данных --- #}
 
-<h2 class="element--hidden">Все записи ({{ collections.post | length }}) </h2>
- <p class="secondary-color">Следить за обновлениями: <a class="link secondary-color" href="https://t.me/+OuzxNOZg-g44ZjYy">telegram</a>, <a class="link secondary-color" href="{{ navigation.subscription.list[1].url | url }}">эл.почта</a></span></p>
-
-
- 
-{% set topicCounts = {} %}
-{% for post in collections.post %}
-  {% set topicKey = post.data.topic %}
-  {% if topicKey %}
-    {% set currentCount = topicCounts[topicKey] if topicCounts[topicKey] else 0 %}
-    {% set topicCounts = topicCounts | setAttribute(topicKey, currentCount + 1) %}
-  {% endif %}
+{% set topicMap = {} %}
+{% for topic in blogTopics %}
+  {% set topicMap = topicMap | setAttribute(topic.key, topic.title) %}
 {% endfor %}
 
-<section class="blog-topic-filters" aria-label="Фильтр статей по темам">
-  <h2 class="visually-hidden">Фильтр по темам</h2>
-  <div class="blog-topic-filters__list" data-topic-filters>
-    <button class="blog-topic-chip is-active" type="button" data-topic-all aria-pressed="true">
-      Все статьи <span class="blog-topic-chip__count">{{ collections.post | length }}</span>
-    </button>
-    {% for topic in blogTopics | sort(attribute='order') %}
-      {% set topicCount = topicCounts[topic.key] if topicCounts[topic.key] else 0 %}
-      {% if topicCount > 0 %}
-        <button
-          class="blog-topic-chip"
-          type="button"
-          data-topic-filter="{{ topic.key }}"
-          data-topic-order="{{ topic.order }}"
-          aria-pressed="false">
-          {{ topic.title }} <span class="blog-topic-chip__count">{{ topicCount }}</span>
-        </button>
-      {% endif %}
+
+{# --- Ключевые статьи --- #}
+
+<section class="full-bleed space-connected" aria-label="Ключевые статьи">
+  <h2 class="element--hidden">Ключевые статьи</h2>
+  <div class="blog-featured-grid">
+    {% set featuredUrls = [
+      '/blog/system-marketing/',
+      '/blog/razrabotka-koncepcii-brenda-hormann/',
+      '/blog/perfomance-and-brand-marketing/'
+    ] %}
+    {% set featuredCount = 0 %}
+    {% for featuredUrl in featuredUrls %}
+      {% for post in collections.post %}
+        {% if post.url == featuredUrl %}
+          {% set featuredCount = featuredCount + 1 %}
+          <a class="blog-featured-card{% if featuredCount == 1 %} blog-featured-card--hero{% endif %}" href="{{ post.url }}">
+            {% if featuredCount == 1 %}<div class="blog-featured-card__body">{% endif %}
+            <p class="blog-featured-card__tag">{{ topicMap[post.data.topic] or post.data.topic }}</p>
+            <h3 class="blog-featured-card__title">{{ (post.data.name or post.data.title) | nbspPrepositions | safe }}</h3>
+            <p class="blog-featured-card__desc">{{ post.data.description | safe }}</p>
+            {% if featuredCount == 1 %}</div><span class="blog-featured-card__num" aria-hidden="true">01</span>{% endif %}
+          </a>
+        {% endif %}
+      {% endfor %}
     {% endfor %}
   </div>
 </section>
 
 
+{# --- Темы --- #}
 
-
-{# ========================================== #}
-{# БЛОК ПОИСКА ПО БЛОГУ #}
-{# ========================================== #}
-<section class="blog-search" aria-label="Поиск по блогу">
-  <h2 class="visually-hidden">Поиск по статьям блога</h2>
-  
-  {# Контейнер для Pagefind UI (заполняется JS) #}
-  <div id="blog-search-container" role="search"></div>
+<section class="full-bleed space-connected blog-hubs-section" aria-label="Темы блога">
+  <h2 class="heading--gamma">Темы</h2>
+  <div class="blog-hubs-table">
+    <button class="blog-hub-cell" type="button" data-topic-filter="marketing-management">
+      <span class="blog-hub-cell__name">Управление маркетингом</span>
+      <span class="blog-hub-cell__count">18</span>
+    </button>
+    <button class="blog-hub-cell" type="button" data-topic-filter="brand-positioning">
+      <span class="blog-hub-cell__name">Бренд и позиционирование</span>
+      <span class="blog-hub-cell__count">14</span>
+    </button>
+    <button class="blog-hub-cell" type="button" data-topic-filter="demand-effectiveness">
+      <span class="blog-hub-cell__name">Спрос и эффективность</span>
+      <span class="blog-hub-cell__count">14</span>
+    </button>
+    <button class="blog-hub-cell" type="button" data-topic-filter="environment-observations">
+      <span class="blog-hub-cell__name">Среда и наблюдения</span>
+      <span class="blog-hub-cell__count">13</span>
+    </button>
+    <button class="blog-hub-cell" type="button" data-topic-filter="communications-content">
+      <span class="blog-hub-cell__name">Коммуникации и контент</span>
+      <span class="blog-hub-cell__count">11</span>
+    </button>
+    <button class="blog-hub-cell" type="button" data-topic-filter="customer-research">
+      <span class="blog-hub-cell__name">Исследования покупателей</span>
+      <span class="blog-hub-cell__count">6</span>
+    </button>
+    <button class="blog-hub-cell" type="button" data-topic-filter="marketing-without-hard-selling">
+      <span class="blog-hub-cell__name">Маркетинг без втюхивания</span>
+      <span class="blog-hub-cell__count">5</span>
+    </button>
+    <button class="blog-hub-cell" type="button" data-topic-filter="tech-market-changes">
+      <span class="blog-hub-cell__name">Технологии и рынок</span>
+      <span class="blog-hub-cell__count">5</span>
+    </button>
+    <button class="blog-hub-cell" type="button" data-topic-filter="system-marketing">
+      <span class="blog-hub-cell__name">Системный маркетинг</span>
+      <span class="blog-hub-cell__count">2</span>
+    </button>
+  </div>
 </section>
 
 
+{# --- Все статьи --- #}
 
+<div class="full-bleed row-gap--m space-connected" id="all-posts">
 
-     
-<div class="blog-list">
-    {# 1. Применяем наш новый фильтр #}
+  <h2 class="heading--gamma">Все статьи</h2>
+
+  <section class="blog-topic-filters" aria-label="Фильтр статей по темам">
+    <h2 class="visually-hidden">Фильтр по темам</h2>
+    {% set topicCounts = {} %}
+    {% for post in collections.post %}
+      {% set topicKey = post.data.topic %}
+      {% if topicKey %}
+        {% set currentCount = topicCounts[topicKey] if topicCounts[topicKey] else 0 %}
+        {% set topicCounts = topicCounts | setAttribute(topicKey, currentCount + 1) %}
+      {% endif %}
+    {% endfor %}
+    <div class="blog-topic-filters__list" data-topic-filters>
+      <button class="blog-topic-chip is-active" type="button" data-topic-all aria-pressed="true">
+        Все статьи <span class="blog-topic-chip__count">{{ collections.post | length }}</span>
+      </button>
+      {% for topic in blogTopics | sort(attribute='order') %}
+        {% set topicCount = topicCounts[topic.key] if topicCounts[topic.key] else 0 %}
+        {% if topicCount > 0 %}
+          <button
+            class="blog-topic-chip"
+            type="button"
+            data-topic-filter="{{ topic.key }}"
+            data-topic-order="{{ topic.order }}"
+            aria-pressed="false">
+            {{ topic.title }} <span class="blog-topic-chip__count">{{ topicCount }}</span>
+          </button>
+        {% endif %}
+      {% endfor %}
+    </div>
+  </section>
+
+  <section class="blog-search" aria-label="Поиск по блогу">
+    <h2 class="visually-hidden">Поиск по статьям блога</h2>
+    <div id="blog-search-container" role="search"></div>
+  </section>
+
+  <div class="blog-list">
     {% set groupedPosts = collections.post | groupByYear %}
 
     {% if groupedPosts.length > 0 %}
-        
-        {# 2. Перебираем ГОДЫ #}
-        {% for group in groupedPosts %}
-            
-            {# Заголовок года #}
-            <div class="blog-year-divider space-chapter">
-                <h2 class="heading--gamma">{{ group.year }}</h2>
-            </div>
 
-            {# 3. Перебираем СТАТЬИ внутри этого года #}
-            {% for post in group.posts %}
-                
-                {# Подготовка дат для отображения #}
-                {% if post.data.last_modified_at %}
-                    {% set displayDate = post.data.last_modified_at %}
-                    {% set isUpdated = true %}
-                {% else %}
-                    {% set displayDate = post.date %}
-                    {% set isUpdated = false %}
-                {% endif %}
+      {% for group in groupedPosts %}
 
-                <article class="blog-item" data-topic="{{ post.data.topic }}">
-                    <a class="blog-item__link article-link" href="{{ post.url }}">
-                        <div class="blog-item__header">
-                            <h3 class="blog-item__title">
-                                {{ post.data.name | default(post.data.title) | nbspPrepositions | safe }}
-                            </h3>
-                            
-                            <div class="blog-item__meta">
-                                <time datetime="{{ displayDate | htmlDateString }}" class="blog-item__date">
-                                    {{ displayDate | readableDateRU }}
-                                </time>
-                                {% if isUpdated %}
-                                    <span class="update-label">(обновлено)</span>
-                                {% endif %}
-                            </div>
-                        </div>
-                        
-                        <div class="blog-item__content">
-                            <p>{{ post.data.description | nbspPrepositions | safe }}</p>
-                        </div>
-                    </a>
-                </article>
-            {% endfor %}
-            
+        <div class="blog-year-divider">
+          <h2 class="heading--gamma">{{ group.year }}</h2>
+        </div>
+
+        {% for post in group.posts %}
+
+          {% if post.data.last_modified_at %}
+            {% set displayDate = post.data.last_modified_at %}
+            {% set isUpdated = true %}
+          {% else %}
+            {% set displayDate = post.date %}
+            {% set isUpdated = false %}
+          {% endif %}
+
+          <article class="blog-item" data-topic="{{ post.data.topic }}">
+            <a class="blog-item__link article-link" href="{{ post.url }}">
+              <div class="blog-item__header">
+                <h3 class="blog-item__title">
+                  {{ post.data.name | default(post.data.title) | nbspPrepositions | safe }}
+                </h3>
+                <div class="blog-item__meta">
+                  <time datetime="{{ displayDate | htmlDateString }}" class="blog-item__date">
+                    {{ displayDate | readableDateRU }}
+                  </time>
+                  {% if isUpdated %}
+                    <span class="update-label">(обновлено)</span>
+                  {% endif %}
+                </div>
+              </div>
+              <div class="blog-item__content">
+                <p>{{ post.data.description | nbspPrepositions | safe }}</p>
+              </div>
+            </a>
+          </article>
+
         {% endfor %}
 
+      {% endfor %}
+
     {% else %}
-        <p>Пока нет записей в блоге.</p>
+      <p>Пока нет записей в блоге.</p>
     {% endif %}
-</div>
-
-  
-
   </div>
 
+</div>
 
 
 {% block page_specific_scripts %}

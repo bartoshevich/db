@@ -4,30 +4,29 @@
 
 {# Переопределяем блок основного контента #}
 {% block main_content %}
-<header class="intro max-width-text">
-  <h1 class="inline bold">Проекты и публикации</h1>:
-  <nav class="inline" aria-label="Навигация по портфолио">
-    <p class="inline"><a class="link" href="#cases">кейсы</a>, <a class="link" href="#speeches">выступления</a> на&nbsp;конференциях, <a class="link" href="#articles">статьи</a> в&nbsp;деловых изданиях.</p>
-  </nav>
+<header class="max-width-text row-gap--xs">
+  <p class="section-kicker">Портфолио</p>
+  <h1 class="heading--alpha">Проекты и&nbsp;публикации</h1>
 </header>
 
-<section class="full-bleed row-gap--m space-section" id="cases">
-<h2 class="heading--beta">Развиваю бренды</h2>
-{% include "project__clients.njk" %}
+<section class="full-bleed row-gap--m space-chapter" id="cases">
+  <div class="row-gap--xs">
+    <p class="section-kicker">Кейсы</p>
+    <h2 class="heading--gamma">Развиваю бренды</h2>
+  </div>
+  {% include "project__clients.njk" %}
 </section>
-  
-<section class="full-bleed row-gap--m space-chapter">
-  <hr class="separator"> 
-<h2 class="heading--beta space-chapter">Делюсь знаниями и&nbsp;профессиональным опытом</h2>
 
-{% include "project__articles.njk" %}
-
-{% include "project__presentations.njk" %}
-
+<section class="full-bleed row-gap--m space-chapter" id="publications">
+  <div class="row-gap--xs">
+    <p class="section-kicker">Публикации</p>
+    <h2 class="heading--gamma">Делюсь знаниями и&nbsp;профессиональным опытом</h2>
+  </div>
+  {% include "project__articles.njk" %}
+  {% include "project__presentations.njk" %}
 </section>
 
 <p class="small secondary-color space-connected">
-<small> Проекты Дмитрия Бартошевича. Обновлено <time datetime="2023-08-13">13 августа 2023 года</time>. </small>
+  <small>Проекты Дмитрия Бартошевича. Обновлено <time datetime="2023-08-13">13&nbsp;августа 2023&nbsp;года</time>.</small>
 </p>
 {% endblock %}
-

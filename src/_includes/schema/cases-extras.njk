@@ -302,23 +302,31 @@
     {% endfor %}
   {% endif %}
 
-  {# 2. Добавляем статью для Wunder Digital (пример) #}
-  {# ПРИМЕЧАНИЕ: Эти данные лучше вынести в _data/cases.js #}
-  {% set _ = mainEntityItems.push({
-    "@type": "ListItem",
-    "position": mainEntityItems | length + 1,
-    "item": {
-      "@type": "Article",
-      "name": "Бренд и перформанс-маркетинг: что важно знать маркетологу",
-      "url": "https://wunder-digital.kz/brend-i-perfomans-marketing-chto-vazhno-znat-marketologu/",
-      "sameAs": ["https://wunder-digital.by/brend-i-perfomans-marketing-chto-vazhno-znat-marketologu/"],
-      "author": { "@id": "https://bartoshevich.by/about/#person" },
-      "publisher": {
-        "@type": "Organization",
-        "name": "Wunder Digital"
-      }
-    }
-  }) %}
+  {# 2. Статьи Wunder Digital #}
+  {% if cases.articles and cases.articles.wunderDigital %}
+    {% for article in cases.articles.wunderDigital %}
+      {% set itemSchema = {
+        "@type": "Article",
+        "name": (article.title.val or article.title) | decodeEntities,
+        "headline": (article.title.val or article.title) | decodeEntities,
+        "url": article.url,
+        "author": { "@id": "https://bartoshevich.by/about/#person" },
+        "publisher": {
+          "@type": "Organization",
+          "name": article.publisher,
+          "url": article.publisherUrl
+        }
+      } %}
+      {% if article.sameAs %}
+        {% set itemSchema = itemSchema | setAttribute("sameAs", article.sameAs) %}
+      {% endif %}
+      {% set _ = mainEntityItems.push({
+        "@type": "ListItem",
+        "position": mainEntityItems | length + 1,
+        "item": itemSchema
+      }) %}
+    {% endfor %}
+  {% endif %}
 
 
 
@@ -374,57 +382,7 @@
   {# КОНЕЦ: Добавляем презентации и выступления #}
 
 
-  {# Добавляем другие кейсы #}
-  {% if cases.otherCases and cases.otherCases | length > 0 %}
-    {% set otherCasesCollection = {
-      "@type": "CollectionPage",
-      "@id": site.url ~ page.url ~ "#other-cases",
-      "name": "Другие маркетинговые проекты Дмитрия Бартошевича",
-      "description": "Коллекция ссылок на кейсы и проекты в сфере маркетинга, брендинга и рекламы",
-      "headline": "Другие кейсы",
-      "isPartOf": { "@id": casesPageId },
-      "mainEntity": {
-        "@type": "ItemList",
-        "numberOfItems": cases.otherCases | length,
-        "itemListElement": []
-      }
-    } %}
-
-    {% set caseItems = [] %}
-    {% for case in cases.otherCases %}
-      {% set caseSchema = {
-        "@type": "ListItem",
-        "position": loop.index,
-        "name": case.name,
-        "url": case.url,
-        "description": case.description
-      } %}
-
-      {# Особая обработка для кейса с другими компаниями #}
-      {% if case.id == "other-companies" %}
-        {% set caseSchema = {
-          "@type": "ListItem",
-          "position": loop.index,
-          "item": {
-            "@type": "CreativeWork",
-            "name": case.name,
-            "description": case.description
-          }
-        } %}
-      
-      {% endif %}
-
-      {% set _ = caseItems.push(caseSchema) %}
-    {% endfor %}
-    {% set otherCasesWithItems = otherCasesCollection %}
-    {% set otherCasesWithItems = otherCasesWithItems | setAttribute("mainEntity", {
-      "@type": "ItemList",
-      "numberOfItems": caseItems | length,
-      "itemListElement": caseItems
-    }) %}
-
-    {% set _ = schemaParts.push(otherCasesWithItems) %}
-  {% endif %}
+  {# otherCases удалены из schema: эти позиции не отображаются на странице /cases/ #}
 
 
 
