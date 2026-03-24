@@ -1,10 +1,10 @@
 ---
 layout: post
-title:  "Customer Journey Map (CJM): как составить карту пути клиента"
-name: "Customer Journey Map: как разработать CJM&nbsp;&mdash; карту пути клиента"
-description: "Как разработать и составить CJM: карта пути клиента по шагам, примеры, типичные ошибки и сервисы для удобной работы с Customer Journey Map."
+title:  "Customer Journey Map: почему CJM не работает и как исправить"
+name: "Customer Journey Map: от декоративной схемы к рабочему инструменту"
+description: "CJM составляют, обсуждают и не используют. Разбираю три причины, по которым карта пути клиента остается схемой, и даю алгоритм построения рабочего CJM."
 date:   2016-06-06
-last_modified_at: 2024-12-12
+last_modified_at: 2026-03-24
 categories: инструкции
 permalink: "/blog/customer-journey-map/"
 tags: "инструменты бизнес"
@@ -13,219 +13,575 @@ image: /assets/images/tizers/tizer-22.jpg
 eleventyNavigation:
   key: customer-journey-map
   title: "Customer Journey Map (CJM): примеры, алгоритм и инструменты"
-  parent: blog 
+  parent: blog
 relatedIdeas:
-  - title: "Как узнать сильного маркетолога на&nbsp;собеседовании"
-    url: "/blog/kak-uznat-silnogo-marketologa/"
-  - title: "Разбираем ошибки в&nbsp;SWOT-анализе: как их&nbsp;избежать и&nbsp;провести анализ правильно"
-    url: "/blog/oshibki-v-swot-analize-i-kak-ih-izbezhat/"
-  - title: "Доля в&nbsp;поиске&nbsp;&mdash; новый показатель в&nbsp;маркетинге"
-    url: "/blog/share-of-searches/"
-  - title: "Таблицы и&nbsp;схемы не&nbsp;делают маркетинг системным"
-    url: "/blog/system-marketing/"
-  - title: "Заменит&nbsp;ли ИИ&nbsp;маркетолога?"
-    url: "/blog/iskusstvennyj-intellekt-v-marketinge/"
+  - title: "Интернет-магазин под клиента, а&nbsp;не&nbsp;под каталог"
+    url: "/blog/klientskij-opyt-v-ecommerce/"
+  - title: "Три&nbsp;правила маркетинговых исследований: как&nbsp;получить данные и&nbsp;не&nbsp;потратить бюджет впустую"
+    url: "/blog/pravila-marketingovyx-issledovanij/"
 
 topic: customer-research
+citations:
+  - type: "Article"
+    name: "Decoding Decisions: Marketing in the Messy Middle"
+    url: "https://www.thinkwithgoogle.com/_qs/documents/18366/Decoding_Decisions_Marketing_in_the_Messy_Middle.pdf"
+    publisher:
+      name: "Google"
+    author:
+      - name: "Google"
+howto:
+  name: "Как создавать Customer Journey Map, чтобы он работал"
+  description: "Семь шагов для построения CJM, который дает конкретные решения, а не остается декоративной схемой."
+  steps:
+    - name: "Выберите конкретного клиента"
+      text: "Одна карта — один тип клиента и один сценарий. Не все клиенты, а конкретный персонаж с понятной ситуацией. Чем точнее контекст, тем точнее карта."
+    - name: "Опишите реальный путь клиента"
+      text: "Проследите путь от возникновения проблемы до покупки и дальнейшего использования: осознание, поиск, выбор, покупка, использование, повторное обращение. На каждом этапе фиксируйте реальные действия, а не желаемые."
+    - name: "Выясните задачи, мысли и эмоции персонажа"
+      text: "На каждом этапе определите, чего клиент хочет добиться, что чувствует, в чем сомневается и чего ожидает от компании."
+    - name: "Определите каналы коммуникации и точки контакта"
+      text: "Найдите, где и как клиент взаимодействует с компанией: сайт, реклама, рекомендации, рассылка, звонки, офлайн-точки, доставка, сервис. Отметьте этапы, где компания не присутствует."
+    - name: "Выявите барьеры"
+      text: "Для каждого этапа определите, что мешает клиенту двигаться дальше: нехватка информации, сомнения, сложный процесс, недоверие, задержки, ошибки в коммуникации."
+    - name: "Определите действия компании"
+      text: "Переведите выявленные барьеры в конкретные решения: что упростить, убрать, добавить или изменить в коммуникации и процессах."
+    - name: "Назначьте ответственных"
+      text: "Каждое действие должно иметь владельца. Без этого карта остается обсуждением, а не рабочим инструментом."
 ---
 
-<p>Customer Journey Map (CJM, "карта пути клиента" или "карта потребительского опыта") — это схема всех взаимодействий человека с компанией: от первого контакта до повторных покупок и рекомендаций. В этой статье я покажу по шагам, как разработать и составить CJM: выбрать персонажа, описать путь клиента, найти барьеры и превратить карту в понятный план действий для бизнеса.</p>
-
-<p>Версия статьи выходила <a class="link" href="//probusiness.io/tech/2150-kak-vzglyanut-na-rabotu-kompanii-glazami-klientov-chtoby-povysit-prodazhi-metodika-customer-journey-mapping.html">на Pro Business</a>, здесь — доработанная и дополненная под блог.</p>
 
 
-<nav class="toc space-tight"  aria-labelledby="toc-title">
-  <h2 class="toc__title" id="toc-title" >Содержание</h2>
+
+<p>О&nbsp;карте пути клиента слышали почти все, кто работает в&nbsp;маркетинге. Во&nbsp;многих компаниях карты рисуют,
+  обсуждают, презентуют... и&nbsp;принимают решения по&nbsp;старому. </p>
+
+<p>Эту статью я&nbsp;впервые написал 10&nbsp;лет назад для делового портала <a class="link"
+    href="https://probusiness.io/tech/2150-kak-vzglyanut-na-rabotu-kompanii-glazami-klientov-chtoby-povysit-prodazhi-metodika-customer-journey-mapping.html">Pro
+    Business</a>. Тогда о&nbsp;Customer Journey Map говорили мало, еще меньше&nbsp;— применяли системно. Нужно было
+  просто объяснить, что это за&nbsp;инструмент и&nbsp;как им&nbsp;пользоваться. Сейчас проблема другая: карты есть,
+  а&nbsp;толку от&nbsp;них нет. Поэтому переписал текст&nbsp;— с&nbsp;акцентом на&nbsp;то, как сделать CJM&nbsp;рабочим,
+  а&nbsp;не&nbsp;декоративным.</p>
+
+
+
+<nav class="toc space-tight" aria-labelledby="toc-title">
+  <h2 class="toc__title" id="toc-title">Содержание</h2>
   <ul class="additive-spacing">
     <li>
       <span class="tocnumber">1</span>
-      <a class="link" href="#customer-journey-map-benefits">Зачем нужна Customer Journey Map (CJM) бизнесу</a>
+      <a class="link" href="#why-cjm">Зачем вообще модель, которая «лжет»</a>
     </li>
     <li>
       <span class="tocnumber">2</span>
-      <a class="link" href="#cjm-rules-without-mistakes">Правила составления CJM без ошибок</a>
+      <a class="link" href="#where-cjm-breaks">Где ломается Customer Journey Map</a>
     </li>
     <li>
       <span class="tocnumber">3</span>
-      <a class="link" href="#step-by-step-cjm-algorithm">Пошаговый алгоритм составления и разработки CJM</a>
+      <a class="link" href="#how-to-build-cjm">Как создавать CJM, чтобы он&nbsp;работал</a>
     </li>
     <li>
       <span class="tocnumber">4</span>
-      <a class="link" href="#cjm-tools">Инструменты для создания CJM</a>
+      <a class="link" href="#how-to-check-cjm">Как понять, что CJM сработал</a>
+    </li>
+
+    <li>
+      <span class="tocnumber">5</span>
+      <a class="link" href="#cjm-tools">Инструменты для разработки CJM</a>
     </li>
   </ul>
 </nav>
 
 
 
-<span id="1" aria-hidden="true"></span>
-<section class="row-gap--m space-section max-width-text" id="customer-journey-map-benefits">
-<h2 class="heading--beta">Зачем нужна Customer Journey Map (CJM) бизнесу</h2>
 
-<p>Потребительский опыт&nbsp;— все, что клиент думает и&nbsp;чувствует, когда контактирует с&nbsp;компанией, будь-то видит всплывающую рекламу в&nbsp;интернете или звонит в&nbsp;отдел продаж. Если отобразить все случаи взаимодействия клиента с&nbsp;фирмой и&nbsp;отметить его мысли и&nbsp;эмоции на&nbsp;каждом этапе, мы&nbsp;получим карту потребительского опыта или customer journey map.</p>
+<section class="row-gap--m space-section max-width-text" id="why-cjm">
+  <h2 class="heading--beta">Зачем вообще модель, которая «лжет»?</h2>
 
-<p>Зачем нам все это? Потому что в&nbsp;каждом контакте, будь&nbsp;то всплывающая реклама или звонок в&nbsp;отдел продаж, скрыта история. История о&nbsp;том, как ваш клиент видит мир, что он&nbsp;чувствует и&nbsp;какие решения принимает. Если научиться слушать эти истории, можно создавать такие продукты, которыми люди захотят делиться.</p>
+  <p>Customer Journey Map (CJM, «карта пути клиента» или «карта потребительского опыта»)&nbsp;— это схема всех
+    взаимодействий человека с&nbsp;компанией: от&nbsp;осознания потребности до&nbsp;повторных покупок
+    и&nbsp;рекомендаций. Часто ее&nbsp;изображают в&nbsp;виде линейной последовательности этапов. Однако,
+    в&nbsp;реальности поведение клиента часто хаотично. Он&nbsp;может откладывать решение, несколько раз возвращаться
+    к&nbsp;сравнению вариантов, перескакивать этапы, выпадать из&nbsp;процесса и&nbsp;возвращаться позже. </p>
 
-<figure  itemscope itemtype="https://schema.org/ImageObject">	
-		<link itemprop="url" href="/assets/images/blog/customer-journey-map/cjm4.jpg">
-<picture>
-<source srcset="/assets/images/blog/customer-journey-map/cjm4.avif" type="image/avif"> 
-<source srcset="/assets/images/blog/customer-journey-map/cjm4.webp" type="image/webp"> 
-<img loading="lazy" decoding="async" class="image" src="/assets/images/blog/customer-journey-map/cjm4.jpg" alt="Примеры карт Customer Journey Map (CJM)" width="695" height="695" itemprop="contentUrl">
-</picture>
-<figcaption class="figcaption">
-<p>Карты потребительского опыта могут выглядеть по-разному. Не&nbsp;волнуйтесь, если сейчас ничего не&nbsp;понятно. Скоро вы&nbsp;поймете принцип и&nbsp;сможете &laquo;читать&raquo; и&nbsp;составлять карты.</p>
-</figcaption>
-</figure>
+  <p>Для описания поведения покупателей Google ввела <a class="link"
+      href="https://www.thinkwithgoogle.com/_qs/documents/18366/Decoding_Decisions_Marketing_in_the_Messy_Middle.pdf">модель
+      «Messy Middle»</a> (можно перевести как «хаотичная середина»). Ее&nbsp;суть в&nbsp;том, что прежде чем сделать
+    выбор человек&nbsp;— под давлением избытка информации и&nbsp;когнитивных искажений&nbsp;— многократно
+    и&nbsp;хаотично переключается между поиском вариантов и&nbsp;их&nbsp;оценкой. </p>
 
-<p> Представим, что у&nbsp;нас сервисный центр по&nbsp;ремонту компьютеров. Что даст нам CJM? Благодаря карте мы&nbsp;увидим центр глазами клиентов. Поймем, какие каналы необходимо задействовать в&nbsp;коммуникации, что требуется усилить, чего не&nbsp;хватает, а&nbsp;что, наоборот, не&nbsp;влияет на&nbsp;итоговый результат. Мы&nbsp;увидим, как сделать так, чтобы обслуживание в&nbsp;сервисном центре клиентам нравилось, чтобы люди легко обращались к&nbsp;нам за&nbsp;помощью и&nbsp;так&nbsp;же легко рекомендовали друзьям и&nbsp;знакомым.  </p>
+  <p>И&nbsp;здесь логичен вопрос: «Если путь клиента&nbsp;— это броуновское движение сомнений и&nbsp;поиска,
+    то&nbsp;не&nbsp;является&nbsp;ли бессмысленной любая попытка визуализации этого пути в&nbsp;виде последовательной
+    схемы?».</p>
 
-<p class="pull-quote">Цель customer journey mapping&nbsp;— улучшить потребительский опыт </p>
+  <p>Ответ&nbsp;— нет.</p>
 
-
-
-<p>Это все, конечно, в&nbsp;идеале. Я&nbsp;знаю примеры, как люди загорались идей CJM, неделями чертили диаграммы и&nbsp;схемы, но&nbsp;итогом была только запутанность и&nbsp;раздраженность. «Это еще одна,&nbsp;— говорят они,&nbsp;— бесполезная выдумка <b>маркетологов</b>!»</p>
-<p>Чтобы карта потребительского опыта действительно оказалась полезным инструментом, перед ее&nbsp;составлением необходимо усвоить и&nbsp;следовать трем правилам.</p>
-</section>
-
-<span id="2" aria-hidden="true"></span>
-<section class="row-gap--m space-section max-width-text" id="cjm-rules-without-mistakes">
-<h2 class="heading--beta">Правила составления CJM без ошибок</h2>
-
-<section class="row-gap--m space-tight">
-<h3 class="heading--gamma">1) Начинайте работу с&nbsp;выбора персонажа</h3>
-<p>Одна карта описывает потребительский опыт одного клиента. Если у&nbsp;вас много клиентов, используйте метод персонажей. Персонаж&nbsp;— обобщенный образ выбранного сегмента клиентов. Поведение и&nbsp;мысли персонажа отражают реальное поведение и&nbsp;мысли представителей сегмента.</p>
-
-<p>Различные персонажи выбирают и&nbsp;используют ваш продукт по&nbsp;разному. Если вам интересны несколько персонажей&nbsp;— составляйте несколько карт.</p>
-
-
-<p>В&nbsp;нашем примере с&nbsp;сервисным центром персонаж может быть таким: девушка-блогер, проводит с&nbsp;сетях 4+&nbsp;часов в&nbsp;день. Ноутбук стал внезапно выключаться, самостоятельно устранить неисправность девушка не&nbsp;может. </p>
-<p>Чем больше деталей&nbsp;/ характеристик в&nbsp;описании персонажа, тем проще будет &laquo;идти&raquo; по&nbsp;его пути потребителя. Для удобства можете придумать персонажу имя и&nbsp;даже нарисовать портрет. </p>
-</section>
-
-<section class="row-gap--m space-block">
-<h3 class="heading--gamma">2) Описывайте реальный клиентский опыт</h3>
-<p>Если подменить клиентский опыт собственными представлениями и&nbsp;догадками, методика не&nbsp;принесет пользы. Вы&nbsp;построите фантазию, которая с&nbsp;действительностью может не&nbsp;иметь ничего общего.</p>
-<p class="mb-m">Как погрузиться в&nbsp;мир клиента:</p>
-<ul class="additive-spacing">
-<li class="list-li">Опирайтесь на&nbsp;доступные результаты исследований, опросы, метрики.</li>
-<li class="list-li">Описывая взаимодействие с&nbsp;компанией, говорите от&nbsp;первого лица («Я&nbsp;сделал...», «Я&nbsp;услышал...»).</li>
-<li class="list-li">Готовую карту обсудите с&nbsp;клиентами. Найдите 10&nbsp;добровольцев из&nbsp;нужного сегмента и&nbsp;уточните, весь&nbsp;ли их&nbsp;опыт вы&nbsp;отразили, правильно&nbsp;ли описали поведение и&nbsp;намерения на&nbsp;каждом шаге взаимодействия с&nbsp;компанией.</li>
- </ul>
-</section>
-
-<section class="row-gap--m space-block">
-<h3 class="heading--gamma">3) Работайте коллективно</h3>
-<p>Привлекайте коллег к&nbsp;работе над картой. Соберите за&nbsp;одним столом бухгалтеров, юриста, продавцов, маркетолога и&nbsp;попробуйте вместе «влезть в&nbsp;шкуру» клиента. Пользы компании принесет больше, чем многие рядовые совещания.</p>
-</section>
-</section>
-
-<span id="3" aria-hidden="true"></span>
-<section class="row-gap--m space-section max-width-text" id="step-by-step-cjm-algorithm">
-<h2 class="heading--beta">Пошаговый алгоритм составления и разработки CJM</h2>
-<p>Чтобы&nbsp;— наконец-то&nbsp;— составить CJM, следуйте описанным ниже шагам и&nbsp;схематичным примерам.</p>
-<section class="row-gap--m space-tight">
-<h3 class="heading--gamma">Шаг&nbsp;1. Проследите путь персонажа</h3>
-<p> Опишите действия персонажа от&nbsp;момента осознания потребности до&nbsp;покупки и&nbsp;использования вашего товара или услуги. Если затрудняетесь с&nbsp;определением этапов, воспользуетесь схемой: осознание потребности → сбор информации → выбор → покупка → использование → рекомендации. Укажите, что делает персонаж на&nbsp;каждом этапе.
-</p>
-
-<div    itemscope itemtype="https://schema.org/ImageObject">	
-		<link itemprop="url" href="/assets/images/blog/customer-journey-map/cjm1.jpg">	
-<picture>
-<source srcset="/assets/images/blog/customer-journey-map/cjm1.avif" type="image/avif"> 
-<source srcset="/assets/images/blog/customer-journey-map/cjm1.webp" type="image/webp"> 
-<img class="image" loading="lazy" src="/assets/images/blog/customer-journey-map/cjm1.jpg" alt="Первый шаг при создании Customer Journey Map" width="695" height="344" itemprop="contentUrl">
-</picture>
-<div class="figcaption">
-Путь выбранного ранее персонажа
-</div>
-</div>
-</section>
-
-<section class="row-gap--m space-block">
-<h3 class="heading--gamma">Шаг&nbsp;2. Выясните задачи, мысли и&nbsp;эмоции персонажа</h3>
-<p> Вживитесь в&nbsp;роль максимально полно. Задача&nbsp;— на&nbsp;каждом этапе пути понять эмоциональную реакцию, ожидания, надежды и&nbsp;мысли персонажа. Что хочет достичь? Что чувствует? Какие ожидания? О чем думает?
-</p>
-</section>
-
-<section class="row-gap--m space-block">
-<h3 class="heading--gamma">Шаг&nbsp;3. Определите каналы коммуникации и&nbsp;точки контакта</h3>
- <p>Осознайте, как компания присутствует в&nbsp;опыте персонажа на&nbsp;каждом этапе. Как компания появляется, как персонаж с&nbsp;ней контактирует или потенциально может контактировать. Варианты: сайт, СМИ, сплетни, рассылка, колцентр, шоурумы и&nbsp;пр. Если на&nbsp;каком-то этапе компания не&nbsp;присутствует, это важно отметить.
-</p>
-</section>
-
-<section class="row-gap--m space-block">
-<h3 class="heading--gamma">Шаг&nbsp;4. Выявите барьеры</h3>
- <p>Задача компании&nbsp;— легко и&nbsp;комфортно провести человека от&nbsp;момента осознания потребности до&nbsp;момента, когда он&nbsp;становится лояльным клиентом. Что в&nbsp;силах затормозить этот процесс? Для каждого этапа выявите факторы, которые могут помешать переходу клиента к&nbsp;следующему шагу. 
-</p>
-
-
-<div   itemscope itemtype="https://schema.org/ImageObject">	
-		<link itemprop="url" href="/assets/images/blog/customer-journey-map/cjm2.jpg">	
-<picture>
-<source srcset="/assets/images/blog/customer-journey-map/cjm2.avif" type="image/avif"> 
-<source srcset="/assets/images/blog/customer-journey-map/cjm2.webp" type="image/webp"> 
-<img class="image" loading="lazy" decoding="async" src="/assets/images/blog/customer-journey-map/cjm2.jpg" alt="Визуализация процесса построения Customer Journey Map" width="686" height="915" itemprop="contentUrl">
-</picture>
-</div>
+  <p>Customer Journey Map&nbsp;— это не&nbsp;попытка дословно воспроизвести реальное поведение клиента. Это упрощенная
+    модель, которая позволяет работать со&nbsp;сложностью реальности. CJM&nbsp;— это не&nbsp;маршрут, по&nbsp;которому
+    клиент обязан пройти шаг за&nbsp;шагом. Это рабочая проекция, которая
+    помогает увидеть ключевые моменты опыта:</p>
+  <ul class="list-li additive-spacing">
+    <li>где возникает интерес;</li>
+    <li>где появляются сомнения;</li>
+    <li>где клиент застревает или уходит;</li>
+    <li>и&nbsp;в&nbsp;каких точках принимает решение.</li>
+  </ul>
+  <p>Даже если поведение клиента выглядит как «хаотичная паутина», в&nbsp;нем все равно есть критические точки&nbsp;—
+    места, через
+    которые он&nbsp;проходит, чтобы дойти до&nbsp;покупки или отказаться от&nbsp;нее. Именно эти точки и&nbsp;фиксирует
+    CJM.</p>
+  <p class="pull-quote">Задача карты&nbsp;— не&nbsp;отразить все сценарии, а&nbsp;выявить разрывы между ожиданием
+    клиента и&nbsp;тем, как работает компания на&nbsp;каждом этапе.</p>
 
 </section>
 
-<section class="row-gap--m space-block">
-<h3 class="heading--gamma">Шаг&nbsp;5. Определите действия компании</h3>
- <p>После описания потребительского опыта решите, что компания сделает для нивелирования негативных переживаний клиента, как будет преодолевать барьеры.
-</p>
-<p>Действительно&nbsp;ли на&nbsp;каждом этапе компания на&nbsp;100% помогает клиенту справиться с&nbsp;задачей? Если нет, то&nbsp;как усилить полезность компании?</p>
-<p>Возможно вы&nbsp;выявите «слепые пятна»&nbsp;— стадии потребительского опыта, о&nbsp;которых вам известно чрезвычайно мало. Запланируйте дополнительное исследование.</p>
+
+
+
+
+<section class="row-gap--m space-section max-width-text" id="where-cjm-breaks">
+  <h2 class="heading--beta">Где ломается Customer Journey Map</h2>
+
+  <p>CJM&nbsp;работает. Не&nbsp;работает&nbsp;то, как его используют внутри компании. Есть ряд ошибок, которые делают
+    карту бесполезной для принятия решений. Разберу ключевые из&nbsp;них.</p>
+
+  <section class="row-gap--m space-connected">
+    <h3 class="heading--gamma">Ловушка «среднего клиента»</h3>
+
+    <p>Пытаться в&nbsp;одной карте описать «путь клиента вообще»&nbsp;— грубая ошибка. Это как создать одну инструкцию
+      по&nbsp;эксплуатации для велосипеда, самолета и&nbsp;экскаватора одновременно. CJM&nbsp;работает, когда
+      у&nbsp;него есть фокус&nbsp;— конкретный сегмент и&nbsp;конкретный сценарий. Чем точнее фокус, тем полезнее карта.
+    </p>
+
+    <p>
+      Начинать нужно с&nbsp;выбора персонажа. Персонаж&nbsp;— это обобщенный образ одного сегмента клиентов, отражающий
+      их&nbsp;поведение, задачи и&nbsp;ожидания. Одна карта&nbsp;— один персонаж. Если сегментов несколько, под каждый
+      строится отдельная карта.
+    </p>
+  </section>
+
+  <section class="row-gap--m space-connected">
+    <h3 class="heading--gamma">Галлюцинации вместо данных</h3>
+
+    <p>CJM&nbsp;опасна, если она построена на&nbsp;догадках. Создается иллюзия понимания: кажется, что путь клиента
+      ясен, но&nbsp;на&nbsp;деле он&nbsp;не&nbsp;подтвержден ничем. Ошибочная карта&nbsp;— ошибочные решения. Вопрос
+      только когда.</p>
+
+    <p>Рабочая карта должна опираться на&nbsp;данные: что люди делают и&nbsp;что говорят. Поэтому, составленную карту
+      следует проверить на&nbsp;клиентах. </p>
+
+    <p>Хорошая новость в&nbsp;том, что для первой проверки не&nbsp;всегда нужны большие исследования. Во&nbsp;многих
+      компаниях часть данных уже есть: в&nbsp;продажах, переписке, звонках и&nbsp;повторяющихся вопросах клиентов.
+      Главное&nbsp;— не&nbsp;искать «идеальную методику», а&nbsp;собрать несколько простых подтверждений из&nbsp;разных
+      источников.</p>
+
+    <p>Самый простой способ&nbsp;— дать сотрудникам отдела продаж краткие описания нескольких персонажей
+      и&nbsp;попросить соотнести с&nbsp;ними реальные сделки за&nbsp;последние месяцы. Дальше менеджеры берут последние
+      <nobr>20–30</nobr> обращений и&nbsp;раскладывают их&nbsp;по&nbsp;этим типам. Если большинство сделок легко
+      группируется, сегментация, скорее всего, рабочая. Если&nbsp;же менеджеры не&nbsp;узнают в&nbsp;них клиентов, карту
+      нужно пересобирать.
+    </p>
+
+    <p>Второй способ&nbsp;— проверить карту на&nbsp;уже состоявшихся сделках. Достаточно взять, например,
+      10&nbsp;успешных сделок и&nbsp;10&nbsp;сорвавшихся, и&nbsp;посмотреть, что в&nbsp;них повторяется. На&nbsp;каком
+      этапе чаще возникали паузы? Какие вопросы клиенты задавали перед решением? После какого сообщения или звонка
+      сделка сдвигалась вперед&nbsp;— или, наоборот, зависала? </p>
+
+    <p>Еще один рабочий способ&nbsp;— короткие интервью с&nbsp;текущими или недавними клиентами. Здесь важно
+      не&nbsp;спрашивать абстрактно: «Насколько вам был удобен путь клиента?» Лучше задавать вопросы про конкретные
+      моменты: «Чего не&nbsp;хватало, чтобы принять решение быстрее?», «На&nbsp;каком этапе возникло больше всего
+      сомнений?», «Что помогло вам согласовать покупку внутри компании?» </p>
+  </section>
+
+
+  <section class="row-gap--m space-connected">
+    <h3 class="heading--gamma">«Маркетинговый пузырь»</h3>
+
+    <p>CJM часто создается внутри одного отдела&nbsp;— обычно маркетинга. И&nbsp;здесь есть риск закончить путь клиента
+      на&nbsp;этапе заявки. Реальный&nbsp;же клиентский опыт продолжается в&nbsp;документах, доставке, сервисе. </p>
+
+    <p>Если эти участки не&nbsp;попадают в&nbsp;карту, CJM становится неполной. В&nbsp;ней нет тех точек, где клиент
+      может сталкиваться со&nbsp;сложностями: задержки на&nbsp;согласовании, требования дополнительных документов,
+      несогласованность между отделами, ошибки в&nbsp;передаче информации.</p>
+
+    <p>Внутри компании это усиливается тем, что разные отделы решают свои задачи. Юристы снижают риски, бухгалтерия
+      контролирует документы, продажи закрывают сделки. Но&nbsp;клиенту важен не&nbsp;отдельный участок, а&nbsp;весь
+      процесс целиком. Если отделы не&nbsp;видят общей картины, они начинают усложнять жизнь клиенту, не&nbsp;замечая
+      этого.</p>
+
+    <p><strong>Поэтому CJM&nbsp;не может быть задачей одного отдела.</strong> Для ее&nbsp;создания смело привлекайте
+      всех, кто влияет на&nbsp;потребительский опыт: маркетинг, продажи, сервис, финансы, операционные команды.</p>
+
+    <p><strong>Задача&nbsp;— не&nbsp;просто собрать карту, но&nbsp;и&nbsp;договориться о&nbsp;том, как компания работает
+        с&nbsp;клиентом на&nbsp;каждом этапе.</strong></p>
+  </section>
+
+
 </section>
 
-<section class="row-gap--m space-block">
-<h3 class="heading--gamma">Шаг&nbsp;6. Назначьте ответственных</h3>
- <p>Определили действие&nbsp;— определите кто сделает.
-</p>
-
-<div   itemscope itemtype="https://schema.org/ImageObject">	
-		<link itemprop="url" href="/assets/images/blog/customer-journey-map/cjm3.jpg">	
-<picture> 
-<source srcset="/assets/images/blog/customer-journey-map/cjm3.avif" type="image/avif"> 
-<source srcset="/assets/images/blog/customer-journey-map/cjm3.webp" type="image/webp"> 
-<img class="image" loading="lazy" src="/assets/images/blog/customer-journey-map/cjm3.jpg" alt="Финальный этап разработки Customer Journey Map (CJM)" width="695" height="609" itemprop="contentUrl">
-</picture>
-</div>
 
 
-<p>&nbsp;</p>
-<p>В&nbsp;последних двух шагах&nbsp;&mdash; смысл предыдущей работы. Мы&nbsp;получаем список задач и&nbsp;можем приступить к&nbsp;реализации. <strong>Благодаря карте потребительского опыта вся активность по&nbsp;продвижению приобретает цельный характер. Мы&nbsp;понимаем, какие маркетинговые инструменты использовать, зачем и&nbsp;когда.</strong> Появляется ощущение контроля над развитием бизнеса. </p>
+<section class="row-gap--m space-section max-width-text" id="how-to-build-cjm">
+  <h2 class="heading--beta">Как создавать CJM, чтобы он&nbsp;работал</h2>
+
+  <p>Поделюсь базовым алгоритмом: от&nbsp;выбора персонажа до&nbsp;назначения ответственных.</p>
+
+  <section class="row-gap--m space-tight">
+    <h3 class="heading--gamma">1. Выберите конкретного клиента</h3>
+
+    <p>Одна карта&nbsp;— один тип клиента и&nbsp;один сценарий. Не&nbsp;«все клиенты», а&nbsp;один персонаж
+      с&nbsp;понятной ситуацией.</p>
+
+    <p>Персонаж&nbsp;— это ваш «якорь». Когда вы&nbsp;начнете описывать шаги клиента, у&nbsp;вас возникнет соблазн
+      сказать: «Ну, часть клиентов пойдет на&nbsp;сайт, а&nbsp;часть&nbsp;— позвонит знакомым». В&nbsp;этот момент
+      CJM&nbsp;умирает. Вы&nbsp;начинаете «метаться» между разными сценариями, и&nbsp;карта превращается в&nbsp;кашу.
+    </p>
+
+    <p>Обычно я&nbsp;прошу дать персонажу имя, должность, описать особенности характера. Чего он&nbsp;боится больше
+      всего? К&nbsp;чему стремится? Как оформлен личный кабинет? Как он&nbsp;привык искать помощь: гуглит сам,
+      спрашивает в&nbsp;чатах или ждет звонка от&nbsp;знакомого менеджера? С&nbsp;какими ситуациями он&nbsp;постоянно
+      сталкивается на&nbsp;работе? Как решает?</p>
+
+    <p>Чем детальнее вы&nbsp;представите персонаж на&nbsp;старте, тем легче будет пройти его путь до&nbsp;конца.</p>
+  </section>
+
+  <section class="row-gap--m space-connected">
+    <h3 class="heading--gamma">2. Опишите реальный путь клиента</h3>
+
+    <p>Проследите путь от&nbsp;момента, когда возникает проблема, до&nbsp;покупки и&nbsp;дальнейшего использования.</p>
+
+    <p>Если затрудняетесь с определением этапов, воспользуетесь схемой: осознание потребности → сбор информации → выбор
+      → покупка → использование → рекомендации.</p>
+
+    <p>На&nbsp;каждом этапе зафиксируйте, что человек делает, а&nbsp;не&nbsp;как вам хотелось&nbsp;бы, чтобы
+      он&nbsp;действовал.</p>
+  </section>
+
+  <section class="row-gap--m space-connected">
+    <h3 class="heading--gamma">3. Выясните задачи, мысли и&nbsp;эмоции персонажа</h3>
+
+    <p>На&nbsp;каждом этапе важно понять, чего клиент хочет добиться, что чувствует, в&nbsp;чем сомневается и&nbsp;чего
+      ожидает от&nbsp;компании.</p>
+
+    <p>Полезно описывать путь от&nbsp;первого лица: «Я&nbsp;ищу варианты», «Я&nbsp;боюсь ошибиться», «Мне
+      не&nbsp;хватает понятных условий».</p>
+
+
+    <figure class="cjm-journey">
+      <p class="cjm-section-label">Фрагмент CJM (1): Персонаж «Закупщик Алесь» (кейс B2B компании)</p>
+      <div class="cjm-persona">
+        <span class="cjm-persona__avatar" aria-hidden="true">АЛ</span>
+        <div>
+          <span class="cjm-persona__name">Закупщик Алесь</span>
+          <span class="cjm-persona__context">B2B компания, кейс</span>
+        </div>
+      </div>
+
+      <div class="cjm-cards" role="list">
+        <div class="cjm-card" role="listitem">
+          <div class="cjm-card__header">
+            <span class="cjm-card__num">Этап 1</span>
+            <span class="cjm-card__stage">Инициация («Пожар»)</span>
+          </div>
+          <div class="cjm-card__body">
+            <div class="cjm-card__group">
+              <span class="cjm-card__label">Действие</span>
+              <p class="cjm-card__text">Получает срочную заявку от&nbsp;производства на&nbsp;индустриальное масло.</p>
+            </div>
+            <div class="cjm-card__group">
+              <span class="cjm-card__label">Мысль</span>
+              <p class="cjm-card__text">«Опять аврал! Главное найти быстро и&nbsp;по&nbsp;адекватной цене».</p>
+            </div>
+            <div class="cjm-card__group">
+              <span class="cjm-card__label">Эмоция</span>
+              <p class="cjm-card__text"><span class="cjm-emo cjm-emo--stress">Стресс, паника</span></p>
+            </div>
+            <div class="cjm-card__group">
+              <span class="cjm-card__label">Точки контакта</span>
+              <p class="cjm-card__text">Телефон, рабочая почта</p>
+            </div>
+          </div>
+        </div>
+
+        <span class="cjm-arrow" aria-hidden="true">→</span>
+
+        <div class="cjm-card" role="listitem">
+          <div class="cjm-card__header">
+            <span class="cjm-card__num">Этап 2</span>
+            <span class="cjm-card__stage">Сбор информации</span>
+          </div>
+          <div class="cjm-card__body">
+            <div class="cjm-card__group">
+              <span class="cjm-card__label">Действие</span>
+              <p class="cjm-card__text">Обзванивает поставщиков, ищет аналоги, запрашивает цены.</p>
+            </div>
+            <div class="cjm-card__group">
+              <span class="cjm-card__label">Мысль</span>
+              <p class="cjm-card__text">«Я&nbsp;не&nbsp;технарь, боюсь ошибиться в&nbsp;характеристиках масла».</p>
+            </div>
+            <div class="cjm-card__group">
+              <span class="cjm-card__label">Эмоция</span>
+              <p class="cjm-card__text"><span class="cjm-emo cjm-emo--doubt">Неуверенность, зависимость</span></p>
+            </div>
+            <div class="cjm-card__group">
+              <span class="cjm-card__label">Точки контакта</span>
+              <p class="cjm-card__text">Поиск Google/Yandex, ChatGPT, сайт B2B компании, чат с&nbsp;менеджером</p>
+            </div>
+          </div>
+        </div>
+
+        <span class="cjm-arrow" aria-hidden="true">→</span>
+
+        <div class="cjm-card" role="listitem">
+          <div class="cjm-card__header">
+            <span class="cjm-card__num">Этап 3</span>
+            <span class="cjm-card__stage">Согласование</span>
+          </div>
+          <div class="cjm-card__body">
+            <div class="cjm-card__group">
+              <span class="cjm-card__label">Действие</span>
+              <p class="cjm-card__text">Несет КП&nbsp;технарям и&nbsp;коммерческому директору на&nbsp;утверждение.</p>
+            </div>
+            <div class="cjm-card__group">
+              <span class="cjm-card__label">Мысль</span>
+              <p class="cjm-card__text">«Лишь&nbsp;бы технари пропустили, а&nbsp;шеф не&nbsp;зарубил бюджет».</p>
+            </div>
+            <div class="cjm-card__group">
+              <span class="cjm-card__label">Эмоция</span>
+              <p class="cjm-card__text"><span class="cjm-emo cjm-emo--frustration">Фрустрация, нетерпение</span></p>
+            </div>
+            <div class="cjm-card__group">
+              <span class="cjm-card__label">Точки контакта</span>
+              <p class="cjm-card__text">Презентация, сравнительная таблица, телефонный звонок</p>
+            </div>
+          </div>
+        </div>
+
+        <span class="cjm-arrow" aria-hidden="true">→</span>
+
+        <div class="cjm-card" role="listitem">
+          <div class="cjm-card__header">
+            <span class="cjm-card__num">Этап 4</span>
+            <span class="cjm-card__stage">Контроль и&nbsp;ожидание</span>
+          </div>
+          <div class="cjm-card__body">
+            <div class="cjm-card__group">
+              <span class="cjm-card__label">Действие</span>
+              <p class="cjm-card__text">Контролирует прохождение договора и&nbsp;сроки отгрузки.</p>
+            </div>
+            <div class="cjm-card__group">
+              <span class="cjm-card__label">Мысль</span>
+              <p class="cjm-card__text">«Только&nbsp;бы не&nbsp;сорвали сроки, иначе я&nbsp;буду крайним».</p>
+            </div>
+            <div class="cjm-card__group">
+              <span class="cjm-card__label">Эмоция</span>
+              <p class="cjm-card__text"><span class="cjm-emo cjm-emo--anxiety">Беспокойство, тревога</span></p>
+            </div>
+            <div class="cjm-card__group">
+              <span class="cjm-card__label">Точки контакта</span>
+              <p class="cjm-card__text">Юристы, бухгалтерия, уведомления из&nbsp;CRM</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </figure>
+
+
+  </section>
+
+  <section class="row-gap--m space-connected">
+    <h3 class="heading--gamma">4. Определите каналы коммуникации и&nbsp;точки контакта</h3>
+
+    <p>Посмотрите, где и&nbsp;как клиент взаимодействует с&nbsp;компанией: сайт, реклама, рекомендации, рассылка,
+      звонки, офлайн-точки, доставка, сервис. Если на&nbsp;каком-то этапе компания вообще не&nbsp;присутствует, это тоже
+      важно отметить.</p>
+
+  </section>
+
+  <section class="row-gap--m space-connected">
+    <h3 class="heading--gamma">5. Выявите барьеры</h3>
+
+    <p>Это момент истины: карта либо становится полезной, либо остается схемой.</p>
+    <p>Для каждого этапа важно определить, что мешает клиенту двигаться дальше: нехватка информации, сомнения, сложный
+      процесс, недоверие, задержки, ошибки в&nbsp;коммуникации или что-то иное.</p>
+
+    <figure class="cjm-journey">
+      <p class="cjm-section-label">Фрагмент CJM (2): Персонаж «Закупщик Алесь» (кейс B2B компании)</p>
+      <div class="cjm-persona">
+        <span class="cjm-persona__avatar" aria-hidden="true">АЛ</span>
+        <div>
+          <span class="cjm-persona__name">Закупщик Алесь</span>
+          <span class="cjm-persona__context">B2B компания, кейс</span>
+        </div>
+      </div>
+
+      <div class="cjm-cards" role="list">
+        <div class="cjm-card" role="listitem">
+          <div class="cjm-card__header">
+            <span class="cjm-card__num">Этап 1</span>
+            <span class="cjm-card__stage">Инициация («Пожар»)</span>
+          </div>
+          <div class="cjm-card__body">
+            <p class="cjm-skipped">— не показано —</p>
+            <div class="cjm-card__group">
+              <span class="cjm-card__label">⚠️ Барьеры</span>
+              <p class="cjm-card__text cjm-card__text--barrier"><strong>Хаос в&nbsp;планировании.</strong> Нет времени
+                на&nbsp;глубокий анализ рынка.</p>
+            </div>
+            <div class="cjm-card__group">
+              <span class="cjm-card__label">✅ Решения B2B компании</span>
+              <p class="cjm-card__text cjm-card__text--solution">Услуга «Гарантированный резерв» под задачи клиента
+                на&nbsp;складе.</p>
+            </div>
+          </div>
+        </div>
+
+        <span class="cjm-arrow" aria-hidden="true">→</span>
+
+        <div class="cjm-card" role="listitem">
+          <div class="cjm-card__header">
+            <span class="cjm-card__num">Этап 2</span>
+            <span class="cjm-card__stage">Сбор информации</span>
+          </div>
+          <div class="cjm-card__body">
+            <p class="cjm-skipped">— не показано —</p>
+            <div class="cjm-card__group">
+              <span class="cjm-card__label">⚠️ Барьеры</span>
+              <p class="cjm-card__text cjm-card__text--barrier"><strong>Сложные ТХ.</strong> Клиент не&nbsp;понимает
+                разницу в&nbsp;брендах и&nbsp;вязкости.</p>
+            </div>
+            <div class="cjm-card__group">
+              <span class="cjm-card__label">✅ Решения B2B компании</span>
+              <p class="cjm-card__text cjm-card__text--solution">Готовое КП&nbsp;в&nbsp;формате «Технарь&nbsp;—
+                Снабженец» с&nbsp;наглядным сравнением.</p>
+            </div>
+          </div>
+        </div>
+
+        <span class="cjm-arrow" aria-hidden="true">→</span>
+
+        <div class="cjm-card" role="listitem">
+          <div class="cjm-card__header">
+            <span class="cjm-card__num">Этап 3</span>
+            <span class="cjm-card__stage">Согласование</span>
+          </div>
+          <div class="cjm-card__body">
+            <p class="cjm-skipped">— не показано —</p>
+            <div class="cjm-card__group">
+              <span class="cjm-card__label">⚠️ Барьеры</span>
+              <p class="cjm-card__text cjm-card__text--barrier"><strong>Бюрократия.</strong> Технари лоббируют привычные
+                западные бренды.</p>
+            </div>
+            <div class="cjm-card__group">
+              <span class="cjm-card__label">✅ Решения B2B компании</span>
+              <p class="cjm-card__text cjm-card__text--solution">Трехсторонний звонок: наш инженер + Алесь + технарь
+                клиента.</p>
+            </div>
+          </div>
+        </div>
+
+        <span class="cjm-arrow" aria-hidden="true">→</span>
+
+        <div class="cjm-card" role="listitem">
+          <div class="cjm-card__header">
+            <span class="cjm-card__num">Этап 4</span>
+            <span class="cjm-card__stage">Контроль и&nbsp;ожидание</span>
+          </div>
+          <div class="cjm-card__body">
+            <p class="cjm-skipped">— не показано —</p>
+            <div class="cjm-card__group">
+              <span class="cjm-card__label">⚠️ Барьеры</span>
+              <p class="cjm-card__text cjm-card__text--barrier"><strong>Неизвестность.</strong> Отсутствие инфо
+                о&nbsp;статусе производства и&nbsp;логистики.</p>
+            </div>
+            <div class="cjm-card__group">
+              <span class="cjm-card__label">✅ Решения B2B компании</span>
+              <p class="cjm-card__text cjm-card__text--solution">Проактивный трекинг: автоматические SMS/Email
+                о&nbsp;статусе заказа.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </figure>
+
+
+  </section>
+
+  <section class="row-gap--m space-connected">
+    <h3 class="heading--gamma">6. Определите действия компании</h3>
+
+    <p>Далее уточните, какие действия компания может предпринять, чтобы снизить негативные переживания клиента
+      и&nbsp;преодолеть возникающие барьеры. Карта должна перейти в&nbsp;список конкретных решений:</p>
+
+    <ul class="additive-spacing">
+      <li class="list-li">что упростить,</li>
+      <li class="list-li">что убрать,</li>
+      <li class="list-li">что добавить,</li>
+      <li class="list-li">где изменить коммуникацию или процесс.</li>
+    </ul>
+
+    <p class="pull-quote">Карта без изменений&nbsp;— как диагностика без лечения.</p>
+  </section>
+
+  <section class="row-gap--m space-connected">
+    <h3 class="heading--gamma">7. Назначьте ответственных</h3>
+
+    <p>Каждое действие должно иметь владельца. Иначе изменения остаются на&nbsp;уровне обсуждений
+      и&nbsp;не&nbsp;переходят в&nbsp;работу.</p>
+  </section>
+
+  <p>В&nbsp;последних двух шагах&nbsp;— смысл предыдущей работы. С&nbsp;картой понятно, где сосредоточить усилия
+    и&nbsp;что менять в&nbsp;первую очередь. </p>
 </section>
+
+
+<section class="row-gap--m space-section max-width-text" id="how-to-check-cjm">
+  <h2 class="heading--beta">Как понять, что CJM сработал</h2>
+
+  <p>Карта полезна как инструмент диагностики: она помогает увидеть, где клиент сталкивается с&nbsp;барьерами.
+    Но&nbsp;одного этого недостаточно. Важно перевести эти барьеры в&nbsp;конкретные изменения&nbsp;— в&nbsp;продукте,
+    процессе или коммуникации&nbsp;— и&nbsp;внедрить их&nbsp;в&nbsp;работу компании.</p>
+
+  <p>Если CJM используется правильно, это заметно на практике. Становится меньше ситуаций, когда менеджеру приходится
+    вручную «проталкивать» сделку: напоминать клиенту, объяснять одни и&nbsp;те&nbsp;же вещи, возвращать его
+    на&nbsp;предыдущий этап.</p>
+
+  <p>Реже возникают разрывы между этапами: клиент не&nbsp;теряется между отделами, ему не&nbsp;нужно повторно объяснять
+    задачу, а&nbsp;сделки не&nbsp;зависают без движения.</p>
+
+  <p><strong>Если после CJM ничего из&nbsp;этого не&nbsp;меняется, значит, карта осталась схемой и&nbsp;не&nbsp;дошла
+      до&nbsp;реальных изменений.</strong></p>
 </section>
 
-<span id="CJM-tools" aria-hidden="true"></span>
+
+
 <section class="row-gap--m space-section max-width-text" id="cjm-tools">
-<h2 class="heading--beta">Инструменты для разработки CJM</h2>
+  <h2 class="heading--beta">Инструменты для разработки CJM</h2>
 
-<p>Опубликовал статью и&nbsp;получил отзыв от&nbsp;UXPressia&nbsp;&mdash; компании, которая развивает онлайн-сервис построения карт потребительского опыта.</p> 
 
-<div   itemscope itemtype="https://schema.org/ImageObject">	
-		<link itemprop="url" href="/assets/images/blog/customer-journey-map/UXPressia@1x.jpg">	
-<picture>
-<source srcset="/assets/images/blog/customer-journey-map/UXPressia@1x.avif" type="image/avif"> 
-<source srcset="/assets/images/blog/customer-journey-map/UXPressia@1x.webp" type="image/webp"> 
-<img class="image" loading="lazy" src="/assets/images/blog/customer-journey-map/UXPressia@1x.jpg" alt="Обратная связь UXPressia: экспертная оценка статьи о Customer Journey Map" width="540" height="270" itemprop="contentUrl">
-</picture>
-<div class="figcaption">
-отзыв экспертов UXPressia на&nbsp;материал о&nbsp;CJM
-</div>
-</div>
 
-<p>Решил дополнить материал полезными ссылками. Составить CJM можно и&nbsp;на&nbsp;школьной доске, но, боюсь, поддерживать ее&nbsp;будет неудобно. А&nbsp;если вам необходимо переслать карту партнерам или инвесторам, то&nbsp;скорее всего вы&nbsp;захотите, чтобы она была не&nbsp;только информативна, но&nbsp;и&nbsp;хорошо выглядела. В&nbsp;этом могут помочь сервисы. </p>
+  <p>CJM можно нарисовать и&nbsp;на&nbsp;маркерной доске. Но&nbsp;если
+    карту нужно обновлять и&nbsp;передавать партнерам&nbsp;— удобнее
+    специальные сервисы.</p>
 
-<ul>
-<li class="list-li"> <a  class="link" href="https://uxpressia.com/">UXPressia</a>. Компания предлагает готовые шаблоны для разных сфер бизнеса. Есть бесплатный тариф: можно составить одну карту без ограничения возможностей ее&nbsp;форматирования. Для работы потребуется минимальное знание английского языка. Локализации сайта и&nbsp;интерфейса сервиса нет, но&nbsp;саму карту можно составлять на&nbsp;любом языке.  </li>
-<li class="list-li"> <a  class="link" href="https://www.smaply.com/">Smaply</a>. Еще один сервис для создания CJM.  </li>
-<li class="list-li"> Touchpoint Dashboard. Судя по&nbsp;обзорам на&nbsp;youtube, это комбайн в&nbsp;мире CJM . Однако сайт приложения уже долго не&nbsp;открывается. Судьба сервиса под вопросом. </li>
-<li class="list-li"> <a  class="link" href="https://miro.com/templates/customer-journey-maps/"> Miro</a> (до&nbsp;2019&nbsp;г. &mdash;&nbsp;RealtimeBoard). Онлайн аналог маркерной доски для совместной работы. Для создания карт потребительского опыта есть специальный шаблон.  </li>
+  <ul>
+    <li class="list-li"> <a class="link" href="https://uxpressia.com/">UXPressia</a>. Компания предлагает готовые
+      шаблоны для разных сфер бизнеса. Есть бесплатный тариф: можно составить одну карту без ограничения возможностей
+      ее&nbsp;форматирования. Для работы потребуется минимальное знание английского языка. Локализации сайта
+      и&nbsp;интерфейса сервиса нет, но&nbsp;саму карту можно составлять на&nbsp;любом языке. </li>
+    <li class="list-li"> <a class="link" href="https://www.smaply.com/">Smaply</a>. Еще один сервис для создания CJM.
+    </li>
 
-</ul>
+    <li class="list-li"> <a class="link" href="https://miro.com/templates/customer-journey-maps/"> Miro</a>
+      (до&nbsp;2019&nbsp;г. —&nbsp;RealtimeBoard). Онлайн аналог маркерной доски для совместной работы. Для создания
+      карт потребительского опыта есть специальный шаблон. </li>
+
+  </ul>
 
 </section>
 
+<p class="space-block">CJM&nbsp;— полезный инструмент, но&nbsp;чтобы работать с&nbsp;клиентским опытом последовательно,
+  важно понимать, как путь клиента связан с&nbsp;позиционированием, продуктом и&nbsp;маркетингом в&nbsp;целом.
+  Об&nbsp;этом&nbsp;— в&nbsp;материале <a class="link" href="/blog/system-marketing/">об&nbsp;архитектуре системного
+    маркетинга</a>.</p>

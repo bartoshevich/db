@@ -1,0 +1,191 @@
+@use "./variables" as v;
+
+// ─── Card journey layout ───────────────────────────────────────────────────
+
+.cjm-journey {
+  margin-block: 2.5rem;
+}
+
+.cjm-persona {
+  display: flex;
+  align-items: center;
+  gap: var(--space-s);
+  margin-bottom: var(--space-s);
+
+  &__avatar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #555555;
+    color: #ffffff;
+    font-size: 13px;
+    font-weight: 700;
+    user-select: none;
+  }
+
+  &__name {
+    display: block;
+    font-size: var(--step--1);
+    font-weight: 700;
+  }
+
+  &__context {
+    display: block;
+    font-size: var(--step--2);
+    color: v.$secondary-text-colour;
+  }
+}
+
+.cjm-cards {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-s);
+}
+
+.cjm-card {
+  background-color: var(--route-card-bg);
+  border: 0.5px solid rgba(128, 128, 128, 0.3);
+  border-radius: 12px;
+  overflow: hidden;
+
+  &__header {
+    padding: var(--space-2xs) var(--space-xs);
+    border-bottom: 0.5px solid rgba(128, 128, 128, 0.2);
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+  }
+
+  &__num {
+    font-size: 11px;
+    line-height: 1.2;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: v.$secondary-text-colour;
+  }
+
+  &__stage {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.3;
+  }
+
+  &__body {
+    padding: var(--space-xs);
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-2xs);
+  }
+
+  &__group {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+  }
+
+  &__label {
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: v.$secondary-text-colour;
+  }
+
+  &__text {
+    margin: 0;
+    font-size: 13px;
+    line-height: 1.5;
+
+    &--barrier {
+      padding: var(--space-3xs) var(--space-2xs);
+      background-color: var(--table-gainsboro);
+      border-radius: 4px;
+    }
+
+    &--solution {
+      padding: var(--space-3xs) var(--space-2xs);
+      background-color: var(--selected-bg-color);
+      border-radius: 4px;
+    }
+  }
+}
+
+.cjm-arrow {
+  display: none;
+}
+
+.cjm-emo {
+  display: inline-block;
+  padding: 2px 8px;
+  border-radius: 99px;
+  font-size: 12px;
+  line-height: 1.6;
+
+  &--stress {
+    background-color: rgba(200, 50, 50, 0.12);
+  }
+
+  &--doubt {
+    background-color: rgba(50, 80, 200, 0.12);
+  }
+
+  &--frustration {
+    background-color: rgba(200, 120, 20, 0.12);
+  }
+
+  &--anxiety {
+    background-color: rgba(120, 50, 200, 0.12);
+  }
+}
+
+.cjm-skipped {
+  margin: 0 0 var(--space-2xs);
+  padding-bottom: var(--space-2xs);
+  border-bottom: 0.5px solid rgba(128, 128, 128, 0.2);
+  font-size: 11px;
+  font-style: italic;
+  color: v.$secondary-text-colour;
+}
+
+.cjm-section-label {
+  display: block;
+  margin-bottom: var(--space-s);
+  font-size: 11px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: v.$secondary-text-colour;
+}
+
+@media (min-width: 600px) {
+  .cjm-cards {
+    flex-direction: row;
+    align-items: stretch;
+    gap: var(--space-2xs);
+  }
+
+  .cjm-card {
+    flex: 1;
+    min-width: 0;
+  }
+
+  .cjm-arrow {
+    display: flex;
+    align-items: center;
+    align-self: center;
+    flex-shrink: 0;
+    color: v.$secondary-text-colour;
+    font-size: 16px;
+    padding: 0 2px;
+  }
+}
+
+@media (min-width: 700px) {
+  .cjm-journey {
+    // break out of max-width-text (670px) into the full article width
+    width: min(1000px, max(100%, calc(100vw - 64px)));
+  }
+}
