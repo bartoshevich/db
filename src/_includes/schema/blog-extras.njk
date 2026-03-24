@@ -376,15 +376,14 @@
     "@id": howtoId,
     "name": howto.name,
     "description": howto.description,
-    "step": howtoSteps
+    "step": howtoSteps,
+    "mainEntityOfPage": { "@id": (page.url | absoluteUrl(site.url)) }
   } %}
 
   {# 3. Добавляем HowTo в общий граф #}
   {% set _ = schemaParts.push(howtoSchema) %}
 
-  {# 4. Привязываем HowTo как основную сущность (mainEntity) к WebPage и BlogPosting #}
-  {# Это более сильная семантическая связь, чем hasPart #}
-  {% set webPage = webPage | setAttribute("mainEntity", { "@id": howtoId }) %}
+  {# 4. BlogPosting объявляет HowTo своей mainEntity; WebPage сохраняет ссылку на BlogPosting #}
   {% set blogPosting = blogPosting | setAttribute("mainEntity", { "@id": howtoId }) %}
 {% endif %}
 
