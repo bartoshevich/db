@@ -230,19 +230,9 @@
     {% set faqPageSchema = {
       "@type": "FAQPage",
       "@id": faqId,
-      "mainEntity": [],
+      "mainEntity": faq | faqToSchema,
       "mainEntityOfPage": { "@id": (page.url | absoluteUrl(site.url)) }
     } %}
-    {% for item in faq %}
-      {% set _ = faqPageSchema.mainEntity.push({
-        "@type": "Question",
-        "name": item.question,
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": item.answer
-        }
-      }) %}
-    {% endfor %}
 
     {% set _ = schemaParts.push(faqPageSchema) %}
 

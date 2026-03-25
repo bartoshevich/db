@@ -31,7 +31,7 @@ eleventyNavigation:
 <nav class="toc">
     <h2 class="toc__title">Содержание</h2>
     <ul class="additive-spacing">
-        {% for section in faq.sections %}
+        {% for section in faqPage.sections %}
         <li>
             <span class="tocnumber">{{ loop.index }} </span>
             <a class="link bold" href="#{{ section.id }}">
@@ -51,7 +51,7 @@ eleventyNavigation:
 </nav>
 
 
-{% for section in faq.sections %}
+{% for section in faqPage.sections %}
 <section class="row-gap--m space-section">
 
     <h2 class="heading--gamma" id="{{ section.id }}">{{ section.title }}</h2>

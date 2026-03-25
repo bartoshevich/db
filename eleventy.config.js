@@ -787,6 +787,19 @@ eleventyConfig.addFilter('readingTimeISO', function (text) {
     }
   });
 
+  eleventyConfig.addFilter('faqToSchema', function (faqItems) {
+    if (!faqItems) return [];
+    const items = Array.isArray(faqItems) ? faqItems : Array.from(faqItems);
+    return items.map(item => ({
+      '@type': 'Question',
+      'name': item.question,
+      'acceptedAnswer': {
+        '@type': 'Answer',
+        'text': item.answer,
+      },
+    }));
+  });
+
   eleventyConfig.addFilter('setAttribute', (obj, key, value) => {
     return {
       ...obj,
