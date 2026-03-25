@@ -1,12 +1,13 @@
 .example--card {
   display: flex;
   flex-direction: column;
+  min-width: 0;
   background-color: var(--color-toc-ui-element-background);
-  border-radius: var(--radius-xl); 
-  padding: var(--space-l-xl); 
+  border-radius: var(--radius-xl);
+  padding: var(--space-l-xl);
   margin-block: var(--space-m);
-  box-shadow: var(--toc-shadow); 
-  border: 1px solid var(--card-border); 
+  box-shadow: var(--toc-shadow);
+  border: 1px solid var(--card-border);
   transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
   max-width: 65ch;
 
