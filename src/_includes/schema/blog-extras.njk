@@ -225,27 +225,25 @@
    
 {# [FAQ] Обработка FAQ после создания webPage и blogPosting #}
   {% if faq %}
-    {% set faqItems = [] %}
+    {% set faqId = (page.url | absoluteUrl(site.url)) ~ "#faq" %}
+
+    {% set faqPageSchema = {
+      "@type": "FAQPage",
+      "@id": faqId,
+      "mainEntity": [],
+      "mainEntityOfPage": { "@id": (page.url | absoluteUrl(site.url)) }
+    } %}
     {% for item in faq %}
-      {% set faqItem = {
+      {% set _ = faqPageSchema.mainEntity.push({
         "@type": "Question",
         "name": item.question,
         "acceptedAnswer": {
           "@type": "Answer",
           "text": item.answer
         }
-      } %}
-      {% set _ = faqItems.push(faqItem) %}
+      }) %}
     {% endfor %}
 
-    {% set faqId = (page.url | absoluteUrl(site.url)) ~ "#faq" %}
-
-    {% set faqPageSchema = {
-      "@type": "FAQPage",
-      "@id": faqId,
-      "mainEntity": faqItems,
-      "mainEntityOfPage": { "@id": (page.url | absoluteUrl(site.url)) }
-    } %}
     {% set _ = schemaParts.push(faqPageSchema) %}
 
     {# Привязываем FAQPage как часть WebPage и BlogPosting #}
