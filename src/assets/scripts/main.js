@@ -41,6 +41,10 @@ document.addEventListener("DOMContentLoaded", () => {
       })
       .catch((err) => console.warn("Не удалось загрузить imageExpand.js:", err));
   }
+
+  if (document.querySelector('#btn-calc-matrix')) {
+    import('./nps-calculator.js').then((m) => m.init());
+  }
 });
 
 // ===== Prefetch — только при наличии hover =====

@@ -392,6 +392,36 @@
 
 
 
+{# [WEBAPP] Встроенное веб-приложение (калькулятор, инструмент) #}
+{% if webApp %}
+  {% set webAppId = (page.url | absoluteUrl(site.url)) ~ "#calculator" %}
+  {% set webAppUrl = (page.url | absoluteUrl(site.url)) ~ (webApp.anchor | default("#calculator")) %}
+
+  {% set webAppSchema = {
+    "@type": "WebApplication",
+    "@id": webAppId,
+    "name": webApp.name,
+    "description": webApp.description,
+    "url": webAppUrl,
+    "applicationCategory": webApp.applicationCategory | default("BusinessApplication"),
+    "operatingSystem": "Any",
+    "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+  } %}
+  {% set _ = schemaParts.push(webAppSchema) %}
+
+  {# Привязываем WebApplication как hasPart BlogPosting #}
+  {% if blogPosting.hasPart %}
+    {% if blogPosting.hasPart.length %}
+      {% set _ = blogPosting.hasPart.push({ "@id": webAppId }) %}
+    {% else %}
+      {% set blogPosting = blogPosting | setAttribute("hasPart", [blogPosting.hasPart, { "@id": webAppId }]) %}
+    {% endif %}
+  {% else %}
+    {% set blogPosting = blogPosting | setAttribute("hasPart", { "@id": webAppId }) %}
+  {% endif %}
+{% endif %}
+
+
 {# [BOOK] Обработка книги и рецензии #}
 {# [BOOK] Обработка книги и рецензии #}
 {% if book %}

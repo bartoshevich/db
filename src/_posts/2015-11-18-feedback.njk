@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "NPS (индекс лояльности): как рассчитать и внедрить"
-name: "Методика NPS: Как рассчитать и&nbsp;использовать индекс лояльности"
-description: "Методика NPS помогает рассчитать индекс лояльности клиентов и&nbsp;повысить их&nbsp;удовлетворенность. Делюсь полным руководством с&nbsp;примерами и&nbsp;ошибками."
+title: "NPS — от индекса лояльности к росту выручки"
+name: "NPS: как превратить индекс лояльности в&nbsp;управление выручкой"
+description: "NPS показывает, готов ли клиент рекомендовать вас. Само число ничего не решает — важно то, что происходит после замера. Методика с примерами и калькулятором."
 date:   2015-11-18
-last_modified_at: 2025-07-10
+last_modified_at: 2026-03-25
 categories: инструкции
 permalink: "/blog/metodika-nps-indeks-loyalnosti-klientov/"
 tags: "инструменты"
@@ -12,369 +12,581 @@ hasPullQuote: true
 image: /assets/images/tizers/tizer-12.jpg
 faq:
   - question: "Как рассчитать индекс лояльности NPS?"
-    answer: "Сначала проведите опрос с вопросом: «Насколько вы готовы рекомендовать нашу компанию по шкале от 0 до 10?». Затем классифицируйте ответы: 9–10 — промоутеры, 7–8 — нейтралы, 0–6 — критики. Вычислите долю промоутеров и критиков в процентах и рассчитайте индекс по формуле: NPS = % промоутеров – % критиков."
+    answer: "Проведите опрос с вопросом: «Оцените по 10-балльной шкале, насколько вы готовы рекомендовать компанию (товар, услугу) друзьям и знакомым». Затем распределите ответы: 9–10 — сторонники, 7–8 — нейтральные клиенты, 0–6 — критики. Формула: NPS = процент сторонников минус процент критиков."
+
+  - question: "Как NPS связан с выручкой?"
+    answer: "Сторонники чаще возвращаются и могут приводить новых клиентов по рекомендации. Критики, наоборот, уходят быстрее и могут отпугивать других негативным опытом. Особенно важно смотреть NPS среди клиентов, которые приносят основную часть выручки."
+
   - question: "Что считается хорошим значением NPS?"
-    answer: "Хорошим считается значение выше 0 — это означает, что у компании больше сторонников, чем критиков. В лидирующих компаниях NPS может достигать 70 и выше, но нормальный показатель зависит от отрасли."
-  - question: "Какие ошибки чаще всего совершают при анализе NPS?"
-    answer: "Частые ошибки: не соотносят ответы с выручкой, игнорируют замечания критиков, не составляют план работы с промоутерами и не отслеживают динамику показателя. Эти недочеты снижают ценность NPS."
+    answer: "Если показатель выше нуля, значит, сторонников больше, чем критиков. Но хороший результат зависит от отрасли: в одном бизнесе 40 — высокий уровень, в другом — средний. Важно не только значение, но и динамика."
+
+  - question: "Как работать с критиками по методике NPS?"
+    answer: "Жалобы критиков нужно разбирать как сигналы о проблемах в работе компании. Важно зафиксировать причину, определить, что именно нужно изменить, и связаться с клиентом, чтобы закрыть ситуацию."
+
   - question: "Зачем нужен индекс NPS?"
-    answer: "Индекс NPS помогает измерить лояльность клиентов и быстро выявить проблемные зоны. Это простой способ понять, насколько клиенты готовы рекомендовать компанию, и как это влияет на рост бизнеса."
+    answer: "NPS помогает понять, сколько у компании сторонников и критиков и с чем это связано. Но сам по себе показатель бесполезен: ценность появляется, когда вы разбираете причины оценок и меняете процессы, продукт или сервис."
 
 eleventyNavigation:
   key: metodika-nps-indeks-loyalnosti-klientov
-  title: "Методика NPS: Как рассчитать и использовать индекс лояльности"  
-  parent: blog  
+  title: "NPS: как превратить индекс лояльности в&nbsp;управление выручкой"
+  parent: blog
 relatedIdeas:
-  - title: "Таблицы и&nbsp;схемы не&nbsp;делают маркетинг системным"
-    url: "/blog/system-marketing/"
-  - title: "Разбираем ошибки в&nbsp;SWOT-анализе: как их&nbsp;избежать и&nbsp;провести анализ правильно"
-    url: "/blog/oshibki-v-swot-analize-i-kak-ih-izbezhat/"
-  - title: "Как анализировать продажи: проверенный алгоритм Nielsen"
+  - title: "Интернет-магазин под&nbsp;клиента, а&nbsp;не&nbsp;под&nbsp;каталог"
+    url: "/blog/klientskij-opyt-v-ecommerce/"
+  - title: "Customer Journey Map: от&nbsp;декоративной схемы к&nbsp;рабочему инструменту"
+    url: "/blog/customer-journey-map/"
+  - title: "Анализ продаж по&nbsp;методике Nielsen"
     url: "/blog/analiz-prodazh-nielsen/"
-  - title: "Бренд и&nbsp;перфоманс маркетинг&nbsp;&mdash; что важно знать маркетологу"
-    url: "/blog/perfomance-and-brand-marketing/"
-  - title: "Доля в&nbsp;поиске&nbsp;&mdash; новый показатель в&nbsp;маркетинге"
+  - title: "Share of&nbsp;Searches: доля бренда в&nbsp;поиске как индикатор рынка"
     url: "/blog/share-of-searches/"
 
 topic: customer-research
+
+webApp:
+  name: "Калькулятор лояльности: NPS + ABC-анализ"
+  description: "Рассчитайте NPS с разбивкой клиентов на группы A, B и C по объему выручки. Показывает общий NPS, NPS ключевых клиентов (группа А) и управленческий диагноз лояльности."
+  anchor: "#nps-abc-calculator"
+  applicationCategory: "BusinessApplication"
+
+howto:
+  name: "Как рассчитать NPS (индекс лояльности клиентов)"
+  description: "Пошаговое руководство по расчету NPS: как опросить клиентов, распределить ответы по категориям и вычислить итоговый показатель."
+  steps:
+    - name: "Задайте клиентам два вопроса"
+      text: "Попросите оценить по 10-балльной шкале, насколько они готовы рекомендовать компанию (0 — «точно не буду», 10 — «обязательно порекомендую»). Затем спросите, что повлияло на оценку."
+    - name: "Распределите ответы по группам"
+      text: "9–10 баллов — промоутеры (лояльные клиенты). 7–8 — нейтралы. 0–6 — критики."
+    - name: "Рассчитайте показатель NPS"
+      text: "NPS = % промоутеров − % критиков. Значение варьируется от −100 (все критики) до +100 (все промоутеры). Выше 0 — сторонников больше, чем недовольных."
 ---
 
+<p>NPS (Net Promoter Score) показывает соотношение между теми, кто готов рекомендовать компанию, и&nbsp;теми, кто
+  недоволен. Но&nbsp;сам по&nbsp;себе этот показатель ничего не&nbsp;меняет. Польза появляется тогда, когда
+  вы&nbsp;встраиваете его в&nbsp;работу компании: измерили → поняли причины → исправили слабые места → измерили снова.
+</p>
+
+<p>В&nbsp;этой статье&nbsp;— как рассчитать NPS, как связать его с&nbsp;выручкой и&nbsp;как превращать отзывы клиентов
+  в&nbsp;понятные изменения, а&nbsp;не&nbsp;в&nbsp;отчет ради отчета.</p>
 
 
-<p>Хотите узнать, насколько клиенты довольны вашими услугами или продуктами? Методика NPS (Net Promoter Score)&nbsp;&mdash; простой и&nbsp;эффективный способ измерения <a class="link" href="/blog/kak-brendy-sozdajut-emotsionalnuyu-svyaz/">лояльности клиентов</a>. Она помогает понять, насколько клиенты удовлетворены и&nbsp;преданы вашему бренду. Используя NPS, вы&nbsp;можете улучшить качество обслуживания, чтобы клиенты оставались довольны и&nbsp;вернулись снова.</p>
-
-
-<nav class="toc space-tight"  aria-labelledby="toc-title">
- <h2 class="toc__title" id="toc-title">Содержание</h2>
-        <ul class="additive-spacing">
-      <li>
-       <span class="tocnumber">1 </span>
-        <a class="link" href="#chto-takoe-nps">  Что такое NPS и&nbsp;зачем нужен этот показатель?   </a>
-      </li>
-      <li>        
-          <span class="tocnumber">2 </span>
-          <a class="link" href="#kak-rasschitat-nps"> Как рассчитать NPS</a>
-      </li>
-      <li>        
-          <span class="tocnumber">3 </span>
-          <a class="link" href="#kakoy-indeks-nps-schitaetsya-khoroshim"> Какой индекс NPS считается хорошим?</a>
-      </li>
-      <li class="additive-spacing">            
-            <span class="tocnumber">4 </span>
-            <a class="link" href="#oshibki-pri-analize-nps"> Ошибки при анализе NPS </a>
-     
+<nav class="toc space-tight" aria-labelledby="toc-title">
+  <h2 class="toc__title" id="toc-title">Содержание</h2>
+  <ul class="additive-spacing">
+    <li>
+      <span class="tocnumber">1 </span>
+      <a class="link" href="#chto-takoe-nps"> Что такое NPS: от&nbsp;метрики к&nbsp;системе управления </a>
+    </li>
+    <li>
+      <span class="tocnumber">2 </span>
+      <a class="link" href="#kak-rasschitat-nps"> Как рассчитать NPS</a>
+    </li>
+    <li>
+      <span class="tocnumber">3 </span>
+      <a class="link" href="#nps-i-unit-ekonomika"> NPS и&nbsp;unit-экономика: где деньги</a>
+    </li>
+    <li>
+      <span class="tocnumber">4 </span>
+      <a class="link" href="#kontur-upravleniya"> Как превратить отзывы в&nbsp;изменения</a>
 
       <ul class="additive-spacing">
-      <li class="level2">		    
-		      <span class="tocnumber">4.1 </span>
-          <a class="link" href="#ne-sootnosyat-otvety-v-oprose-s-vyruchkoy"> Не&nbsp;соотносят ответы в&nbsp;опросе с&nbsp;выручкой 		    </a>
-		  </li>
-      <li class="level2">		    
-		      <span class="tocnumber">4.2 </span>
-          <a class="link" href="#ne-obrabatyvayut-zamechaniya-kritikov"> Не&nbsp;обрабатывают замечания критиков 		    </a>
-		  </li>
-       <li class="level2">		   
-		      <span class="tocnumber">4.3 </span>
-           <a class="link" href="#ne-sostavlyayut-plan-raboty-s-promouterami"> Не&nbsp;составляют план работы с&nbsp;промоутерами 		    </a>
-		  </li>      
-       <li class="level2">		   
-		      <span class="tocnumber">4.4 </span>
-           <a class="link" href="#ignoriruyut-dinamiku-znacheniy-nps"> Игнорируют динамику значений 		    </a>
-		  </li>
+        <li class="level2">
+          <span class="tocnumber">4.1 </span>
+          <a class="link" href="#rabota-s-kritikami"> Работа с&nbsp;критиками: как разбирать жалобы</a>
+        </li>
+        <li class="level2">
+          <span class="tocnumber">4.2 </span>
+          <a class="link" href="#rabota-s-promouterami"> Работа с&nbsp;промоутерами: рекомендации как канал</a>
+        </li>
       </ul>
-      </li>
-</ul>
+    </li>
+    <li>
+      <span class="tocnumber">5 </span>
+      <a class="link" href="#oshibki-vnedreniya"> Ошибки внедрения NPS</a>
+    </li>
+    <li>
+      <span class="tocnumber">6 </span>
+      <a class="link" href="#sleduyushchiy-shag"> Следующий шаг: от&nbsp;точечных жалоб к&nbsp;архитектуре опыта</a>
+    </li>
+  </ul>
 </nav>
 
 
 <section class="row-gap--m space-section max-width-text" id="chto-takoe-nps">
-<h2 class="heading--beta">Что такое NPS и зачем нужен этот показатель?</h2>
-<p>NPS (Net Promoter Score)&nbsp;&mdash; это методика измерения лояльности клиентов, разработанная Фредериком Райхельдом в&nbsp;начале 2000-х годов. Она основана на&nbsp;определении готовности клиентов рекомендовать продукт или услугу друзьям.</p>
+  <h2 class="heading--beta">Что такое NPS: от&nbsp;метрики к&nbsp;системе управления</h2>
 
-<p>Привлекательность методики NPS заключается в&nbsp;ее&nbsp;простоте. Достаточно задать всего два вопроса, и&nbsp;вы&nbsp;получите информацию, которая напрямую связана с&nbsp;покупками человека. Исчезает необходимость в&nbsp;многостраничных опросниках и&nbsp;отзывах, которые никак не&nbsp;проясняют намерения покупателей. </p>
+  <p>NPS разработал Фредерик Райхельд в&nbsp;начале <span class="noperenos">2000-х</span> годов для измерения лояльности клиентов. Подход
+    основан на&nbsp;выявлении готовности рекомендовать продукт или услугу друзьям.</p>
+
+  <p>Привлекает методика своей простотой. Вместо длинных анкет и&nbsp;расплывчатых отзывов вы&nbsp;получаете понятный
+    сигнал о&nbsp;реальном отношении клиента.</p>
 
 
-<section class="example--card space-tight">
+  <section class="example--card space-tight">
     <div class="card-header">
       <span class="example-tag">Пример</span>
-      <h3 class="heading--gamma">100% довольных клиентов, 0% повторных заказов</h3>
+      <h3 class="heading--gamma">100% довольных клиентов, 0%&nbsp;повторных заказов</h3>
     </div>
 
     <div class="card-divider"></div>
 
     <div class="context-block additive-spacing">
-      
-      <p class="context-text">Представим пиццерию и&nbsp;маркетолога, который решил провести опрос среди тех, кто заказывал доставку пиццы на&nbsp;дом. В&nbsp;анкете вопросы о&nbsp;том, прибыла&nbsp;ли пицца вовремя, была&nbsp;ли она горячей, и&nbsp;удовлетворены&nbsp;ли клиенты работой курьера. Ответы все положительные: пицца горячая, доставлена вовремя, курьер вежлив. Маркетолог доволен. Однако повторных заказов нет. Что пошло не&nbsp;так? Озадаченный маркетолог решает позвонить нескольким клиентам и&nbsp;узнать причину. И&nbsp;выясняет, что пицца вызвала такое расстройство желудка, что о&nbsp;повторных заказах речи не&nbsp;идет.</p>
 
-       <p class="context-text">Если&nbsp;бы он&nbsp;использовал методику NPS, то&nbsp;сразу&nbsp;бы спросил, готовы&nbsp;ли клиенты рекомендовать пиццерию друзьям. Вероятно, ответ указал&nbsp;бы на&nbsp;проблему с&nbsp;качеством пиццы. Этот пример показывает, как <strong>NPS может быстро и&nbsp;точно выявить важные факторы, влияющие на&nbsp;бизнес.</strong></p>
+      <p class="context-text">Пиццерия с&nbsp;доставкой. Маркетолог опрашивает клиентов: пицца горячая? Да. Доставлена
+        вовремя? Да. Курьер вежлив? Да. Маркетолог доволен. Однако повторных заказов нет. Звонок бывшим клиентам
+        раскрывает причину: пицца вызвала такое расстройство желудка, что о&nbsp;повторных заказах речи не&nbsp;идет.
+        Ни&nbsp;один вопрос анкеты этого не&nbsp;захватил.</p>
+
+      <p class="context-text">Если&nbsp;бы маркетолог попросил оценить готовность рекомендовать пиццерию друзьям,
+        проблема всплыла&nbsp;бы сразу. NPS быстро и&nbsp;точно ловит факторы, влияющие на&nbsp;бизнес.</p>
     </div>
 
-    
   </section>
 
+  <p>При оценке индекса лояльности важна динамика значений. NPS начинает работать только тогда, когда замкнут весь цикл:
+    <strong>опрос → разбор причин → связь с&nbsp;выручкой → изменения в&nbsp;работе компании</strong>. Без этого
+    показатель остается просто числом.</p>
 
-<p>На&nbsp;сайте <a class="link" href="https://www.bain.com/consulting-services/customer-strategy-and-marketing/net-promoter-score-system/">международной консалтинговой компании Bain &amp;&nbsp;Company</a>, где работал Фредерик Райхельд, можно найти много кейсов, которые показывают, как бизнесмены увеличивали прибыль и&nbsp;лояльность клиентов, сосредотачиваясь на&nbsp;ключевых аспектах работы с&nbsp;помощью методики NPS.</p>
+  <p>На&nbsp;сайте <a class="link"
+      href="https://www.bain.com/consulting-services/customer-strategy-and-marketing/net-promoter-score-system/">консалтинговой
+      компании Bain &amp;&nbsp;Company</a>, где работал Райхельд, собраны кейсы компаний, которые увеличили прибыль,
+    сосредоточившись на&nbsp;системной работе с&nbsp;NPS.</p>
 </section>
+
+
 
 
 <section class="row-gap--m space-section max-width-text" id="kak-rasschitat-nps">
   <h2 class="heading--beta">Как рассчитать Net Promoter Score</h2>
 
-  <section class="row-gap--m space-tight" id="ask">
-    <h3 class="heading--gamma">Шаг 1. Задайте клиентам всего два вопроса</h3>
+  <section class="row-gap--m space-connected" id="ask">
+    <h3 class="heading--gamma">Шаг&nbsp;1. Задайте два вопроса</h3>
     <div>
       <ol class="additive-spacing">
-        <li class="list-li additive-spacing"><p>Оцените по&nbsp;<span class="noperenos">10-балльной</span> шкале, насколько вы&nbsp;готовы
-          рекомендовать компанию (товар, услугу) друзьям и&nbsp;знакомым. </p>
+        <li class="list-li additive-spacing">
+          <p>Оцените по&nbsp;<span class="noperenos">
+              <nobr>10-балльной</nobr>
+            </span> шкале, насколько вы&nbsp;готовы
+            рекомендовать компанию (товар, услугу) друзьям и&nbsp;знакомым. </p>
           <p>
-          <span class="small">Ноль&nbsp;— «абсолютно точно не&nbsp;буду рекомендовать»,
-            десять&nbsp;— «обязательно порекомендую».</span></p>
+            <span class="small">Ноль&nbsp;— «точно не&nbsp;буду рекомендовать»,
+              десять&nbsp;— «обязательно порекомендую».</span>
+          </p>
         </li>
         <li class="list-li">Что повлияло на&nbsp;вашу оценку?</li>
       </ol>
     </div>
+
+    <p>Первый вопрос дает число. Второй&nbsp;— контекст для действий. Без второго вопроса NPS превращается
+      в&nbsp;гадание.</p>
   </section>
 
 
 
   <section class="row-gap--m space-block" id="categorize">
-    <h3 class="heading--gamma">Шаг 2. На основе ответов, распределите клиентов на&nbsp;группы </h3>
+    <h3 class="heading--gamma">Шаг&nbsp;2. Распределите клиентов по&nbsp;группам</h3>
     <div>
 
-      
-        <p>По&nbsp;ответам на&nbsp;первый вопрос респонденты разбиваются на&nbsp;три группы: </p>
-        
 
-    
-    <!-- Контейнер для карточек NPS -->
-<div class="nps-scale space-tight">
-  
-  <!-- Карточка 1: Критики -->
-  <div class="nps-card nps-card--critic">
-    <div class="nps-card__header">
-      <div class="nps-card__emojis">😠😒😥</div>
-      <div class="nps-card__title">Критики</div>
+      <p>По&nbsp;ответам на&nbsp;первый вопрос респонденты разбиваются на&nbsp;три категории: </p>
+
+      <div class="nps-segment-group space-tight">
+        <div class="nps-segments">
+
+          <div class="nps-segment nps-segment--critic">
+
+            <div class="nps-segment__range">
+              <nobr>0–6</nobr>
+            </div>
+            <div class="nps-segment__name">Критики</div>
+            <p class="nps-segment__desc">Недовольные клиенты с&nbsp;высоким риском ухода. Делятся негативным опытом
+              и&nbsp;увеличивают ваш CAC</p>
+          </div>
+
+          <div class="nps-segment nps-segment--neutral">
+
+            <div class="nps-segment__range">
+              <nobr>7–8</nobr>
+            </div>
+            <div class="nps-segment__name">Нейтралы</div>
+            <p class="nps-segment__desc">Удовлетворены, но&nbsp;не&nbsp;станут рекомендовать. Уязвимы для предложений
+              конкурентов</p>
+          </div>
+
+          <div class="nps-segment nps-segment--promoter">
+
+            <div class="nps-segment__range">
+              <nobr>9–10</nobr>
+            </div>
+            <div class="nps-segment__name">Промоутеры</div>
+            <p class="nps-segment__desc">Лояльные клиенты. Рекомендуют, покупают повторно, снижают стоимость привлечения
+            </p>
+          </div>
+
+        </div>
+
+        <div class="nps-bar" role="img" aria-label="Шкала оценок: 0–6 критики, 7–8 нейтралы, 9–10 промоутеры">
+          <div class="nps-bar__seg nps-bar__seg--critic"></div>
+          <div class="nps-bar__seg nps-bar__seg--neutral"></div>
+          <div class="nps-bar__seg nps-bar__seg--promoter"></div>
+        </div>
+
+        <div class="nps-formula" id="NPS">
+          NPS = %&nbsp;Промоутеров − %&nbsp;Критиков
+        </div>
+      </div>
+
     </div>
-    <div class="nps-card__body">Недовольные клиенты, скорее всего поделятся с&nbsp;друзьями
-            негативным мнением о&nbsp;компании</div>
-    <div class="nps-card__score">0–6 <span class="nps-card__score-label">баллы</span></div>
-  </div>
-
-  <!-- Карточка 2: Нейтралы -->
-  <div class="nps-card nps-card--neutral">
-    <div class="nps-card__header">
-        <div class="nps-card__emojis">😐🤔😑</div>
-        <div class="nps-card__title">Нейтралы</div>
-    </div>
-    <div class="nps-card__body">Удовлетворены, но не станут рекомендовать</div>
-    <div class="nps-card__score">7–8 <span class="nps-card__score-label">баллы</span></div>
-  </div>
-
-  <!-- Карточка 3: Промоутеры -->
-  <div class="nps-card nps-card--promoter">
-    <div class="nps-card__header">
-        <div class="nps-card__emojis">😊😍🤩</div>
-        <div class="nps-card__title">Промоутеры</div>
-    </div>
-    <div class="nps-card__body">Лояльные клиенты, рекомендуют бренд</div>
-    <div class="nps-card__score">9–10 <span class="nps-card__score-label">баллы</span></div>
-  </div>
-
-</div>
-
-</div>
   </section>
 
 
 
   <section class="row-gap--m space-block" id="NPScount">
-    <h3 class="heading--gamma">Шаг 3. Рассчитайте показатель NPS по формуле </h3>
-  
-
-    
-<!-- Формула NPS -->
-<div class="nps-formula" id="NPS">
-  NPS = % Промоутеров − % Критиков
-</div>
+    <h3 class="heading--gamma">Шаг&nbsp;3. Рассчитайте показатель NPS</h3>
 
 
 
+    <p>Индекс NPS варьируется от&nbsp;−100 (все клиенты&nbsp;— критики) до&nbsp;+100 (все&nbsp;— промоутеры). Значение
+      выше 0&nbsp;считается хорошим, поскольку сторонников больше, чем недовольных. </p>
 
-      <section class="row-gap--m space-connected">
-        <h4 class="heading--delta">Пример расчета NPS</h4>
-        <p>Всего опрошено: <span class="italic">100 человек</span></p>
+    <section class="row-gap--xs space-connected">
+      <h4 class="heading--delta">Пример расчета</h4>
+      <p>Опрошено: <span class="italic">100 человек</span></p>
 
 
-
-
-
+      <div class="table-overflow">
         <table>
           <thead>
             <tr>
               <th scope="col">Категория</th>
               <th scope="col">Оценка</th>
-              <th scope="col">Кол-во человек</th>
+              <th scope="col">Кол-во</th>
               <th scope="col">Доля</th>
             </tr>
           </thead>
           <tbody>
             <tr>
-              <td><strong>Промоутеры</strong></td>
-              <td>9–10</td>
+              <th scope="row">Промоутеры</th>
+
+              <td>
+                <nobr>9–10</nobr>
+              </td>
               <td>60</td>
               <td>60%</td>
             </tr>
             <tr>
-              <td><strong>Нейтралы</strong></td>
-              <td>7–8</td>
+              <th scope="row">Нейтралы</th>
+
+              <td>
+                <nobr>7–8</nobr>
+              </td>
               <td>30</td>
               <td>30%</td>
             </tr>
             <tr>
-              <td><strong>Критики</strong></td>
-              <td>0–6</td>
+              <th scope="row">Критики</th>
+
+              <td>
+                <nobr>0–6</nobr>
+              </td>
               <td>10</td>
               <td>10%</td>
             </tr>
           </tbody>
         </table>
-        <p>Подставляем значения в&nbsp;формулу: <span class="italic">NPS = 60 – 10 = 50</span></p>
-        <p>Индекс лояльности клиентов (NPS) составляет 50.</p>
-      </section>
+      </div>
+      <p><span class="italic">NPS = 60&nbsp;— 10 = 50</span></p>
+    </section>
+
+
+    <p> Согласно <a class="link"
+        href="https://www.qualtrics.com/en-gb/articles/customer-experience/net-promoter-score/">руководству
+        Qualtrics</a> и&nbsp;<a class="link" href="https://www.hotjar.com/net-promoter-score/">обзорам Hotjar</a>,
+      показатели NPS для компаний мирового уровня составляют 70&nbsp;и&nbsp;выше, но&nbsp;норма зависит от&nbsp;отрасли:
+      NPS 40&nbsp;в одном секторе может быть отличным результатом, а&nbsp;в&nbsp;другом&nbsp;— посредственным.</p>
 
 
 
+  </section>
+</section>
 
-   
+
+
+<section class="row-gap--m space-section max-width-text" id="nps-i-unit-ekonomika">
+  <h2 class="heading--beta">NPS и&nbsp;unit-экономика: где деньги</h2>
+
+  <p>Промоутеры помогают бизнесу зарабатывать. Во-первых, они чаще возвращаются и&nbsp;покупают снова. Во-вторых, они
+    могут приводить новых клиентов по&nbsp;рекомендации. Критики действуют наоборот: уходят быстрее и&nbsp;могут
+    отпугивать других негативным опытом.</p>
+
+  <p>Но&nbsp;есть важная деталь: не&nbsp;все клиенты приносят одинаковую прибыль. Поэтому NPS целесообразно сопоставлять
+    с&nbsp;данными о&nbsp;продажах.</p>
+
+  <figure itemscope itemtype="https://schema.org/ImageObject">
+    <link itemprop="url" href="/assets/images/blog/feedback/diagramma_nps.jpg">
+
+ {% image "assets/images/blog/feedback/diagramma_nps.jpg", "График NPS: по оси X - оценка готовности рекомендовать, по оси Y - доход получаемый от клиента.", "(min-width: 1140px) 707px, (min-width: 700px) 64.52vw, (min-width: 400px) 94.29vw, calc(37.5vw + 206px)", [400, 707, 984, 1220, 1412, 1440], ["avif", "webp", "jpeg"], "image width--full" %}
+
+    <meta itemprop="contentUrl" content="/assets/images/blog/feedback/diagramma_nps.jpg">
+
+    <figcaption class="figcaption" itemprop="description">По&nbsp;оси Х&nbsp;— оценка готовности рекомендовать,
+      по&nbsp;оси Y&nbsp;— доход от&nbsp;клиента. Правый верхний квадрант&nbsp;— ядро бизнеса: лояльные
+      и&nbsp;прибыльные. Левый верхний&nbsp;— зона риска: прибыльные, но&nbsp;недовольные.
+    </figcaption>
+  </figure>
+
+
+
+  <section class="row-gap--m space-connected">
+    <h3 class="heading--gamma">Соотнесите NPS с&nbsp;выручкой по&nbsp;каждому клиенту</h3>
+
+    <p>Группа А&nbsp;— это клиенты, которые приносят основную часть выручки (обычно около 80%). Их&nbsp;оценки особенно
+      важны. Они в&nbsp;большей степени, чем остальные, считают ваш продукт или услуги полезными. Если
+      усиливать&nbsp;то, за&nbsp;что они вас выбирают, таких клиентов станет больше. Но&nbsp;если среди них растет доля
+      недовольных, вы&nbsp;начинаете терять основу бизнеса.</p>
+
+
+    <figure itemscope itemtype="https://schema.org/ImageObject">
+      <link itemprop="url" href="/assets/images/blog/feedback/abc_nps.jpg">
+
+
+     {% image "assets/images/blog/feedback/abc_nps.jpg", "АВС-анализ продаж с разбивкой на сторонников, нейтралов и критиков в каждой группе", "(min-width: 1140px) 707px, (min-width: 700px) 64.52vw, (min-width: 400px) 94.29vw, calc(37.5vw + 206px)", [400, 707, 984, 1220, 1412, 1440], ["avif", "webp", "jpeg"], "image width--full" %}
+
+      <meta itemprop="contentUrl" content="/assets/images/blog/feedback/abc_nps.jpg">
+
+      <figcaption class="figcaption" itemprop="description">АВС-анализ продаж с&nbsp;разбивкой на&nbsp;доли промоутеров,
+        нейтралов и&nbsp;критиков в&nbsp;каждой группе. Показывает, насколько лояльно ваше самое прибыльное ядро.
+      </figcaption>
+    </figure>
+
+    <p>Что именно группа&nbsp;А считает сильной стороной&nbsp;— усиливайте. Что раздражает&nbsp;— исправляйте
+      в&nbsp;первую очередь. Такой подход помогает принимать решения не&nbsp;по&nbsp;средней температуре,
+      а&nbsp;по&nbsp;тому, где компания реально рискует потерять деньги.</p>
+
+  </section>
+
+
+  <section class="example--card nps-calc space-block" id="nps-abc-calculator">
+    <div class="card-header">
+      <span class="example-tag">Инструмент</span>
+      <h3 class="heading--gamma">Калькулятор лояльности: NPS + ABC-анализ</h3>
+      <p class="nps-calc__description">Введите количество оценок от&nbsp;клиентов, разбив их&nbsp;на&nbsp;группы
+        по&nbsp;объему выручки (ABC-анализ).</p>
+    </div>
+
+    <div class="card-divider"></div>
+
+    <div class="nps-calc__table-wrap">
+      <table class="nps-calc__table">
+        <caption class="element--hidden">Калькулятор лояльности: введите количество оценок по&nbsp;группам клиентов
+          (ABC-анализ)</caption>
+        <thead>
+          <tr>
+            <th id="calc-th-seg" scope="col">Сегмент клиентов</th>
+            <th id="calc-th-prom" class="nps-calc__th--promoter" scope="col">Промоутеры
+              <br><span class="nps-calc__th-sub">
+                <nobr>9–10</nobr> баллов
+              </span>
+            </th>
+            <th id="calc-th-neu" class="nps-calc__th--neutral" scope="col">Нейтралы
+              <br><span class="nps-calc__th-sub">
+                <nobr>7–8</nobr> баллов
+              </span>
+            </th>
+            <th id="calc-th-det" class="nps-calc__th--critic" scope="col">Критики
+              <br><span class="nps-calc__th-sub">
+                <nobr>0–6</nobr> баллов
+              </span>
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="nps-calc__row--a">
+            <td id="calc-row-a"><strong>Группа А</strong> <br><span class="nps-calc__row-sub">~80% выручки</span></td>
+            <td><input class="nps-input" type="number" id="a-prom" min="0" placeholder="0" inputmode="numeric"
+                aria-labelledby="calc-row-a calc-th-prom"></td>
+            <td><input class="nps-input" type="number" id="a-neu" min="0" placeholder="0" inputmode="numeric"
+                aria-labelledby="calc-row-a calc-th-neu"></td>
+            <td><input class="nps-input" type="number" id="a-det" min="0" placeholder="0" inputmode="numeric"
+                aria-labelledby="calc-row-a calc-th-det"></td>
+          </tr>
+          <tr>
+            <td id="calc-row-b"><strong>Группа B</strong> <br><span class="nps-calc__row-sub">~15% выручки</span></td>
+            <td><input class="nps-input" type="number" id="b-prom" min="0" placeholder="0" inputmode="numeric"
+                aria-labelledby="calc-row-b calc-th-prom"></td>
+            <td><input class="nps-input" type="number" id="b-neu" min="0" placeholder="0" inputmode="numeric"
+                aria-labelledby="calc-row-b calc-th-neu"></td>
+            <td><input class="nps-input" type="number" id="b-det" min="0" placeholder="0" inputmode="numeric"
+                aria-labelledby="calc-row-b calc-th-det"></td>
+          </tr>
+          <tr>
+            <td id="calc-row-c"><strong>Группа C</strong> <br><span class="nps-calc__row-sub">~5% выручки</span></td>
+            <td><input class="nps-input" type="number" id="c-prom" min="0" placeholder="0" inputmode="numeric"
+                aria-labelledby="calc-row-c calc-th-prom"></td>
+            <td><input class="nps-input" type="number" id="c-neu" min="0" placeholder="0" inputmode="numeric"
+                aria-labelledby="calc-row-c calc-th-neu"></td>
+            <td><input class="nps-input" type="number" id="c-det" min="0" placeholder="0" inputmode="numeric"
+                aria-labelledby="calc-row-c calc-th-det"></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <button id="btn-calc-matrix" class="button-primary nps-calc__btn">Показать результат</button>
+    <p id="nps-calc-error" class="nps-calc__error" role="alert" hidden>Заполните хотя&nbsp;бы одну строку таблицы.</p>
+
+    <div id="matrix-result-box" class="nps-calc__results" aria-live="polite" aria-atomic="true" tabindex="-1" hidden>
+      <div class="nps-calc__result-grid">
+        <div class="nps-calc__result-card">
+          <div class="nps-calc__result-label">Общий NPS</div>
+          <div id="res-total-nps" class="nps-calc__result-value">0</div>
+        </div>
+        <div class="nps-calc__result-card nps-calc__result-card--primary">
+          <div class="nps-calc__result-label">NPS Группы А</div>
+          <div id="res-a-nps" class="nps-calc__result-value">0</div>
+        </div>
+      </div>
+      <div class="nps-calc__diagnosis">
+        <p class="nps-calc__diagnosis-title">Комментарий:</p>
+        <p id="res-diagnosis" class="nps-calc__diagnosis-text"></p>
+      </div>
+    </div>
+  </section>
+
+</section>
+
+
+
+<section class="row-gap--m space-section max-width-text" id="kontur-upravleniya">
+  <h2 class="heading--beta">Как превратить отзывы в&nbsp;изменения</h2>
+
+  <p class="pull-quote">Если после измерения NPS ничего не&nbsp;меняется, сам опрос теряет смысл.</p>
+
+  <p>Ответы на&nbsp;вопрос «Что повлияло на&nbsp;вашу оценку?» показывают, что нужно исправить и&nbsp;что, наоборот,
+    стоит сохранить и&nbsp;усилить.</p>
+
+
+  <section class="row-gap--m space-connected max-width-text" id="rabota-s-kritikami">
+    <h3 class="heading--gamma">Работа с&nbsp;критиками: как разбирать жалобы</h3>
+
+    <p>Ответы критиков могут подсказать, где в&nbsp;системе есть повторяющаяся проблема.</p>
+
+    <p>Частая ошибка&nbsp;— реагировать только на&nbsp;эмоцию. Фраза «пицца холодная»&nbsp;— это не&nbsp;обязательно
+      вина конкретного курьера. Возможно, слишком долгая доставка, плохая упаковка или сбой в&nbsp;работе кухни. Чтобы
+      жалобы помогали улучшать сервис, их&nbsp;нужно переводить выявленные причины в&nbsp;конкретные действия.</p>
+
+    <ol class="additive-spacing">
+      <li class="list-li">Жалоба: «Пицца холодная»</li>
+      <li class="list-li">Предположение: упаковка плохо держит тепло, если доставка занимает больше 30&nbsp;минут</li>
+      <li class="list-li">Действие: проверить температуру при долгой доставке, сравнить варианты упаковки, назначить
+        ответственного и&nbsp;срок проверки</li>
+    </ol>
+
+
+    <section class="row-gap--m space-connected">
+      <h4 class="heading--delta">Правила работы с&nbsp;критиками</h4>
+
+      <p>Если у&nbsp;компании нет понятного порядка действий, жалобы быстро теряются. Минимальный регламент может быть
+        таким:</p>
+
+      <div class="table-overflow">
+        <table>
+          <thead>
+            <tr>
+              <th scope="col">Действие</th>
+              <th scope="col">Срок</th>
+              <th scope="col">Ответственный</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Связаться с&nbsp;критиком лично: позвонить или написать</td>
+              <td>В&nbsp;течение <nobr>24–48</nobr> часов после опроса</td>
+              <td>Менеджер по&nbsp;работе с&nbsp;клиентами</td>
+            </tr>
+            <tr>
+              <td>Зафиксировать причину недовольства</td>
+              <td>В&nbsp;тот&nbsp;же день после разговора</td>
+              <td>Менеджер</td>
+            </tr>
+            <tr>
+              <td>Передать ситуацию руководителю, если оценка очень низкая или клиент относится к&nbsp;ключевой группе
+              </td>
+              <td>В&nbsp;течение 24&nbsp;часов</td>
+              <td>Руководитель направления</td>
+            </tr>
+            <tr>
+              <td>Принять решение, что именно нужно изменить в&nbsp;процессе, продукте или сервисе</td>
+              <td>На&nbsp;ближайшем рабочем обсуждении</td>
+              <td>Ответственный руководитель</td>
+            </tr>
+            <tr>
+              <td>Сообщить клиенту, что именно изменилось</td>
+              <td>После внедрения изменений</td>
+              <td>Менеджер по&nbsp;работе с&nbsp;клиентами</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <p>Последний шаг часто пропускают. А&nbsp;именно он&nbsp;показывает клиенту, что его отзыв не&nbsp;пропал впустую.
+        Иногда этого уже достаточно, чтобы снизить недовольство.</p>
+    </section>
+
   </section>
 
 
 
-  <section class="row-gap--m space-block" id="analyze">
-    <h3 class="heading--gamma">Шаг 4. Проанализируйте ответы критиков и&nbsp;промоутеров</h3>
-   
+  <section class="row-gap--m space-block max-width-text" id="rabota-s-promouterami">
+    <h3 class="heading--gamma">Работа с&nbsp;промоутерами: как усиливать рекомендации</h3>
 
-      
-        <p>Ответы на&nbsp;второй вопрос указывают направление должного развития рабочих процессов, что требуется
-          изменить (ответы критиков), а&nbsp;что оставить и&nbsp;усилить (ответы сторонников).</p>
-     
 
-   
+    <p>Если человек готов рекомендовать компанию, но&nbsp;ему не&nbsp;дали для этого понятного повода или удобного
+      способа, такой потенциал просто теряется.</p>
+
+    <p>Что может работать: бонусы за&nbsp;приведенных клиентов, ранний доступ к&nbsp;новинкам, приглашение первыми
+      попробовать изменения в&nbsp;сервисе или продукте. Сторонникам важно чувствовать, что их&nbsp;мнение замечают
+      и&nbsp;учитывают.</p>
+
+    <p>Рекомендации особенно ценны потому, что человеку проще прийти по&nbsp;совету знакомого, чем откликнуться
+      на&nbsp;обычную рекламу.</p>
+
+
   </section>
 
-
-  <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "HowTo",
-  "name": "Как рассчитать NPS (индекс лояльности клиентов)",
-  "description": "Пошаговое руководство по расчету индекса NPS: как опросить клиентов, классифицировать ответы и вычислить итоговый показатель.",
-  "step": [
-    {
-      "@type": "HowToStep",
-      "position": 1,
-      "name": "Задайте клиентам два вопроса",
-      "text": "1. Насколько вероятно, что вы порекомендуете нашу компанию другу? (0–10). 2. Что повлияло на вашу оценку?"
-    },
-    {
-      "@type": "HowToStep",
-      "position": 2,
-      "name": "Распределите клиентов по группам",
-      "text": "Разделите ответы: 0–6 — критики, 7–8 — нейтралы, 9–10 — промоутеры."
-    },
-    {
-      "@type": "HowToStep",
-      "position": 3,
-      "name": "Рассчитайте показатель NPS по формуле",
-      "text": "Вычтите процент критиков из процента промоутеров: NPS = % промоутеров – % критиков. Например, если 60% промоутеров и 10% критиков, то NPS = 50.",
-      "image": "https://example.com/assets/images/blog/feedback/formula-nps.png"
-    },
-    {
-      "@type": "HowToStep",
-      "position": 4,
-      "name": "Проанализируйте ответы критиков и промоутеров",
-      "text": "Посмотрите, что клиенты пишут в объяснениях. Отрицательные комментарии — повод для улучшения, положительные — индикатор сильных сторон."
-    }
-  ]
-}
-</script>
-
-
 </section>
 
 
 
-<section class="row-gap--m space-section max-width-text" id="kakoy-indeks-nps-schitaetsya-khoroshim">
-<h2 class="heading--beta">Какой индекс NPS считается хорошим?</h2>
 
-<p>Индекс NPS считается хорошим, если он&nbsp;выше&nbsp;0, так как это означает, что у&nbsp;бизнеса больше сторонников, чем критиков.</p>
+<section class="row-gap--m space-section max-width-text" id="oshibki-vnedreniya">
+  <h2 class="heading--beta">Ошибки при внедрении NPS</h2>
 
-<p>Согласно <a class="link" href="https://www.qualtrics.com/en-gb/articles/customer-experience/net-promoter-score/">руководству Qualtrics</a> и&nbsp;<a class="link" href="https://www.hotjar.com/net-promoter-score/">обзорам Hotjar</a>, показатели NPS для компаний мирового уровня составляют 70&nbsp;и&nbsp;выше. Однако здесь важно учитывать средние значения по&nbsp;отрасли, так как хорошие показатели могут варьироваться. Например, NPS 40&nbsp;может быть отличным значением для одной отрасли, но&nbsp;очень посредственным для другой.</p>
+  <p>Есть три типичные ошибки, из-за которых NPS превращается в&nbsp;формальность.</p>
 
+  <p><span class="bold">Опрос без последующих действий.</span> Показатель попадает в&nbsp;отчет, но&nbsp;в&nbsp;работе
+    компании ничего не&nbsp;меняется. В&nbsp;этом случае сам опрос теряет смысл.</p>
+
+  <p><span class="bold">Один общий показатель без разбивки.</span> Среднее значение скрывает главное. Если самые важные
+    для выручки клиенты недовольны, общий NPS может все равно выглядеть прилично, но&nbsp;картина будет ложной.</p>
+
+  <p><span class="bold">Разовый замер.</span> Одно измерение показывает состояние только в&nbsp;один момент. Чтобы
+    видеть, помогают&nbsp;ли изменения, NPS нужно отслеживать регулярно.</p>
 </section>
 
 
-<section class="row-gap--m space-section max-width-text" id="oshibki-pri-analize-nps">
-<h2 class="heading--beta">Ошибки при анализе NPS</h2>
-
-<section class="row-gap--m space-tight">
-<h3 class="heading--gamma" id="ne-sootnosyat-otvety-v-oprose-s-vyruchkoy">Не&nbsp;соотносят ответы в&nbsp;опросе с&nbsp;выручкой</h3>
-<p>Если клиенты приносят компании разный доход, разумно оценивать их&nbsp;ответы по&nbsp;отдельности. Соотносите ответы по&nbsp;методике NPS с&nbsp;выручкой, полученной от&nbsp;каждого респондента. Ниже я&nbsp;показал варианты отображения результатов опроса в&nbsp;привязке к&nbsp;выручке.</p>
-
-<div   itemscope itemtype="https://schema.org/ImageObject">
-<link itemprop="url" href="/assets/images/blog/feedback/diagramma_nps.jpg">
-
-{% image "assets/images/blog/feedback/diagramma_nps.jpg", "График NPS: по оси X - оценка готовности рекомендовать, по оси Y - доход получаемый от клиента.", "(min-width: 1140px) 707px, (min-width: 700px) 64.52vw, (min-width: 400px) 94.29vw, calc(37.5vw + 206px)", [400, 707, 984, 1220, 1412, 1440], ["avif", "webp", "jpeg"], "image width--full" %}
-
-<meta itemprop="contentUrl" content="/assets/images/blog/feedback/diagramma_nps.jpg">
-
-<div class="figcaption" itemprop="description">Вариант отображения результатов опроса по&nbsp;методике Net Promoter Score: 
- по&nbsp;оси Х&nbsp;— значения ответа на&nbsp;первый вопрос (оценка готовности рекомендовать), по&nbsp;оси Y&nbsp;— доход, который приносит клиент.
-</div>
-</div>
-
-
-
-<div    itemscope itemtype="https://schema.org/ImageObject">
-<link itemprop="url" href="/assets/images/blog/feedback/abc_nps.jpg">
-
-
-{% image "assets/images/blog/feedback/abc_nps.jpg", "АВС-анализ продаж с разбивкой на сторонников, нейтралов и критиков в каждой группе", "(min-width: 1140px) 707px, (min-width: 700px) 64.52vw, (min-width: 400px) 94.29vw, calc(37.5vw + 206px)", [400, 707, 984, 1220, 1412, 1440], ["avif", "webp", "jpeg"], "image width--full" %}
-
-<meta itemprop="contentUrl" content="/assets/images/blog/feedback/abc_nps.jpg">
-
-<div class="figcaption" itemprop="description">АВС-анализ продаж с&nbsp;разбивкой на&nbsp;доли сторонников, нейтралов и&nbsp;критиков в&nbsp;каждой группе.
-</div>
-</div>
-
-
-
-
-
-<p>Определите, насколько лояльны покупатели, которые приносят вам наибольший доход. Что&nbsp;— по&nbsp;их&nbsp;мнению&nbsp;— вы&nbsp;делаете хорошо, а&nbsp;что лучше исправить. Оперативно реагируйте на&nbsp;замечания клиентов группы А.</p>
-<p>К&nbsp;группе&nbsp;А прислушивайтесь не&nbsp;только потому, что они больше платят. Они столько платят, потому что в&nbsp;большей степени, чем остальные считают ваш продукт или услуги полезными. Усильте «фактор полезности» и&nbsp;вы&nbsp;привлечете больше клиентов.</p>
+<section class="row-gap--m space-section max-width-text" id="sleduyushchiy-shag">
+  <h2 class="heading--beta">Следующий шаг: от&nbsp;точечных жалоб к&nbsp;архитектуре опыта</h2>
+  <p>Может показаться, что ответы на&nbsp;второй вопрос NPS («Что повлияло на&nbsp;оценку?») дают исчерпывающее
+    руководство к
+    действию. Если клиент пишет: «Курьер опоздал»&nbsp;— нужно чинить логистику. Если «Менеджер нагрубил»&nbsp;— менять
+    скрипты.
+    Кажется, все просто.</p>
+  <p>Но&nbsp;что делать, если критик пишет: <i>«Я&nbsp;заказал не&nbsp;ту&nbsp;модель, ваш каталог&nbsp;— это
+      кошмар»</i>? Вы&nbsp;не&nbsp;можете просто «починить каталог», не&nbsp;понимая логики, по&nbsp;которой этот
+    конкретный клиент выбирает товар.</p>
+  <p>Чтобы не&nbsp;просто «затыкать дыры» по&nbsp;жалобам из&nbsp;NPS, а&nbsp;системно устранять их&nbsp;причины,
+    необходимо разложить весь путь
+    принятия решения. Для этого используют карту потребительского опыта (CJM). Как она работает на&nbsp;практике&nbsp;—
+    в&nbsp;статье <a class="link" href="/blog/klientskij-opyt-v-ecommerce/">«Почему интернет-магазин нельзя
+      проектировать как витрину»</a>.</p>
 </section>
-
-<section class="row-gap--m space-block max-width-text">
-<h3 class="heading--gamma"  id="ne-obrabatyvayut-zamechaniya-kritikov">Не&nbsp;обрабатывают замечания критиков</h3>
-<p>Методика NPS выявляет критиков. А&nbsp;это клиенты с&nbsp;высоким риском ухода к&nbsp;конкурентам. Если не&nbsp;намереваетесь разбрасываться клиентами, разработайте четкую политику реагирования на&nbsp;замечания. Определите, кто должен связаться с&nbsp;покупателем, в&nbsp;какой срок, кого из&nbsp;руководства необходимо уведомить и&nbsp;в&nbsp;каких случаях. Если с&nbsp;отзывами клиентов оперативно не&nbsp;поработаете&nbsp;вы, это сделают конкуренты.</p>
-<p class="pull-quote">Главное в&nbsp;определении индекса лояльности&nbsp;— последующие действия. Если мы&nbsp;не&nbsp;действуем&nbsp;— нет необходимости и&nbsp;измерять.</p>
-
-	<p>Когда мы&nbsp;управляем автомобилем, то&nbsp;не&nbsp;записываем показания панели приборов для очередного отчета. Индикаторы на&nbsp;приборной панели&nbsp;— призыв к&nbsp;действиям. Если&nbsp;же хотим сбросить вес, то&nbsp;взвешивание само по&nbsp;себе массу тела не&nbsp;уменьшит. Показания весов&nbsp;— инструмент, а&nbsp;не&nbsp;решение проблемы. Для результата нужны действия.</p>
- 
-</section>
-
-
-
-<section class="row-gap--m space-block max-width-text">
-<h3 class="heading--gamma"  id="ne-sostavlyayut-plan-raboty-s-promouterami">Не&nbsp;составляют план работы с&nbsp;промоутерами</h3>
-<p>Определить долю сторонников недостаточно. Стимулируйте их&nbsp;активность. Предлагайте скидки за&nbsp;привлечение покупателей. Уведомляйте о&nbsp;новых продуктах раньше остальных, предлагайте пробники и&nbsp;просите оценить.</p>
-</section>
-
-
-<section class="row-gap--m space-block max-width-text">
-<h3 class="heading--gamma"  id="ignoriruyut-dinamiku-znacheniy-nps">Игнорируют динамику значений NPS</h3>
-<p>При оценке индекса лояльности важна динамика значений. Получайте обратную связь от&nbsp;клиентов регулярно и&nbsp;вы&nbsp;поймете, в&nbsp;верном&nbsp;ли направлении развиваете компанию.</p>
-</section>
-</section>
-

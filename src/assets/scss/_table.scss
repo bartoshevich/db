@@ -74,3 +74,8 @@ td > p:not(:first-child) {
 }
 
 .text-right { text-align: right; }
+
+.table-overflow {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
