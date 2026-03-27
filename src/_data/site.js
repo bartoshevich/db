@@ -71,7 +71,7 @@ export default {
           description: "Для коммерческих запросов и сотрудничества, пожалуйста, обращайтесь через агентство BARSAN."
         }
       ],
-      jobTitle: "Основатель и директор | Founder & CEO",
+      jobTitle: "Бренд-архитектор, основатель",
       worksFor: {
         "@id": "https://barsan.kz#organization"
       },

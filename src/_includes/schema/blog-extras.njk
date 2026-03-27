@@ -128,7 +128,8 @@
     "datePublished": page.date | isoDate,
     "dateModified": last_modified_at | default(config.buildDate) | isoDate,
     "mainEntityOfPage": { "@id": (page.url | absoluteUrl(site.url)) },
-    "isPartOf": { "@id": site.url ~ "/blog/" }
+    "isPartOf": { "@id": site.url ~ "/blog/" },
+    "sourceOrganization": { "@type": "Organization", "@id": "https://barsan.kz#organization" }
   } %}
 
 
